@@ -19,7 +19,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "tech_cleave_expire_time": 0.35,
-    "dash_angle_threshold": 45,
+    "dash_angle_threshold": 89,
     "dash_speed": 2400,
     "dash_range": 12,
     "dash_radius": 2.5,
