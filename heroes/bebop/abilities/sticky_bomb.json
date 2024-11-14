@@ -22,7 +22,8 @@
     "fuse_time": 3,
     "kill_check_window": 12,
     "damage": 120,
-    "bonus_damage_pct_per_player_hit": 5,
+    "bonus_damage_pct_per_player_killed": 5,
+    "bonus_damage_pct_per_player_hit": 1,
     "stun_target_on_explode": 0,
     "debuff_duration": 0
   },

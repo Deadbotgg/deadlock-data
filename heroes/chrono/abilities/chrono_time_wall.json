@@ -74,7 +74,7 @@
         "ability_charges": 1
       },
       {
-        "debuff_duration": 3
+        "debuff_duration": 2.5
       }
     ]
   }

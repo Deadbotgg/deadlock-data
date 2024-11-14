@@ -3980,7 +3980,7 @@
               "ability_charges": 1
             },
             {
-              "debuff_duration": 3
+              "debuff_duration": 2.5
             }
           ]
         }
@@ -6757,7 +6757,8 @@
           "fuse_time": 3,
           "kill_check_window": 12,
           "damage": 120,
-          "bonus_damage_pct_per_player_hit": 5,
+          "bonus_damage_pct_per_player_killed": 5,
+          "bonus_damage_pct_per_player_hit": 1,
           "stun_target_on_explode": 0,
           "debuff_duration": 0
         },
@@ -8343,11 +8344,11 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.032,
+      "emaxmovespeed": 0.025,
       "ebulletdamage": 0.12
     },
     "weapon_stats": {
-      "bullet_damage": 30.25,
+      "bullet_damage": 27,
       "rounds_per_second": 1.8181818181818181,
       "clip_size": 17,
       "reload_time": 2.35,
@@ -8364,8 +8365,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 54.99999999999999,
-      "sustained_dps": 43.95299145299145,
+      "dps": 49.090909090909086,
+      "sustained_dps": 39.230769230769226,
       "weapon_name": "citadel_weapon_archer_set",
       "weapon_description": "citadel_weapon_hero_archer_set",
       "weapon_types": [
@@ -16015,7 +16016,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "launch_window_cooldown": 32,
+          "launch_window_cooldown": 40,
           "launch_window_duration": 5,
           "charges_conditionally": 1,
           "radius": 1,
@@ -16065,7 +16066,7 @@
             },
             {
               "key": "LaunchWindowCooldown",
-              "value": 32,
+              "value": 40,
               "type": "cooldown"
             },
             {
@@ -16246,7 +16247,7 @@
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 1,
       "modifier_value_base_melee_damage_from_level": 2.671429,
-      "modifier_value_base_health_from_level": 41,
+      "modifier_value_base_health_from_level": 37,
       "modifier_value_tech_damage_percent": 0,
       "modifier_value_bullet_armor_damage_resist": 0,
       "modifier_value_tech_armor_damage_resist": 0

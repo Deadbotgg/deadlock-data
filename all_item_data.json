@@ -2712,7 +2712,7 @@
     "steal_per_hit": 1,
     "steal_per_kill": 1,
     "stack_lost_per_death": 2,
-    "max_stacks": 99,
+    "max_stacks": 9999,
     "steal_duration": 20,
     "proc_cooldown": 0.8,
     "health_steal": 55,
@@ -4874,7 +4874,7 @@
         {
           "ability_properties": {
             "ability_cooldown": {
-              "value": 21,
+              "value": 28,
               "style": "cooldown",
               "is_negative": false
             },
@@ -4891,7 +4891,7 @@
       ]
     },
     "disabled": false,
-    "ability_cooldown": 21,
+    "ability_cooldown": 28,
     "ability_duration": 3.5,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
@@ -6821,7 +6821,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "minimum_damage": 200,
+    "minimum_damage": 175,
     "re_proc_lockout_time": 5,
     "max_health_damage": 9,
     "tech_shield_max_health": 100,

@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "launch_window_cooldown": 32,
+    "launch_window_cooldown": 40,
     "launch_window_duration": 5,
     "charges_conditionally": 1,
     "radius": 1,
@@ -68,7 +68,7 @@
       },
       {
         "key": "LaunchWindowCooldown",
-        "value": 32,
+        "value": 40,
         "type": "cooldown"
       },
       {

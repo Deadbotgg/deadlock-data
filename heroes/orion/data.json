@@ -204,11 +204,11 @@
     ]
   },
   "spirit_scaling": {
-    "emaxmovespeed": 0.032,
+    "emaxmovespeed": 0.025,
     "ebulletdamage": 0.12
   },
   "weapon_stats": {
-    "bullet_damage": 30.25,
+    "bullet_damage": 27,
     "rounds_per_second": 1.8181818181818181,
     "clip_size": 17,
     "reload_time": 2.35,
@@ -225,8 +225,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 54.99999999999999,
-    "sustained_dps": 43.95299145299145,
+    "dps": 49.090909090909086,
+    "sustained_dps": 39.230769230769226,
     "weapon_name": "citadel_weapon_archer_set",
     "weapon_description": "citadel_weapon_hero_archer_set",
     "weapon_types": [
