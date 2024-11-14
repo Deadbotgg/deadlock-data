@@ -25,7 +25,7 @@
     "detonate_timer": 5,
     "explosion_falloff_disabled": 1,
     "boss_damage_percent": 50,
-    "explosion_radius": 4.5,
+    "explosion_radius": 5,
     "tracking_variance": 0,
     "track_speed_near": 150,
     "track_speed_far": 100,
@@ -56,7 +56,7 @@
       },
       {
         "key": "ExplosionRadius",
-        "value": "4.5m",
+        "value": "5m",
         "type": "distance"
       }
     ],

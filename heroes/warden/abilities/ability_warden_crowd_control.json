@@ -3,7 +3,7 @@
   "name": "Alchemical Flask",
   "stats": {
     "duration": 0,
-    "cooldown": 14,
+    "cooldown": 12,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -19,7 +19,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "radius": 6.5,
-    "damage": 55,
+    "damage": 65,
     "weapon_power_debuff": -30,
     "fire_rate_slow": 0,
     "debuff_duration": 6,
@@ -33,7 +33,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 55,
+        "value": 65,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.78624,
@@ -68,11 +68,11 @@
     ],
     "upgrades": [
       {
-        "damage": 40
-      },
-      {
         "stamina_reduction": 1,
         "name": "Stamina Reduction"
+      },
+      {
+        "damage": 50
       },
       {
         "fire_rate_slow": 35,

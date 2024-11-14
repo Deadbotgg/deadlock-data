@@ -2,7 +2,7 @@
   "key": "citadel_ability_infinity_slash",
   "name": "Shadow Transformation",
   "stats": {
-    "duration": 4.5,
+    "duration": 4,
     "cooldown": 106,
     "range": 0,
     "charges": 0,
@@ -19,16 +19,14 @@
     "tech_power": 0,
     "weapon_power": 0,
     "bonus_move_speed": 0,
-    "speed_pct": 60,
-    "tech_resist": 40,
-    "bullet_resist": 40
+    "speed_pct": 60
   },
   "tooltipDetails": {
-    "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
+    "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, and you gain <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
     "properties": [
       {
         "key": "AbilityDuration",
-        "value": 4.5,
+        "value": 4,
         "disable_value": 0,
         "type": "duration",
         "m_b_can_set_token_override": true
@@ -37,22 +35,6 @@
         "key": "AbilitySpeedPct",
         "value": 60,
         "type": "cast"
-      }
-    ],
-    "basicProperties": [
-      {
-        "key": "TechResist",
-        "value": 40,
-        "type": "tech_armor_up",
-        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
-      },
-      {
-        "key": "BulletResist",
-        "value": 40,
-        "type": "bullet_armor_up",
-        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "upgrades": [

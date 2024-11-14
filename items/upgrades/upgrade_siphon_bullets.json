@@ -47,7 +47,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "health_steal": {
-            "value": 45,
+            "value": 50,
             "style": "healing",
             "is_conditional": false
           }
@@ -76,6 +76,6 @@
   "max_stacks": 99,
   "steal_duration": 20,
   "proc_cooldown": 0.8,
-  "health_steal": 45,
+  "health_steal": 50,
   "particle_radius": 1
 }

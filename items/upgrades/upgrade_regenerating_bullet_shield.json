@@ -34,7 +34,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "attack_damage_when_shielded": {
-            "value": 25,
+            "value": 22,
             "style": "bullet_damage",
             "is_conditional": false
           },
@@ -63,6 +63,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bullet_shield_max_health": 325,
-  "attack_damage_when_shielded": 25,
+  "attack_damage_when_shielded": 22,
   "fire_rate_when_shielded": 6
 }

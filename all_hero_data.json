@@ -11,7 +11,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -53,7 +53,7 @@
           "tick_rate": 0.5,
           "flame_height_off_ground": 50,
           "particle_radius_multiplier": 1.15,
-          "damage_amplification": 25,
+          "damage_amplification": 20,
           "debuff_duration": 8,
           "damage": 50,
           "lifesteal_percent_hero": 0,
@@ -69,7 +69,8 @@
           "properties": [
             {
               "key": "DamageAmplification",
-              "value": 25
+              "value": 20,
+              "type": "damage"
             },
             {
               "key": "Damage",
@@ -108,7 +109,7 @@
               "lifesteal_percent_hero": 15
             },
             {
-              "damage_amplification": 15,
+              "damage_amplification": 20,
               "heal_amp_receive_penalty_percent": -40,
               "heal_amp_regen_penalty_percent": -40
             }
@@ -235,10 +236,10 @@
           "weapon_power": 0,
           "build_up_duration": 15,
           "build_up_bullet_percent_per_hit": 10,
+          "crit_buildup": 16,
           "tick_rate": 0.5,
           "burn_duration": 3,
           "dps": 15,
-          "crit_buildup": 16,
           "afterburn_spirit_damage_reduction": 0
         },
         "tooltipDetails": {
@@ -593,7 +594,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -604,7 +605,7 @@
       "reload_speed": 1,
       "weapon_power_scale": 1,
       "stamina": 3,
-      "base_health_regen": 1.5,
+      "base_health_regen": 3,
       "stamina_regen_per_second": 0.2,
       "stamina_cooldown": 5,
       "crit_damage_received_scale": -35,
@@ -675,7 +676,7 @@
             },
             {
               "dps": 70,
-              "shock_radius": 1
+              "shock_radius": 2
             }
           ]
         }
@@ -1072,7 +1073,7 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.028
+      "emaxmovespeed": 0.023
     },
     "weapon_stats": {
       "bullet_damage": 11.5,
@@ -1136,7 +1137,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 8.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -1179,7 +1180,7 @@
           "slow_percent": 30,
           "chain_length": 8,
           "capture_radius": 8,
-          "chain_duration": 2,
+          "chain_duration": 1.75,
           "has_disarm": 0,
           "enemy_drag_speed": 1000
         },
@@ -1188,7 +1189,7 @@
           "properties": [
             {
               "key": "ChainDuration",
-              "value": 2,
+              "value": 1.75,
               "type": "duration"
             },
             {
@@ -1283,7 +1284,7 @@
               "bonus_clip_size_percent": 50
             },
             {
-              "ability_cooldown": -14
+              "ability_duration": 6
             },
             {
               "magic_damage_per_bullet": 12,
@@ -1460,7 +1461,7 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.785714,
+      "modifier_value_base_bullet_damage_from_level": 0.55,
       "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 20,
       "modifier_value_tech_damage_percent": 0,
@@ -1635,8 +1636,8 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 15,
-      "rounds_per_second": 4.545454545454546,
+      "bullet_damage": 17.68,
+      "rounds_per_second": 3.846153846153846,
       "clip_size": 22,
       "reload_time": 2.914,
       "reload_movespeed": 1,
@@ -1644,7 +1645,7 @@
       "reload_single": false,
       "bullet_speed": 350,
       "falloff_start_range": 8.66,
-      "falloff_end_range": 17.7165,
+      "falloff_end_range": 25.1969,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
       "falloff_bias": 0.5,
@@ -1652,8 +1653,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 68.18181818181819,
-      "sustained_dps": 42.55867939128192,
+      "dps": 68,
+      "sustained_dps": 45.04980310400741,
       "weapon_name": "citadel_weapon_hornet_set",
       "weapon_description": "citadel_weapon_hero_hornet_set",
       "weapon_types": [
@@ -1696,7 +1697,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6,
+      "max_move_speed": 6.3,
       "sprint_speed": 1.5,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -1803,7 +1804,7 @@
           "life_drain_health_mult": 100
         },
         "tooltipDetails": {
-          "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your movement speed is reduced by half. Press [{s:in_ability2}] to cancel.",
+          "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your movement speed is reduced by half. <br><span class=\"highlight\">[Alt-Cast] to give health to friendly Heroes</span>.<br><span class=\"highlight\">Press [{s:in_ability2}]</span> to cancel.",
           "properties": [
             {
               "key": "LifeDrainPerSecond",
@@ -1869,8 +1870,8 @@
           "move_speed_penalty_per_stack": 20,
           "min_slow_amount": 0,
           "vulnerability_per_stack": 15,
-          "debuff_duration": 16,
-          "slow_duration": 6,
+          "debuff_duration": 13,
+          "slow_duration": 4,
           "max_stacks": 5
         },
         "tooltipDetails": {
@@ -1878,12 +1879,12 @@
           "basicProperties": [
             {
               "key": "DebuffDuration",
-              "value": 16,
+              "value": 13,
               "type": "duration"
             },
             {
               "key": "SlowDuration",
-              "value": 6,
+              "value": 4,
               "type": "duration"
             }
           ],
@@ -2206,13 +2207,13 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
       "light_melee_damage": 63,
       "heavy_melee_damage": 116,
-      "max_health": 600,
+      "max_health": 570,
       "weapon_power": 0,
       "reload_speed": 1,
       "weapon_power_scale": 1,
@@ -2315,7 +2316,7 @@
           "toss_up_magnitude": 0.5,
           "side_move_speed_reduction": -65,
           "turn_rate_max": 140,
-          "camera_distance": 450,
+          "camera_turn_rate_max": 200,
           "charge_radius": 2.2,
           "weapon_damage_bonus": 0,
           "weapon_power_increase_duration": 0,
@@ -2491,7 +2492,7 @@
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0.251429,
       "modifier_value_base_melee_damage_from_level": 2.671429,
-      "modifier_value_base_health_from_level": 32,
+      "modifier_value_base_health_from_level": 34,
       "modifier_value_tech_damage_percent": 0,
       "modifier_value_bullet_armor_damage_resist": 0
     },
@@ -2721,7 +2722,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -2768,8 +2769,8 @@
           "non_player_card_resource_scale": 0.35,
           "card_resource_per_bullet_hit": 4,
           "card_resource_per_bullet_crit": 6,
-          "card_resource_per_light_melee": 20,
-          "card_resource_per_heavy_melee": 50,
+          "card_resource_per_light_melee": 10,
+          "card_resource_per_heavy_melee": 25,
           "card_resource_gen_pct_scale": 106,
           "projectile_origin_height_offset": 50
         },
@@ -2781,7 +2782,7 @@
               "value": 80,
               "type": "tech_damage",
               "scale_function": {
-                "value": 1.2,
+                "value": 1.1,
                 "type": "spirit"
               }
             },
@@ -3218,7 +3219,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -3242,18 +3243,18 @@
         "name": "Mini Turret",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
-          "range": 15,
+          "cooldown": 24,
+          "range": 20,
           "charges": 1,
-          "charge_restore_time": 5,
+          "charge_restore_time": 3,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 15,
+          "cast_range": 20,
           "unit_target_limit": 1,
           "cast_delay": 0.2,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 5,
+          "cooldown_between_charge": 3,
           "channel_move_speed": 0,
           "tech_power": 0,
           "weapon_power": 0,
@@ -3261,20 +3262,20 @@
           "tick_rate": 0.5,
           "tracking_speed": 125,
           "attack_cone_angle": 10,
-          "turret_deploy_time": 1,
+          "turret_deploy_time": 0.25,
           "turret_base_health": 75,
-          "turret_health_scaling": 30,
+          "turret_health_scaling": 20,
           "turret_attack_range": 25,
           "turret_attack_falloff_start": 20,
           "turret_attack_falloff_end": 35,
-          "turret_attack_delay": 0.35,
+          "turret_attack_delay": 0.2,
           "turret_dps": 60,
-          "turret_lifetime": 30,
+          "turret_lifetime": 24,
           "turret_decay_damage_per_second": 20,
           "attack_speed_mult": 100,
           "tech_resist": 60,
-          "non_hero_damage_percent_outgoing": 60,
-          "boss_damage_percent_outgoing": 40,
+          "non_hero_damage_percent_outgoing": 50,
+          "boss_damage_percent_outgoing": 30,
           "boss_damage_percent_incoming": 50,
           "move_slow_percent": 0,
           "slow_duration": 0
@@ -3300,13 +3301,12 @@
           "basicProperties": [
             {
               "key": "TurretLifetime",
-              "value": 30,
+              "value": 24,
               "type": "duration"
             }
           ],
           "upgrades": [
             {
-              "ability_charges": 1,
               "move_slow_percent": 25,
               "slow_duration": 1.3
             },
@@ -3477,7 +3477,7 @@
           "detonate_timer": 5,
           "explosion_falloff_disabled": 1,
           "boss_damage_percent": 50,
-          "explosion_radius": 4.5,
+          "explosion_radius": 5,
           "tracking_variance": 0,
           "track_speed_near": 150,
           "track_speed_far": 100,
@@ -3508,7 +3508,7 @@
             },
             {
               "key": "ExplosionRadius",
-              "value": "4.5m",
+              "value": "5m",
               "type": "distance"
             }
           ],
@@ -3781,7 +3781,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -3820,11 +3820,12 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "radius": 7,
+          "radius": 6,
+          "radius_increase_per_pulse": 0,
           "pulse_interval": 0.8,
           "pulse_damage": 45,
           "pulses": 4,
-          "damage_amplification_per_stack": 5,
+          "damage_amplification_per_stack": 6,
           "debuff_duration": 8,
           "slow_percent": 30,
           "movement_slow_duration": 2,
@@ -3849,7 +3850,8 @@
             {
               "key": "DamageAmplificationPerStack",
               "loc_token_override": "PulseGrenadeDamageAmplificationPerStack",
-              "value": 5
+              "value": 6,
+              "type": "damage"
             }
           ],
           "basicProperties": [
@@ -3888,8 +3890,7 @@
             },
             {
               "pulse_damage": 45,
-              "name": "Bonus Damage per Stack",
-              "damage_amplification_per_stack": 2
+              "radius_increase_per_pulse": 1
             }
           ]
         }
@@ -3919,7 +3920,7 @@
           "time_wall_depth": 0.5,
           "time_wall_depth_visual_scale": 0.16,
           "time_wall_time_scale": 0.0001,
-          "time_scale_duration": 1,
+          "time_scale_duration": 0.7,
           "friendly_bullet_damage_bonus": 20,
           "friendly_bullet_time_scale": 3,
           "movement_slow_pct": 80,
@@ -3934,7 +3935,7 @@
           "properties": [
             {
               "key": "TimeScaleDuration",
-              "value": 1,
+              "value": 0.7,
               "type": "duration"
             },
             {
@@ -4090,13 +4091,13 @@
         "name": "Paradoxical Swap",
         "stats": {
           "duration": 0,
-          "cooldown": 48,
-          "range": 30,
+          "cooldown": 65,
+          "range": 25,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 30,
+          "cast_range": 25,
           "unit_target_limit": 1,
           "cast_delay": 0.15,
           "channel_time": 0,
@@ -4112,8 +4113,7 @@
           "swap_total_damage": 125,
           "initial_height": 350,
           "tick_rate": 0.25,
-          "spell_lifesteal": 100,
-          "spell_lifesteal_non_hero": 25
+          "spell_lifesteal": 100
         },
         "tooltipDetails": {
           "description": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>.",
@@ -4135,21 +4135,21 @@
           "basicProperties": [],
           "upgrades": [
             {
-              "ability_cast_range": 15
+              "ability_cooldown": -15
             },
             {
               "swap_total_damage": 100,
               "name": "Swap Damage"
             },
             {
-              "ability_cooldown": -14
+              "ability_cast_range": 20
             }
           ]
         }
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.33,
+      "modifier_value_base_bullet_damage_from_level": 0.45,
       "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 40,
       "modifier_value_tech_damage_percent": 0,
@@ -4378,7 +4378,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -4484,7 +4484,7 @@
         "name": "Quantum Entanglement",
         "stats": {
           "duration": 0,
-          "cooldown": 12.5,
+          "cooldown": 15,
           "range": 9,
           "charges": 0,
           "charge_restore_time": 0,
@@ -4537,7 +4537,8 @@
               "name": "Fire Rate Bonus"
             },
             {
-              "bonus_clip_size_percent": 120
+              "bonus_clip_size_percent": 120,
+              "ability_cooldown": -4
             }
           ]
         }
@@ -4922,7 +4923,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -5240,7 +5241,7 @@
           "fire_rate_slow": 0
         },
         "tooltipDetails": {
-          "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>.",
+          "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>. <br>Objectives becomes Invulnerable and Frozen under Frozen Shelter.",
           "properties": [
             {
               "key": "BonusHealthRegen",
@@ -5524,7 +5525,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 8.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -5727,7 +5728,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "max_stacks": 30,
+          "max_stacks": 40,
           "damage_bonus_fixed_per_stack": 0.2,
           "proc_damage": 0,
           "proc_damage_stack_count": 0,
@@ -5742,12 +5743,11 @@
               "key": "DamageBonusFixedPerStack",
               "value": 0.2,
               "type": "bullet_damage",
-              "m_e_display_type": "EBulletDamage",
-              "m_b_damage_affected_by_effectiveness": true
+              "m_e_display_type": "EBulletDamage"
             },
             {
               "key": "MaxStacks",
-              "value": 30
+              "value": 40
             },
             {
               "key": "ProcDamage",
@@ -5772,7 +5772,7 @@
               "max_stacks": 40
             },
             {
-              "damage_bonus_fixed_per_stack": 0.2,
+              "damage_bonus_fixed_per_stack": 0.15,
               "name": "Weapon Damage"
             }
           ]
@@ -5799,41 +5799,43 @@
           "tech_power": 0,
           "weapon_power": 0,
           "radius": 15,
-          "targets_per_tick": 1,
-          "bonus_fire_rate": 15,
+          "targets_per_tick": 2,
           "weapon_damage_bonus": 2,
           "evasion_percent": 25,
           "override_bullet_radius": 10
         },
         "tooltipDetails": {
-          "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.  During the flurry, {s:hero_name} gains a fire rate bonus and will evade some of the bullets shot at her.",
+          "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.  During the flurry, {s:hero_name} will evade some of the bullets shot at her.",
           "properties": [
             {
-              "key": "BonusFireRate",
-              "value": 15,
-              "type": "fire_rate",
-              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
               "key": "TargetsPerTick",
-              "value": 1,
-              "type": "radius"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "WeaponDamageBonus",
               "value": 2,
-              "type": "bullet_damage",
-              "m_e_display_units": "EDisplayUnit_Normal",
-              "m_e_display_type": "EBaseWeaponDamageIncrease",
-              "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
+              "type": "radius"
             },
             {
               "key": "EvasionPercent",
               "value": 25
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "ChannelMoveSpeed",
+              "value": "4m",
+              "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+              "type": "move_speed",
+              "m_b_can_set_token_override": true,
+              "loc_token_override": "DanceMoveSpeed"
+            },
+            {
+              "key": "WeaponDamageBonus",
+              "loc_token_override": "BonusWeaponDamage",
+              "value": 2,
+              "type": "bullet_damage",
+              "m_e_stat_type": "EBulletDamage",
+              "m_e_display_units": "EDisplayUnit_Normal",
+              "m_e_display_type": "EBaseWeaponDamageIncrease",
+              "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "upgrades": [
@@ -5844,7 +5846,8 @@
               "ability_cooldown": -38
             },
             {
-              "targets_per_tick": 1
+              "evasion_percent": 40,
+              "channel_move_speed": 2
             }
           ]
         }
@@ -6086,7 +6089,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 8.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -6589,7 +6592,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.25,
+      "max_move_speed": 6.55,
       "sprint_speed": 3,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -6642,10 +6645,12 @@
           "uppercut_buff_on_hit": 0,
           "buff_gun_range_percent": 100,
           "buff_base_weapon_pct": 0,
-          "clip_size_bonus": 0
+          "clip_size_bonus": 0,
+          "fire_rate_slow": 15,
+          "explode_debuff_duration": 5
         },
         "tooltipDetails": {
-          "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> where they land. Does not damage allies.",
+          "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> and <span class=\"highlight\">fire rate slow</span> where they land. Does not damage allies.",
           "properties": [
             {
               "key": "UppercutDamage",
@@ -6671,7 +6676,24 @@
               "type": "distance"
             }
           ],
-          "basicProperties": [],
+          "basicProperties": [
+            {
+              "key": "FireRateSlow",
+              "value": 15,
+              "type": "slow",
+              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+              "m_usage_flags": "APUsageFlag_ModifierConditional",
+              "scale_function": {
+                "value": 0.2,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "ExplodeDebuffDuration",
+              "value": 5,
+              "type": "duration"
+            }
+          ],
           "upgrades": [
             {
               "ability_cooldown": -10.5
@@ -6710,7 +6732,9 @@
           "radius": 12,
           "fuse_time": 3,
           "damage": 120,
-          "bonus_damage_pct_per_player_hit": 2.5,
+          "bonus_damage_pct_per_player_hit": 4,
+          "bonus_loss_per_death": 2,
+          "bonus_max_stacks": 15,
           "stun_target_on_explode": 0,
           "debuff_duration": 0
         },
@@ -6740,12 +6764,12 @@
         "stats": {
           "duration": 0,
           "cooldown": 23,
-          "range": 25,
+          "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 25,
+          "cast_range": 30,
           "unit_target_limit": 1,
           "cast_delay": 0,
           "channel_time": 0,
@@ -6808,12 +6832,12 @@
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
-          "channel_duration": 8,
+          "channel_duration": 10,
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
           "cast_delay": 1,
-          "channel_time": 8,
+          "channel_time": 10,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
           "channel_move_speed": 70,
@@ -6836,7 +6860,7 @@
           "boss_damage_percent": 20,
           "camera_distance": 7,
           "slow_target_duration": 0.5,
-          "slow_percent": 30,
+          "slow_percent": 25,
           "ground_dash_reduction_percent": -40
         },
         "tooltipDetails": {
@@ -7116,7 +7140,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -7204,70 +7228,56 @@
         "name": "Pounce",
         "stats": {
           "duration": 0,
-          "cooldown": 32,
+          "cooldown": 26,
           "range": 14,
-          "charges": 1,
-          "charge_restore_time": 10,
+          "charges": 2,
+          "charge_restore_time": 8,
           "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 14,
           "unit_target_limit": 1,
           "cast_delay": 0.2,
           "channel_time": 0,
-          "post_cast_duration": 0.25,
-          "cooldown_between_charge": 10,
+          "post_cast_duration": 0.4,
+          "cooldown_between_charge": 8,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "friendly_target_cd": 16,
-          "friendly_recharge_time": 3,
+          "double_pounce_time": 3,
           "move_speed_to_target": 25,
           "min_time_to_target": 0.5,
           "jump_height": 3,
           "slash_range": 3,
           "camera_distance": 250,
           "damage": 60,
-          "instant_reload": 0,
           "slow_duration": 2,
           "slow_percent": 30,
           "fire_rate_slow": 0,
-          "explode_radius": 4,
+          "explode_radius": 6,
           "debuff_duration": 0,
           "active_reload_percent": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage.</span>  Targetting an enemy will cause <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
+          "description": "<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  <br>You may use <span class=\"highlight\">Pounce on a second target</span> if used within <span class=\"highlight\">{s:DoublePounceTime}s</span>",
           "properties": [
             {
               "key": "Damage",
               "value": 60,
-              "type": "tech_damage",
+              "type": "melee_damage",
               "scale_function": {
-                "value": 0.5,
+                "value": 0.7,
                 "type": "spirit"
               }
             },
             {
               "key": "ExplodeRadius",
               "loc_token_override": "PounceDebuffRadius",
-              "value": "4m",
+              "value": "6m",
               "type": "distance",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "basicProperties": [
-            {
-              "key": "FriendlyTargetCD",
-              "loc_token_override": "PounceFriendlyTargetCD",
-              "type": "cooldown",
-              "value": 16
-            },
-            {
-              "key": "FriendlyRechargeTime",
-              "loc_token_override": "PounceFriendlyRechargeTime",
-              "value": 3,
-              "type": "charge_cooldown"
-            },
             {
               "key": "SlowPercent",
               "value": 30,
@@ -7288,135 +7298,21 @@
             },
             {
               "fire_rate_slow": 30,
-              "name": "Explosion Radius",
-              "explode_radius": 6
+              "active_reload_percent": 20
             },
             {
               "ability_charges": 1,
-              "active_reload_percent": 25
+              "damage": 60
             }
           ]
         }
       },
       {
-        "key": "ability_nano_proximity_ritual",
-        "name": "Perched Predator",
+        "key": "ability_nano_shadow_step",
+        "name": "Shadow Step",
         "stats": {
-          "duration": 0,
-          "cooldown": 60,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.2,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "recall_cooldown": 8,
-          "recall_range": 5,
-          "min_resummon_cooldown": 5,
-          "statue_health": 200,
-          "statue_held_regen": 40,
-          "inactive_radius": 20,
-          "active_radius": 20,
-          "statue_lifetime": 60,
-          "statue_arm_time": 1,
-          "cat_activate_duration": 1.5,
-          "tick_interval": 0.1,
-          "damage_tick": 0.5,
-          "dps": 30,
-          "heal_amp_receive_penalty_percent": -20,
-          "heal_amp_regen_penalty_percent": -20,
-          "target_lifesteal": 30,
-          "target_lifesteal_non_hero": 10,
-          "damage_amplification": 0
-        },
-        "tooltipDetails": {
-          "description": "Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and give health to {s:hero_name} when damaged by any ally.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled.",
-          "properties": [
-            {
-              "key": "DPS",
-              "value": 30,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.419328,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "StatueHealth",
-              "value": 200,
-              "type": "health",
-              "m_e_display_type": "EMaxHealth",
-              "scale_function": {
-                "value": 2,
-                "type": "spirit"
-              }
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "RecallCooldown",
-              "loc_token_override": "AvaRecallCooldown",
-              "value": 8
-            },
-            {
-              "key": "ActiveRadius",
-              "value": "20m",
-              "type": "distance"
-            },
-            {
-              "key": "TargetLifesteal",
-              "loc_token_override": "StatueLifesteal",
-              "value": 30,
-              "type": "healing",
-              "m_e_display_type": "ETechLifesteal"
-            },
-            {
-              "key": "HealAmpReceivePenaltyPercent",
-              "value": -20,
-              "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "StatueLifetime",
-              "value": 60,
-              "type": "duration"
-            },
-            {
-              "key": "StatueHeldRegen",
-              "value": 40,
-              "type": "healing"
-            }
-          ],
-          "upgrades": [
-            {
-              "statue_health": 200,
-              "name": "Ava (Normalized)"
-            },
-            {
-              "dps": 30
-            },
-            {
-              "damage_amplification": 35,
-              "heal_amp_receive_penalty_percent": -30,
-              "heal_amp_regen_penalty_percent": -30
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_nano_ult_shadow",
-        "name": "Queen of Shadows",
-        "stats": {
-          "duration": 12,
-          "cooldown": 95,
+          "duration": 8,
+          "cooldown": 40,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -7434,38 +7330,26 @@
           "invis_alert_when_fading": 1,
           "invis_cancel_on_damage": 0,
           "invis_fade_to_duration": 0,
-          "invis_move_speed_mod": 1,
-          "spotted_radius": 15,
+          "invis_move_speed_mod": 0,
+          "spotted_radius": 2,
           "reveal_on_damage_duration": 0.25,
-          "reveal_on_spotted_duration": 1,
+          "reveal_on_spotted_duration": 0.75,
           "stamina_cooldown_reduction": 0,
           "purge_on_activate": 0,
           "silence_on_heavy_duration": 0,
           "bonus_fire_rate": 20,
-          "melee_attack_speed_bonus": 40,
+          "melee_attack_speed_bonus": 20,
           "bullet_armor_reduction_light": 5,
           "bullet_armor_reduction_heavy": 15,
-          "bullet_armor_reduction_duration": 6
+          "bullet_armor_reduction_duration": 6,
+          "slow_resistance_percent": 0
         },
         "tooltipDetails": {
-          "description": "Cast yourself in shadow and go <span class=\"highlight\">Invisible</span>.  Attacks do not break invisibility but they will temporarily reveal you.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)",
+          "description": "Bathe yourself in shadow, to strengthen your attacks and make your dashes <span class=\"highlight\">Invisible</span>.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)",
           "properties": [
             {
               "key": "StatusEffectInvisible"
             },
-            {
-              "key": "InvisMoveSpeedMod",
-              "value": "1m",
-              "type": "move_speed",
-              "m_e_display_units": "EDisplayUnit_MetersPerSecond",
-              "m_e_display_type": "EMaxMoveSpeed",
-              "scale_function": {
-                "value": 0.03,
-                "type": "spirit"
-              }
-            }
-          ],
-          "basicProperties": [
             {
               "key": "BonusFireRate",
               "value": 20,
@@ -7478,10 +7362,12 @@
               "key": "MeleeAttackSpeedBonus",
               "loc_token_override": "NanoShadowMeleeAttackSpeedBonus",
               "type": "melee_damage",
-              "value": 40,
+              "value": 20,
               "m_e_provided_property_type": "MODIFIER_VALUE_MELEEATTACK_SPEED",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
+            }
+          ],
+          "basicProperties": [
             {
               "key": "BulletArmorReductionLight",
               "loc_token_override": "NanoShadowBulletArmorReductionLight",
@@ -7508,14 +7394,10 @@
             },
             {
               "key": "SpottedRadius",
-              "value": "15m",
+              "value": "2m",
+              "m_b_is_hidden": true,
               "type": "distance",
               "m_e_display_type": "ETechRadius"
-            },
-            {
-              "key": "SilenceOnHeavyDuration",
-              "value": 0,
-              "type": "duration"
             },
             {
               "key": "StaminaCooldownReduction",
@@ -7523,6 +7405,18 @@
               "m_e_display_type": "EStaminaRegenPerSecond",
               "m_e_provided_property_type": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "SlowResistancePercent",
+              "value": 0,
+              "type": "move_speed",
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "SilenceOnHeavyDuration",
+              "value": 0,
+              "type": "duration"
             }
           ],
           "upgrades": [
@@ -7530,11 +7424,141 @@
               "stamina_cooldown_reduction": 30
             },
             {
-              "purge_on_activate": 1
+              "slow_resistance_percent": 40
             },
             {
               "silence_on_heavy_duration": 3,
               "name": "Silence Duration"
+            }
+          ]
+        }
+      },
+      {
+        "key": "ability_nano_proximity_ritual",
+        "name": "Ava",
+        "stats": {
+          "duration": 0,
+          "cooldown": 80,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0.2,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0,
+          "recall_cooldown": 5,
+          "statue_health": 500,
+          "statue_held_regen": 40,
+          "active_radius": 25,
+          "statue_lifetime": 60,
+          "statue_arm_time": 1,
+          "cat_activate_duration": 2,
+          "tick_interval": 0.1,
+          "damage_tick": 0.5,
+          "dps": 40,
+          "heal_amp_receive_penalty_percent": -20,
+          "heal_amp_regen_penalty_percent": -20,
+          "target_lifesteal": 15,
+          "target_lifesteal_non_hero": 5,
+          "victim_damage_reduction": 0,
+          "damage_amplification": 0
+        },
+        "tooltipDetails": {
+          "description": "Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and <span class=\"highlight\">heal Ava and {s:hero_name}</span> when damaged.  <span class=\"highlight\">Ava is only active when {s:hero_name} is nearby</span>. <br>Press <span class=\"highlight\">[3]</span> to recall Ava <br><span class=\"highlight\">[Alt-Cast]</span> to recall and warp to Ava <br>The further away from Ava the longer the recall/warp will take. Ava regains health while recalled.",
+          "properties": [
+            {
+              "key": "DPS",
+              "value": 40,
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 0.419328,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "StatueHealth",
+              "value": 500,
+              "type": "health",
+              "m_e_display_type": "EMaxHealth",
+              "scale_function": {
+                "value": 3,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "ActiveRadius",
+              "loc_token_override": "StatueActivateRange",
+              "value": "25m",
+              "type": "distance",
+              "scale_function": {
+                "value": 0.3,
+                "type": "spirit"
+              }
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "RecallCooldown",
+              "loc_token_override": "AvaRecallCooldown",
+              "value": 5,
+              "type": "cooldown"
+            },
+            {
+              "key": "StatueLifetime",
+              "value": 60,
+              "type": "duration"
+            },
+            {
+              "key": "StatueHeldRegen",
+              "value": 40,
+              "type": "healing"
+            },
+            {
+              "key": "TargetLifesteal",
+              "loc_token_override": "StatueLifesteal",
+              "value": 15,
+              "type": "healing",
+              "m_e_display_type": "ETechLifesteal"
+            },
+            {
+              "key": "HealAmpReceivePenaltyPercent",
+              "value": -20,
+              "type": "damage",
+              "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "VictimDamageReduction",
+              "loc_token_override": "StatueVictimDamageReduction",
+              "value": 0,
+              "type": "damage"
+            },
+            {
+              "key": "DamageAmplification",
+              "type": "damage",
+              "value": 0
+            }
+          ],
+          "upgrades": [
+            {
+              "target_lifesteal": 21,
+              "target_lifesteal_non_hero": 7
+            },
+            {
+              "dps": 40,
+              "victim_damage_reduction": -20
+            },
+            {
+              "damage_amplification": 35,
+              "heal_amp_receive_penalty_percent": -30,
+              "heal_amp_regen_penalty_percent": -30
             }
           ]
         }
@@ -7776,7 +7800,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6,
+      "max_move_speed": 6.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -7786,7 +7810,7 @@
       "weapon_power": 0,
       "reload_speed": 1,
       "weapon_power_scale": 1,
-      "stamina": 3,
+      "stamina": 4,
       "base_health_regen": 2,
       "stamina_regen_per_second": 0.2,
       "stamina_cooldown": 5,
@@ -7872,13 +7896,13 @@
           "weapon_power": 0,
           "jump_pitch": -60,
           "jump_speed": 27.5,
-          "alt_jump_speed": 10,
+          "alt_jump_speed": 12,
           "slow_percent": 0,
           "slow_duration": 0,
           "weapon_damage_bonus": 4,
           "fire_rate_bonus": 0,
           "bullet_lifesteal_percent": 0,
-          "fall_speed_max": 30,
+          "fall_speed_max": 15,
           "air_speed_max": 150,
           "bullet_split_shot": 5,
           "split_shot": 0,
@@ -7977,8 +8001,6 @@
           "disarm_targets": 0,
           "bullet_vulnerbility": 0,
           "debuff_duration": 0,
-          "dot_duration": 0,
-          "dot_dps": 0,
           "slow_percent": 50,
           "slow_duration": 1
         },
@@ -8300,13 +8322,11 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.04,
-      "eroundspersecond": 0.00625,
-      "efirerate": 0.25
+      "ebulletdamage": 0.1
     },
     "weapon_stats": {
-      "bullet_damage": 24.75,
-      "rounds_per_second": 2.2222222222222223,
+      "bullet_damage": 30.25,
+      "rounds_per_second": 1.8181818181818181,
       "clip_size": 17,
       "reload_time": 2.35,
       "reload_movespeed": 1,
@@ -8322,8 +8342,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 55.00000000000001,
-      "sustained_dps": 42.075,
+      "dps": 54.99999999999999,
+      "sustained_dps": 43.95299145299145,
       "weapon_name": "citadel_weapon_archer_set",
       "weapon_description": "citadel_weapon_hero_archer_set",
       "weapon_types": [
@@ -8367,7 +8387,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7.8,
+      "max_move_speed": 8.1,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -8608,7 +8628,7 @@
         "name": "Combo",
         "stats": {
           "duration": 0,
-          "cooldown": 95,
+          "cooldown": 75,
           "range": 5,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8625,7 +8645,8 @@
           "weapon_power": 0,
           "dps": 60,
           "life_steal_percent_on_hit": 0,
-          "bonus_health_on_kill": 30
+          "bonus_health_on_kill": 30,
+          "bullet_resist": 0
         },
         "tooltipDetails": {
           "description": "Hold the target in place, <span class=\"highlight\">stunning them and dealing damage</span> during the channel. If they die during Combo, you permanently gain max health.",
@@ -8655,7 +8676,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -28
+              "bullet_resist": 30
             },
             {
               "ability_channel_time": 0.75
@@ -8903,7 +8924,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -9096,7 +9117,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "rage_drain_rate": 0.35,
+          "rage_drain_rate": 0.25,
           "rage_per_weapon_damage": 0.015,
           "rage_per_spirit_damage": 0.013,
           "rage_per_light_melee": 1.5,
@@ -9105,7 +9126,7 @@
           "non_player_rage_scale": 0.2,
           "bonus_move_speed": 0,
           "buff_damage": 15,
-          "rage_drain_delay_duration": 7,
+          "rage_drain_delay_duration": 12,
           "damage": 200,
           "enemy_health_percent": 20,
           "enemy_health_percent_buffer": 3,
@@ -9398,7 +9419,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -10007,7 +10028,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -10378,7 +10399,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6,
+      "max_move_speed": 6.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -10402,7 +10423,7 @@
         "name": "Alchemical Flask",
         "stats": {
           "duration": 0,
-          "cooldown": 14,
+          "cooldown": 12,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10418,7 +10439,7 @@
           "tech_power": 0,
           "weapon_power": 0,
           "radius": 6.5,
-          "damage": 55,
+          "damage": 65,
           "weapon_power_debuff": -30,
           "fire_rate_slow": 0,
           "debuff_duration": 6,
@@ -10432,7 +10453,7 @@
           "properties": [
             {
               "key": "Damage",
-              "value": 55,
+              "value": 65,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.78624,
@@ -10467,11 +10488,11 @@
           ],
           "upgrades": [
             {
-              "damage": 40
-            },
-            {
               "stamina_reduction": 1,
               "name": "Stamina Reduction"
+            },
+            {
+              "damage": 50
             },
             {
               "fire_rate_slow": 35,
@@ -10621,7 +10642,7 @@
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
-          "cast_delay": 2.25,
+          "cast_delay": 2,
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
@@ -10630,7 +10651,7 @@
           "weapon_power": 0,
           "pulse_interval": 0.5,
           "pulse_dps": 100,
-          "radius": 12,
+          "radius": 13,
           "health_steal_pct_hero": 100,
           "health_steal_pct": 50,
           "cone_angle": 115,
@@ -10929,7 +10950,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 8.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -10953,7 +10974,7 @@
         "name": "Power Slash",
         "stats": {
           "duration": 0,
-          "cooldown": 8.5,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11026,7 +11047,8 @@
             },
             {
               "slow_duration": 3,
-              "slow_percent": 40
+              "slow_percent": 40,
+              "ability_cooldown": -2
             },
             {
               "full_charge_damage": 200,
@@ -11169,7 +11191,7 @@
         "key": "citadel_ability_infinity_slash",
         "name": "Shadow Transformation",
         "stats": {
-          "duration": 4.5,
+          "duration": 4,
           "cooldown": 106,
           "range": 0,
           "charges": 0,
@@ -11186,16 +11208,14 @@
           "tech_power": 0,
           "weapon_power": 0,
           "bonus_move_speed": 0,
-          "speed_pct": 60,
-          "tech_resist": 40,
-          "bullet_resist": 40
+          "speed_pct": 60
         },
         "tooltipDetails": {
-          "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
+          "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, and you gain <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
           "properties": [
             {
               "key": "AbilityDuration",
-              "value": 4.5,
+              "value": 4,
               "disable_value": 0,
               "type": "duration",
               "m_b_can_set_token_override": true
@@ -11204,22 +11224,6 @@
               "key": "AbilitySpeedPct",
               "value": 60,
               "type": "cast"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "TechResist",
-              "value": 40,
-              "type": "tech_armor_up",
-              "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "BulletResist",
-              "value": 40,
-              "type": "bullet_armor_up",
-              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "upgrades": [
@@ -11477,7 +11481,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 1,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -11682,8 +11686,8 @@
           "targeting_cone_angle": 30,
           "enemy_slow_pct": 0,
           "enemy_slow_duration": 0,
-          "heal_pct_vs_non_heroes": 30,
-          "heal_pct_vs_heroes": 80,
+          "heal_pct_vs_non_heroes": 25,
+          "heal_pct_vs_heroes": 70,
           "damage": 65,
           "fire_rate_slow": 0
         },
@@ -11701,7 +11705,7 @@
             },
             {
               "key": "HealPctVsHeroes",
-              "value": 80,
+              "value": 70,
               "type": "healing"
             },
             {
@@ -11717,7 +11721,7 @@
           "basicProperties": [
             {
               "key": "HealPctVsNonHeroes",
-              "value": 30,
+              "value": 25,
               "type": "healing"
             },
             {
@@ -12022,7 +12026,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 10,
+      "bullet_damage": 9,
       "rounds_per_second": 4,
       "clip_size": 29,
       "reload_time": 2.35,
@@ -12039,8 +12043,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 3,
       "burst_inter_shot_interval": 0.08,
-      "dps": 61.224489795918366,
-      "sustained_dps": 40.921919096895586,
+      "dps": 55.10204081632653,
+      "sustained_dps": 36.829727187206025,
       "weapon_name": "citadel_weapon_lash_set",
       "weapon_description": "citadel_weapon_hero_lash_set",
       "weapon_types": [
@@ -12080,7 +12084,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -12122,7 +12126,7 @@
           "slow_percent": 35,
           "move_speed_slow_percent": 0,
           "max_bounces": 0,
-          "damage": 100,
+          "damage": 90,
           "move_speed_ground_slow": 0,
           "boss_damage_percent": 50,
           "radius": 5,
@@ -12158,7 +12162,7 @@
               "ability_cooldown": -5.75
             },
             {
-              "damage": 70,
+              "damage": 60,
               "radius": 1
             },
             {
@@ -12361,7 +12365,7 @@
           "radius": null,
           "particle_radius_multiplier": 1.2,
           "tick_rate": 0.25,
-          "stun_duration": 1,
+          "stun_duration": 0.5,
           "knock_force": 400,
           "tech_resist": 70,
           "bullet_resist": 60,
@@ -12383,7 +12387,7 @@
             },
             {
               "key": "StunDuration",
-              "value": 1
+              "value": 0.5
             }
           ],
           "basicProperties": [
@@ -12650,7 +12654,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -12994,7 +12998,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -13344,7 +13348,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -13666,7 +13670,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -14013,7 +14017,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -14567,7 +14571,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -14924,7 +14928,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -14969,7 +14973,7 @@
           "fall_speed_max": 10,
           "air_speed_max": 100,
           "air_drag": 0.3,
-          "radius": 6.5,
+          "radius": 4.5,
           "move_slow_percent": 30,
           "slow_duration": 1.5,
           "amp_percent_per_stack": 6,
@@ -14982,7 +14986,8 @@
           "properties": [
             {
               "key": "AmpPercentPerStack",
-              "value": 6
+              "value": 6,
+              "type": "damage"
             },
             {
               "key": "DamagePerProjectile",
@@ -14995,6 +15000,7 @@
             },
             {
               "key": "MoveSlowPercent",
+              "loc_token_override": "SlowPercent",
               "value": 30,
               "type": "slow",
               "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
@@ -15027,7 +15033,7 @@
             },
             {
               "amp_percent_per_stack": 4,
-              "name": "Amp Per Stack"
+              "radius": 2
             }
           ]
         }
@@ -15206,7 +15212,7 @@
               "value": 23,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.39312,
+                "value": 0.34,
                 "type": "spirit"
               }
             },
@@ -15416,7 +15422,7 @@
       "reload_delay": 0,
       "reload_single": false,
       "bullet_speed": 220,
-      "falloff_start_range": 8.66,
+      "falloff_start_range": 6.29921,
       "falloff_end_range": 18,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
@@ -15469,7 +15475,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -15823,7 +15829,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -15846,14 +15852,14 @@
         "key": "mirage_tornado",
         "name": "Tornado",
         "stats": {
-          "duration": 0.75,
+          "duration": 0,
           "cooldown": 32,
-          "range": 0,
+          "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 0,
+          "cast_range": 20,
           "unit_target_limit": 1,
           "cast_delay": 0,
           "channel_time": 0,
@@ -15873,7 +15879,6 @@
           "tornado_speed": 1050,
           "enemy_lift_duration": 0.2,
           "split_angle": 0,
-          "forward_offset": 125,
           "lift_height": 3,
           "damping_factor": 0.3,
           "max_delta_movement_control": 2,
@@ -15958,7 +15963,6 @@
           "launch_window_duration": 5,
           "charges_conditionally": 1,
           "radius": 1,
-          "dps": 0,
           "damage_interval": 0.5,
           "debuff_duration": 14,
           "healing_factor": 0,
@@ -16050,11 +16054,11 @@
           "weapon_power": 0,
           "whirlwind_evasion_chance": 0,
           "whirlwind_duration": 0,
-          "proc_damage_base": 16,
+          "proc_damage_base": 12,
           "proc_chance": 100,
           "proc_cooldown": 2.5,
           "victim_stack_duration": 4.5,
-          "reveal_duration": 2,
+          "reveal_duration": 3,
           "max_stacks": 8,
           "movement_speed_slow": 0,
           "slow_duration": 0
@@ -16064,10 +16068,10 @@
           "properties": [
             {
               "key": "ProcDamageBase",
-              "value": 16,
+              "value": 12,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.4,
+                "value": 0.55,
                 "type": "spirit"
               }
             },
@@ -16089,7 +16093,7 @@
             },
             {
               "key": "RevealDuration",
-              "value": 2
+              "value": 3
             }
           ],
           "upgrades": [
@@ -16170,13 +16174,13 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
-            },
-            {
               "bonus_move_speed": 2
             },
             {
-              "bonus_fire_rate": 20
+              "ability_cooldown": -30
+            },
+            {
+              "bonus_fire_rate": 30
             }
           ]
         }
@@ -16384,7 +16388,7 @@
         "Attribute_EWeaponAttribute_HeavyHitter"
       ]
     },
-    "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
+    "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
     "playstyle": "Mirage can envelop himself in a violent tornado to catch up to enemies and lift them up. His scarabs help him sustain against multiple enemies, and he's always ready to help an ally or punish an enemy anywhere.",
     "role": "Times his shots and catches fleeing targets",
     "recommended_items": [
@@ -16420,7 +16424,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -16783,7 +16787,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -17124,7 +17128,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -17482,6 +17486,354 @@
       "sustained_dps": 31.730769230769234,
       "weapon_name": "citadel_weapon_bomber_set",
       "weapon_description": "citadel_weapon_hero_bomber_set"
+    },
+    "lore": null,
+    "playstyle": null,
+    "role": null
+  },
+  "shieldguy": {
+    "id": 57,
+    "name": "hero_shieldguy",
+    "new_player_friendly": false,
+    "in_development": true,
+    "in_hero_labs": false,
+    "is_disabled": true,
+    "complexity": 1,
+    "readability": 4,
+    "bot_selectable": false,
+    "lane_testing_recommended": false,
+    "starting_stats": {
+      "max_move_speed": 7.3,
+      "sprint_speed": 0,
+      "crouch_speed": 4.75,
+      "move_acceleration": 4,
+      "light_melee_damage": 63,
+      "heavy_melee_damage": 116,
+      "max_health": 550,
+      "weapon_power": 0,
+      "reload_speed": 1,
+      "weapon_power_scale": 1,
+      "stamina": 3,
+      "base_health_regen": 2,
+      "stamina_regen_per_second": 0.2,
+      "stamina_cooldown": 5,
+      "crit_damage_received_scale": 0,
+      "tech_range": 0,
+      "tech_duration": 0
+    },
+    "abilities": [
+      {
+        "key": "ability_shieldguy_ability01",
+        "name": "ability_shieldguy_ability01",
+        "stats": {
+          "duration": 0,
+          "cooldown": 26,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0
+        },
+        "tooltipDetails": {}
+      },
+      {
+        "key": "ability_shieldguy_ability02",
+        "name": "ability_shieldguy_ability02",
+        "stats": {
+          "duration": 0,
+          "cooldown": 26,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0
+        },
+        "tooltipDetails": {}
+      },
+      {
+        "key": "ability_shieldguy_ability03",
+        "name": "ability_shieldguy_ability03",
+        "stats": {
+          "duration": 0,
+          "cooldown": 26,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0
+        },
+        "tooltipDetails": {}
+      },
+      {
+        "key": "ability_shieldguy_ult",
+        "name": "ability_shieldguy_ult",
+        "stats": {
+          "duration": 0,
+          "cooldown": 127,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0
+        },
+        "tooltipDetails": {
+          "description": "ability_shieldguy_ult",
+          "properties": [
+            {
+              "key": "AbilityCooldown",
+              "value": 127,
+              "disable_value": 0,
+              "type": "cooldown",
+              "m_b_can_set_token_override": true
+            }
+          ],
+          "upgrades": [
+            {
+              "ability_cooldown": 0
+            },
+            {
+              "ability_cooldown": 0
+            },
+            {
+              "ability_cooldown": 0
+            }
+          ]
+        }
+      }
+    ],
+    "level_upgrades": {
+      "modifier_value_base_bullet_damage_from_level": 0.124929,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
+      "modifier_value_base_health_from_level": 41,
+      "modifier_value_tech_damage_percent": 0,
+      "modifier_value_bullet_armor_damage_resist": 0
+    },
+    "collision": {
+      "radius": 20,
+      "height": 80,
+      "step_height": 32
+    },
+    "movement": {
+      "stealth_speed": 4,
+      "footstep_sound_distance": 20,
+      "step_sound_time": 0.325
+    },
+    "visuals": {
+      "ui_color": [
+        98,
+        15,
+        214
+      ],
+      "glow_colors": {
+        "friendly": [
+          255,
+          239,
+          215
+        ],
+        "enemy": [
+          255,
+          0,
+          0
+        ],
+        "team1": [
+          231,
+          182,
+          89
+        ],
+        "team2": [
+          91,
+          121,
+          230
+        ]
+      },
+      "model_skin": 0
+    },
+    "item_slots": {
+      "weapon_mod": {
+        "max_purchases_per_tier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "armor": {
+        "max_purchases_per_tier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "tech": {
+        "max_purchases_per_tier": [
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    "purchase_bonuses": {
+      "weapon_mod": [
+        {
+          "tier": 1,
+          "value": 6,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        },
+        {
+          "tier": 2,
+          "value": 10,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        },
+        {
+          "tier": 3,
+          "value": 14,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        },
+        {
+          "tier": 4,
+          "value": 18,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        }
+      ],
+      "armor": [
+        {
+          "tier": 1,
+          "value": 11,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        },
+        {
+          "tier": 2,
+          "value": 14,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        },
+        {
+          "tier": 3,
+          "value": 17,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        },
+        {
+          "tier": 4,
+          "value": 20,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        }
+      ],
+      "tech": [
+        {
+          "tier": 1,
+          "value": 4,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        },
+        {
+          "tier": 2,
+          "value": 8,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        },
+        {
+          "tier": 3,
+          "value": 12,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        },
+        {
+          "tier": 4,
+          "value": 16,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        }
+      ]
+    },
+    "stats_display": {
+      "health_header_stats": [
+        "EMaxHealth",
+        "EBaseHealthRegen"
+      ],
+      "health_stats": [
+        "EBulletArmorDamageReduction",
+        "ETechArmorDamageReduction",
+        "EBulletShieldHealth",
+        "ETechShieldHealth",
+        "EBulletLifesteal",
+        "ETechLifesteal",
+        "EMaxMoveSpeed",
+        "ESprintSpeed",
+        "EStamina",
+        "EHealingOutput"
+      ],
+      "weapon_header_stats": [
+        "EWeaponDPS",
+        "EBulletDamage"
+      ],
+      "weapon_stats": [
+        "ELightMeleeDamage",
+        "EHeavyMeleeDamage",
+        "EFireRate",
+        "EClipSize"
+      ],
+      "magic_header_stats": [
+        "ETechPower"
+      ],
+      "magic_stats": [
+        "ETechCooldown",
+        "ETechRange",
+        "ETechDuration"
+      ]
+    },
+    "spirit_scaling": {},
+    "weapon_stats": {
+      "bullet_damage": 5.5,
+      "rounds_per_second": 11.11111111111111,
+      "clip_size": 30,
+      "reload_time": 2.5,
+      "reload_movespeed": 1,
+      "reload_delay": 0,
+      "reload_single": false,
+      "bullet_speed": 225,
+      "falloff_start_range": 8.66,
+      "falloff_end_range": 22.64,
+      "falloff_start_scale": 1,
+      "falloff_end_scale": 0.1,
+      "falloff_bias": 0.5,
+      "bullet_gravity_scale": 0,
+      "bullets_per_shot": 1,
+      "bullets_per_burst": 1,
+      "burst_inter_shot_interval": 0,
+      "dps": 61.111111111111114,
+      "sustained_dps": 31.730769230769234,
+      "weapon_name": "citadel_weapon_shieldguy_set",
+      "weapon_description": "citadel_weapon_hero_shieldguy_set"
     },
     "lore": null,
     "playstyle": null,

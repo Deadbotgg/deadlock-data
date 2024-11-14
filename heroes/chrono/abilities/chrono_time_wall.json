@@ -23,7 +23,7 @@
     "time_wall_depth": 0.5,
     "time_wall_depth_visual_scale": 0.16,
     "time_wall_time_scale": 0.0001,
-    "time_scale_duration": 1,
+    "time_scale_duration": 0.7,
     "friendly_bullet_damage_bonus": 20,
     "friendly_bullet_time_scale": 3,
     "movement_slow_pct": 80,
@@ -38,7 +38,7 @@
     "properties": [
       {
         "key": "TimeScaleDuration",
-        "value": 1,
+        "value": 0.7,
         "type": "duration"
       },
       {

@@ -22,7 +22,6 @@
     "launch_window_duration": 5,
     "charges_conditionally": 1,
     "radius": 1,
-    "dps": 0,
     "damage_interval": 0.5,
     "debuff_duration": 14,
     "healing_factor": 0,

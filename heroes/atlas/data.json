@@ -10,13 +10,13 @@
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 6.5,
+    "max_move_speed": 6.8,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
     "light_melee_damage": 63,
     "heavy_melee_damage": 116,
-    "max_health": 600,
+    "max_health": 570,
     "weapon_power": 0,
     "reload_speed": 1,
     "weapon_power_scale": 1,
@@ -31,7 +31,7 @@
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.251429,
     "modifier_value_base_melee_damage_from_level": 2.671429,
-    "modifier_value_base_health_from_level": 32,
+    "modifier_value_base_health_from_level": 34,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0
   },

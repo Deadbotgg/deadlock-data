@@ -7,12 +7,12 @@
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
-    "channel_duration": 8,
+    "channel_duration": 10,
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
     "cast_delay": 1,
-    "channel_time": 8,
+    "channel_time": 10,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": 70,
@@ -35,7 +35,7 @@
     "boss_damage_percent": 20,
     "camera_distance": 7,
     "slow_target_duration": 0.5,
-    "slow_percent": 30,
+    "slow_percent": 25,
     "ground_dash_reduction_percent": -40
   },
   "tooltipDetails": {

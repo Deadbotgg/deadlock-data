@@ -21,7 +21,9 @@
     "radius": 12,
     "fuse_time": 3,
     "damage": 120,
-    "bonus_damage_pct_per_player_hit": 2.5,
+    "bonus_damage_pct_per_player_hit": 4,
+    "bonus_loss_per_death": 2,
+    "bonus_max_stacks": 15,
     "stun_target_on_explode": 0,
     "debuff_duration": 0
   },

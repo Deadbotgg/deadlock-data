@@ -26,7 +26,7 @@
     "toss_up_magnitude": 0.5,
     "side_move_speed_reduction": -65,
     "turn_rate_max": 140,
-    "camera_distance": 450,
+    "camera_turn_rate_max": 200,
     "charge_radius": 2.2,
     "weapon_damage_bonus": 0,
     "weapon_power_increase_duration": 0,

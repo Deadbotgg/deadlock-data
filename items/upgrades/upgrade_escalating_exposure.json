@@ -36,7 +36,7 @@
             "is_negative": false
           },
           "tech_armor_damage_reduction": {
-            "value": -15,
+            "value": -12,
             "style": "tech_armor_down",
             "is_negative": false
           }
@@ -49,8 +49,13 @@
     "Passive": [
       {
         "ability_properties": {
+          "max_stacks": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          },
           "ability_duration": {
-            "value": 15,
+            "value": 12,
             "style": "duration",
             "is_negative": false
           },
@@ -63,7 +68,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "magic_increase_per_stack": {
-            "value": 6,
+            "value": 5,
             "style": "tech_armor_down",
             "is_conditional": false
           }
@@ -74,7 +79,7 @@
   },
   "disabled": false,
   "ability_cooldown": 0,
-  "ability_duration": 15,
+  "ability_duration": 12,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
@@ -87,8 +92,9 @@
   "tech_power": 0,
   "weapon_power": 0,
   "proc_cooldown": 0.7,
-  "magic_increase_per_stack": 6,
+  "magic_increase_per_stack": 5,
   "tech_resist": 15,
   "bonus_health": 125,
-  "tech_armor_damage_reduction": -15
+  "tech_armor_damage_reduction": -12,
+  "max_stacks": 20
 }

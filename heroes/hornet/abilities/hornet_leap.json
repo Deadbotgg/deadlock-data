@@ -49,7 +49,7 @@
         "bonus_clip_size_percent": 50
       },
       {
-        "ability_cooldown": -14
+        "ability_duration": 6
       },
       {
         "magic_damage_per_bullet": 12,

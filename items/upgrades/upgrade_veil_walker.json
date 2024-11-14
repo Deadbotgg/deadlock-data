@@ -61,7 +61,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bonus_move_speed": {
-            "value": 3,
+            "value": 4,
             "style": "move_speed",
             "is_conditional": true
           }
@@ -97,5 +97,5 @@
   "base_attack_damage_percent": 10,
   "bonus_clip_size": 0,
   "invis_duration": 5,
-  "bonus_move_speed": 3
+  "bonus_move_speed": 4
 }

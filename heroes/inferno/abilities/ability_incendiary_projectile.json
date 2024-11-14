@@ -21,7 +21,7 @@
     "tick_rate": 0.5,
     "flame_height_off_ground": 50,
     "particle_radius_multiplier": 1.15,
-    "damage_amplification": 25,
+    "damage_amplification": 20,
     "debuff_duration": 8,
     "damage": 50,
     "lifesteal_percent_hero": 0,
@@ -37,7 +37,8 @@
     "properties": [
       {
         "key": "DamageAmplification",
-        "value": 25
+        "value": 20,
+        "type": "damage"
       },
       {
         "key": "Damage",
@@ -76,7 +77,7 @@
         "lifesteal_percent_hero": 15
       },
       {
-        "damage_amplification": 15,
+        "damage_amplification": 20,
         "heal_amp_receive_penalty_percent": -40,
         "heal_amp_regen_penalty_percent": -40
       }

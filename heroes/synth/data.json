@@ -10,7 +10,7 @@
   "bot_selectable": false,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7,
+    "max_move_speed": 7.3,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -212,7 +212,7 @@
     "reload_delay": 0,
     "reload_single": false,
     "bullet_speed": 220,
-    "falloff_start_range": 8.66,
+    "falloff_start_range": 6.29921,
     "falloff_end_range": 18,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,

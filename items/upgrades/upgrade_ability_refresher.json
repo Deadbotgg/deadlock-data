@@ -34,7 +34,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 212,
+            "value": 230,
             "style": "cooldown",
             "is_negative": false
           }
@@ -46,7 +46,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 212,
+  "ability_cooldown": 230,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

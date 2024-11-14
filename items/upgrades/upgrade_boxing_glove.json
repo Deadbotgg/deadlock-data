@@ -91,7 +91,7 @@
   "slow_duration": 2.5,
   "bonus_melee_damage_percent": 35,
   "lifesteal_heal": 110,
-  "lifesteal_heal_percent": 55,
+  "lifesteal_heal_percent": 65,
   "bonus_health": 125,
   "bullet_resist": 8,
   "non_hero_heal_pct": 40

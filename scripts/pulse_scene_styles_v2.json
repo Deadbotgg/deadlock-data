@@ -42,6 +42,7 @@
     "\"$TanMidLight_Hover\"": "#d5bc7b66",
     "\"$TanLight\"": "#D3B874",
     "\"$TanLight_Hover\"": "#d5bc7b",
+    "\"$TanBright\"": "#eccf84",
     "\"$Beige\"": "#e0d7af",
     "\"$YellowMid\"": "#d99200",
     "\"$YellowMid_Hover\"": "#f6a600",
@@ -517,7 +518,7 @@
     "HAlign": "LEFT",
     "Positioning": "OUTSIDE_PARENT",
     "Visibility": "COLLAPSE",
-    "InteractionPriority": "BASE"
+    "InteractionPriority": "PORT"
   },
   ".RequirementsNodeList": {
     "LayoutChildren": "VBOX",
@@ -1135,7 +1136,7 @@
     "HAlign": "LEFT",
     "FixedSizeX": 28,
     "Margin_Right": 4,
-    "Margin_Top": -14,
+    "Margin_Bottom": -14,
     "PaintLayer": "NODES",
     "Visibility": "HIDDEN",
     "BackgroundImageWidth": 28,
@@ -1675,7 +1676,7 @@
         "ImageTint": "$DashedLineColor"
       },
       ".DragHandle": {
-        "Background_Color": "$flowColor"
+        "Background_Color": "$dragColorBase"
       },
       ".DragHandleGrip": {
         "Background_Color": "$bgColorHover"
@@ -1684,6 +1685,9 @@
         "Background_Color": "$bgColorHover"
       },
       "\".flow:hover .drag_handle\"": {
+        "Background_Color": "$dragColorHover"
+      },
+      "\".DragHandleContainer:hover .DragHandle\"": {
         "Background_Color": "$dragColorHover"
       },
       ".icon_style_20x20": {
@@ -1695,6 +1699,11 @@
         "\"&.SubHeaderText\"": {
           "Font": "Dinish,10,-1,5,50,0,0,0,0,0,Italic",
           "Foreground_Color": "$colorBase"
+        }
+      },
+      "\"&.Skipped, &.Unreachable\"": {
+        "\".HeaderText, .Port .PortlabelContainer .PortLabel, .Port .PortlabelContainer .PortValueLabel, &.CPulseCell_Inflow_Wait .HeaderText\"": {
+          "Foreground_Color": "$colorDim"
         }
       },
       "\"&.ValueWithoutPortLabels .HeaderText\"": {
@@ -1907,9 +1916,10 @@
     "\"$flowColor\"": "$GreyLight",
     "\"$flowColorAccessory\"": "$White",
     "\"$dragColorBase\"": "$GreyLight",
-    "\"$dragColorHover\"": "$White",
+    "\"$dragColorHover\"": "$GreyBright",
     "\"$iconColor\"": "$GreyLight",
     "\"$colorBase\"": "$White",
+    "\"$colorDim\"": "$GreyLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$GreyDark",
     "\"$DashedLineColor\"": "$GreyMidLight",
@@ -1934,9 +1944,10 @@
     "\"$flowColor\"": "$TanLight",
     "\"$flowColorAccessory\"": "$YellowBright",
     "\"$dragColorBase\"": "$TanLight",
-    "\"$dragColorHover\"": "$White",
+    "\"$dragColorHover\"": "$TanBright",
     "\"$iconColor\"": "$TanLight",
     "\"$colorBase\"": "$White",
+    "\"$colorDim\"": "$TanLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$GreyDark",
     "\"$DashedLineColor\"": "$TanMidLight",
@@ -1961,9 +1972,10 @@
     "\"$flowColor\"": "$TealLight_Hover",
     "\"$flowColorAccessory\"": "$White",
     "\"$dragColorBase\"": "$TealLight_Hover",
-    "\"$dragColorHover\"": "$White",
+    "\"$dragColorHover\"": "$TealBright",
     "\"$iconColor\"": "$TealLight",
     "\"$colorBase\"": "$White",
+    "\"$colorDim\"": "$TealLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$TealMid",
     "\"$DashedLineColor\"": "$TealMidLight",
@@ -1989,9 +2001,10 @@
     "\"$flowColor\"": "$GreenLight",
     "\"$flowColorAccessory\"": "$GreenLight",
     "\"$dragColorBase\"": "$GreenLight",
-    "\"$dragColorHover\"": "$White",
+    "\"$dragColorHover\"": "$GreenLightBright",
     "\"$iconColor\"": "$GreenBright",
     "\"$colorBase\"": "$White",
+    "\"$colorDim\"": "$GreenLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$TealMid",
     "\"$DashedLineColor\"": "$GreenMidLight",
@@ -2016,10 +2029,11 @@
     "\"$paramColorHover\"": "$GreyMid_Hover",
     "\"$flowColor\"": "$Blackish",
     "\"$flowColorAccessory\"": "$Blackish",
-    "\"$dragColorBase\"": "$GreyLight",
-    "\"$dragColorHover\"": "$White",
+    "\"$dragColorBase\"": "$Blackish",
+    "\"$dragColorHover\"": "$Blackish",
     "\"$iconColor\"": "$Blackish",
     "\"$colorBase\"": "$Blackish",
+    "\"$colorDim\"": "$GreyBright",
     "\"$colorHover\"": "$Blackish",
     "\"$borderColor\"": "$GreyDark",
     "\"$DashedLineColor\"": "$GreyLight",
@@ -2043,10 +2057,11 @@
     "\"$paramColorHover\"": "$GreyMid_Hover",
     "\"$flowColor\"": "$Blackish",
     "\"$flowColorAccessory\"": "$Blackish",
-    "\"$dragColorBase\"": "$GreyLight",
-    "\"$dragColorHover\"": "$White",
+    "\"$dragColorBase\"": "$Blackish",
+    "\"$dragColorHover\"": "$Blackish",
     "\"$iconColor\"": "$Blackish",
     "\"$colorBase\"": "$Blackish",
+    "\"$colorDim\"": "$TanLight",
     "\"$colorHover\"": "$Blackish",
     "\"$borderColor\"": "$GreyDark",
     "\"$DashedLineColor\"": "$GreyMidLight",
@@ -2059,6 +2074,34 @@
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyDark",
     "\"$MultipleOutflowsSectionBar\"": "$Blackish",
+    "\"$typeFace\"": "$BaseFont"
+  },
+  "\"@variable-context node_theme_PulseServerDebugNode\"": {
+    "\"$bgColorBase\"": "$GreyDark",
+    "\"$bgColorHover\"": "$GreyDark",
+    "\"$bgColorDark\"": "$Blackish",
+    "\"$bgColorDarkHover\"": "$GreyDark_Hover",
+    "\"$paramColorBase\"": "$GreyMid",
+    "\"$paramColorHover\"": "$GreyMid_Hover",
+    "\"$flowColor\"": "$GreyLight",
+    "\"$flowColorAccessory\"": "$White",
+    "\"$dragColorBase\"": "$GreyLight",
+    "\"$dragColorHover\"": "$GreyBright",
+    "\"$iconColor\"": "$GreyLight",
+    "\"$colorBase\"": "$White",
+    "\"$colorDim\"": "$GreyLight",
+    "\"$colorHover\"": "$White",
+    "\"$borderColor\"": "$Blackish",
+    "\"$DashedLineColor\"": "$GreyMidLight",
+    "\"$DashedLineColorHover\"": "$GreyMidLight_Hover",
+    "\"$LightAccessoryColor\"": "$GreyLight",
+    "\"$LightAccessoryColorHover\"": "$GreyLight_Hover",
+    "\"$borderColorSelected\"": "$TealBright",
+    "\"$PortBackgroundColor\"": "$Black",
+    "\"$PortBorderColor\"": "$GreyDark",
+    "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
+    "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyLight",
+    "\"$MultipleOutflowsSectionBar\"": "$GreyLight",
     "\"$typeFace\"": "$BaseFont"
   },
   "\"@include-mixin node_theme(default)\"": {
@@ -2084,5 +2127,9 @@
   "\"@include-mixin node_theme(IsControlFlowNodeIsYielding)\"": {
     "\"$className\"": "IsControlFlowNode.IsYielding",
     "\"$variables\"": "node_theme_IsControlFlowNodeIsYielding"
+  },
+  "\"@include-mixin node_theme(PulseServerDebugNode)\"": {
+    "\"$className\"": "PulseServerDebugNode",
+    "\"$variables\"": "node_theme_PulseServerDebugNode"
   }
 }

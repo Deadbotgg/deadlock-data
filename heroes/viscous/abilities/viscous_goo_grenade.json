@@ -21,7 +21,7 @@
     "slow_percent": 35,
     "move_speed_slow_percent": 0,
     "max_bounces": 0,
-    "damage": 100,
+    "damage": 90,
     "move_speed_ground_slow": 0,
     "boss_damage_percent": 50,
     "radius": 5,
@@ -57,7 +57,7 @@
         "ability_cooldown": -5.75
       },
       {
-        "damage": 70,
+        "damage": 60,
         "radius": 1
       },
       {

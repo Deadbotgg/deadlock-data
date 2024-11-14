@@ -1,5 +1,5 @@
 {
-  "name": "Health Nova",
+  "name": "Healing Nova",
   "description": "<span class=\"highlight\">Heal</span> yourself and nearby allies. Heals an additional {s:HeroTargetBonus}% per ally.",
   "cost": "1250",
   "tier": "2",
@@ -35,7 +35,7 @@
             "is_negative": false
           },
           "tech_power": {
-            "value": 4,
+            "value": 6,
             "style": null,
             "is_negative": false
           }
@@ -88,7 +88,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 4,
+  "tech_power": 6,
   "weapon_power": 0,
   "total_health_regen": 260,
   "hero_target_bonus": 20,

@@ -59,13 +59,13 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -20
-      },
-      {
         "bonus_move_speed": 2
       },
       {
-        "bonus_fire_rate": 20
+        "ability_cooldown": -30
+      },
+      {
+        "bonus_fire_rate": 30
       }
     ]
   }

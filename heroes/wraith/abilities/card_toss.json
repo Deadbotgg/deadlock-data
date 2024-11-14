@@ -26,8 +26,8 @@
     "non_player_card_resource_scale": 0.35,
     "card_resource_per_bullet_hit": 4,
     "card_resource_per_bullet_crit": 6,
-    "card_resource_per_light_melee": 20,
-    "card_resource_per_heavy_melee": 50,
+    "card_resource_per_light_melee": 10,
+    "card_resource_per_heavy_melee": 25,
     "card_resource_gen_pct_scale": 106,
     "projectile_origin_height_offset": 50
   },
@@ -39,7 +39,7 @@
         "value": 80,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.2,
+          "value": 1.1,
           "type": "spirit"
         }
       },

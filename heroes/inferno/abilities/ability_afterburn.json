@@ -20,10 +20,10 @@
     "weapon_power": 0,
     "build_up_duration": 15,
     "build_up_bullet_percent_per_hit": 10,
+    "crit_buildup": 16,
     "tick_rate": 0.5,
     "burn_duration": 3,
     "dps": 15,
-    "crit_buildup": 16,
     "afterburn_spirit_damage_reduction": 0
   },
   "tooltipDetails": {

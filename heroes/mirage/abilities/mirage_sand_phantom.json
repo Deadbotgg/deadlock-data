@@ -20,11 +20,11 @@
     "weapon_power": 0,
     "whirlwind_evasion_chance": 0,
     "whirlwind_duration": 0,
-    "proc_damage_base": 16,
+    "proc_damage_base": 12,
     "proc_chance": 100,
     "proc_cooldown": 2.5,
     "victim_stack_duration": 4.5,
-    "reveal_duration": 2,
+    "reveal_duration": 3,
     "max_stacks": 8,
     "movement_speed_slow": 0,
     "slow_duration": 0
@@ -34,10 +34,10 @@
     "properties": [
       {
         "key": "ProcDamageBase",
-        "value": 16,
+        "value": 12,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.4,
+          "value": 0.55,
           "type": "spirit"
         }
       },
@@ -59,7 +59,7 @@
       },
       {
         "key": "RevealDuration",
-        "value": 2
+        "value": 3
       }
     ],
     "upgrades": [

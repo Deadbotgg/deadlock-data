@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7,
+    "max_move_speed": 7.3,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -259,10 +259,10 @@
       "key": "ability_nano_pounce"
     },
     {
-      "key": "ability_nano_proximity_ritual"
+      "key": "ability_nano_shadow_step"
     },
     {
-      "key": "ability_nano_ult_shadow"
+      "key": "ability_nano_proximity_ritual"
     }
   ]
 }

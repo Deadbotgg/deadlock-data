@@ -24,8 +24,8 @@
     "move_speed_penalty_per_stack": 20,
     "min_slow_amount": 0,
     "vulnerability_per_stack": 15,
-    "debuff_duration": 16,
-    "slow_duration": 6,
+    "debuff_duration": 13,
+    "slow_duration": 4,
     "max_stacks": 5
   },
   "tooltipDetails": {
@@ -33,12 +33,12 @@
     "basicProperties": [
       {
         "key": "DebuffDuration",
-        "value": 16,
+        "value": 13,
         "type": "duration"
       },
       {
         "key": "SlowDuration",
-        "value": 6,
+        "value": 4,
         "type": "duration"
       }
     ],

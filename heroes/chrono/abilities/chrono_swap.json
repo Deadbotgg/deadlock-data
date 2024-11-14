@@ -3,13 +3,13 @@
   "name": "Paradoxical Swap",
   "stats": {
     "duration": 0,
-    "cooldown": 48,
-    "range": 30,
+    "cooldown": 65,
+    "range": 25,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 30,
+    "cast_range": 25,
     "unit_target_limit": 1,
     "cast_delay": 0.15,
     "channel_time": 0,
@@ -25,8 +25,7 @@
     "swap_total_damage": 125,
     "initial_height": 350,
     "tick_rate": 0.25,
-    "spell_lifesteal": 100,
-    "spell_lifesteal_non_hero": 25
+    "spell_lifesteal": 100
   },
   "tooltipDetails": {
     "description": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>.",
@@ -48,14 +47,14 @@
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cast_range": 15
+        "ability_cooldown": -15
       },
       {
         "swap_total_damage": 100,
         "name": "Swap Damage"
       },
       {
-        "ability_cooldown": -14
+        "ability_cast_range": 20
       }
     ]
   }

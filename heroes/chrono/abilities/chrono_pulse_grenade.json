@@ -18,11 +18,12 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "radius": 7,
+    "radius": 6,
+    "radius_increase_per_pulse": 0,
     "pulse_interval": 0.8,
     "pulse_damage": 45,
     "pulses": 4,
-    "damage_amplification_per_stack": 5,
+    "damage_amplification_per_stack": 6,
     "debuff_duration": 8,
     "slow_percent": 30,
     "movement_slow_duration": 2,
@@ -47,7 +48,8 @@
       {
         "key": "DamageAmplificationPerStack",
         "loc_token_override": "PulseGrenadeDamageAmplificationPerStack",
-        "value": 5
+        "value": 6,
+        "type": "damage"
       }
     ],
     "basicProperties": [
@@ -86,8 +88,7 @@
       },
       {
         "pulse_damage": 45,
-        "name": "Bonus Damage per Stack",
-        "damage_amplification_per_stack": 2
+        "radius_increase_per_pulse": 1
       }
     ]
   }

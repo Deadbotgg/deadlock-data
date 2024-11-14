@@ -10,7 +10,7 @@
   "bot_selectable": false,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7.8,
+    "max_move_speed": 8.1,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,

@@ -27,6 +27,11 @@
             "style": "cooldown",
             "is_negative": false
           },
+          "tech_shield_max_health": {
+            "value": 100,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
           "bonus_health_regen": {
             "value": 4,
             "style": "healing",
@@ -61,5 +66,6 @@
   "weapon_power": 0,
   "imbued_cooldown_reduction": 32,
   "non_imbued_cooldown_reduction": 24,
-  "bonus_health_regen": 4
+  "bonus_health_regen": 4,
+  "tech_shield_max_health": 100
 }

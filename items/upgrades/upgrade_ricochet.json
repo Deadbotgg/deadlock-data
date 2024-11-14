@@ -52,7 +52,7 @@
             "is_negative": false
           },
           "ricochet_radius": {
-            "value": 14,
+            "value": 11,
             "style": "distance",
             "is_negative": false
           }
@@ -84,7 +84,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "ricochet_damage_percent": 60,
-  "ricochet_radius": 14,
+  "ricochet_radius": 11,
   "bonus_clip_size_percent": 35,
   "ricochet_targets_tooltip_only": 2,
   "bonus_health": 150,

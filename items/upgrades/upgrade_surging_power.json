@@ -46,12 +46,12 @@
       {
         "ability_properties": {
           "active_reload_percent": {
-            "value": 50,
+            "value": 75,
             "style": null,
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 37,
+            "value": 34,
             "style": "cooldown",
             "is_negative": false
           },
@@ -79,7 +79,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 37,
+  "ability_cooldown": 34,
   "ability_duration": 4.5,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -97,5 +97,5 @@
   "bonus_move_speed": 2,
   "base_attack_damage_percent": 25,
   "bonus_health": 150,
-  "active_reload_percent": 50
+  "active_reload_percent": 75
 }

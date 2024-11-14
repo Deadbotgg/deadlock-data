@@ -30,8 +30,6 @@
     "disarm_targets": 0,
     "bullet_vulnerbility": 0,
     "debuff_duration": 0,
-    "dot_duration": 0,
-    "dot_dps": 0,
     "slow_percent": 50,
     "slow_duration": 1
   },

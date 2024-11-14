@@ -32,10 +32,12 @@
     "uppercut_buff_on_hit": 0,
     "buff_gun_range_percent": 100,
     "buff_base_weapon_pct": 0,
-    "clip_size_bonus": 0
+    "clip_size_bonus": 0,
+    "fire_rate_slow": 15,
+    "explode_debuff_duration": 5
   },
   "tooltipDetails": {
-    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> where they land. Does not damage allies.",
+    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> and <span class=\"highlight\">fire rate slow</span> where they land. Does not damage allies.",
     "properties": [
       {
         "key": "UppercutDamage",
@@ -61,7 +63,24 @@
         "type": "distance"
       }
     ],
-    "basicProperties": [],
+    "basicProperties": [
+      {
+        "key": "FireRateSlow",
+        "value": 15,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "scale_function": {
+          "value": 0.2,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ExplodeDebuffDuration",
+        "value": 5,
+        "type": "duration"
+      }
+    ],
     "upgrades": [
       {
         "ability_cooldown": -10.5

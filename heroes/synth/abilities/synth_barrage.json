@@ -24,7 +24,7 @@
     "fall_speed_max": 10,
     "air_speed_max": 100,
     "air_drag": 0.3,
-    "radius": 6.5,
+    "radius": 4.5,
     "move_slow_percent": 30,
     "slow_duration": 1.5,
     "amp_percent_per_stack": 6,
@@ -37,7 +37,8 @@
     "properties": [
       {
         "key": "AmpPercentPerStack",
-        "value": 6
+        "value": 6,
+        "type": "damage"
       },
       {
         "key": "DamagePerProjectile",
@@ -50,6 +51,7 @@
       },
       {
         "key": "MoveSlowPercent",
+        "loc_token_override": "SlowPercent",
         "value": 30,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
@@ -82,7 +84,7 @@
       },
       {
         "amp_percent_per_stack": 4,
-        "name": "Amp Per Stack"
+        "radius": 2
       }
     ]
   }

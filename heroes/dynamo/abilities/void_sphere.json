@@ -3,7 +3,7 @@
   "name": "Quantum Entanglement",
   "stats": {
     "duration": 0,
-    "cooldown": 12.5,
+    "cooldown": 15,
     "range": 9,
     "charges": 0,
     "charge_restore_time": 0,
@@ -56,7 +56,8 @@
         "name": "Fire Rate Bonus"
       },
       {
-        "bonus_clip_size_percent": 120
+        "bonus_clip_size_percent": 120,
+        "ability_cooldown": -4
       }
     ]
   }

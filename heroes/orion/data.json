@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": true,
   "starting_stats": {
-    "max_move_speed": 6,
+    "max_move_speed": 6.3,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "reload_speed": 1,
     "weapon_power_scale": 1,
-    "stamina": 3,
+    "stamina": 4,
     "base_health_regen": 2,
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
@@ -203,13 +203,11 @@
     ]
   },
   "spirit_scaling": {
-    "emaxmovespeed": 0.04,
-    "eroundspersecond": 0.00625,
-    "efirerate": 0.25
+    "ebulletdamage": 0.1
   },
   "weapon_stats": {
-    "bullet_damage": 24.75,
-    "rounds_per_second": 2.2222222222222223,
+    "bullet_damage": 30.25,
+    "rounds_per_second": 1.8181818181818181,
     "clip_size": 17,
     "reload_time": 2.35,
     "reload_movespeed": 1,
@@ -225,8 +223,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 55.00000000000001,
-    "sustained_dps": 42.075,
+    "dps": 54.99999999999999,
+    "sustained_dps": 43.95299145299145,
     "weapon_name": "citadel_weapon_archer_set",
     "weapon_description": "citadel_weapon_hero_archer_set",
     "weapon_types": [

@@ -42,7 +42,7 @@
             "is_negative": false
           },
           "max_stacks": {
-            "value": 10,
+            "value": 20,
             "style": null,
             "is_negative": false
           }
@@ -55,7 +55,7 @@
             "is_conditional": false
           },
           "spirit_power_per_soul": {
-            "value": 2,
+            "value": 1,
             "style": "tech_damage",
             "is_conditional": true
           }
@@ -81,6 +81,6 @@
   "bonus_clip_size_percent": 15,
   "bonus_health": 40,
   "ammo_per_soul": 2,
-  "spirit_power_per_soul": 2,
-  "max_stacks": 10
+  "spirit_power_per_soul": 1,
+  "max_stacks": 20
 }

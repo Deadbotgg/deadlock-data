@@ -82,7 +82,7 @@
   "bonus_clip_size": 12,
   "base_attack_damage_percent": 30,
   "bonus_health": 200,
-  "low_health_threshold": 40,
+  "low_health_threshold": 50,
   "fervor_movespeed": 4,
   "fervor_fire_rate": 40,
   "fervor_bullet_resist": 45,

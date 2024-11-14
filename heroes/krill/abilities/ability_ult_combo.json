@@ -3,7 +3,7 @@
   "name": "Combo",
   "stats": {
     "duration": 0,
-    "cooldown": 95,
+    "cooldown": 75,
     "range": 5,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,7 +20,8 @@
     "weapon_power": 0,
     "dps": 60,
     "life_steal_percent_on_hit": 0,
-    "bonus_health_on_kill": 30
+    "bonus_health_on_kill": 30,
+    "bullet_resist": 0
   },
   "tooltipDetails": {
     "description": "Hold the target in place, <span class=\"highlight\">stunning them and dealing damage</span> during the channel. If they die during Combo, you permanently gain max health.",
@@ -50,7 +51,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -28
+        "bullet_resist": 30
       },
       {
         "ability_channel_time": 0.75

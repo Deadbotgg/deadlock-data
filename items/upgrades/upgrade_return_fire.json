@@ -43,7 +43,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 25,
+            "value": 30,
             "style": "cooldown",
             "is_negative": false
           }
@@ -61,7 +61,7 @@
             "is_conditional": false
           },
           "return_fire_bullet_resist": {
-            "value": 25,
+            "value": 20,
             "style": "bullet_armor_up",
             "is_conditional": true
           }
@@ -71,7 +71,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 25,
+  "ability_cooldown": 30,
   "ability_duration": 7,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -87,5 +87,5 @@
   "bullet_damage_reflected_pct": 60,
   "bonus_health": 125,
   "spirit_damage_reflected_pct": 30,
-  "return_fire_bullet_resist": 25
+  "return_fire_bullet_resist": 20
 }

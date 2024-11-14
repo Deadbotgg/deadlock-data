@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 300,
+            "value": 325,
             "style": "health",
             "is_negative": false
           }
@@ -69,5 +69,5 @@
   "health_threshold": 75,
   "bonus_move_speed": 2,
   "base_attack_damage_percent": 25,
-  "bonus_health": 300
+  "bonus_health": 325
 }

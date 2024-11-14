@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": true,
   "starting_stats": {
-    "max_move_speed": 8,
+    "max_move_speed": 8.3,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -29,7 +29,7 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.785714,
+    "modifier_value_base_bullet_damage_from_level": 0.55,
     "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 20,
     "modifier_value_tech_damage_percent": 0,
@@ -204,8 +204,8 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 15,
-    "rounds_per_second": 4.545454545454546,
+    "bullet_damage": 17.68,
+    "rounds_per_second": 3.846153846153846,
     "clip_size": 22,
     "reload_time": 2.914,
     "reload_movespeed": 1,
@@ -213,7 +213,7 @@
     "reload_single": false,
     "bullet_speed": 350,
     "falloff_start_range": 8.66,
-    "falloff_end_range": 17.7165,
+    "falloff_end_range": 25.1969,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
@@ -221,8 +221,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 68.18181818181819,
-    "sustained_dps": 42.55867939128192,
+    "dps": 68,
+    "sustained_dps": 45.04980310400741,
     "weapon_name": "citadel_weapon_hornet_set",
     "weapon_description": "citadel_weapon_hero_hornet_set",
     "weapon_types": [

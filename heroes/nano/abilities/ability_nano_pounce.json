@@ -3,70 +3,56 @@
   "name": "Pounce",
   "stats": {
     "duration": 0,
-    "cooldown": 32,
+    "cooldown": 26,
     "range": 14,
-    "charges": 1,
-    "charge_restore_time": 10,
+    "charges": 2,
+    "charge_restore_time": 8,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 14,
     "unit_target_limit": 1,
     "cast_delay": 0.2,
     "channel_time": 0,
-    "post_cast_duration": 0.25,
-    "cooldown_between_charge": 10,
+    "post_cast_duration": 0.4,
+    "cooldown_between_charge": 8,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "friendly_target_cd": 16,
-    "friendly_recharge_time": 3,
+    "double_pounce_time": 3,
     "move_speed_to_target": 25,
     "min_time_to_target": 0.5,
     "jump_height": 3,
     "slash_range": 3,
     "camera_distance": 250,
     "damage": 60,
-    "instant_reload": 0,
     "slow_duration": 2,
     "slow_percent": 30,
     "fire_rate_slow": 0,
-    "explode_radius": 4,
+    "explode_radius": 6,
     "debuff_duration": 0,
     "active_reload_percent": 0
   },
   "tooltipDetails": {
-    "description": "<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage.</span>  Targetting an enemy will cause <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
+    "description": "<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  <br>You may use <span class=\"highlight\">Pounce on a second target</span> if used within <span class=\"highlight\">{s:DoublePounceTime}s</span>",
     "properties": [
       {
         "key": "Damage",
         "value": 60,
-        "type": "tech_damage",
+        "type": "melee_damage",
         "scale_function": {
-          "value": 0.5,
+          "value": 0.7,
           "type": "spirit"
         }
       },
       {
         "key": "ExplodeRadius",
         "loc_token_override": "PounceDebuffRadius",
-        "value": "4m",
+        "value": "6m",
         "type": "distance",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "basicProperties": [
-      {
-        "key": "FriendlyTargetCD",
-        "loc_token_override": "PounceFriendlyTargetCD",
-        "type": "cooldown",
-        "value": 16
-      },
-      {
-        "key": "FriendlyRechargeTime",
-        "loc_token_override": "PounceFriendlyRechargeTime",
-        "value": 3,
-        "type": "charge_cooldown"
-      },
       {
         "key": "SlowPercent",
         "value": 30,
@@ -87,12 +73,11 @@
       },
       {
         "fire_rate_slow": 30,
-        "name": "Explosion Radius",
-        "explode_radius": 6
+        "active_reload_percent": 20
       },
       {
         "ability_charges": 1,
-        "active_reload_percent": 25
+        "damage": 60
       }
     ]
   }

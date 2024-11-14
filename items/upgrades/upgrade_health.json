@@ -18,7 +18,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 5,
+            "value": 6,
             "style": null,
             "is_negative": false
           }
@@ -50,5 +50,5 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_health": 160,
-  "base_attack_damage_percent": 5
+  "base_attack_damage_percent": 6
 }

@@ -67,7 +67,7 @@
             "is_conditional": true
           },
           "movement_speed_slow": {
-            "value": 50,
+            "value": 40,
             "style": "slow",
             "is_conditional": true
           }
@@ -97,5 +97,5 @@
   "tech_resist": 15,
   "tech_range_multiplier": 15,
   "tech_radius_multiplier": 15,
-  "movement_speed_slow": 50
+  "movement_speed_slow": 40
 }

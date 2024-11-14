@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7,
+    "max_move_speed": 7.3,
     "sprint_speed": 1,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -204,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 10,
+    "bullet_damage": 9,
     "rounds_per_second": 4,
     "clip_size": 29,
     "reload_time": 2.35,
@@ -221,8 +221,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 3,
     "burst_inter_shot_interval": 0.08,
-    "dps": 61.224489795918366,
-    "sustained_dps": 40.921919096895586,
+    "dps": 55.10204081632653,
+    "sustained_dps": 36.829727187206025,
     "weapon_name": "citadel_weapon_lash_set",
     "weapon_description": "citadel_weapon_hero_lash_set",
     "weapon_types": [

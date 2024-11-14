@@ -31,7 +31,7 @@
         },
         "elevated_ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 24,
+            "value": 26,
             "style": null,
             "is_negative": false
           }
@@ -55,6 +55,6 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_clip_size_percent": 24,
+  "bonus_clip_size_percent": 26,
   "base_attack_damage_percent": 15
 }

@@ -21,8 +21,8 @@
     "targeting_cone_angle": 30,
     "enemy_slow_pct": 0,
     "enemy_slow_duration": 0,
-    "heal_pct_vs_non_heroes": 30,
-    "heal_pct_vs_heroes": 80,
+    "heal_pct_vs_non_heroes": 25,
+    "heal_pct_vs_heroes": 70,
     "damage": 65,
     "fire_rate_slow": 0
   },
@@ -40,7 +40,7 @@
       },
       {
         "key": "HealPctVsHeroes",
-        "value": 80,
+        "value": 70,
         "type": "healing"
       },
       {
@@ -56,7 +56,7 @@
     "basicProperties": [
       {
         "key": "HealPctVsNonHeroes",
-        "value": 30,
+        "value": 25,
         "type": "healing"
       },
       {

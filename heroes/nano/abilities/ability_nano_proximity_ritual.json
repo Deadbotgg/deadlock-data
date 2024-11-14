@@ -1,9 +1,9 @@
 {
   "key": "ability_nano_proximity_ritual",
-  "name": "Perched Predator",
+  "name": "Ava",
   "stats": {
     "duration": 0,
-    "cooldown": 60,
+    "cooldown": 80,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,31 +18,29 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "recall_cooldown": 8,
-    "recall_range": 5,
-    "min_resummon_cooldown": 5,
-    "statue_health": 200,
+    "recall_cooldown": 5,
+    "statue_health": 500,
     "statue_held_regen": 40,
-    "inactive_radius": 20,
-    "active_radius": 20,
+    "active_radius": 25,
     "statue_lifetime": 60,
     "statue_arm_time": 1,
-    "cat_activate_duration": 1.5,
+    "cat_activate_duration": 2,
     "tick_interval": 0.1,
     "damage_tick": 0.5,
-    "dps": 30,
+    "dps": 40,
     "heal_amp_receive_penalty_percent": -20,
     "heal_amp_regen_penalty_percent": -20,
-    "target_lifesteal": 30,
-    "target_lifesteal_non_hero": 10,
+    "target_lifesteal": 15,
+    "target_lifesteal_non_hero": 5,
+    "victim_damage_reduction": 0,
     "damage_amplification": 0
   },
   "tooltipDetails": {
-    "description": "Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and give health to {s:hero_name} when damaged by any ally.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled.",
+    "description": "Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and <span class=\"highlight\">heal Ava and {s:hero_name}</span> when damaged.  <span class=\"highlight\">Ava is only active when {s:hero_name} is nearby</span>. <br>Press <span class=\"highlight\">[3]</span> to recall Ava <br><span class=\"highlight\">[Alt-Cast]</span> to recall and warp to Ava <br>The further away from Ava the longer the recall/warp will take. Ava regains health while recalled.",
     "properties": [
       {
         "key": "DPS",
-        "value": 30,
+        "value": 40,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.419328,
@@ -51,11 +49,21 @@
       },
       {
         "key": "StatueHealth",
-        "value": 200,
+        "value": 500,
         "type": "health",
         "m_e_display_type": "EMaxHealth",
         "scale_function": {
-          "value": 2,
+          "value": 3,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ActiveRadius",
+        "loc_token_override": "StatueActivateRange",
+        "value": "25m",
+        "type": "distance",
+        "scale_function": {
+          "value": 0.3,
           "type": "spirit"
         }
       }
@@ -64,25 +72,8 @@
       {
         "key": "RecallCooldown",
         "loc_token_override": "AvaRecallCooldown",
-        "value": 8
-      },
-      {
-        "key": "ActiveRadius",
-        "value": "20m",
-        "type": "distance"
-      },
-      {
-        "key": "TargetLifesteal",
-        "loc_token_override": "StatueLifesteal",
-        "value": 30,
-        "type": "healing",
-        "m_e_display_type": "ETechLifesteal"
-      },
-      {
-        "key": "HealAmpReceivePenaltyPercent",
-        "value": -20,
-        "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "value": 5,
+        "type": "cooldown"
       },
       {
         "key": "StatueLifetime",
@@ -93,15 +84,41 @@
         "key": "StatueHeldRegen",
         "value": 40,
         "type": "healing"
+      },
+      {
+        "key": "TargetLifesteal",
+        "loc_token_override": "StatueLifesteal",
+        "value": 15,
+        "type": "healing",
+        "m_e_display_type": "ETechLifesteal"
+      },
+      {
+        "key": "HealAmpReceivePenaltyPercent",
+        "value": -20,
+        "type": "damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "VictimDamageReduction",
+        "loc_token_override": "StatueVictimDamageReduction",
+        "value": 0,
+        "type": "damage"
+      },
+      {
+        "key": "DamageAmplification",
+        "type": "damage",
+        "value": 0
       }
     ],
     "upgrades": [
       {
-        "statue_health": 200,
-        "name": "Ava (Normalized)"
+        "target_lifesteal": 21,
+        "target_lifesteal_non_hero": 7
       },
       {
-        "dps": 30
+        "dps": 40,
+        "victim_damage_reduction": -20
       },
       {
         "damage_amplification": 35,

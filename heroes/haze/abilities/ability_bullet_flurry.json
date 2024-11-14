@@ -19,41 +19,43 @@
     "tech_power": 0,
     "weapon_power": 0,
     "radius": 15,
-    "targets_per_tick": 1,
-    "bonus_fire_rate": 15,
+    "targets_per_tick": 2,
     "weapon_damage_bonus": 2,
     "evasion_percent": 25,
     "override_bullet_radius": 10
   },
   "tooltipDetails": {
-    "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.  During the flurry, {s:hero_name} gains a fire rate bonus and will evade some of the bullets shot at her.",
+    "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.  During the flurry, {s:hero_name} will evade some of the bullets shot at her.",
     "properties": [
       {
-        "key": "BonusFireRate",
-        "value": 15,
-        "type": "fire_rate",
-        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
-      },
-      {
         "key": "TargetsPerTick",
-        "value": 1,
-        "type": "radius"
-      }
-    ],
-    "basicProperties": [
-      {
-        "key": "WeaponDamageBonus",
         "value": 2,
-        "type": "bullet_damage",
-        "m_e_display_units": "EDisplayUnit_Normal",
-        "m_e_display_type": "EBaseWeaponDamageIncrease",
-        "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "type": "radius"
       },
       {
         "key": "EvasionPercent",
         "value": 25
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ChannelMoveSpeed",
+        "value": "4m",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "type": "move_speed",
+        "m_b_can_set_token_override": true,
+        "loc_token_override": "DanceMoveSpeed"
+      },
+      {
+        "key": "WeaponDamageBonus",
+        "loc_token_override": "BonusWeaponDamage",
+        "value": 2,
+        "type": "bullet_damage",
+        "m_e_stat_type": "EBulletDamage",
+        "m_e_display_units": "EDisplayUnit_Normal",
+        "m_e_display_type": "EBaseWeaponDamageIncrease",
+        "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "upgrades": [
@@ -64,7 +66,8 @@
         "ability_cooldown": -38
       },
       {
-        "targets_per_tick": 1
+        "evasion_percent": 40,
+        "channel_move_speed": 2
       }
     ]
   }

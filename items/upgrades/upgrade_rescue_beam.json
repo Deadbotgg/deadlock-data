@@ -51,7 +51,7 @@
             "is_negative": false
           },
           "ability_cast_range": {
-            "value": 36,
+            "value": 32,
             "style": "range",
             "is_negative": false
           },
@@ -81,7 +81,7 @@
   "disabled": false,
   "ability_cooldown": 26,
   "ability_duration": 0,
-  "ability_cast_range": 36,
+  "ability_cast_range": 32,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
   "ability_channel_time": 2.5,

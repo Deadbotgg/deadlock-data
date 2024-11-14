@@ -449,7 +449,7 @@
     ]
   },
   "PulseServerDebugNode": {
-    "className": "PulseServerDebugNode",
+    "className": "node_theme PulseServerDebugNode",
     "children": [
       {
         "inlinePreset": "BaseFlowLayouts"

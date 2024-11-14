@@ -34,7 +34,7 @@
         "value": 23,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.39312,
+          "value": 0.34,
           "type": "spirit"
         }
       },
