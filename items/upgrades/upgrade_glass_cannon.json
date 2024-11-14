@@ -1,7 +1,7 @@
 {
   "name": "Glass Cannon",
-  "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
-  "cost": "6200",
+  "description": "Each hero kill grants <span class=\"highlight\">permanent +{s:BonusClipPerKill} ammo</span> (up to max of +{s:MaxClipBonus}).",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -19,7 +19,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 70,
+            "value": 75,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -28,13 +28,8 @@
             "style": null,
             "is_negative": false
           },
-          "bonus_move_speed": {
-            "value": 1,
-            "style": "move_speed",
-            "is_negative": false
-          },
           "max_health_loss_percent": {
-            "value": -12,
+            "value": -15,
             "style": "health",
             "is_negative": true
           }
@@ -49,13 +44,13 @@
         "ability_properties": {},
         "elevated_ability_properties": {},
         "important_ability_properties": {
-          "weapon_power_per_kill": {
-            "value": 10,
+          "bonus_clip_per_kill": {
+            "value": 2,
             "style": null,
-            "is_conditional": true
+            "is_conditional": false
           }
         },
-        "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack."
+        "description": "Each hero kill grants <span class=\"highlight\">permanent +{s:BonusClipPerKill} ammo</span> (up to max of +{s:MaxClipBonus})."
       }
     ]
   },
@@ -73,12 +68,9 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 70,
-  "max_health_loss_percent": -12,
+  "base_attack_damage_percent": 75,
+  "max_health_loss_percent": -15,
   "bonus_clip_per_kill": 2,
   "max_clip_bonus": 14,
-  "bonus_fire_rate": 10,
-  "bonus_move_speed": 1,
-  "weapon_power_per_kill": 10,
-  "max_stacks": 7
+  "bonus_fire_rate": 10
 }

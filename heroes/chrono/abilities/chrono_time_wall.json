@@ -1,12 +1,12 @@
 {
   "key": "citadel_ability_chrono_time_wall",
-  "name": "Time Wall",
+  "name": "citadel_ability_chrono_time_wall",
   "stats": {
-    "duration": 6,
-    "cooldown": 25,
+    "duration": 7,
+    "cooldown": 35,
     "range": 200,
-    "charges": 0,
-    "charge_restore_time": 0,
+    "charges": 1,
+    "charge_restore_time": 8,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 200,
@@ -14,7 +14,7 @@
     "cast_delay": 0.2,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 0,
+    "cooldown_between_charge": 8,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
@@ -23,27 +23,27 @@
     "time_wall_depth": 0.5,
     "time_wall_depth_visual_scale": 0.16,
     "time_wall_time_scale": 0.0001,
-    "time_scale_duration": 0.6,
+    "time_scale_duration": 1,
     "friendly_bullet_damage_bonus": 20,
     "friendly_bullet_time_scale": 3,
     "movement_slow_pct": 80,
-    "damage_pct_per_wall_hit": 0,
+    "damage_pct_per_wall_hit": 10,
     "damage_tick_rate": 1.5,
     "aura_effect_duration": 1.25,
     "time_wall_formation_time": 0.5,
     "debuff_duration": 0
   },
   "tooltipDetails": {
-    "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",
+    "description": "citadel_ability_chrono_time_wall_desc",
     "properties": [
       {
         "key": "TimeScaleDuration",
-        "value": 0.6,
+        "value": 1,
         "type": "duration"
       },
       {
         "key": "DamagePctPerWallHit",
-        "value": 0,
+        "value": 10,
         "m_e_display_type": "ETechPower",
         "type": "tech_damage"
       },
@@ -67,15 +67,13 @@
     "upgrades": [
       {
         "time_wall_width": 2,
-        "name": "Wall Height",
         "time_wall_height": 1
       },
       {
-        "damage_pct_per_wall_hit": 10,
-        "name": "Max Health Damage"
+        "ability_charges": 1
       },
       {
-        "debuff_duration": 2.5
+        "debuff_duration": 3.5
       }
     ]
   }

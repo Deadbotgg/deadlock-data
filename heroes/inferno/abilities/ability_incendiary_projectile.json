@@ -3,7 +3,7 @@
   "name": "Catalyst",
   "stats": {
     "duration": 0,
-    "cooldown": 25,
+    "cooldown": 24,
     "range": 20,
     "charges": 1,
     "charge_restore_time": 6,
@@ -21,14 +21,14 @@
     "tick_rate": 0.5,
     "flame_height_off_ground": 50,
     "particle_radius_multiplier": 1.15,
-    "damage_amplification": 20,
+    "damage_amplification": 30,
     "debuff_duration": 8,
     "damage": 50,
     "lifesteal_percent_hero": 0,
     "growth_per_meter": 0.5,
     "initial_width": 1,
     "slow_duration": 4,
-    "slow_percent": 35,
+    "slow_percent": 40,
     "heal_amp_receive_penalty_percent": 0,
     "heal_amp_regen_penalty_percent": 0
   },
@@ -37,8 +37,7 @@
     "properties": [
       {
         "key": "DamageAmplification",
-        "value": 20,
-        "type": "damage"
+        "value": 30
       },
       {
         "key": "Damage",
@@ -51,7 +50,7 @@
       },
       {
         "key": "SlowPercent",
-        "value": 35,
+        "value": 40,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -74,10 +73,10 @@
         "ability_charges": 1
       },
       {
-        "lifesteal_percent_hero": 15
+        "lifesteal_percent_hero": 20
       },
       {
-        "damage_amplification": 20,
+        "damage_amplification": 10,
         "heal_amp_receive_penalty_percent": -40,
         "heal_amp_regen_penalty_percent": -40
       }

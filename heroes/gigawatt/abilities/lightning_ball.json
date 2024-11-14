@@ -3,7 +3,7 @@
   "name": "Lightning Ball",
   "stats": {
     "duration": 0,
-    "cooldown": 26,
+    "cooldown": 22,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 8,
@@ -18,11 +18,11 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "shock_radius": 3.5,
+    "shock_radius": 4,
     "dps": 80,
     "tick_rate": 0.1,
     "min_shock_duration": 0.5,
-    "max_lifetime": 5,
+    "max_lifetime": 4,
     "hit_speed": 80,
     "slow_percent": 0,
     "boss_damage_percent": 50
@@ -41,14 +41,14 @@
       },
       {
         "key": "ShockRadius",
-        "value": "3.5m",
+        "value": "4m",
         "type": "distance"
       }
     ],
     "basicProperties": [
       {
         "key": "MaxLifetime",
-        "value": 5,
+        "value": 4,
         "type": "duration"
       }
     ],
@@ -57,11 +57,10 @@
         "ability_charges": 1
       },
       {
-        "slow_percent": 35
+        "slow_percent": 40
       },
       {
-        "dps": 70,
-        "shock_radius": 1
+        "dps": 70
       }
     ]
   }

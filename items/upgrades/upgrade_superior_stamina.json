@@ -25,12 +25,12 @@
       {
         "ability_properties": {
           "bonus_fire_rate": {
-            "value": 7,
+            "value": 10,
             "style": null,
             "is_negative": false
           },
           "tech_power": {
-            "value": 12,
+            "value": 8,
             "style": "tech_damage",
             "is_negative": false
           }
@@ -42,12 +42,12 @@
             "is_negative": false
           },
           "stamina_cooldown_reduction": {
-            "value": 25,
+            "value": 20,
             "style": null,
             "is_negative": false
           },
           "air_move_increase_percent": {
-            "value": 30,
+            "value": 50,
             "style": null,
             "is_negative": false
           }
@@ -77,10 +77,10 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 12,
+  "tech_power": 8,
   "weapon_power": 0,
   "stamina": 3,
-  "stamina_cooldown_reduction": 25,
-  "bonus_fire_rate": 7,
-  "air_move_increase_percent": 30
+  "stamina_cooldown_reduction": 20,
+  "bonus_fire_rate": 10,
+  "air_move_increase_percent": 50
 }

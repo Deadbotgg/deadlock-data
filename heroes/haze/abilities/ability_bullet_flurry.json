@@ -2,17 +2,17 @@
   "key": "ability_bullet_flurry",
   "name": "Bullet Dance",
   "stats": {
-    "duration": 3,
-    "cooldown": 138,
+    "duration": 0,
+    "cooldown": 130,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
-    "channel_duration": 0,
+    "channel_duration": 3,
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
     "cast_delay": 0.4,
-    "channel_time": 0,
+    "channel_time": 3,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": 4,
@@ -20,57 +20,50 @@
     "weapon_power": 0,
     "radius": 15,
     "targets_per_tick": 1,
-    "bonus_fire_rate": 30,
-    "weapon_damage_bonus": 5,
-    "evasion_percent": 0,
-    "override_bullet_radius": 10
+    "bonus_fire_rate": 25,
+    "weapon_damage_bonus": 0,
+    "evasion_percent": 50
   },
   "tooltipDetails": {
-    "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.",
+    "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.  During the flurry, {s:hero_name} gains a fire rate bonus and will evade some of the bullets shot at her.",
     "properties": [
       {
         "key": "BonusFireRate",
-        "value": 30,
-        "m_e_display_type": "EFireRate",
+        "value": 25,
+        "type": "bullet_damage",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "WeaponDamageBonus",
-        "loc_token_override": "BonusWeaponDamage",
-        "value": 5,
-        "type": "bullet_damage",
-        "m_e_stat_type": "EBulletDamage",
-        "m_e_display_units": "EDisplayUnit_Normal",
-        "m_e_display_type": "EBaseWeaponDamageIncrease",
-        "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "key": "TargetsPerTick",
+        "value": 1,
+        "type": "radius"
       }
     ],
     "basicProperties": [
       {
-        "key": "EvasionPercent",
-        "value": 0
+        "key": "WeaponDamageBonus",
+        "value": 0,
+        "type": "bullet_damage",
+        "m_e_display_units": "EDisplayUnit_Normal",
+        "m_e_display_type": "EBaseWeaponDamageIncrease",
+        "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "ChannelMoveSpeed",
-        "value": "4m",
-        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
-        "type": "move_speed",
-        "m_b_can_set_token_override": true,
-        "loc_token_override": "DanceMoveSpeed"
+        "key": "EvasionPercent",
+        "value": 50
       }
     ],
     "upgrades": [
       {
-        "weapon_damage_bonus": 7
+        "weapon_damage_bonus": 6
       },
       {
-        "ability_cooldown": -38
+        "ability_cooldown": -40
       },
       {
-        "evasion_percent": 40,
-        "channel_move_speed": 2
+        "targets_per_tick": 1
       }
     ]
   }

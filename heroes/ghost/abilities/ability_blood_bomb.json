@@ -3,7 +3,7 @@
   "name": "Essence Bomb",
   "stats": {
     "duration": 0,
-    "cooldown": 10.5,
+    "cooldown": 10,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -30,7 +30,7 @@
     "blood_spill_duration": 0
   },
   "tooltipDetails": {
-    "description": "Bombs leave a toxic mess on the ground, dealing <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> of the original <span class=\"highlight\">damage per second</span>, for <span class=\"highlight\">{s:BloodSpillDuration}s</span>.",
+    "description": "ability_blood_bomb_t3_desc",
     "properties": [
       {
         "key": "BloodSpillDuration",
@@ -51,7 +51,7 @@
         "damage": 60
       },
       {
-        "blood_spill_dps_percent": 26,
+        "blood_spill_dps_percent": 22,
         "name": "Toxic Mess Duration",
         "blood_spill_duration": 6
       }

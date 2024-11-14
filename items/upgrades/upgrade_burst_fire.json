@@ -25,16 +25,6 @@
             "value": 50,
             "style": "movement_speed",
             "is_negative": false
-          },
-          "slow_resistance_percent": {
-            "value": 20,
-            "style": "move_speed",
-            "is_negative": false
-          },
-          "bonus_health": {
-            "value": 70,
-            "style": "health",
-            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -46,7 +36,7 @@
       {
         "ability_properties": {
           "ability_duration": {
-            "value": 4,
+            "value": 3,
             "style": "duration",
             "is_negative": false
           },
@@ -74,8 +64,8 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 8.5,
-  "ability_duration": 4,
+  "ability_cooldown": 8,
+  "ability_duration": 3,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
@@ -90,7 +80,5 @@
   "bonus_fire_rate": 12,
   "activated_fire_rate": 30,
   "slide_scale": 50,
-  "slow_resistance_percent": 20,
-  "bonus_move_speed": 2,
-  "bonus_health": 70
+  "bonus_move_speed": 2
 }

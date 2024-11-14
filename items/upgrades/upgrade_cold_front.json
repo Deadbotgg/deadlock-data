@@ -1,6 +1,6 @@
 {
   "name": "Cold Front",
-  "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes.",
+  "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.",
   "cost": "1250",
   "tier": "2",
   "activation": "InstantCast",
@@ -45,7 +45,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 28,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           }
@@ -53,7 +53,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "damage": {
-            "value": 75,
+            "value": 100,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -63,12 +63,12 @@
             "is_conditional": true
           }
         },
-        "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes."
+        "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 28,
+  "ability_cooldown": 32,
   "ability_duration": 3,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -85,7 +85,6 @@
   "start_radius": 2,
   "end_radius": 14,
   "slow_percent": 40,
-  "damage": 75,
-  "n_p_c_damage_mult": 2,
+  "damage": 100,
   "tech_resist": 10
 }

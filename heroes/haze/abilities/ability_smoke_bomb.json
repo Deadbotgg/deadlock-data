@@ -3,7 +3,7 @@
   "name": "Smoke Bomb",
   "stats": {
     "duration": 8,
-    "cooldown": 37,
+    "cooldown": 35,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -22,7 +22,7 @@
     "invis_cancel_on_damage": 0,
     "invis_fade_to_duration": 1.5,
     "invis_move_speed_mod": 2,
-    "spotted_radius": 18,
+    "spotted_radius": 20,
     "reveal_on_damage_duration": 1.5,
     "reveal_on_spotted_duration": 0.5,
     "full_invis_distance": 50,
@@ -46,7 +46,7 @@
     "basicProperties": [
       {
         "key": "SpottedRadius",
-        "value": "18m",
+        "value": "20m",
         "type": "distance",
         "m_e_display_type": "ETechRadius"
       },
@@ -60,7 +60,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
         "invis_move_speed_mod": 6

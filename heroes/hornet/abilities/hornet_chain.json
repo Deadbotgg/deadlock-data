@@ -3,7 +3,7 @@
   "name": "Stake",
   "stats": {
     "duration": 0,
-    "cooldown": 42,
+    "cooldown": 40,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,9 +20,9 @@
     "weapon_power": 0,
     "damage": 60,
     "slow_percent": 30,
-    "chain_length": 8,
+    "chain_length": 6,
     "capture_radius": 8,
-    "chain_duration": 2,
+    "chain_duration": 2.5,
     "has_disarm": 0,
     "enemy_drag_speed": 1000
   },
@@ -31,7 +31,7 @@
     "properties": [
       {
         "key": "ChainDuration",
-        "value": 2,
+        "value": 2.5,
         "type": "duration"
       },
       {
@@ -52,7 +52,7 @@
     "basicProperties": [
       {
         "key": "ChainLength",
-        "value": "8m",
+        "value": "6m",
         "m_e_display_type": "ETechRadius",
         "type": "distance"
       },
@@ -64,10 +64,10 @@
     ],
     "upgrades": [
       {
-        "chain_duration": 0.5
+        "chain_duration": 1
       },
       {
-        "ability_cooldown": -19
+        "ability_cooldown": -20
       },
       {
         "has_disarm": 1

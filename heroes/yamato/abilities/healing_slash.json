@@ -3,7 +3,7 @@
   "name": "Crimson Slash",
   "stats": {
     "duration": 0,
-    "cooldown": 11.5,
+    "cooldown": 11,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -19,11 +19,11 @@
     "tech_power": 0,
     "weapon_power": 0,
     "damage": 60,
-    "radius": 13,
+    "radius": 12,
     "heal_fixed_health": 70,
     "heal_max_health": 0,
     "debuff_duration": 4,
-    "fire_rate_slow": 20
+    "fire_rate_slow": 30
   },
   "tooltipDetails": {
     "description": "Slash enemies in front of you, <span class=\"highlight\">damaging them and slowing their fire rate</span>. If any enemy heroes are hit, you <span class=\"highlight\">heal</span>.",
@@ -48,7 +48,7 @@
       },
       {
         "key": "FireRateSlow",
-        "value": 20,
+        "value": 30,
         "type": "bullet_damage",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -70,7 +70,7 @@
         "name": "Heal on hero hit"
       },
       {
-        "ability_cooldown": -5.75
+        "ability_cooldown": -6
       }
     ]
   }

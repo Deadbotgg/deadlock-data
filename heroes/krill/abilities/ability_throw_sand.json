@@ -3,13 +3,13 @@
   "name": "Sand Blast",
   "stats": {
     "duration": 3.5,
-    "cooldown": 42,
-    "range": 35,
+    "cooldown": 40,
+    "range": 30,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 35,
+    "cast_range": 30,
     "unit_target_limit": 1,
     "cast_delay": 0.15,
     "channel_time": 0,
@@ -45,10 +45,10 @@
     ],
     "upgrades": [
       {
-        "ability_duration": 1
+        "ability_duration": 1.5
       },
       {
-        "ability_cooldown": -19
+        "ability_cooldown": -20
       },
       {
         "slow_percent": 50

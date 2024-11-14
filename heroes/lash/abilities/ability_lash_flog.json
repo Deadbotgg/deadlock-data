@@ -3,7 +3,7 @@
   "name": "Flog",
   "stats": {
     "duration": 0,
-    "cooldown": 26,
+    "cooldown": 30,
     "range": 25,
     "charges": 0,
     "charge_restore_time": 0,
@@ -21,13 +21,12 @@
     "targeting_cone_angle": 30,
     "enemy_slow_pct": 0,
     "enemy_slow_duration": 0,
-    "heal_pct_vs_non_heroes": 25,
-    "heal_pct_vs_heroes": 70,
-    "damage": 65,
-    "fire_rate_slow": 0
+    "heal_pct_vs_non_heroes": 30,
+    "heal_pct_vs_heroes": 80,
+    "damage": 65
   },
   "tooltipDetails": {
-    "description": "Strike enemies with your whip, <span class=\"highlight\">stealing life</span> from them.",
+    "description": "ability_lash_flog_desc",
     "properties": [
       {
         "key": "Damage",
@@ -40,7 +39,7 @@
       },
       {
         "key": "HealPctVsHeroes",
-        "value": 70,
+        "value": 80,
         "type": "healing"
       },
       {
@@ -56,7 +55,7 @@
     "basicProperties": [
       {
         "key": "HealPctVsNonHeroes",
-        "value": 25,
+        "value": 30,
         "type": "healing"
       },
       {
@@ -73,15 +72,13 @@
     "upgrades": [
       {
         "enemy_slow_duration": 3,
-        "name": "Enemy Movement Slow",
         "enemy_slow_pct": 35
       },
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
-        "damage": 105,
-        "fire_rate_slow": 35
+        "damage": 105
       }
     ]
   }

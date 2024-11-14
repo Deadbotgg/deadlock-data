@@ -1,7 +1,7 @@
 {
   "name": "Crippling Headshot",
   "description": "",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "debuff_duration": {
-            "value": 4,
+            "value": 5,
             "style": "duration",
             "is_negative": false
           }
@@ -82,5 +82,5 @@
   "bullet_lifesteal_percent": 10,
   "bullet_resist_reduction": 24,
   "magic_resist_reduction": 24,
-  "debuff_duration": 4
+  "debuff_duration": 5
 }

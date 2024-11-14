@@ -1,9 +1,9 @@
 {
   "key": "rutger_rocket",
-  "name": "Rocket Launcher",
+  "name": "rutger_rocket",
   "stats": {
     "duration": 0,
-    "cooldown": 17,
+    "cooldown": 16,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 1,

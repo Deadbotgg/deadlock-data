@@ -1,7 +1,7 @@
 {
   "name": "Escalating Exposure",
   "description": "Dealing <span class=\"highlight\">Spirit Damage</span> applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your <span class=\"highlight\">Spirit Damage</span> to the target.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Tech",
@@ -49,18 +49,13 @@
     "Passive": [
       {
         "ability_properties": {
-          "max_stacks": {
-            "value": 20,
-            "style": null,
-            "is_negative": false
-          },
           "ability_duration": {
-            "value": 12,
+            "value": 15,
             "style": "duration",
             "is_negative": false
           },
           "proc_cooldown": {
-            "value": 0,
+            "value": 1,
             "style": null,
             "is_negative": false
           }
@@ -68,7 +63,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "magic_increase_per_stack": {
-            "value": 4,
+            "value": 6,
             "style": "tech_armor_down",
             "is_conditional": false
           }
@@ -79,7 +74,7 @@
   },
   "disabled": false,
   "ability_cooldown": 0,
-  "ability_duration": 12,
+  "ability_duration": 15,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
@@ -91,10 +86,9 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "proc_cooldown": 0.7,
-  "magic_increase_per_stack": 4,
+  "proc_cooldown": 1,
+  "magic_increase_per_stack": 6,
   "tech_resist": 15,
   "bonus_health": 125,
-  "tech_armor_damage_reduction": -12,
-  "max_stacks": 20
+  "tech_armor_damage_reduction": -12
 }

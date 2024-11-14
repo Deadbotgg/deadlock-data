@@ -3,7 +3,7 @@
   "name": "Kudzu Bomb",
   "stats": {
     "duration": 4,
-    "cooldown": 32,
+    "cooldown": 30,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 8,
@@ -21,7 +21,7 @@
     "boss_damage_percent": 50,
     "tick_rate": 0.25,
     "radius": 6,
-    "height": 2,
+    "height": 3,
     "dps": 60,
     "slow_percent": 35
   },
@@ -54,8 +54,7 @@
         "ability_duration": 2
       },
       {
-        "dps": 50,
-        "radius": 2
+        "dps": 60
       }
     ]
   }

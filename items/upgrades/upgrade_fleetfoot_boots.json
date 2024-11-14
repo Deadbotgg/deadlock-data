@@ -18,7 +18,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 90,
+            "value": 75,
             "style": "health",
             "is_negative": false
           },
@@ -38,7 +38,7 @@
         "ability_properties": {},
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting."
+        "description": "Removes the <span class=\"highlight\">Movement Speed</span> penalty while shooting."
       }
     ],
     "Active": [
@@ -50,7 +50,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 19,
+            "value": 22,
             "style": "cooldown",
             "is_negative": false
           }
@@ -58,7 +58,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "active_bonus_move_speed": {
-            "value": 3,
+            "value": 4,
             "style": "move_speed",
             "is_conditional": true
           },
@@ -68,12 +68,12 @@
             "is_conditional": true
           }
         },
-        "description": "Gain bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Ammo</span>."
+        "description": "Gain bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Ammo</span>."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 19,
+  "ability_cooldown": 22,
   "ability_duration": 4,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -88,9 +88,9 @@
   "weapon_power": 0,
   "move_while_shooting_speed_penalty_reduction_percent": 100,
   "move_while_zoomed_speed_penalty_reduction_percent": 100,
-  "active_bonus_move_speed": 3,
+  "active_bonus_move_speed": 4,
   "bonus_clip_size_percent": 30,
   "bonus_clip_duration": 10,
-  "bonus_health": 90,
+  "bonus_health": 75,
   "slide_scale": 25
 }

@@ -44,7 +44,7 @@
             "is_negative": false
           },
           "ability_duration": {
-            "value": 7,
+            "value": 8,
             "style": "duration",
             "is_negative": false
           }
@@ -52,7 +52,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bonus_fire_rate": {
-            "value": 20,
+            "value": 30,
             "style": "fireRate",
             "is_conditional": true
           },
@@ -67,8 +67,8 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 10.5,
-  "ability_duration": 7,
+  "ability_cooldown": 10,
+  "ability_duration": 8,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
@@ -80,8 +80,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_fire_rate": 20,
+  "bonus_fire_rate": 30,
   "bonus_clip_size": 5,
   "bonus_health": 100,
-  "bonus_health_regen": 1.5
+  "bonus_health_regen": 1
 }

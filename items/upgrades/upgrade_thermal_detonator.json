@@ -19,13 +19,8 @@
     "Innate": [
       {
         "ability_properties": {
-          "bonus_sprint_speed": {
-            "value": 1,
-            "style": "move_speed",
-            "is_negative": false
-          },
           "bullet_shield_max_health": {
-            "value": 225,
+            "value": 175,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -35,7 +30,7 @@
             "is_negative": false
           },
           "tech_power": {
-            "value": 11,
+            "value": 7,
             "style": null,
             "is_negative": false
           }
@@ -72,7 +67,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "d_p_s": {
-            "value": 55,
+            "value": 45,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -98,17 +93,16 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 11,
+  "tech_power": 7,
   "weapon_power": 0,
-  "d_p_s": 55,
-  "d_p_s_increase": 7,
+  "d_p_s": 45,
+  "d_p_s_increase": 8,
   "d_p_s_max": 95,
   "non_hero_reduction_percent": 40,
   "radius": 10,
   "height_off_ground": 50,
   "tick_rate": 0.5,
   "bonus_base_weapon_damage_taken": 50,
-  "bullet_shield_max_health": 225,
-  "base_attack_damage_percent": 14,
-  "bonus_sprint_speed": 1
+  "bullet_shield_max_health": 175,
+  "base_attack_damage_percent": 14
 }

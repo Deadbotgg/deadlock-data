@@ -1,7 +1,7 @@
 {
   "name": "Low HP Frenzy",
   "description": null,
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -62,8 +62,8 @@
   "bullet_lifesteal_percent": 25,
   "radius": 15,
   "bullet_armor_reduction": -40,
-  "low_health_percent_threshold": 45,
-  "low_health_life_steal_percent": 45,
+  "low_health_percent_threshold": 40,
+  "low_health_life_steal_percent": 50,
   "kill_bonus_move_speed_per_stack": 2,
   "max_kill_bonus_move_speed_stack": 3
 }

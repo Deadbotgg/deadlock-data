@@ -3,7 +3,7 @@
   "name": "Charged Shot",
   "stats": {
     "duration": 0,
-    "cooldown": 17,
+    "cooldown": 16,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 4,
@@ -21,7 +21,7 @@
     "tech_cleave_expire_time": 0.2,
     "fall_speed_max": 60,
     "air_speed_max": 150,
-    "damage": 100,
+    "damage": 105,
     "camera_height_offset": 20,
     "camera_horizontal_offset": 15,
     "boss_damage_percent": 25
@@ -31,7 +31,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 100,
+        "value": 105,
         "type": "tech_damage",
         "scale_function": {
           "value": 1.6,
@@ -44,7 +44,7 @@
         "ability_charges": 1
       },
       {
-        "damage": 65
+        "damage": 70
       },
       {
         "ability_cooldown_between_charge": -3,

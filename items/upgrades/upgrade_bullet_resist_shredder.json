@@ -26,9 +26,9 @@
             "style": "health",
             "is_negative": false
           },
-          "melee_resist_percent": {
-            "value": 15,
-            "style": null,
+          "bullet_resist": {
+            "value": 5,
+            "style": "bullet_armor_up",
             "is_negative": false
           }
         },
@@ -74,5 +74,5 @@
   "weapon_power": 0,
   "bullet_armor_reduction": -12,
   "bonus_health": 100,
-  "melee_resist_percent": 15
+  "bullet_resist": 5
 }

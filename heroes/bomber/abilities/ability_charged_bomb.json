@@ -3,7 +3,7 @@
   "name": "ability_charged_bomb",
   "stats": {
     "duration": 0,
-    "cooldown": 10.5,
+    "cooldown": 10,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

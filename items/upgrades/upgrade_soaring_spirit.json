@@ -30,7 +30,7 @@
       {
         "ability_properties": {
           "bonus_health_regen": {
-            "value": 3,
+            "value": 2,
             "style": "healing",
             "is_negative": false
           },
@@ -40,14 +40,14 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 100,
+            "value": 75,
             "style": "health",
             "is_negative": false
           }
         },
         "elevated_ability_properties": {
           "tech_power": {
-            "value": 30,
+            "value": 21,
             "style": null,
             "is_negative": false
           }
@@ -69,9 +69,9 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 30,
+  "tech_power": 21,
   "weapon_power": 0,
-  "bonus_health_regen": 3,
+  "bonus_health_regen": 2,
   "bonus_sprint_speed": 1,
-  "bonus_health": 100
+  "bonus_health": 75
 }

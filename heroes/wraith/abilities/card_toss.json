@@ -1,9 +1,9 @@
 {
   "key": "citadel_ability_card_toss",
-  "name": "Card Trick",
+  "name": "citadel_ability_card_toss",
   "stats": {
     "duration": 0,
-    "cooldown": 0.65,
+    "cooldown": 0,
     "range": 500,
     "charges": 1,
     "charge_restore_time": 0,
@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 70,
+    "damage": 100,
     "radius": 5,
     "charges_conditionally": 1,
     "resource_per_card": 100,
@@ -26,20 +26,19 @@
     "non_player_card_resource_scale": 0.35,
     "card_resource_per_bullet_hit": 4,
     "card_resource_per_bullet_crit": 6,
-    "card_resource_per_light_melee": 10,
-    "card_resource_per_heavy_melee": 25,
-    "card_resource_gen_pct_scale": 106,
-    "projectile_origin_height_offset": 50
+    "card_resource_per_light_melee": 20,
+    "card_resource_per_heavy_melee": 50,
+    "card_resource_gen_pct_scale": 100
   },
   "tooltipDetails": {
-    "description": "Deal weapon damage to summon cards.  Activate to throw a card that flies towards the enemy or point under your crosshair.",
+    "description": "citadel_ability_card_toss_desc",
     "properties": [
       {
         "key": "Damage",
-        "value": 70,
+        "value": 100,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.1,
+          "value": 1.25,
           "type": "spirit"
         }
       },
@@ -59,8 +58,7 @@
         "damage": 50
       },
       {
-        "card_resource_gen_pct_scale": 50,
-        "name": "Card Summon Rate"
+        "card_resource_gen_pct_scale": 50
       }
     ]
   }

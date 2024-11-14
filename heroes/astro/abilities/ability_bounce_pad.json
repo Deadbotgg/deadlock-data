@@ -3,7 +3,7 @@
   "name": "Bounce Pad",
   "stats": {
     "duration": 22,
-    "cooldown": 37,
+    "cooldown": 35,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 3.5,
@@ -23,20 +23,20 @@
     "barrel_bounce_velocity": 800,
     "barrel_up_factor": 1,
     "scale": 1,
-    "place_distance": 200,
+    "place_distance": 100,
     "air_control_percent": 100,
     "air_control_accel_percent": 50,
     "min_air_time_for_stomp": 0.2,
-    "radius": 12,
+    "radius": 8,
     "vertical_difference_tolerance": 60,
-    "toss_speed": 500,
+    "toss_speed": 350,
     "stomp_damage": 120,
     "stomp_stun_duration": 0,
     "speed_on_land": 0,
     "speed_on_land_duration": 0
   },
   "tooltipDetails": {
-    "description": "Drop a bounce pad in the world that <span class=\\\"highlight\\\">sends you and other heroes flying</span>. You will Stomp on landing, <span class=\\\"highlight\\\">dealing damage</span> to any nearby enemies.<br><br><span class=\\\"diminish\\\">The Stomp can only occur once per Bounce Pad.\t</span> ",
+    "description": "Drop a bounce pad in the world that <span class=\"highlight\">sends you and other heroes flying</span>. You will stomp down on landing, <span class=\"highlight\">dealing damage</span> to any nearby enemies.",
     "properties": [
       {
         "key": "StompDamage",
@@ -62,8 +62,7 @@
         "speed_on_land_duration": 4
       },
       {
-        "stomp_damage": 1.04832,
-        "name": "Stomp Damage"
+        "stomp_damage": 1.04832
       },
       {
         "stomp_stun_duration": 1.25,

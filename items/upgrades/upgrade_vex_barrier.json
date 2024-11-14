@@ -1,6 +1,6 @@
 {
   "name": "Reactive Barrier",
-  "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
+  "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -19,7 +19,7 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 20,
+            "value": 15,
             "style": null,
             "is_negative": false
           },
@@ -43,12 +43,12 @@
       {
         "ability_properties": {
           "vex_barrier_shield_duration": {
-            "value": 9,
+            "value": 13,
             "style": "duration",
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 32,
+            "value": 20,
             "style": "cooldown",
             "is_negative": false
           }
@@ -58,20 +58,20 @@
           "vex_barrier_bullet_max_health": {
             "value": 400,
             "style": "bullet_armor_up",
-            "is_conditional": true
+            "is_conditional": false
           },
           "vex_barrier_tech_max_health": {
             "value": 200,
             "style": "tech_armor_up",
-            "is_conditional": true
+            "is_conditional": false
           }
         },
-        "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
+        "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 32,
+  "ability_cooldown": 20,
   "ability_duration": 10,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -86,8 +86,8 @@
   "weapon_power": 0,
   "vex_barrier_bullet_max_health": 400,
   "vex_barrier_tech_max_health": 200,
-  "bonus_clip_size_percent": 20,
+  "bonus_clip_size_percent": 15,
   "bonus_health": 75,
   "bonus_health_regen": 2,
-  "vex_barrier_shield_duration": 9
+  "vex_barrier_shield_duration": 13
 }

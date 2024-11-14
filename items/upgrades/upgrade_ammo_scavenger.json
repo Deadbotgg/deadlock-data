@@ -1,6 +1,6 @@
 {
   "name": "Ammo Scavenger",
-  "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
+  "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
   "cost": "500",
   "tier": "1",
   "activation": "Passive",
@@ -23,7 +23,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 40,
+            "value": 50,
             "style": "health",
             "is_negative": false
           }
@@ -37,12 +37,12 @@
       {
         "ability_properties": {
           "ability_duration": {
-            "value": 45,
+            "value": 24,
             "style": "duration",
             "is_negative": false
           },
           "max_stacks": {
-            "value": 20,
+            "value": 12,
             "style": null,
             "is_negative": false
           }
@@ -55,18 +55,18 @@
             "is_conditional": false
           },
           "spirit_power_per_soul": {
-            "value": 1,
+            "value": 2,
             "style": "tech_damage",
             "is_conditional": true
           }
         },
-        "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
+        "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
       }
     ]
   },
   "disabled": false,
   "ability_cooldown": 0,
-  "ability_duration": 45,
+  "ability_duration": 24,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
@@ -79,8 +79,8 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_clip_size_percent": 15,
-  "bonus_health": 40,
+  "bonus_health": 50,
   "ammo_per_soul": 2,
-  "spirit_power_per_soul": 1,
-  "max_stacks": 20
+  "spirit_power_per_soul": 2,
+  "max_stacks": 12
 }

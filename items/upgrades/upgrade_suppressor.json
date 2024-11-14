@@ -1,6 +1,6 @@
 {
   "name": "Suppressor",
-  "description": "When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>.",
+  "description": "",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -31,7 +31,7 @@
             "is_negative": false
           },
           "bonus_health_regen": {
-            "value": 2,
+            "value": 3,
             "style": "healing",
             "is_negative": false
           },
@@ -52,7 +52,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "fire_rate_slow": {
-            "value": 25,
+            "value": 30,
             "style": "fireRate",
             "is_conditional": true
           },
@@ -62,7 +62,7 @@
             "is_conditional": false
           }
         },
-        "description": "When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>."
+        "description": ""
       }
     ]
   },
@@ -81,6 +81,6 @@
   "tech_power": 4,
   "weapon_power": 0,
   "bonus_health": 50,
-  "bonus_health_regen": 2.5,
-  "fire_rate_slow": 25
+  "bonus_health_regen": 3,
+  "fire_rate_slow": 30
 }

@@ -1,0 +1,75 @@
+{
+  "key": "mirage_ethereal_bullets",
+  "name": "mirage_ethereal_bullets",
+  "stats": {
+    "duration": 0,
+    "cooldown": 30,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "shot_count": 3,
+    "delay_before_shots": 2,
+    "radius": 15,
+    "cone_angle": 40,
+    "time_between_shots": 0.3,
+    "bonus_weapon_power": 0,
+    "bullet_lifesteal_percent": 20,
+    "lifesteal_vs_non_hero": 33,
+    "move_slow_percent": 0,
+    "move_slow_duration": 0,
+    "camera_distance": 200,
+    "camera_pull_out_duration": 0.5,
+    "camera_bias": 0.7,
+    "camera_reset_delay": 0
+  },
+  "tooltipDetails": {
+    "description": "mirage_ethereal_bullets_desc",
+    "properties": [
+      {
+        "key": "DelayBeforeShots",
+        "value": 2
+      },
+      {
+        "key": "ShotCount",
+        "value": 3
+      },
+      {
+        "key": "BulletLifestealPercent",
+        "value": 20,
+        "type": "healing",
+        "m_e_display_type": "EBulletLifesteal",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_LIFESTEAL",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "Radius",
+        "value": "15m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "bullet_lifesteal_percent": 15
+      },
+      {
+        "ability_cooldown": -20
+      },
+      {
+        "shot_count": 1
+      }
+    ]
+  }
+}

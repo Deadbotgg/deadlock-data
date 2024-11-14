@@ -1,7 +1,6 @@
 {
-  "name": "Cheat Death",
   "description": null,
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -35,7 +34,7 @@
             "is_conditional": false
           }
         },
-        "description": "Releases a periodic pulse, damaging nearby enemies."
+        "description": ""
       }
     ],
     "Innate": [
@@ -59,7 +58,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 159,
+  "ability_cooldown": 150,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

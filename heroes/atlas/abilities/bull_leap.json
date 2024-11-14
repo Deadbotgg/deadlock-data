@@ -3,7 +3,7 @@
   "name": "Seismic Impact",
   "stats": {
     "duration": 0,
-    "cooldown": 159,
+    "cooldown": 150,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -21,8 +21,13 @@
     "impact_radius": 9,
     "impact_height": 4,
     "impact_radius_percentage": 0,
-    "damage": 150,
+    "damage": 175,
     "stun_duration": 1,
+    "charge_drag_vertical_offset": -30,
+    "drag_speed": 2000,
+    "toss_speed": 0,
+    "toss_up_magnitude": 0,
+    "charge_radius": 75,
     "bonus_max_health_per_hero": 0,
     "bonus_fire_rate_per_hero": 0,
     "landing_bonuses_duration": 0,
@@ -33,7 +38,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 150,
+        "value": 175,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.91728,
@@ -55,7 +60,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -38
+        "ability_cooldown": -40
       },
       {
         "bonus_max_health_per_hero": 100,

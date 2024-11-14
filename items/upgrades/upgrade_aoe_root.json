@@ -1,7 +1,7 @@
 {
   "name": "Vacuum Web",
   "description": null,
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "ActivationPress",
   "slot": "Tech",
@@ -17,7 +17,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 42,
+            "value": 40,
             "style": "cooldown",
             "is_negative": false
           },
@@ -64,7 +64,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 42,
+  "ability_cooldown": 40,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

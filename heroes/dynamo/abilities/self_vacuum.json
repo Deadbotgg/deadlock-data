@@ -3,7 +3,7 @@
   "name": "Singularity",
   "stats": {
     "duration": 0,
-    "cooldown": 191,
+    "cooldown": 180,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,21 +11,21 @@
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 0.2,
+    "cast_delay": 0,
     "channel_time": 2.75,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "vacuum_radius": 7,
+    "vacuum_radius": 9,
     "speed": 200,
     "toss_speed": 350,
     "toss_angle": 45,
-    "dps": 45,
+    "dps": 60,
     "tick_rate": 1,
     "camera_distance": 400,
-    "damage_percent_health": 1.5
+    "damage_percent_health": 0
   },
   "tooltipDetails": {
     "description": "Create a singularity in your hands that <span class=\"highlight\">pulls in nearby enemies and damages them</span>. Once it's finished, enemies get knocked into the air.",
@@ -39,7 +39,7 @@
       },
       {
         "key": "DPS",
-        "value": 45,
+        "value": 60,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.209664,
@@ -48,7 +48,7 @@
       },
       {
         "key": "DamagePercentHealth",
-        "value": 1.5,
+        "value": 0,
         "type": "tech_damage",
         "requiresUpgrade": true
       }
@@ -56,21 +56,19 @@
     "basicProperties": [
       {
         "key": "VacuumRadius",
-        "value": "7m",
+        "value": "9m",
         "type": "distance"
       }
     ],
     "upgrades": [
       {
-        "vacuum_radius": 2,
-        "name": "Singularity Radius"
+        "vacuum_radius": 2
       },
       {
         "ability_channel_time": 0.75
       },
       {
-        "damage_percent_health": 4,
-        "name": "Damage Health Percent"
+        "damage_percent_health": 3.8
       }
     ]
   }

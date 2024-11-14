@@ -1,6 +1,6 @@
 {
   "id": 11,
-  "name": "Dynamo",
+  "name": "hero_dynamo",
   "new_player_friendly": true,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": true,
   "starting_stats": {
-    "max_move_speed": 6.8,
+    "max_move_speed": 6.5,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -25,16 +25,15 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.707143,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_bullet_damage_from_level": 0.9,
+    "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 44,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 1,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -205,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 13,
+    "bullet_damage": 15,
     "rounds_per_second": 4,
     "clip_size": 18,
     "reload_time": 2.35,
@@ -222,15 +221,10 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 52,
-    "sustained_dps": 34.16058394160584,
+    "dps": 60,
+    "sustained_dps": 39.416058394160586,
     "weapon_name": "citadel_weapon_sumo_set",
-    "weapon_description": "citadel_weapon_hero_sumo_set",
-    "weapon_types": [
-      "Attribute_EWeaponAttribute_MediumRange",
-      "Attribute_EWeaponAttribute_HeavyHitter",
-      "Attribute_EWeaponAttribute_Projectile"
-    ]
+    "weapon_description": "citadel_weapon_hero_sumo_set"
   },
   "lore": "As a Scientist, Professor Dynamo always had an inquisitive mind.  So when a rift in space and time opened up in central park he was first on the scene to investigate – and while he expected such a majestic sight to be life changing, he was thinking more in a metaphorical way as opposed to having his body atomized and reduced to a tiny dying star.\\n\\nBut while his body is gone, his spirit and lust for knowledge lives on.  A tenured professor at Columbia College, Dynamo looks to learn more about his condition while maintaining his class load, after all: he has future minds to inspire.",
   "playstyle": "Dynamo keeps himself and his allies healthy while waiting for his moment. Few things can warp a team fight more than a well-coordinated use of Singularity.",

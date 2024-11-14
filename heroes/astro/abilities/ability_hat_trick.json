@@ -1,0 +1,63 @@
+{
+  "key": "ability_hat_trick",
+  "name": "Hat Trick",
+  "stats": {
+    "duration": 0,
+    "cooldown": 20,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explosion_radius": 2,
+    "damage": 100,
+    "debuff_duration": 5,
+    "slow_percent": 20
+  },
+  "tooltipDetails": {
+    "description": "Throws out her <span class=\"highlight\">hat</span> to strike enemies, <span class=\"highlight\">slowing</span> and <span class=\"highlight\">revealing</span> them through walls.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 100,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.008,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SlowPercent",
+        "value": 20,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 5,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "damage": 50
+      },
+      {
+        "ability_cooldown": -10
+      },
+      {
+        "slow_percent": 30
+      }
+    ]
+  }
+}

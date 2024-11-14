@@ -1,9 +1,9 @@
 {
   "key": "synth_plasma_flux",
-  "name": "Flying Cloak",
+  "name": "synth_plasma_flux",
   "stats": {
     "duration": 0,
-    "cooldown": 32,
+    "cooldown": 30,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -26,7 +26,7 @@
     "weapon_damage_bonus_duration": 0
   },
   "tooltipDetails": {
-    "description": "Launch a sentient cloak that <span class=\"highlight\">travels forward</span> and <span class=\"highlight\">damages enemies</span>. You can press <span class=\"highlight\">[{s:in_ability2}]</span> to <span class=\"highlight\">teleport</span> to its location.",
+    "description": "synth_plasma_flux_desc",
     "properties": [
       {
         "key": "Damage",
@@ -47,14 +47,13 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
         "damage": 80
       },
       {
         "weapon_damage_bonus": 7,
-        "name": "Bonus Duration",
         "weapon_damage_bonus_duration": 10
       }
     ]

@@ -18,14 +18,19 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 10,
+            "value": 8,
             "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 25,
+            "style": "health",
             "is_negative": false
           }
         },
         "elevated_ability_properties": {
           "bonus_health_regen": {
-            "value": 3,
+            "value": 2,
             "style": "healing",
             "is_negative": false
           }
@@ -49,6 +54,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_health_regen": 3,
-  "bonus_clip_size_percent": 10
+  "bonus_health_regen": 2.7,
+  "bonus_clip_size_percent": 8,
+  "bonus_health": 25
 }

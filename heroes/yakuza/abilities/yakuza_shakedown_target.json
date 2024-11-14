@@ -3,7 +3,7 @@
   "name": "Shakedown",
   "stats": {
     "duration": 0,
-    "cooldown": 26,
+    "cooldown": 25,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

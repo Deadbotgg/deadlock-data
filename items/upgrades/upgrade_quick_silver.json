@@ -1,6 +1,6 @@
 {
   "name": "Quicksilver Reload",
-  "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full.",
+  "description": "",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -16,6 +16,20 @@
     "EShopFilterFireRate"
   ],
   "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "reload_speed_multipler": {
+            "value": 10,
+            "style": null,
+            "is_negative": true
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
     "Passive": [
       {
         "ability_properties": {
@@ -28,7 +42,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "damage": {
-            "value": 65,
+            "value": 30,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -38,7 +52,7 @@
             "is_conditional": true
           }
         },
-        "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full."
+        "description": ""
       }
     ]
   },
@@ -59,5 +73,6 @@
   "proc_cooldown": 12,
   "fire_rate_bonus": 15,
   "fire_rate_duration": 12,
-  "damage": 65
+  "damage": 30,
+  "reload_speed_multipler": 10
 }

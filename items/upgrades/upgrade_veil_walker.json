@@ -1,6 +1,6 @@
 {
   "name": "Veil Walker",
-  "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
+  "description": "",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -18,24 +18,24 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 15,
+            "value": 12,
             "style": null,
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 15,
+            "value": 10,
             "style": "bullet_damage",
             "is_negative": false
           }
         },
         "elevated_ability_properties": {
           "bullet_shield_max_health": {
-            "value": 250,
+            "value": 200,
             "style": "bullet_armor_up",
             "is_negative": false
           },
           "tech_shield_max_health": {
-            "value": 250,
+            "value": 200,
             "style": "tech_armor_up",
             "is_negative": false
           }
@@ -61,12 +61,17 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bonus_move_speed": {
-            "value": 4,
+            "value": 3,
             "style": "move_speed",
+            "is_conditional": true
+          },
+          "bonus_fire_rate": {
+            "value": 30,
+            "style": null,
             "is_conditional": true
           }
         },
-        "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
+        "description": ""
       }
     ]
   },
@@ -91,11 +96,12 @@
   "spotted_radius": 20,
   "reveal_on_damage_duration": 0.25,
   "reveal_on_spotted_duration": 0.25,
-  "bullet_shield_max_health": 250,
-  "tech_shield_max_health": 250,
-  "bonus_clip_size_percent": 15,
-  "base_attack_damage_percent": 15,
+  "bullet_shield_max_health": 200,
+  "tech_shield_max_health": 200,
+  "bonus_clip_size_percent": 12,
+  "base_attack_damage_percent": 10,
+  "bonus_fire_rate": 30,
   "bonus_clip_size": 0,
   "invis_duration": 5,
-  "bonus_move_speed": 4
+  "bonus_move_speed": 3
 }

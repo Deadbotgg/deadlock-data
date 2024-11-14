@@ -1,7 +1,7 @@
 {
   "name": "Soul Rebirth",
-  "description": null,
-  "cost": "6200",
+  "description": "",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -14,19 +14,18 @@
     "Innate": [
       {
         "ability_properties": {
-          "tech_power": {
-            "value": 12,
-            "style": "tech_damage",
+          "cooldown_reduction": {
+            "value": 15,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
             "is_negative": false
           }
         },
-        "elevated_ability_properties": {
-          "spawn_time_penalty": {
-            "value": 30,
-            "style": "duration",
-            "is_negative": true
-          }
-        },
+        "elevated_ability_properties": {},
         "important_ability_properties": {},
         "description": ""
       }
@@ -43,7 +42,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "respawn_health_percent": {
-            "value": 50,
+            "value": 40,
             "style": "healing",
             "is_conditional": false
           }
@@ -52,7 +51,7 @@
       }
     ]
   },
-  "disabled": true,
+  "disabled": false,
   "ability_cooldown": 240,
   "ability_duration": 0,
   "ability_cast_range": 0,
@@ -64,9 +63,10 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 12,
+  "tech_power": 0,
   "weapon_power": 0,
-  "spawn_time_penalty": 30,
   "respawn_delay": 4,
-  "respawn_health_percent": 50
+  "respawn_health_percent": 40,
+  "cooldown_reduction": 15,
+  "base_attack_damage_percent": 20
 }

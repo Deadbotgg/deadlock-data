@@ -1,0 +1,84 @@
+{
+  "key": "mirage_sunfire_cataclysm",
+  "name": "mirage_sunfire_cataclysm",
+  "stats": {
+    "duration": 0,
+    "cooldown": 100,
+    "range": 35,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 35,
+    "unit_target_limit": 1,
+    "cast_delay": 0.5,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 10,
+    "height": 15,
+    "post_cast_delay": 2.25,
+    "damage": 250,
+    "debuff_duration": 0,
+    "vacuum_time": 0.4,
+    "vacuum_target_min_radius": 0.5,
+    "stamina_regen_penalty": 0,
+    "camera_distance": 175,
+    "camera_vertical": 75,
+    "camera_lerp_duration": 0.25,
+    "camera_lerp_bias": 0,
+    "boss_damage_percent": 50,
+    "emp_duration_on_target": 0
+  },
+  "tooltipDetails": {
+    "description": "mirage_sunfire_cataclysm_desc",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 250,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.9656,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "EMPDurationOnTarget",
+        "value": 0,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "AbilityCastDelay",
+        "value": 0.5,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true
+      },
+      {
+        "key": "PostCastDelay",
+        "value": 2.25
+      },
+      {
+        "key": "Radius",
+        "value": "10.0m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -40
+      },
+      {
+        "damage": 150
+      },
+      {
+        "emp_duration_on_target": 3
+      }
+    ]
+  }
+}

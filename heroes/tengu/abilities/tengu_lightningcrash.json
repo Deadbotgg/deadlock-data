@@ -1,0 +1,80 @@
+{
+  "key": "citadel_ability_tengu_lightningcrash",
+  "name": "Falling Grace",
+  "stats": {
+    "duration": 4,
+    "cooldown": 70,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0.75,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0.75,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 8,
+    "damage": 160,
+    "regeneration_duration": 10,
+    "regeneration": 20,
+    "fall_speed_max": 30,
+    "air_speed_min": 15,
+    "air_speed_max": 20,
+    "air_speed_health_bonus": 2,
+    "speed_health_threshold": 0.3,
+    "tracking_speed": 180,
+    "neutral_pitch": 5,
+    "gravity_effect": 0.5,
+    "flying_start_boost": 750,
+    "drain_pct_per_meter": 0.5,
+    "speed_accel": 1000,
+    "speed_deccel": 500
+  },
+  "tooltipDetails": {
+    "description": "Jump into the air and start flying for a short time. When you hit the ground you <span class=\"highlight\">deal damage</span> based on how long you flew, as well as gaining a <span class=\"highlight\">regeneration boost</span>. You can end your flight and dive early by pressing <span class='keybind'>[{s:iv_attack}]</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 160,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.44144,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "Regeneration",
+        "value": 20,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.04832,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "RegenerationDuration",
+        "value": 10,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "radius": 4
+      },
+      {
+        "ability_cooldown": -20
+      },
+      {
+        "damage": 180,
+        "name": "Regeneration",
+        "regeneration": 15
+      }
+    ]
+  }
+}

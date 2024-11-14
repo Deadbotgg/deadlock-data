@@ -1,7 +1,7 @@
 {
   "name": "Shield Rush",
   "description": "Give temporary <span class=\"highlight\">bullet shield</span> for you and nearby allied Heros and their minions.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -18,7 +18,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 64,
+            "value": 60,
             "style": "cooldown",
             "is_negative": false
           },
@@ -50,12 +50,12 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Increases your <span class=\"highlight\">forward move speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
+        "description": "Increases your <span class=\"highlight\">forward movement speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
       }
     ]
   },
   "disabled": true,
-  "ability_cooldown": 64,
+  "ability_cooldown": 60,
   "ability_duration": 15,
   "ability_cast_range": 25,
   "ability_unit_target_limit": 1,

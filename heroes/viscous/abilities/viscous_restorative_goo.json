@@ -3,13 +3,13 @@
   "name": "The Cube",
   "stats": {
     "duration": 4,
-    "cooldown": 48,
-    "range": 30,
+    "cooldown": 45,
+    "range": 25,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 30,
+    "cast_range": 25,
     "unit_target_limit": 1,
     "cast_delay": 0.1,
     "channel_time": 0,
@@ -36,7 +36,7 @@
     "stamina_cooldown_reduction": 0
   },
   "tooltipDetails": {
-    "description": "After exiting the cube, the target has increased <span class=\"highlight\">move speed and stamina recovery</span> for a short duration.",
+    "description": "After exiting the cube, the target has increased <span class=\"highlight\">movement speed and stamina recovery</span> for a short duration.",
     "properties": [
       {
         "key": "BonusMoveSpeed",
@@ -78,11 +78,10 @@
         "post_cube_buff": 1
       },
       {
-        "bonus_health_regen": 35
+        "ability_cooldown": -25
       },
       {
-        "ability_cooldown": -21,
-        "purge_debuffs": 1
+        "bonus_health_regen": 60
       }
     ]
   }

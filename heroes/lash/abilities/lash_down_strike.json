@@ -3,7 +3,7 @@
   "name": "Ground Strike",
   "stats": {
     "duration": 0,
-    "cooldown": 19,
+    "cooldown": 18,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -31,14 +31,14 @@
     "stomp_bounce_height": 0
   },
   "tooltipDetails": {
-    "description": "Stomp the ground beneath you, <span class=\"highlight\">damaging enemies</span> in front of you. If you perform Ground Strike while airborne, you quickly dive towards the ground. Damage grows slower after 25m.",
+    "description": "citadel_ability_lash_down_strike_desc",
     "properties": [
       {
         "key": "StompDamage",
         "value": 90,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.85,
+          "value": 0.78624,
           "type": "spirit"
         }
       },
@@ -47,7 +47,7 @@
         "value": 6,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.05,
+          "value": 0.0451,
           "type": "spirit"
         }
       }
@@ -68,7 +68,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -9.5
+        "ability_cooldown": -10
       },
       {
         "enemy_slow_pct": 50,

@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 160,
+            "value": 125,
             "style": "health",
             "is_negative": false
           },
@@ -38,6 +38,11 @@
     "Passive": [
       {
         "ability_properties": {
+          "ability_cooldown": {
+            "value": 1,
+            "style": "cooldown",
+            "is_negative": false
+          },
           "damage_pulse_radius": {
             "value": 9,
             "style": "distance",
@@ -70,7 +75,7 @@
   "ability_resource_cost": 0,
   "tech_power": 6,
   "weapon_power": 0,
-  "bonus_health": 160,
+  "bonus_health": 125,
   "damage_pulse_amount": 40,
   "damage_pulse_radius": 9
 }

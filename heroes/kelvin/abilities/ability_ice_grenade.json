@@ -3,7 +3,7 @@
   "name": "Frost Grenade",
   "stats": {
     "duration": 0,
-    "cooldown": 22,
+    "cooldown": 21,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 7,

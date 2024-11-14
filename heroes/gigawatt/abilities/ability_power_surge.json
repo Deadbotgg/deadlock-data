@@ -1,9 +1,9 @@
 {
   "key": "ability_power_surge",
-  "name": "Power Surge",
+  "name": "ability_power_surge",
   "stats": {
     "duration": 10,
-    "cooldown": 48,
+    "cooldown": 45,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -28,7 +28,7 @@
     "boss_damage_percent": 50
   },
   "tooltipDetails": {
-    "description": "Power up your weapon with a shock effect, making <span class=\"highlight\">your bullets proc shock damage on your target</span>. This shock damage <span class=\"highlight\">bounces to enemies</span> near your target. Occurs once per burst shot.",
+    "description": "ability_power_surge_desc",
     "properties": [
       {
         "key": "DamagePerChain",
@@ -59,7 +59,7 @@
         "debuff_duration": 8
       },
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -16
       },
       {
         "damage_per_chain": 0.366912,

@@ -3,29 +3,27 @@
   "name": "Hyper Beam",
   "stats": {
     "duration": 0,
-    "cooldown": 130,
+    "cooldown": 110,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
-    "channel_duration": 11,
+    "channel_duration": 8,
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
     "cast_delay": 1,
-    "channel_time": 11,
+    "channel_time": 8,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": 70,
     "tech_power": 0,
     "weapon_power": 0,
-    "dps": 205,
+    "dps": 220,
     "beam_length": 70,
     "beam_width": 2.9,
-    "beam_close_radius": 5,
-    "beam_end_radius": 4,
-    "beam_close_damage_percent": 75,
+    "beam_close_radius": 4.5,
     "interval": 0.1,
-    "tracking_speed": 55,
+    "tracking_speed": 49.5,
     "zoom_time": 0.1,
     "zoom_bias": 0.5,
     "fall_speed_max": 1,
@@ -35,7 +33,7 @@
     "boss_damage_percent": 20,
     "camera_distance": 7,
     "slow_target_duration": 0.5,
-    "slow_percent": 25,
+    "slow_percent": 40,
     "ground_dash_reduction_percent": -40
   },
   "tooltipDetails": {
@@ -43,10 +41,10 @@
     "properties": [
       {
         "key": "DPS",
-        "value": 205,
+        "value": 220,
         "type": "tech_damage",
         "scale_function": {
-          "value": 2.7,
+          "value": 2.4,
           "type": "spirit"
         }
       },
@@ -66,10 +64,10 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -30
+        "ability_cooldown": -40
       },
       {
-        "dps": 100
+        "dps": 140
       },
       {
         "beam_lifesteal": 100,

@@ -3,7 +3,7 @@
   "name": "Grapple",
   "stats": {
     "duration": 0,
-    "cooldown": 42,
+    "cooldown": 40,
     "range": 30,
     "charges": 1,
     "charge_restore_time": 2,
@@ -23,13 +23,13 @@
     "lash_metal_skin_duration": 0,
     "min_distance": 0,
     "jump_slow_resistance": 0.667,
-    "restore_stamina_on_use": 0,
+    "restore_stamina_on_use": 1,
     "weapon_damage_bonus": 0,
     "weapon_damage_bonus_duration": 0,
     "weapon_fire_rate_bonus": 0
   },
   "tooltipDetails": {
-    "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also resets your limit of <span class=\"highlight\">air jumps and dashes</span>.",
+    "description": "citadel_ability_lash_desc",
     "properties": [
       {
         "key": "JumpVelocity",
@@ -62,17 +62,15 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -19
+        "ability_cooldown": -20
       },
       {
         "ability_cast_range": 20,
-        "name": "Bonus Duration",
         "weapon_damage_bonus": 6,
         "weapon_damage_bonus_duration": 10
       },
       {
-        "weapon_fire_rate_bonus": 20,
-        "name": "Fire Rate"
+        "weapon_fire_rate_bonus": 20
       }
     ]
   }

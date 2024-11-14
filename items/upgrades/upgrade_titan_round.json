@@ -24,23 +24,18 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 120,
+            "value": 100,
             "style": null,
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 18,
+            "value": 16,
             "style": "bullet_damage",
             "is_negative": false
           },
-          "melee_resist_percent": {
-            "value": 25,
-            "style": null,
-            "is_negative": false
-          },
-          "tech_resist": {
-            "value": 12,
-            "style": "tech_armor_up",
+          "bullet_resist": {
+            "value": 8,
+            "style": "bullet_armor_up",
             "is_negative": false
           }
         },
@@ -64,8 +59,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_clip_size_percent": 120,
-  "base_attack_damage_percent": 18,
-  "melee_resist_percent": 25,
-  "tech_resist": 12
+  "bonus_clip_size_percent": 100,
+  "base_attack_damage_percent": 16,
+  "bullet_resist": 8
 }

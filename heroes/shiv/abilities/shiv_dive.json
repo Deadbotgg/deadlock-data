@@ -1,0 +1,44 @@
+{
+  "key": "citadel_ability_shiv_dive",
+  "name": "citadel_ability_shiv_dive",
+  "stats": {
+    "duration": 10,
+    "cooldown": 75,
+    "range": 10,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 10,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0.3,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 100,
+    "explosion_radius": 10,
+    "min_possess_time_for_damage": 3,
+    "stun_duration": 2,
+    "friendly_move_speed_buff": 2,
+    "friendly_duration": 60
+  },
+  "tooltipDetails": {
+    "properties": [
+      {
+        "key": "FriendlyDuration",
+        "value": 60,
+        "type": "duration"
+      },
+      {
+        "key": "FriendlyMoveSpeedBuff",
+        "value": "2m",
+        "type": "move_speed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "key": "slork_chomp",
+  "name": "Chomp",
+  "stats": {
+    "duration": 2.5,
+    "cooldown": 33,
+    "range": 10,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 10,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "lift_height": 30,
+    "lift_horizontal": -70,
+    "follow_damping_factor": 5,
+    "tick_rate": 0.5,
+    "dps": 24,
+    "speed_bonus": 0,
+    "hobbled_movement_slow": 15,
+    "chomp_heal_percent": 0,
+    "damage_percent_health": 4,
+    "cooldown_on_miss": 5,
+    "break_range": 6
+  }
+}

@@ -3,7 +3,7 @@
   "name": "Full Auto",
   "stats": {
     "duration": 5,
-    "cooldown": 48,
+    "cooldown": 45,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -21,8 +21,7 @@
     "radius": 25,
     "bonus_fire_rate": 20,
     "bullet_lifesteal_percent": 0,
-    "allied_fire_rate_percentage": 50,
-    "magic_damage_per_bullet": 0
+    "allied_fire_rate_percentage": 50
   },
   "tooltipDetails": {
     "description": "Temporarily boosts your <span class=\"highlight\">fire rate</span>. Nearby allies receive half the fire rate bonus.",
@@ -30,7 +29,7 @@
       {
         "key": "BonusFireRate",
         "value": 20,
-        "type": "fire_rate",
+        "type": "fireRate",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
@@ -41,25 +40,14 @@
         "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_LIFESTEAL",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "requiresUpgrade": true
-      },
-      {
-        "key": "MagicDamagePerBullet",
-        "value": 0,
-        "type": "tech_damage",
-        "m_b_damage_affected_by_effectiveness": true,
-        "scale_function": {
-          "value": 0.1,
-          "type": "spirit"
-        }
       }
     ],
     "upgrades": [
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
-        "magic_damage_per_bullet": 5,
-        "name": "Spirit Damage Per Bullet"
+        "bonus_fire_rate": 15
       },
       {
         "bullet_lifesteal_percent": 35

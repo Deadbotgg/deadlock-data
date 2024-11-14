@@ -1,85 +1,58 @@
 {
   "generic_data_type": "CGraphCanvasStyleLayer",
   "BaseText": {
-    "Font": "Barlow,12,12,20,0,0,0,0,0,Regular",
-    "Foreground_Color": "#DCDCDC",
-    "HAlign": "LEFT"
+    "Foreground_Color": "#DCDCDC"
   },
   "Separator": {
-    "HAlign": "STRETCH",
-    "Background_Color": "#646464",
-    "Margin": "4px 4px 4px 4px",
-    "MinSizeY": 1
+    "LayoutGrowFactor": 1,
+    "Background_Color": "#585858"
   },
   "Spacer": {
-    "LayoutGrowFactor": 1,
     "MinSizeX": 16
   },
   "NodeBg": {
     "LayoutChildren": "VBOX",
     "InteractionPriority": "BASE",
-    "Background_Color": "#353535",
-    "BorderRadius": "6px"
-  },
-  "\"NodeBg.Active:before\"": {
-    "Border": "2px #00FF00",
-    "HAlign": "STRETCH",
-    "VAlign": "STRETCH",
-    "Positioning": "INSIDE_PARENT",
-    "Margin": "-4px",
-    "BorderRadius": "6px"
+    "Border": "2px #909090",
+    "Background_Color": "#505050"
   },
   "\"NodeBg:hover\"": {
-    "Background_Color": "#4D4D4D"
+    "Border": "2px #FFFFFF",
+    "Background_Color": "#7D7D7D"
   },
   "\"NodeBg:selected\"": {
-    "Border": "2px #FFFF00",
-    "Background_Color": "#4D4D4D"
+    "Border": "5px #FFFF00",
+    "Background_Color": "#505000"
   },
   "HeaderBg": {
-    "LayoutChildren": "HBOX",
+    "LayoutChildren": "VBOX",
     "HAlign": "STRETCH",
-    "Background_Color": "#5F5F5F",
-    "BorderRadius": "6px 6px 0px 0px"
-  },
-  "HeaderColorBox": {
-    "MinSizeX": 8,
-    "VAlign": "STRETCH",
-    "Background_Color": "#878787",
-    "BorderRadius": "6px 0px 0px 0px"
+    "FixedSizeY": 20,
+    "Background_Color": "#5050B4"
   },
   "HeaderText": {
-    "Font": "Barlow,14,14,20,0,0,0,0,0,Bold",
+    "Font": "Segoe UI,11,-1,5,50,0,0,0,0,0,Regular",
     "PaintLayer": "NODES",
     "HAlign": "LEFT",
-    "Padding": "2 8 2 4",
     "Foreground_Color": "#FFFFFF"
   },
   "PlaybackDebug": {
     "HAlign": "STRETCH",
-    "FixedSizeY": 26
+    "FixedSizeY": 20
   },
   "InfoBlock": {
     "LayoutChildren": "VBOX",
-    "HAlign": "STRETCH",
-    "Background_Color": "#282828",
-    "Margin": "0px 4px 0px 4px",
-    "Padding": "4px",
-    "BorderRadius": "4px"
+    "HAlign": "STRETCH"
   },
   "PoseDebugInfoBlock": {
     "MinSizeX": 125,
     "LayoutChildren": "VBOX",
-    "HAlign": "STRETCH",
-    "Margin": "4px"
+    "HAlign": "STRETCH"
   },
   "ValueDebugInfoBlock": {
+    "MinSizeX": 60,
     "LayoutChildren": "VBOX",
-    "HAlign": "STRETCH",
-    "Background_Color": "#282828",
-    "Margin": "0px 4px 4px 4px",
-    "Padding": "4px",
-    "BorderRadius": "4px"
+    "HAlign": "STRETCH"
   },
   "BlendSpaceDebug1D": {
     "HAlign": "STRETCH",
@@ -93,14 +66,10 @@
     "Background_Color": "#232323"
   },
   "PinRegion": {
-    "LayoutChildren": "VBOX",
-    "HALIGN": "STRETCH",
-    "Margin": "4px -6px 0px -6px"
+    "LayoutChildren": "VBOX"
   },
   "PinRow": {
-    "LayoutChildren": "HBOX",
-    "HALIGN": "STRETCH",
-    "Margin": "0px 0px 4px 0px"
+    "LayoutChildren": "HBOX"
   },
   "InputPin": {
     "LayoutChildren": "HBOX"
@@ -110,137 +79,70 @@
   },
   "PinPort": {
     "PaintLayer": "NODES",
-    "FixedSizeX": 16,
-    "FixedSizeY": 16,
+    "FixedSizeX": 12,
+    "FixedSizeY": 12,
     "InteractionPriority": "PORT",
-    "BorderRadius": "12px",
+    "BorderRadius": "5px",
     "Background_Color": "#7D7D7D"
   },
-  "PinPortIn": {
-    "Margin_Right": "4px"
-  },
-  "PinPortOut": {
-    "Margin_Left": "4px"
-  },
+  "PinPortIn": {},
+  "PinPortOut": {},
   "PinLabel": {},
   "FlowConnection": {
     "InteractionPriority": "BASE"
   },
-  "StateNodeContainer": {
+  "StateNodeBg": {
     "LayoutChildren": "VBOX",
     "InteractionPriority": "BASE"
   },
-  "\".StateNodeContainer:selected NodeBg.State\"": {
-    "Border": "2px #FFFF00",
-    "Background_Color": "#4D4D4D"
-  },
-  "\"NodeBg.State.Active:before\"": {
-    "Border": "2px #00FF00",
-    "HAlign": "STRETCH",
-    "VAlign": "STRETCH",
-    "Positioning": "INSIDE_PARENT",
-    "Margin": "-4px",
-    "BorderRadius": "0px"
-  },
-  "NodeBg.State": {
-    "BorderRadius": "0px"
-  },
-  "HeaderBg.State": {
-    "BorderRadius": "0px"
-  },
   "StateInfoFlagRow": {
     "FixedSizeY": 24,
-    "LayoutChildren": "HBOX",
-    "HALIGN": "LEFT",
-    "Margin": "0px 0px 4px 0px"
+    "LayoutChildren": "HBOX"
   },
-  "StateInfoFlag": {
-    "FixedSizeX": 12,
-    "FixedSizeY": 12,
-    "Padding": "2px",
-    "Margin_Right": 4,
-    "BorderRadius": 10,
-    "BackgroundRepeat": "NoRepeat",
-    "BackgroundSize": "Natural",
-    "BackgroundImageWidth": 12,
-    "BackgroundImageHeight": 12
+  "DefaultStateInfoFlag": {
+    "FixedSizeX": 24,
+    "FixedSizeY": 24,
+    "Margin_Right": 8,
+    "Border": "1px #4CFF00",
+    "Background_Color": "#4CFF00"
   },
-  "StateInfoFlag.Default": {
-    "Background_Color": "#FFD700",
-    "BackgroundImage": "tools/images/animation/sm_default.png"
+  "EntryOverrideInfoFlag": {
+    "FixedSizeX": 24,
+    "FixedSizeY": 24,
+    "Margin_Right": 8,
+    "Border": "1px #00FFFF",
+    "Background_Color": "#00FFFF"
   },
-  "StateInfoFlag.EntryOverride": {
-    "Background_Color": "#32CD32",
-    "BackgroundImage": "tools/images/animation/sm_entryoverride.png"
+  "GlobalTransitionInfoFlag": {
+    "FixedSizeX": 24,
+    "FixedSizeY": 24,
+    "Margin_Right": 8,
+    "Border": "1px #FF50B4",
+    "Background_Color": "#FF50B4"
   },
-  "StateInfoFlag.GlobalTransition": {
-    "Background_Color": "#FF4500",
-    "BackgroundImage": "tools/images/animation/sm_globalTransition.png"
+  "StateTypeRegion": {
+    "LayoutChildren": "HBOX"
   },
   "StateEventRegion": {
-    "LayoutChildren": "VBOX",
-    "HALIGN": "STRETCH",
-    "Padding": "4px 4px 4px 4px"
+    "LayoutChildren": "VBOX"
   },
   "StateEventRow": {
-    "LayoutChildren": "HBOX",
-    "HALIGN": "LEFT"
+    "LayoutChildren": "HBOX"
   },
-  "StateEventLabel": {},
-  "StateEventLabelEntry": {
-    "Font": "Barlow,12,12,20,0,0,0,0,0,Bold",
-    "Foreground_Color": "#00FF00"
-  },
-  "StateEventLabelExecute": {
-    "Font": "Barlow,12,12,20,0,0,0,0,0,Bold",
-    "Foreground_Color": "#FFFF00"
-  },
-  "StateEventLabelExit": {
-    "Font": "Barlow,12,12,20,0,0,0,0,0,Bold",
-    "Foreground_Color": "#FB6247"
+  "StateEventLabel": {
+    "FixedSizeX": 1
   },
   "TransitionConduit": {
     "InteractionPriority": "BASE"
   },
-  "StateTypeRegion": {
-    "BackgroundRepeat": "NoRepeat",
-    "BackgroundSize": "Natural",
-    "BackgroundImageWidth": 16,
-    "BackgroundImageHeight": 16,
-    "Background_Color": "#282828",
-    "FixedSizeY": 16,
-    "LayoutChildren": "VBOX",
-    "HAlign": "STRETCH",
-    "Padding": "4px 4px 4px 4px",
-    "Margin": "8px 4px 2px 4px",
-    "BorderRadius": "4px"
-  },
-  "StateTypeRegion.Off": {
-    "BackgroundImage": "tools/images/animation/sm_state_off.png"
-  },
-  "StateTypeRegion.BT": {
-    "BackgroundImage": "tools/images/animation/sm_state_bt.png"
-  },
-  "StateTypeRegion.SM": {
-    "BackgroundImage": "tools/images/animation/sm_state_sm.png"
-  },
   "OffStateLabel": {
-    "HAlign": "LEFT",
-    "Margin_Left": 18,
-    "Margin_Top": 1,
-    "Foreground_Color": "#D30000"
+    "LayoutChildren": "HBOX"
   },
   "BlendTreeStateLabel": {
-    "HAlign": "LEFT",
-    "Margin_Left": 18,
-    "Margin_Top": 1,
-    "Foreground_Color": "#9A91FF"
+    "LayoutChildren": "HBOX"
   },
   "StateMachineStateLabel": {
-    "HAlign": "LEFT",
-    "Margin_Left": 18,
-    "Margin_Top": 1,
-    "Foreground_Color": "#03BCBC"
+    "LayoutChildren": "HBOX"
   },
   "CommentBg": {
     "LayoutChildren": "VBOX",

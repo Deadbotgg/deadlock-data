@@ -1,37 +1,36 @@
 {
   "key": "ability_wrecker_salvage",
-  "name": "Consume",
+  "name": "ability_wrecker_salvage",
   "stats": {
     "duration": 0,
-    "cooldown": 12.5,
-    "range": 12,
+    "cooldown": 12,
+    "range": 10,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 12,
+    "cast_range": 10,
     "unit_target_limit": 1,
     "cast_delay": 0,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
-    "channel_move_speed": 150,
+    "channel_move_speed": 40,
     "tech_power": 0,
     "weapon_power": 0,
-    "salvage_duration": 4,
+    "salvage_duration": 3,
     "fire_rate_buff_duration": 40,
-    "dps": 40,
+    "dps": 80,
     "tick_interval": 0.25,
     "salvage_bonus_fire_rate": 25,
-    "salvage_bonus_health": 0,
-    "consume_heal_percentage": 0
+    "salvage_bonus_health": 0
   },
   "tooltipDetails": {
-    "description": "Latches onto an Enemy, <span class=\"highlight\">damaging</span> them while attached. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently.",
+    "description": "ability_wrecker_salvage_desc",
     "properties": [
       {
         "key": "DPS",
-        "value": 40,
+        "value": 80,
         "type": "tech_damage",
         "scale_function": {
           "value": 1.04832,
@@ -42,12 +41,6 @@
         "key": "SalvageBonus_FireRate",
         "value": 25,
         "type": "bullet_damage"
-      },
-      {
-        "key": "ConsumeHealPercentage",
-        "value": 0,
-        "type": "healing",
-        "requiresUpgrade": true
       }
     ],
     "basicProperties": [
@@ -58,7 +51,7 @@
       },
       {
         "key": "SalvageDuration",
-        "value": 4,
+        "value": 3,
         "type": "duration"
       },
       {
@@ -69,14 +62,13 @@
     ],
     "upgrades": [
       {
-        "consume_heal_percentage": 75,
-        "name": "Consume Heal Percentage"
+        "salvage_bonus_health": 150
       },
       {
-        "dps": 40
+        "dps": 80
       },
       {
-        "ability_unit_target_limit": 2
+        "fire_rate_buff_duration": 80
       }
     ]
   }

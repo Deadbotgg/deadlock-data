@@ -1,16 +1,16 @@
 {
   "id": 53,
-  "name": "Fathom",
+  "name": "hero_slork",
   "new_player_friendly": false,
   "in_development": true,
-  "in_hero_labs": true,
-  "is_disabled": false,
+  "in_hero_labs": false,
+  "is_disabled": true,
   "complexity": 2,
   "readability": 1,
   "bot_selectable": false,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7.3,
+    "max_move_speed": 7,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -25,16 +25,15 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.573571,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
-    "modifier_value_base_health_from_level": 36,
+    "modifier_value_base_bullet_damage_from_level": 0.73,
+    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -44,7 +43,7 @@
   "movement": {
     "stealth_speed": 4,
     "footstep_sound_distance": 20,
-    "step_sound_time": 0.34
+    "step_sound_time": 0.385
   },
   "visuals": {
     "ui_color": [
@@ -205,43 +204,43 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 4,
-    "rounds_per_second": 2.2222222222222223,
-    "clip_size": 13,
-    "reload_time": 0.3,
+    "bullet_damage": 11,
+    "rounds_per_second": 5,
+    "clip_size": 20,
+    "reload_time": 2.2,
     "reload_movespeed": 1,
-    "reload_delay": 0.705,
-    "reload_single": true,
-    "bullet_speed": 220,
-    "falloff_start_range": 6.29921,
-    "falloff_end_range": 18,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 91,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
-    "bullet_gravity_scale": 0.8,
-    "bullets_per_shot": 7,
+    "bullet_gravity_scale": 0.3,
+    "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 62.22222222222223,
-    "sustained_dps": 34.815877570540415,
+    "dps": 55,
+    "sustained_dps": 35.483870967741936,
     "weapon_name": "citadel_weapon_slork_set",
     "weapon_description": "citadel_weapon_hero_slork_set"
   },
-  "lore": "A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkies, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon the Patrons to ensure that he will always be the apex predator of The Deep.",
-  "playstyle": "A short-ranged assassin, Fathom can slip in and out of combat and win long engagements.",
-  "role": "Slips into combat and then hides to recover",
+  "lore": null,
+  "playstyle": "Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target.",
+  "role": null,
   "abilities": [
     {
-      "key": "fathom_scalding_spray"
+      "key": "slork_riptide"
     },
     {
-      "key": "fathom_breach"
+      "key": "slork_chomp"
     },
     {
-      "key": "fathom_reefdweller_harpoon"
+      "key": "slork_last_breath"
     },
     {
-      "key": "fathom_lurkers_ambush"
+      "key": "slork_ability_invis"
     }
   ]
 }

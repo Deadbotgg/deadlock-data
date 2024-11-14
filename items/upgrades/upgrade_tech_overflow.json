@@ -1,7 +1,7 @@
 {
   "name": "Spiritual Overflow",
-  "description": "Gain bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> when shooting enemy heroes.",
-  "cost": "6200",
+  "description": "Gain bonus <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes.",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -19,6 +19,11 @@
     "Innate": [
       {
         "ability_properties": {
+          "bonus_fire_rate": {
+            "value": 20,
+            "style": "fireRate",
+            "is_negative": false
+          },
           "cooldown_reduction": {
             "value": 15,
             "style": "cooldown",
@@ -27,11 +32,6 @@
           "ability_lifesteal_percent_hero": {
             "value": 10,
             "style": "healing",
-            "is_negative": false
-          },
-          "bullet_shield_max_health": {
-            "value": 225,
-            "style": "bullet_armor_up",
             "is_negative": false
           }
         },
@@ -56,18 +56,13 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {
-          "bonus_fire_rate": {
-            "value": 35,
-            "style": "fireRate",
-            "is_conditional": true
-          },
           "bonus_spirit": {
-            "value": 50,
+            "value": 45,
             "style": "tech_damage",
             "is_conditional": true
           }
         },
-        "description": "Gain bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> when shooting enemy heroes."
+        "description": "Gain bonus <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes."
       }
     ]
   },
@@ -86,9 +81,8 @@
   "tech_power": 0,
   "weapon_power": 0,
   "cooldown_reduction": 15,
-  "bullet_shield_max_health": 225,
-  "bonus_fire_rate": 35,
-  "bonus_spirit": 50,
+  "bonus_fire_rate": 20,
+  "bonus_spirit": 45,
   "build_up_per_shot": 0.75,
   "build_up_duration": 5
 }

@@ -3,7 +3,7 @@
   "name": "Kinetic Pulse",
   "stats": {
     "duration": 0,
-    "cooldown": 26,
+    "cooldown": 25,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 5,
@@ -26,7 +26,7 @@
     "toss_speed": 450,
     "impact_interval": 0.1,
     "stomp_range": 15,
-    "stomp_width": 5,
+    "stomp_width": 4.5,
     "slow_percent": 0,
     "fire_rate_slow": 0,
     "slow_duration": 0,
@@ -58,7 +58,7 @@
     "basicProperties": [
       {
         "key": "StompWidth",
-        "value": "5.0m",
+        "value": "4.5m",
         "type": "distance",
         "m_e_display_type": "ETechRange"
       }
@@ -66,7 +66,7 @@
     "upgrades": [
       {
         "fire_rate_slow": 25,
-        "slow_percent": 35,
+        "slow_percent": 40,
         "slow_duration": 4
       },
       {
@@ -75,7 +75,7 @@
         "bullet_armor_reduction_duration": 8
       },
       {
-        "damage": 125
+        "damage": 115
       }
     ]
   }

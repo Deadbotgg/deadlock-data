@@ -44,12 +44,12 @@
       {
         "ability_properties": {
           "stun_duration": {
-            "value": 0,
+            "value": 1,
             "style": "duration",
             "is_negative": false
           },
           "ability_cast_range": {
-            "value": 45,
+            "value": 35,
             "style": "range",
             "is_negative": false
           }
@@ -61,9 +61,9 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 40,
+  "ability_cooldown": 45,
   "ability_duration": 0,
-  "ability_cast_range": 45,
+  "ability_cast_range": 35,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0.25,
   "ability_channel_time": 0,
@@ -74,8 +74,8 @@
   "ability_resource_cost": 0,
   "tech_power": 6,
   "weapon_power": 0,
-  "stun_delay": 2,
-  "stun_duration": 0.9,
+  "stun_delay": 3,
+  "stun_duration": 1.25,
   "visual_contract_radius": 3,
   "damage": 20,
   "tech_shield_max_health": 200,

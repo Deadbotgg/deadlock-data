@@ -3,7 +3,7 @@
   "name": "Rain of Arrows",
   "stats": {
     "duration": 7,
-    "cooldown": 35,
+    "cooldown": 33,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,31 +20,29 @@
     "weapon_power": 0,
     "jump_pitch": -60,
     "jump_speed": 27.5,
-    "alt_jump_speed": 12,
     "slow_percent": 0,
     "slow_duration": 0,
-    "weapon_damage_bonus": 4,
+    "weapon_damage_bonus": 7,
     "fire_rate_bonus": 0,
     "bullet_lifesteal_percent": 0,
-    "fall_speed_max": 15,
+    "fall_speed_max": 30,
     "air_speed_max": 150,
     "bullet_split_shot": 5,
     "split_shot": 0,
     "fx_radius": 4,
-    "tech_lifesteal_percent": 0,
-    "air_move_increase_percent": -9
+    "tech_lifesteal_percent": 0
   },
   "tooltipDetails": {
-    "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. <br>Alt-Cast for reduced jump height.  <br>Press [{s:in_mantle}] to cancel the glide.",
+    "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. Press [{s:in_mantle}] to cancel the glide.",
     "properties": [
       {
         "key": "BulletSplitShot",
         "value": 5,
-        "type": "fire_rate"
+        "type": "fireRate"
       },
       {
         "key": "WeaponDamageBonus",
-        "value": 4,
+        "value": 7,
         "type": "bullet_damage",
         "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -80,10 +78,10 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
-        "weapon_damage_bonus": 5,
+        "weapon_damage_bonus": 7,
         "slow_percent": 40,
         "slow_duration": 1.5
       },

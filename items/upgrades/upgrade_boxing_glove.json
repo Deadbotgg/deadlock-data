@@ -27,18 +27,18 @@
       {
         "ability_properties": {
           "bonus_melee_damage_percent": {
-            "value": 35,
+            "value": 40,
             "style": "melee_damage",
-            "is_negative": false
-          },
-          "bullet_resist": {
-            "value": 10,
-            "style": "bullet_armor_up",
             "is_negative": false
           },
           "bonus_health": {
             "value": 125,
             "style": "health",
+            "is_negative": false
+          },
+          "bullet_resist": {
+            "value": 8,
+            "style": "bullet_armor_up",
             "is_negative": false
           }
         },
@@ -89,10 +89,10 @@
   "weapon_power": 0,
   "slow_percent": 60,
   "slow_duration": 2.5,
-  "bonus_melee_damage_percent": 35,
+  "bonus_melee_damage_percent": 40,
   "lifesteal_heal": 110,
-  "lifesteal_heal_percent": 65,
+  "lifesteal_heal_percent": 45,
   "bonus_health": 125,
-  "bullet_resist": 10,
-  "non_hero_heal_pct": 40
+  "bullet_resist": 8,
+  "non_hero_heal_pct": 25
 }

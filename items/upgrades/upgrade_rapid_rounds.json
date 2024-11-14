@@ -18,7 +18,7 @@
       {
         "ability_properties": {
           "bonus_fire_rate": {
-            "value": 10,
+            "value": 12,
             "style": null,
             "is_negative": false
           },
@@ -26,6 +26,11 @@
             "value": 1,
             "style": "move_speed",
             "is_negative": false
+          },
+          "max_health": {
+            "value": -50,
+            "style": "health",
+            "is_negative": true
           }
         },
         "elevated_ability_properties": {},
@@ -48,6 +53,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_fire_rate": 10,
-  "bonus_sprint_speed": 1
+  "bonus_fire_rate": 12,
+  "bonus_sprint_speed": 1,
+  "max_health": -50
 }

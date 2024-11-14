@@ -23,19 +23,9 @@
     "Innate": [
       {
         "ability_properties": {
-          "reload_speed_multipler": {
-            "value": -20,
+          "bonus_clip_size_percent": {
+            "value": 20,
             "style": null,
-            "is_negative": false
-          },
-          "bullet_shield_max_health": {
-            "value": 140,
-            "style": "bullet_armor_up",
-            "is_negative": false
-          },
-          "base_attack_damage_percent": {
-            "value": 10,
-            "style": "bullet_damage",
             "is_negative": false
           }
         },
@@ -48,7 +38,7 @@
       {
         "ability_properties": {
           "long_range_bonus_weapon_power_min_range": {
-            "value": 15,
+            "value": 18,
             "style": "distance",
             "is_negative": false
           }
@@ -56,7 +46,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "long_range_bonus_weapon_power": {
-            "value": 30,
+            "value": 40,
             "style": "bullet_damage",
             "is_conditional": true
           }
@@ -79,9 +69,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 10,
-  "long_range_bonus_weapon_power": 30,
-  "long_range_bonus_weapon_power_min_range": 15,
-  "reload_speed_multipler": -20,
-  "bullet_shield_max_health": 140
+  "long_range_bonus_weapon_power": 40,
+  "long_range_bonus_weapon_power_min_range": 18,
+  "bonus_clip_size_percent": 20
 }

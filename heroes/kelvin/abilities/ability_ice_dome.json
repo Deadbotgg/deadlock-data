@@ -3,7 +3,7 @@
   "name": "Frozen Shelter",
   "stats": {
     "duration": 5.5,
-    "cooldown": 127,
+    "cooldown": 120,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -28,7 +28,7 @@
     "fire_rate_slow": 0
   },
   "tooltipDetails": {
-    "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>. <br>Objectives becomes Invulnerable and Frozen under Frozen Shelter.",
+    "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>.",
     "properties": [
       {
         "key": "BonusHealthRegen",
@@ -67,7 +67,7 @@
         "fire_rate_slow": 40
       },
       {
-        "ability_cooldown": -38
+        "ability_cooldown": -40
       },
       {
         "bonus_health_regen": 1.638

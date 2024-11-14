@@ -3,7 +3,7 @@
   "name": "Telekinesis",
   "stats": {
     "duration": 1.25,
-    "cooldown": 100,
+    "cooldown": 90,
     "range": 20,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 20,
     "unit_target_limit": 1,
-    "cast_delay": 0.7,
+    "cast_delay": 0.6,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
@@ -20,14 +20,14 @@
     "weapon_power": 0,
     "damping_factor": 0.5,
     "lift_height": 120,
-    "damage": 175
+    "damage": 200
   },
   "tooltipDetails": {
-    "description": "Lift an enemy hero into the air, <span class=\"highlight\">stunning</span> them for a short time. When the lift ends, the target receives Telekinesis damage.",
+    "description": "Lift an enemy hero into the air, <span class=\"highlight\">interrupting</span> them and <span class=\"highlight\">preventing ability and item use</span> for a short time. When the lift ends, the target receives Telekinesis damage.",
     "properties": [
       {
         "key": "Damage",
-        "value": 175,
+        "value": 200,
         "type": "tech_damage",
         "scale_function": {
           "value": 1.04832,
@@ -40,7 +40,7 @@
         "ability_cooldown": -30
       },
       {
-        "ability_duration": 0.5
+        "ability_duration": 0.75
       },
       {
         "ability_unit_target_limit": 5

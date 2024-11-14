@@ -1,73 +1,61 @@
 {
   "key": "mirage_tornado",
-  "name": "Tornado",
+  "name": "mirage_tornado",
   "stats": {
-    "duration": 0,
-    "cooldown": 32,
-    "range": 20,
+    "duration": 2,
+    "cooldown": 30,
+    "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 20,
+    "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 0,
+    "cast_delay": 0.3,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
-    "channel_move_speed": 18,
+    "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
     "radius": 3.5,
-    "open_height": 8,
-    "damage": 70,
+    "open_height": 3,
+    "damage": 60,
     "tick_rate": 0.25,
-    "projectile_think_interval": 0.01,
     "distance_above_ground": 2,
     "climb_height": 1,
     "drop_down_rate": 10,
-    "tornado_speed": 1050,
-    "enemy_lift_duration": 0.2,
+    "tornado_speed": 1200,
+    "enemy_lift_duration": 0.6,
     "split_angle": 0,
+    "forward_offset": 125,
     "lift_height": 3,
     "damping_factor": 0.3,
     "max_delta_movement_control": 2,
-    "hold_in_place_duration": 1,
-    "boss_damage_percent": 50,
-    "target_bullet_evasion_chance": 0,
-    "tech_armor_damage_reduction": 0,
-    "whirlwind_evasion_chance": 25,
-    "whirlwind_duration": 3.5
+    "move_slow_percent": 0,
+    "move_slow_duration": 0,
+    "boss_damage_percent": 50
   },
   "tooltipDetails": {
-    "description": "Transform yourself into a tornado that travels forward, <span class=\"highlight\">damaging enemies</span> and <span class=\"highlight\">lifting them up in the air</span>. After emerging from the tornado you gain <span class=\"highlight\">bullet evasion</span>.",
+    "description": "mirage_tornado_desc",
     "properties": [
       {
         "key": "Damage",
-        "value": 70,
+        "value": 60,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.7,
+          "value": 0.9828,
           "type": "spirit"
         }
       },
       {
-        "key": "HoldInPlaceDuration",
-        "value": 1,
+        "key": "EnemyLiftDuration",
+        "value": 0.6,
+        "m_e_scale_type": "ETechDuration",
         "type": "duration"
-      },
-      {
-        "key": "WhirlwindEvasionChance",
-        "value": 25,
-        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_EVASION",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "basicProperties": [
-      {
-        "key": "WhirlwindDuration",
-        "value": 3.5
-      },
       {
         "key": "Radius",
         "value": "3.5m",
@@ -76,15 +64,14 @@
     ],
     "upgrades": [
       {
-        "hold_in_place_duration": 0.4,
-        "name": "Lift Duration"
+        "move_slow_percent": 30,
+        "move_slow_duration": 3
       },
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
-        "whirlwind_evasion_chance": 20,
-        "name": "Bullet Evasion Chance"
+        "damage": 120
       }
     ]
   }

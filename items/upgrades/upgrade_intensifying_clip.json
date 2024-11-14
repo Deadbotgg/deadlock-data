@@ -1,6 +1,6 @@
 {
   "name": "Intensifying Magazine",
-  "description": "Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon.",
+  "description": "",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -39,17 +39,17 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "base_attack_damage_percent_at_max_duration": {
-            "value": 60,
+            "value": 75,
             "style": "bullet_damage",
             "is_conditional": true
           },
           "shoot_duration_for_max": {
-            "value": 2,
+            "value": 3,
             "style": null,
             "is_conditional": false
           }
         },
-        "description": "Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon."
+        "description": ""
       }
     ]
   },
@@ -69,6 +69,6 @@
   "weapon_power": 0,
   "bonus_clip_size_percent": 25,
   "base_attack_damage_percent": 20,
-  "shoot_duration_for_max": 2.7,
-  "base_attack_damage_percent_at_max_duration": 60
+  "shoot_duration_for_max": 3.5,
+  "base_attack_damage_percent_at_max_duration": 75
 }

@@ -3,7 +3,7 @@
   "name": "Shatter Cannon",
   "stats": {
     "duration": 0,
-    "cooldown": 17,
+    "cooldown": 16,
     "range": 40,
     "charges": 1,
     "charge_restore_time": 4,

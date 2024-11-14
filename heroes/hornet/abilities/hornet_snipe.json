@@ -3,7 +3,7 @@
   "name": "Assassinate",
   "stats": {
     "duration": 0,
-    "cooldown": 53,
+    "cooldown": 50,
     "range": 1000,
     "charges": 2,
     "charge_restore_time": 1.6,
@@ -18,38 +18,37 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 130,
-    "shot_radius": 4,
-    "low_health_enemy_damage_bonus": 135,
+    "snipe_fov": 18,
+    "snipe_zoom_duration": 0.15,
+    "damage": 160,
+    "shot_radius": 3,
+    "low_health_enemy_damage_bonus": 145,
     "low_health_enemy_threshold_pct": 50,
     "view_punch": 2.5,
     "move_speed": 4,
     "max_sound_distance": 2000,
     "weapon_damage_bonus": 13,
     "buff_on_kill_duration": 0,
-    "bonus_gold_on_kill": 250,
-    "headshot_bonus": 20,
-    "min_charge_damage_percent": 25,
-    "time_to_full_charge": 1
+    "bonus_gold_on_kill": 250
   },
   "tooltipDetails": {
-    "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after {s:TimeToFullCharge}s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
+    "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
     "properties": [
       {
         "key": "Damage",
-        "value": 130,
+        "value": 160,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1,
+          "value": 1.04832,
           "type": "spirit"
         }
       },
       {
         "key": "LowHealthEnemyDamageBonus",
-        "value": 135,
+        "value": 145,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.5,
+          "value": 1.57248,
           "type": "spirit"
         }
       },
@@ -58,29 +57,13 @@
         "value": 250
       }
     ],
-    "basicProperties": [
-      {
-        "key": "TimeToFullCharge",
-        "value": 1,
-        "type": "duration"
-      },
-      {
-        "key": "MinChargeDamagePercent",
-        "value": 25
-      },
-      {
-        "key": "HeadshotBonus",
-        "value": 20,
-        "type": "bullet_damage"
-      }
-    ],
     "upgrades": [
       {
-        "ability_cooldown": -19
+        "ability_cooldown": -20
       },
       {
         "low_health_enemy_damage_bonus": 140,
-        "name": "Max Bonus Damage"
+        "name": "Bonus Damage"
       },
       {
         "bonus_gold_on_kill": 600,

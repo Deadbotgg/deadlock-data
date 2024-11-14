@@ -1,8 +1,8 @@
 {
   "id": 52,
-  "name": "Mirage",
+  "name": "hero_mirage",
   "new_player_friendly": false,
-  "in_development": false,
+  "in_development": true,
   "in_hero_labs": false,
   "is_disabled": false,
   "complexity": 2,
@@ -10,7 +10,7 @@
   "bot_selectable": false,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7.3,
+    "max_move_speed": 7,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -25,16 +25,15 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 1,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
-    "modifier_value_base_health_from_level": 37,
+    "modifier_value_base_bullet_damage_from_level": 1.7,
+    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -44,7 +43,7 @@
   "movement": {
     "stealth_speed": 4,
     "footstep_sound_distance": 20,
-    "step_sound_time": 0.3
+    "step_sound_time": 0.35
   },
   "visuals": {
     "ui_color": [
@@ -205,14 +204,14 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 18,
-    "rounds_per_second": 2.857142857142857,
-    "clip_size": 16,
-    "reload_time": 2.6,
+    "bullet_damage": 25.8,
+    "rounds_per_second": 2.2222222222222223,
+    "clip_size": 12,
+    "reload_time": 2.75,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
-    "bullet_speed": 326,
+    "bullet_speed": 266,
     "falloff_start_range": 8.66,
     "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
@@ -222,50 +221,50 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 51.42857142857143,
-    "sustained_dps": 35.1219512195122,
+    "dps": 57.33333333333334,
+    "sustained_dps": 37.9877300613497,
     "weapon_name": "citadel_weapon_mirage_set",
-    "weapon_description": "citadel_weapon_hero_mirage_set",
-    "weapon_types": [
-      "Attribute_EWeaponAttribute_MediumRange",
-      "Attribute_EWeaponAttribute_HeavyHitter"
-    ]
+    "weapon_description": "citadel_weapon_hero_mirage_set"
   },
-  "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
-  "playstyle": "Mirage can envelop himself in a violent tornado to catch up to enemies and lift them up. His scarabs help him sustain against multiple enemies, and he's always ready to help an ally or punish an enemy anywhere.",
-  "role": "Times his shots and catches fleeing targets",
+  "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
+  "playstyle": "[playstyle info here]",
+  "role": "Fires off barrages while evading shots",
   "recommended_items": [
-    "upgrade_headshot_booster",
-    "upgrade_hollow_point_rounds",
+    "upgrade_clip_size",
+    "upgrade_close_range",
+    "upgrade_magic_reach",
     "upgrade_endurance",
-    "upgrade_resilience",
-    "upgrade_magic_burst",
-    "upgrade_magic_shield",
     "upgrade_improved_spirit",
+    "upgrade_magic_tempo",
     "upgrade_fleetfoot_boots",
-    "upgrade_tech_defense_shredders",
+    "upgrade_vampire",
+    "upgrade_bullet_armor",
+    "upgrade_cold_front",
+    "upgrade_slowing_bullets",
     "upgrade_tech_armor",
-    "upgrade_arcane_extension",
+    "upgrade_magic_shield",
+    "upgrade_cooldown_reduction",
     "upgrade_soaring_spirit",
+    "upgrade_close_quarter_combat",
     "upgrade_tech_purge",
-    "upgrade_magic_shock",
-    "upgrade_suppressor",
-    "upgrade_magic_slow",
-    "upgrade_tech_overflow",
-    "upgrade_mega_spirit"
+    "upgrade_damage_recycler",
+    "upgrade_tech_range",
+    "upgrade_mega_spirit",
+    "upgrade_silencer",
+    "upgrade_siphon_bullets"
   ],
   "abilities": [
     {
       "key": "mirage_tornado"
     },
     {
-      "key": "mirage_fire_beetles"
+      "key": "mirage_ethereal_bullets"
     },
     {
       "key": "mirage_sand_phantom"
     },
     {
-      "key": "mirage_teleport"
+      "key": "mirage_sunfire_cataclysm"
     }
   ]
 }

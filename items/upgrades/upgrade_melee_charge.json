@@ -1,6 +1,6 @@
 {
   "name": "Melee Charge",
-  "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full.",
+  "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -22,18 +22,13 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 10,
+            "value": 15,
             "style": null,
             "is_negative": false
           },
           "bonus_health": {
-            "value": 75,
+            "value": 100,
             "style": "health",
-            "is_negative": false
-          },
-          "melee_distance_scale": {
-            "value": 40,
-            "style": null,
             "is_negative": false
           }
         },
@@ -44,27 +39,15 @@
     ],
     "Passive": [
       {
-        "ability_properties": {
-          "ability_cooldown": {
-            "value": 16,
-            "style": "cooldown",
-            "is_negative": false
-          }
-        },
+        "ability_properties": {},
         "elevated_ability_properties": {},
-        "important_ability_properties": {
-          "bonus_heavy_melee_damage": {
-            "value": 20,
-            "style": "melee_damage",
-            "is_conditional": false
-          }
-        },
-        "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full."
+        "important_ability_properties": {},
+        "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 16,
+  "ability_cooldown": 0,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -77,8 +60,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 10,
-  "bonus_health": 75,
-  "melee_distance_scale": 40,
-  "bonus_heavy_melee_damage": 20
+  "base_attack_damage_percent": 15,
+  "bonus_health": 100,
+  "melee_distance_scale": 40
 }

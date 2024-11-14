@@ -1,9 +1,9 @@
 {
   "key": "synth_barrage",
-  "name": "Barrage",
+  "name": "synth_barrage",
   "stats": {
     "duration": 0,
-    "cooldown": 32,
+    "cooldown": 30,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -24,35 +24,33 @@
     "fall_speed_max": 10,
     "air_speed_max": 100,
     "air_drag": 0.3,
-    "radius": 4.5,
-    "move_slow_percent": 30,
+    "radius": 6.5,
+    "move_slow_percent": 40,
     "slow_duration": 1.5,
-    "amp_percent_per_stack": 6,
+    "amp_percent_per_stack": 10,
     "amp_duration": 15,
     "life_steal_percent_on_hit": 0,
     "life_steal_percent_on_hit_non_hero": 0
   },
   "tooltipDetails": {
-    "description": "Channel to start launching projectiles that <span class=\"highlight\">deal damage</span> and <span class=\"highlight\">apply movement slow</span> around their impact point. Each projectile landed on a hero grants you a <span class=\"highlight\">stacking buff that amplifies all of your damage</span>.<br>If you cast it while in the air, you'll <span class=\"highlight\">float</span> and maintain any horizontal momentum you started with.",
+    "description": "synth_barrage_desc",
     "properties": [
       {
         "key": "AmpPercentPerStack",
-        "value": 6,
-        "type": "damage"
+        "value": 10
       },
       {
         "key": "DamagePerProjectile",
         "value": 35,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.5,
+          "value": 0.39312,
           "type": "spirit"
         }
       },
       {
         "key": "MoveSlowPercent",
-        "loc_token_override": "SlowPercent",
-        "value": 30,
+        "value": 40,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -76,15 +74,14 @@
     ],
     "upgrades": [
       {
-        "damage_per_projectile": 15,
-        "name": "Damage Per Projectile"
+        "damage_per_projectile": 15
       },
       {
-        "ability_cooldown": -14
+        "ability_cooldown": -15
       },
       {
-        "amp_percent_per_stack": 4,
-        "radius": 2
+        "life_steal_percent_on_hit": 150,
+        "life_steal_percent_on_hit_non_hero": 50
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
   "key": "citadel_ability_shiv_dagger",
-  "name": "Serrated Knives",
+  "name": "Thrown Shiv",
   "stats": {
     "duration": 0,
-    "cooldown": 19,
+    "cooldown": 18,
     "range": 0,
     "charges": 2,
     "charge_restore_time": 2,
@@ -19,34 +19,17 @@
     "tech_power": 0,
     "weapon_power": 0,
     "bleed_tick_rate": 1,
-    "movement_slow": 35,
-    "impact_damage": 35,
-    "bleed_dps_per_stack": 5,
-    "bleed_duration": 5,
-    "aoe_radius": 10,
-    "ricochet_count": 1
+    "move_slow_per_stack": 20,
+    "bleed_dps_per_stack": 15,
+    "debuff_duration": 5,
+    "aoe_radius": 3.5
   },
   "tooltipDetails": {
-    "description": "Ultimate Unlock: <span class=\"highlight\"> While rage is full</span> knives will ricochet to another enemy and apply a slow to enemies they bleed.",
     "properties": [
       {
-        "key": "MovementSlow",
-        "value": 35,
-        "type": "slow"
-      }
-    ],
-    "upgrades": [
-      {
-        "ability_charges": 1
-      },
-      {
-        "bleed_duration": 2,
-        "name": "Bleed Duration"
-      },
-      {
-        "impact_damage": 40,
-        "name": "Bleed DPS Per Knife",
-        "bleed_dps_per_stack": 5
+        "key": "AOERadius",
+        "value": "3.5m",
+        "type": "distance"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "id": 15,
-  "name": "Bebop",
+  "name": "hero_bebop",
   "new_player_friendly": true,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": true,
   "starting_stats": {
-    "max_move_speed": 6.55,
+    "max_move_speed": 6.25,
     "sprint_speed": 3,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -21,21 +21,19 @@
     "reload_speed": 1,
     "weapon_power_scale": 1,
     "stamina": 3,
-    "base_health_regen": 3,
+    "base_health_regen": 2.5,
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.33,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_bullet_damage_from_level": 0.373,
+    "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 1,
-    "modifier_value_bonus_attack_range": 77.334084
+    "modifier_value_bullet_armor_damage_resist": 2.5
   },
   "collision": {
     "radius": 20,
@@ -226,11 +224,7 @@
     "dps": 66.25,
     "sustained_dps": 45.84534731323722,
     "weapon_name": "citadel_weapon_bebop_set",
-    "weapon_description": "citadel_weapon_hero_bebop_set",
-    "weapon_types": [
-      "Attribute_EWeaponAttribute_BeamWeapon",
-      "Attribute_EWeaponAttribute_MediumRange"
-    ]
+    "weapon_description": "citadel_weapon_hero_bebop_set"
   },
   "lore": "Forged by the hands of a widowed junk yard attendant; Bebop was more than just some scrap golem laborer... he was the son she couldn't have.  Together they would work in the iron yard during the day, and listen to jazz at night. It was a predictable, if not comforting routine.  But now, Bebop's creator has fallen ill and while Miss Shelly wouldn't approve of the activities that Bebop does at night to pay for her medicine, what she doesn't know can't hurt her.",
   "playstyle": "Bebop can string together his abilities in many different ways. Disrupting enemy positions, saving an ally or dealing bursts of damage. When the situation doesn't require subtlety his giant laser still solves many problems.",

@@ -19,12 +19,12 @@
       {
         "ability_properties": {
           "tech_power": {
-            "value": 10,
+            "value": 8,
             "style": "tech_damage",
             "is_negative": false
           },
           "bonus_health": {
-            "value": 125,
+            "value": 100,
             "style": "health",
             "is_negative": false
           }
@@ -38,7 +38,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 40,
+            "value": 26,
             "style": "cooldown",
             "is_negative": false
           }
@@ -50,7 +50,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 40,
+  "ability_cooldown": 26,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -61,7 +61,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 10,
+  "tech_power": 8,
   "weapon_power": 0,
   "jump_velocity_hidden": 27,
   "interupt_cooldown": 5,
@@ -75,5 +75,5 @@
   "impact_damage": 0,
   "impact_height": 2,
   "min_aim_angle": 30,
-  "bonus_health": 125
+  "bonus_health": 100
 }

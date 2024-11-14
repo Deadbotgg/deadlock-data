@@ -3,7 +3,7 @@
   "name": "Watcher's Covenant",
   "stats": {
     "duration": 12,
-    "cooldown": 37,
+    "cooldown": 35,
     "range": 16,
     "charges": 0,
     "charge_restore_time": 0,
@@ -32,11 +32,11 @@
       {
         "key": "BonusFireRate",
         "value": 10,
-        "type": "fire_rate",
+        "type": "fireRate",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "scale_function": {
-          "value": 0.3,
+          "value": 0.2,
           "type": "spirit"
         }
       },
@@ -47,7 +47,7 @@
         "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_LIFESTEAL",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "scale_function": {
-          "value": 0.3,
+          "value": 0.18,
           "type": "spirit"
         }
       },
@@ -73,14 +73,13 @@
     ],
     "upgrades": [
       {
-        "bonus_fire_rate": 10
+        "bonus_fire_rate": 15
       },
       {
-        "move_speed_bonus": 2
+        "move_speed_bonus": 3
       },
       {
-        "total_tether_targets": 1,
-        "name": "Tether Count"
+        "total_tether_targets": 1
       }
     ]
   }

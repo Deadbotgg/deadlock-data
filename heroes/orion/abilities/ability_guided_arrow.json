@@ -3,7 +3,7 @@
   "name": "Guided Owl",
   "stats": {
     "duration": 0,
-    "cooldown": 127,
+    "cooldown": 110,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -21,6 +21,7 @@
     "explosion_radius": 12,
     "damage": 250,
     "stun_duration": 0.75,
+    "slow_percent": 0,
     "low_health_enemy_threshold_pct": 0,
     "bonus_tech_power_per_kill": 5
   },
@@ -69,7 +70,7 @@
         "damage": 100
       },
       {
-        "ability_cooldown": -47
+        "ability_cooldown": -50
       },
       {
         "low_health_enemy_threshold_pct": 22,

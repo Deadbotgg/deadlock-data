@@ -3,7 +3,7 @@
   "name": "ability_bomber_ult",
   "stats": {
     "duration": 0,
-    "cooldown": 127,
+    "cooldown": 120,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -24,7 +24,7 @@
     "properties": [
       {
         "key": "AbilityCooldown",
-        "value": 127,
+        "value": 120,
         "disable_value": 0,
         "type": "cooldown",
         "m_b_can_set_token_override": true

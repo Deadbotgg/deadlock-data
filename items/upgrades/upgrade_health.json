@@ -7,13 +7,7 @@
   "slot": "Armor",
   "image": "upgrades/mods_armor/health_psd",
   "components": null,
-  "componentsOf": [
-    {
-      "key": "upgrade_chonky",
-      "name": "Fortitude",
-      "image": "upgrades/mods_armor/revitalizer_psd"
-    }
-  ],
+  "componentsOf": [],
   "target_types": null,
   "shop_filters": [
     "EShopFilterWeaponDamage",
@@ -24,7 +18,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 7,
+            "value": 5,
             "style": null,
             "is_negative": false
           }
@@ -56,5 +50,5 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_health": 160,
-  "base_attack_damage_percent": 7
+  "base_attack_damage_percent": 5
 }

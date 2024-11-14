@@ -1,7 +1,7 @@
 {
   "name": "Boundless Spirit",
   "description": "",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Tech",
@@ -34,20 +34,15 @@
             "style": "healing",
             "is_negative": false
           },
-          "base_attack_damage_percent": {
-            "value": 30,
-            "style": "bullet_damage",
-            "is_negative": false
-          },
           "bonus_sprint_speed": {
-            "value": 2,
+            "value": 4,
             "style": "move_speed",
             "is_negative": false
           }
         },
         "elevated_ability_properties": {
           "tech_power": {
-            "value": 65,
+            "value": 60,
             "style": null,
             "is_negative": false
           }
@@ -69,10 +64,9 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 65,
+  "tech_power": 60,
   "weapon_power": 0,
   "bonus_health_regen": 15,
-  "base_attack_damage_percent": 30,
-  "bonus_sprint_speed": 2,
+  "bonus_sprint_speed": 4,
   "bonus_health": 300
 }

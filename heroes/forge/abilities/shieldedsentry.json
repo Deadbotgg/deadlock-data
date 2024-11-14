@@ -3,18 +3,18 @@
   "name": "Mini Turret",
   "stats": {
     "duration": 0,
-    "cooldown": 18,
-    "range": 20,
+    "cooldown": 28,
+    "range": 15,
     "charges": 1,
-    "charge_restore_time": 3,
+    "charge_restore_time": 5,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 20,
+    "cast_range": 15,
     "unit_target_limit": 1,
     "cast_delay": 0.2,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 3,
+    "cooldown_between_charge": 5,
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
@@ -22,20 +22,20 @@
     "tick_rate": 0.5,
     "tracking_speed": 125,
     "attack_cone_angle": 10,
-    "turret_deploy_time": 0.25,
+    "turret_deploy_time": 1,
     "turret_base_health": 75,
-    "turret_health_scaling": 15,
+    "turret_health_scaling": 30,
     "turret_attack_range": 25,
     "turret_attack_falloff_start": 20,
     "turret_attack_falloff_end": 35,
-    "turret_attack_delay": 0.2,
-    "turret_dps": 40,
-    "turret_lifetime": 24,
+    "turret_attack_delay": 0.35,
+    "turret_dps": 60,
+    "turret_lifetime": 30,
     "turret_decay_damage_per_second": 20,
     "attack_speed_mult": 100,
-    "tech_resist": 70,
-    "non_hero_damage_percent_outgoing": 50,
-    "boss_damage_percent_outgoing": 30,
+    "tech_resist": 60,
+    "non_hero_damage_percent_outgoing": 60,
+    "boss_damage_percent_outgoing": 40,
     "boss_damage_percent_incoming": 50,
     "move_slow_percent": 0,
     "slow_duration": 0
@@ -45,7 +45,7 @@
     "properties": [
       {
         "key": "TurretDPS",
-        "value": 40,
+        "value": 60,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.419328,
@@ -61,12 +61,13 @@
     "basicProperties": [
       {
         "key": "TurretLifetime",
-        "value": 24,
+        "value": 30,
         "type": "duration"
       }
     ],
     "upgrades": [
       {
+        "ability_charges": 1,
         "move_slow_percent": 25,
         "slow_duration": 1.3
       },

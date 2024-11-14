@@ -3,7 +3,7 @@
   "name": "Power Slash",
   "stats": {
     "duration": 0,
-    "cooldown": 10.5,
+    "cooldown": 8,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 1.4,
+    "cast_delay": 1.5,
     "channel_time": 0,
     "post_cast_duration": 0.4,
     "cooldown_between_charge": 0,
@@ -21,8 +21,8 @@
     "slash_length": 25,
     "short_charge_damage_pct": 40,
     "medium_charge_damage_pct": 60,
-    "full_charge_damage": 160,
-    "slash_radius": 41,
+    "full_charge_damage": 170,
+    "slash_radius": 45,
     "fall_speed_max": 5,
     "air_speed_max": 0,
     "power_up_stages": 3,
@@ -36,7 +36,7 @@
     "properties": [
       {
         "key": "FullChargeDamage",
-        "value": 160,
+        "value": 170,
         "type": "tech_damage",
         "scale_function": {
           "value": 2,
@@ -76,8 +76,7 @@
       },
       {
         "slow_duration": 3,
-        "slow_percent": 40,
-        "ability_cooldown": -2
+        "slow_percent": 40
       },
       {
         "full_charge_damage": 200,

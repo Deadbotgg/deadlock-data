@@ -1,9 +1,9 @@
 {
   "key": "rutger_force_field",
-  "name": "Force Field",
+  "name": "rutger_force_field",
   "stats": {
     "duration": 10,
-    "cooldown": 42,
+    "cooldown": 40,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

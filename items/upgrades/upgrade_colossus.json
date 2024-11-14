@@ -1,7 +1,6 @@
 {
-  "name": "Colossus",
-  "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the move and dash speed</span> of enemies nearby. Your model size grows by 20%.",
-  "cost": "6200",
+  "description": "",
+  "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -42,7 +41,7 @@
       {
         "ability_properties": {
           "radius": {
-            "value": 12,
+            "value": 10,
             "style": "distance",
             "is_negative": false
           },
@@ -52,7 +51,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 37,
+            "value": 45,
             "style": "cooldown",
             "is_negative": false
           }
@@ -70,17 +69,17 @@
             "is_conditional": true
           },
           "slow_percent": {
-            "value": 30,
+            "value": 20,
             "style": "slow",
             "is_conditional": true
           }
         },
-        "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the move and dash speed</span> of enemies nearby. Your model size grows by 20%."
+        "description": ""
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 37,
+  "ability_cooldown": 45,
   "ability_duration": 7,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -98,8 +97,7 @@
   "base_attack_damage_percent": 20,
   "bullet_resist": 40,
   "tech_resist": 40,
-  "slow_percent": 30,
-  "ground_dash_reduction_percent": -25,
-  "radius": 12,
+  "slow_percent": 20,
+  "radius": 10,
   "model_scale_growth": 1.2
 }

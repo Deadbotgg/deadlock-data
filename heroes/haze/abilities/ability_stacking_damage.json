@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "max_stacks": 40,
+    "max_stacks": 30,
     "damage_bonus_fixed_per_stack": 0.2,
     "proc_damage": 0,
     "proc_damage_stack_count": 0,
@@ -33,11 +33,12 @@
         "key": "DamageBonusFixedPerStack",
         "value": 0.2,
         "type": "bullet_damage",
-        "m_e_display_type": "EBulletDamage"
+        "m_e_display_type": "EBulletDamage",
+        "m_b_damage_affected_by_effectiveness": true
       },
       {
         "key": "MaxStacks",
-        "value": 40
+        "value": 30
       },
       {
         "key": "ProcDamage",
@@ -58,11 +59,11 @@
         "slow_duration": 2
       },
       {
-        "ability_duration": 5,
-        "max_stacks": 40
+        "ability_duration": 6,
+        "max_stacks": 30
       },
       {
-        "damage_bonus_fixed_per_stack": 0.15,
+        "damage_bonus_fixed_per_stack": 0.25,
         "name": "Weapon Damage"
       }
     ]

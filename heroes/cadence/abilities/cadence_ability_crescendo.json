@@ -1,9 +1,9 @@
 {
   "key": "cadence_ability_crescendo",
-  "name": "Crescendo",
+  "name": "cadence_ability_crescendo",
   "stats": {
     "duration": 0,
-    "cooldown": 95,
+    "cooldown": 90,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

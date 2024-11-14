@@ -3,8 +3,6 @@
   "\"@global-variables colors\"": {
     "\"$GreenMid\"": "#1B6037",
     "\"$GreenMid_Hover\"": "#1f6f40",
-    "\"$GreenMidLight\"": "#7DB18A66",
-    "\"$GreenMidLight_Hover\"": "#83b59066",
     "\"$GreenLight\"": "#7DB18A",
     "\"$GreenLight_Hover\"": "#83b590",
     "\"$GreenLightBright\"": "#7AD691",
@@ -17,8 +15,6 @@
     "\"$TealMidDark_Hover\"": "#1b4251",
     "\"$TealMid\"": "#1C3D4B",
     "\"$TealMid_Hover\"": "#22495a",
-    "\"$TealMidLight\"": "#32505D66",
-    "\"$TealMidLight_Hover\"": "#385a6966",
     "\"$TealLight\"": "#32505D",
     "\"$TealLight_Hover\"": "#385a69",
     "\"$TealBright\"": "#98F2DC",
@@ -38,11 +34,8 @@
     "\"$Mustard_Hover\"": "#986e00",
     "\"$Tan\"": "#947A53",
     "\"$Tan_Hover\"": "#9d8158",
-    "\"$TanMidLight\"": "#D3B87466",
-    "\"$TanMidLight_Hover\"": "#d5bc7b66",
     "\"$TanLight\"": "#D3B874",
     "\"$TanLight_Hover\"": "#d5bc7b",
-    "\"$TanBright\"": "#eccf84",
     "\"$Beige\"": "#e0d7af",
     "\"$YellowMid\"": "#d99200",
     "\"$YellowMid_Hover\"": "#f6a600",
@@ -57,8 +50,8 @@
     "\"$GreyDark_Hover\"": "#303030",
     "\"$GreyMid\"": "#373737",
     "\"$GreyMid_Hover\"": "#414141",
-    "\"$GreyMidLight\"": "#99999966",
-    "\"$GreyMidLight_Hover\"": "#9e9e9e66",
+    "\"$GreyMidLight\"": "#666666",
+    "\"$GreyMidLight_Hover\"": "#6e6e6e",
     "\"$GreyLight\"": "#999999",
     "\"$GreyLight_Hover\"": "#9e9e9e",
     "\"$GreyBright\"": "#D9D9D9",
@@ -138,19 +131,6 @@
     },
     "\"&:hover .FlowRail, &:hover-descendant .FlowRail\"": {
       "Visibility": "HIDDEN"
-    },
-    "\".InflowPortsLayout, .OutflowPortsLayout\"": {
-      "Visibility": "COLLAPSE"
-    },
-    "\"&.AreInflowsAvailableForExplicitConnection\"": {
-      ".InflowPortsLayout": {
-        "Visibility": "VISIBLE"
-      }
-    },
-    "\"&.AreOutflowsAvailableForExplicitConnection\"": {
-      ".OutflowPortsLayout": {
-        "Visibility": "VISIBLE"
-      }
     }
   },
   ".BaseFlow.HasMultipleOutflows": {
@@ -338,6 +318,7 @@
         "HAlign": "STRETCH",
         "VAlign": "BOTTOM",
         "BackgroundImage": "tools/images/pulse_editor/dashed_line_repeat.png",
+        "ImageTint": "$node_base_accessory",
         "BackgroundSize": "Natural",
         "Positioning": "ON_PARENT_BORDER",
         "PaintLayer": "CONNECTIONS_FOREGROUND"
@@ -471,7 +452,7 @@
       ".HeaderText": {
         "PaintLayer": "COMMENT_OVERLAY"
       },
-      "\"&::after\"": {
+      "\"&:after\"": {
         "Visibility": "HIDDEN"
       }
     },
@@ -506,19 +487,38 @@
     "Margin_Left": 0,
     "InteractionPriority": "NONINTERACTIVE"
   },
-  ".RequirementsIconAlongsideFlow": {
-    "FixedSizeX": 16,
-    "FixedSizeY": 16,
-    "Margin_Top": 0,
-    "Margin_Right": 2,
+  ".RequirementsIconInsideHeader": {
+    "InteractionPriority": "BASE",
+    "FixedSizeX": 18,
+    "FixedSizeY": 18,
+    "Margin_Right": 4,
+    "Margin_Left": -4,
+    "PaintLayer": "NODES",
+    "VAlign": "CENTER",
+    "Visibility": "COLLAPSE"
+  },
+  ".RequirementsIconAlongsideFirstPort": {
+    "FixedSizeX": 18,
+    "FixedSizeY": 18,
+    "Margin_Top": 2,
+    "Margin_Right": 0,
     "Margin_Left": 0,
-    "Margin_Bottom": 0,
     "PaintLayer": "CONNECTIONS_FOREGROUND",
     "VAlign": "CENTER",
     "HAlign": "LEFT",
     "Positioning": "OUTSIDE_PARENT",
-    "Visibility": "COLLAPSE",
-    "InteractionPriority": "PORT"
+    "Visibility": "COLLAPSE"
+  },
+  ".RequirementsIconInRequirementsList": {
+    "InteractionPriority": "BASE",
+    "FixedSizeX": 18,
+    "FixedSizeY": 18,
+    "Margin_Right": 0,
+    "Margin_Left": 0,
+    "PaintLayer": "CONNECTIONS_FOREGROUND",
+    "VAlign": "CENTER",
+    "HAlign": "LEFT",
+    "Positioning": "OUTSIDE_PARENT"
   },
   ".RequirementsNodeList": {
     "LayoutChildren": "VBOX",
@@ -541,6 +541,7 @@
     "HAlign": "STRETCH",
     "VAlign": "BOTTOM",
     "BackgroundImage": "tools/images/pulse_editor/dashed_line_repeat.png",
+    "ImageTint": "$node_base_accessory",
     "BackgroundSize": "Natural",
     "Positioning": "ON_PARENT_BORDER",
     "PaintLayer": "CONNECTIONS_FOREGROUND"
@@ -549,54 +550,11 @@
     "\"&.ShowRequirementsList .RequirementsNodeList\"": {
       "Visibility": "VISIBLE"
     },
-    ".RequirementsIconAlongsideFlow": {
-      "Visibility": "VISIBLE",
-      "\"&:hover\"": {
-        "\"&:after\"": {
-          "Preset": "RequirementsSummaryBox"
-        }
-      }
-    }
-  },
-  ".RequirementsSummaryBox": {
-    "PaintLayer": "COMMENT_OVERLAY",
-    "BorderRadius": "10px",
-    "Border": "2px SolidLine $GreyLight",
-    "Background_Color": "$GreyDark",
-    "Positioning": "OUTSIDE_PARENT",
-    "HAlign": "LEFT",
-    "VAlign": "CENTER",
-    "Padding_Top": 4,
-    "Padding_Bottom": 4,
-    "Padding_Right": 6,
-    "Padding_Left": 6,
-    "Margin_Right": 6
-  },
-  ".RequirementsSummaryRowContainer": {
-    "HAlign": "STRETCH",
-    "VAlign": "STRETCH",
-    "LayoutChildren": "VBOX"
-  },
-  ".RequirementsSummaryRow": {
-    "LayoutChildren": "HBOX",
-    "FixedSizeX": 300,
-    "\"&.RequirementAnd .RequirementsSummaryRowLabel\"": {},
-    "\"&.RequirementOr .RequirementsSummaryRowLabel\"": {}
-  },
-  ".RequirementsSummaryRowLabel": {
-    "Font": "$AltFont",
-    "PaintLayer": "COMMENT_OVERLAY",
-    "TextClipMode": "ELIDE_TEXT_END",
-    "Foreground_Color": "#FFFFFF",
-    "HAlign": "STRETCH",
-    "TextVAlign": "CENTER",
-    "FixedSizeX": 270,
-    "TextHAlign": "LEFT",
-    "Margin_Left": "5px",
-    "\"&.RequirementOperator\"": {
-      "Font": "$BaseFontSmall",
-      "TextHAlign": "CENTER",
-      "FixedSizeX": 25
+    "\"&.ShowIconAlongsideFirstPort .RequirementsIconAlongsideFirstPort\"": {
+      "Visibility": "VISIBLE"
+    },
+    "\"&.ShowRequirementsIconInsideHeader .RequirementsIconInsideHeader\"": {
+      "Visibility": "VISIBLE"
     }
   },
   ".HeaderTextContainer": {
@@ -627,12 +585,8 @@
   "\".BaseValue .HeaderText\"": {
     "TextClipMode": "unset"
   },
-  "\".BaseValue .HeaderIcon\"": {
-    "Margin_Left": 10
-  },
   "\".ValueWithoutPortLabels .HeaderIcon\"": {
     "Positioning": "INSIDE_PARENT",
-    "Margin_Left": "unset",
     "HAlign": "CENTER",
     "VAlign": "CENTER"
   },
@@ -685,6 +639,7 @@
       "HAlign": "STRETCH",
       "VAlign": "BOTTOM",
       "BackgroundImage": "tools/images/pulse_editor/dashed_line_repeat.png",
+      "ImageTint": "$node_base_accessory",
       "BackgroundSize": "Natural",
       "Positioning": "ON_PARENT_BORDER",
       "PaintLayer": "CONNECTIONS_FOREGROUND"
@@ -795,53 +750,8 @@
       "BackgroundImage": "tools/images/pulse_editor/flow_icon_execute_inline_accessory.png"
     }
   },
-  "\".IsYielding .FlowEntry\"": {
-    "\"&.FlowEntry\"": {
-      "LayoutGrowFactor": "unset",
-      "FixedSizeY": 9
-    },
-    "\"&.FlowExit\"": {
-      "MinSizeX": 6,
-      "FixedSizeY": 5,
-      "VAlign": "STRETCH",
-      "LayoutGrowFactor": "unset"
-    }
-  },
   "\".IsSpontaneous .FlowIcon\"": {
     "Visibility": "COLLAPSE"
-  },
-  "\".Outflow_Cycle.IsControlFlowNode .NodeRow:last-child, .Outflow_Simultaneous.IsControlFlowNode .NodeRow:last-child\"": {
-    ".FlowExit": {
-      "Visibility": "HIDDEN"
-    },
-    ".FlowIcon": {
-      "BackgroundImage": "tools/images/pulse_editor/flow_icon_cursor_control.png"
-    },
-    ".FlowEntry": {
-      "LayoutGrowFactor": "unset",
-      "FixedSizeY": 10
-    }
-  },
-  "\".Outflow_If.IsControlFlowNode .NodeRow:last-child, .Outflow_IntSwitch.IsControlFlowNode .NodeRow:last-child, .Step_FireCursors.IsControlFlowNode .NodeRow:last-child\"": {
-    ".FlowExit": {
-      "MinSizeX": 6,
-      "MinSizeY": 6,
-      "VAlign": "STRETCH",
-      "LayoutGrowFactor": 1
-    },
-    ".FlowIcon": {
-      "Positioning": "unset",
-      "BackgroundImage": "tools/images/pulse_editor/flow_icon_execute_inline.png"
-    },
-    ".FlowEntry": {
-      "LayoutGrowFactor": 1,
-      "FixedSizeY": 10
-    }
-  },
-  "\".Outflow_Cycle.IsControlFlowNode.HasSpecialMultipleOutflowsSection .SpecialMultipleOutflowsSection .MultipleOutflowsSectionBar, .Outflow_Simultaneous.IsControlFlowNode.HasSpecialMultipleOutflowsSection .SpecialMultipleOutflowsSection .MultipleOutflowsSectionBar\"": {
-    "Margin_Left": 0,
-    "BorderRadius_BottomLeft": 0,
-    "BorderRadius_TopLeft": 0
   },
   "\"&:first-child .FlowRail::before\"": {
     "Margin_Top": 5,
@@ -856,14 +766,19 @@
   "\"&:hover .FlowRail::before, .&:hover-descendant .FlowRail::before\"": {
     "Visibility": "HIDDEN"
   },
+  ".CommentDragHandle": {
+    "VAlign": "TOP",
+    "HAlign": "LEFT",
+    "FixedSizeX": 11,
+    "FixedSizeY": 20
+  },
   ".DragHandle": {
     "FixedSizeX": 20,
     "VAlign": "STRETCH",
     "Margin_Top": 6,
     "Margin_Bottom": 6,
     "BorderRadius": "3px",
-    "Visibility": "HIDDEN",
-    "PaintLayer": "HOVER_OVERLAY"
+    "Visibility": "HIDDEN"
   },
   ".DragHandleContainer": {
     "FixedSizeX": 40,
@@ -889,8 +804,7 @@
     "FixedSizeY": 2,
     "BorderRadius": "3px",
     "Margin_Top": 2,
-    "Margin_Bottom": 2,
-    "PaintLayer": "HOVER_OVERLAY"
+    "Margin_Bottom": 2
   },
   ".PortPlugCtn": {
     "FixedSizeX": 24,
@@ -1132,17 +1046,13 @@
     "ParticipatesInBoxSelection": false,
     "InteractionPriority": "ADD_FLOW",
     "Positioning": "OUTSIDE_PARENT",
-    "VAlign": "STRETCH",
+    "VAlign": "BOTTOM",
     "HAlign": "LEFT",
     "FixedSizeX": 28,
+    "FixedSizeY": 28,
     "Margin_Right": 4,
-    "Margin_Bottom": -14,
-    "PaintLayer": "NODES",
-    "Visibility": "HIDDEN",
-    "BackgroundImageWidth": 28,
-    "BackgroundImageHeight": 28,
-    "BackgroundRepeat": "NoRepeat",
-    "BackgroundPositionY": "Bottom"
+    "Margin_Top": -14,
+    "PaintLayer": "NODES"
   },
   "\".AppendFlow:hover-associate\"": {
     "BackgroundImage": "tools/images/pulse_editor/insert_child.png",
@@ -1151,9 +1061,6 @@
   "\".AppendFlow:hover\"": {
     "BackgroundImage": "tools/images/pulse_editor/insert_child.png",
     "ImageTint": "$GreyBright"
-  },
-  "\".BaseFlow:hover .AppendFlow, .BaseFlow:hover-descendant .AppendFlow\"": {
-    "Visibility": "VISIBLE"
   },
   ".ResizeComment_Corner_Base": {
     "ParticipatesInBoxSelection": false,
@@ -1223,22 +1130,11 @@
       "VAlign": "TOP",
       "HAlign": "STRETCH",
       "FixedSizeY": 20,
-      "BorderRadius_TopLeft": "6px",
-      "BorderRadius_TopRight": "6px"
-    },
-    ".BlockCommentHeaderText": {
-      "Positioning": "INSIDE_PARENT",
-      "VAlign": "STRETCH",
-      "HAlign": "STRETCH",
-      "FixedSizeY": 22,
-      "TextVAlign": "TOP",
-      "Margin_Left": 16,
-      "TextClipMode": "ELIDE_TEXT_END",
-      "Font": "$BaseFont",
-      "LayoutGrowFactor": 1
+      "Padding": "2px",
+      "BorderRadius_TopLeft": "12px",
+      "BorderRadius_TopRight": "12px"
     },
     ".BlockCommentTextBox": {
-      "PaintLayer": "COMMENTS",
       "ParticipatesInBoxSelection": false,
       "Positioning": "INSIDE_PARENT",
       "VAlign": "STRETCH",
@@ -1251,28 +1147,11 @@
     },
     "\"&.BlockCommentRegion\"": {
       ".BlockCommentHeader": {
-        "DefaultHoverCursorName": "OpenHandCursor",
-        "PaintLayer": "COMMENT_OVERLAY"
-      },
-      ".BlockCommentHeaderText": {
-        "Visibility": "VISIBLE",
-        "PaintLayer": "COMMENT_OVERLAY"
+        "DefaultHoverCursorName": "OpenHandCursor"
       }
     },
     "\"&.BlockCommentNote\"": {
-      "InteractionPriority": "BASE",
-      "BorderRadius": "6px",
-      ".BlockCommentHeader": {
-        "PaintLayer": "COMMENTS",
-        "Visibility": "HIDDEN"
-      },
-      ".BlockCommentHeaderText": {
-        "PaintLayer": "COMMENTS",
-        "Visibility": "HIDDEN"
-      },
-      ".BlockCommentTextBox": {
-        "Margin_Top": 8
-      }
+      "InteractionPriority": "BASE"
     }
   },
   "\".PulseServerDebugNode .HeaderText\"": {
@@ -1286,7 +1165,7 @@
   },
   ".FlowNodeComment": {
     "HAlign": "LEFT",
-    "Margin_Right": 22
+    "Margin_Right": 8
   },
   ".ValueNodeComment": {
     "HAlign": "RIGHT",
@@ -1357,17 +1236,12 @@
         "Visibility": "HIDDEN"
       }
     },
-    "\"&:last-child, &:only-child\"": {
-      ".SpecialMultipleOutflowsSection": {
-        "BorderRadius_BottomRight": 5
-      }
-    },
     ".SpecialMultipleOutflowsSection": {
       "HAlign": "STRETCH",
       "VAlign": "STRETCH",
       "LayoutGrowFactor": 1,
       "BorderRadius_TopLeft": 5,
-      "BorderRadius_BottomRight": 0,
+      "BorderRadius_BottomRight": 5,
       "LayoutChildren": "DEFAULT",
       ".MultipleOutflowsSectionBar": {
         "BorderRadius": "3px",
@@ -1378,7 +1252,7 @@
         "Margin_Right": 10
       }
     },
-    "\"&.Outflow_PlayVCD, &.Outflow_PlaySequence, &.Outflow_ScriptedSequence\"": {
+    "\"&.Outflow_PlayVCD, &.Outflow_ScriptedSequence\"": {
       ".SpecialMultipleOutflowsSection": {
         "BorderRadius_BottomRight": 0
       }
@@ -1404,9 +1278,6 @@
     },
     "\".OutflowPort:nth-child(n+2)\"": {
       "Margin_Top": -20
-    },
-    "\"&.Outflow_If .OutflowPort:nth-child(n+2), &.Outflow_If_Else .OutflowPort:nth-child(n+2)\"": {
-      "Margin_Top": 0
     }
   },
   ".WaitForChildOutflows": {
@@ -1421,7 +1292,7 @@
     "PaintLayer": "NODES",
     "BackgroundImage": "tools/images/pulse_editor/inflow_wait.png"
   },
-  "\".Outflow_PlayVCD, .Outflow_PlaySequence, .Outflow_ScriptedSequence\"": {
+  "\".Outflow_PlayVCD, .Outflow_ScriptedSequence\"": {
     ".SpecialMultipleOutflowsSection": {
       "BorderRadius_TopRight": 5,
       "Margin_Right": 40
@@ -1433,7 +1304,7 @@
       }
     }
   },
-  "\".Outflow_Cycle, .Outflow_Simultaneous, .Outflow\"": {
+  "\".Outflow_Cycle, .Outflow_Simultaneous, .Outflow_IntSwitch, .Outflow_StringSwitch\"": {
     ".OutflowPort": {
       "Margin_Top": -20
     },
@@ -1441,7 +1312,7 @@
       "Margin_Left": 55
     }
   },
-  "\".Step_FireCursors, Outflow_IntSwitch, Outflow_StringSwitch\"": {
+  ".Step_FireCursors": {
     "\".OutflowPort:first-child\"": {
       "\".PortEvent:after\"": {
         "Visibility": "COLLAPSE"
@@ -1611,11 +1482,6 @@
         },
         "\"&.ValueType_Other .BaseValueInnerContainer::before\"": {
           "Background_Color": "$data_type_other"
-        },
-        ".NodeRows": {
-          "\".NodeRow:after\"": {
-            "ImageTint": "$DashedLineColor"
-          }
         }
       },
       ".BaseValueInnerContainer": {
@@ -1642,25 +1508,10 @@
             ".PortValueLabel": {
               "Foreground_Color": "$colorBase"
             }
-          },
-          "\"&.NodeRows\"": {
-            "\".NodeRow:after\"": {
-              "ImageTint": "$DashedLineColor"
-            }
           }
         },
         ".HeaderIcon": {
           "ImageTint": "$iconColor"
-        },
-        "\"&.IsMethodPrivate\"": {
-          ".HeaderIcon": {
-            "ImageTint": "$flowColor"
-          }
-        },
-        "\"&.Inflow_EntOutput\"": {
-          ".HeaderIcon": {
-            "ImageTint": "unset"
-          }
         }
       },
       ".FlowIcon": {
@@ -1676,7 +1527,7 @@
         "ImageTint": "$DashedLineColor"
       },
       ".DragHandle": {
-        "Background_Color": "$dragColorBase"
+        "Background_Color": "$flowColor"
       },
       ".DragHandleGrip": {
         "Background_Color": "$bgColorHover"
@@ -1685,9 +1536,6 @@
         "Background_Color": "$bgColorHover"
       },
       "\".flow:hover .drag_handle\"": {
-        "Background_Color": "$dragColorHover"
-      },
-      "\".DragHandleContainer:hover .DragHandle\"": {
         "Background_Color": "$dragColorHover"
       },
       ".icon_style_20x20": {
@@ -1701,11 +1549,6 @@
           "Foreground_Color": "$colorBase"
         }
       },
-      "\"&.Skipped, &.Unreachable\"": {
-        "\".HeaderText, .Port .PortlabelContainer .PortLabel, .Port .PortlabelContainer .PortValueLabel, &.CPulseCell_Inflow_Wait .HeaderText\"": {
-          "Foreground_Color": "$colorDim"
-        }
-      },
       "\"&.ValueWithoutPortLabels .HeaderText\"": {
         "Font": "Barlow,-1,36,18,40,0,0,0,0,0,Regular",
         "Foreground_Color": "$colorBase",
@@ -1713,7 +1556,7 @@
         "VAlign": "CENTER"
       },
       ".RequirementLayout_Separator_Line": {
-        "ImageTint": "$DashedLineColor"
+        "ImageTint": "$node_base_accessory"
       },
       "\"&.BaseConnection\"": {
         "\"&.ValueType_Bool\"": {
@@ -1799,12 +1642,6 @@
             "Background_Color": "$flowColor"
           }
         },
-        "\"&.IsYielding .SpecialMultipleOutflowsSection .MultipleOutflowsSectionBar\"": {
-          "Background_Color": "$MultipleOutflowsSectionBar"
-        },
-        "\"&.IsYielding .SpecialMultipleOutflowsSectionPortChild .PortEvent::after\"": {
-          "Background_Color": "$MultipleOutflowsSectionBar"
-        },
         ".SpecialMultipleOutflowsSectionPortChild": {
           "\".PortEvent::after\"": {
             "Background_Color": "$flowColor"
@@ -1860,6 +1697,7 @@
       },
       ".Port.InflowPort": {
         "\"&:nth-child(n+2) .PortPlug\"": {
+          "Background_Color": "$flowColor",
           "Border_Color": "$bgColorHover"
         }
       }
@@ -1885,6 +1723,7 @@
       },
       ".Port.InflowPort": {
         "\"&:nth-child(n+2) .PortPlug\"": {
+          "Background_Color": "$flowColor",
           "Border_Color": "$bgColorHover"
         }
       }
@@ -1916,10 +1755,9 @@
     "\"$flowColor\"": "$GreyLight",
     "\"$flowColorAccessory\"": "$White",
     "\"$dragColorBase\"": "$GreyLight",
-    "\"$dragColorHover\"": "$GreyBright",
-    "\"$iconColor\"": "$GreyLight",
+    "\"$dragColorHover\"": "$White",
+    "\"$iconColor\"": "$White",
     "\"$colorBase\"": "$White",
-    "\"$colorDim\"": "$GreyLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$GreyDark",
     "\"$DashedLineColor\"": "$GreyMidLight",
@@ -1931,7 +1769,6 @@
     "\"$PortBorderColor\"": "$GreyDark",
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyLight",
-    "\"$MultipleOutflowsSectionBar\"": "$GreyLight",
     "\"$typeFace\"": "$BaseFont"
   },
   "\"@variable-context node_theme_yielding\"": {
@@ -1944,22 +1781,20 @@
     "\"$flowColor\"": "$TanLight",
     "\"$flowColorAccessory\"": "$YellowBright",
     "\"$dragColorBase\"": "$TanLight",
-    "\"$dragColorHover\"": "$TanBright",
+    "\"$dragColorHover\"": "$White",
     "\"$iconColor\"": "$TanLight",
     "\"$colorBase\"": "$White",
-    "\"$colorDim\"": "$TanLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$GreyDark",
-    "\"$DashedLineColor\"": "$TanMidLight",
-    "\"$DashedLineColorHover\"": "$TanMidLight_Hover",
+    "\"$DashedLineColor\"": "$TanLight",
     "\"$LightAccessoryColor\"": "$TanLight",
     "\"$LightAccessoryColorHover\"": "$TanLight_Hover",
+    "\"$DashedLineColorHover\"": "$TanLight_Hover",
     "\"$borderColorSelected\"": "$TealBright",
     "\"$PortBackgroundColor\"": "$Black",
     "\"$PortBorderColor\"": "$GreyDark",
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$YellowLight",
-    "\"$MultipleOutflowsSectionBar\"": "$Tan",
     "\"$typeFace\"": "$BaseFont"
   },
   "\"@variable-context node_theme_value\"": {
@@ -1972,22 +1807,20 @@
     "\"$flowColor\"": "$TealLight_Hover",
     "\"$flowColorAccessory\"": "$White",
     "\"$dragColorBase\"": "$TealLight_Hover",
-    "\"$dragColorHover\"": "$TealBright",
+    "\"$dragColorHover\"": "$White",
     "\"$iconColor\"": "$TealLight",
     "\"$colorBase\"": "$White",
-    "\"$colorDim\"": "$TealLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$TealMid",
-    "\"$DashedLineColor\"": "$TealMidLight",
-    "\"$DashedLineColorHover\"": "$TealMidLight_Hover",
+    "\"$DashedLineColor\"": "$TealLight",
     "\"$LightAccessoryColor\"": "$TealLight",
     "\"$LightAccessoryColorHover\"": "$TealLight_Hover",
+    "\"$DashedLineColorHover\"": "$TealLight_Hover",
     "\"$borderColorSelected\"": "$TealBright",
     "\"$PortBackgroundColor\"": "$Black",
     "\"$PortBorderColor\"": "$GreyDark",
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyLight",
-    "\"$MultipleOutflowsSectionBar\"": "$TealLight",
     "\"$portColor\"": "$Black",
     "\"$typeFace\"": "$BaseFont"
   },
@@ -2001,22 +1834,20 @@
     "\"$flowColor\"": "$GreenLight",
     "\"$flowColorAccessory\"": "$GreenLight",
     "\"$dragColorBase\"": "$GreenLight",
-    "\"$dragColorHover\"": "$GreenLightBright",
+    "\"$dragColorHover\"": "$White",
     "\"$iconColor\"": "$GreenBright",
     "\"$colorBase\"": "$White",
-    "\"$colorDim\"": "$GreenLight",
     "\"$colorHover\"": "$White",
     "\"$borderColor\"": "$TealMid",
-    "\"$DashedLineColor\"": "$GreenMidLight",
-    "\"$DashedLineColorHover\"": "$GreenMidLight_Hover",
+    "\"$DashedLineColor\"": "$GreenLight",
     "\"$LightAccessoryColor\"": "$GreenLight",
     "\"$LightAccessoryColorHover\"": "$GreenLight_Hover",
+    "\"$DashedLineColorHover\"": "$GreenLight_Hover",
     "\"$borderColorSelected\"": "$GreenBright",
     "\"$PortBackgroundColor\"": "$Black",
     "\"$PortBorderColor\"": "$GreyDark",
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreenLight",
-    "\"$MultipleOutflowsSectionBar\"": "$GreenLight",
     "\"$portColor\"": "$Black",
     "\"$typeFace\"": "$BaseFontBold"
   },
@@ -2029,15 +1860,14 @@
     "\"$paramColorHover\"": "$GreyMid_Hover",
     "\"$flowColor\"": "$Blackish",
     "\"$flowColorAccessory\"": "$Blackish",
-    "\"$dragColorBase\"": "$Blackish",
-    "\"$dragColorHover\"": "$Blackish",
+    "\"$dragColorBase\"": "$GreyLight",
+    "\"$dragColorHover\"": "$White",
     "\"$iconColor\"": "$Blackish",
     "\"$colorBase\"": "$Blackish",
-    "\"$colorDim\"": "$GreyBright",
     "\"$colorHover\"": "$Blackish",
     "\"$borderColor\"": "$GreyDark",
-    "\"$DashedLineColor\"": "$GreyLight",
-    "\"$DashedLineColorHover\"": "$GreyLight_Hover",
+    "\"$DashedLineColor\"": "$GreyMidLight",
+    "\"$DashedLineColorHover\"": "$GreyMidLight_Hover",
     "\"$LightAccessoryColor\"": "$GreyLight",
     "\"$LightAccessoryColorHover\"": "$GreyLight_Hover",
     "\"$borderColorSelected\"": "$TealBright",
@@ -2045,7 +1875,6 @@
     "\"$PortBorderColor\"": "$GreyDark",
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyLight",
-    "\"$MultipleOutflowsSectionBar\"": "$Blackish",
     "\"$typeFace\"": "$BaseFont"
   },
   "\"@variable-context node_theme_IsControlFlowNodeIsYielding\"": {
@@ -2057,11 +1886,10 @@
     "\"$paramColorHover\"": "$GreyMid_Hover",
     "\"$flowColor\"": "$Blackish",
     "\"$flowColorAccessory\"": "$Blackish",
-    "\"$dragColorBase\"": "$Blackish",
-    "\"$dragColorHover\"": "$Blackish",
+    "\"$dragColorBase\"": "$GreyLight",
+    "\"$dragColorHover\"": "$White",
     "\"$iconColor\"": "$Blackish",
     "\"$colorBase\"": "$Blackish",
-    "\"$colorDim\"": "$TanLight",
     "\"$colorHover\"": "$Blackish",
     "\"$borderColor\"": "$GreyDark",
     "\"$DashedLineColor\"": "$GreyMidLight",
@@ -2073,35 +1901,6 @@
     "\"$PortBorderColor\"": "$GreyDark",
     "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
     "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyDark",
-    "\"$MultipleOutflowsSectionBar\"": "$Blackish",
-    "\"$typeFace\"": "$BaseFont"
-  },
-  "\"@variable-context node_theme_PulseServerDebugNode\"": {
-    "\"$bgColorBase\"": "$GreyDark",
-    "\"$bgColorHover\"": "$GreyDark",
-    "\"$bgColorDark\"": "$Blackish",
-    "\"$bgColorDarkHover\"": "$GreyDark_Hover",
-    "\"$paramColorBase\"": "$GreyMid",
-    "\"$paramColorHover\"": "$GreyMid_Hover",
-    "\"$flowColor\"": "$GreyLight",
-    "\"$flowColorAccessory\"": "$White",
-    "\"$dragColorBase\"": "$GreyLight",
-    "\"$dragColorHover\"": "$GreyBright",
-    "\"$iconColor\"": "$GreyLight",
-    "\"$colorBase\"": "$White",
-    "\"$colorDim\"": "$GreyLight",
-    "\"$colorHover\"": "$White",
-    "\"$borderColor\"": "$Blackish",
-    "\"$DashedLineColor\"": "$GreyMidLight",
-    "\"$DashedLineColorHover\"": "$GreyMidLight_Hover",
-    "\"$LightAccessoryColor\"": "$GreyLight",
-    "\"$LightAccessoryColorHover\"": "$GreyLight_Hover",
-    "\"$borderColorSelected\"": "$TealBright",
-    "\"$PortBackgroundColor\"": "$Black",
-    "\"$PortBorderColor\"": "$GreyDark",
-    "\"$InFlowOutFlowPortBackgroundColor\"": "$GreyLight",
-    "\"$InFlowOutFlowPortBackgroundColorAlt\"": "$GreyLight",
-    "\"$MultipleOutflowsSectionBar\"": "$GreyLight",
     "\"$typeFace\"": "$BaseFont"
   },
   "\"@include-mixin node_theme(default)\"": {
@@ -2127,9 +1926,5 @@
   "\"@include-mixin node_theme(IsControlFlowNodeIsYielding)\"": {
     "\"$className\"": "IsControlFlowNode.IsYielding",
     "\"$variables\"": "node_theme_IsControlFlowNodeIsYielding"
-  },
-  "\"@include-mixin node_theme(PulseServerDebugNode)\"": {
-    "\"$className\"": "PulseServerDebugNode",
-    "\"$variables\"": "node_theme_PulseServerDebugNode"
   }
 }

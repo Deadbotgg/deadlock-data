@@ -1,6 +1,6 @@
 {
   "name": "Healing Booster",
-  "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>.",
+  "description": "Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -17,8 +17,13 @@
       {
         "ability_properties": {
           "tech_resist": {
-            "value": 6,
+            "value": 7,
             "style": "tech_armor_up",
+            "is_negative": false
+          },
+          "bullet_resist": {
+            "value": 7,
+            "style": null,
             "is_negative": false
           },
           "bonus_health_regen": {
@@ -37,7 +42,7 @@
         "ability_properties": {},
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>."
+        "description": "Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>."
       }
     ]
   },
@@ -58,6 +63,6 @@
   "heal_amp_cast_percent": 25,
   "heal_amp_regen_percent": 25,
   "bonus_health_regen": 2,
-  "tech_resist": 6,
-  "degen_resistance": 15
+  "tech_resist": 7,
+  "bullet_resist": 7
 }

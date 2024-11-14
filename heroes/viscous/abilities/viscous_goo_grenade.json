@@ -3,7 +3,7 @@
   "name": "Splatter",
   "stats": {
     "duration": 0,
-    "cooldown": 21,
+    "cooldown": 20,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -13,7 +13,7 @@
     "unit_target_limit": 1,
     "cast_delay": 0.001,
     "channel_time": 0,
-    "post_cast_duration": 0.2,
+    "post_cast_duration": 0.5,
     "cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "tech_power": 0,
@@ -21,14 +21,14 @@
     "slow_percent": 35,
     "move_speed_slow_percent": 0,
     "max_bounces": 0,
-    "damage": 90,
+    "damage": 110,
     "move_speed_ground_slow": 0,
     "boss_damage_percent": 50,
     "radius": 5,
     "puddle_duration": 10,
     "detonate_cooldown": 0.15,
-    "second_hit_damage_percentage": 0.7,
-    "third_hit_damage_percentage": 0.5
+    "second_hit_damage_percentage": 0.66,
+    "third_hit_damage_percentage": 0.33
   },
   "tooltipDetails": {
     "description": "Goo puddles linger on the ground and apply a <span class=\"highlight\">movement slow</span> to enemies walking on them.",
@@ -54,14 +54,15 @@
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -5.75
+        "ability_cooldown": -6
       },
       {
-        "damage": 50,
+        "damage": 70,
         "radius": 1
       },
       {
-        "max_bounces": 2
+        "max_bounces": 2,
+        "name": "Bounces"
       }
     ]
   }

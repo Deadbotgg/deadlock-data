@@ -1,7 +1,7 @@
 {
   "name": "Curse",
   "description": "Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "ActivationPress",
   "slot": "Tech",
@@ -39,7 +39,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 53,
+            "value": 40,
             "style": "cooldown",
             "is_negative": false
           },
@@ -61,8 +61,8 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 53,
-  "ability_duration": 3.25,
+  "ability_cooldown": 40,
+  "ability_duration": 3.5,
   "ability_cast_range": 20,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,

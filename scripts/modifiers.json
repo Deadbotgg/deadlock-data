@@ -19,7 +19,6 @@
     "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
     "m_strSmallIconCssClass": "stunned",
     "m_bKeepMaximumDurationOnRefresh": true,
-    "m_flGravityScale": 2,
     "m_cameraSequenceCreated": {
       "m_vecDistanceOperations": [
         {
@@ -31,8 +30,7 @@
         },
         {
           "m_eCameraOperation": "k_ECameraOp_Maintain",
-          "m_flMaintainDuration": 5,
-          "m_flMaintainFloat": 300
+          "m_flMaintainDuration": 5
         }
       ],
       "m_vecFOVOperations": [
@@ -54,9 +52,7 @@
         {
           "m_eCameraOperation": "k_ECameraOp_Lerp",
           "m_flLerpDuration": 0.25,
-          "m_flLerpBias": 0.702,
-          "m_bLerpStartAtCurrent": true,
-          "m_flLerpStart": 0
+          "m_flLerpBias": 0.702
         }
       ]
     },
@@ -73,6 +69,11 @@
   "modifier_boss_invuln": {
     "_class": "modifier_boss_invuln",
     "m_ShieldParticle": "resource_name:\"particles/trooper/tier1_boss_invulerability_shield.vpcf\""
+  },
+  "modifier_t2_boss_invuln": {
+    "_class": "modifier_boss_invuln",
+    "m_ShieldParticle": "resource_name:\"particles/trooper/tier2_boss_invulerability_shield.vpcf\"",
+    "m_flShieldRadius": 300
   },
   "modifier_zipline_speed_trooper_first_wave": {
     "_class": "modifier_zipline_speed",
@@ -112,12 +113,12 @@
   "modifier_idol_pickup_aura": {
     "_class": "modifier_held_item_pickup_aura",
     "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO",
+    "m_strParticleEffect": "resource_name:\"particles/generic/idol_pickup_aura.vpcf\"",
     "m_modifierProvidedByAura": {
       "_class": "modifier_item_pickup_aura_target",
       "_my_subclass_name": "aura_target",
       "m_bIsHidden": true,
       "m_PickupTimer": 2,
-      "m_nEnabledStateMask": "MODIFIER_STATE_TELEPORTER_DISABLED",
       "m_PickupTimerModifier": {
         "_class": "modifier_item_pickup_timer",
         "_my_subclass_name": "timer",
@@ -127,8 +128,6 @@
         "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
         "m_TimerToSilence": 0.5,
         "m_SilenceDuration": 0.1,
-        "m_bIsIdolPickup": true,
-        "m_nEnabledStateMask": "MODIFIER_STATE_TELEPORTER_DISABLED",
         "m_SilenceModifier": {
           "_class": "modifier_citadel_silenced",
           "_my_subclass_name": "modifier_citadel_silenced",
@@ -184,22 +183,7 @@
   },
   "citadel_modifier_teleport": {
     "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-    "m_eDebuffType": "MODIFIER_DEBUFF_NO",
-    "m_bDurationReducible": false,
-    "m_SpeedBonusModifier": {
-      "_class": "modifier_base",
-      "_my_subclass_name": "bonus_speed",
-      "m_strParticleStatusEffect": "resource_name:\"particles/abilities/kali/kali_speed_boost_buff.vpcf\"",
-      "m_flDuration": 5,
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-          "m_value": 118.11
-        }
-      ],
-      "m_strHudMessageText": "#TeleporterBonus",
-      "m_bIsHidden": true
-    }
+    "m_eDebuffType": "MODIFIER_DEBUFF_NO"
   },
   "modifier_neutral_gold_pickup_aura": {
     "_class": "modifier_item_pickup_aura",
@@ -277,28 +261,33 @@
     "m_bIsHidden": true,
     "m_flShieldImpactEffectDuration": 1.5,
     "_base": 0,
-    "flCooldownOnBreak": 50
+    "flCooldownOnBreak": 60
   },
   "modifier_citadel_disarmed": {
     "_class": "modifier_citadel_disarmed",
     "m_strParticleStatusEffect": "resource_name:\"particles/generic/generic_disarmed.vpcf\"",
     "m_sLocalizationName": "MODIFIER_STATE_DISARMED",
     "m_strHudMessageText": "#modifier_citadel_disarmed",
-    "m_strSmallIconCssClass": "disarm_proc",
-    "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
+    "m_strSmallIconCssClass": "disarm_proc"
+  },
+  "modifier_citadel_holding_golden_idol": {
+    "_class": "modifier_citadel_holding_golden_idol",
+    "m_strParticleStatusEffect": "resource_name:\"\"",
+    "m_IdolParticle": "resource_name:\"particles/generic/idol_carry.vpcf\"",
+    "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+    "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
+    "m_sStartSound": "soundevent:\"\"",
+    "m_sAmbientLoopingSound": "soundevent:\"\"",
+    "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL"
   },
   "modifier_citadel_idol_walkback": {
     "_class": "modifier_citadel_idol_walkback",
     "m_flStopDistance": 600,
     "m_flMaxSpeedDistance": 1600,
     "m_flSlowSpeed": 30,
-    "m_flFastSpeed": 280,
+    "m_flFastSpeed": 175,
     "m_flVerticalOffset": 0,
-    "m_flTolerance": 20,
-    "m_flAutoRunTime": 75,
-    "m_flTimeToStartAutoRun": 0,
-    "m_IdleParticle": "resource_name:\"particles/generic/idol_pickup_aura.vpcf\"",
-    "m_RunningParticle": "resource_name:\"particles/generic/idol_pickup_aura_running.vpcf\""
+    "m_flTolerance": 20
   },
   "modifier_hero_testing_damage_aura": {
     "_class": "modifier_hero_testing_damage_aura",
@@ -395,7 +384,7 @@
     "m_bIsHidden": true,
     "m_flShieldImpactEffectDuration": 1.5,
     "_base": "modifier_shield_tracker_base",
-    "flCooldownOnBreak": 50,
+    "flCooldownOnBreak": 60,
     "m_ShieldImpactModifier": {
       "_class": "modifier_bullet_shield_impact",
       "_my_subclass_name": "bullet_shield_impact",
@@ -412,7 +401,7 @@
     "m_bIsHidden": true,
     "m_flShieldImpactEffectDuration": 1.5,
     "_base": "modifier_shield_tracker_base",
-    "flCooldownOnBreak": 50,
+    "flCooldownOnBreak": 60,
     "eShieldType": "TechShield",
     "m_ShieldImpactModifier": {
       "_class": "modifier_tech_shield_impact",
@@ -435,55 +424,5 @@
     "m_bIsHidden": true,
     "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
     "m_eDebuffType": "MODIFIER_DEBUFF_NO"
-  },
-  "modifier_speed_boost": {
-    "_class": "modifier_citadel_speed_boost",
-    "m_bIsHidden": true,
-    "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
-    "m_eDebuffType": "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY",
-    "m_flMoveSpeedBoost": 50,
-    "m_strParticleEffect": "resource_name:\"particles/generic/sprint.vpcf\""
-  },
-  "modifier_near_climbable_rope": {
-    "_class": "modifier_near_climbable_rope",
-    "m_bIsHidden": true,
-    "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
-    "m_flEnableStateTime": 0.15
-  },
-  "modifier_citadel_cheater_curse": {
-    "_class": "modifier_citadel_cheater_curse",
-    "m_CursedModel": "resource_name:\"models/abilities/pocket_frog_small.vmdl\""
-  },
-  "modifier_inside_interior_small": {
-    "_class": "modifier_base",
-    "m_bIsHidden": true,
-    "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
-    "m_nEnabledStateMask": "MODIFIER_STATE_IN_SMALL_INTERIOR_SPACE"
-  },
-  "modifier_inside_interior_medium": {
-    "_class": "modifier_base",
-    "m_bIsHidden": true,
-    "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
-    "m_nEnabledStateMask": "MODIFIER_STATE_IN_MEDIUM_INTERIOR_SPACE"
-  },
-  "modifier_escalating_exposure_tech_armor_debuff": {
-    "_class": "modifier_base",
-    "m_bIsHidden": true,
-    "m_strSmallIconCssClass": "escalating_exposure",
-    "m_strParticleEffect": "resource_name:\"particles/upgrades/tech_resist_debuff.vpcf\"",
-    "m_bDurationAffectedByEffectiveness": true,
-    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
-    "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-      "TechArmorDamageReduction"
-    ]
-  },
-  "modifier_citadel_pulldown_to_ground": {
-    "_class": "modifier_citadel_pulldown_to_ground",
-    "m_bIsHidden": true
-  },
-  "modifier_citadel_halloween_mask": {
-    "_class": "modifier_citadel_halloween_mask",
-    "m_nNumMasks": 4,
-    "m_HalloweenMask": "resource_name:\"particles/event/halloween/halloween_mask.vpcf\""
   }
 }

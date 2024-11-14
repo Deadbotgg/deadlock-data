@@ -1,7 +1,7 @@
 {
   "name": "Ricochet",
   "description": "Your bullets will <span class=\"highlight\">ricochet</span> on enemies near your target, <span class=\"highlight\">applying any bullet procs</span> and <span class=\"highlight\">dealing a percentage of the original damage.</span>",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -27,14 +27,14 @@
             "style": null,
             "is_negative": false
           },
-          "bonus_fire_rate": {
-            "value": 10,
-            "style": null,
+          "bonus_health": {
+            "value": 125,
+            "style": "health",
             "is_negative": false
           },
-          "bonus_health": {
-            "value": 150,
-            "style": "health",
+          "bonus_fire_rate": {
+            "value": 8,
+            "style": null,
             "is_negative": false
           }
         },
@@ -52,7 +52,7 @@
             "is_negative": false
           },
           "ricochet_radius": {
-            "value": 11,
+            "value": 14,
             "style": "distance",
             "is_negative": false
           }
@@ -60,7 +60,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "ricochet_damage_percent": {
-            "value": 60,
+            "value": 50,
             "style": "bullet_damage",
             "is_conditional": false
           }
@@ -83,10 +83,10 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "ricochet_damage_percent": 60,
-  "ricochet_radius": 11,
+  "ricochet_damage_percent": 50,
+  "ricochet_radius": 14,
   "bonus_clip_size_percent": 35,
   "ricochet_targets_tooltip_only": 2,
-  "bonus_health": 150,
-  "bonus_fire_rate": 10
+  "bonus_health": 125,
+  "bonus_fire_rate": 8
 }

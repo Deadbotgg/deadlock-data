@@ -6,13 +6,7 @@
   "activation": "Passive",
   "slot": "Armor",
   "image": "upgrades/mods_armor/revitalizer_psd",
-  "components": [
-    {
-      "key": "upgrade_health",
-      "name": "Extra Health",
-      "image": "upgrades/mods_armor/health_psd"
-    }
-  ],
+  "components": null,
   "componentsOf": [],
   "target_types": null,
   "shop_filters": [
@@ -26,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 400,
+            "value": 275,
             "style": "health",
             "is_negative": false
           }
@@ -42,7 +36,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "base_attack_damage_percent": {
-            "value": 27,
+            "value": 25,
             "style": "bullet_damage",
             "is_conditional": true
           },
@@ -52,7 +46,7 @@
             "is_conditional": true
           }
         },
-        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Move Speed</span>."
+        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Movement Speed</span>."
       }
     ]
   },
@@ -70,10 +64,10 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "restore_delay": 10,
+  "restore_delay": 13,
   "heal_life_percent_out_of_combat": 4,
   "health_threshold": 75,
   "bonus_move_speed": 2,
-  "base_attack_damage_percent": 27,
-  "bonus_health": 400
+  "base_attack_damage_percent": 25,
+  "bonus_health": 275
 }

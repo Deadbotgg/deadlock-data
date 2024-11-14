@@ -19,11 +19,11 @@
     "tech_power": 0,
     "weapon_power": 0,
     "build_up_duration": 15,
-    "build_up_bullet_percent_per_hit": 9,
-    "crit_buildup": 14,
+    "build_up_bullet_percent_per_hit": 10,
     "tick_rate": 0.5,
     "burn_duration": 3,
     "dps": 15,
+    "crit_buildup": 16,
     "afterburn_spirit_damage_reduction": 0
   },
   "tooltipDetails": {
@@ -47,11 +47,11 @@
     "basicProperties": [
       {
         "key": "BuildUpBulletPercentPerHit",
-        "value": 9
+        "value": 10
       },
       {
         "key": "CritBuildup",
-        "value": 14
+        "value": 16
       },
       {
         "key": "BuildUpDuration",
@@ -61,7 +61,7 @@
     ],
     "upgrades": [
       {
-        "afterburn_spirit_damage_reduction": -25
+        "afterburn_spirit_damage_reduction": -30
       },
       {
         "burn_duration": 1

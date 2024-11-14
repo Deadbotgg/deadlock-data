@@ -1,9 +1,9 @@
 {
   "key": "ability_kali_dust_storm",
-  "name": "Dust Storm",
+  "name": "ability_kali_dust_storm",
   "stats": {
     "duration": 5,
-    "cooldown": 25,
+    "cooldown": 24,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

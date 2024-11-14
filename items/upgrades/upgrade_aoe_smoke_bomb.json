@@ -1,6 +1,6 @@
 {
   "name": "Smoke",
-  "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s.",
+  "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">movement speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s.",
   "cost": "3000",
   "tier": "3",
   "activation": "InstantCast",
@@ -37,19 +37,19 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 64,
+            "value": 60,
             "style": "cooldown",
             "is_negative": false
           }
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
+        "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">movement speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
       }
     ]
   },
   "disabled": true,
-  "ability_cooldown": 64,
+  "ability_cooldown": 60,
   "ability_duration": 25,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

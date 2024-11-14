@@ -56,7 +56,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "slow_resistance_percent": {
-            "value": 30,
+            "value": 40,
             "style": "move_speed",
             "is_conditional": false
           }
@@ -79,8 +79,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_move_speed": 1.1,
-  "slow_resistance_percent": 30,
+  "bonus_move_speed": 1.4,
+  "slow_resistance_percent": 40,
   "bonus_sprint_speed": 2,
   "bonus_health": 75,
   "bonus_health_regen": 1.5

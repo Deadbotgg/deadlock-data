@@ -1,6 +1,6 @@
 {
   "name": "Stabilizer",
-  "description": "Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>.",
+  "description": "Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>.",
   "cost": "500",
   "tier": "1",
   "activation": "Passive",
@@ -22,7 +22,7 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
+        "description": "Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
       }
     ]
   },

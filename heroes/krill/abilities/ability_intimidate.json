@@ -3,7 +3,7 @@
   "name": "Scorn",
   "stats": {
     "duration": 0,
-    "cooldown": 12.5,
+    "cooldown": 12,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -23,7 +23,7 @@
     "damage_heal_mult_non_hero": 0.7,
     "damage_heal_mult": 2,
     "tick_rate": 0.1,
-    "damage_bonus": 0,
+    "tech_damage_bonus": 0,
     "debuff_duration": 0
   },
   "tooltipDetails": {
@@ -55,13 +55,13 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -3.75
+        "ability_cooldown": -4
       },
       {
         "damage": 25
       },
       {
-        "damage_bonus": 15,
+        "tech_damage_bonus": 15,
         "debuff_duration": 16
       }
     ]

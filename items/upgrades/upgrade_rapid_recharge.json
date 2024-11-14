@@ -21,23 +21,18 @@
       {
         "ability_properties": {
           "bonus_ability_charges": {
-            "value": 2,
+            "value": 3,
             "style": "cast",
             "is_negative": false
           },
           "cooldown_between_charge_reduction": {
-            "value": 65,
+            "value": 40,
             "style": "cooldown",
             "is_negative": false
           },
           "cooldown_reduction_on_charged_abilities": {
-            "value": 30,
+            "value": 20,
             "style": null,
-            "is_negative": false
-          },
-          "base_attack_damage_percent": {
-            "value": 12,
-            "style": "bullet_damage",
             "is_negative": false
           }
         },
@@ -61,8 +56,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "cooldown_between_charge_reduction": 65,
-  "bonus_ability_charges": 2,
-  "cooldown_reduction_on_charged_abilities": 30,
-  "base_attack_damage_percent": 12
+  "cooldown_between_charge_reduction": 40,
+  "bonus_ability_charges": 3,
+  "cooldown_reduction_on_charged_abilities": 20
 }

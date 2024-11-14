@@ -1,6 +1,6 @@
 {
   "name": "Toxic Bullets",
-  "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
+  "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -18,20 +18,6 @@
     "EShopFilterDisruption"
   ],
   "tooltip": {
-    "Innate": [
-      {
-        "ability_properties": {
-          "bonus_health": {
-            "value": 100,
-            "style": "health",
-            "is_negative": false
-          }
-        },
-        "elevated_ability_properties": {},
-        "important_ability_properties": {},
-        "description": ""
-      }
-    ],
     "Default": [
       {
         "ability_properties": {
@@ -49,17 +35,17 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "dot_health_percent": {
-            "value": 2,
+            "value": 6,
             "style": "tech_damage",
             "is_conditional": false
           },
           "heal_amp_receive_penalty_percent": {
-            "value": -65,
+            "value": -55,
             "style": null,
             "is_conditional": true
           }
         },
-        "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
+        "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
       }
     ]
   },
@@ -77,13 +63,12 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_health": 100,
-  "dot_health_percent": 2.5,
+  "dot_health_percent": 6,
   "dot_duration": 3,
-  "build_up_per_shot": 0.92,
+  "build_up_per_shot": 0.8,
   "build_up_duration": 5,
   "tick_rate": 0.5,
-  "heal_amp_receive_penalty_percent": -65,
-  "heal_amp_regen_penalty_percent": -65,
+  "heal_amp_receive_penalty_percent": -55,
+  "heal_amp_regen_penalty_percent": -55,
   "dot_multipler_troopers": 0.5
 }

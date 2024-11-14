@@ -1,9 +1,9 @@
 {
   "key": "citadel_ability_shiv_dash",
-  "name": "Slice and Dice",
+  "name": "Shiv Dash",
   "stats": {
     "duration": 0,
-    "cooldown": 16,
+    "cooldown": 20,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -19,19 +19,18 @@
     "tech_power": 0,
     "weapon_power": 0,
     "tech_cleave_expire_time": 0.35,
-    "dash_angle_threshold": 89,
+    "dash_angle_threshold": 45,
     "dash_speed": 2400,
     "dash_range": 12,
     "dash_radius": 2.5,
-    "impact_damage": 105,
+    "impact_damage": 100,
     "move_speed_penalty_max_speed": 200,
     "move_speed_penalty_duration": 0,
     "camera_distance": 250,
     "side_move_speed_reduction": -100,
     "turn_rate_max": 0,
     "cooldown_reduction_on_hit": 0,
-    "cooldown_reduction_on_hit_non_hero": 0,
-    "max_cooldown_reductions_from_hits": 0
+    "max_cooldown_reductions_from_hits": 3
   },
   "tooltipDetails": {
     "description": "On hit",

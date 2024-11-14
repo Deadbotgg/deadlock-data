@@ -23,7 +23,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 125,
+            "value": 75,
             "style": "health",
             "is_negative": false
           },
@@ -69,5 +69,5 @@
   "weapon_power": 0,
   "status_resistance_percent": 30,
   "base_attack_damage_percent": 6,
-  "bonus_health": 125
+  "bonus_health": 75
 }

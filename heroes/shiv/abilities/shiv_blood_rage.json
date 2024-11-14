@@ -1,0 +1,45 @@
+{
+  "key": "citadel_ability_shiv_blood_rage",
+  "name": "citadel_ability_shiv_blood_rage",
+  "stats": {
+    "duration": 0,
+    "cooldown": 12,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 1,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.75,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "health_healed_per_rage": 20,
+    "rage_drain_rate": 0.3,
+    "rage_per_weapon_damage": 0.015,
+    "rage_per_spirit_damage": 0.02,
+    "rage_per_light_melee": 1.5,
+    "rage_per_heavy_melee": 3.5,
+    "bonus_resource": 10,
+    "non_player_rage_scale": 0.8,
+    "purge_when_full": 0,
+    "buff_damage": 25,
+    "buff_move_speed": 1,
+    "rage_drain_delay_duration": 5
+  },
+  "tooltipDetails": {
+    "properties": [
+      {
+        "key": "BuffDamage",
+        "value": 25,
+        "type": "damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_DAMAGE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ]
+  }
+}

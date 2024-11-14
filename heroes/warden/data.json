@@ -1,6 +1,6 @@
 {
   "id": 25,
-  "name": "Warden",
+  "name": "hero_warden",
   "new_player_friendly": false,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,8 +10,8 @@
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 6.3,
-    "sprint_speed": 1,
+    "max_move_speed": 6.5,
+    "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
     "light_melee_damage": 63,
@@ -25,16 +25,15 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.942857,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_bullet_damage_from_level": 1.31,
+    "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 45,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -204,8 +203,8 @@
     ]
   },
   "spirit_scaling": {
-    "eroundspersecond": 0.012,
-    "efirerate": 0.3
+    "eroundspersecond": 0.015,
+    "efirerate": 0.375
   },
   "weapon_stats": {
     "bullet_damage": 19.8,
@@ -215,7 +214,7 @@
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
-    "bullet_speed": 114.17299999999999,
+    "bullet_speed": 84,
     "falloff_start_range": 8.66,
     "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
@@ -228,11 +227,7 @@
     "dps": 79.2,
     "sustained_dps": 46.98492462311558,
     "weapon_name": "citadel_weapon_warden_set",
-    "weapon_description": "citadel_weapon_hero_warden_set",
-    "weapon_types": [
-      "Attribute_EWeaponAttribute_MediumRange",
-      "Attribute_EWeaponAttribute_Projectile"
-    ]
+    "weapon_description": "citadel_weapon_hero_warden_set"
   },
   "lore": "Most people think the supernatural came into the world 50 years ago.  They’re wrong.  Its presence shaped folklore for generations… and as long as there have been people afraid of the shadows, there have been those who dedicated their lives to fighting in them.\\n\\nComing from a lineage of militant alchemists, Warden’s family always trained for the day they would have to stave off a mystic apocalypse… but as time passed the importance of the lessons seemed less and less important.  What once was viewed as a sincere warning slowly morphed into being perceived as amusing anecdotes told by their superstitious grandparents.\\n\\nWhen the portal opened in Central Park, Warden’s parents realized not only was everything they were told was true, they were unprepared.  Refusing to let the next generation fall asleep on the job, Warden was trained since birth to be a supernatural killing machine with one purpose: stopping the Patrons from ever entering our world.",
   "playstyle": "Warden leads from the front, jumping into the fray and hindering his opponents' ability to fight effectively. But what Warden considers brave, others consider reckless, and if he's not careful he can easily find himself in over his head.",

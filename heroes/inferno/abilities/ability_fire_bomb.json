@@ -3,7 +3,7 @@
   "name": "Concussive Combustion",
   "stats": {
     "duration": 0,
-    "cooldown": 127,
+    "cooldown": 120,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -55,7 +55,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -38
+        "ability_cooldown": -40
       },
       {
         "stun_duration": 0.5,

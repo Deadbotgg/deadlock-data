@@ -24,7 +24,7 @@
             "is_negative": false
           },
           "bullet_resist": {
-            "value": 9,
+            "value": 8,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -38,7 +38,7 @@
       {
         "ability_properties": {
           "damage_to_stack": {
-            "value": 100,
+            "value": 110,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -80,9 +80,9 @@
   "tech_power": 0,
   "weapon_power": 0,
   "damage_duration": 10,
-  "damage_to_stack": 100,
+  "damage_to_stack": 110,
   "weapon_power_per_stack": 5,
   "max_stacks": 10,
   "bonus_clip_size": 4,
-  "bullet_resist": 9
+  "bullet_resist": 8
 }

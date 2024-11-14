@@ -1,9 +1,9 @@
 {
   "key": "synth_affliction",
-  "name": "Affliction",
+  "name": "synth_affliction",
   "stats": {
     "duration": 0,
-    "cooldown": 127,
+    "cooldown": 120,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -27,14 +27,14 @@
     "heal_amp_regen_penalty_percent": 0
   },
   "tooltipDetails": {
-    "description": "Apply <span class=\"highlight\">damage over time</span> to all enemies nearby.<br>Affliction's damage is non-lethal and does not apply item procs.",
+    "description": "synth_affliction_desc",
     "properties": [
       {
         "key": "DPS",
         "value": 23,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.34,
+          "value": 0.39312,
           "type": "spirit"
         }
       },
@@ -47,7 +47,7 @@
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -28
+        "ability_cooldown": -30
       },
       {
         "heal_amp_receive_penalty_percent": -60,

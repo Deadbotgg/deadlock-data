@@ -19,8 +19,8 @@
     "Innate": [
       {
         "ability_properties": {
-          "bullet_shield_max_health": {
-            "value": 90,
+          "bullet_resist": {
+            "value": 7,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -47,12 +47,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "heal_from_hero": {
-            "value": 40,
+            "value": 30,
             "style": "healing",
             "is_conditional": false
           },
           "heal_from_n_p_c": {
-            "value": 15,
+            "value": 10,
             "style": "healing",
             "is_conditional": false
           }
@@ -78,7 +78,7 @@
   "radius": 1,
   "proc_chance": 100,
   "base_attack_damage_percent": 6,
-  "heal_from_hero": 40,
-  "heal_from_n_p_c": 15,
-  "bullet_shield_max_health": 90
+  "heal_from_hero": 30,
+  "heal_from_n_p_c": 10,
+  "bullet_resist": 7
 }

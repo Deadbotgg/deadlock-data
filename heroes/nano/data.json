@@ -1,16 +1,16 @@
 {
   "id": 16,
-  "name": "Calico",
+  "name": "hero_nano",
   "new_player_friendly": false,
   "in_development": true,
-  "in_hero_labs": true,
-  "is_disabled": false,
+  "in_hero_labs": false,
+  "is_disabled": true,
   "complexity": 1,
   "readability": 4,
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7.3,
+    "max_move_speed": 7,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -25,16 +25,15 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.124929,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_bullet_damage_from_level": 0.159,
+    "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -205,10 +204,10 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 3,
-    "rounds_per_second": 5,
-    "clip_size": 16,
-    "reload_time": 3,
+    "bullet_damage": 2.4,
+    "rounds_per_second": 10,
+    "clip_size": 40,
+    "reload_time": 3.5,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
@@ -219,16 +218,16 @@
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
     "bullet_gravity_scale": 0.8,
-    "bullets_per_shot": 5,
+    "bullets_per_shot": 3,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 75,
-    "sustained_dps": 38.70967741935484,
+    "dps": 71.99999999999999,
+    "sustained_dps": 38.4,
     "weapon_name": "citadel_weapon_nano_set",
     "weapon_description": "citadel_weapon_hero_nano_set"
   },
   "lore": "Granted the dubious honor of being named Time Magazine's most dangerous woman on the planet, Calico is an enigmatic occult arms dealer that is willing to fund any and all sides of a conflict if the price is right.\\n\\nWhile her critics (and friends) would correctly identify her as being amoral, she is not without her principles... however cold and calculated those principles may be.",
-  "playstyle": "Calico uses the shadows to her advantage, weaving in and out of combat to hunt down her enemies one by one.",
+  "playstyle": "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything.",
   "role": "Wreaks havoc from the sidelines",
   "recommended_items": [
     "upgrade_lifestrike_gauntlets",
@@ -257,13 +256,13 @@
       "key": "ability_perched_predator"
     },
     {
-      "key": "ability_nano_pounce"
+      "key": "ability_nano_warp"
     },
     {
       "key": "ability_nano_proximity_ritual"
     },
     {
-      "key": "ability_nano_shadow_step"
+      "key": "ability_nano_cat_bullet"
     }
   ]
 }

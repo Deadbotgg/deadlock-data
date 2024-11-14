@@ -3,7 +3,7 @@
   "name": "Death Slam",
   "stats": {
     "duration": 0,
-    "cooldown": 138,
+    "cooldown": 130,
     "range": 18,
     "charges": 0,
     "charge_restore_time": 0,
@@ -39,7 +39,7 @@
     "not_in_cone_loses_lock": 1
   },
   "tooltipDetails": {
-    "description": "Focus on enemies to connect whips to them. After channeling, connected enemies are <span class=\"highlight\">lifted and stunned</span> then slammed into the ground. Your victims and any enemies in the landing zone will be <span class=\"highlight\">damaged and slowed</span>. <br>Press [{s:iv_attack}] to throw connected enemies early. Enemies that are not in line of sight or go out of range during the latch time will not be grabbed.",
+    "description": "citadel_ability_lash_ultimate_desc",
     "properties": [
       {
         "key": "ImpactDamage",
@@ -83,15 +83,13 @@
     ],
     "upgrades": [
       {
-        "throw_distance": 8,
-        "name": "Max Throw Distance"
+        "throw_distance": 8
       },
       {
-        "impact_damage": 100,
-        "name": "Damage"
+        "impact_damage": 100
       },
       {
-        "ability_cooldown": -56
+        "ability_cooldown": -60
       }
     ]
   }

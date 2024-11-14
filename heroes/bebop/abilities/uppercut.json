@@ -3,7 +3,7 @@
   "name": "Exploding Uppercut",
   "stats": {
     "duration": 0,
-    "cooldown": 21,
+    "cooldown": 20,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -28,16 +28,14 @@
     "landing_damage": 80,
     "restore_hook_cooldown": 0,
     "stun_on_land": 0,
-    "on_land_damage_radius": 14,
+    "on_land_damage_radius": 10,
     "uppercut_buff_on_hit": 0,
     "buff_gun_range_percent": 100,
     "buff_base_weapon_pct": 0,
-    "clip_size_bonus": 0,
-    "fire_rate_slow": 15,
-    "explode_debuff_duration": 5
+    "clip_size_bonus": 0
   },
   "tooltipDetails": {
-    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> and <span class=\"highlight\">fire rate slow</span> where they land. Does not damage allies.",
+    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> where they land. Does not damage allies.",
     "properties": [
       {
         "key": "UppercutDamage",
@@ -59,31 +57,14 @@
       },
       {
         "key": "OnLandDamageRadius",
-        "value": "14m",
+        "value": "10m",
         "type": "distance"
       }
     ],
-    "basicProperties": [
-      {
-        "key": "FireRateSlow",
-        "value": 15,
-        "type": "slow",
-        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
-        "m_usage_flags": "APUsageFlag_ModifierConditional",
-        "scale_function": {
-          "value": 0.2,
-          "type": "spirit"
-        }
-      },
-      {
-        "key": "ExplodeDebuffDuration",
-        "value": 5,
-        "type": "duration"
-      }
-    ],
+    "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -10.5
+        "ability_cooldown": -10
       },
       {
         "uppercut_buff_on_hit": 12,

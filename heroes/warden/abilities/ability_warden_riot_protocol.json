@@ -1,9 +1,9 @@
 {
   "key": "ability_warden_riot_protocol",
-  "name": "Last Stand",
+  "name": "ability_warden_riot_protocol",
   "stats": {
     "duration": 6,
-    "cooldown": 138,
+    "cooldown": 130,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 2,
+    "cast_delay": 2.25,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
@@ -20,39 +20,22 @@
     "weapon_power": 0,
     "pulse_interval": 0.5,
     "pulse_dps": 100,
-    "radius": 13,
+    "radius": 12,
     "health_steal_pct_hero": 100,
     "health_steal_pct": 50,
-    "cone_angle": 115,
-    "bonus_move_speed": 0,
-    "bullet_resist": 50,
-    "tech_resist": 50,
-    "unstoppable_cast_delay": 0
+    "cone_angle": 115
   },
   "tooltipDetails": {
-    "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you are have greatly increased <span class=\"highlight\">bullet and spirit resist</span>.",
+    "description": "ability_warden_riot_protocol_desc",
     "properties": [
       {
         "key": "PulseDPS",
         "value": 100,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.2,
+          "value": 0.85176,
           "type": "spirit"
         }
-      },
-      {
-        "key": "HealthStealPctHero",
-        "value": 100,
-        "type": "healing"
-      },
-      {
-        "key": "BonusMoveSpeed",
-        "value": "0m",
-        "type": "move_speed",
-        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-        "m_usage_flags": "APUsageFlag_ModifierConditional",
-        "conditional_loc_token_override": "#ActiveItemUse_conditional"
       }
     ],
     "basicProperties": [
@@ -62,17 +45,14 @@
         "type": "duration"
       },
       {
-        "key": "HealthStealPct",
-        "value": 50,
+        "key": "HealthStealPctHero",
+        "value": 100,
         "type": "healing"
       },
       {
-        "key": "BulletResist",
+        "key": "HealthStealPct",
         "value": 50,
-        "m_e_display_type": "EBulletArmorDamageReduction",
-        "type": "bullet_armor_up",
-        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "type": "healing"
       }
     ],
     "upgrades": [
@@ -80,11 +60,10 @@
         "radius": 3
       },
       {
-        "pulse_dps": 70,
-        "name": "DPS"
+        "pulse_dps": 70
       },
       {
-        "ability_cooldown": -56
+        "ability_cooldown": -60
       }
     ]
   }

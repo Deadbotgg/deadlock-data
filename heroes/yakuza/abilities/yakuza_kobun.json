@@ -3,7 +3,7 @@
   "name": "Hired Muscle",
   "stats": {
     "duration": 0,
-    "cooldown": 32,
+    "cooldown": 30,
     "range": 30,
     "charges": 0,
     "charge_restore_time": 0,

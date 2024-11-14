@@ -1,9 +1,9 @@
 {
   "key": "ability_wrecker_teleport",
-  "name": "Astral Walk",
+  "name": "ability_wrecker_teleport",
   "stats": {
     "duration": 0,
-    "cooldown": 138,
+    "cooldown": 130,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -24,7 +24,7 @@
     "enemy_slow_pct": 60
   },
   "tooltipDetails": {
-    "description": "Launch a <span class=\"highlight\">flying shadow copy of yourself that you control</span>, <span class=\"highlight\">teleporting</span> your original body to wherever it lands. The teleport explosion <span class=\"highlight\">slows enemies and deals damage</span> based on how long you were flying.",
+    "description": "ability_wrecker_teleport_desc",
     "properties": [
       {
         "key": "DamagePerSecondFlown",
@@ -67,11 +67,10 @@
         "ability_channel_time": 8
       },
       {
-        "ability_cooldown": -47
+        "ability_cooldown": -50
       },
       {
-        "damage_per_second_flown": 16,
-        "name": "Damage per second flown"
+        "damage_per_second_flown": 16
       }
     ]
   }

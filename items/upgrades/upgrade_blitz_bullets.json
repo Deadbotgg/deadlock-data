@@ -21,11 +21,6 @@
             "style": null,
             "is_negative": false
           },
-          "bonus_clip_size_percent": {
-            "value": 10,
-            "style": null,
-            "is_negative": false
-          },
           "local_bullet_armor_reduction": {
             "value": -5,
             "style": "bullet_armor_down",
@@ -53,6 +48,5 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_fire_rate": 22,
-  "bonus_clip_size_percent": 10,
   "local_bullet_armor_reduction": -5
 }

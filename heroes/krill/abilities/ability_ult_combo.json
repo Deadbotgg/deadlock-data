@@ -3,16 +3,16 @@
   "name": "Combo",
   "stats": {
     "duration": 0,
-    "cooldown": 75,
+    "cooldown": 90,
     "range": 5,
     "charges": 0,
     "charge_restore_time": 0,
-    "channel_duration": 2.5,
+    "channel_duration": 2.75,
     "resource_cost": 0,
     "cast_range": 5,
     "unit_target_limit": 1,
     "cast_delay": 0,
-    "channel_time": 2.5,
+    "channel_time": 2.75,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": 0,
@@ -20,8 +20,7 @@
     "weapon_power": 0,
     "dps": 60,
     "life_steal_percent_on_hit": 0,
-    "bonus_health_on_kill": 30,
-    "bullet_resist": 0
+    "bonus_health_on_kill": 30
   },
   "tooltipDetails": {
     "description": "Hold the target in place, <span class=\"highlight\">stunning them and dealing damage</span> during the channel. If they die during Combo, you permanently gain max health.",
@@ -31,7 +30,7 @@
         "value": 60,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.1,
+          "value": 0.78624,
           "type": "spirit"
         }
       },
@@ -51,10 +50,10 @@
     ],
     "upgrades": [
       {
-        "bullet_resist": 30
+        "ability_cooldown": -30
       },
       {
-        "ability_channel_time": 0.75
+        "ability_channel_time": 1
       },
       {
         "dps": 40,

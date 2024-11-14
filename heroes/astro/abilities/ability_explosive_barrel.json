@@ -3,7 +3,7 @@
   "name": "Powder Keg",
   "stats": {
     "duration": 0,
-    "cooldown": 32,
+    "cooldown": 30,
     "range": 0,
     "charges": 2,
     "charge_restore_time": 5,
@@ -60,7 +60,7 @@
         "name": "Explosion Damage"
       },
       {
-        "ability_cooldown": -9.5,
+        "ability_cooldown": -10,
         "min_time_before_destroy": -1,
         "arm_time": -1
       }

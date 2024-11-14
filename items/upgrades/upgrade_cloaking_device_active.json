@@ -1,10 +1,10 @@
 {
   "name": "Shadow Weave",
   "description": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
-  "slot": "Weapon",
+  "slot": "Armor",
   "image": "upgrades/mods_utility/cloaking_device_psd",
   "components": null,
   "componentsOf": [],
@@ -24,7 +24,7 @@
             "is_negative": false
           },
           "tech_shield_max_health": {
-            "value": 300,
+            "value": 200,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -43,7 +43,7 @@
       {
         "ability_properties": {
           "spotted_radius": {
-            "value": 22,
+            "value": 20,
             "style": null,
             "is_negative": false
           }
@@ -53,6 +53,11 @@
           "ability_duration": {
             "value": 25,
             "style": "duration",
+            "is_conditional": false
+          },
+          "invis_move_speed_mod": {
+            "value": 2,
+            "style": "move_speed",
             "is_conditional": false
           }
         },
@@ -69,7 +74,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "ambush_bonus_fire_rate": {
-            "value": 30,
+            "value": 40,
             "style": "bullet_damage",
             "is_conditional": true
           },
@@ -84,7 +89,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 48,
+  "ability_cooldown": 45,
   "ability_duration": 25,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -101,14 +106,14 @@
   "invis_cancel_on_damage": 1,
   "invis_fade_to_duration": 0.6,
   "invis_move_speed_mod": 2,
-  "spotted_radius": 22,
+  "spotted_radius": 20,
   "reveal_on_damage_duration": 1.5,
   "reveal_on_spotted_duration": 1.5,
   "full_invis_distance": 50,
   "ambush_duration": 8,
-  "ambush_bonus_fire_rate": 30,
+  "ambush_bonus_fire_rate": 40,
   "ambush_bonus_tech_power": 55,
-  "tech_shield_max_health": 300,
+  "tech_shield_max_health": 200,
   "bonus_health_regen": 15,
   "bonus_clip_size_percent": 30
 }

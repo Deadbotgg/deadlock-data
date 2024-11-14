@@ -1,10 +1,10 @@
 {
   "name": "Siphon Bullets",
   "description": "",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
-  "slot": "Armor",
+  "slot": "Weapon",
   "image": "upgrades/mods_weapon/siphon_bullets_psd",
   "components": null,
   "componentsOf": [],
@@ -20,13 +20,8 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 15,
+            "value": 40,
             "style": "bullet_damage",
-            "is_negative": false
-          },
-          "bullet_resist": {
-            "value": 18,
-            "style": null,
             "is_negative": false
           }
         },
@@ -52,12 +47,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "health_steal": {
-            "value": 55,
+            "value": 45,
             "style": "healing",
             "is_conditional": false
           }
         },
-        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal {s:StealPerKill} stacks of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
+        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires."
       }
     ]
   },
@@ -75,14 +70,11 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 15,
-  "bullet_resist": 18,
+  "base_attack_damage_percent": 40,
   "steal_per_hit": 1,
-  "steal_per_kill": 1,
-  "stack_lost_per_death": 2,
-  "max_stacks": 9999,
+  "max_stacks": 99,
   "steal_duration": 20,
   "proc_cooldown": 0.8,
-  "health_steal": 55,
+  "health_steal": 45,
   "particle_radius": 1
 }

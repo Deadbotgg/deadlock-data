@@ -3,7 +3,7 @@
   "name": "Hot Shot",
   "stats": {
     "duration": 0,
-    "cooldown": 32,
+    "cooldown": 30,
     "range": 0,
     "charges": 2,
     "charge_restore_time": 1,

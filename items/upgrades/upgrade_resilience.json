@@ -7,13 +7,7 @@
   "slot": "Armor",
   "image": "upgrades/mods_armor/resilience_psd",
   "components": null,
-  "componentsOf": [
-    {
-      "key": "upgrade_containment",
-      "name": "Slowing Hex",
-      "image": "upgrades/mods_tech/immobilize_psd"
-    }
-  ],
+  "componentsOf": [],
   "target_types": null,
   "shop_filters": [
     "EShopFilterMagicDamage",
@@ -24,13 +18,8 @@
       {
         "ability_properties": {
           "ability_lifesteal_percent_hero": {
-            "value": 10,
+            "value": 8,
             "style": "healing",
-            "is_negative": false
-          },
-          "bonus_health": {
-            "value": 75,
-            "style": "health",
             "is_negative": false
           },
           "tech_power": {
@@ -39,7 +28,13 @@
             "is_negative": false
           }
         },
-        "elevated_ability_properties": {},
+        "elevated_ability_properties": {
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          }
+        },
         "important_ability_properties": {},
         "description": ""
       }

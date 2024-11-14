@@ -3,7 +3,7 @@
   "name": "Shadow Transformation",
   "stats": {
     "duration": 5,
-    "cooldown": 85,
+    "cooldown": 100,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,16 +18,15 @@
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
+    "radius": null,
+    "buff_duration": 20,
     "bonus_move_speed": 0,
-    "bonus_fire_rate": 0,
     "speed_pct": 60,
-    "bullet_resist": 45,
-    "tech_resist": 45,
-    "max_health_regen": 20,
-    "shadow_form_duration_on_kill": 2
+    "tech_resist": 55,
+    "bullet_resist": 55
   },
   "tooltipDetails": {
-    "description": "Become infused with {s:hero_name}'s shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, gain <span class=\"highlight\">immunity to negative status effects</span>, <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">Heal</span>.<br>Duration is extended if {s:hero_name} gets a hero kill.",
+    "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, your weapon has <span class=\"highlight\">infinite ammo</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
     "properties": [
       {
         "key": "AbilityDuration",
@@ -40,45 +39,33 @@
         "key": "AbilitySpeedPct",
         "value": 60,
         "type": "cast"
-      },
-      {
-        "key": "MaxHealthRegen",
-        "value": 20,
-        "type": "healing"
       }
     ],
     "basicProperties": [
       {
-        "key": "BulletResist",
-        "value": 45,
-        "m_e_display_type": "EBulletArmorDamageReduction",
-        "type": "bullet_armor_up",
-        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
-      },
-      {
         "key": "TechResist",
-        "value": 45,
-        "m_e_display_type": "ETechArmorDamageReduction",
+        "value": 55,
         "type": "tech_armor_up",
         "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "ShadowFormDurationOnKill",
-        "value": 2,
-        "type": "duration"
+        "key": "BulletResist",
+        "value": 55,
+        "type": "bullet_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "upgrades": [
       {
-        "bonus_fire_rate": 20
+        "ability_cooldown": -30
       },
       {
         "bonus_move_speed": 4
       },
       {
-        "ability_duration": 2
+        "ability_duration": 1.5
       }
     ]
   }

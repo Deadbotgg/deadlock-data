@@ -33,11 +33,6 @@
     "Passive": [
       {
         "ability_properties": {
-          "ability_cooldown": {
-            "value": 0,
-            "style": "cooldown",
-            "is_negative": false
-          },
           "bonus_per_chain": {
             "value": 60,
             "style": "tech_damage",
@@ -77,7 +72,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 0.35,
+  "ability_cooldown": 0.4,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -94,6 +89,7 @@
   "bonus_per_chain": 60,
   "chain_radius": 8,
   "proc_chance": 25,
+  "proc_cooldown": 0.35,
   "chain_count": 2,
   "chain_tick_rate": 0.4,
   "bonus_fire_rate": 14

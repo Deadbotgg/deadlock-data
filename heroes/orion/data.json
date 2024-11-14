@@ -1,6 +1,6 @@
 {
   "id": 17,
-  "name": "Grey Talon",
+  "name": "hero_orion",
   "new_player_friendly": true,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": true,
   "starting_stats": {
-    "max_move_speed": 6.3,
+    "max_move_speed": 6,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -20,21 +20,20 @@
     "weapon_power": 0,
     "reload_speed": 1,
     "weapon_power_scale": 1,
-    "stamina": 4,
-    "base_health_regen": 2.5,
+    "stamina": 3,
+    "base_health_regen": 2,
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": 0,
-    "tech_duration": 0
+    "tech_range": null,
+    "tech_duration": null
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 1.62,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_bullet_damage_from_level": 1.46,
+    "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 27,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -204,20 +203,19 @@
     ]
   },
   "spirit_scaling": {
-    "emaxmovespeed": 0.025,
-    "ebulletdamage": 0.12
+    "emaxmovespeed": 0.04
   },
   "weapon_stats": {
-    "bullet_damage": 24,
-    "rounds_per_second": 1.8181818181818181,
+    "bullet_damage": 22,
+    "rounds_per_second": 2.5,
     "clip_size": 17,
     "reload_time": 2.35,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
     "bullet_speed": 195,
-    "falloff_start_range": 7.086609999999999,
-    "falloff_end_range": 21.2598,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
@@ -225,17 +223,12 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 43.63636363636363,
-    "sustained_dps": 34.87179487179487,
+    "dps": 55,
+    "sustained_dps": 40.87431693989071,
     "weapon_name": "citadel_weapon_archer_set",
-    "weapon_description": "citadel_weapon_hero_archer_set",
-    "weapon_types": [
-      "Attribute_EWeaponAttribute_MediumRange",
-      "Attribute_EWeaponAttribute_HeavyHitter",
-      "Attribute_EWeaponAttribute_Projectile"
-    ]
+    "weapon_description": "citadel_weapon_hero_archer_set"
   },
-  "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was an Ixian who could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
+  "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was Ixian... she could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
   "playstyle": "A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents.",
   "role": "Delivers long range skill-shots",
   "recommended_items": [

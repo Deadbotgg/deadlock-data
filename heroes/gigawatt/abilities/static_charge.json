@@ -3,7 +3,7 @@
   "name": "Static Charge",
   "stats": {
     "duration": 0,
-    "cooldown": 42,
+    "cooldown": 40,
     "range": 16,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,25 +20,25 @@
     "weapon_power": 0,
     "shock_radius": 5,
     "damage": 40,
-    "shock_delay": 3.5,
-    "stun_duration": 0.9,
+    "shock_delay": 4,
+    "stun_duration": 1.1,
     "additional_shock_target": 0
   },
   "tooltipDetails": {
-    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius. <br>Alt-Cast to cast on yourself.",
+    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius.",
     "properties": [
       {
         "key": "StatusEffectStun",
         "statusEffect": {
           "key": "StunDuration",
-          "value": 0.9,
+          "value": 1.1,
           "type": "duration"
         },
         "isShown": true
       },
       {
         "key": "ShockDelay",
-        "value": 3.5,
+        "value": 4,
         "type": "cast"
       },
       {
@@ -60,13 +60,13 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -19
+        "ability_cooldown": -20
       },
       {
-        "shock_radius": 8
+        "shock_radius": 7
       },
       {
-        "stun_duration": 0.9
+        "stun_duration": 1.1
       }
     ]
   }

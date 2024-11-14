@@ -1,7 +1,7 @@
 {
   "name": "Leech",
   "description": "Reduces the effect of enemy applied <span class=\"highlight\">healing reduction</span>.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -22,13 +22,13 @@
             "style": "health",
             "is_negative": false
           },
-          "cooldown_reduction": {
+          "tech_power": {
             "value": 12,
-            "style": "cooldown",
+            "style": "tech_damage",
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 20,
+            "value": 15,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -48,6 +48,20 @@
         "important_ability_properties": {},
         "description": ""
       }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "degen_resistance": {
+            "value": 30,
+            "style": "healing",
+            "is_conditional": false
+          }
+        },
+        "description": "Reduces the effect of enemy applied <span class=\"highlight\">healing reduction</span>."
+      }
     ]
   },
   "disabled": false,
@@ -62,10 +76,10 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 0,
+  "tech_power": 12,
   "weapon_power": 0,
   "bullet_lifesteal_percent": 35,
-  "base_attack_damage_percent": 20,
+  "base_attack_damage_percent": 15,
   "bonus_health": 175,
-  "cooldown_reduction": 12
+  "degen_resistance": 30
 }

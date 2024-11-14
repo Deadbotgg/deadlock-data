@@ -23,8 +23,8 @@
     "Innate": [
       {
         "ability_properties": {
-          "reload_speed_multipler": {
-            "value": -20,
+          "bonus_clip_size_percent": {
+            "value": 20,
             "style": null,
             "is_negative": false
           },
@@ -37,16 +37,6 @@
             "value": 35,
             "style": "distance",
             "is_negative": false
-          },
-          "bullet_shield_max_health": {
-            "value": 200,
-            "style": "bullet_armor_up",
-            "is_negative": false
-          },
-          "base_attack_damage_percent": {
-            "value": 20,
-            "style": "bullet_damage",
-            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -57,21 +47,21 @@
     "Passive": [
       {
         "ability_properties": {
-          "long_range_bonus_weapon_power_min_range": {
-            "value": 15,
-            "style": "distance",
+          "head_shot_cooldown": {
+            "value": 3,
+            "style": null,
             "is_negative": false
           }
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {
-          "long_range_bonus_weapon_power": {
-            "value": 50,
+          "head_shot_bonus_damage": {
+            "value": 100,
             "style": "bullet_damage",
             "is_conditional": false
           }
         },
-        "description": "Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target."
+        "description": "Deal bonus <span class=\"highlight\">Weapon Damage</span> with <span class=\"highlight\">headshots</span>."
       }
     ]
   },
@@ -89,11 +79,12 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 20,
-  "long_range_bonus_weapon_power": 50,
-  "long_range_bonus_weapon_power_min_range": 15,
+  "long_range_bonus_weapon_power": 60,
+  "long_range_bonus_weapon_power_min_range": 18,
+  "head_shot_bonus_damage": 100,
+  "head_shot_cooldown": 3,
   "bonus_attack_range_percent": 15,
   "bonus_zoom_percent": 35,
-  "reload_speed_multipler": -20,
-  "bullet_shield_max_health": 200
+  "bonus_bullet_speed_percent": 100,
+  "bonus_clip_size_percent": 20
 }

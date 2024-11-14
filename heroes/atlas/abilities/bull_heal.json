@@ -3,7 +3,7 @@
   "name": "Siphon Life",
   "stats": {
     "duration": 4,
-    "cooldown": 42,
+    "cooldown": 40,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -32,7 +32,7 @@
         "value": 35,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.36,
+          "value": 0.235872,
           "type": "spirit"
         }
       },
@@ -49,7 +49,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -19
+        "ability_cooldown": -20
       },
       {
         "ability_duration": 2

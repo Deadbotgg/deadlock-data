@@ -1,7 +1,7 @@
 {
   "name": "Frenzy",
   "description": "",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_clip_size": {
-            "value": 12,
+            "value": 9,
             "style": null,
             "is_negative": false
           },
@@ -55,9 +55,9 @@
             "style": "fireRate",
             "is_conditional": true
           },
-          "fervor_bullet_resist": {
-            "value": 55,
-            "style": "bullet_armor_up",
+          "fervor_tech_resist": {
+            "value": 45,
+            "style": "tech_armor_up",
             "is_conditional": true
           }
         },
@@ -79,12 +79,12 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_clip_size": 12,
+  "bonus_clip_size": 9,
   "base_attack_damage_percent": 30,
   "bonus_health": 200,
-  "low_health_threshold": 50,
+  "low_health_threshold": 40,
   "fervor_movespeed": 4,
   "fervor_fire_rate": 40,
-  "fervor_bullet_resist": 55,
-  "linger_duration": 6
+  "fervor_tech_resist": 45,
+  "linger_duration": 4
 }

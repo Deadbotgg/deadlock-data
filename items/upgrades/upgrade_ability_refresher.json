@@ -1,7 +1,7 @@
 {
   "name": "Refresher",
   "description": "<span class=\"highlight\">Reset the cooldown</span> of all your abilities and <span class=\"highlight\">restore all your charges</span>.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Tech",
@@ -15,13 +15,8 @@
       {
         "ability_properties": {
           "tech_resist": {
-            "value": 8,
+            "value": 14,
             "style": "tech_armor_up",
-            "is_negative": false
-          },
-          "bullet_resist": {
-            "value": 16,
-            "style": "bullet_armor_up",
             "is_negative": false
           }
         },
@@ -34,7 +29,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 230,
+            "value": 200,
             "style": "cooldown",
             "is_negative": false
           }
@@ -46,7 +41,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 230,
+  "ability_cooldown": 200,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -59,6 +54,5 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "tech_resist": 8,
-  "bullet_resist": 16
+  "tech_resist": 14
 }

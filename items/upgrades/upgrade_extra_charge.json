@@ -23,7 +23,7 @@
       {
         "ability_properties": {
           "cooldown_reduction_on_charged_abilities": {
-            "value": 10,
+            "value": 8,
             "style": null,
             "is_negative": false
           },
@@ -61,6 +61,6 @@
   "weapon_power": 0,
   "bonus_ability_charges": 1,
   "bonus_spirit_for_charged_abilities": 0,
-  "cooldown_reduction_on_charged_abilities": 10,
+  "cooldown_reduction_on_charged_abilities": 8,
   "base_attack_damage_percent": 6
 }

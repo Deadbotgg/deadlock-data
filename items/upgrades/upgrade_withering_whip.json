@@ -1,6 +1,6 @@
 {
   "name": "Withering Whip",
-  "description": "Target an enemy to apply <span class=\"highlight\">Fire Rate Slow</span> and reduce their <span class=\"highlight\">Bullet Resist</span>.",
+  "description": "Target an enemy to <span class=\"highlight\">Disarm</span> them and reduce their <span class=\"highlight\">Bullet Resist</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "ActivationPress",
@@ -19,19 +19,19 @@
     "Innate": [
       {
         "ability_properties": {
-          "bullet_shield_max_health": {
-            "value": 100,
-            "style": "bullet_armor_up",
-            "is_negative": false
-          },
-          "spirit_power": {
-            "value": 6,
+          "bonus_clip_size_percent": {
+            "value": 20,
             "style": null,
             "is_negative": false
           },
-          "bonus_sprint_speed": {
-            "value": 1,
-            "style": "move_speed",
+          "spirit_power": {
+            "value": 4,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 50,
+            "style": "health",
             "is_negative": false
           }
         },
@@ -44,42 +44,32 @@
       {
         "ability_properties": {
           "ability_cast_range": {
-            "value": 30,
-            "style": "range",
-            "is_negative": false
-          },
-          "ability_duration": {
-            "value": 4,
-            "style": "duration",
-            "is_negative": false
-          },
-          "ability_cooldown": {
             "value": 18,
-            "style": "cooldown",
+            "style": "range",
             "is_negative": false
           }
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {
-          "damage": {
-            "value": 50,
-            "style": "tech_damage",
+          "ability_duration": {
+            "value": 3,
+            "style": "duration",
             "is_conditional": false
           },
-          "fire_rate_slow": {
-            "value": 45,
-            "style": "fireRate",
+          "bullet_armor_reduction": {
+            "value": -14,
+            "style": "bullet_armor_down",
             "is_conditional": true
           }
         },
-        "description": "Target an enemy to apply <span class=\"highlight\">Fire Rate Slow</span> and reduce their <span class=\"highlight\">Bullet Resist</span>."
+        "description": "Target an enemy to <span class=\"highlight\">Disarm</span> them and reduce their <span class=\"highlight\">Bullet Resist</span>."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 18,
-  "ability_duration": 4.5,
-  "ability_cast_range": 30,
+  "ability_cooldown": 40,
+  "ability_duration": 3,
+  "ability_cast_range": 18,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0.1,
   "ability_channel_time": 0,
@@ -90,10 +80,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "damage": 50,
-  "fire_rate_slow": 45,
-  "bullet_armor_reduction": -11,
-  "spirit_power": 6,
-  "bonus_sprint_speed": 1,
-  "bullet_shield_max_health": 100
+  "bullet_armor_reduction": -14,
+  "bonus_clip_size_percent": 20,
+  "spirit_power": 4,
+  "bonus_health": 50
 }
