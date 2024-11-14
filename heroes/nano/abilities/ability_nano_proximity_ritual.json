@@ -2,11 +2,11 @@
   "key": "ability_nano_proximity_ritual",
   "name": "Nekomata Ward",
   "stats": {
-    "duration": 120,
+    "duration": 60,
     "cooldown": 30,
     "range": 0,
-    "charges": 1,
-    "charge_restore_time": 10,
+    "charges": 0,
+    "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 0,
@@ -14,11 +14,12 @@
     "cast_delay": 0.2,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 10,
+    "cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
     "statue_health": 300,
+    "attack_radius": 30,
     "active_radius": 40,
     "statue_arm_time": 0.5,
     "cat_activate_duration": 2,
@@ -46,7 +47,7 @@
         "value": 40,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.419328,
+          "value": 0.3,
           "type": "spirit"
         }
       },
@@ -56,7 +57,7 @@
         "type": "health",
         "m_e_display_type": "EMaxHealth",
         "scale_function": {
-          "value": 3,
+          "value": 2,
           "type": "spirit"
         }
       },
@@ -72,6 +73,12 @@
       }
     ],
     "basicProperties": [
+      {
+        "key": "AttackRadius",
+        "loc_token_override": "StatueAttackRadius",
+        "value": "30m",
+        "type": "distance"
+      },
       {
         "key": "TargetLifesteal",
         "loc_token_override": "StatueLifesteal",
@@ -98,7 +105,7 @@
         "make_invisible": 1
       },
       {
-        "ability_charges": 1,
+        "ability_duration": 30,
         "dps": 20
       },
       {

@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "slide_scale": 10,
     "stamina": 0,
-    "slide_bullet_evasion": 0
+    "slide_resist": 0
   },
   "tooltipDetails": {
     "description": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.</span>",
@@ -35,13 +35,13 @@
     ],
     "upgrades": [
       {
-        "stamina": 2
-      },
-      {
         "slide_scale": 25
       },
       {
-        "slide_bullet_evasion": 50
+        "stamina": 2
+      },
+      {
+        "slide_resist": 30
       }
     ]
   }

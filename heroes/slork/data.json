@@ -205,7 +205,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 5,
+    "bullet_damage": 4.5,
     "rounds_per_second": 2.2222222222222223,
     "clip_size": 13,
     "reload_time": 0.3,
@@ -213,7 +213,7 @@
     "reload_delay": 0.705,
     "reload_single": true,
     "bullet_speed": 220,
-    "falloff_start_range": 7.874,
+    "falloff_start_range": 7.0866,
     "falloff_end_range": 18,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
@@ -222,8 +222,8 @@
     "bullets_per_shot": 7,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 77.77777777777779,
-    "sustained_dps": 43.519846963175524,
+    "dps": 70,
+    "sustained_dps": 39.167862266857966,
     "weapon_name": "citadel_weapon_slork_set",
     "weapon_description": "citadel_weapon_hero_slork_set"
   },

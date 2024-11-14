@@ -1441,6 +1441,7 @@
   "Citadel_HeroBuilds_EditingBuildTitle": "Edit Build:",
   "Citadel_HeroBuilds_EditingBuildSubheader": "{s:selected_hero_build_name}",
   "Citadel_HeroBuilds_AP_Next_Indicator": "Suggested",
+  "Citadel_HeroLabsPatchNotes_PopupTitle": "{s:hero_name} Recent Changes",
   "guardian_unit": "Guardian",
   "walker_unit": "Walker",
   "titan_unit": "Patron",

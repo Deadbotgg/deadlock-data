@@ -253,7 +253,7 @@
   ],
   "abilities": [
     {
-      "key": "ability_viper_hookdagger"
+      "key": "ability_viper_debuffdagger"
     },
     {
       "key": "ability_viper_venom"

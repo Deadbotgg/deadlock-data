@@ -7336,11 +7336,11 @@
         "key": "ability_nano_proximity_ritual",
         "name": "Nekomata Ward",
         "stats": {
-          "duration": 120,
+          "duration": 60,
           "cooldown": 30,
           "range": 0,
-          "charges": 1,
-          "charge_restore_time": 10,
+          "charges": 0,
+          "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 0,
@@ -7348,11 +7348,12 @@
           "cast_delay": 0.2,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 10,
+          "cooldown_between_charge": 0,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
           "statue_health": 300,
+          "attack_radius": 30,
           "active_radius": 40,
           "statue_arm_time": 0.5,
           "cat_activate_duration": 2,
@@ -7380,7 +7381,7 @@
               "value": 40,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.419328,
+                "value": 0.3,
                 "type": "spirit"
               }
             },
@@ -7390,7 +7391,7 @@
               "type": "health",
               "m_e_display_type": "EMaxHealth",
               "scale_function": {
-                "value": 3,
+                "value": 2,
                 "type": "spirit"
               }
             },
@@ -7406,6 +7407,12 @@
             }
           ],
           "basicProperties": [
+            {
+              "key": "AttackRadius",
+              "loc_token_override": "StatueAttackRadius",
+              "value": "30m",
+              "type": "distance"
+            },
             {
               "key": "TargetLifesteal",
               "loc_token_override": "StatueLifesteal",
@@ -7432,7 +7439,7 @@
               "make_invisible": 1
             },
             {
-              "ability_charges": 1,
+              "ability_duration": 30,
               "dps": 20
             },
             {
@@ -7754,8 +7761,8 @@
     "weapon_stats": {
       "bullet_damage": 3,
       "rounds_per_second": 5,
-      "clip_size": 18,
-      "reload_time": 3.5,
+      "clip_size": 16,
+      "reload_time": 3,
       "reload_movespeed": 1,
       "reload_delay": 0,
       "reload_single": false,
@@ -7770,7 +7777,7 @@
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
       "dps": 75,
-      "sustained_dps": 38.02816901408451,
+      "sustained_dps": 38.70967741935484,
       "weapon_name": "citadel_weapon_nano_set",
       "weapon_description": "citadel_weapon_hero_nano_set"
     },
@@ -16668,7 +16675,11 @@
           "tech_power": 0,
           "weapon_power": 0,
           "initial_freeze_time": 0,
-          "out_of_combat_regen": 3,
+          "wall_latch_settle_time": 0,
+          "wall_latch_settle_dist": 40,
+          "wall_latch_ideal_dist": 5,
+          "reel_speed": 1000,
+          "not_seen_by_enemies_regen": 3,
           "initial_height": 350,
           "tick_rate": 0.25,
           "spotted_radius": 999,
@@ -16681,7 +16692,7 @@
           "description": "Passive: While out of combat and hidden on the minimap, <span class=\"highlight\">heal a portion of your max health</span> every second.",
           "properties": [
             {
-              "key": "OutOfCombatRegen",
+              "key": "NotSeenByEnemiesRegen",
               "value": 3,
               "m_e_provided_property_type": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND",
               "m_usage_flags": "APUsageFlag_ModifierConditional",
@@ -16697,7 +16708,7 @@
               "ability_cast_range": 5
             },
             {
-              "out_of_combat_regen": 2,
+              "not_seen_by_enemies_regen": 2,
               "name": "Max Health Regen"
             }
           ]
@@ -16881,7 +16892,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 5,
+      "bullet_damage": 4.5,
       "rounds_per_second": 2.2222222222222223,
       "clip_size": 13,
       "reload_time": 0.3,
@@ -16889,7 +16900,7 @@
       "reload_delay": 0.705,
       "reload_single": true,
       "bullet_speed": 220,
-      "falloff_start_range": 7.874,
+      "falloff_start_range": 7.0866,
       "falloff_end_range": 18,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
@@ -16898,8 +16909,8 @@
       "bullets_per_shot": 7,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 77.77777777777779,
-      "sustained_dps": 43.519846963175524,
+      "dps": 70,
+      "sustained_dps": 39.167862266857966,
       "weapon_name": "citadel_weapon_slork_set",
       "weapon_description": "citadel_weapon_hero_slork_set"
     },
@@ -18006,8 +18017,8 @@
     },
     "abilities": [
       {
-        "key": "ability_viper_hookdagger",
-        "name": "Hook Blade",
+        "key": "ability_viper_debuffdagger",
+        "name": "Screwjab Dagger",
         "stats": {
           "duration": 0,
           "cooldown": 10,
@@ -18025,71 +18036,47 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
+          "damage": 50,
           "slow_duration": 1,
-          "outgoing_damage": 50,
-          "return_damage": 90,
-          "return_radius": 1,
-          "return_velocity": 2300,
-          "catch_radius": 3,
-          "tick_rate": 0.01,
-          "outgoing_projectile_lifetime": 0.4,
-          "slow_percent": 35,
-          "spread_angle": 90
+          "slow_percent": 50,
+          "stamina_reduction": 0
         },
         "tooltipDetails": {
-          "description": "Throw a blade, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The blade then hooks back, applying <span class=\"highlight_spirit\">Spirit Damage</span> again and applying a <span class=\"highlight\">Slow</span>.",
+          "description": "Throw a dagger, dealing <span class=\"highlight_spirit\">Spirit Damage</span> and applying a <span class=\"highlight\">Fading Slow</span>.",
           "properties": [
             {
-              "key": "OutgoingDamage",
+              "key": "Damage",
               "value": 50,
               "scale_function": {
-                "value": 0.3,
+                "value": 0.8,
                 "type": "spirit"
               },
               "m_e_display_type": "EStatsCount",
               "type": "tech_damage"
             },
             {
-              "key": "ReturnDamage",
-              "value": 90,
-              "scale_function": {
-                "value": 0.7,
-                "type": "spirit"
-              },
-              "m_e_display_type": "ETechPower",
-              "type": "tech_damage"
-            }
-          ],
-          "basicProperties": [
+              "key": "SlowPercent",
+              "value": 50
+            },
             {
               "key": "SlowDuration",
-              "value": "1s"
-            },
-            {
-              "key": "SlowPercent",
-              "value": 35,
-              "type": "slow",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "OutgoingProjectileLifetime",
-              "value": 0.4,
-              "scale_function": {
-                "value": 1,
-                "type": "range"
-              },
+              "value": 1,
               "type": "duration"
             }
           ],
+          "basicProperties": [],
           "upgrades": [
             {
               "ability_cooldown": -4
             },
             {
-              "slow_percent": 35
+              "damage": 50
             },
-            {}
+            {
+              "slow_duration": 1,
+              "name": "Stamina Reduction",
+              "stamina_reduction": 1
+            }
           ]
         }
       },
@@ -18124,7 +18111,7 @@
           "venom_missing_health_damage_percentage": 0
         },
         "tooltipDetails": {
-          "description": "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.</span>",
+          "description": "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.<br>Venom breaks Petrify before detonating.</span>",
           "properties": [
             {
               "key": "VenomMinDamage",
@@ -18207,7 +18194,7 @@
           "weapon_power": 0,
           "slide_scale": 10,
           "stamina": 0,
-          "slide_bullet_evasion": 0
+          "slide_resist": 0
         },
         "tooltipDetails": {
           "description": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.</span>",
@@ -18222,13 +18209,13 @@
           ],
           "upgrades": [
             {
-              "stamina": 2
-            },
-            {
               "slide_scale": 25
             },
             {
-              "slide_bullet_evasion": 50
+              "stamina": 2
+            },
+            {
+              "slide_resist": 30
             }
           ]
         }
@@ -18254,7 +18241,7 @@
           "tech_power": 0,
           "weapon_power": 0,
           "radius": 4,
-          "pre_detonate_duration": 0.6,
+          "pre_detonate_duration": 1,
           "damage": 200,
           "petrify_duration": 3,
           "petrify_damage_break_threshold": 200,
@@ -18266,6 +18253,15 @@
             {
               "key": "StatusEffectPetrify",
               "isShown": false
+            },
+            {
+              "key": "PetrifyDamageBreakThreshold",
+              "value": 200,
+              "type": "health",
+              "scale_function": {
+                "value": 1.2,
+                "type": "spirit"
+              }
             },
             {
               "key": "Damage",
@@ -18282,11 +18278,6 @@
               "key": "PetrifyDuration",
               "value": 3,
               "type": "duration"
-            },
-            {
-              "key": "PetrifyDamageBreakThreshold",
-              "value": 200,
-              "type": "health"
             }
           ],
           "upgrades": [
@@ -19518,10 +19509,10 @@
       "reload_delay": 0,
       "reload_single": false,
       "bullet_speed": 33.999997560000004,
-      "falloff_start_range": 22.64,
-      "falloff_end_range": 22.64,
+      "falloff_start_range": 10,
+      "falloff_end_range": 24,
       "falloff_start_scale": 1,
-      "falloff_end_scale": 1,
+      "falloff_end_scale": 0.3,
       "falloff_bias": 0.5,
       "bullet_gravity_scale": 0,
       "bullets_per_shot": 1,

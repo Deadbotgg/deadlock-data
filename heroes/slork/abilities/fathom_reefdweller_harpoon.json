@@ -19,7 +19,11 @@
     "tech_power": 0,
     "weapon_power": 0,
     "initial_freeze_time": 0,
-    "out_of_combat_regen": 3,
+    "wall_latch_settle_time": 0,
+    "wall_latch_settle_dist": 40,
+    "wall_latch_ideal_dist": 5,
+    "reel_speed": 1000,
+    "not_seen_by_enemies_regen": 3,
     "initial_height": 350,
     "tick_rate": 0.25,
     "spotted_radius": 999,
@@ -32,7 +36,7 @@
     "description": "Passive: While out of combat and hidden on the minimap, <span class=\"highlight\">heal a portion of your max health</span> every second.",
     "properties": [
       {
-        "key": "OutOfCombatRegen",
+        "key": "NotSeenByEnemiesRegen",
         "value": 3,
         "m_e_provided_property_type": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
@@ -48,7 +52,7 @@
         "ability_cast_range": 5
       },
       {
-        "out_of_combat_regen": 2,
+        "not_seen_by_enemies_regen": 2,
         "name": "Max Health Regen"
       }
     ]

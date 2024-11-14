@@ -207,8 +207,8 @@
   "weapon_stats": {
     "bullet_damage": 3,
     "rounds_per_second": 5,
-    "clip_size": 18,
-    "reload_time": 3.5,
+    "clip_size": 16,
+    "reload_time": 3,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
@@ -223,7 +223,7 @@
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
     "dps": 75,
-    "sustained_dps": 38.02816901408451,
+    "sustained_dps": 38.70967741935484,
     "weapon_name": "citadel_weapon_nano_set",
     "weapon_description": "citadel_weapon_hero_nano_set"
   },
