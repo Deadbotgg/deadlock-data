@@ -18,13 +18,9 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "dash_air_speed": 8,
-    "dash_speed": 12,
-    "dash_time": 0.8,
-    "side_move_speed_reduction": 0,
     "slide_scale": 10,
     "stamina": 0,
-    "slide_evasion_chance": 0
+    "slide_bullet_evasion": 0
   },
   "tooltipDetails": {
     "description": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.</span>",
@@ -45,7 +41,7 @@
         "slide_scale": 25
       },
       {
-        "slide_evasion_chance": 50
+        "slide_bullet_evasion": 50
       }
     ]
   }

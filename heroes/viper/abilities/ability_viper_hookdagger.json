@@ -30,7 +30,7 @@
     "spread_angle": 90
   },
   "tooltipDetails": {
-    "description": "Throw a blade, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The blade then hooks back, applying <span class=\"highlight_spirit\">Spirit Damage</span> again and applying a <span class=\"highlight\">Slow</span>. <br><br><span class=\"diminish\">Hookblade additionally removes Petrify before dealing damage.</span>",
+    "description": "Throw a blade, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The blade then hooks back, applying <span class=\"highlight_spirit\">Spirit Damage</span> again and applying a <span class=\"highlight\">Slow</span>.",
     "properties": [
       {
         "key": "OutgoingDamage",

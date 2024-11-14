@@ -18042,7 +18042,7 @@
           "spread_angle": 90
         },
         "tooltipDetails": {
-          "description": "Throw a blade, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The blade then hooks back, applying <span class=\"highlight_spirit\">Spirit Damage</span> again and applying a <span class=\"highlight\">Slow</span>. <br><br><span class=\"diminish\">Hookblade additionally removes Petrify before dealing damage.</span>",
+          "description": "Throw a blade, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The blade then hooks back, applying <span class=\"highlight_spirit\">Spirit Damage</span> again and applying a <span class=\"highlight\">Slow</span>.",
           "properties": [
             {
               "key": "OutgoingDamage",
@@ -18210,13 +18210,9 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "dash_air_speed": 8,
-          "dash_speed": 12,
-          "dash_time": 0.8,
-          "side_move_speed_reduction": 0,
           "slide_scale": 10,
           "stamina": 0,
-          "slide_evasion_chance": 0
+          "slide_bullet_evasion": 0
         },
         "tooltipDetails": {
           "description": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.</span>",
@@ -18237,7 +18233,7 @@
               "slide_scale": 25
             },
             {
-              "slide_evasion_chance": 50
+              "slide_bullet_evasion": 50
             }
           ]
         }
@@ -19147,12 +19143,12 @@
         "stats": {
           "duration": 5,
           "cooldown": 30,
-          "range": 60,
+          "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 5,
           "resource_cost": 0,
-          "cast_range": 60,
+          "cast_range": 20,
           "unit_target_limit": 1,
           "cast_delay": 0.15,
           "channel_time": 5,
@@ -19224,11 +19220,10 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "bonus_move_speed": 25,
+          "bonus_move_speed": 4,
           "damage_amp_percentage": 25,
           "radius": 0,
           "self_bump_impulse": 500,
-          "fall_speed_max": 10,
           "air_damping_duration": 1
         },
         "tooltipDetails": {
@@ -19253,7 +19248,10 @@
             },
             {
               "key": "BonusMoveSpeed",
-              "value": 25
+              "value": "4m",
+              "type": "move_speed",
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "basicProperties": [
