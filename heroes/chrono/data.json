@@ -212,7 +212,7 @@
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
-    "bullet_speed": 162,
+    "bullet_speed": 206.69299999999998,
     "falloff_start_range": 8.66,
     "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
