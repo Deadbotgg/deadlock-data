@@ -9452,7 +9452,7 @@
               "value": 60,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.7,
+                "value": 0.6,
                 "type": "spirit"
               }
             },
@@ -9473,7 +9473,7 @@
               "ability_duration": 2
             },
             {
-              "dps": 60,
+              "dps": 50,
               "radius": 2
             }
           ]
@@ -15871,13 +15871,13 @@
           "climb_height": 1,
           "drop_down_rate": 10,
           "tornado_speed": 1050,
-          "enemy_lift_duration": 0.3,
+          "enemy_lift_duration": 0.2,
           "split_angle": 0,
           "forward_offset": 125,
           "lift_height": 3,
           "damping_factor": 0.3,
           "max_delta_movement_control": 2,
-          "hold_in_place_duration": 1.2,
+          "hold_in_place_duration": 1.1,
           "boss_damage_percent": 50,
           "target_bullet_evasion_chance": 0,
           "tech_armor_damage_reduction": 0,
@@ -15898,7 +15898,7 @@
             },
             {
               "key": "HoldInPlaceDuration",
-              "value": 1.2,
+              "value": 1.1,
               "type": "duration"
             },
             {
