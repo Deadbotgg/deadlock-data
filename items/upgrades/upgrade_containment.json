@@ -51,7 +51,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 27,
+            "value": 25,
             "style": "cooldown",
             "is_negative": false
           },
@@ -79,7 +79,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 27,
+  "ability_cooldown": 25,
   "ability_duration": 3,
   "ability_cast_range": 25,
   "ability_unit_target_limit": 1,

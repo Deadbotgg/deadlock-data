@@ -47,7 +47,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "heal_from_hero": {
-            "value": 30,
+            "value": 35,
             "style": "healing",
             "is_conditional": false
           },
@@ -78,7 +78,7 @@
   "radius": 1,
   "proc_chance": 100,
   "base_attack_damage_percent": 8,
-  "heal_from_hero": 30,
+  "heal_from_hero": 35,
   "heal_from_n_p_c": 10,
   "bullet_resist": 7
 }

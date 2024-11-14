@@ -68,7 +68,7 @@
   },
   "disabled": false,
   "ability_cooldown": 30,
-  "ability_duration": 3.5,
+  "ability_duration": 3,
   "ability_cast_range": 25,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,

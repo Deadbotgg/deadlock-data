@@ -21,7 +21,7 @@
     "radius": 15,
     "targets_per_tick": 1,
     "bonus_fire_rate": 25,
-    "weapon_damage_bonus": 0,
+    "weapon_damage_bonus": 2,
     "evasion_percent": 50
   },
   "tooltipDetails": {
@@ -43,7 +43,7 @@
     "basicProperties": [
       {
         "key": "WeaponDamageBonus",
-        "value": 0,
+        "value": 2,
         "type": "bullet_damage",
         "m_e_display_units": "EDisplayUnit_Normal",
         "m_e_display_type": "EBaseWeaponDamageIncrease",

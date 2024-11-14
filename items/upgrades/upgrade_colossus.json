@@ -70,7 +70,7 @@
             "is_conditional": true
           },
           "slow_percent": {
-            "value": 25,
+            "value": 35,
             "style": "slow",
             "is_conditional": true
           }
@@ -98,7 +98,7 @@
   "base_attack_damage_percent": 20,
   "bullet_resist": 40,
   "tech_resist": 40,
-  "slow_percent": 25,
+  "slow_percent": 35,
   "ground_dash_reduction_percent": -25,
   "radius": 10,
   "model_scale_growth": 1.2

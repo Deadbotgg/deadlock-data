@@ -45,7 +45,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "imbued_tech_power": {
-            "value": 28,
+            "value": 34,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -73,7 +73,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "imbued_tech_power": 28,
+  "imbued_tech_power": 34,
   "bonus_move_speed": 3,
   "movement_speed_bonus_duration": 6,
   "bonus_health": 75

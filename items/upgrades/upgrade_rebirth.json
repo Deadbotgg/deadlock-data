@@ -15,13 +15,18 @@
       {
         "ability_properties": {
           "cooldown_reduction": {
-            "value": 15,
+            "value": 18,
             "style": "cooldown",
             "is_negative": false
           },
           "base_attack_damage_percent": {
             "value": 20,
             "style": "bullet_damage",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 12,
+            "style": "tech_damage",
             "is_negative": false
           }
         },
@@ -63,10 +68,10 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 0,
+  "tech_power": 12,
   "weapon_power": 0,
   "respawn_delay": 4,
   "respawn_health_percent": 50,
-  "cooldown_reduction": 15,
+  "cooldown_reduction": 18,
   "base_attack_damage_percent": 20
 }

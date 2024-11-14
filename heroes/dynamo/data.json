@@ -204,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 15,
+    "bullet_damage": 13,
     "rounds_per_second": 4,
     "clip_size": 18,
     "reload_time": 2.35,
@@ -221,8 +221,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 60,
-    "sustained_dps": 39.416058394160586,
+    "dps": 52,
+    "sustained_dps": 34.16058394160584,
     "weapon_name": "citadel_weapon_sumo_set",
     "weapon_description": "citadel_weapon_hero_sumo_set",
     "weapon_types": [

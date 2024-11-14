@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 8,
     "unit_target_limit": 1,
-    "cast_delay": 1,
+    "cast_delay": 2,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
@@ -24,6 +24,7 @@
     "on_land_damage_radius": 14,
     "toss_speed": 400,
     "flying_bullet_resist": 40,
+    "ally_outgoing_damage_percent": -50,
     "buff_duration": 12,
     "air_drop_bullet_shield": 200,
     "silence_bomb_speed": 12,
@@ -34,7 +35,7 @@
     "silence_duration": 0
   },
   "tooltipDetails": {
-    "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist but cannot attack or use abilities while lifted.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+    "description": "Take flight with an ally or a bomb. Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>While lifted, your ally gains bullet resist but cannot attack and deals {s:AllyOutgoingDamagePercent}% damage. Air Drop has faster cast time when targeting an ally. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
     "properties": [
       {
         "key": "ExplodeDamage",

@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage_pct_deferred": 35,
+    "damage_pct_deferred": 30,
     "deferred_damage_duration": 10,
     "defer_clear_pct": 50,
     "damage_pct_deferred_max_rage": 15

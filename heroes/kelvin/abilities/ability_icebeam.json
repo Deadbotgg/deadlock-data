@@ -25,7 +25,7 @@
     "path_width": 1.1,
     "camera_distance": 250,
     "min_slow_percent": 30,
-    "max_slow_percent": 60,
+    "max_slow_percent": 80,
     "max_slow_time": 2,
     "ice_beam_buildup_proc_duration": 2,
     "slow_duration": 0.6,
@@ -33,7 +33,7 @@
     "beam_split": 0
   },
   "tooltipDetails": {
-    "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam.",
+    "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam. The beam may also claim Souls.",
     "properties": [
       {
         "key": "DPS",
@@ -46,7 +46,7 @@
       },
       {
         "key": "MaxSlowPercent",
-        "value": 60,
+        "value": 80,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"

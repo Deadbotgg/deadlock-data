@@ -27,8 +27,8 @@
     "radius": 5,
     "puddle_duration": 10,
     "detonate_cooldown": 0.15,
-    "second_hit_damage_percentage": 0.66,
-    "third_hit_damage_percentage": 0.33
+    "second_hit_damage_percentage": 0.7,
+    "third_hit_damage_percentage": 0.5
   },
   "tooltipDetails": {
     "description": "Goo puddles linger on the ground and apply a <span class=\"highlight\">movement slow</span> to enemies walking on them.",

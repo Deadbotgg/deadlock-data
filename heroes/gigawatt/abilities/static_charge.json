@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "shock_radius": 5,
+    "shock_radius": 6,
     "damage": 40,
     "shock_delay": 3.5,
     "stun_duration": 1.1,
@@ -54,7 +54,7 @@
     "basicProperties": [
       {
         "key": "ShockRadius",
-        "value": "5m",
+        "value": "6m",
         "type": "distance"
       }
     ],
@@ -63,7 +63,7 @@
         "ability_cooldown": -20
       },
       {
-        "shock_radius": 7
+        "shock_radius": 8
       },
       {
         "stun_duration": 1.1

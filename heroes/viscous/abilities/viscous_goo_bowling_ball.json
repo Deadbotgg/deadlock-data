@@ -47,7 +47,7 @@
         "type": "tech_damage",
         "m_e_display_type": "ETechPower",
         "scale_function": {
-          "value": 1.04832,
+          "value": 1.3,
           "type": "spirit"
         }
       },

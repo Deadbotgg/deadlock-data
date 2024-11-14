@@ -805,12 +805,6 @@
   "\"&:hover .FlowRail::before, .&:hover-descendant .FlowRail::before\"": {
     "Visibility": "HIDDEN"
   },
-  ".CommentDragHandle": {
-    "VAlign": "TOP",
-    "HAlign": "LEFT",
-    "FixedSizeX": 11,
-    "FixedSizeY": 20
-  },
   ".DragHandle": {
     "FixedSizeX": 20,
     "VAlign": "STRETCH",
@@ -1166,13 +1160,13 @@
       "Background_Color": "$WhiteTranslucent"
     },
     ".BlockCommentHeader": {
-      "Positioning": "OUTSIDE_PARENT",
+      "Positioning": "INSIDE_PARENT",
       "InteractionPriority": "BASE",
       "VAlign": "TOP",
-      "HAlign": "LEFT",
+      "HAlign": "STRETCH",
       "FixedSizeY": 20,
-      "BorderRadius_TopLeft": "12px",
-      "BorderRadius_TopRight": "12px"
+      "BorderRadius_TopLeft": "6px",
+      "BorderRadius_TopRight": "6px"
     },
     ".BlockCommentHeaderText": {
       "Positioning": "INSIDE_PARENT",
@@ -1205,15 +1199,11 @@
       ".BlockCommentHeaderText": {
         "Visibility": "VISIBLE",
         "PaintLayer": "COMMENT_OVERLAY"
-      },
-      ".CommentDragHandle": {
-        "PaintLayer": "COMMENT_OVERLAY",
-        "InteractionPriority": "DRAG_HANDLE",
-        "DefaultHoverCursorName": "OpenHandCursor"
       }
     },
     "\"&.BlockCommentNote\"": {
       "InteractionPriority": "BASE",
+      "BorderRadius": "6px",
       ".BlockCommentHeader": {
         "PaintLayer": "COMMENTS",
         "Visibility": "HIDDEN"
@@ -1221,6 +1211,9 @@
       ".BlockCommentHeaderText": {
         "PaintLayer": "COMMENTS",
         "Visibility": "HIDDEN"
+      },
+      ".BlockCommentTextBox": {
+        "Margin_Top": 8
       }
     }
   },
@@ -1604,6 +1597,11 @@
         "\"&.IsMethodPrivate\"": {
           ".HeaderIcon": {
             "ImageTint": "$flowColor"
+          }
+        },
+        "\"&.Inflow_EntOutput\"": {
+          ".HeaderIcon": {
+            "ImageTint": "unset"
           }
         }
       },

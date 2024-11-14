@@ -22,7 +22,7 @@
     "trap_height": 2,
     "lifetime": 20,
     "damage": 30,
-    "immobilize_duration": 2,
+    "immobilize_duration": 1.25,
     "trip_time": 0.5,
     "arm_time": 2,
     "trip_up_speed": 250,
@@ -31,26 +31,40 @@
     "bullet_vulnerbility": 0,
     "debuff_duration": 0,
     "dot_duration": 0,
-    "dot_dps": 0
+    "dot_dps": 0,
+    "slow_percent": 50,
+    "slow_duration": 1
   },
   "tooltipDetails": {
-    "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> them.",
+    "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> and then <span class=\"highlight\">slowing</span> them.",
     "properties": [
       {
-        "key": "Lifetime",
-        "value": 20,
+        "key": "ImmobilizeDuration",
+        "value": 1.25,
         "type": "duration"
       },
       {
         "key": "Damage",
         "value": 30,
         "type": "tech_damage"
+      },
+      {
+        "key": "Lifetime",
+        "value": 20,
+        "type": "duration"
       }
     ],
     "basicProperties": [
       {
-        "key": "ImmobilizeDuration",
-        "value": 2,
+        "key": "SlowPercent",
+        "value": 50,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 1,
         "type": "duration"
       },
       {
@@ -74,7 +88,7 @@
         "ability_cooldown": -20
       },
       {
-        "immobilize_duration": 1
+        "slow_duration": 2
       },
       {
         "bullet_vulnerbility": 30,

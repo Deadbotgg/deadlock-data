@@ -7,7 +7,13 @@
   "slot": "Weapon",
   "image": "upgrades/mods_weapon/high_velocity_mag_psd",
   "components": null,
-  "componentsOf": [],
+  "componentsOf": [
+    {
+      "key": "upgrade_headhunter",
+      "name": "Headhunter",
+      "image": "upgrades/mods_weapon/headhunter_psd"
+    }
+  ],
   "target_types": null,
   "shop_filters": [
     "EShopFilterWeaponDamage"
@@ -17,7 +23,7 @@
       {
         "ability_properties": {
           "bonus_bullet_speed_percent": {
-            "value": 35,
+            "value": 30,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -52,7 +58,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_bullet_speed_percent": 35,
+  "bonus_bullet_speed_percent": 30,
   "base_attack_damage_percent": 14,
   "bullet_shield_max_health": 50
 }

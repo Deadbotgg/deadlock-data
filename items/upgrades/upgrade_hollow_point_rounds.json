@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "tech_shield_max_health": {
-            "value": 80,
+            "value": 85,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -66,5 +66,5 @@
   "weapon_power": 0,
   "life_threshold": 60,
   "base_attack_damage_percent": 20,
-  "tech_shield_max_health": 80
+  "tech_shield_max_health": 85
 }

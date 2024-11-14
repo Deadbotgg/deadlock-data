@@ -11,14 +11,14 @@
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 0.1,
+    "cast_delay": 0.2,
     "channel_time": 2.75,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "vacuum_radius": 9,
+    "vacuum_radius": 8,
     "speed": 200,
     "toss_speed": 350,
     "toss_angle": 45,
@@ -56,7 +56,7 @@
     "basicProperties": [
       {
         "key": "VacuumRadius",
-        "value": "9m",
+        "value": "8m",
         "type": "distance"
       }
     ],

@@ -72,13 +72,18 @@
         "key": "GroundFlameDuration",
         "value": 4,
         "type": "duration"
+      },
+      {
+        "key": "FlameAuraRadius",
+        "value": "4.5m",
+        "type": "distance"
       }
     ],
     "upgrades": [
       {
         "fire_rate_slow": 30,
         "name": "Debuff Duration",
-        "flame_dash_debuff_duration": 7
+        "flame_dash_debuff_duration": 6
       },
       {
         "flame_aura_dps": 45,

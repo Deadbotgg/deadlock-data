@@ -19,8 +19,8 @@
     "Innate": [
       {
         "ability_properties": {
-          "bonus_clip_size_percent": {
-            "value": 20,
+          "bonus_fire_rate": {
+            "value": 8,
             "style": null,
             "is_negative": false
           },
@@ -57,7 +57,7 @@
             "is_conditional": false
           },
           "fire_rate_slow": {
-            "value": 40,
+            "value": 30,
             "style": "fireRate",
             "is_conditional": true
           },
@@ -72,7 +72,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 40,
+  "ability_cooldown": 25,
   "ability_duration": 4.5,
   "ability_cast_range": 24,
   "ability_unit_target_limit": 1,
@@ -85,9 +85,9 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "fire_rate_slow": 40,
+  "fire_rate_slow": 30,
   "bullet_armor_reduction": -14,
-  "bonus_clip_size_percent": 20,
+  "bonus_fire_rate": 8,
   "spirit_power": 4,
   "bonus_health": 50
 }

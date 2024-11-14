@@ -203,7 +203,9 @@
     ]
   },
   "spirit_scaling": {
-    "emaxmovespeed": 0.04
+    "emaxmovespeed": 0.04,
+    "eroundspersecond": 0.00625,
+    "efirerate": 0.25
   },
   "weapon_stats": {
     "bullet_damage": 22,

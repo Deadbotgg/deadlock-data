@@ -36,7 +36,7 @@
       {
         "ability_properties": {
           "ability_duration": {
-            "value": 3,
+            "value": 4,
             "style": "duration",
             "is_negative": false
           },
@@ -65,7 +65,7 @@
   },
   "disabled": false,
   "ability_cooldown": 8,
-  "ability_duration": 3,
+  "ability_duration": 4,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,

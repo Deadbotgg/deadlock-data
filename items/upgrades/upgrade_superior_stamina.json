@@ -47,7 +47,7 @@
             "is_negative": false
           },
           "air_move_increase_percent": {
-            "value": 40,
+            "value": 30,
             "style": null,
             "is_negative": false
           }
@@ -82,5 +82,5 @@
   "stamina": 3,
   "stamina_cooldown_reduction": 20,
   "bonus_fire_rate": 7,
-  "air_move_increase_percent": 40
+  "air_move_increase_percent": 30
 }

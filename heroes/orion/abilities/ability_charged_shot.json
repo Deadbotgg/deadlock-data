@@ -21,7 +21,7 @@
     "tech_cleave_expire_time": 0.2,
     "fall_speed_max": 60,
     "air_speed_max": 150,
-    "damage": 105,
+    "damage": 100,
     "camera_height_offset": 20,
     "camera_horizontal_offset": 15,
     "boss_damage_percent": 25
@@ -31,7 +31,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 105,
+        "value": 100,
         "type": "tech_damage",
         "scale_function": {
           "value": 1.6,
@@ -44,7 +44,7 @@
         "ability_charges": 1
       },
       {
-        "damage": 70
+        "damage": 65
       },
       {
         "ability_cooldown_between_charge": -3,

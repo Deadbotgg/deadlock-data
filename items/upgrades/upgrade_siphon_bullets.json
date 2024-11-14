@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 40,
+            "value": 28,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -70,7 +70,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 40,
+  "base_attack_damage_percent": 28,
   "steal_per_hit": 1,
   "stack_lost_per_death": 2,
   "max_stacks": 99,

@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 6.5,
+    "max_move_speed": 6,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -203,8 +203,8 @@
     ]
   },
   "spirit_scaling": {
-    "eroundspersecond": 0.015,
-    "efirerate": 0.375
+    "eroundspersecond": 0.012,
+    "efirerate": 0.3
   },
   "weapon_stats": {
     "bullet_damage": 19.8,

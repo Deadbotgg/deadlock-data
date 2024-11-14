@@ -34,7 +34,7 @@
       {
         "ability_properties": {
           "proc_chance": {
-            "value": 30,
+            "value": 35,
             "style": null,
             "is_negative": false
           },
@@ -76,7 +76,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "radius": 1,
-  "proc_chance": 30,
+  "proc_chance": 35,
   "slow_percent": 30,
   "slow_duration": 1.5,
   "crit_damage_percent": 80,

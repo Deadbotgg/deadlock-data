@@ -28,9 +28,9 @@
     "extra_target_cone_angle": 40,
     "extra_target_horizontal_offset": 30,
     "follow_distance": 120,
-    "camera_preview_offset": 55,
+    "camera_preview_offset": 25,
     "camera_preview_speed": 0.6,
-    "camera_preview_distance": 400,
+    "camera_preview_distance": 200,
     "lasso_target_max_speed": 550
   },
   "tooltipDetails": {

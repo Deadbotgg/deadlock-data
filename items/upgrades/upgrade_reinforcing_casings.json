@@ -51,7 +51,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "max_armor_stacks": {
-            "value": 36,
+            "value": 40,
             "style": null,
             "is_conditional": false
           }
@@ -74,7 +74,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "max_armor_stacks": 36,
+  "max_armor_stacks": 40,
   "bullet_resist_per_stack": 2,
   "bullet_resist_duration": 20,
   "base_attack_damage_percent": 14,

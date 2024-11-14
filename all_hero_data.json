@@ -53,7 +53,7 @@
           "tick_rate": 0.5,
           "flame_height_off_ground": 50,
           "particle_radius_multiplier": 1.15,
-          "damage_amplification": 30,
+          "damage_amplification": 25,
           "debuff_duration": 8,
           "damage": 50,
           "lifesteal_percent_hero": 0,
@@ -69,7 +69,7 @@
           "properties": [
             {
               "key": "DamageAmplification",
-              "value": 30
+              "value": 25
             },
             {
               "key": "Damage",
@@ -105,10 +105,10 @@
               "ability_charges": 1
             },
             {
-              "lifesteal_percent_hero": 20
+              "lifesteal_percent_hero": 15
             },
             {
-              "damage_amplification": 10,
+              "damage_amplification": 15,
               "heal_amp_receive_penalty_percent": -40,
               "heal_amp_regen_penalty_percent": -40
             }
@@ -189,13 +189,18 @@
               "key": "GroundFlameDuration",
               "value": 4,
               "type": "duration"
+            },
+            {
+              "key": "FlameAuraRadius",
+              "value": "4.5m",
+              "type": "distance"
             }
           ],
           "upgrades": [
             {
               "fire_rate_slow": 30,
               "name": "Debuff Duration",
-              "flame_dash_debuff_duration": 7
+              "flame_dash_debuff_duration": 6
             },
             {
               "flame_aura_dps": 45,
@@ -555,7 +560,7 @@
       ]
     },
     "lore": "Like most teenagers; Infernus was wild, rebellious, and impetuous.  Unlike most teenagers, Infernus was a creature from another plane and had a supernatural mastery over fire.  Needless to say:  his youth was filled with no small amount of arson, murder, and evidence disposal.  But that was then.  Now an adult, Infernus has mellowed out considerably.  He’s happy working at a bar with good live music, and talking to interesting people.  That being said when someone at the bar gets belligerent or violent, he’s not afraid to dust off the skills he once honed.",
-    "playstyle": "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus's blazing speed, his enemies won't be able to escape the flames.",
+    "playstyle": "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus' blazing speed, his enemies won't be able to escape the flames.",
     "role": "Lights up enemies and watches them burn",
     "recommended_items": [
       "upgrade_clip_size",
@@ -693,7 +698,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "shock_radius": 5,
+          "shock_radius": 6,
           "damage": 40,
           "shock_delay": 3.5,
           "stun_duration": 1.1,
@@ -729,7 +734,7 @@
           "basicProperties": [
             {
               "key": "ShockRadius",
-              "value": "5m",
+              "value": "6m",
               "type": "distance"
             }
           ],
@@ -738,7 +743,7 @@
               "ability_cooldown": -20
             },
             {
-              "shock_radius": 7
+              "shock_radius": 8
             },
             {
               "stun_duration": 1.1
@@ -842,21 +847,21 @@
           "dps": 124,
           "boss_damage_percent": 25,
           "damage_interval": 0.25,
-          "expand_time": 6,
+          "expand_time": 3,
           "cloud_height": 120,
           "camera_distance": 600,
           "ending_soon_time": 2,
-          "bullet_resist_on_active": 0
+          "bullet_resist_on_active": 20
         },
         "tooltipDetails": {
-          "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight.",
+          "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight. You have increased <span class=\"highlight\">Bullet Resist</span> during the channel.",
           "properties": [
             {
               "key": "DPS",
               "value": 124,
               "type": "tech_damage",
               "scale_function": {
-                "value": 1.1466,
+                "value": 0.84,
                 "type": "spirit"
               }
             }
@@ -866,6 +871,13 @@
               "key": "InitialRadius",
               "value": "12m",
               "type": "distance"
+            },
+            {
+              "key": "BulletResistOnActive",
+              "value": 20,
+              "type": "bullet_armor_up",
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "upgrades": [
@@ -1165,7 +1177,7 @@
           "slow_percent": 30,
           "chain_length": 6,
           "capture_radius": 8,
-          "chain_duration": 2.25,
+          "chain_duration": 2,
           "has_disarm": 0,
           "enemy_drag_speed": 1000
         },
@@ -1174,7 +1186,7 @@
           "properties": [
             {
               "key": "ChainDuration",
-              "value": 2.25,
+              "value": 2,
               "type": "duration"
             },
             {
@@ -1334,7 +1346,7 @@
               "value": 6,
               "type": "duration",
               "scale_function": {
-                "value": 0.047,
+                "value": 0.0376,
                 "type": "spirit"
               }
             }
@@ -2346,7 +2358,7 @@
           "tech_power": 0,
           "weapon_power": 0,
           "regen_incoming_damage_percent": 17,
-          "regen_incoming_damage_duration": 16,
+          "regen_incoming_damage_duration": 18,
           "regen_damage_interval": 1,
           "bonus_max_health": 0,
           "bonus_health_regen": 1,
@@ -2362,7 +2374,7 @@
             },
             {
               "key": "RegenIncomingDamageDuration",
-              "value": 16,
+              "value": 18,
               "type": "duration"
             }
           ],
@@ -2662,7 +2674,7 @@
       ]
     },
     "lore": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years.  From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.\\n\\nBut his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.\\n\\nNo instruction was left for him save for a brief note scrawled in onyx blood that read \\\"Don't let them have it\\\".  Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",
-    "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his back-line teammates can lay out damage with impunity.",
+    "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his backline teammates can lay out damage with impunity.",
     "role": "Charges into close combat",
     "recommended_items": [
       "upgrade_close_range",
@@ -3158,7 +3170,7 @@
       ]
     },
     "lore": "The cornerstone of the New York gambling scene, Wraith's organization is about as open a secret as it comes.  However, thanks to a non-trivial amount of bribes, shakedowns, and blackmail, Wraith knows that she's above the law.",
-    "playstyle": "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. then teleporting away before anyone can retaliate.",
+    "playstyle": "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. Then teleporting away before anyone can retaliate.",
     "role": "Melts isolated targets",
     "recommended_items": [
       "upgrade_endurance",
@@ -4472,7 +4484,7 @@
           "bonus_clip_size_percent": 0
         },
         "tooltipDetails": {
-          "description": "{s:hero_name} briefly <span class=\"highlight\">disappears into the void</span> and then reappears a short distance away. On reappearing, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate bonus</span> for the next clip. Can be cast with [{s:key_alt_cast}] to also bring nearby allies and give them half fire rate bonus.",
+          "description": "{s:hero_name} briefly <span class=\"highlight\">disappears into the void</span> and then reappears a short distance away. On reappearing, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate bonus</span> for the next clip (Max {s:FireRateBonusDurationMax}s). Can be cast with [{s:key_alt_cast}] to also bring nearby allies and give them half fire rate bonus.",
           "properties": [
             {
               "key": "VoidTime",
@@ -4590,14 +4602,14 @@
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
-          "cast_delay": 0.1,
+          "cast_delay": 0.2,
           "channel_time": 2.75,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
           "channel_move_speed": 0,
           "tech_power": 0,
           "weapon_power": 0,
-          "vacuum_radius": 9,
+          "vacuum_radius": 8,
           "speed": 200,
           "toss_speed": 350,
           "toss_angle": 45,
@@ -4635,7 +4647,7 @@
           "basicProperties": [
             {
               "key": "VacuumRadius",
-              "value": "9m",
+              "value": "8m",
               "type": "distance"
             }
           ],
@@ -4831,7 +4843,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 15,
+      "bullet_damage": 13,
       "rounds_per_second": 4,
       "clip_size": 18,
       "reload_time": 2.35,
@@ -4848,8 +4860,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 60,
-      "sustained_dps": 39.416058394160586,
+      "dps": 52,
+      "sustained_dps": 34.16058394160584,
       "weapon_name": "citadel_weapon_sumo_set",
       "weapon_description": "citadel_weapon_hero_sumo_set",
       "weapon_types": [
@@ -5100,7 +5112,7 @@
           "path_width": 1.1,
           "camera_distance": 250,
           "min_slow_percent": 30,
-          "max_slow_percent": 60,
+          "max_slow_percent": 80,
           "max_slow_time": 2,
           "ice_beam_buildup_proc_duration": 2,
           "slow_duration": 0.6,
@@ -5108,7 +5120,7 @@
           "beam_split": 0
         },
         "tooltipDetails": {
-          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam.",
+          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam. The beam may also claim Souls.",
           "properties": [
             {
               "key": "DPS",
@@ -5121,7 +5133,7 @@
             },
             {
               "key": "MaxSlowPercent",
-              "value": 60,
+              "value": 80,
               "type": "slow",
               "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -5248,7 +5260,7 @@
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 1.2,
       "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 45,
+      "modifier_value_base_health_from_level": 50,
       "modifier_value_tech_damage_percent": 0,
       "modifier_value_bullet_armor_damage_resist": 0
     },
@@ -5505,7 +5517,7 @@
         "name": "Sleep Dagger",
         "stats": {
           "duration": 0,
-          "cooldown": 27,
+          "cooldown": 25,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5536,7 +5548,7 @@
           "bullet_resist_reduction_duration": 0,
           "stamina_reduction": 0,
           "drowsy_move_slow_percent": 60,
-          "drowsy_duration": 0.25
+          "drowsy_duration": 0.35
         },
         "tooltipDetails": {
           "description": "Throw a dagger that <span class=\"highlight\">damages</span> and <span class=\"highlight\">sleeps</span> the target. Sleeping targets wake up shortly after being damaged. Throwing a Dagger does not break your invisibility. Sleep Dagger does not interrupt enemies' channeling abilities.",
@@ -5614,7 +5626,7 @@
           "invis_cancel_on_damage": 0,
           "invis_fade_to_duration": 1.5,
           "invis_move_speed_mod": 2,
-          "spotted_radius": 20,
+          "spotted_radius": 18,
           "reveal_on_damage_duration": 1.5,
           "reveal_on_spotted_duration": 0.5,
           "full_invis_distance": 50,
@@ -5638,7 +5650,7 @@
           "basicProperties": [
             {
               "key": "SpottedRadius",
-              "value": "20m",
+              "value": "18m",
               "type": "distance",
               "m_e_display_type": "ETechRadius"
             },
@@ -5726,7 +5738,7 @@
             },
             {
               "ability_duration": 5,
-              "max_stacks": 30
+              "max_stacks": 40
             },
             {
               "damage_bonus_fixed_per_stack": 0.2,
@@ -5758,7 +5770,7 @@
           "radius": 15,
           "targets_per_tick": 1,
           "bonus_fire_rate": 25,
-          "weapon_damage_bonus": 0,
+          "weapon_damage_bonus": 2,
           "evasion_percent": 50
         },
         "tooltipDetails": {
@@ -5780,7 +5792,7 @@
           "basicProperties": [
             {
               "key": "WeaponDamageBonus",
-              "value": 0,
+              "value": 2,
               "type": "bullet_damage",
               "m_e_display_units": "EDisplayUnit_Normal",
               "m_e_display_type": "EBaseWeaponDamageIncrease",
@@ -5984,7 +5996,7 @@
       "eclipsize": 0.5
     },
     "weapon_stats": {
-      "bullet_damage": 5.3,
+      "bullet_damage": 5.6,
       "rounds_per_second": 10,
       "clip_size": 25,
       "reload_time": 2.35,
@@ -6001,8 +6013,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 52.99999999999999,
-      "sustained_dps": 27.319587628865982,
+      "dps": 55.99999999999999,
+      "sustained_dps": 28.8659793814433,
       "weapon_name": "citadel_weapon_haze_set",
       "weapon_description": "citadel_weapon_hero_haze_set",
       "weapon_types": [
@@ -6297,9 +6309,9 @@
           "extra_target_cone_angle": 40,
           "extra_target_horizontal_offset": 30,
           "follow_distance": 120,
-          "camera_preview_offset": 55,
+          "camera_preview_offset": 25,
           "camera_preview_speed": 0.6,
-          "camera_preview_distance": 400,
+          "camera_preview_distance": 200,
           "lasso_target_max_speed": 550
         },
         "tooltipDetails": {
@@ -7162,8 +7174,8 @@
           "duration": 0,
           "cooldown": 25,
           "range": 16,
-          "charges": 1,
-          "charge_restore_time": 8,
+          "charges": 0,
+          "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 16,
@@ -7171,7 +7183,7 @@
           "cast_delay": 0.2,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 8,
+          "cooldown_between_charge": 0,
           "channel_move_speed": -1,
           "tech_power": 0,
           "weapon_power": 0,
@@ -7184,7 +7196,8 @@
           "damage_amplification": 0,
           "active_reload_percent": 0,
           "friendly_target_cd": 12,
-          "friendly_recharge_time": 3
+          "friendly_recharge_time": 3,
+          "double_pounce": 0
         },
         "tooltipDetails": {
           "description": "<span class=\"highlight\">Leap</span> at a target.  Targetting an enemy will cause <span class=\"highlight\">damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
@@ -7207,16 +7220,6 @@
             }
           ],
           "basicProperties": [
-            {
-              "key": "FriendlyTargetCD",
-              "type": "cooldown",
-              "value": 12
-            },
-            {
-              "key": "FriendlyRechargeTime",
-              "value": 3,
-              "type": "charge_cooldown"
-            },
             {
               "key": "SlowPercent",
               "value": 20,
@@ -7241,7 +7244,7 @@
               "slow_percent": 20
             },
             {
-              "active_reload_percent": 30,
+              "double_pounce": 4,
               "ability_cast_range": 8
             },
             {
@@ -7674,7 +7677,7 @@
           "tech_cleave_expire_time": 0.2,
           "fall_speed_max": 60,
           "air_speed_max": 150,
-          "damage": 105,
+          "damage": 100,
           "camera_height_offset": 20,
           "camera_horizontal_offset": 15,
           "boss_damage_percent": 25
@@ -7684,7 +7687,7 @@
           "properties": [
             {
               "key": "Damage",
-              "value": 105,
+              "value": 100,
               "type": "tech_damage",
               "scale_function": {
                 "value": 1.6,
@@ -7697,7 +7700,7 @@
               "ability_charges": 1
             },
             {
-              "damage": 70
+              "damage": 65
             },
             {
               "ability_cooldown_between_charge": -3,
@@ -7824,7 +7827,7 @@
           "trap_height": 2,
           "lifetime": 20,
           "damage": 30,
-          "immobilize_duration": 2,
+          "immobilize_duration": 1.25,
           "trip_time": 0.5,
           "arm_time": 2,
           "trip_up_speed": 250,
@@ -7833,26 +7836,40 @@
           "bullet_vulnerbility": 0,
           "debuff_duration": 0,
           "dot_duration": 0,
-          "dot_dps": 0
+          "dot_dps": 0,
+          "slow_percent": 50,
+          "slow_duration": 1
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> them.",
+          "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> and then <span class=\"highlight\">slowing</span> them.",
           "properties": [
             {
-              "key": "Lifetime",
-              "value": 20,
+              "key": "ImmobilizeDuration",
+              "value": 1.25,
               "type": "duration"
             },
             {
               "key": "Damage",
               "value": 30,
               "type": "tech_damage"
+            },
+            {
+              "key": "Lifetime",
+              "value": 20,
+              "type": "duration"
             }
           ],
           "basicProperties": [
             {
-              "key": "ImmobilizeDuration",
-              "value": 2,
+              "key": "SlowPercent",
+              "value": 50,
+              "type": "slow",
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "SlowDuration",
+              "value": 1,
               "type": "duration"
             },
             {
@@ -7876,7 +7893,7 @@
               "ability_cooldown": -20
             },
             {
-              "immobilize_duration": 1
+              "slow_duration": 2
             },
             {
               "bullet_vulnerbility": 30,
@@ -8142,7 +8159,9 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.04
+      "emaxmovespeed": 0.04,
+      "eroundspersecond": 0.00625,
+      "efirerate": 0.25
     },
     "weapon_stats": {
       "bullet_damage": 22,
@@ -8786,7 +8805,7 @@
           "movement_slow": 35,
           "impact_damage": 35,
           "bleed_dps_per_stack": 5,
-          "debuff_duration": 5,
+          "bleed_duration": 5,
           "aoe_radius": 10,
           "ricochet_count": 1
         },
@@ -8804,7 +8823,8 @@
               "ability_charges": 1
             },
             {
-              "debuff_duration": 2
+              "bleed_duration": 2,
+              "name": "Bleed Duration"
             },
             {
               "impact_damage": 40,
@@ -8846,7 +8866,8 @@
           "side_move_speed_reduction": -100,
           "turn_rate_max": 0,
           "cooldown_reduction_on_hit": 0,
-          "max_cooldown_reductions_from_hits": 3
+          "cooldown_reduction_on_hit_non_hero": 0,
+          "max_cooldown_reductions_from_hits": 0
         },
         "tooltipDetails": {
           "description": "On hit",
@@ -8885,7 +8906,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage_pct_deferred": 35,
+          "damage_pct_deferred": 30,
           "deferred_damage_duration": 10,
           "defer_clear_pct": 50,
           "damage_pct_deferred_max_rage": 15
@@ -8984,16 +9005,16 @@
               "name": "Enemy health threshold"
             },
             {
-              "short_cooldown": 0.5
+              "short_cooldown": 50
             }
           ]
         }
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.5,
+      "modifier_value_base_bullet_damage_from_level": 0.4,
       "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
+      "modifier_value_base_health_from_level": 35,
       "modifier_value_tech_damage_percent": 0,
       "modifier_value_bullet_armor_damage_resist": 0
     },
@@ -9174,8 +9195,8 @@
       "reload_delay": 0,
       "reload_single": false,
       "bullet_speed": 240,
-      "falloff_start_range": 8.66,
-      "falloff_end_range": 18,
+      "falloff_start_range": 7.79,
+      "falloff_end_range": 16.2,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
       "falloff_bias": 0.5,
@@ -9393,7 +9414,7 @@
               "bonus_fire_rate": 10
             },
             {
-              "move_speed_bonus": 3
+              "move_speed_bonus": 2
             },
             {
               "total_tether_targets": 1,
@@ -9490,7 +9511,7 @@
           "resource_cost": 0,
           "cast_range": 8,
           "unit_target_limit": 1,
-          "cast_delay": 1,
+          "cast_delay": 2,
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
@@ -9503,6 +9524,7 @@
           "on_land_damage_radius": 14,
           "toss_speed": 400,
           "flying_bullet_resist": 40,
+          "ally_outgoing_damage_percent": -50,
           "buff_duration": 12,
           "air_drop_bullet_shield": 200,
           "silence_bomb_speed": 12,
@@ -9513,7 +9535,7 @@
           "silence_duration": 0
         },
         "tooltipDetails": {
-          "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist but cannot attack or use abilities while lifted.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+          "description": "Take flight with an ally or a bomb. Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>While lifted, your ally gains bullet resist but cannot attack and deals {s:AllyOutgoingDamagePercent}% damage. Air Drop has faster cast time when targeting an ally. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
           "properties": [
             {
               "key": "ExplodeDamage",
@@ -9610,9 +9632,9 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.55,
+      "modifier_value_base_bullet_damage_from_level": 0.5,
       "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
+      "modifier_value_base_health_from_level": 35,
       "modifier_value_tech_damage_percent": 0,
       "modifier_value_bullet_armor_damage_resist": 0
     },
@@ -10213,7 +10235,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -10690,8 +10712,8 @@
       ]
     },
     "spirit_scaling": {
-      "eroundspersecond": 0.015,
-      "efirerate": 0.375
+      "eroundspersecond": 0.012,
+      "efirerate": 0.3
     },
     "weapon_stats": {
       "bullet_damage": 19.8,
@@ -10786,7 +10808,7 @@
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
-          "cast_delay": 1.5,
+          "cast_delay": 1.4,
           "channel_time": 0,
           "post_cast_duration": 0.4,
           "cooldown_between_charge": 0,
@@ -10797,7 +10819,7 @@
           "short_charge_damage_pct": 40,
           "medium_charge_damage_pct": 60,
           "full_charge_damage": 170,
-          "slash_radius": 45,
+          "slash_radius": 41,
           "fall_speed_max": 5,
           "air_speed_max": 0,
           "power_up_stages": 3,
@@ -10934,7 +10956,7 @@
           "tech_power": 0,
           "weapon_power": 0,
           "damage": 60,
-          "radius": 12,
+          "radius": 13,
           "heal_fixed_health": 70,
           "heal_max_health": 0,
           "debuff_duration": 4,
@@ -11430,13 +11452,13 @@
           "lash_metal_skin_duration": 0,
           "min_distance": 0,
           "jump_slow_resistance": 0.667,
-          "restore_stamina_on_use": 1,
+          "restore_stamina_on_use": 0,
           "weapon_damage_bonus": 0,
           "weapon_damage_bonus_duration": 0,
           "weapon_fire_rate_bonus": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also restores <span class=\"highlight\">one stamina charge</span> and all <span class=\"highlight\">air jumps and dashes</span>.",
+          "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also resets your limit of <span class=\"highlight\">air jumps and dashes</span>.",
           "properties": [
             {
               "key": "JumpVelocity",
@@ -11953,8 +11975,8 @@
           "radius": 5,
           "puddle_duration": 10,
           "detonate_cooldown": 0.15,
-          "second_hit_damage_percentage": 0.66,
-          "third_hit_damage_percentage": 0.33
+          "second_hit_damage_percentage": 0.7,
+          "third_hit_damage_percentage": 0.5
         },
         "tooltipDetails": {
           "description": "Goo puddles linger on the ground and apply a <span class=\"highlight\">movement slow</span> to enemies walking on them.",
@@ -12120,7 +12142,7 @@
               "value": 0,
               "type": "melee_damage",
               "scale_function": {
-                "value": 1,
+                "value": 1.1,
                 "type": "melee"
               }
             },
@@ -12143,11 +12165,11 @@
               "ability_charges": 1
             },
             {
-              "ability_cooldown": -10
+              "damage": 50,
+              "slow_percent": 20
             },
             {
-              "damage": 80,
-              "slow_percent": 20
+              "ability_cooldown": -12
             }
           ]
         }
@@ -12201,7 +12223,7 @@
               "type": "tech_damage",
               "m_e_display_type": "ETechPower",
               "scale_function": {
-                "value": 1.04832,
+                "value": 1.3,
                 "type": "spirit"
               }
             },
@@ -12239,7 +12261,7 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.9,
+      "modifier_value_base_bullet_damage_from_level": 1.1,
       "modifier_value_base_melee_damage_from_level": 3.4,
       "modifier_value_base_health_from_level": 38,
       "modifier_value_tech_damage_percent": 0,
@@ -12414,25 +12436,25 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 15,
+      "bullet_damage": 14,
       "rounds_per_second": 5,
-      "clip_size": 21,
-      "reload_time": 2.1,
+      "clip_size": 24,
+      "reload_time": 2.5,
       "reload_movespeed": 1,
       "reload_delay": 0,
       "reload_single": false,
-      "bullet_speed": 60,
+      "bullet_speed": 100,
       "falloff_start_range": 8.66,
       "falloff_end_range": 22.64,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
       "falloff_bias": 0.5,
-      "bullet_gravity_scale": 0.2,
+      "bullet_gravity_scale": 0,
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 75,
-      "sustained_dps": 49.99999999999999,
+      "dps": 70,
+      "sustained_dps": 46.027397260273965,
       "weapon_name": "citadel_weapon_viscous_set",
       "weapon_description": "citadel_weapon_hero_viscous_set",
       "weapon_types": [
@@ -12440,7 +12462,7 @@
         "Attribute_EWeaponAttribute_Projectile"
       ]
     },
-    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory hunts the seas... and its denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Psychically building itself an ectoplasmic goo body so it can survive on the surface, Viscous desperately is trying to summon The Patrons to keep The Deep safe from the adversary that lurks below.",
+    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon The Patrons in order to keep The Deep safe from the horror that lurks below.",
     "playstyle": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",
     "role": "Rolls around deflecting bullets",
     "recommended_items": [
@@ -14796,7 +14818,7 @@
           "radius": 6.5,
           "move_slow_percent": 40,
           "slow_duration": 1.5,
-          "amp_percent_per_stack": 8,
+          "amp_percent_per_stack": 7,
           "amp_duration": 15,
           "life_steal_percent_on_hit": 0,
           "life_steal_percent_on_hit_non_hero": 0
@@ -14806,7 +14828,7 @@
           "properties": [
             {
               "key": "AmpPercentPerStack",
-              "value": 8
+              "value": 7
             },
             {
               "key": "DamagePerProjectile",
@@ -15766,20 +15788,21 @@
           "tech_power": 0,
           "weapon_power": 0,
           "launch_window_cooldown": 35,
-          "launch_window_duration": 20,
+          "launch_window_duration": 15,
           "charges_conditionally": 1,
           "radius": 4,
-          "dps": 30,
+          "dps": 20,
           "damage_interval": 0.5,
-          "slow_percent": 20,
-          "debuff_duration": 4
+          "debuff_duration": 4,
+          "healing_factor": 40,
+          "non_hero_healing_factor": 15
         },
         "tooltipDetails": {
-          "description": "Start launching fire beetles at a ground location, applying slow and dealing damage where they land. Once the launch window ends, this ability goes on cooldown.",
+          "description": "Start launching fire beetles. Each beetle can be <span class=\"highlight\">launched separately</span>, applying a <span class=\"highlight\">lifesteal over time</span> to enemies they hit. Once the launch window ends, this ability goes on cooldown.",
           "properties": [
             {
               "key": "DPS",
-              "value": 30,
+              "value": 20,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.3,
@@ -15787,11 +15810,9 @@
               }
             },
             {
-              "key": "SlowPercent",
-              "value": 20,
-              "type": "slow",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
+              "key": "HealingFactor",
+              "value": 40,
+              "type": "healing"
             },
             {
               "key": "DebuffDuration",
@@ -15802,20 +15823,27 @@
           "basicProperties": [
             {
               "key": "LaunchWindowDuration",
-              "value": 20,
+              "value": 15,
               "type": "duration"
             },
             {
               "key": "LaunchWindowCooldown",
               "value": 35
+            },
+            {
+              "key": "NonHeroHealingFactor",
+              "value": 15,
+              "type": "healing"
             }
           ],
           "upgrades": [
             {
-              "slow_percent": 20
+              "ability_charges": 2
             },
             {
-              "ability_charges": 2
+              "healing_factor": 40,
+              "name": "Heal vs Non-Heroes",
+              "non_hero_healing_factor": 15
             },
             {
               "dps": 40
@@ -15896,7 +15924,7 @@
         "name": "Djinn's Reach",
         "stats": {
           "duration": 0,
-          "cooldown": 40,
+          "cooldown": 60,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15904,58 +15932,76 @@
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
-          "cast_delay": 0.75,
+          "cast_delay": 1.1,
           "channel_time": 9999,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
           "channel_move_speed": -1,
           "tech_power": 0,
           "weapon_power": 0,
+          "max_targets": 3,
           "tech_cleave_expire_time": 0.2,
           "fall_speed_max": 60,
           "air_speed_max": 150,
           "damage": 0,
-          "camera_height_offset": 20,
-          "camera_horizontal_offset": 15,
           "boss_damage_percent": 50,
-          "debuff_duration": 4.5,
-          "cone_radius": 25,
-          "cone_angle": 70,
-          "chain_slow_percent": 30,
-          "chain_length": 22
+          "debuff_duration": 7,
+          "radius": 17,
+          "chain_slow_percent": 20,
+          "chain_length": 14,
+          "damage_share_percent": 30,
+          "bullet_resist_reduction": -25,
+          "initial_pull_amount": 100
         },
         "tooltipDetails": {
-          "description": "Launch a projectile that roots the first target it hits, then tethers other enemies behind to the primary target.",
+          "description": "Charge up and then launch a projectile that strikes the first enemy hero it hits, <span class=\"highlight\">tethering</span> it to up to two other enemy heroes nearby. Tethered heroes have their <span class=\"highlight\">movement constrained</span> to each other, have <span class=\"highlight\">reduced bullet resistance</span>, and <span class=\"highlight\">suffer a portion of the damage any of the other tethered heroes receive</span>. <br>Hold [{s:ability_key}] or [{s:iv_attack}] to hold the shot.",
           "properties": [
             {
-              "key": "DebuffDuration",
-              "value": 4.5,
-              "m_e_scale_type": "ETechDuration",
-              "type": "duration"
+              "key": "BulletResistReduction",
+              "value": -25,
+              "type": "bullet_armor_down",
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
-              "key": "ConeRadius",
-              "value": "25m",
-              "type": "distance",
-              "loc_token_override": "DjinnsReachConeRadius"
+              "key": "DamageSharePercent",
+              "value": 30
+            },
+            {
+              "key": "DebuffDuration",
+              "value": 7,
+              "m_e_scale_type": "ETechDuration",
+              "type": "duration"
             }
           ],
           "basicProperties": [
             {
               "key": "ChainSlowPercent",
-              "value": 30,
+              "value": 20,
               "type": "slow"
+            },
+            {
+              "key": "Radius",
+              "value": "17m",
+              "type": "distance"
+            },
+            {
+              "key": "ChainLength",
+              "value": "14m",
+              "m_e_display_type": "ETechRadius",
+              "type": "distance"
             }
           ],
           "upgrades": [
             {
-              "ability_cooldown": -1
+              "ability_cooldown": -20
             },
             {
-              "ability_cooldown": -1
+              "damage_share_percent": 20,
+              "name": "Damage Shared"
             },
             {
-              "ability_cooldown": -1
+              "bullet_resist_reduction": -15
             }
           ]
         }
@@ -16137,10 +16183,10 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 25.8,
-      "rounds_per_second": 2.2222222222222223,
+      "bullet_damage": 23,
+      "rounds_per_second": 2.5,
       "clip_size": 12,
-      "reload_time": 2.75,
+      "reload_time": 2.5,
       "reload_movespeed": 1,
       "reload_delay": 0,
       "reload_single": false,
@@ -16154,8 +16200,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 57.33333333333334,
-      "sustained_dps": 37.9877300613497,
+      "dps": 57.5,
+      "sustained_dps": 37.80821917808219,
       "weapon_name": "citadel_weapon_mirage_set",
       "weapon_description": "citadel_weapon_hero_mirage_set",
       "weapon_types": [

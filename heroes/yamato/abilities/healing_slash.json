@@ -19,7 +19,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "damage": 60,
-    "radius": 12,
+    "radius": 13,
     "heal_fixed_health": 70,
     "heal_max_health": 0,
     "debuff_duration": 4,

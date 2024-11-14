@@ -27,6 +27,11 @@
             "value": 20,
             "style": null,
             "is_negative": false
+          },
+          "bullet_shield_max_health": {
+            "value": 90,
+            "style": "bullet_armor_up",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -71,5 +76,6 @@
   "weapon_power": 0,
   "long_range_bonus_weapon_power": 40,
   "long_range_bonus_weapon_power_min_range": 15,
-  "bonus_clip_size_percent": 20
+  "bonus_clip_size_percent": 20,
+  "bullet_shield_max_health": 90
 }

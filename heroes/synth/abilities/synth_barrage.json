@@ -27,7 +27,7 @@
     "radius": 6.5,
     "move_slow_percent": 40,
     "slow_duration": 1.5,
-    "amp_percent_per_stack": 8,
+    "amp_percent_per_stack": 7,
     "amp_duration": 15,
     "life_steal_percent_on_hit": 0,
     "life_steal_percent_on_hit_non_hero": 0
@@ -37,7 +37,7 @@
     "properties": [
       {
         "key": "AmpPercentPerStack",
-        "value": 8
+        "value": 7
       },
       {
         "key": "DamagePerProjectile",

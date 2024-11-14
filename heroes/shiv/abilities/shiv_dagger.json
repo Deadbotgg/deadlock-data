@@ -22,7 +22,7 @@
     "movement_slow": 35,
     "impact_damage": 35,
     "bleed_dps_per_stack": 5,
-    "debuff_duration": 5,
+    "bleed_duration": 5,
     "aoe_radius": 10,
     "ricochet_count": 1
   },
@@ -40,7 +40,8 @@
         "ability_charges": 1
       },
       {
-        "debuff_duration": 2
+        "bleed_duration": 2,
+        "name": "Bleed Duration"
       },
       {
         "impact_damage": 40,

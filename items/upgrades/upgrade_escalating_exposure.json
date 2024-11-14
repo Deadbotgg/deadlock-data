@@ -36,7 +36,7 @@
             "is_negative": false
           },
           "tech_armor_damage_reduction": {
-            "value": -12,
+            "value": -15,
             "style": "tech_armor_down",
             "is_negative": false
           }
@@ -90,5 +90,5 @@
   "magic_increase_per_stack": 6,
   "tech_resist": 15,
   "bonus_health": 125,
-  "tech_armor_damage_reduction": -12
+  "tech_armor_damage_reduction": -15
 }

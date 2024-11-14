@@ -16,20 +16,6 @@
     "EShopFilterFireRate"
   ],
   "tooltip": {
-    "Innate": [
-      {
-        "ability_properties": {
-          "reload_speed_multipler": {
-            "value": 10,
-            "style": null,
-            "is_negative": true
-          }
-        },
-        "elevated_ability_properties": {},
-        "important_ability_properties": {},
-        "description": ""
-      }
-    ],
     "Passive": [
       {
         "ability_properties": {
@@ -73,6 +59,5 @@
   "proc_cooldown": 12,
   "fire_rate_bonus": 15,
   "fire_rate_duration": 12,
-  "damage": 50,
-  "reload_speed_multipler": 10
+  "damage": 50
 }

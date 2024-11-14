@@ -48,20 +48,6 @@
         "important_ability_properties": {},
         "description": ""
       }
-    ],
-    "Passive": [
-      {
-        "ability_properties": {},
-        "elevated_ability_properties": {},
-        "important_ability_properties": {
-          "degen_resistance": {
-            "value": 30,
-            "style": "healing",
-            "is_conditional": false
-          }
-        },
-        "description": "Reduces the effect of enemy applied <span class=\"highlight\">healing reduction</span>."
-      }
     ]
   },
   "disabled": false,
@@ -80,6 +66,5 @@
   "weapon_power": 0,
   "bullet_lifesteal_percent": 35,
   "base_attack_damage_percent": 15,
-  "bonus_health": 175,
-  "degen_resistance": 30
+  "bonus_health": 175
 }

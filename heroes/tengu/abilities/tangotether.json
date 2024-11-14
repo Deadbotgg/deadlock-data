@@ -76,7 +76,7 @@
         "bonus_fire_rate": 10
       },
       {
-        "move_speed_bonus": 3
+        "move_speed_bonus": 2
       },
       {
         "total_tether_targets": 1,

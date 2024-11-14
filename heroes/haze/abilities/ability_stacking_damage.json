@@ -60,7 +60,7 @@
       },
       {
         "ability_duration": 5,
-        "max_stacks": 30
+        "max_stacks": 40
       },
       {
         "damage_bonus_fixed_per_stack": 0.2,

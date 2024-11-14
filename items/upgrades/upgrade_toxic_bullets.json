@@ -18,6 +18,20 @@
     "EShopFilterDisruption"
   ],
   "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 100,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
     "Default": [
       {
         "ability_properties": {
@@ -35,12 +49,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "dot_health_percent": {
-            "value": 6,
+            "value": 5,
             "style": "tech_damage",
             "is_conditional": false
           },
           "heal_amp_receive_penalty_percent": {
-            "value": -55,
+            "value": -65,
             "style": null,
             "is_conditional": true
           }
@@ -63,12 +77,13 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "dot_health_percent": 6,
+  "bonus_health": 100,
+  "dot_health_percent": 5,
   "dot_duration": 3,
   "build_up_per_shot": 0.8,
   "build_up_duration": 5,
   "tick_rate": 0.5,
-  "heal_amp_receive_penalty_percent": -55,
-  "heal_amp_regen_penalty_percent": -55,
+  "heal_amp_receive_penalty_percent": -65,
+  "heal_amp_regen_penalty_percent": -65,
   "dot_multipler_troopers": 0.5
 }

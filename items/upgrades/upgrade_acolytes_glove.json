@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "tech_shield_max_health": {
-            "value": 85,
+            "value": 100,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -44,7 +44,7 @@
       {
         "ability_properties": {
           "ability_duration": {
-            "value": 8,
+            "value": 13,
             "style": "duration",
             "is_negative": false
           },
@@ -73,7 +73,7 @@
   },
   "disabled": false,
   "ability_cooldown": 8,
-  "ability_duration": 8,
+  "ability_duration": 13,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
@@ -87,7 +87,7 @@
   "weapon_power": 0,
   "spirit_damage": 50,
   "tech_armor_damage_reduction": -12,
-  "tech_shield_max_health": 85,
+  "tech_shield_max_health": 100,
   "bonus_health_regen": 1,
   "bonus_melee_damage_percent": 15
 }

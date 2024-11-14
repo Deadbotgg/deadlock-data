@@ -30,7 +30,7 @@
       {
         "ability_properties": {
           "bonus_health_regen": {
-            "value": 2,
+            "value": 3,
             "style": "healing",
             "is_negative": false
           },
@@ -40,7 +40,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 75,
+            "value": 100,
             "style": "health",
             "is_negative": false
           }
@@ -71,7 +71,7 @@
   "ability_resource_cost": 0,
   "tech_power": 21,
   "weapon_power": 0,
-  "bonus_health_regen": 2,
+  "bonus_health_regen": 3,
   "bonus_sprint_speed": 1,
-  "bonus_health": 75
+  "bonus_health": 100
 }

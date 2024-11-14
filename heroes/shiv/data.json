@@ -29,9 +29,9 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.5,
+    "modifier_value_base_bullet_damage_from_level": 0.4,
     "modifier_value_base_melee_damage_from_level": 3.4,
-    "modifier_value_base_health_from_level": 41,
+    "modifier_value_base_health_from_level": 35,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0
   },
@@ -212,8 +212,8 @@
     "reload_delay": 0,
     "reload_single": false,
     "bullet_speed": 240,
-    "falloff_start_range": 8.66,
-    "falloff_end_range": 18,
+    "falloff_start_range": 7.79,
+    "falloff_end_range": 16.2,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,

@@ -53,7 +53,7 @@
         "value": 6,
         "type": "duration",
         "scale_function": {
-          "value": 0.047,
+          "value": 0.0376,
           "type": "spirit"
         }
       }

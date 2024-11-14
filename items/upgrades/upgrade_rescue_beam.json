@@ -52,7 +52,7 @@
       {
         "ability_properties": {
           "ability_channel_time": {
-            "value": 3,
+            "value": 2,
             "style": "cast",
             "is_negative": false
           },
@@ -90,7 +90,7 @@
   "ability_cast_range": 45,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
-  "ability_channel_time": 3,
+  "ability_channel_time": 2.5,
   "ability_post_cast_duration": 0,
   "ability_charges": 0,
   "ability_cooldown_between_charge": 0,

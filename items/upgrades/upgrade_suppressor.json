@@ -31,7 +31,7 @@
             "is_negative": false
           },
           "bonus_health_regen": {
-            "value": 3,
+            "value": 2,
             "style": "healing",
             "is_negative": false
           },
@@ -52,7 +52,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "fire_rate_slow": {
-            "value": 30,
+            "value": 25,
             "style": "fireRate",
             "is_conditional": true
           },
@@ -81,6 +81,6 @@
   "tech_power": 4,
   "weapon_power": 0,
   "bonus_health": 50,
-  "bonus_health_regen": 3,
-  "fire_rate_slow": 30
+  "bonus_health_regen": 2.5,
+  "fire_rate_slow": 25
 }

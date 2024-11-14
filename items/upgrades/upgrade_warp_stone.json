@@ -55,7 +55,7 @@
             "is_conditional": false
           },
           "bullet_resist": {
-            "value": 40,
+            "value": 30,
             "style": "bullet_armor_up",
             "is_conditional": true
           }
@@ -79,6 +79,6 @@
   "tech_power": 8,
   "weapon_power": 0,
   "base_attack_damage_percent": 20,
-  "bullet_resist": 40,
+  "bullet_resist": 30,
   "caster_buff_duration": 5
 }

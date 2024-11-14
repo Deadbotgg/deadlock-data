@@ -29,7 +29,7 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.9,
+    "modifier_value_base_bullet_damage_from_level": 1.1,
     "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 38,
     "modifier_value_tech_damage_percent": 0,
@@ -204,25 +204,25 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 15,
+    "bullet_damage": 14,
     "rounds_per_second": 5,
-    "clip_size": 21,
-    "reload_time": 2.1,
+    "clip_size": 24,
+    "reload_time": 2.5,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
-    "bullet_speed": 60,
+    "bullet_speed": 100,
     "falloff_start_range": 8.66,
     "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
-    "bullet_gravity_scale": 0.2,
+    "bullet_gravity_scale": 0,
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 75,
-    "sustained_dps": 49.99999999999999,
+    "dps": 70,
+    "sustained_dps": 46.027397260273965,
     "weapon_name": "citadel_weapon_viscous_set",
     "weapon_description": "citadel_weapon_hero_viscous_set",
     "weapon_types": [
@@ -230,7 +230,7 @@
       "Attribute_EWeaponAttribute_Projectile"
     ]
   },
-  "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory hunts the seas... and its denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Psychically building itself an ectoplasmic goo body so it can survive on the surface, Viscous desperately is trying to summon The Patrons to keep The Deep safe from the adversary that lurks below.",
+  "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon The Patrons in order to keep The Deep safe from the horror that lurks below.",
   "playstyle": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",
   "role": "Rolls around deflecting bullets",
   "recommended_items": [

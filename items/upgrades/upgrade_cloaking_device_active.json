@@ -24,7 +24,7 @@
             "is_negative": false
           },
           "tech_shield_max_health": {
-            "value": 200,
+            "value": 300,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -43,7 +43,7 @@
       {
         "ability_properties": {
           "spotted_radius": {
-            "value": 20,
+            "value": 18,
             "style": null,
             "is_negative": false
           }
@@ -106,14 +106,14 @@
   "invis_cancel_on_damage": 1,
   "invis_fade_to_duration": 0.6,
   "invis_move_speed_mod": 2,
-  "spotted_radius": 20,
+  "spotted_radius": 18,
   "reveal_on_damage_duration": 1.5,
   "reveal_on_spotted_duration": 1.5,
   "full_invis_distance": 50,
   "ambush_duration": 8,
   "ambush_bonus_fire_rate": 40,
   "ambush_bonus_tech_power": 55,
-  "tech_shield_max_health": 200,
+  "tech_shield_max_health": 300,
   "bonus_health_regen": 15,
   "bonus_clip_size_percent": 30
 }

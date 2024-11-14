@@ -1,6 +1,6 @@
 {
   "name": "Enchanter's Barrier",
-  "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>.",
+  "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Cooldown Reduction</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -37,9 +37,14 @@
             "value": 20,
             "style": "tech_damage",
             "is_conditional": false
+          },
+          "cooldown_reduction_with_shield": {
+            "value": 8,
+            "style": "cooldown",
+            "is_conditional": false
           }
         },
-        "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>."
+        "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Cooldown Reduction</span>."
       }
     ]
   },
@@ -58,5 +63,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "tech_shield_max_health": 300,
-  "bonus_spirit_with_magic_shield": 20
+  "bonus_spirit_with_magic_shield": 20,
+  "cooldown_reduction_with_shield": 8
 }

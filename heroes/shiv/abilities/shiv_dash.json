@@ -30,7 +30,8 @@
     "side_move_speed_reduction": -100,
     "turn_rate_max": 0,
     "cooldown_reduction_on_hit": 0,
-    "max_cooldown_reductions_from_hits": 3
+    "cooldown_reduction_on_hit_non_hero": 0,
+    "max_cooldown_reductions_from_hits": 0
   },
   "tooltipDetails": {
     "description": "On hit",

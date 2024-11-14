@@ -1,6 +1,6 @@
 {
   "name": "Combat Barrier",
-  "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>.",
+  "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -37,9 +37,14 @@
             "value": 28,
             "style": "bullet_damage",
             "is_conditional": false
+          },
+          "fire_rate_when_shielded": {
+            "value": 8,
+            "style": "fireRate",
+            "is_conditional": false
           }
         },
-        "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>."
+        "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>."
       }
     ]
   },
@@ -58,5 +63,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bullet_shield_max_health": 300,
-  "attack_damage_when_shielded": 28
+  "attack_damage_when_shielded": 28,
+  "fire_rate_when_shielded": 8
 }

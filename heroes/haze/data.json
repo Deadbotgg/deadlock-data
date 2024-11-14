@@ -206,7 +206,7 @@
     "eclipsize": 0.5
   },
   "weapon_stats": {
-    "bullet_damage": 5.3,
+    "bullet_damage": 5.6,
     "rounds_per_second": 10,
     "clip_size": 25,
     "reload_time": 2.35,
@@ -223,8 +223,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 52.99999999999999,
-    "sustained_dps": 27.319587628865982,
+    "dps": 55.99999999999999,
+    "sustained_dps": 28.8659793814433,
     "weapon_name": "citadel_weapon_haze_set",
     "weapon_description": "citadel_weapon_hero_haze_set",
     "weapon_types": [

@@ -60,7 +60,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "ricochet_damage_percent": {
-            "value": 50,
+            "value": 60,
             "style": "bullet_damage",
             "is_conditional": false
           }
@@ -83,7 +83,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "ricochet_damage_percent": 50,
+  "ricochet_damage_percent": 60,
   "ricochet_radius": 14,
   "bonus_clip_size_percent": 35,
   "ricochet_targets_tooltip_only": 2,

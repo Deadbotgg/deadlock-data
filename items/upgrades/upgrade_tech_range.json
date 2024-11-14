@@ -28,7 +28,7 @@
             "is_negative": false
           },
           "tech_resist": {
-            "value": 10,
+            "value": 12,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -68,5 +68,5 @@
   "non_imbued_tech_radius_multiplier": 25,
   "imbued_tech_range_multiplier": 35,
   "imbued_tech_radius_multiplier": 35,
-  "tech_resist": 10
+  "tech_resist": 12
 }

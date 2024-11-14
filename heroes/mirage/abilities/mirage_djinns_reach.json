@@ -3,7 +3,7 @@
   "name": "Djinn's Reach",
   "stats": {
     "duration": 0,
-    "cooldown": 40,
+    "cooldown": 60,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,58 +11,76 @@
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 0.75,
+    "cast_delay": 1.1,
     "channel_time": 9999,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
     "channel_move_speed": -1,
     "tech_power": 0,
     "weapon_power": 0,
+    "max_targets": 3,
     "tech_cleave_expire_time": 0.2,
     "fall_speed_max": 60,
     "air_speed_max": 150,
     "damage": 0,
-    "camera_height_offset": 20,
-    "camera_horizontal_offset": 15,
     "boss_damage_percent": 50,
-    "debuff_duration": 4.5,
-    "cone_radius": 25,
-    "cone_angle": 70,
-    "chain_slow_percent": 30,
-    "chain_length": 22
+    "debuff_duration": 7,
+    "radius": 17,
+    "chain_slow_percent": 20,
+    "chain_length": 14,
+    "damage_share_percent": 30,
+    "bullet_resist_reduction": -25,
+    "initial_pull_amount": 100
   },
   "tooltipDetails": {
-    "description": "Launch a projectile that roots the first target it hits, then tethers other enemies behind to the primary target.",
+    "description": "Charge up and then launch a projectile that strikes the first enemy hero it hits, <span class=\"highlight\">tethering</span> it to up to two other enemy heroes nearby. Tethered heroes have their <span class=\"highlight\">movement constrained</span> to each other, have <span class=\"highlight\">reduced bullet resistance</span>, and <span class=\"highlight\">suffer a portion of the damage any of the other tethered heroes receive</span>. <br>Hold [{s:ability_key}] or [{s:iv_attack}] to hold the shot.",
     "properties": [
       {
-        "key": "DebuffDuration",
-        "value": 4.5,
-        "m_e_scale_type": "ETechDuration",
-        "type": "duration"
+        "key": "BulletResistReduction",
+        "value": -25,
+        "type": "bullet_armor_down",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "ConeRadius",
-        "value": "25m",
-        "type": "distance",
-        "loc_token_override": "DjinnsReachConeRadius"
+        "key": "DamageSharePercent",
+        "value": 30
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 7,
+        "m_e_scale_type": "ETechDuration",
+        "type": "duration"
       }
     ],
     "basicProperties": [
       {
         "key": "ChainSlowPercent",
-        "value": 30,
+        "value": 20,
         "type": "slow"
+      },
+      {
+        "key": "Radius",
+        "value": "17m",
+        "type": "distance"
+      },
+      {
+        "key": "ChainLength",
+        "value": "14m",
+        "m_e_display_type": "ETechRadius",
+        "type": "distance"
       }
     ],
     "upgrades": [
       {
-        "ability_cooldown": -1
+        "ability_cooldown": -20
       },
       {
-        "ability_cooldown": -1
+        "damage_share_percent": 20,
+        "name": "Damage Shared"
       },
       {
-        "ability_cooldown": -1
+        "bullet_resist_reduction": -15
       }
     ]
   }

@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_clip_size": {
-            "value": 9,
+            "value": 12,
             "style": null,
             "is_negative": false
           },
@@ -79,7 +79,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_clip_size": 9,
+  "bonus_clip_size": 12,
   "base_attack_damage_percent": 30,
   "bonus_health": 200,
   "low_health_threshold": 40,

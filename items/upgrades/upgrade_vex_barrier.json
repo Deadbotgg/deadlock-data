@@ -43,7 +43,7 @@
       {
         "ability_properties": {
           "vex_barrier_shield_duration": {
-            "value": 13,
+            "value": 9,
             "style": "duration",
             "is_negative": false
           },
@@ -89,5 +89,5 @@
   "bonus_clip_size_percent": 15,
   "bonus_health": 75,
   "bonus_health_regen": 2,
-  "vex_barrier_shield_duration": 13
+  "vex_barrier_shield_duration": 9
 }

@@ -5,8 +5,8 @@
     "duration": 0,
     "cooldown": 25,
     "range": 16,
-    "charges": 1,
-    "charge_restore_time": 8,
+    "charges": 0,
+    "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 16,
@@ -14,7 +14,7 @@
     "cast_delay": 0.2,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 8,
+    "cooldown_between_charge": 0,
     "channel_move_speed": -1,
     "tech_power": 0,
     "weapon_power": 0,
@@ -27,7 +27,8 @@
     "damage_amplification": 0,
     "active_reload_percent": 0,
     "friendly_target_cd": 12,
-    "friendly_recharge_time": 3
+    "friendly_recharge_time": 3,
+    "double_pounce": 0
   },
   "tooltipDetails": {
     "description": "<span class=\"highlight\">Leap</span> at a target.  Targetting an enemy will cause <span class=\"highlight\">damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
@@ -50,16 +51,6 @@
       }
     ],
     "basicProperties": [
-      {
-        "key": "FriendlyTargetCD",
-        "type": "cooldown",
-        "value": 12
-      },
-      {
-        "key": "FriendlyRechargeTime",
-        "value": 3,
-        "type": "charge_cooldown"
-      },
       {
         "key": "SlowPercent",
         "value": 20,
@@ -84,7 +75,7 @@
         "slow_percent": 20
       },
       {
-        "active_reload_percent": 30,
+        "double_pounce": 4,
         "ability_cast_range": 8
       },
       {

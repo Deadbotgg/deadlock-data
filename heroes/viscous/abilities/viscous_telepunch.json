@@ -38,7 +38,7 @@
         "value": 0,
         "type": "melee_damage",
         "scale_function": {
-          "value": 1,
+          "value": 1.1,
           "type": "melee"
         }
       },
@@ -61,11 +61,11 @@
         "ability_charges": 1
       },
       {
-        "ability_cooldown": -10
+        "damage": 50,
+        "slow_percent": 20
       },
       {
-        "damage": 80,
-        "slow_percent": 20
+        "ability_cooldown": -12
       }
     ]
   }

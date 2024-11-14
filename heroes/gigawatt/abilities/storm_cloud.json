@@ -23,21 +23,21 @@
     "dps": 124,
     "boss_damage_percent": 25,
     "damage_interval": 0.25,
-    "expand_time": 6,
+    "expand_time": 3,
     "cloud_height": 120,
     "camera_distance": 600,
     "ending_soon_time": 2,
-    "bullet_resist_on_active": 0
+    "bullet_resist_on_active": 20
   },
   "tooltipDetails": {
-    "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight.",
+    "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight. You have increased <span class=\"highlight\">Bullet Resist</span> during the channel.",
     "properties": [
       {
         "key": "DPS",
         "value": 124,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.1466,
+          "value": 0.84,
           "type": "spirit"
         }
       }
@@ -47,6 +47,13 @@
         "key": "InitialRadius",
         "value": "12m",
         "type": "distance"
+      },
+      {
+        "key": "BulletResistOnActive",
+        "value": 20,
+        "type": "bullet_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "upgrades": [
