@@ -676,7 +676,7 @@
             },
             {
               "dps": 70,
-              "shock_radius": 2
+              "shock_radius": 1
             }
           ]
         }
@@ -9121,7 +9121,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "rage_drain_rate": 0.25,
+          "rage_drain_rate": 0.3,
           "rage_per_weapon_damage": 0.015,
           "rage_per_spirit_damage": 0.013,
           "rage_per_light_melee": 1.5,
@@ -9130,7 +9130,7 @@
           "non_player_rage_scale": 0.2,
           "bonus_move_speed": 0,
           "buff_damage": 15,
-          "rage_drain_delay_duration": 12,
+          "rage_drain_delay_duration": 10,
           "damage": 200,
           "enemy_health_percent": 20,
           "enemy_health_percent_buffer": 3,
