@@ -22,9 +22,9 @@
             "style": "bullet_damage",
             "is_negative": false
           },
-          "bonus_sprint_speed": {
-            "value": 2,
-            "style": "move_speed",
+          "tech_power": {
+            "value": 8,
+            "style": "tech_damage",
             "is_negative": false
           }
         },
@@ -55,7 +55,7 @@
             "is_conditional": false
           },
           "bullet_resist": {
-            "value": 60,
+            "value": 40,
             "style": "bullet_armor_up",
             "is_conditional": true
           }
@@ -76,10 +76,9 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 0,
+  "tech_power": 8,
   "weapon_power": 0,
   "base_attack_damage_percent": 20,
-  "bonus_sprint_speed": 2,
-  "bullet_resist": 60,
+  "bullet_resist": 40,
   "caster_buff_duration": 5
 }

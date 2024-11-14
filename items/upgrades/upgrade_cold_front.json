@@ -53,7 +53,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "damage": {
-            "value": 100,
+            "value": 75,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -85,6 +85,6 @@
   "start_radius": 2,
   "end_radius": 14,
   "slow_percent": 40,
-  "damage": 100,
+  "damage": 75,
   "tech_resist": 10
 }

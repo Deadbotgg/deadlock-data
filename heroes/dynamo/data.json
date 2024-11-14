@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.9,
@@ -224,7 +224,12 @@
     "dps": 60,
     "sustained_dps": 39.416058394160586,
     "weapon_name": "citadel_weapon_sumo_set",
-    "weapon_description": "citadel_weapon_hero_sumo_set"
+    "weapon_description": "citadel_weapon_hero_sumo_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_HeavyHitter",
+      "Attribute_EWeaponAttribute_Projectile"
+    ]
   },
   "lore": "As a Scientist, Professor Dynamo always had an inquisitive mind.  So when a rift in space and time opened up in central park he was first on the scene to investigate – and while he expected such a majestic sight to be life changing, he was thinking more in a metaphorical way as opposed to having his body atomized and reduced to a tiny dying star.\\n\\nBut while his body is gone, his spirit and lust for knowledge lives on.  A tenured professor at Columbia College, Dynamo looks to learn more about his condition while maintaining his class load, after all: he has future minds to inspire.",
   "playstyle": "Dynamo keeps himself and his allies healthy while waiting for his moment. Few things can warp a team fight more than a well-coordinated use of Singularity.",

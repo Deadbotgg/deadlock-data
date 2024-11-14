@@ -75,7 +75,8 @@
     ],
     "upgrades": [
       {
-        "sprint_speed_bonus": 4
+        "sprint_speed_bonus": 4,
+        "name": "Sprint Speed"
       },
       {
         "ability_cooldown": -16

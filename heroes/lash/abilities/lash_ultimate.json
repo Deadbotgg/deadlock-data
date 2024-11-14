@@ -39,7 +39,7 @@
     "not_in_cone_loses_lock": 1
   },
   "tooltipDetails": {
-    "description": "citadel_ability_lash_ultimate_desc",
+    "description": "Focus on enemies to connect whips to them. After channeling, connected enemies are <span class=\"highlight\">lifted and stunned</span> then slammed into the ground. Your victims and any enemies in the landing zone will be <span class=\"highlight\">damaged and slowed</span>. <br>Press [{s:iv_attack}] to throw connected enemies early. Enemies that are not in line of sight or go out of range during the latch time will not be grabbed.",
     "properties": [
       {
         "key": "ImpactDamage",
@@ -83,10 +83,12 @@
     ],
     "upgrades": [
       {
-        "throw_distance": 8
+        "throw_distance": 8,
+        "name": "Max Throw Distance"
       },
       {
-        "impact_damage": 100
+        "impact_damage": 100,
+        "name": "Damage"
       },
       {
         "ability_cooldown": -60

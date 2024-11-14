@@ -1,0 +1,69 @@
+{
+  "key": "mirage_djinns_reach",
+  "name": "Djinn's Reach",
+  "stats": {
+    "duration": 0,
+    "cooldown": 40,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 9999,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.75,
+    "channel_time": 9999,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": -1,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "tech_cleave_expire_time": 0.2,
+    "fall_speed_max": 60,
+    "air_speed_max": 150,
+    "damage": 0,
+    "camera_height_offset": 20,
+    "camera_horizontal_offset": 15,
+    "boss_damage_percent": 50,
+    "debuff_duration": 4.5,
+    "cone_radius": 25,
+    "cone_angle": 70,
+    "chain_slow_percent": 30,
+    "chain_length": 22
+  },
+  "tooltipDetails": {
+    "description": "Launch a projectile that roots the first target it hits, then tethers other enemies behind to the primary target.",
+    "properties": [
+      {
+        "key": "DebuffDuration",
+        "value": 4.5,
+        "m_e_scale_type": "ETechDuration",
+        "type": "duration"
+      },
+      {
+        "key": "ConeRadius",
+        "value": "25m",
+        "type": "distance",
+        "loc_token_override": "DjinnsReachConeRadius"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ChainSlowPercent",
+        "value": 30,
+        "type": "slow"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -1
+      },
+      {
+        "ability_cooldown": -1
+      },
+      {
+        "ability_cooldown": -1
+      }
+    ]
+  }
+}

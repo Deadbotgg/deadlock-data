@@ -32,7 +32,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 70,
+            "value": 75,
             "style": "health",
             "is_negative": false
           }
@@ -74,6 +74,6 @@
   "bonus_melee_damage_percent": 15,
   "lifestrike_heal": 90,
   "lifestrike_heal_percent": 20,
-  "bonus_health": 70,
-  "non_hero_heal_pct": 25
+  "bonus_health": 75,
+  "non_hero_heal_pct": 35
 }

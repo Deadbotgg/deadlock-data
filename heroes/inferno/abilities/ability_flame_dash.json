@@ -77,10 +77,12 @@
     "upgrades": [
       {
         "fire_rate_slow": 30,
+        "name": "Debuff Duration",
         "flame_dash_debuff_duration": 7
       },
       {
-        "flame_aura_dps": 45
+        "flame_aura_dps": 45,
+        "name": "DPS"
       },
       {
         "ability_cooldown": -20

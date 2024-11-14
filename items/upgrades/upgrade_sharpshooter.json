@@ -80,7 +80,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "long_range_bonus_weapon_power": 60,
-  "long_range_bonus_weapon_power_min_range": 18,
+  "long_range_bonus_weapon_power_min_range": 15,
   "head_shot_bonus_damage": 100,
   "head_shot_cooldown": 3,
   "bonus_attack_range_percent": 15,

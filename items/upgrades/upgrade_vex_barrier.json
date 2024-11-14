@@ -58,12 +58,12 @@
           "vex_barrier_bullet_max_health": {
             "value": 400,
             "style": "bullet_armor_up",
-            "is_conditional": false
+            "is_conditional": true
           },
           "vex_barrier_tech_max_health": {
             "value": 200,
             "style": "tech_armor_up",
-            "is_conditional": false
+            "is_conditional": true
           }
         },
         "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."

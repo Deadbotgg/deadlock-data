@@ -61,8 +61,7 @@
         "radius": 1
       },
       {
-        "max_bounces": 2,
-        "name": "Bounces"
+        "max_bounces": 2
       }
     ]
   }

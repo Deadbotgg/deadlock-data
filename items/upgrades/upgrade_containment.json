@@ -1,6 +1,6 @@
 {
   "name": "Slowing Hex",
-  "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> the target, as well as <span class=\"highlight\">Silencing their movement-based abilities</span>.<br>Does not affect target's stamina usage.",
+  "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage.",
   "cost": "1250",
   "tier": "2",
   "activation": "ActivationPress",
@@ -46,7 +46,7 @@
             "is_negative": false
           },
           "ability_cast_range": {
-            "value": 35,
+            "value": 25,
             "style": "range",
             "is_negative": false
           },
@@ -54,12 +54,17 @@
             "value": 27,
             "style": "cooldown",
             "is_negative": false
+          },
+          "ground_dash_reduction_percent": {
+            "value": -30,
+            "style": null,
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "damage": {
-            "value": 90,
+            "value": 70,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -69,14 +74,14 @@
             "is_conditional": true
           }
         },
-        "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> the target, as well as <span class=\"highlight\">Silencing their movement-based abilities</span>.<br>Does not affect target's stamina usage."
+        "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage."
       }
     ]
   },
   "disabled": false,
   "ability_cooldown": 27,
   "ability_duration": 3,
-  "ability_cast_range": 35,
+  "ability_cast_range": 25,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0.1,
   "ability_channel_time": 0,
@@ -88,6 +93,7 @@
   "tech_power": 5,
   "weapon_power": 0,
   "slow_percent": 30,
-  "damage": 90,
-  "bonus_sprint_speed": 1
+  "damage": 70,
+  "bonus_sprint_speed": 1,
+  "ground_dash_reduction_percent": -30
 }

@@ -19,12 +19,12 @@
       {
         "ability_properties": {
           "tech_power": {
-            "value": 8,
+            "value": 10,
             "style": "tech_damage",
             "is_negative": false
           },
           "bonus_health": {
-            "value": 100,
+            "value": 125,
             "style": "health",
             "is_negative": false
           }
@@ -61,7 +61,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 8,
+  "tech_power": 10,
   "weapon_power": 0,
   "jump_velocity_hidden": 27,
   "interupt_cooldown": 5,
@@ -75,5 +75,5 @@
   "impact_damage": 0,
   "impact_height": 2,
   "min_aim_angle": 30,
-  "bonus_health": 100
+  "bonus_health": 125
 }

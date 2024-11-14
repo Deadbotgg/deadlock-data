@@ -22,7 +22,7 @@
     "speed_initial": 18.75,
     "charge_speed_max": 30,
     "charge_drag_vertical_offset": 30,
-    "toss_speed": 300,
+    "toss_speed": 0,
     "toss_up_magnitude": 0.5,
     "side_move_speed_reduction": -65,
     "turn_rate_max": 180,

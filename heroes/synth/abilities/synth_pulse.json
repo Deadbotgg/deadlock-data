@@ -1,6 +1,6 @@
 {
   "key": "synth_pulse",
-  "name": "synth_pulse",
+  "name": "Enchanter's Satchel",
   "stats": {
     "duration": 0,
     "cooldown": 16,
@@ -25,7 +25,7 @@
     "debuff_duration": 0
   },
   "tooltipDetails": {
-    "description": "synth_pulse_desc",
+    "description": "<span class=\"highlight\">Escape</span> into your suitcase. When the duration ends, <span class=\"highlight\">deal damage</span> to nearby enemies. Duration can be ended early by performing any action.",
     "properties": [
       {
         "key": "AbilityChannelTime",

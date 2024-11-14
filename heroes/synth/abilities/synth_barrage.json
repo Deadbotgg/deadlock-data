@@ -1,6 +1,6 @@
 {
   "key": "synth_barrage",
-  "name": "synth_barrage",
+  "name": "Barrage",
   "stats": {
     "duration": 0,
     "cooldown": 30,
@@ -27,17 +27,17 @@
     "radius": 6.5,
     "move_slow_percent": 40,
     "slow_duration": 1.5,
-    "amp_percent_per_stack": 10,
+    "amp_percent_per_stack": 8,
     "amp_duration": 15,
     "life_steal_percent_on_hit": 0,
     "life_steal_percent_on_hit_non_hero": 0
   },
   "tooltipDetails": {
-    "description": "synth_barrage_desc",
+    "description": "Channel to start launching projectiles that <span class=\"highlight\">deal damage</span> and <span class=\"highlight\">apply movement slow</span> around their impact point. Each projectile landed on a hero grants you a <span class=\"highlight\">stacking buff that amplifies all of your damage</span>.<br>If you cast it while in the air, you'll <span class=\"highlight\">float</span> and maintain any horizontal momentum you started with.",
     "properties": [
       {
         "key": "AmpPercentPerStack",
-        "value": 10
+        "value": 8
       },
       {
         "key": "DamagePerProjectile",
@@ -74,14 +74,15 @@
     ],
     "upgrades": [
       {
-        "damage_per_projectile": 15
+        "damage_per_projectile": 15,
+        "name": "Damage Per Projectile"
       },
       {
         "ability_cooldown": -15
       },
       {
-        "life_steal_percent_on_hit": 150,
-        "life_steal_percent_on_hit_non_hero": 50
+        "amp_percent_per_stack": 5,
+        "name": "Amp Per Stack"
       }
     ]
   }

@@ -2,8 +2,8 @@
   "key": "citadel_ability_tengu_airlift",
   "name": "Air Drop",
   "stats": {
-    "duration": 17,
-    "cooldown": 85,
+    "duration": 20,
+    "cooldown": 70,
     "range": 8,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 8,
     "unit_target_limit": 1,
-    "cast_delay": 1.3,
+    "cast_delay": 1,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
@@ -24,18 +24,16 @@
     "on_land_damage_radius": 14,
     "toss_speed": 400,
     "flying_bullet_resist": 40,
-    "ally_outgoing_damage_percent": -50,
     "buff_duration": 12,
     "air_drop_bullet_shield": 200,
     "silence_bomb_speed": 12,
     "bullet_armor_reduction": 0,
     "bullet_armor_reduction_duration": 0,
-    "slow_percent": 30,
-    "debuff_duration": 4,
-    "silence_duration": 0
+    "slow_percent": 35,
+    "debuff_duration": 3
   },
   "tooltipDetails": {
-    "description": "Take flight with an ally or a bomb. Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>While lifted, your ally gains bullet resist but cannot attack and deals {s:AllyOutgoingDamagePercent}% damage. Air Drop has faster cast time when targeting an ally. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+    "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">Movement slow and Silence</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
     "properties": [
       {
         "key": "ExplodeDamage",
@@ -59,7 +57,7 @@
       {
         "key": "DebuffDuration",
         "loc_token_override": "AirDropDebuffDuration",
-        "value": 4,
+        "value": 3,
         "type": "duration"
       }
     ],
@@ -86,7 +84,7 @@
       },
       {
         "key": "SlowPercent",
-        "value": 30,
+        "value": 35,
         "type": "slow",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
@@ -105,12 +103,6 @@
         "loc_token_override": "AirDropDebuff02Duration",
         "value": 0,
         "type": "duration"
-      },
-      {
-        "key": "SilenceDuration",
-        "loc_token_override": "AirDropSilenceDuration",
-        "value": 0,
-        "type": "duration"
       }
     ],
     "upgrades": [
@@ -121,11 +113,11 @@
       },
       {
         "air_drop_bullet_shield": 300,
-        "name": "Landing Radius",
-        "on_land_damage_radius": 5
+        "name": "Bullet Shield"
       },
       {
-        "silence_duration": 4.5
+        "on_land_damage_radius": 12,
+        "debuff_duration": 2
       }
     ]
   }

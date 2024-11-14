@@ -25,13 +25,13 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 1.15,
     "modifier_value_base_melee_damage_from_level": 3.4,
-    "modifier_value_base_health_from_level": 37,
+    "modifier_value_base_health_from_level": 42,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0
   },
@@ -224,7 +224,11 @@
     "dps": 61.224489795918366,
     "sustained_dps": 40.921919096895586,
     "weapon_name": "citadel_weapon_lash_set",
-    "weapon_description": "citadel_weapon_hero_lash_set"
+    "weapon_description": "citadel_weapon_hero_lash_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_BurstFire",
+      "Attribute_EWeaponAttribute_MediumRange"
+    ]
   },
   "lore": "Jacob Lash is an asshole.",
   "playstyle": "Lash gives his enemies little room to breathe, either by flying in from long distances to initiate combat with unsuspecting enemies, or pursuing said enemies when they try to run.",

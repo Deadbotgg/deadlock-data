@@ -3,13 +3,13 @@
   "name": "Killing Blow",
   "stats": {
     "duration": 0,
-    "cooldown": 95,
-    "range": 14,
+    "cooldown": 90,
+    "range": 20,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 14,
+    "cast_range": 20,
     "unit_target_limit": 1,
     "cast_delay": 0,
     "channel_time": 0,
@@ -18,16 +18,16 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "rage_drain_rate": 0.25,
-    "rage_per_weapon_damage": 0.017,
-    "rage_per_spirit_damage": 0.013,
+    "rage_drain_rate": 0.3,
+    "rage_per_weapon_damage": 0.015,
+    "rage_per_spirit_damage": 0.02,
     "rage_per_light_melee": 1.5,
-    "rage_per_heavy_melee": 2.75,
+    "rage_per_heavy_melee": 3.5,
     "bonus_resource": 10,
-    "non_player_rage_scale": 0.1,
+    "non_player_rage_scale": 0.2,
     "bonus_move_speed": 0,
-    "buff_damage": 15,
-    "rage_drain_delay_duration": 9,
+    "buff_damage": 25,
+    "rage_drain_delay_duration": 7,
     "damage": 200,
     "enemy_health_percent": 20,
     "enemy_health_percent_buffer": 3,
@@ -44,7 +44,7 @@
     "properties": [
       {
         "key": "BuffDamage",
-        "value": 15,
+        "value": 25,
         "type": "damage",
         "m_e_provided_property_type": "MODIFIER_VALUE_DAMAGE_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -65,8 +65,7 @@
       },
       {
         "enemy_health_percent": 8,
-        "name": "Full Rage Damage Bonus",
-        "buff_damage": 10
+        "name": "Enemy health threshold"
       },
       {
         "short_cooldown": 0.5

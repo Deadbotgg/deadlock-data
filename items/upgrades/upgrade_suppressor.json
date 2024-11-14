@@ -1,6 +1,6 @@
 {
   "name": "Suppressor",
-  "description": "",
+  "description": "When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -62,7 +62,7 @@
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>."
       }
     ]
   },

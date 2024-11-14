@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0,

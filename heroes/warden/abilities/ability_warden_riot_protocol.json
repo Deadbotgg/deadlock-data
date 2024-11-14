@@ -1,6 +1,6 @@
 {
   "key": "ability_warden_riot_protocol",
-  "name": "ability_warden_riot_protocol",
+  "name": "Last Stand",
   "stats": {
     "duration": 6,
     "cooldown": 130,
@@ -26,7 +26,7 @@
     "cone_angle": 115
   },
   "tooltipDetails": {
-    "description": "ability_warden_riot_protocol_desc",
+    "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done.",
     "properties": [
       {
         "key": "PulseDPS",
@@ -60,7 +60,8 @@
         "radius": 3
       },
       {
-        "pulse_dps": 70
+        "pulse_dps": 70,
+        "name": "DPS"
       },
       {
         "ability_cooldown": -60

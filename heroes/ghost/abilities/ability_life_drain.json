@@ -26,7 +26,7 @@
     "life_drain_health_mult": 100
   },
   "tooltipDetails": {
-    "description": "ability_life_drain_desc",
+    "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your movement speed is reduced by half. Press [{s:in_ability2}] to cancel.",
     "properties": [
       {
         "key": "LifeDrainPerSecond",

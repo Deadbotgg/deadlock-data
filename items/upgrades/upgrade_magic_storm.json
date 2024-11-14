@@ -14,11 +14,25 @@
     "EShopFilterMovement"
   ],
   "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
     "Passive": [
       {
         "ability_properties": {
           "movement_speed_bonus_duration": {
-            "value": 5,
+            "value": 6,
             "style": "duration",
             "is_negative": false
           },
@@ -31,7 +45,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "imbued_tech_power": {
-            "value": 26,
+            "value": 28,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -59,7 +73,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "imbued_tech_power": 26,
+  "imbued_tech_power": 28,
   "bonus_move_speed": 3,
-  "movement_speed_bonus_duration": 5
+  "movement_speed_bonus_duration": 6,
+  "bonus_health": 75
 }

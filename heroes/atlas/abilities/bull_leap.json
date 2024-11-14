@@ -21,13 +21,8 @@
     "impact_radius": 9,
     "impact_height": 4,
     "impact_radius_percentage": 0,
-    "damage": 175,
+    "damage": 150,
     "stun_duration": 1,
-    "charge_drag_vertical_offset": -30,
-    "drag_speed": 2000,
-    "toss_speed": 0,
-    "toss_up_magnitude": 0,
-    "charge_radius": 75,
     "bonus_max_health_per_hero": 0,
     "bonus_fire_rate_per_hero": 0,
     "landing_bonuses_duration": 0,
@@ -38,7 +33,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 175,
+        "value": 150,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.91728,

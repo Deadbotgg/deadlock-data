@@ -1,12 +1,12 @@
 {
   "key": "viscous_telepunch",
-  "name": "Puddle Punch",
+  "name": "viscous_telepunch",
   "stats": {
     "duration": 0,
     "cooldown": 24,
     "range": 60,
     "charges": 1,
-    "charge_restore_time": 0.5,
+    "charge_restore_time": 1.5,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 60,
@@ -14,11 +14,11 @@
     "cast_delay": 0,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 0.5,
+    "cooldown_between_charge": 1.5,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 80,
+    "damage": 0,
     "radius": 4,
     "punch_half_height": 5.5,
     "toss_speed": 700,
@@ -31,16 +31,15 @@
     "impact_duration": 4
   },
   "tooltipDetails": {
-    "description": "Materialize a fist in the world that <span class=\"highlight\">punches</span> units in the area and send them flying. Enemies will by <span class=\"highlight\">dealt damage</span>, have their dash distance reduced for a brief moment, and have their <span class=\"highlight\">movement slowed</span>.",
+    "description": "Materialize a fist in the world that <span class=\"highlight\">punches</span> units in the area and send them flying. Enemies will be <span class=\"highlight\">dealt damage</span>, have their dash distance reduced for a brief moment, and have their <span class=\"highlight\">movement slowed</span>. This is considered a <span class=\"highlight\">Light Melee</span> attack.",
     "properties": [
       {
         "key": "Damage",
-        "value": 80,
-        "type": "tech_damage",
-        "m_e_display_type": "ETechPower",
+        "value": 0,
+        "type": "melee_damage",
         "scale_function": {
           "value": 1,
-          "type": "spirit"
+          "type": "melee"
         }
       },
       {

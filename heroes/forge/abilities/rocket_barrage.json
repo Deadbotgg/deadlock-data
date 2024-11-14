@@ -35,9 +35,8 @@
     "max_spread": 5,
     "projectile_ignore_collision_time": 0.2,
     "grenades_per_second_mult": 0,
-    "stacking_slow_per_rocket": 0,
-    "stacking_slow_duration": 0,
-    "stacking_slow_max_stacks": 0
+    "move_slow_percent": 0,
+    "move_slow_duration": 0
   },
   "tooltipDetails": {
     "description": "Unleashes a volley of rockets that home in on a targeted location.",
@@ -78,15 +77,16 @@
     ],
     "upgrades": [
       {
-        "stacking_slow_per_rocket": 2,
-        "stacking_slow_duration": 2,
-        "stacking_slow_max_stacks": 50
+        "move_slow_percent": 35,
+        "name": "Movement Slow Duration",
+        "move_slow_duration": 2
       },
       {
         "ability_cooldown": -50
       },
       {
-        "damage_per_rocket": 30
+        "damage_per_rocket": 30,
+        "name": "Damage Per Rocket"
       }
     ]
   }

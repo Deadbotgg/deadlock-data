@@ -16,11 +16,25 @@
     "EShopFilterHealing"
   ],
   "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 6,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
     "Passive": [
       {
         "ability_properties": {
           "debuff_duration": {
-            "value": 5,
+            "value": 6,
             "style": "duration",
             "is_negative": false
           }
@@ -56,6 +70,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
+  "base_attack_damage_percent": 6,
   "shredders_tech_amp": 10,
-  "debuff_duration": 5
+  "debuff_duration": 6
 }

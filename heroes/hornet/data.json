@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 1,
@@ -224,7 +224,11 @@
     "dps": 73.6842105263158,
     "sustained_dps": 43.41697208908938,
     "weapon_name": "citadel_weapon_hornet_set",
-    "weapon_description": "citadel_weapon_hero_hornet_set"
+    "weapon_description": "citadel_weapon_hero_hornet_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_RapidFire",
+      "Attribute_EWeaponAttribute_LongRange"
+    ]
   },
   "lore": "A victim of John Hathorne during the Salem Witch Trials, Vindicta got a second chance of life when her spirit was brought back to the mortal plane during the first Maelstrom (the event that introduced the supernatural to the public at large).\\n\\nWaging a one ghost war against \\\"The Friends of Humanity\\\", a neo inquisition formed by Hathorne's descendants; Vindicta looks to keep the supernatural safe from Hathorne's ilk, and she isn't afraid to stack as many bodies as needed to do it.",
   "playstyle": "Vindicta has the mobility to engage at her leisure, picking at her prey and bleeding them out slowly. Injured enemies at any distance should fear being picked off when she is on the map.",

@@ -62,7 +62,7 @@
             "is_conditional": true
           },
           "fire_rate_slow": {
-            "value": 30,
+            "value": 40,
             "style": "fireRate",
             "is_conditional": true
           }
@@ -85,7 +85,7 @@
   "ability_resource_cost": 0,
   "tech_power": 6,
   "weapon_power": 0,
-  "fire_rate_slow": 30,
+  "fire_rate_slow": 40,
   "movement_speed_slow": 30,
   "bonus_health_regen": 3,
   "bonus_health": 100

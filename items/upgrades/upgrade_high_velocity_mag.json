@@ -7,13 +7,7 @@
   "slot": "Weapon",
   "image": "upgrades/mods_weapon/high_velocity_mag_psd",
   "components": null,
-  "componentsOf": [
-    {
-      "key": "upgrade_pristine_emblem",
-      "name": "Pristine Emblem",
-      "image": "upgrades/mods_weapon/pristine_emblem_psd"
-    }
-  ],
+  "componentsOf": [],
   "target_types": null,
   "shop_filters": [
     "EShopFilterWeaponDamage"
@@ -23,17 +17,17 @@
       {
         "ability_properties": {
           "bonus_bullet_speed_percent": {
-            "value": 20,
+            "value": 35,
             "style": "bullet_damage",
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 13,
+            "value": 14,
             "style": "bullet_damage",
             "is_negative": false
           },
           "bullet_shield_max_health": {
-            "value": 65,
+            "value": 50,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -58,7 +52,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_bullet_speed_percent": 20,
-  "base_attack_damage_percent": 13,
-  "bullet_shield_max_health": 65
+  "bonus_bullet_speed_percent": 35,
+  "base_attack_damage_percent": 14,
+  "bullet_shield_max_health": 50
 }

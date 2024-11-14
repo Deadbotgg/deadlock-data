@@ -55,7 +55,7 @@
             "is_negative": false
           },
           "proc_cooldown": {
-            "value": 1,
+            "value": 0,
             "style": null,
             "is_negative": false
           }
@@ -86,7 +86,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "proc_cooldown": 1,
+  "proc_cooldown": 0.7,
   "magic_increase_per_stack": 6,
   "tech_resist": 15,
   "bonus_health": 125,

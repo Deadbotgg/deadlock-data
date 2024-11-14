@@ -23,7 +23,7 @@
     "damage_heal_mult_non_hero": 0.7,
     "damage_heal_mult": 2,
     "tick_rate": 0.1,
-    "tech_damage_bonus": 0,
+    "damage_bonus": 0,
     "debuff_duration": 0
   },
   "tooltipDetails": {
@@ -61,7 +61,7 @@
         "damage": 25
       },
       {
-        "tech_damage_bonus": 15,
+        "damage_bonus": 15,
         "debuff_duration": 16
       }
     ]

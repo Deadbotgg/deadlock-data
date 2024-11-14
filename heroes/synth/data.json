@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.4,
@@ -224,7 +224,11 @@
     "dps": 70,
     "sustained_dps": 46.27403846153846,
     "weapon_name": "citadel_weapon_synth_set",
-    "weapon_description": "citadel_weapon_hero_synth_set"
+    "weapon_description": "citadel_weapon_hero_synth_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_Spreadshot",
+      "Attribute_EWeaponAttribute_CloseRange"
+    ]
   },
   "lore": "Arin Fairfax, the eldest heir to Fairfax Industries, has been living in hiding for the past 5 years after being shot and left for dead on their 18th birthday.  Arin doesn't know who is trying to keep them from taking control of their parent's company... but in the avarice fueled viper's nest that is Fairfax Industries it could be anyone.\\n\\nTaking on the name \\\"Pocket\\\", Arin desperately wants to keep their true identity a secret… not only for their own protection; but because they want to forge their own identity separate from their parents.",
   "playstyle": "With a powerful shotgun and a thin frame, Pocket relies on their ability to briefly escape into a mystic suitcase and teleport via a flying cloak in order to survive close encounters.",

@@ -49,12 +49,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bonus_fire_rate": {
-            "value": 24,
+            "value": 20,
             "style": "fireRate",
             "is_conditional": true
           },
           "bullet_lifesteal_percent": {
-            "value": 40,
+            "value": 30,
             "style": "healing",
             "is_conditional": true
           }
@@ -79,6 +79,6 @@
   "weapon_power": 0,
   "base_attack_damage_percent": 10,
   "reload_speed_multipler": -20,
-  "bullet_lifesteal_percent": 40,
-  "bonus_fire_rate": 24
+  "bullet_lifesteal_percent": 30,
+  "bonus_fire_rate": 20
 }

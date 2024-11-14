@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.25,
@@ -224,7 +224,11 @@
     "dps": 80,
     "sustained_dps": 44.85981308411215,
     "weapon_name": "citadel_weapon_digger_set",
-    "weapon_description": "citadel_weapon_hero_digger_set"
+    "weapon_description": "citadel_weapon_hero_digger_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_RapidFire",
+      "Attribute_EWeaponAttribute_Spreadshot"
+    ]
   },
   "lore": "Mo and Krill are members of The Tunnel Rats, a group that help facilitate illicit trade and commerce between the boroughs thanks to a network of underground tunnels.  But while most denizens of the New York underworld respect the work The Rats do, every once in a while a gang tries to exploit the tunnel system for personal vendettas...that's when Mo and Krill step in and remind the city what happens to those who disrespect their hospitality.",
   "playstyle": "By burrowing through the ground, Mo and Krill can get the drop on almost anyone; and once they get in close the results can be devastating.",

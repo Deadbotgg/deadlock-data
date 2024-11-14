@@ -1,6 +1,6 @@
 {
   "key": "rutger_force_field",
-  "name": "rutger_force_field",
+  "name": "Force Field",
   "stats": {
     "duration": 10,
     "cooldown": 40,

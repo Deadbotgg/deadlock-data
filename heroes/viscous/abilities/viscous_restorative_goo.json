@@ -4,12 +4,12 @@
   "stats": {
     "duration": 4,
     "cooldown": 45,
-    "range": 25,
+    "range": 30,
     "charges": 0,
     "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 25,
+    "cast_range": 30,
     "unit_target_limit": 1,
     "cast_delay": 0.1,
     "channel_time": 0,
@@ -78,7 +78,7 @@
         "post_cube_buff": 1
       },
       {
-        "ability_cooldown": -25
+        "ability_cooldown": -22
       },
       {
         "bonus_health_regen": 60

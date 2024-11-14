@@ -34,7 +34,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bonus_spirit_with_magic_shield": {
-            "value": 17,
+            "value": 20,
             "style": "tech_damage",
             "is_conditional": false
           }
@@ -58,5 +58,5 @@
   "tech_power": 0,
   "weapon_power": 0,
   "tech_shield_max_health": 300,
-  "bonus_spirit_with_magic_shield": 17
+  "bonus_spirit_with_magic_shield": 20
 }

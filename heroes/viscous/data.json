@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.9,
@@ -224,7 +224,11 @@
     "dps": 75,
     "sustained_dps": 49.99999999999999,
     "weapon_name": "citadel_weapon_viscous_set",
-    "weapon_description": "citadel_weapon_hero_viscous_set"
+    "weapon_description": "citadel_weapon_hero_viscous_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_Projectile"
+    ]
   },
   "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory hunts the seas... and its denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Psychically building itself an ectoplasmic goo body so it can survive on the surface, Viscous desperately is trying to summon The Patrons to keep The Deep safe from the adversary that lurks below.",
   "playstyle": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",

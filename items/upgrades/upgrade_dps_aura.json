@@ -21,7 +21,7 @@
       {
         "ability_properties": {
           "bullet_lifesteal_percent": {
-            "value": 18,
+            "value": 20,
             "style": "healing",
             "is_negative": false
           },
@@ -111,7 +111,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bullet_lifesteal_percent": 18,
+  "bullet_lifesteal_percent": 20,
   "bonus_fire_rate": 25,
   "bonus_fire_rate_player_unit": 40,
   "radius": 20,

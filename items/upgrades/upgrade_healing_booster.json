@@ -17,12 +17,12 @@
       {
         "ability_properties": {
           "tech_resist": {
-            "value": 7,
+            "value": 6,
             "style": "tech_armor_up",
             "is_negative": false
           },
           "bullet_resist": {
-            "value": 7,
+            "value": 6,
             "style": null,
             "is_negative": false
           },
@@ -61,8 +61,8 @@
   "tech_power": 0,
   "weapon_power": 0,
   "heal_amp_cast_percent": 25,
-  "heal_amp_regen_percent": 25,
+  "heal_amp_regen_percent": 30,
   "bonus_health_regen": 2,
-  "tech_resist": 7,
-  "bullet_resist": 7
+  "tech_resist": 6,
+  "bullet_resist": 6
 }

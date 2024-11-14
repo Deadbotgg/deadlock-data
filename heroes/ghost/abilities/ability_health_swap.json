@@ -1,6 +1,6 @@
 {
   "key": "ability_health_swap",
-  "name": "Health Swap",
+  "name": "Soul Exchange",
   "stats": {
     "duration": 0.25,
     "cooldown": 160,
@@ -30,7 +30,7 @@
     "bonus_fire_rate": 0
   },
   "tooltipDetails": {
-    "description": "ability_health_swap_desc",
+    "description": "<span class=\"highlight\">Swaps health levels</span> with an enemy target. There is a minimum health percentage that enemies can be brought down to and a minimum amount of health received based on victims current health.",
     "properties": [
       {
         "key": "EnemyMinHealthPct",
@@ -56,7 +56,8 @@
         "ability_cooldown": -40
       },
       {
-        "enemy_min_health_pct": -10
+        "enemy_min_health_pct": -10,
+        "name": "Enemy Min Health"
       },
       {
         "self_buff_duration": 8,

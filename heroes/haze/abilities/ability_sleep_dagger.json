@@ -32,7 +32,9 @@
     "does_not_break_invis": 1,
     "bullet_resist_reduction": 0,
     "bullet_resist_reduction_duration": 0,
-    "stamina_reduction": 0
+    "stamina_reduction": 0,
+    "drowsy_move_slow_percent": 60,
+    "drowsy_duration": 0.25
   },
   "tooltipDetails": {
     "description": "Throw a dagger that <span class=\"highlight\">damages</span> and <span class=\"highlight\">sleeps</span> the target. Sleeping targets wake up shortly after being damaged. Throwing a Dagger does not break your invisibility. Sleep Dagger does not interrupt enemies' channeling abilities.",
@@ -73,7 +75,8 @@
     ],
     "upgrades": [
       {
-        "stamina_reduction": 1
+        "stamina_reduction": 1,
+        "name": "Stamina Reduction"
       },
       {
         "ability_cooldown": -13

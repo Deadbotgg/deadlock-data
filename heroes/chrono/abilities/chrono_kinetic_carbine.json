@@ -1,9 +1,9 @@
 {
   "key": "citadel_ability_chrono_kinetic_carbine",
-  "name": "citadel_ability_chrono_kinetic_carbine",
+  "name": "Kinetic Carbine",
   "stats": {
     "duration": 0,
-    "cooldown": 24,
+    "cooldown": 28,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -19,7 +19,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "speed_change": 25,
-    "speed_boost_duration": 4,
+    "speed_boost_duration": 3.5,
     "base_bullet_damage": 5,
     "min_bonus_bullet_damage": 25,
     "max_bonus_bullet_damage": 85,
@@ -30,13 +30,13 @@
     "bonus_bullet_speed": 100,
     "shot_count": 1,
     "max_charge_duration": 2.5,
-    "bullet_radius_override": 15.3,
+    "bullet_radius_override": 13.7,
     "move_speed_while_shooting_penalty_reduction": 100,
     "min_slow_duration": 0.25,
     "time_scale_debuff": 90
   },
   "tooltipDetails": {
-    "description": "citadel_ability_chrono_kinetic_carbine_desc",
+    "description": "Start charging your weapon and gain <span class=\"highlight\">increased movement speed</span> once it's fully charged. Your next shot will release the energy, dealing <span class=\"highlight\">spirit damage</span> and applying a <span class=\"highlight\">time stop</span> to the enemy hit. The damage dealt is an amplification of your current weapon damage. <br><br>You can slow time on yourself by pressing [{s:iv_attack2}] while an empowered shot is available.",
     "properties": [
       {
         "key": "MaxBonusBulletDamage",
@@ -87,20 +87,23 @@
       },
       {
         "key": "SpeedBoostDuration",
-        "value": 4,
+        "value": 3.5,
         "type": "duration"
       }
     ],
     "upgrades": [
       {
-        "max_slow_duration": 0.75
+        "max_slow_duration": 0.5,
+        "name": "Max Stop Duration"
       },
       {
-        "ability_cooldown": -8,
+        "ability_cooldown": -10,
+        "name": "Speed Duration",
         "speed_boost_duration": 2
       },
       {
-        "max_bonus_bullet_damage": 50
+        "max_bonus_bullet_damage": 50,
+        "name": "Max Damage Amp"
       }
     ]
   }

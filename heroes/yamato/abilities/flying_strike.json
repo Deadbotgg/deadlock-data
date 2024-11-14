@@ -25,6 +25,7 @@
     "weapon_power_increase_duration": 0
   },
   "tooltipDetails": {
+    "description": "Upon reaching target:",
     "properties": [
       {
         "key": "WeaponDamageBonus",

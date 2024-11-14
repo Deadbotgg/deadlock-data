@@ -1,4 +1,5 @@
 {
+  "name": "Cheat Death",
   "description": null,
   "cost": "6300",
   "tier": "4",
@@ -34,7 +35,7 @@
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "Releases a periodic pulse, damaging nearby enemies."
       }
     ],
     "Innate": [

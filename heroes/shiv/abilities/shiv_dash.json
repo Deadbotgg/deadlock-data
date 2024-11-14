@@ -1,9 +1,9 @@
 {
   "key": "citadel_ability_shiv_dash",
-  "name": "Shiv Dash",
+  "name": "Slice and Dice",
   "stats": {
     "duration": 0,
-    "cooldown": 20,
+    "cooldown": 15,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -23,7 +23,7 @@
     "dash_speed": 2400,
     "dash_range": 12,
     "dash_radius": 2.5,
-    "impact_damage": 100,
+    "impact_damage": 125,
     "move_speed_penalty_max_speed": 200,
     "move_speed_penalty_duration": 0,
     "camera_distance": 250,

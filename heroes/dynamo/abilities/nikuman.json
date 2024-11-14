@@ -62,6 +62,7 @@
       },
       {
         "no_channel": 1,
+        "name": "Max Health Restored",
         "heal_max_health_percent": 4
       }
     ]

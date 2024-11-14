@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "radius": 10,
+    "radius": 12,
     "fuse_time": 3,
     "damage": 120,
     "bonus_damage_pct_per_player_hit": 2.5,

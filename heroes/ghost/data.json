@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 2.1,
@@ -224,7 +224,11 @@
     "dps": 55.555555555555564,
     "sustained_dps": 38.52993479549497,
     "weapon_name": "citadel_weapon_ghost_set",
-    "weapon_description": "citadel_weapon_hero_ghost_set"
+    "weapon_description": "citadel_weapon_hero_ghost_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_HeavyHitter"
+    ]
   },
   "lore": "Once, Lady Jeanne Geist was the toast of the town.  But as time passed and her beauty faded she found herself further and further from her glory days in High Society until finally she was nothing more than a frail woman in a nursing home, telling stories of a glorious past.  And that’s when Oathkeeper revealed himself.  A powerful spirit from another plane, Oathkeeper offered her a path to reclaim her past glories… he could restore her youth; all she had to do was drain the essence of the living to sustain herself. \\n\\nGeist was torn.  Obviously murder was ghoulish business, and undoubtedly Oathkeeper was not an entity that could be trusted… but still, the thought of having a second chance of reliving her youth was too good to pass up.  And so she concocted a plan: after making a pact with Oathkeeper she would bind and ward him, limiting his influence and pull over her.  Oathkeeper would still get fed; but on her terms, not his.\\n\\nHowever, as years have turned to decades; the strength of the Ward has weakened, and Oathkeeper hungers more than he ever has in the past… ",
   "playstyle": "Expending health to achieve devastating effects is the source of Lady Geist's power. When running low, she can drain the life out of her rivals.",

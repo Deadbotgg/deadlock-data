@@ -25,8 +25,8 @@
     "path_width": 1.1,
     "camera_distance": 250,
     "min_slow_percent": 30,
-    "max_slow_percent": 90,
-    "max_slow_time": 1.2,
+    "max_slow_percent": 60,
+    "max_slow_time": 2,
     "ice_beam_buildup_proc_duration": 2,
     "slow_duration": 0.6,
     "beam_split_count": 0,
@@ -46,7 +46,7 @@
       },
       {
         "key": "MaxSlowPercent",
-        "value": 90,
+        "value": 60,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -65,7 +65,7 @@
       },
       {
         "key": "MaxSlowTime",
-        "value": 1.2,
+        "value": 2,
         "type": "duration"
       },
       {
@@ -86,7 +86,7 @@
         "dps": 40
       },
       {
-        "beam_split": 0.6552,
+        "beam_split": 1,
         "beam_split_count": 2
       }
     ]

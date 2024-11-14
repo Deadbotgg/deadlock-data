@@ -1,6 +1,6 @@
 {
   "key": "ability_kali_dust_storm",
-  "name": "ability_kali_dust_storm",
+  "name": "Dust Storm",
   "stats": {
     "duration": 5,
     "cooldown": 24,

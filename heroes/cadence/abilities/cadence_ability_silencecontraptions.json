@@ -1,6 +1,6 @@
 {
   "key": "cadence_ability_silencecontraptions",
-  "name": "cadence_ability_silencecontraptions",
+  "name": "Silence Contraptions",
   "stats": {
     "duration": 6,
     "cooldown": 40,

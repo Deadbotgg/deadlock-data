@@ -19,7 +19,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 65,
+            "value": 50,
             "style": "health",
             "is_negative": false
           },
@@ -32,6 +32,11 @@
         "elevated_ability_properties": {
           "non_player_bonus_weapon_power": {
             "value": 35,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "non_player_bullet_resist": {
+            "value": 30,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -56,6 +61,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "non_player_bonus_weapon_power": 35,
-  "bonus_health": 65,
-  "bonus_health_regen": 1
+  "bonus_health": 50,
+  "bonus_health_regen": 1,
+  "non_player_bullet_resist": 30
 }

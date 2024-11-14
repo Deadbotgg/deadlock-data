@@ -19,7 +19,13 @@
   "tooltip": {
     "Innate": [
       {
-        "ability_properties": {},
+        "ability_properties": {
+          "tech_resist": {
+            "value": 5,
+            "style": null,
+            "is_negative": false
+          }
+        },
         "elevated_ability_properties": {
           "tech_range_multiplier": {
             "value": 15,
@@ -47,5 +53,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "tech_range_multiplier": 15,
-  "tech_radius_multiplier": 15
+  "tech_radius_multiplier": 15,
+  "tech_resist": 5
 }

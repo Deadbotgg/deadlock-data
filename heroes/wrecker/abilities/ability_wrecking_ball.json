@@ -1,6 +1,6 @@
 {
   "key": "ability_wrecking_ball",
-  "name": "ability_wrecking_ball",
+  "name": "Wrecking Ball",
   "stats": {
     "duration": 6,
     "cooldown": 20,
@@ -26,7 +26,7 @@
     "min_speed": 80
   },
   "tooltipDetails": {
-    "description": "ability_wrecking_ball_desc",
+    "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> anything it hits. The ball takes time to create and you move slower while carrying it.",
     "properties": [
       {
         "key": "WreckingBallDamage",
@@ -60,10 +60,12 @@
         "ability_cooldown": -8
       },
       {
-        "wrecking_ball_damage": 80
+        "wrecking_ball_damage": 80,
+        "name": "Damage"
       },
       {
-        "move_speed_limit": 4
+        "move_speed_limit": 4,
+        "name": "Move Speed"
       }
     ]
   }

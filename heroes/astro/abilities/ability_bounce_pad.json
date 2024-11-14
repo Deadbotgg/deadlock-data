@@ -62,7 +62,8 @@
         "speed_on_land_duration": 4
       },
       {
-        "stomp_damage": 1.04832
+        "stomp_damage": 1.04832,
+        "name": "Stomp Damage"
       },
       {
         "stomp_stun_duration": 1.25,

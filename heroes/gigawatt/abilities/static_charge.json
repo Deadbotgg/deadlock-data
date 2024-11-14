@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "shock_radius": 5,
     "damage": 40,
-    "shock_delay": 4,
+    "shock_delay": 3.5,
     "stun_duration": 1.1,
     "additional_shock_target": 0
   },
@@ -38,7 +38,7 @@
       },
       {
         "key": "ShockDelay",
-        "value": 4,
+        "value": 3.5,
         "type": "cast"
       },
       {

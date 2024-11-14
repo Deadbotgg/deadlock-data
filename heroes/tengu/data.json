@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.55,
@@ -224,7 +224,11 @@
     "dps": 64.28571428571428,
     "sustained_dps": 31.236853176272614,
     "weapon_name": "citadel_weapon_tengu_set",
-    "weapon_description": "citadel_weapon_hero_tengu_set"
+    "weapon_description": "citadel_weapon_hero_tengu_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_RapidFire",
+      "Attribute_EWeaponAttribute_MediumRange"
+    ]
   },
   "lore": "The gargoyle didn't know what was happening when it sprang to life...  just that a big human and a small human were being hurt.  And so the gargoyle leapt to action, sending the attackers fleeing in horror.  The small human said thank you and asked the gargoyle's name.  The gargoyle didn't have one.  And so the small human said, \\\"I'm going to call you Ivy.\\\"  The gargoyle, being covered in ivy at the time, thought it was a bit obvious, but decided to go along with it for the small human's sake.\\n\\nThe humans asked if Ivy would come home with them so they could show their appreciation, and so Ivy walked with them.  That night she learned much.  The family were called The Arroyo's.  The little one, Sophia.  Mofongo is what they called a plate of deliciousness.  But most importantly, she learned that the people attacking them were called \\\"The Mendoza Syndicate\\\", and they were hurting people...nice people like The Arroyo's.\\n\\n18 years have passed since the day the Arroyo's took Ivy home... and during that time she made it her mission to dismantle the Mendoza Syndicate and free Spanish Harlem from its grasp.  However the thing about dedicating your life to a single pursuit for nearly 2 decades is that you don't really know what to do once you achieve it.  For the first time in her life, Ivy is prepared to venture outside of Spanish Harlem and see what the world has to offer beyond vigilante justice.",
   "playstyle": "Ivy has disruptive combat tricks that slow and stun enemies. She's most effective when linking up with an ally, empowering her and her ally's guns as well as sharing heals.",
@@ -255,7 +259,7 @@
       "key": "citadel_ability_tengu_stone_form"
     },
     {
-      "key": "citadel_ability_tengu_lightningcrash"
+      "key": "citadel_ability_tengu_airlift"
     }
   ]
 }

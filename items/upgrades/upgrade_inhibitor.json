@@ -21,7 +21,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 20,
+            "value": 25,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -58,7 +58,7 @@
             "is_conditional": true
           },
           "outgoing_bullet_damage_penalty_percent": {
-            "value": -35,
+            "value": -40,
             "style": null,
             "is_conditional": true
           }
@@ -82,9 +82,9 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_health": 175,
-  "base_attack_damage_percent": 20,
+  "base_attack_damage_percent": 25,
   "slow_percent": 25,
   "debuff_duration": 2.5,
   "outgoing_ability_damage_penalty_percent": -35,
-  "outgoing_bullet_damage_penalty_percent": -35
+  "outgoing_bullet_damage_penalty_percent": -40
 }

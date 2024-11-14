@@ -29,6 +29,11 @@
             "value": 16,
             "style": "bullet_damage",
             "is_negative": false
+          },
+          "tech_power": {
+            "value": 5,
+            "style": "tech_damage",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -69,7 +74,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 0,
+  "tech_power": 5,
   "weapon_power": 0,
   "slow_percent": 25,
   "slow_duration": 1.3,

@@ -26,7 +26,7 @@
     "toss_speed": 450,
     "impact_interval": 0.1,
     "stomp_range": 15,
-    "stomp_width": 4.5,
+    "stomp_width": 5,
     "slow_percent": 0,
     "fire_rate_slow": 0,
     "slow_duration": 0,
@@ -58,7 +58,7 @@
     "basicProperties": [
       {
         "key": "StompWidth",
-        "value": "4.5m",
+        "value": "5.0m",
         "type": "distance",
         "m_e_display_type": "ETechRange"
       }
@@ -75,7 +75,7 @@
         "bullet_armor_reduction_duration": 8
       },
       {
-        "damage": 115
+        "damage": 125
       }
     ]
   }

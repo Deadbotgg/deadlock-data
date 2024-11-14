@@ -1,6 +1,6 @@
 {
   "key": "ability_wrecker_salvage",
-  "name": "ability_wrecker_salvage",
+  "name": "Consume",
   "stats": {
     "duration": 0,
     "cooldown": 12,
@@ -26,7 +26,7 @@
     "salvage_bonus_health": 0
   },
   "tooltipDetails": {
-    "description": "ability_wrecker_salvage_desc",
+    "description": "<span class=\"highlight\">Stuns</span> an enemy trooper or NPC, <span class=\"highlight\">damaging</span> them while held. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently",
     "properties": [
       {
         "key": "DPS",
@@ -62,13 +62,15 @@
     ],
     "upgrades": [
       {
-        "salvage_bonus_health": 150
+        "salvage_bonus_health": 150,
+        "name": "Healing"
       },
       {
         "dps": 80
       },
       {
-        "fire_rate_buff_duration": 80
+        "fire_rate_buff_duration": 80,
+        "name": "Bonus Duration"
       }
     ]
   }

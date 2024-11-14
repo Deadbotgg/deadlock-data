@@ -28,10 +28,12 @@
     "min_time_between_explosions": 0.5,
     "explosion_damage": 100,
     "explosion_radius": 8,
-    "toss_speed": 400
+    "toss_speed": 400,
+    "charge_radius": 75,
+    "charge_drag_vertical_offset": 30
   },
   "tooltipDetails": {
-    "description": "ability_rollermine_desc",
+    "description": "Send a Spirit Cat forward that grab's targets in its way.  Grabbing a Hero will cause an explosion soon after. <br>Press [{s:in_ability1}] to manually create the explosion.",
     "properties": [
       {
         "key": "ExplosionDamage",

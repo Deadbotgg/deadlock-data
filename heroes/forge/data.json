@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.44,
@@ -224,7 +224,11 @@
     "dps": 35.75,
     "sustained_dps": 28.617343844754394,
     "weapon_name": "citadel_weapon_engineer_set",
-    "weapon_description": "citadel_weapon_hero_engineer_set"
+    "weapon_description": "citadel_weapon_hero_engineer_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_RapidFire",
+      "Attribute_EWeaponAttribute_MediumRange"
+    ]
   },
   "lore": "Maggie McGinnis always had a knack for building things.  At 4 she was using Lincoln Logs to recreate architectural marvels.  At 10 she built and rewired a custom light fixture for her parent's anniversary.  At 15 she designed a machine that refined the souls of the dead...that last one got a little more attention than the Lincoln Logs.\\n\\nNow the head of Fairfax Industries Military R&D department, McGinnis spends her time in the machine shop, not in a lab.  She's not interested in theory, to her science is magic you can touch.",
   "playstyle": "Precise placement is everything for McGinnis, whether she's creating a killzone or splitting the enemy team. She can help keep her team running making them hard to dislodge when entrenched.",

@@ -32,6 +32,11 @@
             "style": "health",
             "is_negative": false
           },
+          "base_attack_damage_percent": {
+            "value": 15,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
           "bonus_health_regen": {
             "value": 4,
             "style": "healing",
@@ -67,5 +72,6 @@
   "imbued_bonus_duration": 32,
   "non_imbued_bonus_duration": 24,
   "bonus_health": 175,
+  "base_attack_damage_percent": 15,
   "bonus_health_regen": 4
 }

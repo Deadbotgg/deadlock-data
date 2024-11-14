@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 1.58,
@@ -224,7 +224,11 @@
     "dps": 71.42857142857143,
     "sustained_dps": 40,
     "weapon_name": "citadel_weapon_wrecker_set",
-    "weapon_description": "citadel_weapon_hero_wrecker_set"
+    "weapon_description": "citadel_weapon_hero_wrecker_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_HeavyHitter"
+    ]
   },
   "lore": "When the Maelstrom  first hit New York, it didn’t just usher in a new age of mysticism to the world… it changed geopolitics.  From CIA employed seers identifying threats decades before they rise to power to occult pacts made in smoky backrooms;  countless wars and atrocities have been prevented that would otherwise have shaped history.  But that doesn’t mean there is no war… just that war has changed.\\n\\nParanormal Military Companies have risen to prominence.  These groups, using a combination of extra-planar creatures and various blood magics; have found ways to circumvent the guardrails established by the nation’s watchdog oracles, allowing them to function as proxies for nations seeking to wage war.\\n\\nWrecker is one such soldier.\\n\\nEmployed by Eldritch Tactical Solutions (a subsidiary of Fairfax Industries), Wrecker is an elite soldier of fortune with a reputation for doing dirty work that other PMC’s don’t have the stomach for.",
   "playstyle": "Salvaging and scrapping for parts, Wrecker can disassemble troopers, crush foes with his Wrecking Ball, and capture all enemies in his Stasis Trap.",

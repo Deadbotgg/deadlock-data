@@ -1,9 +1,9 @@
 {
   "key": "citadel_ability_card_toss",
-  "name": "citadel_ability_card_toss",
+  "name": "Card Trick",
   "stats": {
     "duration": 0,
-    "cooldown": 0,
+    "cooldown": 0.5,
     "range": 500,
     "charges": 1,
     "charge_restore_time": 0,
@@ -31,7 +31,7 @@
     "card_resource_gen_pct_scale": 100
   },
   "tooltipDetails": {
-    "description": "citadel_ability_card_toss_desc",
+    "description": "Deal weapon damage to summon cards.  Activate to throw a card that flies towards the enemy or point under your crosshair.",
     "properties": [
       {
         "key": "Damage",
@@ -58,7 +58,8 @@
         "damage": 50
       },
       {
-        "card_resource_gen_pct_scale": 50
+        "card_resource_gen_pct_scale": 50,
+        "name": "Card Summon Rate"
       }
     ]
   }

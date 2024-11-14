@@ -38,7 +38,7 @@
       {
         "ability_properties": {
           "long_range_bonus_weapon_power_min_range": {
-            "value": 18,
+            "value": 15,
             "style": "distance",
             "is_negative": false
           }
@@ -70,6 +70,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "long_range_bonus_weapon_power": 40,
-  "long_range_bonus_weapon_power_min_range": 18,
+  "long_range_bonus_weapon_power_min_range": 15,
   "bonus_clip_size_percent": 20
 }

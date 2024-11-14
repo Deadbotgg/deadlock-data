@@ -1,6 +1,6 @@
 {
   "key": "synth_affliction",
-  "name": "synth_affliction",
+  "name": "Affliction",
   "stats": {
     "duration": 0,
     "cooldown": 120,
@@ -27,7 +27,7 @@
     "heal_amp_regen_penalty_percent": 0
   },
   "tooltipDetails": {
-    "description": "synth_affliction_desc",
+    "description": "Apply <span class=\"highlight\">damage over time</span> to all enemies nearby.<br>Affliction's damage is non-lethal and does not apply item procs.",
     "properties": [
       {
         "key": "DPS",

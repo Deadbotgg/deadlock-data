@@ -31,7 +31,7 @@
     "stomp_bounce_height": 0
   },
   "tooltipDetails": {
-    "description": "citadel_ability_lash_down_strike_desc",
+    "description": "Stomp the ground beneath you, <span class=\"highlight\">damaging enemies</span> in front of you. If you perform Ground Strike while airborne, you quickly dive towards the ground. Damage grows slower after 25m.",
     "properties": [
       {
         "key": "StompDamage",

@@ -57,7 +57,7 @@
     ],
     "upgrades": [
       {
-        "weapon_damage_bonus": 6
+        "weapon_damage_bonus": 7
       },
       {
         "ability_cooldown": -40

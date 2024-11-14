@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "status_resistance_percent": {
-            "value": 40,
+            "value": 35,
             "style": "duration",
             "is_negative": false
           }
@@ -91,7 +91,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "status_resistance_percent": 40,
+  "status_resistance_percent": 35,
   "base_attack_damage_percent": 20,
   "active_bonus_move_speed": 3,
   "buff_duration": 3,

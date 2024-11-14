@@ -1,4 +1,5 @@
 {
+  "name": "Full Spectrum",
   "description": null,
   "cost": "6300",
   "tier": "4",
@@ -33,7 +34,7 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": ""
+        "description": "Adds <span class=\"highlight\">bonus damage</span> for every hero hit from your spirit damage mods or abilities and applies a <span class=\"highlight\">movement slow</span>."
       }
     ],
     "Innate": [

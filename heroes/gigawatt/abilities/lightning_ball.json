@@ -22,7 +22,7 @@
     "dps": 80,
     "tick_rate": 0.1,
     "min_shock_duration": 0.5,
-    "max_lifetime": 4,
+    "max_lifetime": 5,
     "hit_speed": 80,
     "slow_percent": 0,
     "boss_damage_percent": 50
@@ -48,7 +48,7 @@
     "basicProperties": [
       {
         "key": "MaxLifetime",
-        "value": 4,
+        "value": 5,
         "type": "duration"
       }
     ],

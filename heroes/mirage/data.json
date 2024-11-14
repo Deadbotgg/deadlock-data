@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 1.7,
@@ -224,7 +224,11 @@
     "dps": 57.33333333333334,
     "sustained_dps": 37.9877300613497,
     "weapon_name": "citadel_weapon_mirage_set",
-    "weapon_description": "citadel_weapon_hero_mirage_set"
+    "weapon_description": "citadel_weapon_hero_mirage_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_HeavyHitter"
+    ]
   },
   "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
   "playstyle": "[playstyle info here]",
@@ -258,13 +262,13 @@
       "key": "mirage_tornado"
     },
     {
-      "key": "mirage_ethereal_bullets"
+      "key": "mirage_fire_beetles"
     },
     {
       "key": "mirage_sand_phantom"
     },
     {
-      "key": "mirage_sunfire_cataclysm"
+      "key": "mirage_djinns_reach"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "key": "ability_warden_lock_down",
-  "name": "ability_warden_lock_down",
+  "name": "Binding Word",
   "stats": {
     "duration": 0,
     "cooldown": 35,
@@ -18,16 +18,15 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "immobilize_duration": 2,
+    "immobilize_duration": 1.75,
     "damage": 120,
     "escape_range": 16,
     "escape_time": 2.5,
     "bullet_armor_reduction": 0,
-    "bullet_armor_reduction_duration": 0,
-    "stamina_reduction": 1
+    "bullet_armor_reduction_duration": 0
   },
   "tooltipDetails": {
-    "description": "ability_warden_lock_down_desc",
+    "description": "Curse an enemy hero. If they don't move away from their initial position within the <span class=\"highlight\">escape time</span>, they will be <span class=\"highlight\">damaged</span> and <span class=\"highlight\">immobilized</span>.",
     "properties": [
       {
         "key": "Damage",
@@ -40,7 +39,7 @@
       },
       {
         "key": "ImmobilizeDuration",
-        "value": 2,
+        "value": 1.75,
         "type": "duration"
       }
     ],
@@ -54,10 +53,6 @@
         "key": "EscapeRange",
         "value": "16m",
         "type": "distance"
-      },
-      {
-        "key": "StaminaReduction",
-        "value": 1
       }
     ],
     "upgrades": [

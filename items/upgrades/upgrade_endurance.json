@@ -54,7 +54,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_health_regen": 2.7,
+  "bonus_health_regen": 2.8,
   "bonus_clip_size_percent": 8,
   "bonus_health": 25
 }

@@ -28,7 +28,7 @@
     "landing_damage": 80,
     "restore_hook_cooldown": 0,
     "stun_on_land": 0,
-    "on_land_damage_radius": 10,
+    "on_land_damage_radius": 14,
     "uppercut_buff_on_hit": 0,
     "buff_gun_range_percent": 100,
     "buff_base_weapon_pct": 0,
@@ -57,14 +57,14 @@
       },
       {
         "key": "OnLandDamageRadius",
-        "value": "10m",
+        "value": "14m",
         "type": "distance"
       }
     ],
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -10
+        "ability_cooldown": -11
       },
       {
         "uppercut_buff_on_hit": 12,

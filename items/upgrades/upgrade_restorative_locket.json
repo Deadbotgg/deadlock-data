@@ -55,12 +55,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "heal_per_stack": {
-            "value": 30,
+            "value": 40,
             "style": "healing",
             "is_conditional": false
           },
           "max_stacks": {
-            "value": 20,
+            "value": 15,
             "style": null,
             "is_conditional": false
           }
@@ -85,6 +85,6 @@
   "weapon_power": 0,
   "radius": 50,
   "tech_resist": 10,
-  "heal_per_stack": 30,
-  "max_stacks": 20
+  "heal_per_stack": 40,
+  "max_stacks": 15
 }

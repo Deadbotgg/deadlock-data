@@ -1,6 +1,6 @@
 {
   "key": "citadel_ability_chrono_swap",
-  "name": "citadel_ability_chrono_swap",
+  "name": "Paradoxical Swap",
   "stats": {
     "duration": 0,
     "cooldown": 45,
@@ -29,7 +29,7 @@
     "spell_lifesteal_non_hero": 25
   },
   "tooltipDetails": {
-    "description": "citadel_ability_chrono_swap_desc",
+    "description": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>.",
     "properties": [
       {
         "key": "SwapTotalDamage",
@@ -51,7 +51,8 @@
         "ability_cast_range": 15
       },
       {
-        "swap_total_damage": 100
+        "swap_total_damage": 100,
+        "name": "Swap Damage"
       },
       {
         "ability_cooldown": -15

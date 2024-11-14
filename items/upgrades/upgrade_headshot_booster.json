@@ -22,9 +22,9 @@
             "style": null,
             "is_negative": false
           },
-          "bonus_health": {
+          "bullet_shield_max_health": {
             "value": 40,
-            "style": "health",
+            "style": "bullet_armor_up",
             "is_negative": false
           }
         },
@@ -69,6 +69,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_fire_rate": 5,
-  "bonus_health": 40,
+  "bullet_shield_max_health": 40,
   "head_shot_bonus_damage": 45
 }

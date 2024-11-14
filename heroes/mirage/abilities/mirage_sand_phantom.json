@@ -1,6 +1,6 @@
 {
   "key": "mirage_sand_phantom",
-  "name": "mirage_sand_phantom",
+  "name": "Whirling Dervish",
   "stats": {
     "duration": 0,
     "cooldown": 45,
@@ -30,7 +30,7 @@
     "weapon_damage_bonus": 0
   },
   "tooltipDetails": {
-    "description": "mirage_sand_phantom_desc",
+    "description": "Become enveloped in a whirlwind, gaining <span class=\"highlight\">bullet evasion</span> and bonus <span class=\"highlight\">movement speed</span>.",
     "properties": [
       {
         "key": "WhirlwindEvasionChance",
@@ -54,7 +54,8 @@
     ],
     "upgrades": [
       {
-        "whirlwind_evasion_chance": 20
+        "whirlwind_evasion_chance": 20,
+        "name": "Bullet Evasion Chance"
       },
       {
         "ability_cooldown": -18

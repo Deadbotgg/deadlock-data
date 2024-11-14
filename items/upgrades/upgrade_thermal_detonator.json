@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bullet_shield_max_health": {
-            "value": 175,
+            "value": 225,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -103,6 +103,6 @@
   "height_off_ground": 50,
   "tick_rate": 0.5,
   "bonus_base_weapon_damage_taken": 50,
-  "bullet_shield_max_health": 175,
+  "bullet_shield_max_health": 225,
   "base_attack_damage_percent": 14
 }

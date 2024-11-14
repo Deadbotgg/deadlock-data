@@ -63,7 +63,7 @@
         "ability_cooldown": -20
       },
       {
-        "stun_duration": 0.75,
+        "stun_duration": 0.5,
         "damage": 80
       },
       {

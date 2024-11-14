@@ -53,7 +53,8 @@
         "ability_cooldown": -15
       },
       {
-        "magic_damage_per_bullet": 12
+        "magic_damage_per_bullet": 12,
+        "name": "Spirit Damage Per Bullet"
       }
     ]
   }

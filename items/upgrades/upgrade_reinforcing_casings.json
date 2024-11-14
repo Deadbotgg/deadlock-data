@@ -1,6 +1,6 @@
 {
   "name": "Escalating Resilience",
-  "description": "",
+  "description": "Grants <span class=\"highlight\">Bullet Resist</span> when your bullets hit an enemy hero. <span class=\"highlight\">Each shot can only grant one stack.</span>",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -51,12 +51,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "max_armor_stacks": {
-            "value": 30,
+            "value": 36,
             "style": null,
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "Grants <span class=\"highlight\">Bullet Resist</span> when your bullets hit an enemy hero. <span class=\"highlight\">Each shot can only grant one stack.</span>"
       }
     ]
   },
@@ -74,7 +74,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "max_armor_stacks": 30,
+  "max_armor_stacks": 36,
   "bullet_resist_per_stack": 2,
   "bullet_resist_duration": 20,
   "base_attack_damage_percent": 14,

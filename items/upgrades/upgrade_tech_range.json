@@ -27,6 +27,11 @@
             "style": "distance",
             "is_negative": false
           },
+          "tech_resist": {
+            "value": 10,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
           "tech_power": {
             "value": 6,
             "style": null,
@@ -62,5 +67,6 @@
   "non_imbued_tech_range_multiplier": 25,
   "non_imbued_tech_radius_multiplier": 25,
   "imbued_tech_range_multiplier": 35,
-  "imbued_tech_radius_multiplier": 35
+  "imbued_tech_radius_multiplier": 35,
+  "tech_resist": 10
 }

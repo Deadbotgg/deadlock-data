@@ -64,7 +64,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "restore_delay": 13,
+  "restore_delay": 12,
   "heal_life_percent_out_of_combat": 4,
   "health_threshold": 75,
   "bonus_move_speed": 2,

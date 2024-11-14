@@ -1,6 +1,6 @@
 {
   "key": "ability_warden_high_alert",
-  "name": "ability_warden_high_alert",
+  "name": "Willpower",
   "stats": {
     "duration": 7,
     "cooldown": 40,
@@ -22,7 +22,7 @@
     "tech_shield_points": 150
   },
   "tooltipDetails": {
-    "description": "ability_warden_high_alert_desc",
+    "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus movement speed</span>.",
     "properties": [
       {
         "key": "TechShieldPoints",
@@ -41,13 +41,15 @@
     ],
     "upgrades": [
       {
-        "move_speed_bonus_pct": 20
+        "move_speed_bonus_pct": 20,
+        "name": "Move speed bonus"
       },
       {
         "ability_cooldown": -20
       },
       {
-        "tech_shield_points": 3.9312
+        "tech_shield_points": 3.9312,
+        "name": "Spirit Shield Health"
       }
     ]
   }

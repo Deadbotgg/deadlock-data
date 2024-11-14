@@ -25,13 +25,6 @@
         ]
       },
       {
-        "_class": "image",
-        "name": "RequirementsIconInsideHeader",
-        "className": "RequirementsIconInsideHeader",
-        "image": "game:tools/images/pulse_editor/requirements.png",
-        "dataTooltip": "This node has additional requirements before it will execute"
-      },
-      {
         "name": "HeaderTextContainer",
         "className": "HeaderTextContainer",
         "children": [
@@ -171,9 +164,10 @@
       },
       {
         "_class": "image",
-        "name": "RequirementsIconAlongsideFirstPort",
-        "className": "RequirementsIconAlongsideFirstPort",
-        "image": "game:tools/images/pulse_editor/requirements.png"
+        "name": "RequirementsIconAlongsideFlow",
+        "className": "RequirementsIconAlongsideFlow",
+        "image": "game:tools/images/pulse_editor/requirements.png",
+        "dataTooltip": "This node has additional requirements before it will execute"
       },
       {
         "name": "RequirementsNodeList",
@@ -196,12 +190,6 @@
   "RequirementsNodeList": {
     "className": "BaseFlow RequirementsNodeList",
     "children": [
-      {
-        "_class": "image",
-        "className": "RequirementsIconInRequirementsList",
-        "image": "game:tools/images/pulse_editor/requirements.png",
-        "dataTooltip": "This node has additional requirements before it will execute"
-      },
       {
         "name": "RequirementLayout_Separator",
         "className": "RequirementLayout_Separator",
@@ -338,7 +326,14 @@
     "children": [
       {
         "name": "BlockCommentHeader",
-        "className": "BlockCommentHeader"
+        "className": "BlockCommentHeader",
+        "children": [
+          {
+            "name": "BlockCommentHeaderText",
+            "_class": "text",
+            "className": "BlockCommentHeaderText"
+          }
+        ]
       },
       {
         "name": "BlockCommentTextBox",

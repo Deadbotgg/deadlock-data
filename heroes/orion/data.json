@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 1.46,
@@ -226,7 +226,12 @@
     "dps": 55,
     "sustained_dps": 40.87431693989071,
     "weapon_name": "citadel_weapon_archer_set",
-    "weapon_description": "citadel_weapon_hero_archer_set"
+    "weapon_description": "citadel_weapon_hero_archer_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_HeavyHitter",
+      "Attribute_EWeaponAttribute_Projectile"
+    ]
   },
   "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was Ixian... she could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
   "playstyle": "A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents.",

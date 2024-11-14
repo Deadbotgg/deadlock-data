@@ -1,6 +1,6 @@
 {
   "key": "ability_scrap_blast",
-  "name": "Slowed",
+  "name": "Bio Blast",
   "stats": {
     "duration": 0,
     "cooldown": 60,
@@ -24,7 +24,7 @@
     "enemy_move_slow": 10
   },
   "tooltipDetails": {
-    "description": "ability_scrap_blast_desc",
+    "description": "Shoots out a blast of consumed remains, <span class=\"highlight\">damaging</span> and <span class=\"highlight\">slowing</span> enemies. Multiple hits increase the slow.",
     "properties": [
       {
         "key": "ScrapDamage",
@@ -53,10 +53,12 @@
         "ability_charges": 2
       },
       {
-        "scrap_damage": 55
+        "scrap_damage": 55,
+        "name": "Damage"
       },
       {
-        "enemy_move_slow": 20
+        "enemy_move_slow": 20,
+        "name": "Enemy Slow per hit"
       }
     ]
   }

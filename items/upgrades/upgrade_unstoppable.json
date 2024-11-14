@@ -1,5 +1,6 @@
 {
-  "description": "",
+  "name": "Unstoppable",
+  "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>.",
   "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
@@ -59,7 +60,7 @@
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>."
       }
     ]
   },

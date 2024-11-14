@@ -2,7 +2,7 @@
   "id": 19,
   "name": "hero_shiv",
   "new_player_friendly": false,
-  "in_development": true,
+  "in_development": false,
   "in_hero_labs": false,
   "is_disabled": false,
   "complexity": 3,
@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.5,
@@ -204,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 6,
+    "bullet_damage": 6.3,
     "rounds_per_second": 1.9047619047619047,
     "clip_size": 10,
     "reload_time": 2.8,
@@ -221,10 +221,14 @@
     "bullets_per_shot": 6,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 68.57142857142857,
-    "sustained_dps": 44.72049689440993,
+    "dps": 71.99999999999999,
+    "sustained_dps": 46.95652173913043,
     "weapon_name": "citadel_weapon_shiv_set",
-    "weapon_description": "citadel_weapon_hero_shiv_set"
+    "weapon_description": "citadel_weapon_hero_shiv_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_Spreadshot",
+      "Attribute_EWeaponAttribute_CloseRange"
+    ]
   },
   "lore": "A loyal member of \\\"The Baxter Society\\\", an international order of monster hunters, Shiv travels across North America looking to put down creatures that prey on the living.\\n\\nWhile his less polished nature and criminal past make some of the more traditional members of the Society wary, no one can deny his effectiveness.",
   "playstyle": "Shiv has zero interest in playing fair, which is why he relies on hit and run tactics to weaken enemies before he dives in for the kill.",
@@ -264,10 +268,10 @@
       "key": "citadel_ability_shiv_dash"
     },
     {
-      "key": "citadel_ability_shiv_blood_rage"
+      "key": "citadel_ability_shiv_defer_damage"
     },
     {
-      "key": "citadel_ability_shiv_dive"
+      "key": "citadel_ability_shiv_killing_blow"
     }
   ]
 }

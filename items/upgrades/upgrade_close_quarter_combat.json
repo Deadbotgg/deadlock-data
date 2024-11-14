@@ -26,9 +26,9 @@
     "Innate": [
       {
         "ability_properties": {
-          "bullet_shield_max_health": {
-            "value": 300,
-            "style": "bullet_armor_up",
+          "bullet_resist": {
+            "value": 15,
+            "style": null,
             "is_negative": false
           },
           "stamina": {
@@ -91,6 +91,6 @@
   "slow_percent": 25,
   "slow_duration": 2,
   "close_range_bonus_damage_range": 15,
-  "bullet_shield_max_health": 300,
+  "bullet_resist": 15,
   "stamina": 1
 }

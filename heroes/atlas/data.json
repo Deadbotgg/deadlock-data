@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.32,
@@ -226,7 +226,8 @@
     "weapon_name": "citadel_weapon_bull_set",
     "weapon_description": "citadel_weapon_hero_bull_set",
     "weapon_types": [
-      "Attribute_EWeaponAttribute_ShortRange"
+      "Attribute_EWeaponAttribute_Spreadshot",
+      "Attribute_EWeaponAttribute_CloseRange"
     ]
   },
   "lore": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years.  From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.\\n\\nBut his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.\\n\\nNo instruction was left for him save for a brief note scrawled in onyx blood that read \\\"Don't let them have it\\\".  Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",

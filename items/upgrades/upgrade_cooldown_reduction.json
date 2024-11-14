@@ -23,7 +23,7 @@
       {
         "ability_properties": {
           "non_imbued_cooldown_reduction": {
-            "value": 22,
+            "value": 24,
             "style": "cooldown",
             "is_negative": false
           },
@@ -60,6 +60,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "imbued_cooldown_reduction": 32,
-  "non_imbued_cooldown_reduction": 22,
+  "non_imbued_cooldown_reduction": 24,
   "bonus_health_regen": 4
 }

@@ -52,7 +52,7 @@
             "is_conditional": false
           }
         },
-        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires."
+        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal one stack of health if a siphoned target dies and they take it back if they kill you."
       }
     ]
   },

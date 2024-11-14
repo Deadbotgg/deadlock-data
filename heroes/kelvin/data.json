@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 1.2,
@@ -224,7 +224,12 @@
     "dps": 83.6,
     "sustained_dps": 49.48697711128651,
     "weapon_name": "citadel_weapon_kelvin_set",
-    "weapon_description": "citadel_weapon_hero_kelvin_set"
+    "weapon_description": "citadel_weapon_hero_kelvin_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_HeavyHitter",
+      "Attribute_EWeaponAttribute_Projectile"
+    ]
   },
   "lore": "A famed adventuring scientist, Kelvin made it his life's mission to explore and understand the unknowable.  So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldn't build an expedition team fast enough.  Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare.\\n\\nThey never returned.\\n\\nA year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes.  The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes.  They checked his vitals... there was no pulse.  They sought to bandage his open wounds... there was no blood.  And yet, impossibly, Kelvin was \\\"alive\\\".\\n\\nHaving no memory of what happened on the expedition, Kelvin is looking for answers.",
   "playstyle": "Timely heals and splitting a teamfight properly is the difference between an easy victory or a ruinous defeat. Gliding around slowing enemies gives Kelvin's team the maneuvering advantage to make this happen.",

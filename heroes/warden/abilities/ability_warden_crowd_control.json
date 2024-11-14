@@ -1,9 +1,9 @@
 {
   "key": "ability_warden_crowd_control",
-  "name": "ability_warden_crowd_control",
+  "name": "Alchemical Flask",
   "stats": {
     "duration": 0,
-    "cooldown": 16,
+    "cooldown": 13,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -25,10 +25,11 @@
     "debuff_duration": 7,
     "move_speed_slow_pct": 20,
     "forward_velocity": 800,
-    "projectile_lifetime": 60
+    "projectile_lifetime": 60,
+    "stamina_reduction": 0
   },
   "tooltipDetails": {
-    "description": "ability_warden_crowd_control_desc",
+    "description": "Throw a flask that <span class=\"highlight\">damages, slows,</span> and reduces the <span class=\"highlight\">weapon damage</span> and <span class=\"highlight\">stamina</span> of enemies it hits.",
     "properties": [
       {
         "key": "Damage",
@@ -59,6 +60,10 @@
         "key": "DebuffDuration",
         "value": 7,
         "type": "duration"
+      },
+      {
+        "key": "StaminaReduction",
+        "value": 0
       }
     ],
     "upgrades": [
@@ -66,10 +71,12 @@
         "damage": 40
       },
       {
-        "ability_cooldown": -10
+        "stamina_reduction": 1,
+        "name": "Stamina Reduction"
       },
       {
-        "fire_rate_slow": 35
+        "fire_rate_slow": 35,
+        "ability_cooldown": -7
       }
     ]
   }

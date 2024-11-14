@@ -55,7 +55,8 @@
         "bonus_max_health": 150
       },
       {
-        "regen_incoming_damage_percent": 9
+        "regen_incoming_damage_percent": 9,
+        "name": "Damage regenerated"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "name": "Predator Precision",
-  "description": null,
+  "description": "Gain additional <span class=\"highlight\">weapon damage</span> against enemy Heroes that are <span class=\"highlight\">low health</span>",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -43,7 +43,7 @@
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "Gain additional <span class=\"highlight\">weapon damage</span> against enemy Heroes that are <span class=\"highlight\">low health</span>"
       }
     ]
   },

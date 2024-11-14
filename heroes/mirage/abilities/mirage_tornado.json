@@ -1,6 +1,6 @@
 {
   "key": "mirage_tornado",
-  "name": "mirage_tornado",
+  "name": "Tornado",
   "stats": {
     "duration": 2,
     "cooldown": 30,
@@ -37,7 +37,7 @@
     "boss_damage_percent": 50
   },
   "tooltipDetails": {
-    "description": "mirage_tornado_desc",
+    "description": "Send out a tornado that <span class=\"highlight\">damages enemies</span> and <span class=\"highlight\">lifts them up in the air</span>.",
     "properties": [
       {
         "key": "Damage",
@@ -65,6 +65,7 @@
     "upgrades": [
       {
         "move_slow_percent": 30,
+        "name": "Movement Slow Duration",
         "move_slow_duration": 3
       },
       {

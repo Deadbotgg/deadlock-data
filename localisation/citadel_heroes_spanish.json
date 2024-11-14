@@ -1,3 +1,7 @@
 {
-  "Language": "spanish"
+  "Language": "spanish",
+  "MaxDistance_postfix": " m",
+  "MinDistance_postfix": " m",
+  "citadel_ability_psychic_lift": "Telequinesis",
+  "lift": "Telequinesis"
 }

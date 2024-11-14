@@ -59,11 +59,11 @@
         "slow_duration": 2
       },
       {
-        "ability_duration": 6,
+        "ability_duration": 5,
         "max_stacks": 30
       },
       {
-        "damage_bonus_fixed_per_stack": 0.25,
+        "damage_bonus_fixed_per_stack": 0.2,
         "name": "Weapon Damage"
       }
     ]

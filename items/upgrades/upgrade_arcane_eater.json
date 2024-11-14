@@ -1,6 +1,6 @@
 {
   "name": "Arcane Eater",
-  "description": null,
+  "description": "Your bullets <span class=\"highlight\">Steal Spirit Power</span> from enemy Heroes.  Steal {s:HeadshotBonusSteal} extra Spirit Power with Headshots.  This effect stacks.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -52,7 +52,7 @@
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "Your bullets <span class=\"highlight\">Steal Spirit Power</span> from enemy Heroes.  Steal {s:HeadshotBonusSteal} extra Spirit Power with Headshots.  This effect stacks."
       }
     ]
   },

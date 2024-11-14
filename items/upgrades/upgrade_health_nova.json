@@ -24,7 +24,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 75,
+            "value": 100,
             "style": "health",
             "is_negative": false
           }
@@ -84,5 +84,5 @@
   "regen_duration": 2,
   "aura_radius": 18,
   "base_attack_damage_percent": 10,
-  "bonus_health": 75
+  "bonus_health": 100
 }

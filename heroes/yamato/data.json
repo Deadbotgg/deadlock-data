@@ -14,8 +14,8 @@
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
-    "light_melee_damage": 63,
-    "heavy_melee_damage": 116,
+    "light_melee_damage": 69,
+    "heavy_melee_damage": 128,
     "max_health": 500,
     "weapon_power": 0,
     "reload_speed": 1,
@@ -25,8 +25,8 @@
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
     "crit_damage_received_scale": 0,
-    "tech_range": null,
-    "tech_duration": null
+    "tech_range": 0,
+    "tech_duration": 0
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0.5,
@@ -224,7 +224,11 @@
     "dps": 70.625,
     "sustained_dps": 46.797349530646045,
     "weapon_name": "citadel_weapon_yamato_set",
-    "weapon_description": "citadel_weapon_hero_yamato_set"
+    "weapon_description": "citadel_weapon_hero_yamato_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_Spreadshot",
+      "Attribute_EWeaponAttribute_CloseRange"
+    ]
   },
   "lore": "犯罪組織のボスの家に生まれたカオリと兄のヤマトは、\\n父の死後、セブンスムーンの運営を引き継ぐ運命に\\nあることをずっと自覚していた。彼らは何年もの間、\\n二頭体制で組織を運営し、利益と成功をもたらし、\\nアメリカへの進出も計画していた。\\n\\n計画は単純だった。カオリは日本に残って国内を\\n統制し、ヤマトはアメリカに渡り国際的な拠点を\\n作るはずだった。兄妹にとって不運だったのは、\\nカオリが日本で指揮をとるという計画を快く\\n思わない部下たちがいたことだった。\\n\\n反逆は迅速かつ暴力的だった。ヤマトが命を犠牲に\\nしてカオリを守ったおかげで、カオリは一握りの\\n部下たちと共に日本からアメリカへ逃れることができた。\\n\\nアメリカに到着したカオリとその一行を迎え入れたのは、\\nヤマトを出迎えるはずの人物だった。その男は\\n日本人の名前には馴染みがなく、カオリのことを\\n「ヤマト」と呼んだ。カオリは間違いを正そうかと思ったが、\\n兄を記憶に留める最善の方法は、自分がヤマトの\\n名前を受け継ぎ、彼の夢をかなえることだと決意した。",
   "playstyle": "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count.",

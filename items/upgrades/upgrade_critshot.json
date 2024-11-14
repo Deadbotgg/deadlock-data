@@ -1,6 +1,6 @@
 {
   "name": "Lucky Shot",
-  "description": "",
+  "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">Slow</span> on hit.",
   "cost": "6300",
   "tier": "4",
   "activation": "Passive",
@@ -57,7 +57,7 @@
             "is_conditional": true
           }
         },
-        "description": ""
+        "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">Slow</span> on hit."
       }
     ]
   },

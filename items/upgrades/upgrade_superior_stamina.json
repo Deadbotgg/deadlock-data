@@ -25,7 +25,7 @@
       {
         "ability_properties": {
           "bonus_fire_rate": {
-            "value": 10,
+            "value": 7,
             "style": null,
             "is_negative": false
           },
@@ -47,7 +47,7 @@
             "is_negative": false
           },
           "air_move_increase_percent": {
-            "value": 50,
+            "value": 40,
             "style": null,
             "is_negative": false
           }
@@ -81,6 +81,6 @@
   "weapon_power": 0,
   "stamina": 3,
   "stamina_cooldown_reduction": 20,
-  "bonus_fire_rate": 10,
-  "air_move_increase_percent": 50
+  "bonus_fire_rate": 7,
+  "air_move_increase_percent": 40
 }

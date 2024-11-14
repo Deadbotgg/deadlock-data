@@ -24,6 +24,7 @@
     "bullet_shield_duration": 0
   },
   "tooltipDetails": {
+    "description": "Bullet Shield:",
     "properties": [
       {
         "key": "BulletShieldOnLand",

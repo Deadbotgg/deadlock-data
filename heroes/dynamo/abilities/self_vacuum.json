@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 0,
     "unit_target_limit": 1,
-    "cast_delay": 0,
+    "cast_delay": 0.1,
     "channel_time": 2.75,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
@@ -62,13 +62,15 @@
     ],
     "upgrades": [
       {
-        "vacuum_radius": 2
+        "vacuum_radius": 2,
+        "name": "Singularity Radius"
       },
       {
         "ability_channel_time": 0.75
       },
       {
-        "damage_percent_health": 3.8
+        "damage_percent_health": 3.8,
+        "name": "Damage Health Percent"
       }
     ]
   }
