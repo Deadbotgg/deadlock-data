@@ -1320,7 +1320,7 @@
           "target_bounce_count": 0,
           "heal_amp_receive_penalty_percent": 0,
           "heal_amp_regen_penalty_percent": 0,
-          "bullet_resist_reduction": 6
+          "bullet_resist_reduction": -6
         },
         "tooltipDetails": {
           "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span>, reduces their bullet resist and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
@@ -1342,7 +1342,7 @@
             },
             {
               "key": "BulletResistReduction",
-              "value": 6,
+              "value": -6,
               "type": "bullet_armor_down",
               "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
