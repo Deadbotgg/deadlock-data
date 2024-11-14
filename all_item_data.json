@@ -165,7 +165,7 @@
   },
   "armor_upgrade_t4": {
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -300,7 +300,7 @@
   },
   "weapon_upgrade_t4": {
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -435,7 +435,7 @@
   },
   "tech_upgrade_t4": {
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -589,7 +589,7 @@
   },
   "upgrade_ammo_scavenger": {
     "name": "Ammo Scavenger",
-    "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
+    "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
     "cost": "500",
     "tier": "1",
     "activation": "Passive",
@@ -649,7 +649,7 @@
               "is_conditional": true
             }
           },
-          "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
+          "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
         }
       ]
     },
@@ -845,7 +845,7 @@
   "upgrade_galvanic_storm": {
     "name": "Galvanic Storm",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -879,7 +879,7 @@
               "is_conditional": false
             }
           },
-          "description": "When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">movement speed</span>"
+          "description": "When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">move speed</span>"
         }
       ],
       "Innate": [
@@ -1067,7 +1067,7 @@
   },
   "upgrade_stabilizer": {
     "name": "Stabilizer",
-    "description": "Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>.",
+    "description": "Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>.",
     "cost": "500",
     "tier": "1",
     "activation": "Passive",
@@ -1089,7 +1089,7 @@
           },
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
+          "description": "Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
         }
       ]
     },
@@ -1483,7 +1483,7 @@
   "upgrade_inhibitor": {
     "name": "Inhibitor",
     "description": "Your bullets apply <span class=\"highlight\">Movement Slow</span> and reduce the target's <span class=\"highlight\">outgoing damage</span> on hit.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -1915,7 +1915,7 @@
               "is_conditional": true
             }
           },
-          "description": "Provides bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
+          "description": "Provides bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
         }
       ]
     },
@@ -2011,7 +2011,7 @@
   "upgrade_weapon_detention_ammo": {
     "name": "Detention Rounds",
     "description": "Your bullets build up on enemies, causing them to be <span class=\"highlight\">tethered</span> to their position.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -2137,7 +2137,7 @@
   },
   "upgrade_targeted_silence": {
     "name": "Silence Glyph",
-    "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target and reduces its <span class=\"highlight\">Spirit Resist</span>. Silence does not interrupt channeling abilities.",
+    "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities.",
     "cost": "3000",
     "tier": "3",
     "activation": "ActivationPress",
@@ -2199,7 +2199,7 @@
               "is_conditional": false
             }
           },
-          "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target and reduces its <span class=\"highlight\">Spirit Resist</span>. Silence does not interrupt channeling abilities."
+          "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities."
         }
       ]
     },
@@ -2289,7 +2289,7 @@
   "upgrade_silencer": {
     "name": "Silencer",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Weapon",
@@ -2522,7 +2522,7 @@
   "upgrade_fervor": {
     "name": "Frenzy",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -2612,7 +2612,7 @@
   "upgrade_siphon_bullets": {
     "name": "Siphon Bullets",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -2663,7 +2663,7 @@
               "is_conditional": false
             }
           },
-          "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal one stack of health if a siphoned target dies and they take it back if they kill you."
+          "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal {s:StealPerKill} stacks of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
         }
       ]
     },
@@ -2826,7 +2826,7 @@
               "is_conditional": false
             }
           },
-          "description": "Deal bonus <span class=\"highlight\">Weapon Damage</span> with <span class=\"highlight\">headshots</span>."
+          "description": ""
         }
       ]
     },
@@ -2856,7 +2856,7 @@
   "upgrade_banshee_slugs": {
     "name": "Crippling Headshot",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -3079,8 +3079,8 @@
   },
   "upgrade_critshot": {
     "name": "Lucky Shot",
-    "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">Slow</span> on hit.",
-    "cost": "6300",
+    "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus weapon damage</span> and <span class=\"highlight\">Slow</span> on hit.<br><span class=\"diminish\">Bonus damage cannot Crit.</span>",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -3136,7 +3136,7 @@
               "is_conditional": true
             }
           },
-          "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">Slow</span> on hit."
+          "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus weapon damage</span> and <span class=\"highlight\">Slow</span> on hit.<br><span class=\"diminish\">Bonus damage cannot Crit.</span>"
         }
       ]
     },
@@ -3332,7 +3332,7 @@
   },
   "upgrade_toxic_bullets": {
     "name": "Toxic Bullets",
-    "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
+    "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
     "cost": "3000",
     "tier": "3",
     "activation": "Passive",
@@ -3377,7 +3377,7 @@
               "is_conditional": true
             }
           },
-          "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
+          "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
         }
       ]
     },
@@ -3481,7 +3481,7 @@
   "upgrade_ricochet": {
     "name": "Ricochet",
     "description": "Your bullets will <span class=\"highlight\">ricochet</span> on enemies near your target, <span class=\"highlight\">applying any bullet procs</span> and <span class=\"highlight\">dealing a percentage of the original damage.</span>",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -3984,7 +3984,7 @@
   "upgrade_combo_breaker": {
     "name": "Combo Breaker",
     "description": "<span class=\"highlight\">Remove all debuffs</span> and heal yourself. <br><span class=\"highlight\">Can be used while stunned.</span>",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -4208,7 +4208,7 @@
           },
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">movement speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+          "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">move speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
         }
       ]
     },
@@ -4399,7 +4399,7 @@
   "upgrade_active_bullet_shield": {
     "name": "Shield Rush",
     "description": "Give temporary <span class=\"highlight\">bullet shield</span> for you and nearby allied Heros and their minions.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -4448,7 +4448,7 @@
           },
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Increases your <span class=\"highlight\">forward movement speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
+          "description": "Increases your <span class=\"highlight\">forward move speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
         }
       ]
     },
@@ -4474,7 +4474,7 @@
   "upgrade_ablative_coat": {
     "name": "Ablative Coat",
     "description": "Provides <span class=\"highlight\">Bullet Resist</span> but you lose some each time you take Weapon Damage. Loss can only happen once every {s:StackLossFrequency}s. Bullet Resist is restored when out of combat.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -4525,7 +4525,7 @@
           },
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Increases your <span class=\"highlight\">forward movement speed</span> over time. If Ablative Coat is reduced to 0 Bullet Resist, taking damage will reset the effect for <span class=\"highlight\">1.5s</span>"
+          "description": "Increases your <span class=\"highlight\">forward move speed</span> over time. If Ablative Coat is reduced to 0 Bullet Resist, taking damage will reset the effect for <span class=\"highlight\">1.5s</span>"
         }
       ]
     },
@@ -4670,7 +4670,7 @@
   },
   "upgrade_metal_skin": {
     "name": "Metal Skin",
-    "description": "Become <span class=\"highlight\">immune to bullets and melee attacks</span>.",
+    "description": "Become <span class=\"highlight\">immune to bullets</span>.",
     "cost": "3000",
     "tier": "3",
     "activation": "InstantCast",
@@ -4724,7 +4724,7 @@
           },
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Become <span class=\"highlight\">immune to bullets and melee attacks</span>."
+          "description": "Become <span class=\"highlight\">immune to bullets</span>."
         }
       ]
     },
@@ -4747,7 +4747,7 @@
   },
   "upgrade_healing_booster": {
     "name": "Healing Booster",
-    "description": "Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>.",
+    "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -4789,7 +4789,7 @@
           "ability_properties": {},
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>."
+          "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>."
         }
       ]
     },
@@ -4861,7 +4861,7 @@
               "is_conditional": true
             }
           },
-          "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Movement Speed</span>."
+          "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Move Speed</span>."
         }
       ]
     },
@@ -4889,7 +4889,7 @@
   "upgrade_damage_recycler": {
     "name": "Leech",
     "description": "Reduces the effect of enemy applied <span class=\"highlight\">healing reduction</span>.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -5027,7 +5027,7 @@
   },
   "upgrade_sprint_booster": {
     "name": "Sprint Boots",
-    "description": "Increases your <span class=\"highlight\">forward movement speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>",
+    "description": "Increases your <span class=\"highlight\">forward move speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>",
     "cost": "500",
     "tier": "1",
     "activation": "Passive",
@@ -5538,7 +5538,7 @@
   },
   "upgrade_regenerating_bullet_shield": {
     "name": "Combat Barrier",
-    "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>.",
+    "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -5577,7 +5577,7 @@
               "is_conditional": false
             }
           },
-          "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>."
+          "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>."
         }
       ]
     },
@@ -5600,7 +5600,7 @@
   },
   "upgrade_magic_shield": {
     "name": "Enchanter's Barrier",
-    "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>.",
+    "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Cooldown Reduction</span>.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -5639,7 +5639,7 @@
               "is_conditional": false
             }
           },
-          "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>."
+          "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Cooldown Reduction</span>."
         }
       ]
     },
@@ -5804,8 +5804,8 @@
   },
   "upgrade_tech_overflow": {
     "name": "Spiritual Overflow",
-    "description": "Gain bonus <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes.",
-    "cost": "6300",
+    "description": "Gain bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> when shooting enemy heroes.",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -5866,7 +5866,7 @@
               "is_conditional": true
             }
           },
-          "description": "Gain bonus <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes."
+          "description": "Gain bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> when shooting enemy heroes."
         }
       ]
     },
@@ -6399,8 +6399,8 @@
   },
   "upgrade_tech_bleed": {
     "name": "Mystic Reverb",
-    "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> in a radius around the target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
-    "cost": "6300",
+    "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -6471,7 +6471,7 @@
               "is_conditional": true
             }
           },
-          "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> in a radius around the target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay."
+          "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay."
         }
       ]
     },
@@ -6867,7 +6867,7 @@
   },
   "upgrade_magic_slow": {
     "name": "Mystic Slow",
-    "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced.",
+    "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced.",
     "cost": "3000",
     "tier": "3",
     "activation": "Passive",
@@ -6934,7 +6934,7 @@
               "is_conditional": true
             }
           },
-          "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced."
+          "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced."
         }
       ]
     },
@@ -6960,7 +6960,7 @@
   "upgrade_escalating_exposure": {
     "name": "Escalating Exposure",
     "description": "Dealing <span class=\"highlight\">Spirit Damage</span> applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your <span class=\"highlight\">Spirit Damage</span> to the target.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -7341,7 +7341,7 @@
   },
   "upgrade_containment": {
     "name": "Slowing Hex",
-    "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage.",
+    "description": "Deals <span class=\"highlight\">Spirit Damage</span>, <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br><span class=\"diminish\">Does not affect target's stamina usage.</span>",
     "cost": "1250",
     "tier": "2",
     "activation": "ActivationPress",
@@ -7415,7 +7415,7 @@
               "is_conditional": true
             }
           },
-          "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage."
+          "description": "Deals <span class=\"highlight\">Spirit Damage</span>, <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br><span class=\"diminish\">Does not affect target's stamina usage.</span>"
         }
       ]
     },
@@ -7686,7 +7686,7 @@
   "upgrade_rebirth": {
     "name": "Soul Rebirth",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -7827,7 +7827,7 @@
   "upgrade_full_spectrum": {
     "name": "Full Spectrum",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -7991,7 +7991,7 @@
   "upgrade_charge_mastery": {
     "name": "Charge Mastery",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -8138,7 +8138,7 @@
   "upgrade_discord": {
     "name": "Discord",
     "description": "Apply an aura around enemy or friendly target that <span class=\"highlight\">damages enemies in the radius and suppresses their healing by {s:HealAmpReceivePenaltyPercent}%</span>. If cast on a friendly, it also heals them.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "ActivationPress",
     "slot": "Tech",
@@ -8346,8 +8346,8 @@
   },
   "upgrade_phantom_strike": {
     "name": "Phantom Strike",
-    "description": "<span class=\"highlight\">Teleport</span> to an enemy target, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and dealing <span class=\"highlight\">damage</span>.",
-    "cost": "6300",
+    "description": "<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span>, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and pulls them to the ground.",
+    "cost": "6200",
     "tier": "4",
     "activation": "ActivationPress",
     "slot": "Armor",
@@ -8415,7 +8415,7 @@
               "is_conditional": false
             }
           },
-          "description": "<span class=\"highlight\">Teleport</span> to an enemy target, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and dealing <span class=\"highlight\">damage</span>."
+          "description": "<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span>, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and pulls them to the ground."
         }
       ]
     },
@@ -8526,7 +8526,7 @@
   "upgrade_aoe_root": {
     "name": "Vacuum Web",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "ActivationPress",
     "slot": "Tech",
@@ -8611,7 +8611,7 @@
   "upgrade_ability_refresher": {
     "name": "Refresher",
     "description": "<span class=\"highlight\">Reset the cooldown</span> of all your abilities and <span class=\"highlight\">restore all your charges</span>.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Tech",
@@ -8669,7 +8669,7 @@
   "upgrade_ability_power_shard": {
     "name": "Echo Shard",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Tech",
@@ -8817,7 +8817,7 @@
   "upgrade_cheat_death": {
     "name": "Cheat Death",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -8964,7 +8964,7 @@
   "upgrade_cloaking_device_active": {
     "name": "Shadow Weave",
     "description": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -9384,7 +9384,7 @@
   "upgrade_aerial_assault": {
     "name": "Aerial Assault",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -9454,7 +9454,7 @@
     "explode_radius": 3
   },
   "upgrade_health_nova": {
-    "name": "Health Nova",
+    "name": "Healing Nova",
     "description": "<span class=\"highlight\">Heal</span> yourself and nearby allies. Heals an additional {s:HeroTargetBonus}% per ally.",
     "cost": "1250",
     "tier": "2",
@@ -9608,7 +9608,7 @@
               "is_conditional": false
             }
           },
-          "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span>. If used at max stacks it fully replenishes the target's <span class=\"highlight\">stamina</span>. Can be self-cast."
+          "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span> and replenish a <span class=\"highlight\">stamina point</span>. Can be self-cast."
         }
       ]
     },
@@ -9808,7 +9808,7 @@
   },
   "upgrade_savior": {
     "name": "Divine Barrier",
-    "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Movement Speed</span>. Can be self-cast.",
+    "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Move Speed</span>. Can be self-cast.",
     "cost": "1250",
     "tier": "2",
     "activation": "ActivationPress",
@@ -9880,7 +9880,7 @@
               "is_conditional": false
             }
           },
-          "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Movement Speed</span>. Can be self-cast."
+          "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Move Speed</span>. Can be self-cast."
         }
       ]
     },
@@ -9907,7 +9907,7 @@
   },
   "upgrade_aoe_smoke_bomb": {
     "name": "Smoke",
-    "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">movement speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s.",
+    "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s.",
     "cost": "3000",
     "tier": "3",
     "activation": "InstantCast",
@@ -9951,7 +9951,7 @@
           },
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">movement speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
+          "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
         }
       ]
     },
@@ -10127,7 +10127,7 @@
           "ability_properties": {},
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Removes the <span class=\"highlight\">Movement Speed</span> penalty while shooting."
+          "description": "Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting."
         }
       ],
       "Active": [
@@ -10157,7 +10157,7 @@
               "is_conditional": true
             }
           },
-          "description": "Gain bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Ammo</span>."
+          "description": "Gain bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Ammo</span>."
         }
       ]
     },
@@ -10344,7 +10344,7 @@
   "upgrade_tech_defender": {
     "name": "Tech Defender",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -10412,8 +10412,8 @@
   },
   "upgrade_unstoppable": {
     "name": "Unstoppable",
-    "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>.",
-    "cost": "6300",
+    "description": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>.",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -10472,7 +10472,7 @@
               "is_conditional": false
             }
           },
-          "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>."
+          "description": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
         }
       ]
     },
@@ -10497,8 +10497,8 @@
   },
   "upgrade_colossus": {
     "name": "Colossus",
-    "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the movement and dash speed</span> of enemies nearby. Your model size grows by 20%.",
-    "cost": "6300",
+    "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the move and dash speed</span> of enemies nearby. Your model size grows by 20%.",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -10572,7 +10572,7 @@
               "is_conditional": true
             }
           },
-          "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the movement and dash speed</span> of enemies nearby. Your model size grows by 20%."
+          "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the move and dash speed</span> of enemies nearby. Your model size grows by 20%."
         }
       ]
     },
@@ -10602,7 +10602,7 @@
   },
   "upgrade_cold_front": {
     "name": "Cold Front",
-    "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.",
+    "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes.",
     "cost": "1250",
     "tier": "2",
     "activation": "InstantCast",
@@ -10665,7 +10665,7 @@
               "is_conditional": true
             }
           },
-          "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits."
+          "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes."
         }
       ]
     },
@@ -10775,7 +10775,7 @@
   },
   "upgrade_self_bubble": {
     "name": "Ethereal Shift",
-    "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early.",
+    "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">move speed and spirit resist</span>.",
     "cost": "3000",
     "tier": "3",
     "activation": "InstantCast",
@@ -10815,7 +10815,7 @@
               "is_conditional": false
             }
           },
-          "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early."
+          "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">move speed and spirit resist</span>."
         }
       ]
     },
@@ -10842,7 +10842,7 @@
   "upgrade_stasis_bomb": {
     "name": "Stasis Bomb",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Armor",
@@ -11010,7 +11010,7 @@
   "upgrade_glitch": {
     "name": "Curse",
     "description": "Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "ActivationPress",
     "slot": "Tech",
@@ -11090,7 +11090,7 @@
   "upgrade_imbued_ability": {
     "name": "Imbued Ability",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -11299,7 +11299,7 @@
   "upgrade_glass_cannon": {
     "name": "Glass Cannon",
     "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -11383,7 +11383,7 @@
   "upgrade_surging_power": {
     "name": "Vampiric Burst",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Weapon",
@@ -11484,7 +11484,7 @@
   "upgrade_mod_disruptor": {
     "name": "Soul Disruptor",
     "description": "Throw a grenade that explodes on contact and applies <span class=\"highlight\">silence</span> and <span class=\"highlight\">increasing amounts of damage</span> to each enemy.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "ActivationPress",
     "slot": "Tech",
@@ -11566,7 +11566,7 @@
   "upgrade_frenzy": {
     "name": "Low HP Frenzy",
     "description": null,
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Armor",
@@ -11899,7 +11899,7 @@
   },
   "upgrade_melee_charge": {
     "name": "Melee Charge",
-    "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>.",
+    "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -11941,7 +11941,7 @@
           "ability_properties": {},
           "elevated_ability_properties": {},
           "important_ability_properties": {},
-          "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>."
+          "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full."
         }
       ]
     },
@@ -12018,7 +12018,7 @@
   "upgrade_belt_fed_magazine": {
     "name": "Belt-Fed Magazine",
     "description": "Your weapon gains a <span class=\"highlight\">much larger magazine that </span><span class=\"isNegative\">requires spin-up time</span>, starting with a <span class=\"highlight\">slower initial fire rate and becoming faster over the spin-up time</span>.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Weapon",
@@ -12086,7 +12086,7 @@
   "upgrade_diviners_kevlar": {
     "name": "Diviner's Kevlar",
     "description": "Upon casting an <span class=\"highlight\">ultimate ability</span> gain temporary <span class=\"highlight\">Bullet Shield, Spirit Shield,</span> and <span class=\"highlight\">Spirit Power</span>.",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -12264,7 +12264,7 @@
   "upgrade_mega_spirit": {
     "name": "Boundless Spirit",
     "description": "",
-    "cost": "6300",
+    "cost": "6200",
     "tier": "4",
     "activation": "Passive",
     "slot": "Tech",
@@ -12596,7 +12596,7 @@
   },
   "upgrade_magic_storm": {
     "name": "Surge of Power",
-    "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span>.",
+    "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Move Speed</span> and maintain full speed while attacking.",
     "cost": "3000",
     "tier": "3",
     "activation": "Passive",
@@ -12651,7 +12651,7 @@
               "is_conditional": true
             }
           },
-          "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span>."
+          "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Move Speed</span> and maintain full speed while attacking."
         }
       ]
     },
@@ -12762,7 +12762,7 @@
   },
   "upgrade_quick_silver": {
     "name": "Quicksilver Reload",
-    "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.",
+    "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -12814,7 +12814,7 @@
               "is_conditional": true
             }
           },
-          "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip."
+          "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full."
         }
       ]
     },
@@ -13194,7 +13194,7 @@
   },
   "upgrade_veil_walker": {
     "name": "Veil Walker",
-    "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine.",
+    "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
     "cost": "3000",
     "tier": "3",
     "activation": "Passive",
@@ -13265,7 +13265,7 @@
               "is_conditional": true
             }
           },
-          "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine."
+          "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
         }
       ]
     },
@@ -13301,7 +13301,7 @@
   },
   "upgrade_vex_barrier": {
     "name": "Reactive Barrier",
-    "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
+    "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -13367,7 +13367,7 @@
               "is_conditional": true
             }
           },
-          "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
+          "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
         }
       ]
     },
@@ -13627,8 +13627,8 @@
   },
   "upgrade_magic_carpet": {
     "name": "Magic Carpet",
-    "description": "Summon a Magic Carpet that will fly you away. Gain Bullet and Spirit shields while flying.  Cannot use abilities while the carpet is being summoned.  While flying doing any action will dismiss the carpet.",
-    "cost": "6300",
+    "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet.",
+    "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
     "slot": "Tech",
@@ -13696,7 +13696,7 @@
               "is_conditional": false
             }
           },
-          "description": "Summon a Magic Carpet that will fly you away. Gain Bullet and Spirit shields while flying.  Cannot use abilities while the carpet is being summoned.  While flying doing any action will dismiss the carpet."
+          "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet."
         }
       ]
     },
@@ -13705,7 +13705,7 @@
     "ability_duration": 7,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
-    "ability_cast_delay": 0.2,
+    "ability_cast_delay": 0,
     "ability_channel_time": 0,
     "ability_post_cast_duration": 0,
     "ability_charges": 0,

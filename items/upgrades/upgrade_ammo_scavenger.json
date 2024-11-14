@@ -1,6 +1,6 @@
 {
   "name": "Ammo Scavenger",
-  "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
+  "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
   "cost": "500",
   "tier": "1",
   "activation": "Passive",
@@ -60,7 +60,7 @@
             "is_conditional": true
           }
         },
-        "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
+        "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
       }
     ]
   },

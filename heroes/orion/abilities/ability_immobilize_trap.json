@@ -34,7 +34,7 @@
     "dot_dps": 0
   },
   "tooltipDetails": {
-    "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> them.",
+    "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> and then <span class=\"highlight\">slowing</span> them.",
     "properties": [
       {
         "key": "Lifetime",

@@ -1,6 +1,6 @@
 {
   "name": "Veil Walker",
-  "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine.",
+  "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -71,7 +71,7 @@
             "is_conditional": true
           }
         },
-        "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine."
+        "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
       }
     ]
   },

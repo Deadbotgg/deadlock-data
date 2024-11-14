@@ -1,6 +1,6 @@
 {
   "name": "Combat Barrier",
-  "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>.",
+  "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -39,7 +39,7 @@
             "is_conditional": false
           }
         },
-        "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>."
+        "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>."
       }
     ]
   },

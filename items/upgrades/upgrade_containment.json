@@ -1,6 +1,6 @@
 {
   "name": "Slowing Hex",
-  "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage.",
+  "description": "Deals <span class=\"highlight\">Spirit Damage</span>, <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br><span class=\"diminish\">Does not affect target's stamina usage.</span>",
   "cost": "1250",
   "tier": "2",
   "activation": "ActivationPress",
@@ -74,7 +74,7 @@
             "is_conditional": true
           }
         },
-        "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage."
+        "description": "Deals <span class=\"highlight\">Spirit Damage</span>, <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br><span class=\"diminish\">Does not affect target's stamina usage.</span>"
       }
     ]
   },

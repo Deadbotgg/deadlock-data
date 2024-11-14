@@ -1,6 +1,6 @@
 {
   "name": "Reactive Barrier",
-  "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
+  "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -66,7 +66,7 @@
             "is_conditional": true
           }
         },
-        "description": "Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
+        "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
       }
     ]
   },

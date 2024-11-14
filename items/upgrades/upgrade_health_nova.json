@@ -1,5 +1,5 @@
 {
-  "name": "Health Nova",
+  "name": "Healing Nova",
   "description": "<span class=\"highlight\">Heal</span> yourself and nearby allies. Heals an additional {s:HeroTargetBonus}% per ally.",
   "cost": "1250",
   "tier": "2",

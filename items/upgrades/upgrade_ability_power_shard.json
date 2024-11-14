@@ -1,7 +1,7 @@
 {
   "name": "Echo Shard",
   "description": "",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Tech",

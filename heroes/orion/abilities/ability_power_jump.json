@@ -33,7 +33,7 @@
     "tech_lifesteal_percent": 0
   },
   "tooltipDetails": {
-    "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. Press [{s:in_mantle}] to cancel the glide.",
+    "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. <br>Alt-Cast for reduced jump height.  <br>Press [{s:in_mantle}] to cancel the glide.",
     "properties": [
       {
         "key": "BulletSplitShot",

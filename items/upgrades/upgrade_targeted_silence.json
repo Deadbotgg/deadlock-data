@@ -1,6 +1,6 @@
 {
   "name": "Silence Glyph",
-  "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target and reduces its <span class=\"highlight\">Spirit Resist</span>. Silence does not interrupt channeling abilities.",
+  "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities.",
   "cost": "3000",
   "tier": "3",
   "activation": "ActivationPress",
@@ -62,7 +62,7 @@
             "is_conditional": false
           }
         },
-        "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target and reduces its <span class=\"highlight\">Spirit Resist</span>. Silence does not interrupt channeling abilities."
+        "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities."
       }
     ]
   },

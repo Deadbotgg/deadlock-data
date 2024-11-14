@@ -34,7 +34,7 @@
     "debuff_duration": 0
   },
   "tooltipDetails": {
-    "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will take <span class=\"highlight\">damage as a percentage of their max health</span> and be briefly slowed.",
+    "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",
     "properties": [
       {
         "key": "TimeScaleDuration",

@@ -32,7 +32,7 @@
     "bonus_gold_on_kill": 250
   },
   "tooltipDetails": {
-    "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
+    "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after {s:TimeToFullCharge}s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
     "properties": [
       {
         "key": "Damage",
@@ -63,7 +63,7 @@
       },
       {
         "low_health_enemy_damage_bonus": 140,
-        "name": "Bonus Damage"
+        "name": "Max Bonus Damage"
       },
       {
         "bonus_gold_on_kill": 600,

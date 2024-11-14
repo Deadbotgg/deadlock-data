@@ -24,7 +24,7 @@
     "damage_pct_deferred_max_rage": 15
   },
   "tooltipDetails": {
-    "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred in increased.",
+    "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred is increased.",
     "properties": [
       {
         "key": "DamagePctDeferredMaxRage",

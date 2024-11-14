@@ -29,7 +29,7 @@
     "heal_amp_regen_penalty_percent": 0
   },
   "tooltipDetails": {
-    "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span> and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
+    "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span>, reduces their bullet resist and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
     "properties": [
       {
         "key": "ImpactDamage",

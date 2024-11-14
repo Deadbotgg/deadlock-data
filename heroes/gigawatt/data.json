@@ -1,6 +1,6 @@
 {
   "id": 2,
-  "name": "hero_gigawatt",
+  "name": "Seven",
   "new_player_friendly": true,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,7 +10,7 @@
   "bot_selectable": true,
   "lane_testing_recommended": true,
   "starting_stats": {
-    "max_move_speed": 7,
+    "max_move_speed": 7.1,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -21,19 +21,20 @@
     "reload_speed": 1,
     "weapon_power_scale": 1,
     "stamina": 3,
-    "base_health_regen": 1.5,
+    "base_health_regen": 3,
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
-    "crit_damage_received_scale": -25,
+    "crit_damage_received_scale": -35,
     "tech_range": 0,
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.76,
-    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_bullet_damage_from_level": 0.597143,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 31,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 1
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -203,7 +204,7 @@
     ]
   },
   "spirit_scaling": {
-    "emaxmovespeed": 0.028
+    "emaxmovespeed": 0.023
   },
   "weapon_stats": {
     "bullet_damage": 11.5,

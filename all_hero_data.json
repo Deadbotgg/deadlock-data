@@ -1,7 +1,7 @@
 {
   "inferno": {
     "id": 1,
-    "name": "hero_inferno",
+    "name": "Infernus",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -11,13 +11,13 @@
     "bot_selectable": false,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
       "light_melee_damage": 63,
       "heavy_melee_damage": 116,
-      "max_health": 625,
+      "max_health": 600,
       "weapon_power": 0,
       "reload_speed": 1,
       "weapon_power_scale": 1,
@@ -152,7 +152,7 @@
           "fire_rate_slow": 0
         },
         "tooltipDetails": {
-          "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. <br>Hold [{s:iv_attack}] to dash faster.",
+          "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. Infernus gains {s:SlowResistancePercent}% slow resistance for the duration.  <br>Hold [{s:iv_attack}] to dash faster.",
           "properties": [
             {
               "key": "SpeedBurstSpeed",
@@ -353,11 +353,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.36,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.282857,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 33,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -555,7 +556,7 @@
       ]
     },
     "lore": "Like most teenagers; Infernus was wild, rebellious, and impetuous.  Unlike most teenagers, Infernus was a creature from another plane and had a supernatural mastery over fire.  Needless to say:  his youth was filled with no small amount of arson, murder, and evidence disposal.  But that was then.  Now an adult, Infernus has mellowed out considerably.  He’s happy working at a bar with good live music, and talking to interesting people.  That being said when someone at the bar gets belligerent or violent, he’s not afraid to dust off the skills he once honed.",
-    "playstyle": "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus's blazing speed, his enemies won't be able to escape the flames.",
+    "playstyle": "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus' blazing speed, his enemies won't be able to escape the flames.",
     "role": "Lights up enemies and watches them burn",
     "recommended_items": [
       "upgrade_clip_size",
@@ -577,7 +578,7 @@
   },
   "gigawatt": {
     "id": 2,
-    "name": "hero_gigawatt",
+    "name": "Seven",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -587,7 +588,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.1,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -598,10 +599,10 @@
       "reload_speed": 1,
       "weapon_power_scale": 1,
       "stamina": 3,
-      "base_health_regen": 1.5,
+      "base_health_regen": 3,
       "stamina_regen_per_second": 0.2,
       "stamina_cooldown": 5,
-      "crit_damage_received_scale": -25,
+      "crit_damage_received_scale": -35,
       "tech_range": 0,
       "tech_duration": 0
     },
@@ -700,7 +701,7 @@
           "additional_shock_target": 0
         },
         "tooltipDetails": {
-          "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius.",
+          "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius. <br>Alt-Cast to cast on yourself.",
           "properties": [
             {
               "key": "StatusEffectStun",
@@ -849,7 +850,7 @@
           "bullet_resist_on_active": 0
         },
         "tooltipDetails": {
-          "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight.",
+          "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight. You have increased <span class=\"highlight\">Bullet Resist</span> during the channel.",
           "properties": [
             {
               "key": "DPS",
@@ -884,11 +885,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.76,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.597143,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 31,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 1
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -1058,7 +1060,7 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.028
+      "emaxmovespeed": 0.023
     },
     "weapon_stats": {
       "bullet_damage": 11.5,
@@ -1112,7 +1114,7 @@
   },
   "hornet": {
     "id": 3,
-    "name": "hero_hornet",
+    "name": "Vindicta",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -1122,7 +1124,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 9,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -1310,7 +1312,7 @@
           "heal_amp_regen_penalty_percent": 0
         },
         "tooltipDetails": {
-          "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span> and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
+          "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span>, reduces their bullet resist and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
           "properties": [
             {
               "key": "ImpactDamage",
@@ -1389,7 +1391,7 @@
           "bonus_gold_on_kill": 250
         },
         "tooltipDetails": {
-          "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
+          "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after {s:TimeToFullCharge}s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
           "properties": [
             {
               "key": "Damage",
@@ -1420,7 +1422,7 @@
             },
             {
               "low_health_enemy_damage_bonus": 140,
-              "name": "Bonus Damage"
+              "name": "Max Bonus Damage"
             },
             {
               "bonus_gold_on_kill": 600,
@@ -1431,11 +1433,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.8,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 20,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -1604,7 +1607,10 @@
         "ETechDuration"
       ]
     },
-    "spirit_scaling": {},
+    "spirit_scaling": {
+      "eroundspersecond": 0.00636,
+      "efirerate": 0.14
+    },
     "weapon_stats": {
       "bullet_damage": 14,
       "rounds_per_second": 5.2631578947368425,
@@ -1657,7 +1663,7 @@
   },
   "ghost": {
     "id": 4,
-    "name": "hero_ghost",
+    "name": "Lady Geist",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -1667,8 +1673,8 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6,
-      "sprint_speed": 1,
+      "max_move_speed": 6.3,
+      "sprint_speed": 1.5,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
       "light_melee_damage": 63,
@@ -1774,7 +1780,7 @@
           "life_drain_health_mult": 100
         },
         "tooltipDetails": {
-          "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your movement speed is reduced by half. Press [{s:in_ability2}] to cancel.",
+          "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your move speed is reduced by half. <br><span class=\"highlight\">[Alt-Cast] to give health to friendly Heroes</span>.<br><span class=\"highlight\">Press [{s:in_ability2}]</span> to cancel.",
           "properties": [
             {
               "key": "LifeDrainPerSecond",
@@ -1943,11 +1949,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 2.1,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 1.65,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -2167,7 +2174,7 @@
   },
   "atlas": {
     "id": 6,
-    "name": "hero_atlas",
+    "name": "Abrams",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -2177,13 +2184,13 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
       "light_melee_damage": 63,
       "heavy_melee_damage": 116,
-      "max_health": 600,
+      "max_health": 570,
       "weapon_power": 0,
       "reload_speed": 1,
       "weapon_power_scale": 1,
@@ -2460,11 +2467,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.32,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 32,
+      "modifier_value_base_bullet_damage_from_level": 0.251429,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
+      "modifier_value_base_health_from_level": 34,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -2662,7 +2670,7 @@
       ]
     },
     "lore": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years.  From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.\\n\\nBut his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.\\n\\nNo instruction was left for him save for a brief note scrawled in onyx blood that read \\\"Don't let them have it\\\".  Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",
-    "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his back-line teammates can lay out damage with impunity.",
+    "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his backline teammates can lay out damage with impunity.",
     "role": "Charges into close combat",
     "recommended_items": [
       "upgrade_close_range",
@@ -2682,7 +2690,7 @@
   },
   "wraith": {
     "id": 7,
-    "name": "hero_wraith",
+    "name": "Wraith",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -2692,7 +2700,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -2954,11 +2962,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.48,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.377143,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 31,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -3158,7 +3167,7 @@
       ]
     },
     "lore": "The cornerstone of the New York gambling scene, Wraith's organization is about as open a secret as it comes.  However, thanks to a non-trivial amount of bribes, shakedowns, and blackmail, Wraith knows that she's above the law.",
-    "playstyle": "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. then teleporting away before anyone can retaliate.",
+    "playstyle": "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. Then teleporting away before anyone can retaliate.",
     "role": "Melts isolated targets",
     "recommended_items": [
       "upgrade_endurance",
@@ -3178,7 +3187,7 @@
   },
   "forge": {
     "id": 8,
-    "name": "hero_forge",
+    "name": "McGinnis",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -3188,7 +3197,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -3495,7 +3504,6 @@
           "upgrades": [
             {
               "move_slow_percent": 35,
-              "name": "Movement Slow Duration",
               "move_slow_duration": 2
             },
             {
@@ -3510,11 +3518,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.44,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.345714,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -3737,7 +3746,7 @@
   },
   "chrono": {
     "id": 10,
-    "name": "hero_chrono",
+    "name": "Paradox",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -3747,7 +3756,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -3895,7 +3904,7 @@
           "debuff_duration": 0
         },
         "tooltipDetails": {
-          "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will take <span class=\"highlight\">damage as a percentage of their max health</span> and be briefly slowed.",
+          "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",
           "properties": [
             {
               "key": "TimeScaleDuration",
@@ -3978,7 +3987,7 @@
           "time_scale_debuff": 90
         },
         "tooltipDetails": {
-          "description": "Start charging your weapon and gain <span class=\"highlight\">increased movement speed</span> once it's fully charged. Your next shot will release the energy, dealing <span class=\"highlight\">spirit damage</span> and applying a <span class=\"highlight\">time stop</span> to the enemy hit. The damage dealt is an amplification of your current weapon damage. <br><br>You can slow time on yourself by pressing [{s:iv_attack2}] while an empowered shot is available.",
+          "description": "Start charging your weapon and gain <span class=\"highlight\">increased move speed</span> once it's fully charged. Your next shot will release the energy, dealing <span class=\"highlight\">spirit damage</span> and applying a <span class=\"highlight\">time stop</span> to the enemy hit. The damage dealt is an amplification of your current weapon damage. <br><br>You can slow time on yourself by pressing [{s:iv_attack2}] while an empowered shot is available.",
           "properties": [
             {
               "key": "MaxBonusBulletDamage",
@@ -4114,11 +4123,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.42,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.45,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 40,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -4315,7 +4325,7 @@
         "Attribute_EWeaponAttribute_MediumRange"
       ]
     },
-    "lore": "Paradox.  An artifact of time, and the name of a notorius thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions.  What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen?  Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox’s reach.\\n\\nShrouded in mystery, each member of Paradox dons a mask and takes on the organization's name.  They are everywhere.  They are nowhere.  And if they want something, they are inevitable.",
+    "lore": "Paradox.  An artifact of time, and the name of a notorious thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions.  What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen?  Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox’s reach.\\n\\nShrouded in mystery, each member of Paradox dons a mask and takes on the organization's name.  They are everywhere.  They are nowhere.  And if they want something, they are inevitable.",
     "playstyle": "Manipulating time lets Paradox outpace an enemy in one on one combat. She thrives by subjecting her enemies to timely swaps into a waiting pulse grenade, her wall, or into the middle of her teammates.",
     "role": "Manipulates Space and Time",
     "recommended_items": [
@@ -4333,7 +4343,7 @@
   },
   "dynamo": {
     "id": 11,
-    "name": "hero_dynamo",
+    "name": "Dynamo",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -4343,7 +4353,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -4472,7 +4482,7 @@
           "bonus_clip_size_percent": 0
         },
         "tooltipDetails": {
-          "description": "{s:hero_name} briefly <span class=\"highlight\">disappears into the void</span> and then reappears a short distance away. On reappearing, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate bonus</span> for the next clip. Can be cast with [{s:key_alt_cast}] to also bring nearby allies and give them half fire rate bonus.",
+          "description": "{s:hero_name} briefly <span class=\"highlight\">disappears into the void</span> and then reappears a short distance away. On reappearing, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate bonus</span> for the next clip (Max {s:FireRateBonusDurationMax}s). Can be Alt-Cast to also bring nearby allies and give them half fire rate bonus.",
           "properties": [
             {
               "key": "VoidTime",
@@ -4535,7 +4545,7 @@
           "movement_speed_bonus_duration": 0
         },
         "tooltipDetails": {
-          "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby.",
+          "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby. Dashing does not break channel.",
           "properties": [
             {
               "key": "HealingPerSecond",
@@ -4656,11 +4666,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.9,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.707143,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 44,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 1,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -4877,7 +4888,7 @@
   },
   "kelvin": {
     "id": 12,
-    "name": "hero_kelvin",
+    "name": "Kelvin",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -4887,7 +4898,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.5,
+      "max_move_speed": 6.8,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -5108,7 +5119,7 @@
           "beam_split": 0
         },
         "tooltipDetails": {
-          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam.",
+          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced move speed while using Arctic Beam. The beam may also claim Souls.",
           "properties": [
             {
               "key": "DPS",
@@ -5197,7 +5208,7 @@
           "fire_rate_slow": 0
         },
         "tooltipDetails": {
-          "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>.",
+          "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>. <br>Objectives becomes Invulnerable and Frozen under Frozen Shelter.",
           "properties": [
             {
               "key": "BonusHealthRegen",
@@ -5246,11 +5257,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.2,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 45,
+      "modifier_value_base_bullet_damage_from_level": 0.71,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
+      "modifier_value_base_health_from_level": 50,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -5471,7 +5483,7 @@
   },
   "haze": {
     "id": 13,
-    "name": "hero_haze",
+    "name": "Haze",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -5481,7 +5493,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 8.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -5762,7 +5774,7 @@
           "evasion_percent": 50
         },
         "tooltipDetails": {
-          "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.  During the flurry, {s:hero_name} gains a fire rate bonus and will evade some of the bullets shot at her.",
+          "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.",
           "properties": [
             {
               "key": "BonusFireRate",
@@ -5807,11 +5819,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.285,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.223929,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 27,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -6030,512 +6043,9 @@
       "upgrade_critshot"
     ]
   },
-  "astro": {
-    "id": 14,
-    "name": "hero_astro",
-    "new_player_friendly": false,
-    "in_development": true,
-    "in_hero_labs": false,
-    "is_disabled": false,
-    "complexity": 3,
-    "readability": 2,
-    "bot_selectable": false,
-    "lane_testing_recommended": false,
-    "starting_stats": {
-      "max_move_speed": 8,
-      "sprint_speed": 0,
-      "crouch_speed": 4.75,
-      "move_acceleration": 4,
-      "light_melee_damage": 63,
-      "heavy_melee_damage": 116,
-      "max_health": 625,
-      "weapon_power": 0,
-      "reload_speed": 1,
-      "weapon_power_scale": 1,
-      "stamina": 2,
-      "base_health_regen": 2,
-      "stamina_regen_per_second": 0.2,
-      "stamina_cooldown": 5,
-      "crit_damage_received_scale": 0,
-      "tech_range": 0,
-      "tech_duration": 0
-    },
-    "abilities": [
-      {
-        "key": "ability_explosive_barrel",
-        "name": "Powder Keg",
-        "stats": {
-          "duration": 0,
-          "cooldown": 30,
-          "range": 0,
-          "charges": 2,
-          "charge_restore_time": 5,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.125,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 5,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "radius": 6,
-          "barrel_lifetime": 8,
-          "barrel_damage": 100,
-          "barrel_roll_speed_move_min": 15,
-          "barrel_pitch_min": 2,
-          "barrel_pitch_max": 45,
-          "barrel_roll_speed_move_air": 10,
-          "barrel_light_melee_force_forward": 760,
-          "barrel_light_melee_force_up": 550,
-          "barrel_heavy_melee_force_forward": 1100,
-          "barrel_heavy_melee_force_up": 550,
-          "barrel_scale": 1.3,
-          "toss_speed": 400,
-          "arm_time": 1,
-          "min_time_before_destroy": 1
-        },
-        "tooltipDetails": {
-          "description": "Place a barrel that explodes when <span class=\"highlight\">shot</span>, or on landing after launched via <span class=\"highlight\">melee attack</span> or <span class=\"highlight\">bounce pad</span>. Has a minimum arm time before it can explode.",
-          "properties": [
-            {
-              "key": "BarrelDamage",
-              "value": 100,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 1.9656,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "ArmTime",
-              "value": 1
-            }
-          ],
-          "upgrades": [
-            {
-              "ability_charges": 1
-            },
-            {
-              "barrel_damage": 140,
-              "name": "Explosion Damage"
-            },
-            {
-              "ability_cooldown": -10,
-              "min_time_before_destroy": -1,
-              "arm_time": -1
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_bounce_pad",
-        "name": "Bounce Pad",
-        "stats": {
-          "duration": 22,
-          "cooldown": 35,
-          "range": 0,
-          "charges": 1,
-          "charge_restore_time": 3.5,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.08,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 3.5,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "bounce_velocity": 750,
-          "up_factor": 1.2,
-          "barrel_bounce_velocity": 800,
-          "barrel_up_factor": 1,
-          "scale": 1,
-          "place_distance": 100,
-          "air_control_percent": 100,
-          "air_control_accel_percent": 50,
-          "min_air_time_for_stomp": 0.2,
-          "radius": 8,
-          "vertical_difference_tolerance": 60,
-          "toss_speed": 350,
-          "stomp_damage": 120,
-          "stomp_stun_duration": 0,
-          "speed_on_land": 0,
-          "speed_on_land_duration": 0
-        },
-        "tooltipDetails": {
-          "description": "Drop a bounce pad in the world that <span class=\"highlight\">sends you and other heroes flying</span>. You will stomp down on landing, <span class=\"highlight\">dealing damage</span> to any nearby enemies.",
-          "properties": [
-            {
-              "key": "StompDamage",
-              "value": 120,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.91728,
-                "type": "spirit"
-              }
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "AirControlPercent",
-              "value": 100,
-              "type": "move_speed",
-              "m_e_provided_property_type": "MODIFIER_VALUE_AIR_CONTROL_PERCENT"
-            }
-          ],
-          "upgrades": [
-            {
-              "speed_on_land": 4,
-              "speed_on_land_duration": 4
-            },
-            {
-              "stomp_damage": 1.04832,
-              "name": "Stomp Damage"
-            },
-            {
-              "stomp_stun_duration": 1.25,
-              "name": "Duration"
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_hat_trick",
-        "name": "Hat Trick",
-        "stats": {
-          "duration": 0,
-          "cooldown": 20,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.15,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 0,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "explosion_radius": 2,
-          "damage": 100,
-          "debuff_duration": 5,
-          "slow_percent": 20
-        },
-        "tooltipDetails": {
-          "description": "Throws out her <span class=\"highlight\">hat</span> to strike enemies, <span class=\"highlight\">slowing</span> and <span class=\"highlight\">revealing</span> them through walls.",
-          "properties": [
-            {
-              "key": "Damage",
-              "value": 100,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 1.008,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "SlowPercent",
-              "value": 20,
-              "type": "slow",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "DebuffDuration",
-              "value": 5,
-              "type": "duration"
-            }
-          ],
-          "upgrades": [
-            {
-              "damage": 50
-            },
-            {
-              "ability_cooldown": -10
-            },
-            {
-              "slow_percent": 30
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_gravity_lasso",
-        "name": "Spirit Lasso",
-        "stats": {
-          "duration": 2.5,
-          "cooldown": 150,
-          "range": 10,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 10,
-          "unit_target_limit": 1,
-          "cast_delay": 0,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 0,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "bounce_pad_extend_duration": 2,
-          "lift_height": 7,
-          "lift_horizontal": -30,
-          "follow_damping_factor": 12,
-          "damage_vulnerbility": 0,
-          "grab_extra_targets": 0,
-          "grab_extra_targets_radius_mult": 2,
-          "extra_target_cone_angle": 40,
-          "extra_target_horizontal_offset": 30,
-          "follow_distance": 120,
-          "camera_preview_offset": 55,
-          "camera_preview_speed": 0.6,
-          "camera_preview_distance": 400,
-          "lasso_target_max_speed": 550
-        },
-        "tooltipDetails": {
-          "description": "<span class=\"highlight\">Grab an enemy</span> with your lasso and drag them along behind you. The <span class=\"highlight\">enemy is stunned</span> and Astro is slowed slightly during the lasso.<br><br> Lasso duration is paused for {s:BouncePadExtendDuration}s during the first usage of a bounce pad.",
-          "properties": [
-            {
-              "key": "ExtraTargetConeAngle",
-              "value": 40
-            }
-          ],
-          "basicProperties": [],
-          "upgrades": [
-            {
-              "ability_duration": 0.6
-            },
-            {
-              "ability_cooldown": -60
-            },
-            {
-              "grab_extra_targets": 1,
-              "name": "Targetting Cone Angle",
-              "extra_target_cone_angle": 60
-            }
-          ]
-        }
-      }
-    ],
-    "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.9,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 33,
-      "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
-    },
-    "collision": {
-      "radius": 20,
-      "height": 80,
-      "step_height": 32
-    },
-    "movement": {
-      "stealth_speed": 4,
-      "footstep_sound_distance": 20,
-      "step_sound_time": 0.3
-    },
-    "visuals": {
-      "ui_color": [
-        142,
-        76,
-        49
-      ],
-      "glow_colors": {
-        "friendly": [
-          255,
-          239,
-          215
-        ],
-        "enemy": [
-          255,
-          0,
-          0
-        ],
-        "team1": [
-          231,
-          182,
-          89
-        ],
-        "team2": [
-          91,
-          121,
-          230
-        ]
-      },
-      "model_skin": 0
-    },
-    "item_slots": {
-      "weapon_mod": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "armor": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "tech": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      }
-    },
-    "purchase_bonuses": {
-      "weapon_mod": [
-        {
-          "tier": 1,
-          "value": 6,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 10,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 18,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        }
-      ],
-      "armor": [
-        {
-          "tier": 1,
-          "value": 11,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 17,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 20,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        }
-      ],
-      "tech": [
-        {
-          "tier": 1,
-          "value": 4,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 2,
-          "value": 8,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 3,
-          "value": 12,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 4,
-          "value": 16,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        }
-      ]
-    },
-    "stats_display": {
-      "health_header_stats": [
-        "EMaxHealth",
-        "EBaseHealthRegen"
-      ],
-      "health_stats": [
-        "EBulletArmorDamageReduction",
-        "ETechArmorDamageReduction",
-        "EBulletShieldHealth",
-        "ETechShieldHealth",
-        "EBulletLifesteal",
-        "ETechLifesteal",
-        "EMaxMoveSpeed",
-        "ESprintSpeed",
-        "EStamina",
-        "EHealingOutput"
-      ],
-      "weapon_header_stats": [
-        "EWeaponDPS",
-        "EBulletDamage"
-      ],
-      "weapon_stats": [
-        "ELightMeleeDamage",
-        "EHeavyMeleeDamage",
-        "EFireRate",
-        "EClipSize"
-      ],
-      "magic_header_stats": [
-        "ETechPower"
-      ],
-      "magic_stats": [
-        "ETechCooldown",
-        "ETechRange",
-        "ETechDuration"
-      ]
-    },
-    "spirit_scaling": {},
-    "weapon_stats": {
-      "bullet_damage": 32.2,
-      "rounds_per_second": 2.2222222222222223,
-      "clip_size": 10,
-      "reload_time": 2.75,
-      "reload_movespeed": 1,
-      "reload_delay": 0,
-      "reload_single": false,
-      "bullet_speed": 250,
-      "falloff_start_range": 8.66,
-      "falloff_end_range": 22.64,
-      "falloff_start_scale": 1,
-      "falloff_end_scale": 0.1,
-      "falloff_bias": 0.5,
-      "bullet_gravity_scale": 0.8,
-      "bullets_per_shot": 1,
-      "bullets_per_burst": 1,
-      "burst_inter_shot_interval": 0,
-      "dps": 71.55555555555557,
-      "sustained_dps": 44.41379310344828,
-      "weapon_name": "citadel_weapon_astro_set",
-      "weapon_description": "citadel_weapon_hero_astro_set",
-      "weapon_types": [
-        "Attribute_EWeaponAttribute_MediumRange",
-        "Attribute_EWeaponAttribute_HeavyHitter"
-      ]
-    },
-    "lore": "There are people who spent their whole lives dreaming about moving to New York.  Holliday isn't one of those people.  Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started.\\n\\nGrisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds.  Holliday tracked down the killer, a travelling folk musician that the media dubbed \\\"The Troubadour\\\", but when she confronted him he exploded into a murder of crows and flew away.\\n\\nThat was 6 months ago, and while the murders in central illinois have stopped, Holliday's investigation has not.  She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch.",
-    "playstyle": "Astro depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat.",
-    "role": "Bounces about dispensing trick shots"
-  },
   "bebop": {
     "id": 15,
-    "name": "hero_bebop",
+    "name": "Bebop",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -6545,7 +6055,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6.25,
+      "max_move_speed": 6.55,
       "sprint_speed": 3,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -6601,7 +6111,7 @@
           "clip_size_bonus": 0
         },
         "tooltipDetails": {
-          "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> where they land. Does not damage allies.",
+          "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> and <span class=\"highlight\">fire rate slow</span> where they land. Does not damage allies.",
           "properties": [
             {
               "key": "UppercutDamage",
@@ -6836,12 +6346,13 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.373,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.33,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 1.6,
-      "modifier_value_bonus_attack_range": 98.4252
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 1,
+      "modifier_value_bonus_attack_range": 77.334084
     },
     "collision": {
       "radius": 20,
@@ -7059,570 +6570,9 @@
       "upgrade_mega_spirit"
     ]
   },
-  "nano": {
-    "id": 16,
-    "name": "hero_nano",
-    "new_player_friendly": false,
-    "in_development": true,
-    "in_hero_labs": false,
-    "is_disabled": true,
-    "complexity": 1,
-    "readability": 4,
-    "bot_selectable": true,
-    "lane_testing_recommended": false,
-    "starting_stats": {
-      "max_move_speed": 7,
-      "sprint_speed": 0,
-      "crouch_speed": 4.75,
-      "move_acceleration": 4,
-      "light_melee_damage": 63,
-      "heavy_melee_damage": 116,
-      "max_health": 550,
-      "weapon_power": 0,
-      "reload_speed": 1,
-      "weapon_power_scale": 1,
-      "stamina": 3,
-      "base_health_regen": 2,
-      "stamina_regen_per_second": 0.2,
-      "stamina_cooldown": 5,
-      "crit_damage_received_scale": 0,
-      "tech_range": 0,
-      "tech_duration": 0
-    },
-    "abilities": [
-      {
-        "key": "ability_perched_predator",
-        "name": "Perched Predator",
-        "stats": {
-          "duration": 0,
-          "cooldown": 25,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.2,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "cat_lifetime": 8,
-          "cat_start_speed": 8,
-          "cat_accel": 10,
-          "cat_max_speed": 20,
-          "cat_above_ground": 0.1,
-          "cat_drop_down_rate": 5,
-          "cat_climb_height": 3,
-          "min_time_between_explosions": 0.5,
-          "explosion_damage": 100,
-          "explosion_radius": 8,
-          "toss_speed": 400,
-          "charge_radius": 75,
-          "charge_drag_vertical_offset": 30
-        },
-        "tooltipDetails": {
-          "description": "Send a Spirit Cat forward that grab's targets in its way.  Grabbing a Hero will cause an explosion soon after. <br>Press [{s:in_ability1}] to manually create the explosion.",
-          "properties": [
-            {
-              "key": "ExplosionDamage",
-              "value": 100,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 1.1466,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "ExplosionRadius",
-              "value": "8m",
-              "type": "distance"
-            }
-          ],
-          "upgrades": [
-            {
-              "explosion_radius": 4
-            },
-            {
-              "ability_cooldown": -12
-            },
-            {
-              "explosion_damage": 100
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_nano_pounce",
-        "name": "Siamese Strike",
-        "stats": {
-          "duration": 0,
-          "cooldown": 25,
-          "range": 16,
-          "charges": 1,
-          "charge_restore_time": 8,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 16,
-          "unit_target_limit": 1,
-          "cast_delay": 0.2,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 8,
-          "channel_move_speed": -1,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "explosion_damage": 60,
-          "instant_reload": 0,
-          "slow_percent": 20,
-          "slow_duration": 3,
-          "explode_radius": 4,
-          "debuff_duration": 0,
-          "damage_amplification": 0,
-          "active_reload_percent": 0,
-          "friendly_target_cd": 12,
-          "friendly_recharge_time": 3
-        },
-        "tooltipDetails": {
-          "description": "<span class=\"highlight\">Leap</span> at a target.  Targetting an enemy will cause <span class=\"highlight\">damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
-          "properties": [
-            {
-              "key": "ExplosionDamage",
-              "value": 60,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.5,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "ExplodeRadius",
-              "loc_token_override": "WarpExplodeRadius",
-              "value": "4m",
-              "type": "distance",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "FriendlyTargetCD",
-              "type": "cooldown",
-              "value": 12
-            },
-            {
-              "key": "FriendlyRechargeTime",
-              "value": 3,
-              "type": "charge_cooldown"
-            },
-            {
-              "key": "SlowPercent",
-              "value": 20,
-              "type": "slow",
-              "m_usage_flags": "APUsageFlag_ModifierConditional",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
-            },
-            {
-              "key": "SlowDuration",
-              "value": 3,
-              "type": "duration",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "DebuffDuration",
-              "value": 0,
-              "type": "duration"
-            }
-          ],
-          "upgrades": [
-            {
-              "slow_percent": 20
-            },
-            {
-              "active_reload_percent": 30,
-              "ability_cast_range": 8
-            },
-            {
-              "explode_radius": 6,
-              "name": "Damage Amplification",
-              "debuff_duration": 8,
-              "damage_amplification": 35
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_nano_proximity_ritual",
-        "name": "Deadly Decor",
-        "stats": {
-          "duration": 0,
-          "cooldown": 30,
-          "range": 0,
-          "charges": 1,
-          "charge_restore_time": 8,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.2,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 8,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "statue_health": 300,
-          "inactive_radius": 4,
-          "active_radius": 18,
-          "statue_lifetime": 40,
-          "statue_arm_time": 0.2,
-          "cat_activate_duration": 1.5,
-          "tick_interval": 0.1,
-          "damage_tick": 0.5,
-          "dps": 20,
-          "fire_rate_slow": 0,
-          "heal_amp_receive_penalty_percent": -20,
-          "heal_amp_regen_penalty_percent": -20,
-          "lifesteal": 75,
-          "lifesteal_non_hero": 25,
-          "self_heal_scale": 0.5
-        },
-        "tooltipDetails": {
-          "description": "Spawn a <span class=\"highlight\">Statue</span> that <span class=\"highlight\">life steals</span> from a nearby enemy giving health to itself and {s:hero_name}.  Statues are activate only when {s:hero_name} is near by.",
-          "properties": [
-            {
-              "key": "DPS",
-              "value": 20,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.419328,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "HealAmpReceivePenaltyPercent",
-              "value": -20,
-              "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "AbilityLifesteal",
-              "loc_token_override": "StatueLifesteal",
-              "value": 75,
-              "type": "healing",
-              "m_e_display_type": "ETechLifesteal"
-            },
-            {
-              "key": "AbilityLifestealNonhero"
-            },
-            {
-              "key": "InactiveRadius",
-              "loc_token_override": "StatueActivateRange",
-              "value": "4m",
-              "type": "distance"
-            },
-            {
-              "key": "ActiveRadius",
-              "value": "18m",
-              "type": "distance"
-            },
-            {
-              "key": "StatueHealth",
-              "value": 300,
-              "type": "health",
-              "m_e_display_type": "EMaxHealth"
-            },
-            {
-              "key": "StatueLifetime",
-              "value": 40,
-              "type": "duration"
-            }
-          ],
-          "upgrades": [
-            {
-              "ability_charges": 1
-            },
-            {
-              "active_radius": 10,
-              "fire_rate_slow": 30
-            },
-            {
-              "dps": 30,
-              "heal_amp_receive_penalty_percent": -30,
-              "heal_amp_regen_penalty_percent": -30
-            }
-          ]
-        }
-      },
-      {
-        "key": "ability_nano_ult_shadow",
-        "name": "Queen of Shadows",
-        "stats": {
-          "duration": 12,
-          "cooldown": 120,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.2,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "invis_alert_when_fading": 1,
-          "invis_cancel_on_damage": 0,
-          "invis_fade_to_duration": 0,
-          "invis_move_speed_mod": 0,
-          "spotted_radius": 20,
-          "reveal_on_damage_duration": 0.25,
-          "reveal_on_spotted_duration": 0.25,
-          "stamina_regen": 40,
-          "slow_resist": 50,
-          "cooldown_reduction_on_bullet": 0.3,
-          "cooldown_reduction_on_melee_light": 1.5,
-          "cooldown_reduction_on_melee_heavy": 4,
-          "fire_rate_bonus": 30,
-          "melee_attack_speed_bonus": 30,
-          "life_steal": 30
-        }
-      }
-    ],
-    "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.159,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
-      "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
-    },
-    "collision": {
-      "radius": 20,
-      "height": 80,
-      "step_height": 32
-    },
-    "movement": {
-      "stealth_speed": 4,
-      "footstep_sound_distance": 20,
-      "step_sound_time": 0.325
-    },
-    "visuals": {
-      "ui_color": [
-        98,
-        15,
-        214
-      ],
-      "glow_colors": {
-        "friendly": [
-          255,
-          239,
-          215
-        ],
-        "enemy": [
-          255,
-          0,
-          0
-        ],
-        "team1": [
-          231,
-          182,
-          89
-        ],
-        "team2": [
-          91,
-          121,
-          230
-        ]
-      },
-      "model_skin": 0
-    },
-    "item_slots": {
-      "weapon_mod": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "armor": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "tech": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      }
-    },
-    "purchase_bonuses": {
-      "weapon_mod": [
-        {
-          "tier": 1,
-          "value": 6,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 10,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 18,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        }
-      ],
-      "armor": [
-        {
-          "tier": 1,
-          "value": 11,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 17,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 20,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        }
-      ],
-      "tech": [
-        {
-          "tier": 1,
-          "value": 4,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 2,
-          "value": 8,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 3,
-          "value": 12,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 4,
-          "value": 16,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        }
-      ]
-    },
-    "stats_display": {
-      "health_header_stats": [
-        "EMaxHealth",
-        "EBaseHealthRegen"
-      ],
-      "health_stats": [
-        "EBulletArmorDamageReduction",
-        "ETechArmorDamageReduction",
-        "EBulletShieldHealth",
-        "ETechShieldHealth",
-        "EBulletLifesteal",
-        "ETechLifesteal",
-        "EMaxMoveSpeed",
-        "ESprintSpeed",
-        "EStamina",
-        "EHealingOutput"
-      ],
-      "weapon_header_stats": [
-        "EWeaponDPS",
-        "EBulletDamage"
-      ],
-      "weapon_stats": [
-        "ELightMeleeDamage",
-        "EHeavyMeleeDamage",
-        "EFireRate",
-        "EClipSize"
-      ],
-      "magic_header_stats": [
-        "ETechPower"
-      ],
-      "magic_stats": [
-        "ETechCooldown",
-        "ETechRange",
-        "ETechDuration"
-      ]
-    },
-    "spirit_scaling": {},
-    "weapon_stats": {
-      "bullet_damage": 2.4,
-      "rounds_per_second": 10,
-      "clip_size": 30,
-      "reload_time": 3.5,
-      "reload_movespeed": 1,
-      "reload_delay": 0,
-      "reload_single": false,
-      "bullet_speed": 125,
-      "falloff_start_range": 8.66,
-      "falloff_end_range": 22.64,
-      "falloff_start_scale": 1,
-      "falloff_end_scale": 0.1,
-      "falloff_bias": 0.5,
-      "bullet_gravity_scale": 0.8,
-      "bullets_per_shot": 3,
-      "bullets_per_burst": 1,
-      "burst_inter_shot_interval": 0,
-      "dps": 71.99999999999999,
-      "sustained_dps": 33.230769230769226,
-      "weapon_name": "citadel_weapon_nano_set",
-      "weapon_description": "citadel_weapon_hero_nano_set"
-    },
-    "lore": "Granted the dubious honor of being named Time Magazine's most dangerous woman on the planet, Calico is an enigmatic occult arms dealer that is willing to fund any and all sides of a conflict if the price is right.\\n\\nWhile her critics (and friends) would correctly identify her as being amoral, she is not without her principles... however cold and calculated those principles may be.",
-    "playstyle": "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything.",
-    "role": "Wreaks havoc from the sidelines",
-    "recommended_items": [
-      "upgrade_lifestrike_gauntlets",
-      "upgrade_acolytes_glove",
-      "upgrade_rapid_recharge",
-      "upgrade_close_range",
-      "upgrade_slowing_bullets",
-      "upgrade_kinetic_sash",
-      "upgrade_cardio_calibrator",
-      "upgrade_vampire",
-      "upgrade_regenerating_bullet_shield",
-      "upgrade_magic_shield",
-      "upgrade_boxing_glove",
-      "upgrade_close_quarter_combat",
-      "upgrade_toxic_bullets",
-      "upgrade_magic_burst",
-      "upgrade_tech_damage_pulse",
-      "upgrade_belt_fed_magazine",
-      "upgrade_superior_stamina",
-      "upgrade_damage_recycler",
-      "upgrade_tech_range",
-      "upgrade_mega_spirit"
-    ]
-  },
   "orion": {
     "id": 17,
-    "name": "hero_orion",
+    "name": "Grey Talon",
     "new_player_friendly": true,
     "in_development": false,
     "in_hero_labs": false,
@@ -7632,7 +6582,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": true,
     "starting_stats": {
-      "max_move_speed": 6,
+      "max_move_speed": 6.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -7642,8 +6592,8 @@
       "weapon_power": 0,
       "reload_speed": 1,
       "weapon_power_scale": 1,
-      "stamina": 3,
-      "base_health_regen": 2,
+      "stamina": 4,
+      "base_health_regen": 2.5,
       "stamina_regen_per_second": 0.2,
       "stamina_cooldown": 5,
       "crit_damage_received_scale": 0,
@@ -7741,7 +6691,7 @@
           "tech_lifesteal_percent": 0
         },
         "tooltipDetails": {
-          "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. Press [{s:in_mantle}] to cancel the glide.",
+          "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. <br>Alt-Cast for reduced jump height.  <br>Press [{s:in_mantle}] to cancel the glide.",
           "properties": [
             {
               "key": "BulletSplitShot",
@@ -7836,7 +6786,7 @@
           "dot_dps": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> them.",
+          "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> and then <span class=\"highlight\">slowing</span> them.",
           "properties": [
             {
               "key": "Lifetime",
@@ -7968,11 +6918,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.46,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 1.62,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 27,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -8142,7 +7093,8 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.04
+      "emaxmovespeed": 0.025,
+      "ebulletdamage": 0.12
     },
     "weapon_stats": {
       "bullet_damage": 22,
@@ -8172,7 +7124,7 @@
         "Attribute_EWeaponAttribute_Projectile"
       ]
     },
-    "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was Ixian... she could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
+    "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was an Ixian who could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
     "playstyle": "A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents.",
     "role": "Delivers long range skill-shots",
     "recommended_items": [
@@ -8197,7 +7149,7 @@
   },
   "krill": {
     "id": 18,
-    "name": "hero_krill",
+    "name": "Mo & Krill",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -8207,7 +7159,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7.8,
+      "max_move_speed": 8.1,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -8221,7 +7173,7 @@
       "base_health_regen": 3,
       "stamina_regen_per_second": 0.2,
       "stamina_cooldown": 5,
-      "crit_damage_received_scale": 0,
+      "crit_damage_received_scale": -19.999999999999996,
       "tech_range": 0,
       "tech_duration": 0
     },
@@ -8509,11 +7461,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.25,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.196429,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 44,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 28,
@@ -8733,7 +7686,7 @@
   },
   "shiv": {
     "id": 19,
-    "name": "hero_shiv",
+    "name": "Shiv",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -8891,7 +7844,7 @@
           "damage_pct_deferred_max_rage": 15
         },
         "tooltipDetails": {
-          "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred in increased.",
+          "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred is increased.",
           "properties": [
             {
               "key": "DamagePctDeferredMaxRage",
@@ -8991,11 +7944,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.5,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
+      "modifier_value_base_bullet_damage_from_level": 0.314286,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
+      "modifier_value_base_health_from_level": 35,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -9225,7 +8179,7 @@
   },
   "tengu": {
     "id": 20,
-    "name": "hero_tengu",
+    "name": "Ivy",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -9235,7 +8189,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -9513,7 +8467,7 @@
           "silence_duration": 0
         },
         "tooltipDetails": {
-          "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+          "description": "Take flight with an ally or a bomb. Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>While lifted, your ally gains bullet resist but cannot attack and deals {s:AllyOutgoingDamagePercent}% damage. Air Drop has faster cast time when targeting an ally. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
           "properties": [
             {
               "key": "ExplodeDamage",
@@ -9610,11 +8564,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.55,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
+      "modifier_value_base_bullet_damage_from_level": 0.36,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
+      "modifier_value_base_health_from_level": 35,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -9832,7 +8787,7 @@
   },
   "kali": {
     "id": 21,
-    "name": "hero_kali",
+    "name": "Kali",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -9842,7 +8797,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -10001,10 +8956,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -10203,7 +9159,7 @@
   },
   "warden": {
     "id": 25,
-    "name": "hero_warden",
+    "name": "Warden",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -10213,8 +9169,8 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 6.5,
-      "sprint_speed": 0,
+      "max_move_speed": 6.3,
+      "sprint_speed": 1,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
       "light_melee_damage": 63,
@@ -10263,7 +9219,7 @@
           "stamina_reduction": 0
         },
         "tooltipDetails": {
-          "description": "Throw a flask that <span class=\"highlight\">damages, slows,</span> and reduces the <span class=\"highlight\">weapon damage</span> and <span class=\"highlight\">stamina</span> of enemies it hits.",
+          "description": "Throw a flask that <span class=\"highlight\">damages, slows movement,</span> and reduces the <span class=\"highlight\">weapon damage</span> of enemies it hits.",
           "properties": [
             {
               "key": "Damage",
@@ -10339,7 +9295,7 @@
           "tech_shield_points": 150
         },
         "tooltipDetails": {
-          "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus movement speed</span>.",
+          "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus move speed</span>.",
           "properties": [
             {
               "key": "TechShieldPoints",
@@ -10359,7 +9315,7 @@
           "upgrades": [
             {
               "move_speed_bonus_pct": 20,
-              "name": "Move speed bonus"
+              "name": "Move Speed bonus"
             },
             {
               "ability_cooldown": -20
@@ -10471,7 +9427,7 @@
           "cone_angle": 115
         },
         "tooltipDetails": {
-          "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done.",
+          "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you are have greatly increased <span class=\"highlight\">bullet and spirit resist</span>.",
           "properties": [
             {
               "key": "PulseDPS",
@@ -10516,11 +9472,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.31,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.942857,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 45,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -10690,8 +9647,8 @@
       ]
     },
     "spirit_scaling": {
-      "eroundspersecond": 0.015,
-      "efirerate": 0.375
+      "eroundspersecond": 0.012,
+      "efirerate": 0.3
     },
     "weapon_stats": {
       "bullet_damage": 19.8,
@@ -10744,7 +9701,7 @@
   },
   "yamato": {
     "id": 27,
-    "name": "hero_yamato",
+    "name": "Yamato",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -10754,7 +9711,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 8,
+      "max_move_speed": 8.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -11018,7 +9975,7 @@
           "bullet_resist": 55
         },
         "tooltipDetails": {
-          "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, your weapon has <span class=\"highlight\">infinite ammo</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
+          "description": "Become infused with {s:hero_name}'s shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, gain <span class=\"highlight\">immunity to negative status effects</span>, <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">Heal</span>.<br>Duration is extended if {s:hero_name} gets a hero kill.",
           "properties": [
             {
               "key": "AbilityDuration",
@@ -11064,11 +10021,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.5,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.353,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 31,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -11237,7 +10195,9 @@
         "ETechDuration"
       ]
     },
-    "spirit_scaling": {},
+    "spirit_scaling": {
+      "eclipsize": 0.15
+    },
     "weapon_stats": {
       "bullet_damage": 5.65,
       "rounds_per_second": 2.5,
@@ -11265,7 +10225,7 @@
         "Attribute_EWeaponAttribute_CloseRange"
       ]
     },
-    "lore": "犯罪組織のボスの家に生まれたカオリと兄のヤマトは、\\n父の死後、セブンスムーンの運営を引き継ぐ運命に\\nあることをずっと自覚していた。彼らは何年もの間、\\n二頭体制で組織を運営し、利益と成功をもたらし、\\nアメリカへの進出も計画していた。\\n\\n計画は単純だった。カオリは日本に残って国内を\\n統制し、ヤマトはアメリカに渡り国際的な拠点を\\n作るはずだった。兄妹にとって不運だったのは、\\nカオリが日本で指揮をとるという計画を快く\\n思わない部下たちがいたことだった。\\n\\n反逆は迅速かつ暴力的だった。ヤマトが命を犠牲に\\nしてカオリを守ったおかげで、カオリは一握りの\\n部下たちと共に日本からアメリカへ逃れることができた。\\n\\nアメリカに到着したカオリとその一行を迎え入れたのは、\\nヤマトを出迎えるはずの人物だった。その男は\\n日本人の名前には馴染みがなく、カオリのことを\\n「ヤマト」と呼んだ。カオリは間違いを正そうかと思ったが、\\n兄を記憶に留める最善の方法は、自分がヤマトの\\n名前を受け継ぎ、彼の夢をかなえることだと決意した。",
+    "lore": "犯罪組織のボスの家に生まれた花桜梨とその兄の\\n大和にとって、父の死後に「セブンスムーン」の跡目を\\n継ぐのは自明のことでもあった。 そして何年もの間、\\nかれらは対等の立場で組織を率いて利益と成功を\\nもたらし、やがてはアメリカへの進出をも目論むように\\nなった。\\n\\n思い描いていた計画は単純で、 大和がアメリカに渡って\\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\\n残って国内を統制する、といったものだった。 兄妹に\\nとって不運だったのは、花桜梨が日本で指揮をとると\\nいう計画を快く思わない部下たちがいたことだった。\\n\\nそして迅速かつ暴力的な形で、反乱は発生した。\\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\\n忠実な部下たちは、その大和の犠牲のおかげもあって、\\n日本からアメリカへと逃げ延びることに成功した。\\n\\nアメリカに着いた花桜梨たちを出迎えたのは、\\n本来であれば大和が会う予定となっていた男であった。\\n彼は日本人の名前になじみがなかったため性別の\\n区別がついておらず、花桜梨のことを「ヤマト」と\\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\\n結局そのままにした。兄の記憶を残し続けるためにも、\\nその名を名乗り、その夢を受け継ぐことが最善の\\n道であろうと考えたからだ。",
     "playstyle": "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count.",
     "role": "Delivers charged attacks with finesse",
     "recommended_items": [
@@ -11292,7 +10252,7 @@
   },
   "lash": {
     "id": 31,
-    "name": "hero_lash",
+    "name": "Lash",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -11302,7 +10262,7 @@
     "bot_selectable": true,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 1,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -11436,7 +10396,7 @@
           "weapon_fire_rate_bonus": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also restores <span class=\"highlight\">one stamina charge</span> and all <span class=\"highlight\">air jumps and dashes</span>.",
+          "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also resets your limit of <span class=\"highlight\">air jumps and dashes</span>.",
           "properties": [
             {
               "key": "JumpVelocity",
@@ -11559,7 +10519,7 @@
           "upgrades": [
             {
               "enemy_slow_duration": 3,
-              "name": "Enemy Move Slow",
+              "name": "Enemy Movement Slow",
               "enemy_slow_pct": 35
             },
             {
@@ -11672,11 +10632,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.15,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.707143,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 42,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -11895,7 +10856,7 @@
   },
   "viscous": {
     "id": 35,
-    "name": "hero_viscous",
+    "name": "Viscous",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -11905,7 +10866,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -12030,7 +10991,7 @@
           "stamina_cooldown_reduction": 0
         },
         "tooltipDetails": {
-          "description": "After exiting the cube, the target has increased <span class=\"highlight\">movement speed and stamina recovery</span> for a short duration.",
+          "description": "After exiting the cube, the target has increased <span class=\"highlight\">move speed and stamina recovery</span> for a short duration.",
           "properties": [
             {
               "key": "BonusMoveSpeed",
@@ -12240,10 +11201,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0.9,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 38,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -12440,7 +11402,7 @@
         "Attribute_EWeaponAttribute_Projectile"
       ]
     },
-    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory hunts the seas... and its denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Psychically building itself an ectoplasmic goo body so it can survive on the surface, Viscous desperately is trying to summon The Patrons to keep The Deep safe from the adversary that lurks below.",
+    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon the Patrons in order to keep The Deep safe from the horror that lurks below.",
     "playstyle": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",
     "role": "Rolls around deflecting bullets",
     "recommended_items": [
@@ -12464,7 +11426,7 @@
   },
   "gunslinger": {
     "id": 38,
-    "name": "hero_gunslinger",
+    "name": "Gunslinger",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -12474,7 +11436,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -12606,10 +11568,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -12808,7 +11771,7 @@
   },
   "yakuza": {
     "id": 39,
-    "name": "hero_yakuza",
+    "name": "The Boss",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -12818,7 +11781,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -12956,10 +11919,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -13158,7 +12122,7 @@
   },
   "genericperson": {
     "id": 46,
-    "name": "hero_genericperson",
+    "name": "Generic Person",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -13168,7 +12132,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -13278,10 +12242,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -13480,7 +12445,7 @@
   },
   "tokamak": {
     "id": 47,
-    "name": "hero_tokamak",
+    "name": "Tokamak",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -13490,7 +12455,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -13624,11 +12589,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.8487,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.666836,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -13827,17 +12793,17 @@
   },
   "wrecker": {
     "id": 48,
-    "name": "hero_wrecker",
+    "name": "Wrecker",
     "new_player_friendly": false,
     "in_development": true,
-    "in_hero_labs": false,
+    "in_hero_labs": true,
     "is_disabled": false,
     "complexity": 3,
     "readability": 1,
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -13884,7 +12850,7 @@
           "min_speed": 80
         },
         "tooltipDetails": {
-          "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> anything it hits. The ball takes time to create and you move slower while carrying it.",
+          "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> the first enemy hit. The ball takes time to create and you move slower while carrying it.",
           "properties": [
             {
               "key": "WreckingBallDamage",
@@ -13956,7 +12922,7 @@
           "salvage_bonus_health": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Stuns</span> an enemy trooper or NPC, <span class=\"highlight\">damaging</span> them while held. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently",
+          "description": "Latches onto an Enemy, <span class=\"highlight\">damaging</span> them while attached. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently.",
           "properties": [
             {
               "key": "DPS",
@@ -14150,11 +13116,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.58,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 1.241429,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -14381,7 +13348,7 @@
   },
   "rutger": {
     "id": 49,
-    "name": "hero_rutger",
+    "name": "Rutger",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -14391,7 +13358,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -14536,10 +13503,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -14738,7 +13706,7 @@
   },
   "synth": {
     "id": 50,
-    "name": "hero_synth",
+    "name": "Pocket",
     "new_player_friendly": false,
     "in_development": false,
     "in_hero_labs": false,
@@ -14748,11 +13716,11 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
-      "light_melee_damage": 63,
+      "light_melee_damage": 75,
       "heavy_melee_damage": 116,
       "max_health": 550,
       "weapon_power": 0,
@@ -15057,11 +14025,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.4,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.314286,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 31,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -15283,7 +14252,7 @@
   },
   "thumper": {
     "id": 51,
-    "name": "hero_thumper",
+    "name": "Thumper",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -15293,7 +14262,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -15435,10 +14404,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -15635,928 +14605,9 @@
     "playstyle": null,
     "role": null
   },
-  "mirage": {
-    "id": 52,
-    "name": "hero_mirage",
-    "new_player_friendly": false,
-    "in_development": true,
-    "in_hero_labs": false,
-    "is_disabled": false,
-    "complexity": 2,
-    "readability": 1,
-    "bot_selectable": false,
-    "lane_testing_recommended": false,
-    "starting_stats": {
-      "max_move_speed": 7,
-      "sprint_speed": 0,
-      "crouch_speed": 4.75,
-      "move_acceleration": 4,
-      "light_melee_damage": 63,
-      "heavy_melee_damage": 116,
-      "max_health": 550,
-      "weapon_power": 0,
-      "reload_speed": 1,
-      "weapon_power_scale": 1,
-      "stamina": 3,
-      "base_health_regen": 2,
-      "stamina_regen_per_second": 0.2,
-      "stamina_cooldown": 5,
-      "crit_damage_received_scale": 0,
-      "tech_range": 0,
-      "tech_duration": 0
-    },
-    "abilities": [
-      {
-        "key": "mirage_tornado",
-        "name": "Tornado",
-        "stats": {
-          "duration": 2,
-          "cooldown": 30,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.3,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "radius": 3.5,
-          "open_height": 3,
-          "damage": 60,
-          "tick_rate": 0.25,
-          "distance_above_ground": 2,
-          "climb_height": 1,
-          "drop_down_rate": 10,
-          "tornado_speed": 1200,
-          "enemy_lift_duration": 0.6,
-          "split_angle": 0,
-          "forward_offset": 125,
-          "lift_height": 3,
-          "damping_factor": 0.3,
-          "max_delta_movement_control": 2,
-          "move_slow_percent": 0,
-          "move_slow_duration": 0,
-          "boss_damage_percent": 50
-        },
-        "tooltipDetails": {
-          "description": "Send out a tornado that <span class=\"highlight\">damages enemies</span> and <span class=\"highlight\">lifts them up in the air</span>.",
-          "properties": [
-            {
-              "key": "Damage",
-              "value": 60,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.9828,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "EnemyLiftDuration",
-              "value": 0.6,
-              "m_e_scale_type": "ETechDuration",
-              "type": "duration"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "Radius",
-              "value": "3.5m",
-              "type": "distance"
-            }
-          ],
-          "upgrades": [
-            {
-              "move_slow_percent": 30,
-              "name": "Movement Slow Duration",
-              "move_slow_duration": 3
-            },
-            {
-              "ability_cooldown": -15
-            },
-            {
-              "damage": 120
-            }
-          ]
-        }
-      },
-      {
-        "key": "mirage_fire_beetles",
-        "name": "Fire Beetles",
-        "stats": {
-          "duration": 0,
-          "cooldown": 0,
-          "range": 0,
-          "charges": 3,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.05,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "launch_window_cooldown": 35,
-          "launch_window_duration": 20,
-          "charges_conditionally": 1,
-          "radius": 4,
-          "dps": 30,
-          "damage_interval": 0.5,
-          "slow_percent": 20,
-          "debuff_duration": 4
-        },
-        "tooltipDetails": {
-          "description": "Start launching fire beetles at a ground location, applying slow and dealing damage where they land. Once the launch window ends, this ability goes on cooldown.",
-          "properties": [
-            {
-              "key": "DPS",
-              "value": 30,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.3,
-                "type": "spirit"
-              }
-            },
-            {
-              "key": "SlowPercent",
-              "value": 20,
-              "type": "slow",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "DebuffDuration",
-              "value": 4,
-              "type": "duration"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "LaunchWindowDuration",
-              "value": 20,
-              "type": "duration"
-            },
-            {
-              "key": "LaunchWindowCooldown",
-              "value": 35
-            }
-          ],
-          "upgrades": [
-            {
-              "slow_percent": 20
-            },
-            {
-              "ability_charges": 2
-            },
-            {
-              "dps": 40
-            }
-          ]
-        }
-      },
-      {
-        "key": "mirage_sand_phantom",
-        "name": "Whirling Dervish",
-        "stats": {
-          "duration": 0,
-          "cooldown": 45,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 200,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "time_before_teleport": 3.5,
-          "camera_distance": 250,
-          "trail_interval": 0.1,
-          "pre_creation_travel_time": 0.5,
-          "ground_dash_reduction_percent": 0,
-          "whirlwind_evasion_chance": 40,
-          "whirlwind_duration": 8,
-          "bonus_move_speed": 3,
-          "move_speed_duration": 6,
-          "weapon_damage_bonus": 0
-        },
-        "tooltipDetails": {
-          "description": "Become enveloped in a whirlwind, gaining <span class=\"highlight\">bullet evasion</span> and bonus <span class=\"highlight\">movement speed</span>.",
-          "properties": [
-            {
-              "key": "WhirlwindEvasionChance",
-              "value": 40
-            },
-            {
-              "key": "BonusMoveSpeed",
-              "m_e_display_units": "EDisplayUnit_MetersPerSecond",
-              "value": "3m",
-              "type": "move_speed",
-              "m_e_display_type": "EMaxMoveSpeed",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "WhirlwindDuration",
-              "value": 8
-            }
-          ],
-          "upgrades": [
-            {
-              "whirlwind_evasion_chance": 20,
-              "name": "Bullet Evasion Chance"
-            },
-            {
-              "ability_cooldown": -18
-            },
-            {
-              "weapon_damage_bonus": 15
-            }
-          ]
-        }
-      },
-      {
-        "key": "mirage_djinns_reach",
-        "name": "Djinn's Reach",
-        "stats": {
-          "duration": 0,
-          "cooldown": 40,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 9999,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.75,
-          "channel_time": 9999,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": -1,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "tech_cleave_expire_time": 0.2,
-          "fall_speed_max": 60,
-          "air_speed_max": 150,
-          "damage": 0,
-          "camera_height_offset": 20,
-          "camera_horizontal_offset": 15,
-          "boss_damage_percent": 50,
-          "debuff_duration": 4.5,
-          "cone_radius": 25,
-          "cone_angle": 70,
-          "chain_slow_percent": 30,
-          "chain_length": 22
-        },
-        "tooltipDetails": {
-          "description": "Launch a projectile that roots the first target it hits, then tethers other enemies behind to the primary target.",
-          "properties": [
-            {
-              "key": "DebuffDuration",
-              "value": 4.5,
-              "m_e_scale_type": "ETechDuration",
-              "type": "duration"
-            },
-            {
-              "key": "ConeRadius",
-              "value": "25m",
-              "type": "distance",
-              "loc_token_override": "DjinnsReachConeRadius"
-            }
-          ],
-          "basicProperties": [
-            {
-              "key": "ChainSlowPercent",
-              "value": 30,
-              "type": "slow"
-            }
-          ],
-          "upgrades": [
-            {
-              "ability_cooldown": -1
-            },
-            {
-              "ability_cooldown": -1
-            },
-            {
-              "ability_cooldown": -1
-            }
-          ]
-        }
-      }
-    ],
-    "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.7,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
-      "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
-    },
-    "collision": {
-      "radius": 20,
-      "height": 80,
-      "step_height": 32
-    },
-    "movement": {
-      "stealth_speed": 4,
-      "footstep_sound_distance": 20,
-      "step_sound_time": 0.35
-    },
-    "visuals": {
-      "ui_color": [
-        132,
-        103,
-        60
-      ],
-      "glow_colors": {
-        "friendly": [
-          255,
-          239,
-          215
-        ],
-        "enemy": [
-          255,
-          0,
-          0
-        ],
-        "team1": [
-          231,
-          182,
-          89
-        ],
-        "team2": [
-          91,
-          121,
-          230
-        ]
-      },
-      "model_skin": 0
-    },
-    "item_slots": {
-      "weapon_mod": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "armor": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "tech": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      }
-    },
-    "purchase_bonuses": {
-      "weapon_mod": [
-        {
-          "tier": 1,
-          "value": 6,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 10,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 18,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        }
-      ],
-      "armor": [
-        {
-          "tier": 1,
-          "value": 11,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 17,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 20,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        }
-      ],
-      "tech": [
-        {
-          "tier": 1,
-          "value": 4,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 2,
-          "value": 8,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 3,
-          "value": 12,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 4,
-          "value": 16,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        }
-      ]
-    },
-    "stats_display": {
-      "health_header_stats": [
-        "EMaxHealth",
-        "EBaseHealthRegen"
-      ],
-      "health_stats": [
-        "EBulletArmorDamageReduction",
-        "ETechArmorDamageReduction",
-        "EBulletShieldHealth",
-        "ETechShieldHealth",
-        "EBulletLifesteal",
-        "ETechLifesteal",
-        "EMaxMoveSpeed",
-        "ESprintSpeed",
-        "EStamina",
-        "EHealingOutput"
-      ],
-      "weapon_header_stats": [
-        "EWeaponDPS",
-        "EBulletDamage"
-      ],
-      "weapon_stats": [
-        "ELightMeleeDamage",
-        "EHeavyMeleeDamage",
-        "EFireRate",
-        "EClipSize"
-      ],
-      "magic_header_stats": [
-        "ETechPower"
-      ],
-      "magic_stats": [
-        "ETechCooldown",
-        "ETechRange",
-        "ETechDuration"
-      ]
-    },
-    "spirit_scaling": {},
-    "weapon_stats": {
-      "bullet_damage": 25.8,
-      "rounds_per_second": 2.2222222222222223,
-      "clip_size": 12,
-      "reload_time": 2.75,
-      "reload_movespeed": 1,
-      "reload_delay": 0,
-      "reload_single": false,
-      "bullet_speed": 266,
-      "falloff_start_range": 8.66,
-      "falloff_end_range": 22.64,
-      "falloff_start_scale": 1,
-      "falloff_end_scale": 0.1,
-      "falloff_bias": 0.5,
-      "bullet_gravity_scale": 0.8,
-      "bullets_per_shot": 1,
-      "bullets_per_burst": 1,
-      "burst_inter_shot_interval": 0,
-      "dps": 57.33333333333334,
-      "sustained_dps": 37.9877300613497,
-      "weapon_name": "citadel_weapon_mirage_set",
-      "weapon_description": "citadel_weapon_hero_mirage_set",
-      "weapon_types": [
-        "Attribute_EWeaponAttribute_MediumRange",
-        "Attribute_EWeaponAttribute_HeavyHitter"
-      ]
-    },
-    "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
-    "playstyle": "[playstyle info here]",
-    "role": "Fires off barrages while evading shots",
-    "recommended_items": [
-      "upgrade_clip_size",
-      "upgrade_close_range",
-      "upgrade_magic_reach",
-      "upgrade_endurance",
-      "upgrade_improved_spirit",
-      "upgrade_magic_tempo",
-      "upgrade_fleetfoot_boots",
-      "upgrade_vampire",
-      "upgrade_bullet_armor",
-      "upgrade_cold_front",
-      "upgrade_slowing_bullets",
-      "upgrade_tech_armor",
-      "upgrade_magic_shield",
-      "upgrade_cooldown_reduction",
-      "upgrade_soaring_spirit",
-      "upgrade_close_quarter_combat",
-      "upgrade_tech_purge",
-      "upgrade_damage_recycler",
-      "upgrade_tech_range",
-      "upgrade_mega_spirit",
-      "upgrade_silencer",
-      "upgrade_siphon_bullets"
-    ]
-  },
-  "slork": {
-    "id": 53,
-    "name": "hero_slork",
-    "new_player_friendly": false,
-    "in_development": true,
-    "in_hero_labs": false,
-    "is_disabled": true,
-    "complexity": 2,
-    "readability": 1,
-    "bot_selectable": false,
-    "lane_testing_recommended": false,
-    "starting_stats": {
-      "max_move_speed": 7,
-      "sprint_speed": 0,
-      "crouch_speed": 4.75,
-      "move_acceleration": 4,
-      "light_melee_damage": 63,
-      "heavy_melee_damage": 116,
-      "max_health": 550,
-      "weapon_power": 0,
-      "reload_speed": 1,
-      "weapon_power_scale": 1,
-      "stamina": 3,
-      "base_health_regen": 2,
-      "stamina_regen_per_second": 0.2,
-      "stamina_cooldown": 5,
-      "crit_damage_received_scale": 0,
-      "tech_range": 0,
-      "tech_duration": 0
-    },
-    "abilities": [
-      {
-        "key": "slork_riptide",
-        "name": "Riptide",
-        "stats": {
-          "duration": 3,
-          "cooldown": 24,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0.2,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "radius": 3.5,
-          "open_height": 2,
-          "distance_above_ground": 0.25,
-          "climb_height": 1,
-          "drop_down_rate": 2,
-          "speed": 600,
-          "impact_damage": 32,
-          "dps": 24,
-          "tick_rate": 0.5,
-          "slow_percent": 0,
-          "burn_duration": 2,
-          "toss_speed": 650
-        }
-      },
-      {
-        "key": "slork_chomp",
-        "name": "Chomp",
-        "stats": {
-          "duration": 2.5,
-          "cooldown": 33,
-          "range": 10,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 10,
-          "unit_target_limit": 1,
-          "cast_delay": 0,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "lift_height": 30,
-          "lift_horizontal": -70,
-          "follow_damping_factor": 5,
-          "tick_rate": 0.5,
-          "dps": 24,
-          "speed_bonus": 0,
-          "hobbled_movement_slow": 15,
-          "chomp_heal_percent": 0,
-          "damage_percent_health": 4,
-          "cooldown_on_miss": 5,
-          "break_range": 6
-        }
-      },
-      {
-        "key": "slork_last_breath",
-        "name": "Deep's Embrace",
-        "stats": {
-          "duration": 8,
-          "cooldown": 27,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 0,
-          "unit_target_limit": 1,
-          "cast_delay": 0,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "blast_radius": 8,
-          "damage_absorb": 120,
-          "burst_damage": 80
-        }
-      },
-      {
-        "key": "slork_ability_invis",
-        "name": "Ambush Predator",
-        "stats": {
-          "duration": 0,
-          "cooldown": 0,
-          "range": 20,
-          "charges": 1,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
-          "resource_cost": 0,
-          "cast_range": 20,
-          "unit_target_limit": 100,
-          "cast_delay": 0,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
-          "tech_power": 0,
-          "weapon_power": 0,
-          "invis_alert_when_fading": 0,
-          "invis_cancel_on_damage": 0,
-          "invis_fade_to_duration": 10,
-          "invis_move_speed_mod": 2,
-          "spotted_radius": 16,
-          "reveal_on_damage_duration": 5,
-          "reveal_on_spotted_duration": 5,
-          "charges_conditionally": 1,
-          "prevent_healing_time": 7,
-          "cant_hide_time": 5,
-          "ambush_time": 0.25,
-          "ambush_damage": 80,
-          "full_invis_distance": 50,
-          "invis_regen": 0,
-          "stamina_damage": 2
-        }
-      }
-    ],
-    "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.73,
-      "modifier_value_base_melee_damage_from_level": 3.4,
-      "modifier_value_base_health_from_level": 41,
-      "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
-    },
-    "collision": {
-      "radius": 20,
-      "height": 80,
-      "step_height": 32
-    },
-    "movement": {
-      "stealth_speed": 4,
-      "footstep_sound_distance": 20,
-      "step_sound_time": 0.385
-    },
-    "visuals": {
-      "ui_color": [
-        255,
-        255,
-        255
-      ],
-      "glow_colors": {
-        "friendly": [
-          255,
-          239,
-          215
-        ],
-        "enemy": [
-          255,
-          0,
-          0
-        ],
-        "team1": [
-          231,
-          182,
-          89
-        ],
-        "team2": [
-          91,
-          121,
-          230
-        ]
-      },
-      "model_skin": 0
-    },
-    "item_slots": {
-      "weapon_mod": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "armor": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      },
-      "tech": {
-        "max_purchases_per_tier": [
-          6,
-          6,
-          6
-        ]
-      }
-    },
-    "purchase_bonuses": {
-      "weapon_mod": [
-        {
-          "tier": 1,
-          "value": 6,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 10,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 18,
-          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
-        }
-      ],
-      "armor": [
-        {
-          "tier": 1,
-          "value": 11,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 2,
-          "value": 14,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 3,
-          "value": 17,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        },
-        {
-          "tier": 4,
-          "value": 20,
-          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
-        }
-      ],
-      "tech": [
-        {
-          "tier": 1,
-          "value": 4,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 2,
-          "value": 8,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 3,
-          "value": 12,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        },
-        {
-          "tier": 4,
-          "value": 16,
-          "type": "MODIFIER_VALUE_TECH_POWER"
-        }
-      ]
-    },
-    "stats_display": {
-      "health_header_stats": [
-        "EMaxHealth",
-        "EBaseHealthRegen"
-      ],
-      "health_stats": [
-        "EBulletArmorDamageReduction",
-        "ETechArmorDamageReduction",
-        "EBulletShieldHealth",
-        "ETechShieldHealth",
-        "EBulletLifesteal",
-        "ETechLifesteal",
-        "EMaxMoveSpeed",
-        "ESprintSpeed",
-        "EStamina",
-        "EHealingOutput"
-      ],
-      "weapon_header_stats": [
-        "EWeaponDPS",
-        "EBulletDamage"
-      ],
-      "weapon_stats": [
-        "ELightMeleeDamage",
-        "EHeavyMeleeDamage",
-        "EFireRate",
-        "EClipSize"
-      ],
-      "magic_header_stats": [
-        "ETechPower"
-      ],
-      "magic_stats": [
-        "ETechCooldown",
-        "ETechRange",
-        "ETechDuration"
-      ]
-    },
-    "spirit_scaling": {},
-    "weapon_stats": {
-      "bullet_damage": 11,
-      "rounds_per_second": 5,
-      "clip_size": 20,
-      "reload_time": 2.2,
-      "reload_movespeed": 1,
-      "reload_delay": 0,
-      "reload_single": false,
-      "bullet_speed": 91,
-      "falloff_start_range": 8.66,
-      "falloff_end_range": 22.64,
-      "falloff_start_scale": 1,
-      "falloff_end_scale": 0.1,
-      "falloff_bias": 0.5,
-      "bullet_gravity_scale": 0.3,
-      "bullets_per_shot": 1,
-      "bullets_per_burst": 1,
-      "burst_inter_shot_interval": 0,
-      "dps": 55,
-      "sustained_dps": 35.483870967741936,
-      "weapon_name": "citadel_weapon_slork_set",
-      "weapon_description": "citadel_weapon_hero_slork_set"
-    },
-    "lore": null,
-    "playstyle": "Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target.",
-    "role": null
-  },
   "cadence": {
     "id": 54,
-    "name": "hero_cadence",
+    "name": "Cadence",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -16566,7 +14617,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -16695,10 +14746,11 @@
     ],
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -16897,7 +14949,7 @@
   },
   "bomber": {
     "id": 56,
-    "name": "hero_bomber",
+    "name": "Bomber",
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
@@ -16907,7 +14959,7 @@
     "bot_selectable": false,
     "lane_testing_recommended": false,
     "starting_stats": {
-      "max_move_speed": 7,
+      "max_move_speed": 7.3,
       "sprint_speed": 0,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
@@ -17069,11 +15121,12 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.159,
-      "modifier_value_base_melee_damage_from_level": 3.4,
+      "modifier_value_base_bullet_damage_from_level": 0.124929,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,

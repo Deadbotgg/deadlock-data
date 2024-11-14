@@ -35,7 +35,7 @@
     "fire_rate_slow": 0
   },
   "tooltipDetails": {
-    "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. <br>Hold [{s:iv_attack}] to dash faster.",
+    "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. Infernus gains {s:SlowResistancePercent}% slow resistance for the duration.  <br>Hold [{s:iv_attack}] to dash faster.",
     "properties": [
       {
         "key": "SpeedBurstSpeed",

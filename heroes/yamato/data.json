@@ -1,6 +1,6 @@
 {
   "id": 27,
-  "name": "hero_yamato",
+  "name": "Yamato",
   "new_player_friendly": false,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,7 +10,7 @@
   "bot_selectable": false,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 8,
+    "max_move_speed": 8.3,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -29,11 +29,12 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.5,
-    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_bullet_damage_from_level": 0.353,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 31,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -202,7 +203,9 @@
       "ETechDuration"
     ]
   },
-  "spirit_scaling": {},
+  "spirit_scaling": {
+    "eclipsize": 0.15
+  },
   "weapon_stats": {
     "bullet_damage": 5.65,
     "rounds_per_second": 2.5,
@@ -230,7 +233,7 @@
       "Attribute_EWeaponAttribute_CloseRange"
     ]
   },
-  "lore": "犯罪組織のボスの家に生まれたカオリと兄のヤマトは、\\n父の死後、セブンスムーンの運営を引き継ぐ運命に\\nあることをずっと自覚していた。彼らは何年もの間、\\n二頭体制で組織を運営し、利益と成功をもたらし、\\nアメリカへの進出も計画していた。\\n\\n計画は単純だった。カオリは日本に残って国内を\\n統制し、ヤマトはアメリカに渡り国際的な拠点を\\n作るはずだった。兄妹にとって不運だったのは、\\nカオリが日本で指揮をとるという計画を快く\\n思わない部下たちがいたことだった。\\n\\n反逆は迅速かつ暴力的だった。ヤマトが命を犠牲に\\nしてカオリを守ったおかげで、カオリは一握りの\\n部下たちと共に日本からアメリカへ逃れることができた。\\n\\nアメリカに到着したカオリとその一行を迎え入れたのは、\\nヤマトを出迎えるはずの人物だった。その男は\\n日本人の名前には馴染みがなく、カオリのことを\\n「ヤマト」と呼んだ。カオリは間違いを正そうかと思ったが、\\n兄を記憶に留める最善の方法は、自分がヤマトの\\n名前を受け継ぎ、彼の夢をかなえることだと決意した。",
+  "lore": "犯罪組織のボスの家に生まれた花桜梨とその兄の\\n大和にとって、父の死後に「セブンスムーン」の跡目を\\n継ぐのは自明のことでもあった。 そして何年もの間、\\nかれらは対等の立場で組織を率いて利益と成功を\\nもたらし、やがてはアメリカへの進出をも目論むように\\nなった。\\n\\n思い描いていた計画は単純で、 大和がアメリカに渡って\\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\\n残って国内を統制する、といったものだった。 兄妹に\\nとって不運だったのは、花桜梨が日本で指揮をとると\\nいう計画を快く思わない部下たちがいたことだった。\\n\\nそして迅速かつ暴力的な形で、反乱は発生した。\\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\\n忠実な部下たちは、その大和の犠牲のおかげもあって、\\n日本からアメリカへと逃げ延びることに成功した。\\n\\nアメリカに着いた花桜梨たちを出迎えたのは、\\n本来であれば大和が会う予定となっていた男であった。\\n彼は日本人の名前になじみがなかったため性別の\\n区別がついておらず、花桜梨のことを「ヤマト」と\\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\\n結局そのままにした。兄の記憶を残し続けるためにも、\\nその名を名乗り、その夢を受け継ぐことが最善の\\n道であろうと考えたからだ。",
   "playstyle": "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count.",
   "role": "Delivers charged attacks with finesse",
   "recommended_items": [

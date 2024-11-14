@@ -93,7 +93,7 @@
             "is_conditional": true
           }
         },
-        "description": "Provides bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
+        "description": "Provides bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
       }
     ]
   },

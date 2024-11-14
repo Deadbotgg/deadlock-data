@@ -26,7 +26,7 @@
     "movement_speed_bonus_duration": 0
   },
   "tooltipDetails": {
-    "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby.",
+    "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby. Dashing does not break channel.",
     "properties": [
       {
         "key": "HealingPerSecond",

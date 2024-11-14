@@ -1,6 +1,6 @@
 {
   "name": "Healing Booster",
-  "description": "Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>.",
+  "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -42,7 +42,7 @@
         "ability_properties": {},
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>."
+        "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>."
       }
     ]
   },

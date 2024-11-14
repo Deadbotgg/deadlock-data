@@ -29,7 +29,7 @@
     "weapon_fire_rate_bonus": 0
   },
   "tooltipDetails": {
-    "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also restores <span class=\"highlight\">one stamina charge</span> and all <span class=\"highlight\">air jumps and dashes</span>.",
+    "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also resets your limit of <span class=\"highlight\">air jumps and dashes</span>.",
     "properties": [
       {
         "key": "JumpVelocity",

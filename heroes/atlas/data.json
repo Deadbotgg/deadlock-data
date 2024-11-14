@@ -1,6 +1,6 @@
 {
   "id": 6,
-  "name": "hero_atlas",
+  "name": "Abrams",
   "new_player_friendly": true,
   "in_development": false,
   "in_hero_labs": false,
@@ -10,13 +10,13 @@
   "bot_selectable": true,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 6.5,
+    "max_move_speed": 6.8,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
     "light_melee_damage": 63,
     "heavy_melee_damage": 116,
-    "max_health": 600,
+    "max_health": 570,
     "weapon_power": 0,
     "reload_speed": 1,
     "weapon_power_scale": 1,
@@ -29,11 +29,12 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.32,
-    "modifier_value_base_melee_damage_from_level": 3.4,
-    "modifier_value_base_health_from_level": 32,
+    "modifier_value_base_bullet_damage_from_level": 0.251429,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 34,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,
@@ -231,7 +232,7 @@
     ]
   },
   "lore": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years.  From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.\\n\\nBut his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.\\n\\nNo instruction was left for him save for a brief note scrawled in onyx blood that read \\\"Don't let them have it\\\".  Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",
-  "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his back-line teammates can lay out damage with impunity.",
+  "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his backline teammates can lay out damage with impunity.",
   "role": "Charges into close combat",
   "recommended_items": [
     "upgrade_close_range",

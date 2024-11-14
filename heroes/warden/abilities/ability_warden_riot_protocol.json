@@ -26,7 +26,7 @@
     "cone_angle": 115
   },
   "tooltipDetails": {
-    "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done.",
+    "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you are have greatly increased <span class=\"highlight\">bullet and spirit resist</span>.",
     "properties": [
       {
         "key": "PulseDPS",
