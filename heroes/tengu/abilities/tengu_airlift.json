@@ -2,8 +2,8 @@
   "key": "citadel_ability_tengu_airlift",
   "name": "Air Drop",
   "stats": {
-    "duration": 20,
-    "cooldown": 70,
+    "duration": 17,
+    "cooldown": 80,
     "range": 8,
     "charges": 0,
     "charge_restore_time": 0,
@@ -30,10 +30,11 @@
     "bullet_armor_reduction": 0,
     "bullet_armor_reduction_duration": 0,
     "slow_percent": 35,
-    "debuff_duration": 3
+    "debuff_duration": 4.5,
+    "silence_duration": 0
   },
   "tooltipDetails": {
-    "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">Movement slow and Silence</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+    "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
     "properties": [
       {
         "key": "ExplodeDamage",
@@ -57,7 +58,7 @@
       {
         "key": "DebuffDuration",
         "loc_token_override": "AirDropDebuffDuration",
-        "value": 3,
+        "value": 4.5,
         "type": "duration"
       }
     ],
@@ -103,6 +104,12 @@
         "loc_token_override": "AirDropDebuff02Duration",
         "value": 0,
         "type": "duration"
+      },
+      {
+        "key": "SilenceDuration",
+        "loc_token_override": "AirDropSilenceDuration",
+        "value": 0,
+        "type": "duration"
       }
     ],
     "upgrades": [
@@ -113,11 +120,11 @@
       },
       {
         "air_drop_bullet_shield": 300,
-        "name": "Bullet Shield"
+        "name": "Landing Radius",
+        "on_land_damage_radius": 5
       },
       {
-        "on_land_damage_radius": 12,
-        "debuff_duration": 2
+        "silence_duration": 4.5
       }
     ]
   }

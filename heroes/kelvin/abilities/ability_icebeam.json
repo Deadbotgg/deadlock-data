@@ -33,7 +33,7 @@
     "beam_split": 0
   },
   "tooltipDetails": {
-    "description": "{s:hero_name} shoots freezing cold energy out in front of him, <span class=\"highlight\">damaging and slowing</span> anything it touches. The <span class=\"highlight\">slow increases in strength</span> the more it hits and applies <span class=\"highlight\">disarm</span> at max strength. {s:hero_name} has reduced movement speed while using Arctic Beam.",
+    "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam.",
     "properties": [
       {
         "key": "DPS",
@@ -52,7 +52,7 @@
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "IceBeamBuildupProcDuration",
+        "key": "MaxSlowTime",
         "value": 2,
         "type": "duration"
       }
@@ -64,7 +64,7 @@
         "type": "distance"
       },
       {
-        "key": "MaxSlowTime",
+        "key": "IceBeamBuildupProcDuration",
         "value": 2,
         "type": "duration"
       },

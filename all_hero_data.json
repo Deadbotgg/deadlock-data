@@ -5108,7 +5108,7 @@
           "beam_split": 0
         },
         "tooltipDetails": {
-          "description": "{s:hero_name} shoots freezing cold energy out in front of him, <span class=\"highlight\">damaging and slowing</span> anything it touches. The <span class=\"highlight\">slow increases in strength</span> the more it hits and applies <span class=\"highlight\">disarm</span> at max strength. {s:hero_name} has reduced movement speed while using Arctic Beam.",
+          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam.",
           "properties": [
             {
               "key": "DPS",
@@ -5127,7 +5127,7 @@
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
-              "key": "IceBeamBuildupProcDuration",
+              "key": "MaxSlowTime",
               "value": 2,
               "type": "duration"
             }
@@ -5139,7 +5139,7 @@
               "type": "distance"
             },
             {
-              "key": "MaxSlowTime",
+              "key": "IceBeamBuildupProcDuration",
               "value": 2,
               "type": "duration"
             },
@@ -8784,7 +8784,7 @@
           "weapon_power": 0,
           "bleed_tick_rate": 1,
           "movement_slow": 35,
-          "impact_damage": 75,
+          "impact_damage": 35,
           "bleed_dps_per_stack": 5,
           "debuff_duration": 5,
           "aoe_radius": 10,
@@ -8807,7 +8807,7 @@
               "debuff_duration": 2
             },
             {
-              "impact_damage": 75,
+              "impact_damage": 40,
               "name": "Bleed DPS Per Knife",
               "bleed_dps_per_stack": 5
             }
@@ -9166,7 +9166,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 6.3,
+      "bullet_damage": 5.7,
       "rounds_per_second": 1.9047619047619047,
       "clip_size": 10,
       "reload_time": 2.8,
@@ -9183,8 +9183,8 @@
       "bullets_per_shot": 6,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 71.99999999999999,
-      "sustained_dps": 46.95652173913043,
+      "dps": 65.14285714285714,
+      "sustained_dps": 42.48447204968944,
       "weapon_name": "citadel_weapon_shiv_set",
       "weapon_description": "citadel_weapon_hero_shiv_set",
       "weapon_types": [
@@ -9481,8 +9481,8 @@
         "key": "citadel_ability_tengu_airlift",
         "name": "Air Drop",
         "stats": {
-          "duration": 20,
-          "cooldown": 70,
+          "duration": 17,
+          "cooldown": 80,
           "range": 8,
           "charges": 0,
           "charge_restore_time": 0,
@@ -9509,10 +9509,11 @@
           "bullet_armor_reduction": 0,
           "bullet_armor_reduction_duration": 0,
           "slow_percent": 35,
-          "debuff_duration": 3
+          "debuff_duration": 4.5,
+          "silence_duration": 0
         },
         "tooltipDetails": {
-          "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">Movement slow and Silence</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+          "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
           "properties": [
             {
               "key": "ExplodeDamage",
@@ -9536,7 +9537,7 @@
             {
               "key": "DebuffDuration",
               "loc_token_override": "AirDropDebuffDuration",
-              "value": 3,
+              "value": 4.5,
               "type": "duration"
             }
           ],
@@ -9582,6 +9583,12 @@
               "loc_token_override": "AirDropDebuff02Duration",
               "value": 0,
               "type": "duration"
+            },
+            {
+              "key": "SilenceDuration",
+              "loc_token_override": "AirDropSilenceDuration",
+              "value": 0,
+              "type": "duration"
             }
           ],
           "upgrades": [
@@ -9592,11 +9599,11 @@
             },
             {
               "air_drop_bullet_shield": 300,
-              "name": "Bullet Shield"
+              "name": "Landing Radius",
+              "on_land_damage_radius": 5
             },
             {
-              "on_land_damage_radius": 12,
-              "debuff_duration": 2
+              "silence_duration": 4.5
             }
           ]
         }

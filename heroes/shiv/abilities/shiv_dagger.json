@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "bleed_tick_rate": 1,
     "movement_slow": 35,
-    "impact_damage": 75,
+    "impact_damage": 35,
     "bleed_dps_per_stack": 5,
     "debuff_duration": 5,
     "aoe_radius": 10,
@@ -43,7 +43,7 @@
         "debuff_duration": 2
       },
       {
-        "impact_damage": 75,
+        "impact_damage": 40,
         "name": "Bleed DPS Per Knife",
         "bleed_dps_per_stack": 5
       }

@@ -204,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 6.3,
+    "bullet_damage": 5.7,
     "rounds_per_second": 1.9047619047619047,
     "clip_size": 10,
     "reload_time": 2.8,
@@ -221,8 +221,8 @@
     "bullets_per_shot": 6,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 71.99999999999999,
-    "sustained_dps": 46.95652173913043,
+    "dps": 65.14285714285714,
+    "sustained_dps": 42.48447204968944,
     "weapon_name": "citadel_weapon_shiv_set",
     "weapon_description": "citadel_weapon_hero_shiv_set",
     "weapon_types": [

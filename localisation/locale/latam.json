@@ -1460,16 +1460,12 @@
   "Citadel_HeroBuilds_BuildDescriptionTitle": "Descripción de la referencia",
   "Citadel_HeroBuilds_PickABuildOption": "Referencia predeterminada recomendada",
   "Citadel_HeroBuilds_PublicBuildLabel": "Referencia pública",
-  "Citadel_HeroBuilds_PublishBuildLabel": "Publicar referencia",
   "Citadel_HeroBuilds_BuildPublishedLabel": "Referencia publicada",
-  "Citadel_HeroBuilds_DeleteBuildLabel": "Borrar referencia",
   "Citadel_HeroBuilds_SelectBuildLabel": "Marcar como predeterminada",
   "Citadel_HeroBuilds_SaveBuild": "Guardar cambios",
   "Citadel_HeroBuilds_CancelChanges": "Cancelar",
   "Citadel_HeroBuilds_FavoriteBuild": "Seleccionado",
   "Citadel_HeroBuilds_CreateBuildLabel": "Crear nueva referencia",
-  "Citadel_HeroBuilds_EditBuildLabel": "Editar referencia",
-  "Citadel_HeroBuilds_CopyBuildLabel": "Copiar y editar referencia",
   "Citadel_HeroBuilds_BuildCreatorTitle": "Creado por",
   "Citadel_HeroBuilds_ErrorTitle": "Error",
   "Citadel_HeroBuilds_ValidateErrorTitle": "Error al guardar referencia",
@@ -2540,5 +2536,7 @@
   "citadel_next_ap_abilities": "<Panel class=\\\"goldIcon\\\"/> <span class=\\\"nextAPGoldLabel\\\">{i:gold_to_next_level}</span> para el siguiente nivel",
   "citadel_ap_max_level": "nivel máx.",
   "citadel_value_then_value_now_ability_upgrades": "({s:ValueNow} → <span class=\\\"greenUpgradedText\\\">{s:ValueThen}</span>)",
-  "upgrade_small_attack_speed": "Velocidad de tiro básico"
+  "upgrade_high_velocity_mag": "Cargador de alta velocidad",
+  "upgrade_small_attack_speed": "Velocidad de tiro básico",
+  "upgrade_magic_carpet": "Alfombra mágica"
 }

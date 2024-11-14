@@ -1,4 +1,6 @@
 {
   "Language": "latam",
-  "upgrade_small_attack_speed": "Velocidad de tiro básico"
+  "upgrade_high_velocity_mag": "Cargador de alta velocidad",
+  "upgrade_small_attack_speed": "Velocidad de tiro básico",
+  "upgrade_magic_carpet": "Alfombra mágica"
 }

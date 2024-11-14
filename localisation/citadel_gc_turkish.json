@@ -1,5 +1,13 @@
 {
   "Language": "turkish",
+  "ItemNameCraftNumberFormat": " #%s1",
+  "ItemTypeDesc": "Seviye %s1 %s2\"\t\t\t// s1 is the level number, s2 is the item type. Example: \"Level 4 Medigun",
+  "ItemTypeDescNoLevel": "Seviye %s1\"\t\t\t\t// s1 is the level number. Example: \"Level 12",
+  "ItemTypeDescKillEaterAlt": "%s2: %s1\"\t\t\t\t// \"Kills: 123",
+  "Econ_Store_PurchaseType_Standard": "%s1",
+  "AttribFormat_AdditionalNote": "( %s1 )",
+  "Tag_Category_Rarity": "Nadirlik",
+  "Tag_Category_ItemType": "Eşya Türü",
   "Steam_Citadel_RP_Online": "Çevrimiçi",
   "upgrade_double_jump": "Çift Zıplama",
   "upgrade_superior_stamina": "Üstün Kuvvet",
