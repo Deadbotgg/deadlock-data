@@ -19219,7 +19219,7 @@
       "ESprintSpeed": 0,
       "ECrouchSpeed": 4.75,
       "EMoveAcceleration": 4,
-      "ELightMeleeDamage": 63,
+      "ELightMeleeDamage": 75,
       "EHeavyMeleeDamage": 116,
       "EMaxHealth": 550,
       "EWeaponPower": 0,

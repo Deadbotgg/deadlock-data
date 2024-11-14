@@ -14,7 +14,7 @@
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
-    "light_melee_damage": 63,
+    "light_melee_damage": 75,
     "heavy_melee_damage": 116,
     "max_health": 550,
     "weapon_power": 0,
