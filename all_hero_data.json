@@ -15877,11 +15877,11 @@
           "lift_height": 3,
           "damping_factor": 0.3,
           "max_delta_movement_control": 2,
-          "hold_in_place_duration": 1.5,
+          "hold_in_place_duration": 1.2,
           "boss_damage_percent": 50,
           "target_bullet_evasion_chance": 0,
           "tech_armor_damage_reduction": 0,
-          "whirlwind_evasion_chance": 30,
+          "whirlwind_evasion_chance": 25,
           "whirlwind_duration": 3.5
         },
         "tooltipDetails": {
@@ -15898,12 +15898,12 @@
             },
             {
               "key": "HoldInPlaceDuration",
-              "value": 1.5,
+              "value": 1.2,
               "type": "duration"
             },
             {
               "key": "WhirlwindEvasionChance",
-              "value": 30,
+              "value": 25,
               "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_EVASION",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
@@ -15921,7 +15921,7 @@
           ],
           "upgrades": [
             {
-              "hold_in_place_duration": 0.5,
+              "hold_in_place_duration": 0.4,
               "name": "Lift Duration"
             },
             {
@@ -16103,6 +16103,7 @@
               "proc_damage_base": 10
             },
             {
+              "proc_cooldown": -0.5,
               "max_stacks": 4
             }
           ]
