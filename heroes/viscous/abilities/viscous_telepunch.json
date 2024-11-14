@@ -3,13 +3,13 @@
   "name": "viscous_telepunch",
   "stats": {
     "duration": 0,
-    "cooldown": 24,
-    "range": 60,
+    "cooldown": 28,
+    "range": 40,
     "charges": 1,
     "charge_restore_time": 1.5,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 60,
+    "cast_range": 40,
     "unit_target_limit": 1,
     "cast_delay": 0,
     "channel_time": 0,
@@ -21,7 +21,7 @@
     "damage": 0,
     "radius": 4,
     "punch_half_height": 5.5,
-    "toss_speed": 700,
+    "toss_speed": 625,
     "toss_speed_wall": 750,
     "toss_speed_up_wall": 500,
     "toss_ground_side_ratio": 0.7,
@@ -61,7 +61,7 @@
         "ability_charges": 1
       },
       {
-        "damage": 50,
+        "damage": 35,
         "slow_percent": 20
       },
       {
