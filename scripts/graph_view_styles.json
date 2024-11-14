@@ -33,7 +33,7 @@
     "Background_Color": "#4D4D4D"
   },
   "\"NodeBg:selected\"": {
-    "Border": "3px #FFFF00",
+    "Border": "2px #FFFF00",
     "Background_Color": "#4D4D4D"
   },
   "HeaderBg": {
@@ -130,7 +130,11 @@
     "LayoutChildren": "VBOX",
     "InteractionPriority": "BASE"
   },
-  "\"StateNodeContainer.Active:before\"": {
+  "\".StateNodeContainer:selected NodeBg.State\"": {
+    "Border": "2px #FFFF00",
+    "Background_Color": "#4D4D4D"
+  },
+  "\"NodeBg.State.Active:before\"": {
     "Border": "2px #00FF00",
     "HAlign": "STRETCH",
     "VAlign": "STRETCH",
@@ -147,46 +151,31 @@
   "StateInfoFlagRow": {
     "FixedSizeY": 24,
     "LayoutChildren": "HBOX",
-    "HALIGN": "LEFT"
+    "HALIGN": "LEFT",
+    "Margin": "0px 0px 4px 0px"
   },
-  "DefaultStateInfoFlag": {
-    "FixedSizeX": 16,
-    "FixedSizeY": 16,
+  "StateInfoFlag": {
+    "FixedSizeX": 12,
+    "FixedSizeY": 12,
     "Padding": "2px",
-    "Margin_Right": 2,
+    "Margin_Right": 4,
+    "BorderRadius": 10,
+    "BackgroundRepeat": "NoRepeat",
+    "BackgroundSize": "Natural",
+    "BackgroundImageWidth": 12,
+    "BackgroundImageHeight": 12
+  },
+  "StateInfoFlag.Default": {
     "Background_Color": "#FFD700",
-    "BorderRadius": 10,
-    "BackgroundImage": "tools/images/animgraph2_editor/sm_default.png",
-    "BackgroundRepeat": "NoRepeat",
-    "BackgroundSize": "Natural",
-    "BackgroundImageWidth": 16,
-    "BackgroundImageHeight": 16
+    "BackgroundImage": "tools/images/animgraph2_editor/sm_default.png"
   },
-  "EntryOverrideInfoFlag": {
-    "FixedSizeX": 16,
-    "FixedSizeY": 16,
-    "Padding": "2px",
-    "Margin_Right": 2,
+  "StateInfoFlag.EntryOverride": {
     "Background_Color": "#32CD32",
-    "BorderRadius": 10,
-    "BackgroundImage": "tools/images/animgraph2_editor/sm_entryoverride.png",
-    "BackgroundRepeat": "NoRepeat",
-    "BackgroundSize": "Natural",
-    "BackgroundImageWidth": 16,
-    "BackgroundImageHeight": 16
+    "BackgroundImage": "tools/images/animgraph2_editor/sm_entryoverride.png"
   },
-  "GlobalTransitionInfoFlag": {
-    "FixedSizeX": 16,
-    "FixedSizeY": 16,
-    "Padding": "2px",
-    "Margin_Right": 2,
+  "StateInfoFlag.GlobalTransition": {
     "Background_Color": "#FF4500",
-    "BorderRadius": 10,
-    "BackgroundImage": "tools/images/animgraph2_editor/sm_globalTransition.png",
-    "BackgroundRepeat": "NoRepeat",
-    "BackgroundSize": "Natural",
-    "BackgroundImageWidth": 16,
-    "BackgroundImageHeight": 16
+    "BackgroundImage": "tools/images/animgraph2_editor/sm_globalTransition.png"
   },
   "StateEventRegion": {
     "LayoutChildren": "VBOX",
