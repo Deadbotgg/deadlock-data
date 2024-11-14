@@ -31,14 +31,14 @@
             "style": "melee_damage",
             "is_negative": false
           },
-          "bonus_health": {
-            "value": 125,
-            "style": "health",
-            "is_negative": false
-          },
           "bullet_resist": {
             "value": 8,
             "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 125,
+            "style": "health",
             "is_negative": false
           }
         },

@@ -86,7 +86,7 @@
         "bullet_armor_reduction": -15
       },
       {
-        "health_steal": 70
+        "health_steal": 80
       }
     ]
   }

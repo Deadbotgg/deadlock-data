@@ -1,9 +1,9 @@
 {
   "key": "ability_nano_shadow_step",
-  "name": "Shadow Step",
+  "name": "Queen of Shadows",
   "stats": {
-    "duration": 8,
-    "cooldown": 40,
+    "duration": 12,
+    "cooldown": 100,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,41 +20,44 @@
     "weapon_power": 0,
     "invis_alert_when_fading": 1,
     "invis_cancel_on_damage": 0,
-    "invis_fade_to_duration": 0,
-    "invis_move_speed_mod": 0,
-    "spotted_radius": 2,
-    "reveal_on_damage_duration": 0.25,
-    "reveal_on_spotted_duration": 0.75,
+    "invis_fade_to_duration": 0.25,
+    "invis_move_speed_mod": 2,
+    "spotted_radius": 15,
+    "reveal_on_damage_duration": 0.7,
+    "reveal_on_spotted_duration": 0.7,
     "stamina_cooldown_reduction": 0,
     "purge_on_activate": 0,
     "silence_on_heavy_duration": 0,
-    "bonus_fire_rate": 20,
+    "slow_percent": 30,
+    "bonus_fire_rate": 0,
     "melee_attack_speed_bonus": 20,
     "bullet_armor_reduction_light": 5,
     "bullet_armor_reduction_heavy": 15,
     "bullet_armor_reduction_duration": 6,
-    "slow_resistance_percent": 0
+    "slow_resistance_percent": 0,
+    "damage_amplification": 20
   },
   "tooltipDetails": {
-    "description": "Bathe yourself in shadow, to strengthen your attacks and make your dashes <span class=\"highlight\">Invisible</span>.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)",
+    "description": "Mark your enemies and bathe yourself in shadow to strengthen your attacks and make yourself <span class=\"highlight\">Invisible</span>.  Attacking will only temporarily reveal you.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)",
     "properties": [
       {
         "key": "StatusEffectInvisible"
       },
       {
-        "key": "BonusFireRate",
-        "value": 20,
-        "m_e_display_type": "EFireRate",
-        "type": "fire_rate",
-        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "key": "InvisMoveSpeedMod",
+        "value": "2.0m",
+        "type": "move_speed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "m_e_display_type": "EMaxMoveSpeed",
+        "scale_function": {
+          "value": 0.04,
+          "type": "spirit"
+        }
       },
       {
-        "key": "MeleeAttackSpeedBonus",
-        "loc_token_override": "NanoShadowMeleeAttackSpeedBonus",
-        "type": "melee_damage",
+        "key": "DamageAmplification",
+        "type": "damage",
         "value": 20,
-        "m_e_provided_property_type": "MODIFIER_VALUE_MELEEATTACK_SPEED",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
@@ -85,7 +88,7 @@
       },
       {
         "key": "SpottedRadius",
-        "value": "2m",
+        "value": "15m",
         "m_b_is_hidden": true,
         "type": "distance",
         "m_e_display_type": "ETechRadius"
@@ -115,11 +118,13 @@
         "stamina_cooldown_reduction": 30
       },
       {
-        "slow_resistance_percent": 40
+        "slow_resistance_percent": 40,
+        "purge_on_activate": 1
       },
       {
         "silence_on_heavy_duration": 3,
-        "name": "Silence Duration"
+        "name": "Damage Amplification",
+        "damage_amplification": 20
       }
     ]
   }

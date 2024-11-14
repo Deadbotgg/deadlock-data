@@ -3,7 +3,7 @@
   "name": "Bloodletting",
   "stats": {
     "duration": 0,
-    "cooldown": 21,
+    "cooldown": 50,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,8 +18,8 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage_pct_deferred": 30,
-    "deferred_damage_duration": 10,
+    "damage_pct_deferred": 22,
+    "deferred_damage_duration": 13,
     "defer_clear_pct": 40,
     "damage_pct_deferred_max_rage": 15
   },
@@ -34,11 +34,11 @@
     ],
     "upgrades": [
       {
-        "deferred_damage_duration": 5,
-        "name": "Deferred Damage Duration"
+        "damage_pct_deferred": 8,
+        "name": "Incoming Damage Deferred"
       },
       {
-        "ability_cooldown": -4.75
+        "ability_cooldown": -25
       },
       {
         "defer_clear_pct": 25,

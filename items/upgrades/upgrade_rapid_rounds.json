@@ -18,7 +18,7 @@
       {
         "ability_properties": {
           "bonus_fire_rate": {
-            "value": 9,
+            "value": 10,
             "style": null,
             "is_negative": false
           },
@@ -48,6 +48,6 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_fire_rate": 9,
+  "bonus_fire_rate": 10,
   "bonus_sprint_speed": 1
 }

@@ -3,7 +3,7 @@
   "name": "Card Trick",
   "stats": {
     "duration": 0,
-    "cooldown": 0.5,
+    "cooldown": 0.65,
     "range": 500,
     "charges": 1,
     "charge_restore_time": 0,
@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 80,
+    "damage": 70,
     "radius": 5,
     "charges_conditionally": 1,
     "resource_per_card": 100,
@@ -36,7 +36,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 80,
+        "value": 70,
         "type": "tech_damage",
         "scale_function": {
           "value": 1.1,

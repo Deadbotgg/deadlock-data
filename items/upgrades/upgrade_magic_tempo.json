@@ -22,6 +22,11 @@
     "Innate": [
       {
         "ability_properties": {
+          "tech_shield_max_health": {
+            "value": 75,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
           "bonus_health_regen": {
             "value": 1,
             "style": "healing",
@@ -55,5 +60,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "cooldown_reduction": 16,
-  "bonus_health_regen": 1.5
+  "bonus_health_regen": 1.5,
+  "tech_shield_max_health": 75
 }

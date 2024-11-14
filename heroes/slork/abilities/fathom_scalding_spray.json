@@ -21,7 +21,7 @@
     "radius": 12,
     "dps": 40,
     "tick_rate": 0.25,
-    "weapon_damage_bonus_per_sec": 7,
+    "weapon_damage_bonus_per_sec": 8,
     "weapon_damage_bonus_duration": 12
   },
   "tooltipDetails": {
@@ -38,7 +38,7 @@
       },
       {
         "key": "WeaponDamageBonusPerSec",
-        "value": 7,
+        "value": 8,
         "type": "bullet_damage",
         "m_e_display_type": "EBaseWeaponDamageIncrease",
         "m_e_provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",

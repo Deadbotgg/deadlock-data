@@ -18,10 +18,11 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_move_speed": 4,
+    "bonus_move_speed": 25,
     "damage_amp_percentage": 25,
     "radius": 0,
     "self_bump_impulse": 500,
+    "fall_speed_max": 10,
     "air_damping_duration": 1
   },
   "tooltipDetails": {
@@ -46,10 +47,7 @@
       },
       {
         "key": "BonusMoveSpeed",
-        "value": "4m",
-        "type": "move_speed",
-        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "value": 25
       }
     ],
     "basicProperties": [

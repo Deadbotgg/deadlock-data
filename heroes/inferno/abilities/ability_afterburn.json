@@ -61,7 +61,7 @@
     ],
     "upgrades": [
       {
-        "afterburn_spirit_damage_reduction": -30
+        "afterburn_spirit_damage_reduction": -25
       },
       {
         "burn_duration": 1

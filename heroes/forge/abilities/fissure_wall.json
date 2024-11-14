@@ -31,7 +31,7 @@
     "bonus_damage_percent": 0,
     "debuff_duration": 0,
     "slow_duration": 2.5,
-    "slow_percent": 25
+    "slow_percent": 20
   },
   "tooltipDetails": {
     "properties": [

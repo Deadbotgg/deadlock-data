@@ -21,8 +21,9 @@
     "search_radius": 30,
     "bonus_move_speed": 2,
     "movement_speed_bonus_duration": 4,
-    "bonus_fire_rate": 20,
-    "fire_rate_max_duration": 10
+    "bonus_fire_rate": 30,
+    "fire_rate_max_duration": 10,
+    "immunity_duration": 0
   },
   "tooltipDetails": {
     "description": "Channeled. Target an ally or visible enemy hero on the minimap, then <span class=\"highlight\">teleport</span> to where they were when your channel started. After teleporting, you gain <span class=\"highlight\">movement speed</span> as well as <span class=\"highlight\">fire rate until your next reload</span>.",
@@ -44,7 +45,7 @@
       },
       {
         "key": "BonusFireRate",
-        "value": 20,
+        "value": 30,
         "type": "fireRate",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -62,10 +63,10 @@
         "bonus_move_speed": 2
       },
       {
-        "ability_cooldown": -30
+        "ability_cooldown": -40
       },
       {
-        "bonus_fire_rate": 30
+        "immunity_duration": 3
       }
     ]
   }

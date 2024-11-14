@@ -23,17 +23,17 @@
       {
         "ability_properties": {
           "bonus_bullet_speed_percent": {
-            "value": 25,
+            "value": 20,
             "style": "bullet_damage",
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 12,
+            "value": 13,
             "style": "bullet_damage",
             "is_negative": false
           },
           "bullet_shield_max_health": {
-            "value": 50,
+            "value": 65,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -58,7 +58,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_bullet_speed_percent": 25,
-  "base_attack_damage_percent": 12,
-  "bullet_shield_max_health": 50
+  "bonus_bullet_speed_percent": 20,
+  "base_attack_damage_percent": 13,
+  "bullet_shield_max_health": 65
 }

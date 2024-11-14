@@ -24,12 +24,12 @@
       {
         "ability_properties": {
           "non_imbued_tech_range_multiplier": {
-            "value": 25,
+            "value": 26,
             "style": "distance",
             "is_negative": false
           },
           "bullet_resist": {
-            "value": 12,
+            "value": 13,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -65,9 +65,9 @@
   "ability_resource_cost": 0,
   "tech_power": 8,
   "weapon_power": 0,
-  "non_imbued_tech_range_multiplier": 25,
+  "non_imbued_tech_range_multiplier": 26,
   "non_imbued_tech_radius_multiplier": 25,
   "imbued_tech_range_multiplier": 35,
   "imbued_tech_radius_multiplier": 35,
-  "bullet_resist": 12
+  "bullet_resist": 13
 }

@@ -292,9 +292,11 @@
     "m_flStopDistance": 600,
     "m_flMaxSpeedDistance": 1600,
     "m_flSlowSpeed": 30,
-    "m_flFastSpeed": 175,
+    "m_flFastSpeed": 280,
     "m_flVerticalOffset": 0,
     "m_flTolerance": 20,
+    "m_flAutoRunTime": 75,
+    "m_flTimeToStartAutoRun": 0,
     "m_IdleParticle": "resource_name:\"particles/generic/idol_pickup_aura.vpcf\"",
     "m_RunningParticle": "resource_name:\"particles/generic/idol_pickup_aura_running.vpcf\""
   },

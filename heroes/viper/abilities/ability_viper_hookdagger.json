@@ -1,0 +1,88 @@
+{
+  "key": "ability_viper_hookdagger",
+  "name": "Hook Blade",
+  "stats": {
+    "duration": 0,
+    "cooldown": 10,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "slow_duration": 1,
+    "outgoing_damage": 50,
+    "return_damage": 90,
+    "return_radius": 1,
+    "return_velocity": 2300,
+    "catch_radius": 3,
+    "tick_rate": 0.01,
+    "outgoing_projectile_lifetime": 0.4,
+    "slow_percent": 35,
+    "spread_angle": 90
+  },
+  "tooltipDetails": {
+    "description": "Throw a blade, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The blade then hooks back, applying <span class=\"highlight_spirit\">Spirit Damage</span> again and applying a <span class=\"highlight\">Slow</span>. <br><br><span class=\"diminish\">Hookblade additionally removes Petrify before dealing damage.</span>",
+    "properties": [
+      {
+        "key": "OutgoingDamage",
+        "value": 50,
+        "scale_function": {
+          "value": 0.3,
+          "type": "spirit"
+        },
+        "m_e_display_type": "EStatsCount",
+        "type": "tech_damage"
+      },
+      {
+        "key": "ReturnDamage",
+        "value": 90,
+        "scale_function": {
+          "value": 0.7,
+          "type": "spirit"
+        },
+        "m_e_display_type": "ETechPower",
+        "type": "tech_damage"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowDuration",
+        "value": "1s"
+      },
+      {
+        "key": "SlowPercent",
+        "value": 35,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "OutgoingProjectileLifetime",
+        "value": 0.4,
+        "scale_function": {
+          "value": 1,
+          "type": "range"
+        },
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -4
+      },
+      {
+        "slow_percent": 35
+      },
+      {}
+    ]
+  }
+}

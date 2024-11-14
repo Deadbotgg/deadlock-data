@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "radius": {
-            "value": 14,
+            "value": 12,
             "style": "distance",
             "is_negative": false
           },
@@ -70,7 +70,7 @@
             "is_conditional": true
           },
           "slow_percent": {
-            "value": 35,
+            "value": 30,
             "style": "slow",
             "is_conditional": true
           }
@@ -98,8 +98,8 @@
   "base_attack_damage_percent": 20,
   "bullet_resist": 40,
   "tech_resist": 40,
-  "slow_percent": 35,
+  "slow_percent": 30,
   "ground_dash_reduction_percent": -25,
-  "radius": 14,
+  "radius": 12,
   "model_scale_growth": 1.2
 }

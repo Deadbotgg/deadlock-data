@@ -25,7 +25,7 @@
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 7,
+            "value": 6,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -39,7 +39,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 5,
+            "value": 6,
             "style": "cooldown",
             "is_negative": false
           }
@@ -62,7 +62,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 5.5,
+  "ability_cooldown": 6,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -77,7 +77,7 @@
   "weapon_power": 0,
   "radius": 1,
   "proc_chance": 100,
-  "base_attack_damage_percent": 7,
+  "base_attack_damage_percent": 6,
   "heal_from_hero": 40,
   "heal_from_n_p_c": 15,
   "bullet_resist": 7

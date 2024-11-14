@@ -26,6 +26,11 @@
             "style": "movement_speed",
             "is_negative": false
           },
+          "slow_resistance_percent": {
+            "value": 25,
+            "style": "move_speed",
+            "is_negative": false
+          },
           "bonus_health": {
             "value": 70,
             "style": "health",
@@ -85,6 +90,7 @@
   "bonus_fire_rate": 12,
   "activated_fire_rate": 30,
   "slide_scale": 50,
+  "slow_resistance_percent": 25,
   "bonus_move_speed": 2,
   "bonus_health": 70
 }

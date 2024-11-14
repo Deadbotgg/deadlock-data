@@ -23,6 +23,7 @@
     "base_bullet_damage": 5,
     "min_bonus_bullet_damage": 25,
     "max_bonus_bullet_damage": 85,
+    "headshot_bonus": 15,
     "max_slow_duration": 0.5,
     "bullet_time_scale": 0.01,
     "projectile_time_scale": 0.01,
@@ -70,20 +71,26 @@
         "type": "bullet_damage"
       },
       {
-        "key": "MinBonusBulletDamage",
-        "value": 25,
+        "key": "HeadshotBonus",
+        "loc_token_override": "CarbineHeadshotBonus",
+        "value": 15,
         "type": "tech_damage"
       },
       {
-        "key": "MaxChargeDuration",
-        "value": 2.5,
-        "type": "duration"
+        "key": "MinBonusBulletDamage",
+        "value": 25,
+        "type": "tech_damage"
       },
       {
         "key": "MinSlowDuration",
         "value": 0.25,
         "type": "duration",
         "m_e_display_type": "ETechDuration"
+      },
+      {
+        "key": "MaxChargeDuration",
+        "value": 2.5,
+        "type": "duration"
       },
       {
         "key": "SpeedBoostDuration",

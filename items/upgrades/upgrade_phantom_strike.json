@@ -21,9 +21,9 @@
     "Innate": [
       {
         "ability_properties": {
-          "bullet_resist": {
+          "tech_resist": {
             "value": 15,
-            "style": "bullet_armor_up",
+            "style": "tech_armor_up",
             "is_negative": false
           },
           "base_attack_damage_percent": {
@@ -87,7 +87,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bullet_resist": 15,
+  "tech_resist": 15,
   "base_attack_damage_percent": 30,
   "slow_percent": 50,
   "slow_duration": 3,

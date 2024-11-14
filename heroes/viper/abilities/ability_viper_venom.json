@@ -29,7 +29,7 @@
     "venom_missing_health_damage_percentage": 0
   },
   "tooltipDetails": {
-    "description": "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.<br>Venom breaks Petrify before detonating.</span>",
+    "description": "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.</span>",
     "properties": [
       {
         "key": "VenomMinDamage",

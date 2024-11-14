@@ -1,0 +1,36 @@
+{
+  "key": "fathom_defer_damage",
+  "name": "Bloodletting",
+  "stats": {
+    "duration": 0,
+    "cooldown": 21,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage_pct_deferred": 30,
+    "deferred_damage_duration": 10,
+    "defer_clear_pct": 40,
+    "damage_pct_deferred_max_rage": 15
+  },
+  "tooltipDetails": {
+    "description": "On Activate",
+    "properties": [
+      {
+        "key": "DeferClearPct",
+        "value": 40,
+        "type": "healing"
+      }
+    ]
+  }
+}

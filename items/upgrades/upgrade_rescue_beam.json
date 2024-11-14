@@ -27,7 +27,7 @@
             "is_negative": false
           },
           "bonus_sprint_speed": {
-            "value": 2,
+            "value": 1,
             "style": "move_speed",
             "is_negative": false
           },
@@ -96,6 +96,6 @@
   "heal_interval": 0.2,
   "bonus_move_speed": 0,
   "bonus_health": 125,
-  "bonus_sprint_speed": 2,
+  "bonus_sprint_speed": 1,
   "self_modifier": 100
 }

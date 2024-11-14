@@ -47,12 +47,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "health_steal": {
-            "value": 50,
+            "value": 55,
             "style": "healing",
             "is_conditional": false
           }
         },
-        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal one stack of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
+        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal {s:StealPerKill} stacks of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
       }
     ]
   },
@@ -72,10 +72,11 @@
   "weapon_power": 0,
   "bullet_resist": 18,
   "steal_per_hit": 1,
+  "steal_per_kill": 1,
   "stack_lost_per_death": 2,
   "max_stacks": 99,
   "steal_duration": 20,
   "proc_cooldown": 0.8,
-  "health_steal": 50,
+  "health_steal": 55,
   "particle_radius": 1
 }

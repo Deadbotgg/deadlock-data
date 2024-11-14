@@ -78,11 +78,11 @@
         "post_cube_buff": 1
       },
       {
-        "ability_cooldown": -21,
-        "purge_debuffs": 1
+        "bonus_health_regen": 35
       },
       {
-        "bonus_health_regen": 60
+        "ability_cooldown": -21,
+        "purge_debuffs": 1
       }
     ]
   }

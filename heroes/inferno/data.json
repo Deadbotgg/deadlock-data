@@ -33,7 +33,8 @@
     "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 33,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,

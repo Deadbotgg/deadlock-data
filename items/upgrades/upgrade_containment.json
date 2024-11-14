@@ -69,7 +69,7 @@
             "is_conditional": false
           },
           "slow_percent": {
-            "value": 25,
+            "value": 20,
             "style": "slow",
             "is_conditional": true
           }
@@ -92,7 +92,7 @@
   "ability_resource_cost": 0,
   "tech_power": 5,
   "weapon_power": 0,
-  "slow_percent": 25,
+  "slow_percent": 20,
   "damage": 70,
   "bonus_sprint_speed": 1,
   "ground_dash_reduction_percent": -30

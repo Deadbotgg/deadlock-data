@@ -30,7 +30,7 @@
     "silence_bomb_speed": 12,
     "bullet_armor_reduction": 0,
     "bullet_armor_reduction_duration": 0,
-    "slow_percent": 35,
+    "slow_percent": 30,
     "debuff_duration": 4,
     "silence_duration": 0
   },
@@ -86,7 +86,7 @@
       },
       {
         "key": "SlowPercent",
-        "value": 35,
+        "value": 30,
         "type": "slow",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"

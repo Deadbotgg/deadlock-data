@@ -1,6 +1,6 @@
 {
   "name": "Surge of Power",
-  "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span>.",
+  "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span> and maintain full speed while attacking.",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -55,12 +55,12 @@
             "is_conditional": true
           },
           "bonus_move_speed": {
-            "value": 3,
+            "value": 2,
             "style": "move_speed",
             "is_conditional": true
           }
         },
-        "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span>."
+        "description": "Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span> and maintain full speed while attacking."
       }
     ]
   },
@@ -80,7 +80,9 @@
   "weapon_power": 0,
   "imbued_tech_power": 34,
   "fire_rate_bonus": 10,
-  "bonus_move_speed": 3,
+  "bonus_move_speed": 2,
   "movement_speed_bonus_duration": 6,
-  "bonus_health": 75
+  "bonus_health": 75,
+  "move_while_shooting_speed_penalty_reduction_percent": 100,
+  "move_while_zoomed_speed_penalty_reduction_percent": 100
 }

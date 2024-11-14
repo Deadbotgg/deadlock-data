@@ -23,8 +23,8 @@
     "Innate": [
       {
         "ability_properties": {
-          "bonus_clip_size_percent": {
-            "value": 20,
+          "reload_speed_multipler": {
+            "value": -20,
             "style": null,
             "is_negative": false
           },
@@ -88,6 +88,6 @@
   "long_range_bonus_weapon_power_min_range": 15,
   "bonus_attack_range_percent": 15,
   "bonus_zoom_percent": 35,
-  "bonus_clip_size_percent": 20,
+  "reload_speed_multipler": -20,
   "bullet_shield_max_health": 200
 }

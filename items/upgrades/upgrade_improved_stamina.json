@@ -39,7 +39,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 25,
+            "value": 35,
             "style": "health",
             "is_negative": false
           }
@@ -67,5 +67,5 @@
   "stamina": 1,
   "stamina_cooldown_reduction": 16,
   "bonus_fire_rate": 6,
-  "bonus_health": 25
+  "bonus_health": 35
 }

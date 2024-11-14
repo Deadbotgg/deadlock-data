@@ -33,9 +33,14 @@
             "style": "bullet_damage",
             "is_negative": false
           },
-          "bullet_resist": {
-            "value": 18,
-            "style": "bullet_armor_up",
+          "melee_resist_percent": {
+            "value": 25,
+            "style": null,
+            "is_negative": false
+          },
+          "tech_resist": {
+            "value": 12,
+            "style": "tech_armor_up",
             "is_negative": false
           }
         },
@@ -61,5 +66,6 @@
   "weapon_power": 0,
   "bonus_clip_size_percent": 120,
   "base_attack_damage_percent": 18,
-  "bullet_resist": 18
+  "melee_resist_percent": 25,
+  "tech_resist": 12
 }

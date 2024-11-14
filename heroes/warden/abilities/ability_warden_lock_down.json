@@ -20,8 +20,8 @@
     "weapon_power": 0,
     "immobilize_duration": 1.75,
     "damage": 120,
-    "escape_range": 18.5,
-    "escape_time": 2.9,
+    "escape_range": 19,
+    "escape_time": 2.8,
     "bullet_armor_reduction": 0,
     "bullet_armor_reduction_duration": 0
   },
@@ -46,12 +46,12 @@
     "basicProperties": [
       {
         "key": "EscapeTime",
-        "value": 2.9,
+        "value": 2.8,
         "type": "duration"
       },
       {
         "key": "EscapeRange",
-        "value": "18.5m",
+        "value": "19m",
         "type": "distance"
       }
     ],

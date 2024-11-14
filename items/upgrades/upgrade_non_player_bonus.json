@@ -36,7 +36,7 @@
             "is_negative": false
           },
           "non_player_bullet_resist": {
-            "value": 30,
+            "value": 25,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -63,5 +63,5 @@
   "non_player_bonus_weapon_power": 30,
   "bonus_health": 50,
   "bonus_health_regen": 1,
-  "non_player_bullet_resist": 30
+  "non_player_bullet_resist": 25
 }

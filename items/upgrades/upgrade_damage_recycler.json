@@ -22,9 +22,9 @@
             "style": "health",
             "is_negative": false
           },
-          "tech_power": {
-            "value": 18,
-            "style": "tech_damage",
+          "cooldown_reduction": {
+            "value": 12,
+            "style": "cooldown",
             "is_negative": false
           },
           "base_attack_damage_percent": {
@@ -62,9 +62,10 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 18,
+  "tech_power": 0,
   "weapon_power": 0,
   "bullet_lifesteal_percent": 35,
   "base_attack_damage_percent": 20,
-  "bonus_health": 175
+  "bonus_health": 175,
+  "cooldown_reduction": 12
 }

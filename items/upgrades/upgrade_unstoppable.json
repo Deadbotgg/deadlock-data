@@ -22,14 +22,9 @@
             "style": "health",
             "is_negative": false
           },
-          "tech_resist": {
+          "bullet_resist": {
             "value": 15,
-            "style": "tech_armor_up",
-            "is_negative": false
-          },
-          "bonus_move_speed": {
-            "value": 1,
-            "style": "move_speed",
+            "style": "bullet_armor_up",
             "is_negative": false
           },
           "spirit_power": {
@@ -79,7 +74,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_health": 150,
-  "tech_resist": 15,
-  "bonus_move_speed": 1,
+  "bullet_resist": 15,
   "spirit_power": 12
 }

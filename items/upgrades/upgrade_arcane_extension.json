@@ -20,6 +20,11 @@
     "Innate": [
       {
         "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 8,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
           "bonus_health": {
             "value": 100,
             "style": "health",
@@ -33,7 +38,7 @@
         },
         "elevated_ability_properties": {
           "bonus_ability_duration_percent": {
-            "value": 16,
+            "value": 14,
             "style": "duration",
             "is_negative": false
           }
@@ -57,7 +62,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_ability_duration_percent": 16,
+  "bonus_ability_duration_percent": 14,
   "bonus_health": 100,
-  "bonus_health_regen": 1.75
+  "bonus_health_regen": 1.75,
+  "base_attack_damage_percent": 8
 }

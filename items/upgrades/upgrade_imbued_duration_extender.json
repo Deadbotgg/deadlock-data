@@ -23,7 +23,7 @@
       {
         "ability_properties": {
           "non_imbued_bonus_duration": {
-            "value": 26,
+            "value": 27,
             "style": "duration",
             "is_negative": false
           },
@@ -45,7 +45,7 @@
         },
         "elevated_ability_properties": {
           "imbued_bonus_duration": {
-            "value": 32,
+            "value": 33,
             "style": "duration",
             "is_negative": false
           }
@@ -69,8 +69,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "imbued_bonus_duration": 32,
-  "non_imbued_bonus_duration": 26,
+  "imbued_bonus_duration": 33,
+  "non_imbued_bonus_duration": 27,
   "bonus_health": 175,
   "base_attack_damage_percent": 15,
   "bonus_health_regen": 4

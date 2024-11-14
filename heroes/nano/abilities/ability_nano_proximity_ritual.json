@@ -1,12 +1,12 @@
 {
   "key": "ability_nano_proximity_ritual",
-  "name": "Ava",
+  "name": "Nekomata Ward",
   "stats": {
-    "duration": 0,
-    "cooldown": 80,
+    "duration": 120,
+    "cooldown": 30,
     "range": 0,
-    "charges": 0,
-    "charge_restore_time": 0,
+    "charges": 1,
+    "charge_restore_time": 10,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 0,
@@ -14,29 +14,32 @@
     "cast_delay": 0.2,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 0,
+    "cooldown_between_charge": 10,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "recall_cooldown": 5,
-    "statue_health": 500,
-    "statue_held_regen": 40,
-    "active_radius": 25,
-    "statue_lifetime": 60,
-    "statue_arm_time": 1,
+    "statue_health": 300,
+    "active_radius": 40,
+    "statue_arm_time": 0.5,
     "cat_activate_duration": 2,
     "tick_interval": 0.1,
-    "damage_tick": 0.5,
+    "damage_tick": 1,
     "dps": 40,
     "heal_amp_receive_penalty_percent": -20,
     "heal_amp_regen_penalty_percent": -20,
-    "target_lifesteal": 15,
-    "target_lifesteal_non_hero": 5,
+    "target_lifesteal": 30,
+    "target_lifesteal_non_hero": 10,
     "victim_damage_reduction": 0,
-    "damage_amplification": 0
+    "damage_amplification": 0,
+    "recent_damage_mark_duration": 1.5,
+    "make_invisible": 0,
+    "spotted_radius": 20,
+    "reveal_on_spotted_duration": 1.5,
+    "invis_fade_to_duration": 1,
+    "reveal_on_damage_duration": 1.5
   },
   "tooltipDetails": {
-    "description": "Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and <span class=\"highlight\">heal Ava and {s:hero_name}</span> when damaged.  <span class=\"highlight\">Ava is only active when {s:hero_name} is nearby</span>. <br>Press <span class=\"highlight\">[3]</span> to recall Ava <br><span class=\"highlight\">[Alt-Cast]</span> to recall and warp to Ava <br>The further away from Ava the longer the recall/warp will take. Ava regains health while recalled.",
+    "description": "Deploy a <span class=\"highlight\">Statue</span> to track enemies in an area. The Ward will also attack enemies recently damaged by {s:hero_name}. Targeted enemies have reduced healing and <span class=\"highlight\">heal {s:hero_name}</span> when damaged.",
     "properties": [
       {
         "key": "DPS",
@@ -49,7 +52,7 @@
       },
       {
         "key": "StatueHealth",
-        "value": 500,
+        "value": 300,
         "type": "health",
         "m_e_display_type": "EMaxHealth",
         "scale_function": {
@@ -60,35 +63,19 @@
       {
         "key": "ActiveRadius",
         "loc_token_override": "StatueActivateRange",
-        "value": "25m",
+        "value": "40m",
         "type": "distance",
         "scale_function": {
-          "value": 0.3,
+          "value": 0.2,
           "type": "spirit"
         }
       }
     ],
     "basicProperties": [
       {
-        "key": "RecallCooldown",
-        "loc_token_override": "AvaRecallCooldown",
-        "value": 5,
-        "type": "cooldown"
-      },
-      {
-        "key": "StatueLifetime",
-        "value": 60,
-        "type": "duration"
-      },
-      {
-        "key": "StatueHeldRegen",
-        "value": 40,
-        "type": "healing"
-      },
-      {
         "key": "TargetLifesteal",
         "loc_token_override": "StatueLifesteal",
-        "value": 15,
+        "value": 30,
         "type": "healing",
         "m_e_display_type": "ETechLifesteal"
       },
@@ -104,24 +91,18 @@
         "loc_token_override": "StatueVictimDamageReduction",
         "value": 0,
         "type": "damage"
-      },
-      {
-        "key": "DamageAmplification",
-        "type": "damage",
-        "value": 0
       }
     ],
     "upgrades": [
       {
-        "target_lifesteal": 21,
-        "target_lifesteal_non_hero": 7
+        "make_invisible": 1
       },
       {
-        "dps": 40,
-        "victim_damage_reduction": -20
+        "ability_charges": 1,
+        "dps": 20
       },
       {
-        "damage_amplification": 35,
+        "victim_damage_reduction": -30,
         "heal_amp_receive_penalty_percent": -30,
         "heal_amp_regen_penalty_percent": -30
       }

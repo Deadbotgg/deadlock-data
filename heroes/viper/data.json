@@ -209,14 +209,14 @@
   "weapon_stats": {
     "bullet_damage": 12,
     "rounds_per_second": 16.666666666666668,
-    "clip_size": 18,
+    "clip_size": 16,
     "reload_time": 1.6,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
     "bullet_speed": 32,
-    "falloff_start_range": 5,
-    "falloff_end_range": 13,
+    "falloff_start_range": 4,
+    "falloff_end_range": 10,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
@@ -225,7 +225,7 @@
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
     "dps": 200,
-    "sustained_dps": 80.59701492537313,
+    "sustained_dps": 75,
     "weapon_name": "citadel_weapon_viper_set",
     "weapon_description": "citadel_weapon_hero_viper_set",
     "weapon_types": [
@@ -253,7 +253,7 @@
   ],
   "abilities": [
     {
-      "key": "ability_viper_debuffdagger"
+      "key": "ability_viper_hookdagger"
     },
     {
       "key": "ability_viper_venom"

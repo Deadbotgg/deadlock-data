@@ -21,6 +21,7 @@
     "damage": 40,
     "hooking_slow_speed_limit": 0.001,
     "return_speed": 2200,
+    "return_speed_non_player": 3850,
     "return_delay": 0.5,
     "return_position_forward_offset": 100,
     "end_of_hook_slow_target_speed": 0,

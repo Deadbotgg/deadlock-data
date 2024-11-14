@@ -3,29 +3,59 @@
   "name": "Reefdweller Harpoon",
   "stats": {
     "duration": 0,
-    "cooldown": 30,
+    "cooldown": 50,
     "range": 30,
-    "charges": 2,
-    "charge_restore_time": 2,
+    "charges": 0,
+    "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 30,
     "unit_target_limit": 1,
-    "cast_delay": 0,
+    "cast_delay": 0.15,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 2,
+    "cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_fire_rate": 0,
-    "charges_conditionally": 1,
     "initial_freeze_time": 0,
-    "wall_latch_settle_time": 0,
-    "wall_latch_settle_dist": 40,
-    "wall_latch_ideal_dist": 5,
-    "reel_speed": 1500,
-    "detach_buff_duration": 0
+    "min_swap_time": 0.5,
+    "swap_time": 1.5,
+    "distance_to_max_time": 30,
+    "out_of_combat_regen": 3,
+    "swap_total_damage": 0,
+    "initial_height": 350,
+    "tick_rate": 0.25,
+    "spell_lifesteal": 0,
+    "spotted_radius": 999,
+    "invis_fade_to_duration": 0.25,
+    "reveal_on_spotted_duration": 3,
+    "reveal_on_damage_duration": 0.5,
+    "invis_move_speed_mod": -99
   },
-  "tooltipDetails": {}
+  "tooltipDetails": {
+    "description": "Passive: While out of combat and hidden on the minimap, <span class=\"highlight\">heal a portion of your max health</span> every second.",
+    "properties": [
+      {
+        "key": "OutOfCombatRegen",
+        "value": 3,
+        "m_e_provided_property_type": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "type": "healing"
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "ability_cast_range": 5
+      },
+      {
+        "out_of_combat_regen": 2,
+        "name": "Max Health Regen"
+      }
+    ]
+  }
 }

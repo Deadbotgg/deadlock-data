@@ -1,0 +1,61 @@
+{
+  "key": "citadel_ability_chrono_swap",
+  "name": "Paradoxical Swap",
+  "stats": {
+    "duration": 0,
+    "cooldown": 65,
+    "range": 25,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 25,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "initial_freeze_time": 0.25,
+    "min_swap_time": 0.5,
+    "swap_time": 1.5,
+    "distance_to_max_time": 30,
+    "swap_total_damage": 125,
+    "initial_height": 350,
+    "tick_rate": 0.25,
+    "spell_lifesteal": 100
+  },
+  "tooltipDetails": {
+    "description": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>.",
+    "properties": [
+      {
+        "key": "SwapTotalDamage",
+        "value": 125,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.6552,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SpellLifesteal",
+        "value": 100
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "swap_total_damage": 100,
+        "name": "Swap Damage"
+      },
+      {
+        "ability_cast_range": 20
+      }
+    ]
+  }
+}

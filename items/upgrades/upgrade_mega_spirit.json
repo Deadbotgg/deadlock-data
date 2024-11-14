@@ -35,7 +35,7 @@
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 25,
+            "value": 30,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -47,7 +47,7 @@
         },
         "elevated_ability_properties": {
           "tech_power": {
-            "value": 60,
+            "value": 65,
             "style": null,
             "is_negative": false
           }
@@ -69,10 +69,10 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 60,
+  "tech_power": 65,
   "weapon_power": 0,
   "bonus_health_regen": 15,
-  "base_attack_damage_percent": 25,
+  "base_attack_damage_percent": 30,
   "bonus_sprint_speed": 2,
   "bonus_health": 300
 }

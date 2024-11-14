@@ -21,10 +21,10 @@
     "health_to_damage": 32,
     "num_blood_shards": 3,
     "spread_angle_degrees": 6,
-    "move_speed_penalty_per_stack": 20,
+    "move_speed_penalty_per_stack": 15,
     "min_slow_amount": 0,
-    "vulnerability_per_stack": 15,
-    "debuff_duration": 13,
+    "vulnerability_per_stack": 8,
+    "debuff_duration": 9,
     "slow_duration": 4,
     "max_stacks": 5
   },
@@ -33,7 +33,7 @@
     "basicProperties": [
       {
         "key": "DebuffDuration",
-        "value": 13,
+        "value": 9,
         "type": "duration"
       },
       {
@@ -47,7 +47,9 @@
         "ability_cooldown": -3
       },
       {
-        "health_to_damage": 40
+        "health_to_damage": 40,
+        "name": "Damage Amplification",
+        "vulnerability_per_stack": 7
       },
       {
         "num_blood_shards": 6,

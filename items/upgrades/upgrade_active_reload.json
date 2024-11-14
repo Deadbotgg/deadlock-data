@@ -21,8 +21,8 @@
             "style": "bullet_damage",
             "is_negative": false
           },
-          "reload_speed_multipler": {
-            "value": -20,
+          "bonus_clip_size_percent": {
+            "value": 18,
             "style": null,
             "is_negative": false
           }
@@ -78,7 +78,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "base_attack_damage_percent": 10,
-  "reload_speed_multipler": -20,
+  "bonus_clip_size_percent": 18,
   "bullet_lifesteal_percent": 20,
   "bonus_fire_rate": 20
 }

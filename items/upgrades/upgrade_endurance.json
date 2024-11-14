@@ -21,11 +21,6 @@
             "value": 10,
             "style": null,
             "is_negative": false
-          },
-          "bonus_health": {
-            "value": 25,
-            "style": "health",
-            "is_negative": false
           }
         },
         "elevated_ability_properties": {
@@ -55,6 +50,5 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_health_regen": 3,
-  "bonus_clip_size_percent": 10,
-  "bonus_health": 25
+  "bonus_clip_size_percent": 10
 }

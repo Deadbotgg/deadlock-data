@@ -2,7 +2,7 @@
   "key": "citadel_ability_chrono_pulse_grenade",
   "name": "Pulse Grenade",
   "stats": {
-    "duration": 4,
+    "duration": 3.2,
     "cooldown": 28,
     "range": 0,
     "charges": 0,
@@ -22,7 +22,6 @@
     "radius_increase_per_pulse": 0,
     "pulse_interval": 0.8,
     "pulse_damage": 45,
-    "pulses": 4,
     "damage_amplification_per_stack": 6,
     "debuff_duration": 8,
     "slow_percent": 30,
@@ -40,10 +39,6 @@
           "value": 0.45864,
           "type": "spirit"
         }
-      },
-      {
-        "key": "Pulses",
-        "value": 4
       },
       {
         "key": "DamageAmplificationPerStack",
@@ -80,11 +75,10 @@
     ],
     "upgrades": [
       {
-        "pulses": 1,
-        "name": "Pulses"
+        "ability_duration": 0.8
       },
       {
-        "ability_cooldown": -7.5
+        "ability_cooldown": -8
       },
       {
         "pulse_damage": 45,

@@ -32,7 +32,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 150,
+            "value": 175,
             "style": null,
             "is_negative": false
           }
@@ -96,6 +96,6 @@
   "active_bonus_lifesteal": 100,
   "bonus_move_speed": 2,
   "base_attack_damage_percent": 25,
-  "bonus_health": 150,
+  "bonus_health": 175,
   "active_reload_percent": 75
 }

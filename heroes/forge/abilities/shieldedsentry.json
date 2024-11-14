@@ -3,7 +3,7 @@
   "name": "Mini Turret",
   "stats": {
     "duration": 0,
-    "cooldown": 24,
+    "cooldown": 18,
     "range": 20,
     "charges": 1,
     "charge_restore_time": 3,
@@ -33,7 +33,7 @@
     "turret_lifetime": 24,
     "turret_decay_damage_per_second": 20,
     "attack_speed_mult": 100,
-    "tech_resist": 60,
+    "tech_resist": 80,
     "non_hero_damage_percent_outgoing": 50,
     "boss_damage_percent_outgoing": 30,
     "boss_damage_percent_incoming": 50,

@@ -3,7 +3,7 @@
   "name": "Heavy Barrage",
   "stats": {
     "duration": 0,
-    "cooldown": 106,
+    "cooldown": 140,
     "range": 50,
     "charges": 0,
     "charge_restore_time": 0,
@@ -30,7 +30,7 @@
     "track_speed_near": 150,
     "track_speed_far": 100,
     "tracking_time": 0.4,
-    "min_distance": 6,
+    "min_distance": 7,
     "max_pitch": 0,
     "max_spread": 5,
     "projectile_ignore_collision_time": 0.2,
@@ -63,7 +63,7 @@
     "basicProperties": [
       {
         "key": "MinDistance",
-        "value": "6m",
+        "value": "7m",
         "type": "distance",
         "m_e_display_type": "ETechRange"
       },
@@ -77,11 +77,11 @@
     ],
     "upgrades": [
       {
-        "move_slow_percent": 35,
+        "move_slow_percent": 30,
         "move_slow_duration": 2
       },
       {
-        "ability_cooldown": -47
+        "ability_cooldown": -50
       },
       {
         "damage_per_rocket": 30,

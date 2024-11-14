@@ -73,7 +73,7 @@
         "proc_damage_base": 10
       },
       {
-        "proc_cooldown": -0.5,
+        "proc_cooldown": -0.75,
         "max_stacks": 4
       }
     ]

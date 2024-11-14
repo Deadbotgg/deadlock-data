@@ -19,7 +19,7 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 15,
+            "value": 20,
             "style": null,
             "is_negative": false
           },
@@ -86,7 +86,7 @@
   "weapon_power": 0,
   "vex_barrier_bullet_max_health": 400,
   "vex_barrier_tech_max_health": 200,
-  "bonus_clip_size_percent": 15,
+  "bonus_clip_size_percent": 20,
   "bonus_health": 75,
   "bonus_health_regen": 2,
   "vex_barrier_shield_duration": 9

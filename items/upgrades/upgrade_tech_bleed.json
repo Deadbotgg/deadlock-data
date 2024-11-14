@@ -1,6 +1,6 @@
 {
   "name": "Mystic Reverb",
-  "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> in a radius around the target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
+  "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
   "cost": "6200",
   "tier": "4",
   "activation": "Passive",
@@ -20,17 +20,17 @@
       {
         "ability_properties": {
           "ability_lifesteal_percent_hero": {
-            "value": 15,
+            "value": 14,
             "style": "healing",
             "is_negative": false
           },
           "tech_resist": {
-            "value": 15,
+            "value": 14,
             "style": null,
             "is_negative": false
           },
           "tech_range_multiplier": {
-            "value": 15,
+            "value": 14,
             "style": "distance",
             "is_negative": false
           }
@@ -72,7 +72,7 @@
             "is_conditional": true
           }
         },
-        "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> in a radius around the target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay."
+        "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay."
       }
     ]
   },
@@ -94,8 +94,8 @@
   "delay_duration": 3,
   "minimum_damage": 100,
   "radius": 16,
-  "tech_resist": 15,
-  "tech_range_multiplier": 15,
-  "tech_radius_multiplier": 15,
+  "tech_resist": 14,
+  "tech_range_multiplier": 14,
+  "tech_radius_multiplier": 14,
   "movement_speed_slow": 40
 }

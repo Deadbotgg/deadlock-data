@@ -1,6 +1,6 @@
 {
   "name": "Ethereal Shift",
-  "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.",
+  "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">movement speed and spirit resist</span>.",
   "cost": "3000",
   "tier": "3",
   "activation": "InstantCast",
@@ -13,21 +13,40 @@
     "EShopFilterFireRate"
   ],
   "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "tech_power": {
+            "value": 6,
+            "style": "tech_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
     "Active": [
       {
         "ability_properties": {
+          "tech_resist": {
+            "value": 40,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
+          "bonus_move_speed": {
+            "value": 3,
+            "style": "move_speed",
+            "is_negative": false
+          },
           "ability_cooldown": {
             "value": 32,
             "style": "cooldown",
             "is_negative": false
           },
-          "bonus_spirit": {
-            "value": 14,
-            "style": "tech_damage",
-            "is_negative": false
-          },
-          "bonus_spirit_duration": {
-            "value": 10,
+          "buff_duration": {
+            "value": 5,
             "style": "duration",
             "is_negative": false
           }
@@ -40,7 +59,7 @@
             "is_conditional": false
           }
         },
-        "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>."
+        "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">movement speed and spirit resist</span>."
       }
     ]
   },
@@ -56,11 +75,12 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 0,
+  "tech_power": 6,
   "weapon_power": 0,
-  "bonus_spirit": 14,
-  "bonus_spirit_duration": 10,
+  "buff_duration": 5,
+  "tech_resist": 40,
   "damping_factor": 3,
   "lift_height": 120,
-  "move_speed_max": 0
+  "move_speed_max": 0,
+  "bonus_move_speed": 3
 }

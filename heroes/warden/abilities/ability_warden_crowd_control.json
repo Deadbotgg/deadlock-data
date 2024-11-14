@@ -22,14 +22,15 @@
     "damage": 65,
     "weapon_power_debuff": -30,
     "fire_rate_slow": 0,
-    "debuff_duration": 6,
+    "slow_duration": 3,
+    "debuff_duration": 7,
     "move_speed_slow_pct": 20,
     "forward_velocity": 800,
     "projectile_lifetime": 60,
     "stamina_reduction": 0
   },
   "tooltipDetails": {
-    "description": "Throw a flask that <span class=\"highlight\">damages, slows,</span> and reduces the <span class=\"highlight\">weapon damage</span> and <span class=\"highlight\">stamina</span> of enemies it hits.",
+    "description": "Throw a flask that <span class=\"highlight\">damages, slows movement,</span> and reduces the <span class=\"highlight\">weapon damage</span> and of enemies it hits.",
     "properties": [
       {
         "key": "Damage",
@@ -57,8 +58,14 @@
     ],
     "basicProperties": [
       {
+        "key": "SlowDuration",
+        "value": 3,
+        "type": "duration"
+      },
+      {
         "key": "DebuffDuration",
-        "value": 6,
+        "loc_token_override": "FlaskDebuffDuration",
+        "value": 7,
         "type": "duration"
       },
       {
