@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "regen_incoming_damage_percent": 16,
+    "regen_incoming_damage_percent": 15,
     "regen_incoming_damage_duration": 18,
     "regen_damage_interval": 1,
     "bonus_max_health": 0,
@@ -30,7 +30,7 @@
     "properties": [
       {
         "key": "RegenIncomingDamagePercent",
-        "value": 16,
+        "value": 15,
         "type": "healing"
       },
       {
@@ -55,7 +55,7 @@
         "bonus_max_health": 150
       },
       {
-        "regen_incoming_damage_percent": 9,
+        "regen_incoming_damage_percent": 8,
         "name": "Damage regenerated"
       }
     ]

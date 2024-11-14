@@ -25,7 +25,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 10,
+            "value": 12,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -94,6 +94,6 @@
   "hero_target_bonus": 20,
   "regen_duration": 2,
   "aura_radius": 15,
-  "base_attack_damage_percent": 10,
+  "base_attack_damage_percent": 12,
   "bonus_health": 100
 }

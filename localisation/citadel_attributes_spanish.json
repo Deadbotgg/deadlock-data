@@ -283,7 +283,7 @@
   "NonPlayerBonusWeaponPower_prefix": "+",
   "NonPlayerBonusWeaponPower_postfix": " %",
   "NonPlayerBonusWeaponPower_conditional": "contra PNJ",
-  "NonPlayerBulletResist_label": "Resistencia a balas contra PNJ",
+  "NonPlayerBulletResist_label": "de resist. a balas contra PNJ",
   "NonPlayerBulletResist_prefix": "+",
   "NonPlayerBulletResist_postfix": " %",
   "NonPlayerBulletResist_conditional": "contra PNJ",
@@ -694,6 +694,7 @@
   "DashJump_conditional": "tras un salto con impulso",
   "EnemyAboveHealthThreshold_conditional": "Enemy above health threshold",
   "Quicksilver_conditional": "tras usar una habilidad",
+  "SurgeOfPower_conditional": "tras usar una habilidad",
   "SpiritStrike_conditional": "tras un ataque cuerpo a cuerpo certero",
   "LongRangeBonusWeaponPowerMinRange_label": "de distancia mínima",
   "LongRangeBonusWeaponPowerMinRange_postfix": " m",
@@ -732,7 +733,6 @@
   "DebuffDurationReductionPercentage_postfix": " %",
   "HealthCost_label": "Health Cost",
   "ZipLineSpeedPercent_prefix": "{s:sign}",
-  "ZipLineSpeedPercent_label": "Hyperline Speed",
   "ZipLineSpeedPercent_postfix": " %",
   "ZiplineJumpBonusDuration_label": "Jump Off Duration",
   "ZiplineJumpBonusDuration_postfix": " s",
@@ -1137,6 +1137,8 @@
   "SlowFireRatePercent_label": "Fire Rate Scale",
   "SlowFireRatePercent_prefix": "{s:sign}",
   "SlowFireRatePercent_postfix": " %",
+  "MaxFireRateSlowPercent_label": "menos de cadencia de tiro máxima",
+  "MaxFireRateSlowPercent_postfix": " %",
   "FireRateScale_label": "Fire Rate Scale",
   "FireRateScale_prefix": "{s:sign}",
   "FireRateScale_postfix": " %",
@@ -1282,5 +1284,7 @@
   "BonusSpiritPerKill_label": "Bonus Spirit Power Per Kill",
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "de duración de la invocación",
-  "SummonDuration_postfix": " s"
+  "SummonDuration_postfix": " s",
+  "Reloaded": "¡Has recargado!",
+  "ExplodeDamage_label": "de daño al explotar"
 }

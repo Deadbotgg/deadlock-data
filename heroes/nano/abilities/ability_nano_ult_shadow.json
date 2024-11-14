@@ -24,7 +24,7 @@
     "invis_move_speed_mod": 1,
     "spotted_radius": 15,
     "reveal_on_damage_duration": 0.25,
-    "reveal_on_spotted_duration": 0.25,
+    "reveal_on_spotted_duration": 1,
     "stamina_cooldown_reduction": 0,
     "purge_on_activate": 0,
     "silence_on_heavy_duration": 0,

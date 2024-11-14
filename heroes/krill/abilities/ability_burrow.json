@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "dps": 80,
     "radius": 5,
-    "bonus_move_speed": 3,
+    "bonus_move_speed": 4,
     "speed_lost_duration": 1,
     "enemy_damage_speed_penalty": 0.5,
     "spin_duration": 1.5,
@@ -37,7 +37,7 @@
       {
         "key": "BonusMoveSpeed",
         "m_e_display_units": "EDisplayUnit_MetersPerSecond",
-        "value": "3m",
+        "value": "4m",
         "type": "move_speed",
         "m_e_display_type": "EMaxMoveSpeed",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
@@ -83,7 +83,7 @@
       },
       {
         "ability_cooldown": -19,
-        "bonus_move_speed": 3
+        "bonus_move_speed": 2
       }
     ]
   }

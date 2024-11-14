@@ -1,6 +1,6 @@
 {
   "name": "Quicksilver Reload",
-  "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.",
+  "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -38,7 +38,7 @@
             "is_conditional": true
           }
         },
-        "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip."
+        "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full."
       }
     ]
   },

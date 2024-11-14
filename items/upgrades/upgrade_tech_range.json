@@ -16,7 +16,8 @@
   "componentsOf": [],
   "target_types": null,
   "shop_filters": [
-    "EShopFilterMagicDamage"
+    "EShopFilterMagicDamage",
+    "EShopFilterDurability"
   ],
   "tooltip": {
     "Innate": [
@@ -27,9 +28,9 @@
             "style": "distance",
             "is_negative": false
           },
-          "tech_resist": {
+          "bullet_resist": {
             "value": 12,
-            "style": "tech_armor_up",
+            "style": "bullet_armor_up",
             "is_negative": false
           },
           "tech_power": {
@@ -68,5 +69,5 @@
   "non_imbued_tech_radius_multiplier": 25,
   "imbued_tech_range_multiplier": 35,
   "imbued_tech_radius_multiplier": 35,
-  "tech_resist": 12
+  "bullet_resist": 12
 }

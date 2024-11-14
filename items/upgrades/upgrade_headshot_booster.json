@@ -7,7 +7,13 @@
   "slot": "Weapon",
   "image": "upgrades/mods_weapon/headshot_booster_psd",
   "components": null,
-  "componentsOf": [],
+  "componentsOf": [
+    {
+      "key": "upgrade_headhunter",
+      "name": "Headhunter",
+      "image": "upgrades/mods_weapon/headhunter_psd"
+    }
+  ],
   "target_types": null,
   "shop_filters": [
     "EShopFilterDurability",
@@ -18,7 +24,7 @@
       {
         "ability_properties": {
           "bonus_fire_rate": {
-            "value": 5,
+            "value": 4,
             "style": null,
             "is_negative": false
           },
@@ -68,7 +74,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_fire_rate": 5,
+  "bonus_fire_rate": 4,
   "bullet_shield_max_health": 40,
   "head_shot_bonus_damage": 40
 }

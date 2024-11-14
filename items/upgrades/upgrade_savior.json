@@ -25,7 +25,7 @@
             "is_negative": false
           },
           "bonus_health": {
-            "value": 75,
+            "value": 50,
             "style": "health",
             "is_negative": false
           },
@@ -102,5 +102,5 @@
   "tech_radius_multiplier": 8,
   "bonus_move_speed": 2,
   "bonus_sprint_speed": 1,
-  "bonus_health": 75
+  "bonus_health": 50
 }

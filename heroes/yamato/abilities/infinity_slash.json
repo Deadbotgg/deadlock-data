@@ -2,7 +2,7 @@
   "key": "citadel_ability_infinity_slash",
   "name": "Shadow Transformation",
   "stats": {
-    "duration": 5,
+    "duration": 4.5,
     "cooldown": 106,
     "range": 0,
     "charges": 0,
@@ -18,19 +18,17 @@
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "radius": null,
-    "buff_duration": 20,
     "bonus_move_speed": 0,
     "speed_pct": 60,
     "tech_resist": 40,
     "bullet_resist": 40
   },
   "tooltipDetails": {
-    "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, your weapon has <span class=\"highlight\">infinite ammo</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
+    "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
     "properties": [
       {
         "key": "AbilityDuration",
-        "value": 5,
+        "value": 4.5,
         "disable_value": 0,
         "type": "duration",
         "m_b_can_set_token_override": true
@@ -65,7 +63,7 @@
         "bonus_move_speed": 4
       },
       {
-        "ability_duration": 1.5
+        "ability_duration": 2
       }
     ]
   }

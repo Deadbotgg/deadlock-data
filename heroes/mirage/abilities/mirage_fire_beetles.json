@@ -5,7 +5,7 @@
     "duration": 0,
     "cooldown": 0,
     "range": 0,
-    "charges": 3,
+    "charges": 4,
     "charge_restore_time": 0.05,
     "channel_duration": 0,
     "resource_cost": 0,
@@ -18,66 +18,76 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "launch_window_cooldown": 35,
-    "launch_window_duration": 20,
+    "launch_window_cooldown": 32,
+    "launch_window_duration": 5,
     "charges_conditionally": 1,
-    "radius": 4,
-    "dps": 20,
+    "radius": 1,
+    "dps": 0,
     "damage_interval": 0.5,
-    "debuff_duration": 4,
-    "healing_factor": 40,
-    "non_hero_healing_factor": 15
+    "debuff_duration": 14,
+    "healing_factor": 0,
+    "non_hero_healing_factor": 25,
+    "bullet_armor_reduction": -10,
+    "health_steal": 90,
+    "steal_duration": 14,
+    "max_stacks": 1,
+    "hero_stack": 3,
+    "non_hero_stack": 1
   },
   "tooltipDetails": {
-    "description": "Start launching fire scarabs. Each scarab can be <span class=\"highlight\">launched separately</span>, applying a <span class=\"highlight\">lifesteal over time</span> to enemies they hit. Once the launch window ends, this ability goes on cooldown.",
+    "description": "Start launching fire scarabs. Each scarab can be <span class=\"highlight\">launched separately</span>, stealing <span class=\"highlight\">max health from enemies</span> and applying <span class=\"highlight\">bullet resist reduction</span>. Cannot apply multiple scarabs to the same enemy. The health gain from hitting heroes is 3x as effective as against non-heroes.",
     "properties": [
       {
-        "key": "DPS",
-        "value": 20,
-        "type": "tech_damage",
+        "key": "HealthSteal",
+        "value": 90,
+        "type": "healing",
         "scale_function": {
-          "value": 0.3,
+          "value": 0.9,
           "type": "spirit"
-        }
+        },
+        "loc_token_override": "MirageFireScarabsHealthSteal"
       },
       {
-        "key": "HealingFactor",
-        "value": 40,
-        "type": "healing"
-      },
-      {
-        "key": "DebuffDuration",
-        "value": 4,
-        "type": "duration"
+        "key": "BulletArmorReduction",
+        "value": -10,
+        "m_e_display_type": "EBulletArmorDamageReduction",
+        "type": "bullet_armor_down",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "basicProperties": [
       {
         "key": "LaunchWindowDuration",
-        "value": 20,
+        "value": 5,
+        "type": "duration"
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 14,
         "type": "duration"
       },
       {
         "key": "LaunchWindowCooldown",
-        "value": 35
+        "value": 32,
+        "type": "cooldown"
       },
       {
         "key": "NonHeroHealingFactor",
-        "value": 15,
+        "value": 25,
         "type": "healing"
       }
     ],
     "upgrades": [
       {
-        "ability_charges": 2
+        "launch_window_cooldown": -15,
+        "name": "Cooldown"
       },
       {
-        "healing_factor": 40,
-        "name": "Heal vs Non-Heroes",
-        "non_hero_healing_factor": 15
+        "bullet_armor_reduction": -15
       },
       {
-        "dps": 40
+        "health_steal": 70
       }
     ]
   }

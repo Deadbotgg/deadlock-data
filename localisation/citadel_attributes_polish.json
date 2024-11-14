@@ -733,7 +733,7 @@
   "DebuffDurationReductionPercentage_postfix": "%",
   "HealthCost_label": "Health Cost",
   "ZipLineSpeedPercent_prefix": "{s:sign}",
-  "ZipLineSpeedPercent_label": "Hyperline Speed",
+  "ZipLineSpeedPercent_label": "Szybkość linii",
   "ZipLineSpeedPercent_postfix": "%",
   "ZiplineJumpBonusDuration_label": "Jump Off Duration",
   "ZiplineJumpBonusDuration_postfix": " s",
@@ -1077,6 +1077,8 @@
   "DamageReflectedFrequencyPct_label": "Szansa na aktywację",
   "DamageReflectedFrequencyPct_postfix": "%",
   "modifier_armor_reactive_armor": "Ogień Zwrotny",
+  "ReturnFireBulletResist_prefix": "+",
+  "ReturnFireBulletResist_label": "Odporność na naboje",
   "RespawnBonusHealth_label": "Respawn Bonus Health",
   "RespawnBonusHealthDuration_label": "Respawn Bonus Health Duration",
   "RespawnBonusHealthDuration_postfix": " s",
@@ -1285,5 +1287,9 @@
   "BonusSpiritPerKill_label": "Bonus Spirit Power Per Kill",
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "Czas przyzywania",
-  "SummonDuration_postfix": " s"
+  "SummonDuration_postfix": " s",
+  "Reloaded": "Przeładowano!",
+  "ExplodeDamage_label": "Obrażenia od eksplozji",
+  "StaminaRegenPercent_label": "Regeneracja wytrzymałości",
+  "StaminaRegenPercent_postfix": "%"
 }

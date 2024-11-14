@@ -65,7 +65,7 @@
             "is_conditional": false
           }
         },
-        "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span>. If used at max stacks it replenishes a <span class=\"highlight\">stamina point</span> on the target. Can be self-cast."
+        "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span> and replenish a <span class=\"highlight\">stamina point</span>. Can be self-cast."
       }
     ]
   },

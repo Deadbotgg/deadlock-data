@@ -7,7 +7,13 @@
   "slot": "Tech",
   "image": "upgrades/mods_tech/acolytes_glove_psd",
   "components": null,
-  "componentsOf": [],
+  "componentsOf": [
+    {
+      "key": "upgrade_superacolytes_glove",
+      "name": "Hex-Sealed Knuckles",
+      "image": "upgrades/mods_tech/acolytes_glove_psd"
+    }
+  ],
   "target_types": [
     "HeroEnemy"
   ],
@@ -27,11 +33,6 @@
           "tech_shield_max_health": {
             "value": 80,
             "style": "tech_armor_up",
-            "is_negative": false
-          },
-          "bonus_health_regen": {
-            "value": 0,
-            "style": "healing",
             "is_negative": false
           }
         },
@@ -88,6 +89,5 @@
   "spirit_damage": 50,
   "tech_armor_damage_reduction": -12,
   "tech_shield_max_health": 80,
-  "bonus_health_regen": 0.8,
   "bonus_melee_damage_percent": 12
 }

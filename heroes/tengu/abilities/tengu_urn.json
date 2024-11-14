@@ -33,7 +33,7 @@
         "value": 60,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.6,
+          "value": 0.7,
           "type": "spirit"
         }
       },
@@ -54,7 +54,8 @@
         "ability_duration": 2
       },
       {
-        "dps": 60
+        "dps": 60,
+        "radius": 2
       }
     ]
   }

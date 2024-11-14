@@ -1,6 +1,6 @@
 {
   "id": 17,
-  "name": "hero_orion",
+  "name": "Grey Talon",
   "new_player_friendly": true,
   "in_development": false,
   "in_hero_labs": false,
@@ -29,8 +29,8 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 1.8,
-    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_bullet_damage_from_level": 1.414286,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 27,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0
@@ -208,8 +208,8 @@
     "efirerate": 0.25
   },
   "weapon_stats": {
-    "bullet_damage": 22,
-    "rounds_per_second": 2.5,
+    "bullet_damage": 24.75,
+    "rounds_per_second": 2.2222222222222223,
     "clip_size": 17,
     "reload_time": 2.35,
     "reload_movespeed": 1,
@@ -225,8 +225,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 55,
-    "sustained_dps": 40.87431693989071,
+    "dps": 55.00000000000001,
+    "sustained_dps": 42.075,
     "weapon_name": "citadel_weapon_archer_set",
     "weapon_description": "citadel_weapon_hero_archer_set",
     "weapon_types": [
@@ -235,7 +235,7 @@
       "Attribute_EWeaponAttribute_Projectile"
     ]
   },
-  "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was Ixian... she could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
+  "lore": "A founding member of \\\"The Baxter Society\\\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talon's duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved.\\n\\nRetirement suited Wesley.  He made up for lost time with his wife.  He doted on his grandkids.  He cooked dinner for the whole family every Wednesday.  He was happy.\\n\\nThen he got the call.\\n\\nThe authorities claimed that it was a freak accident... that the fire consumed his son's house before anyone got a chance to escape.  But Wesley knew better.  His son's wife was an Ixian who could snuff out flame with a thought.  If their bodies were found burned they had to be dead long before there was a fire.\\n\\nAnd so Grey Talon has picked up his bow once more, and when he finds who's responsible there will be a bloody reckoning.",
   "playstyle": "A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents.",
   "role": "Delivers long range skill-shots",
   "recommended_items": [

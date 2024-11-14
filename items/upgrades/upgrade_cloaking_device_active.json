@@ -4,7 +4,7 @@
   "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
-  "slot": "Armor",
+  "slot": "Weapon",
   "image": "upgrades/mods_utility/cloaking_device_psd",
   "components": null,
   "componentsOf": [],
@@ -53,11 +53,6 @@
           "ability_duration": {
             "value": 25,
             "style": "duration",
-            "is_conditional": false
-          },
-          "invis_move_speed_mod": {
-            "value": 2,
-            "style": "move_speed",
             "is_conditional": false
           }
         },

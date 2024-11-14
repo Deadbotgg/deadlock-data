@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 140,
+            "value": 160,
             "style": "health",
             "is_negative": false
           },
@@ -75,7 +75,7 @@
   "ability_resource_cost": 0,
   "tech_power": 6,
   "weapon_power": 0,
-  "bonus_health": 140,
+  "bonus_health": 160,
   "damage_pulse_amount": 40,
   "damage_pulse_radius": 9
 }

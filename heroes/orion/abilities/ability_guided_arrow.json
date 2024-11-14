@@ -21,7 +21,6 @@
     "explosion_radius": 12,
     "damage": 250,
     "stun_duration": 0.75,
-    "slow_percent": 0,
     "low_health_enemy_threshold_pct": 0,
     "bonus_tech_power_per_kill": 5
   },

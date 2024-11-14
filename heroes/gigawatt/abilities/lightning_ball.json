@@ -60,7 +60,8 @@
         "slow_percent": 40
       },
       {
-        "dps": 70
+        "dps": 70,
+        "shock_radius": 1
       }
     ]
   }

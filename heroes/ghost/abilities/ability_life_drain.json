@@ -3,7 +3,7 @@
   "name": "Life Drain",
   "stats": {
     "duration": 2,
-    "cooldown": 42,
+    "cooldown": 30,
     "range": 20,
     "charges": 0,
     "charge_restore_time": 0,

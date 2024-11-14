@@ -29,7 +29,7 @@
             "is_negative": false
           },
           "stamina_cooldown_reduction": {
-            "value": 10,
+            "value": 14,
             "style": null,
             "is_negative": false
           },
@@ -60,6 +60,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "stamina": 1,
-  "stamina_cooldown_reduction": 10,
+  "stamina_cooldown_reduction": 14,
   "bonus_fire_rate": 7
 }

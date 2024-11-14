@@ -558,7 +558,7 @@
               "is_negative": false
             },
             "non_player_bullet_resist": {
-              "value": 35,
+              "value": 30,
               "style": "bullet_damage",
               "is_negative": false
             }
@@ -585,11 +585,11 @@
     "non_player_bonus_weapon_power": 35,
     "bonus_health": 50,
     "bonus_health_regen": 1,
-    "non_player_bullet_resist": 35
+    "non_player_bullet_resist": 30
   },
   "upgrade_ammo_scavenger": {
     "name": "Ammo Scavenger",
-    "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
+    "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
     "cost": "500",
     "tier": "1",
     "activation": "Passive",
@@ -612,7 +612,7 @@
               "is_negative": false
             },
             "bonus_health": {
-              "value": 60,
+              "value": 40,
               "style": "health",
               "is_negative": false
             }
@@ -626,12 +626,12 @@
         {
           "ability_properties": {
             "ability_duration": {
-              "value": 35,
+              "value": 30,
               "style": "duration",
               "is_negative": false
             },
             "max_stacks": {
-              "value": 12,
+              "value": 10,
               "style": null,
               "is_negative": false
             }
@@ -649,13 +649,13 @@
               "is_conditional": true
             }
           },
-          "description": "Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
+          "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
         }
       ]
     },
     "disabled": false,
     "ability_cooldown": 0,
-    "ability_duration": 35,
+    "ability_duration": 30,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
     "ability_cast_delay": 0,
@@ -668,10 +668,10 @@
     "tech_power": 0,
     "weapon_power": 0,
     "bonus_clip_size_percent": 15,
-    "bonus_health": 60,
+    "bonus_health": 40,
     "ammo_per_soul": 2,
     "spirit_power_per_soul": 2,
-    "max_stacks": 12
+    "max_stacks": 10
   },
   "upgrade_clip_size_fixed": {
     "name": "Extended Magazine",
@@ -941,7 +941,7 @@
         {
           "ability_properties": {
             "tech_shield_max_health": {
-              "value": 85,
+              "value": 95,
               "style": "tech_armor_up",
               "is_negative": false
             },
@@ -987,7 +987,7 @@
     "weapon_power": 0,
     "life_threshold": 60,
     "base_attack_damage_percent": 22,
-    "tech_shield_max_health": 85
+    "tech_shield_max_health": 95
   },
   "upgrade_pristine_emblem": {
     "name": "Pristine Emblem",
@@ -997,7 +997,13 @@
     "activation": "Passive",
     "slot": "Weapon",
     "image": "upgrades/mods_weapon/pristine_emblem_psd",
-    "components": null,
+    "components": [
+      {
+        "key": "upgrade_high_velocity_mag",
+        "name": "High-Velocity Mag",
+        "image": "upgrades/mods_weapon/high_velocity_mag_psd"
+      }
+    ],
     "componentsOf": [],
     "target_types": [
       "AllEnemy"
@@ -1010,6 +1016,11 @@
       "Innate": [
         {
           "ability_properties": {
+            "bonus_bullet_speed_percent": {
+              "value": 35,
+              "style": "bullet_damage",
+              "is_negative": false
+            },
             "base_attack_damage_percent": {
               "value": 25,
               "style": "bullet_damage",
@@ -1063,7 +1074,8 @@
     "enemy_life_threshold": 50,
     "base_attack_damage_percent": 25,
     "base_attack_damage_percent_bonus": 25,
-    "tech_resist": 12
+    "tech_resist": 12,
+    "bonus_bullet_speed_percent": 35
   },
   "upgrade_stabilizer": {
     "name": "Stabilizer",
@@ -1122,9 +1134,9 @@
     "components": null,
     "componentsOf": [
       {
-        "key": "upgrade_headhunter",
-        "name": "Headhunter",
-        "image": "upgrades/mods_weapon/headhunter_psd"
+        "key": "upgrade_pristine_emblem",
+        "name": "Pristine Emblem",
+        "image": "upgrades/mods_weapon/pristine_emblem_psd"
       }
     ],
     "target_types": null,
@@ -1136,7 +1148,7 @@
         {
           "ability_properties": {
             "bonus_bullet_speed_percent": {
-              "value": 30,
+              "value": 25,
               "style": "bullet_damage",
               "is_negative": false
             },
@@ -1171,7 +1183,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_bullet_speed_percent": 30,
+    "bonus_bullet_speed_percent": 25,
     "base_attack_damage_percent": 12,
     "bullet_shield_max_health": 50
   },
@@ -1204,7 +1216,7 @@
         {
           "ability_properties": {
             "bonus_melee_damage_percent": {
-              "value": 13,
+              "value": 12,
               "style": "melee_damage",
               "is_negative": false
             },
@@ -1248,11 +1260,11 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_melee_damage_percent": 13,
+    "bonus_melee_damage_percent": 12,
     "lifestrike_heal": 90,
     "lifestrike_heal_percent": 20,
     "bonus_health": 75,
-    "non_hero_heal_pct": 40
+    "non_hero_heal_pct": 30
   },
   "upgrade_close_range": {
     "name": "Close Quarters",
@@ -2328,6 +2340,11 @@
               "value": 20,
               "style": "bullet_damage",
               "is_negative": false
+            },
+            "tech_power": {
+              "value": 12,
+              "style": "tech_damage",
+              "is_negative": false
             }
           },
           "elevated_ability_properties": {},
@@ -2367,7 +2384,7 @@
     "ability_cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "ability_resource_cost": 0,
-    "tech_power": 0,
+    "tech_power": 12,
     "weapon_power": 0,
     "e_m_p_duration": 2,
     "base_attack_damage_percent": 20,
@@ -2477,7 +2494,7 @@
         {
           "ability_properties": {
             "damage_to_stack": {
-              "value": 110,
+              "value": 100,
               "style": "bullet_armor_up",
               "is_negative": false
             },
@@ -2519,7 +2536,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "damage_duration": 10,
-    "damage_to_stack": 110,
+    "damage_to_stack": 100,
     "weapon_power_per_stack": 5,
     "max_stacks": 10,
     "bonus_clip_size": 4,
@@ -2582,9 +2599,9 @@
               "style": "fireRate",
               "is_conditional": true
             },
-            "fervor_tech_resist": {
+            "fervor_bullet_resist": {
               "value": 45,
-              "style": "tech_armor_up",
+              "style": "bullet_armor_up",
               "is_conditional": true
             }
           },
@@ -2612,7 +2629,7 @@
     "low_health_threshold": 40,
     "fervor_movespeed": 4,
     "fervor_fire_rate": 40,
-    "fervor_tech_resist": 45,
+    "fervor_bullet_resist": 45,
     "linger_duration": 6
   },
   "upgrade_siphon_bullets": {
@@ -2621,7 +2638,7 @@
     "cost": "6200",
     "tier": "4",
     "activation": "Passive",
-    "slot": "Weapon",
+    "slot": "Armor",
     "image": "upgrades/mods_weapon/siphon_bullets_psd",
     "components": null,
     "componentsOf": [],
@@ -2636,9 +2653,9 @@
       "Innate": [
         {
           "ability_properties": {
-            "base_attack_damage_percent": {
-              "value": 28,
-              "style": "bullet_damage",
+            "bullet_resist": {
+              "value": 18,
+              "style": null,
               "is_negative": false
             }
           },
@@ -2687,7 +2704,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "base_attack_damage_percent": 28,
+    "bullet_resist": 18,
     "steal_per_hit": 1,
     "stack_lost_per_death": 2,
     "max_stacks": 99,
@@ -2705,7 +2722,13 @@
     "slot": "Weapon",
     "image": "upgrades/mods_weapon/headshot_booster_psd",
     "components": null,
-    "componentsOf": [],
+    "componentsOf": [
+      {
+        "key": "upgrade_headhunter",
+        "name": "Headhunter",
+        "image": "upgrades/mods_weapon/headhunter_psd"
+      }
+    ],
     "target_types": null,
     "shop_filters": [
       "EShopFilterDurability",
@@ -2716,7 +2739,7 @@
         {
           "ability_properties": {
             "bonus_fire_rate": {
-              "value": 5,
+              "value": 4,
               "style": null,
               "is_negative": false
             },
@@ -2766,7 +2789,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_fire_rate": 5,
+    "bonus_fire_rate": 4,
     "bullet_shield_max_health": 40,
     "head_shot_bonus_damage": 40
   },
@@ -2873,9 +2896,9 @@
     "image": "upgrades/mods_weapon/headhunter_psd",
     "components": [
       {
-        "key": "upgrade_high_velocity_mag",
-        "name": "High-Velocity Mag",
-        "image": "upgrades/mods_weapon/high_velocity_mag_psd"
+        "key": "upgrade_headshot_booster",
+        "name": "Headshot Booster",
+        "image": "upgrades/mods_weapon/headshot_booster_psd"
       }
     ],
     "componentsOf": [],
@@ -2887,11 +2910,6 @@
       "Innate": [
         {
           "ability_properties": {
-            "bonus_bullet_speed_percent": {
-              "value": 50,
-              "style": "bullet_damage",
-              "is_negative": false
-            },
             "base_attack_damage_percent": {
               "value": 15,
               "style": "bullet_damage",
@@ -2900,6 +2918,11 @@
             "bullet_shield_max_health": {
               "value": 150,
               "style": "bullet_armor_up",
+              "is_negative": false
+            },
+            "bonus_fire_rate": {
+              "value": 5,
+              "style": null,
               "is_negative": false
             }
           },
@@ -2911,14 +2934,14 @@
       "Passive": [
         {
           "ability_properties": {
+            "ability_cooldown": {
+              "value": 6,
+              "style": "cooldown",
+              "is_negative": false
+            },
             "movement_speed_bonus_duration": {
               "value": 3,
               "style": "duration",
-              "is_negative": false
-            },
-            "head_shot_cooldown": {
-              "value": 6,
-              "style": null,
               "is_negative": false
             }
           },
@@ -2945,7 +2968,7 @@
       ]
     },
     "disabled": false,
-    "ability_cooldown": 0,
+    "ability_cooldown": 6,
     "ability_duration": 0,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
@@ -2958,14 +2981,13 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_bullet_speed_percent": 50,
     "head_shot_bonus_damage": 140,
-    "head_shot_cooldown": 6,
     "base_attack_damage_percent": 15,
     "bullet_shield_max_health": 150,
     "heal_percent_per_headshot": 8,
     "bonus_move_speed": 2,
-    "movement_speed_bonus_duration": 3
+    "movement_speed_bonus_duration": 3,
+    "bonus_fire_rate": 5
   },
   "upgrade_banshee_slugs": {
     "name": "Crippling Headshot",
@@ -3637,7 +3659,7 @@
               "is_negative": false
             },
             "bonus_fire_rate": {
-              "value": 12,
+              "value": 10,
               "style": null,
               "is_negative": false
             },
@@ -3697,7 +3719,7 @@
     "bonus_clip_size_percent": 35,
     "ricochet_targets_tooltip_only": 2,
     "bonus_health": 150,
-    "bonus_fire_rate": 12
+    "bonus_fire_rate": 10
   },
   "upgrade_health": {
     "name": "Extra Health",
@@ -3836,7 +3858,7 @@
           },
           "elevated_ability_properties": {
             "bullet_resist": {
-              "value": 20,
+              "value": 25,
               "style": "bullet_armor_up",
               "is_negative": false
             }
@@ -3860,7 +3882,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bullet_resist": 20,
+    "bullet_resist": 25,
     "base_attack_damage_percent": 6
   },
   "upgrade_tech_armor": {
@@ -4770,7 +4792,7 @@
           },
           "elevated_ability_properties": {
             "bullet_resist": {
-              "value": 45,
+              "value": 50,
               "style": "bullet_armor_up",
               "is_negative": false
             }
@@ -4794,7 +4816,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bullet_resist": 45,
+    "bullet_resist": 50,
     "base_attack_damage_percent": 10
   },
   "upgrade_metal_skin": {
@@ -4959,7 +4981,7 @@
         {
           "ability_properties": {
             "bonus_health": {
-              "value": 275,
+              "value": 300,
               "style": "health",
               "is_negative": false
             }
@@ -5008,7 +5030,7 @@
     "health_threshold": 75,
     "bonus_move_speed": 2,
     "base_attack_damage_percent": 25,
-    "bonus_health": 275
+    "bonus_health": 300
   },
   "upgrade_damage_recycler": {
     "name": "Leech",
@@ -5458,7 +5480,7 @@
               "is_negative": false
             },
             "stamina_cooldown_reduction": {
-              "value": 10,
+              "value": 14,
               "style": null,
               "is_negative": false
             },
@@ -5489,7 +5511,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "stamina": 1,
-    "stamina_cooldown_reduction": 10,
+    "stamina_cooldown_reduction": 14,
     "bonus_fire_rate": 7
   },
   "upgrade_bullet_armor_reduction_aura": {
@@ -5660,7 +5682,7 @@
           "ability_properties": {},
           "elevated_ability_properties": {
             "bullet_shield_max_health": {
-              "value": 300,
+              "value": 325,
               "style": "bullet_armor_up",
               "is_negative": false
             }
@@ -5675,12 +5697,12 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "attack_damage_when_shielded": {
-              "value": 28,
+              "value": 25,
               "style": "bullet_damage",
               "is_conditional": false
             },
             "fire_rate_when_shielded": {
-              "value": 8,
+              "value": 6,
               "style": "fireRate",
               "is_conditional": false
             }
@@ -5703,9 +5725,9 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bullet_shield_max_health": 300,
-    "attack_damage_when_shielded": 28,
-    "fire_rate_when_shielded": 8
+    "bullet_shield_max_health": 325,
+    "attack_damage_when_shielded": 25,
+    "fire_rate_when_shielded": 6
   },
   "upgrade_magic_shield": {
     "name": "Enchanter's Barrier",
@@ -5889,7 +5911,7 @@
           },
           "elevated_ability_properties": {
             "tech_power": {
-              "value": 21,
+              "value": 23,
               "style": null,
               "is_negative": false
             }
@@ -5911,7 +5933,7 @@
     "ability_cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "ability_resource_cost": 0,
-    "tech_power": 21,
+    "tech_power": 23,
     "weapon_power": 0,
     "bonus_health_regen": 3,
     "bonus_sprint_speed": 1,
@@ -5951,6 +5973,11 @@
             "ability_lifesteal_percent_hero": {
               "value": 10,
               "style": "healing",
+              "is_negative": false
+            },
+            "bullet_shield_max_health": {
+              "value": 225,
+              "style": "bullet_armor_up",
               "is_negative": false
             }
           },
@@ -6000,6 +6027,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "cooldown_reduction": 15,
+    "bullet_shield_max_health": 225,
     "bonus_fire_rate": 20,
     "bonus_spirit": 45,
     "build_up_per_shot": 0.75,
@@ -6031,12 +6059,7 @@
               "is_negative": false
             },
             "tech_power": {
-              "value": 7,
-              "style": null,
-              "is_negative": false
-            },
-            "bonus_fire_rate": {
-              "value": 7,
+              "value": 9,
               "style": null,
               "is_negative": false
             }
@@ -6063,7 +6086,7 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "bullet_damage_reflected_pct": {
-              "value": 70,
+              "value": 60,
               "style": "bullet_damage",
               "is_conditional": false
             },
@@ -6071,6 +6094,11 @@
               "value": 30,
               "style": "tech_damage",
               "is_conditional": false
+            },
+            "return_fire_bullet_resist": {
+              "value": 25,
+              "style": "bullet_armor_up",
+              "is_conditional": true
             }
           },
           "description": "Automatically <span class=\"highlight\">fire a bullet</span> towards any attacker who damages you with their abilities or weapon."
@@ -6089,12 +6117,12 @@
     "ability_cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "ability_resource_cost": 0,
-    "tech_power": 7,
+    "tech_power": 9,
     "weapon_power": 0,
-    "bullet_damage_reflected_pct": 70,
-    "bonus_fire_rate": 7,
+    "bullet_damage_reflected_pct": 60,
     "bonus_health": 125,
-    "spirit_damage_reflected_pct": 30
+    "spirit_damage_reflected_pct": 30,
+    "return_fire_bullet_resist": 25
   },
   "upgrade_tech_range": {
     "name": "Improved Reach",
@@ -6114,7 +6142,8 @@
     "componentsOf": [],
     "target_types": null,
     "shop_filters": [
-      "EShopFilterMagicDamage"
+      "EShopFilterMagicDamage",
+      "EShopFilterDurability"
     ],
     "tooltip": {
       "Innate": [
@@ -6125,9 +6154,9 @@
               "style": "distance",
               "is_negative": false
             },
-            "tech_resist": {
+            "bullet_resist": {
               "value": 12,
-              "style": "tech_armor_up",
+              "style": "bullet_armor_up",
               "is_negative": false
             },
             "tech_power": {
@@ -6166,7 +6195,7 @@
     "non_imbued_tech_radius_multiplier": 25,
     "imbued_tech_range_multiplier": 35,
     "imbued_tech_radius_multiplier": 35,
-    "tech_resist": 12
+    "bullet_resist": 12
   },
   "upgrade_magic_reach": {
     "name": "Mystic Reach",
@@ -6190,7 +6219,7 @@
       "Innate": [
         {
           "ability_properties": {
-            "tech_resist": {
+            "bullet_resist": {
               "value": 6,
               "style": null,
               "is_negative": false
@@ -6198,7 +6227,7 @@
           },
           "elevated_ability_properties": {
             "tech_range_multiplier": {
-              "value": 16,
+              "value": 18,
               "style": "distance",
               "is_negative": false
             }
@@ -6222,9 +6251,9 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "tech_range_multiplier": 16,
+    "tech_range_multiplier": 18,
     "tech_radius_multiplier": 16,
-    "tech_resist": 6
+    "bullet_resist": 6
   },
   "upgrade_extra_charge": {
     "name": "Extra Charge",
@@ -7194,12 +7223,12 @@
               "is_negative": false
             },
             "cooldown_between_charge_reduction": {
-              "value": 55,
+              "value": 65,
               "style": "cooldown",
               "is_negative": false
             },
             "cooldown_reduction_on_charged_abilities": {
-              "value": 25,
+              "value": 30,
               "style": null,
               "is_negative": false
             },
@@ -7229,9 +7258,9 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "cooldown_between_charge_reduction": 55,
+    "cooldown_between_charge_reduction": 65,
     "bonus_ability_charges": 2,
-    "cooldown_reduction_on_charged_abilities": 25,
+    "cooldown_reduction_on_charged_abilities": 30,
     "base_attack_damage_percent": 12
   },
   "upgrade_magic_tempo": {
@@ -7580,19 +7609,19 @@
       "Innate": [
         {
           "ability_properties": {
-            "bonus_fire_rate": {
-              "value": 8,
-              "style": null,
-              "is_negative": false
-            },
             "spirit_power": {
-              "value": 4,
+              "value": 6,
               "style": null,
               "is_negative": false
             },
             "bonus_health": {
               "value": 50,
               "style": "health",
+              "is_negative": false
+            },
+            "bonus_sprint_speed": {
+              "value": 1,
+              "style": "move_speed",
               "is_negative": false
             }
           },
@@ -7605,7 +7634,7 @@
         {
           "ability_properties": {
             "ability_cast_range": {
-              "value": 24,
+              "value": 30,
               "style": "range",
               "is_negative": false
             }
@@ -7618,7 +7647,7 @@
               "is_conditional": false
             },
             "fire_rate_slow": {
-              "value": 40,
+              "value": 45,
               "style": "fireRate",
               "is_conditional": true
             },
@@ -7635,7 +7664,7 @@
     "disabled": false,
     "ability_cooldown": 26,
     "ability_duration": 4.5,
-    "ability_cast_range": 24,
+    "ability_cast_range": 30,
     "ability_unit_target_limit": 1,
     "ability_cast_delay": 0.1,
     "ability_channel_time": 0,
@@ -7646,10 +7675,10 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "fire_rate_slow": 40,
+    "fire_rate_slow": 45,
     "bullet_armor_reduction": -14,
-    "bonus_fire_rate": 8,
-    "spirit_power": 4,
+    "spirit_power": 6,
+    "bonus_sprint_speed": 1,
     "bonus_health": 50
   },
   "upgrade_rescue_beam": {
@@ -7825,7 +7854,13 @@
               "is_negative": false
             }
           },
-          "elevated_ability_properties": {},
+          "elevated_ability_properties": {
+            "spawn_time_penalty": {
+              "value": 15,
+              "style": "duration",
+              "is_negative": true
+            }
+          },
           "important_ability_properties": {},
           "description": ""
         }
@@ -7865,6 +7900,7 @@
     "ability_resource_cost": 0,
     "tech_power": 12,
     "weapon_power": 0,
+    "spawn_time_penalty": 15,
     "respawn_delay": 4,
     "respawn_health_percent": 50,
     "cooldown_reduction": 15
@@ -8208,7 +8244,7 @@
               "is_negative": false
             },
             "ability_cooldown": {
-              "value": 32,
+              "value": 45,
               "style": "cooldown",
               "is_negative": false
             }
@@ -8231,7 +8267,7 @@
       ]
     },
     "disabled": false,
-    "ability_cooldown": 32,
+    "ability_cooldown": 45,
     "ability_duration": 10,
     "ability_cast_range": 15,
     "ability_unit_target_limit": 1,
@@ -8739,12 +8775,12 @@
         {
           "ability_properties": {
             "tech_resist": {
-              "value": 16,
+              "value": 8,
               "style": "tech_armor_up",
               "is_negative": false
             },
             "bullet_resist": {
-              "value": 8,
+              "value": 16,
               "style": "bullet_armor_up",
               "is_negative": false
             }
@@ -8783,8 +8819,8 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "tech_resist": 16,
-    "bullet_resist": 8
+    "tech_resist": 8,
+    "bullet_resist": 16
   },
   "upgrade_ability_power_shard": {
     "name": "Echo Shard",
@@ -8846,7 +8882,7 @@
     "ability_duration": 0,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
-    "ability_cast_delay": 0,
+    "ability_cast_delay": 0.3,
     "ability_channel_time": 0,
     "ability_post_cast_duration": 0,
     "ability_charges": 0,
@@ -8880,7 +8916,7 @@
         {
           "ability_properties": {
             "bonus_health": {
-              "value": 140,
+              "value": 160,
               "style": "health",
               "is_negative": false
             },
@@ -8935,7 +8971,7 @@
     "ability_resource_cost": 0,
     "tech_power": 6,
     "weapon_power": 0,
-    "bonus_health": 140,
+    "bonus_health": 160,
     "damage_pulse_amount": 40,
     "damage_pulse_radius": 9
   },
@@ -9092,7 +9128,7 @@
     "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
-    "slot": "Armor",
+    "slot": "Weapon",
     "image": "upgrades/mods_utility/cloaking_device_psd",
     "components": null,
     "componentsOf": [],
@@ -9141,11 +9177,6 @@
             "ability_duration": {
               "value": 25,
               "style": "duration",
-              "is_conditional": false
-            },
-            "invis_move_speed_mod": {
-              "value": 2,
-              "style": "move_speed",
               "is_conditional": false
             }
           },
@@ -9204,38 +9235,6 @@
     "tech_shield_max_health": 300,
     "bonus_health_regen": 15,
     "bonus_clip_size_percent": 30
-  },
-  "upgrade_zipine_mastery": {
-    "name": "Zip Line Mastery",
-    "description": "Zip line speed <span class=\"highlight\">accelerates</span> and allows you to use <span class=\"highlight\">neutral</span> zip lines and capture them while zip lining.  Provides a movement speed bonus when jumping off a zip line whose duration increases the longer you are on the zip line.",
-    "cost": "3000",
-    "tier": "3",
-    "activation": "Passive",
-    "slot": "Armor",
-    "image": "upgrades/mods_utility/zipline_mastery_psd",
-    "components": null,
-    "componentsOf": [],
-    "target_types": null,
-    "shop_filters": null,
-    "tooltip": {},
-    "disabled": true,
-    "ability_cooldown": 0,
-    "ability_duration": 0,
-    "ability_cast_range": 0,
-    "ability_unit_target_limit": 1,
-    "ability_cast_delay": 0,
-    "ability_channel_time": 0,
-    "ability_post_cast_duration": 0,
-    "ability_charges": 0,
-    "ability_cooldown_between_charge": 0,
-    "channel_move_speed": 50,
-    "ability_resource_cost": 0,
-    "tech_power": 0,
-    "weapon_power": 0,
-    "collision_damage": 10,
-    "zipline_jump_bonus_move_speed": 2,
-    "zipline_jump_bonus_time_scale": 1.5,
-    "zipline_jump_bonus_duration_max": 6
   },
   "upgrade_fire_rate_aura": {
     "name": "Fire Rate Aura",
@@ -9605,7 +9604,7 @@
         {
           "ability_properties": {
             "base_attack_damage_percent": {
-              "value": 10,
+              "value": 12,
               "style": "bullet_damage",
               "is_negative": false
             },
@@ -9674,7 +9673,7 @@
     "hero_target_bonus": 20,
     "regen_duration": 2,
     "aura_radius": 15,
-    "base_attack_damage_percent": 10,
+    "base_attack_damage_percent": 12,
     "bonus_health": 100
   },
   "upgrade_restorative_locket": {
@@ -9744,7 +9743,7 @@
               "is_conditional": false
             }
           },
-          "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span>. If used at max stacks it replenishes a <span class=\"highlight\">stamina point</span> on the target. Can be self-cast."
+          "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span> and replenish a <span class=\"highlight\">stamina point</span>. Can be self-cast."
         }
       ]
     },
@@ -9974,7 +9973,7 @@
               "is_negative": false
             },
             "bonus_health": {
-              "value": 75,
+              "value": 50,
               "style": "health",
               "is_negative": false
             },
@@ -10051,7 +10050,7 @@
     "tech_radius_multiplier": 8,
     "bonus_move_speed": 2,
     "bonus_sprint_speed": 1,
-    "bonus_health": 75
+    "bonus_health": 50
   },
   "upgrade_aoe_smoke_bomb": {
     "name": "Smoke",
@@ -10377,7 +10376,7 @@
               "is_negative": false
             },
             "ability_duration": {
-              "value": 8,
+              "value": 7,
               "style": "duration",
               "is_negative": false
             }
@@ -10385,7 +10384,7 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "bonus_fire_rate": {
-              "value": 25,
+              "value": 20,
               "style": "fireRate",
               "is_conditional": true
             },
@@ -10401,7 +10400,7 @@
     },
     "disabled": false,
     "ability_cooldown": 10.5,
-    "ability_duration": 8,
+    "ability_duration": 7,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
     "ability_cast_delay": 0,
@@ -10413,7 +10412,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_fire_rate": 25,
+    "bonus_fire_rate": 20,
     "bonus_clip_size": 5,
     "bonus_health": 100,
     "bonus_health_regen": 1.5
@@ -10560,7 +10559,7 @@
   },
   "upgrade_unstoppable": {
     "name": "Unstoppable",
-    "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>.",
+    "description": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>.",
     "cost": "6200",
     "tier": "4",
     "activation": "InstantCast",
@@ -10620,7 +10619,7 @@
               "is_conditional": false
             }
           },
-          "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>."
+          "description": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
         }
       ]
     },
@@ -10687,7 +10686,7 @@
         {
           "ability_properties": {
             "radius": {
-              "value": 12,
+              "value": 14,
               "style": "distance",
               "is_negative": false
             },
@@ -10745,7 +10744,7 @@
     "tech_resist": 40,
     "slow_percent": 35,
     "ground_dash_reduction_percent": -25,
-    "radius": 12,
+    "radius": 14,
     "model_scale_growth": 1.2
   },
   "upgrade_cold_front": {
@@ -11930,7 +11929,7 @@
       ]
     },
     "disabled": false,
-    "ability_cooldown": 5.25,
+    "ability_cooldown": 5,
     "ability_duration": 0,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
@@ -11961,7 +11960,13 @@
     "slot": "Tech",
     "image": "upgrades/mods_tech/acolytes_glove_psd",
     "components": null,
-    "componentsOf": [],
+    "componentsOf": [
+      {
+        "key": "upgrade_superacolytes_glove",
+        "name": "Hex-Sealed Knuckles",
+        "image": "upgrades/mods_tech/acolytes_glove_psd"
+      }
+    ],
     "target_types": [
       "HeroEnemy"
     ],
@@ -11981,11 +11986,6 @@
             "tech_shield_max_health": {
               "value": 80,
               "style": "tech_armor_up",
-              "is_negative": false
-            },
-            "bonus_health_regen": {
-              "value": 0,
-              "style": "healing",
               "is_negative": false
             }
           },
@@ -12042,12 +12042,11 @@
     "spirit_damage": 50,
     "tech_armor_damage_reduction": -12,
     "tech_shield_max_health": 80,
-    "bonus_health_regen": 0.8,
     "bonus_melee_damage_percent": 12
   },
   "upgrade_melee_charge": {
     "name": "Melee Charge",
-    "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and <span class=\"highlight\">reloads your weapon instantly</span>.",
+    "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -12098,7 +12097,7 @@
         {
           "ability_properties": {
             "ability_cooldown": {
-              "value": 8,
+              "value": 10,
               "style": "cooldown",
               "is_negative": false
             }
@@ -12111,12 +12110,12 @@
               "is_conditional": false
             }
           },
-          "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and <span class=\"highlight\">reloads your weapon instantly</span>."
+          "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full."
         }
       ]
     },
     "disabled": false,
-    "ability_cooldown": 8.5,
+    "ability_cooldown": 10,
     "ability_duration": 0,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
@@ -12951,7 +12950,7 @@
   },
   "upgrade_quick_silver": {
     "name": "Quicksilver Reload",
-    "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.",
+    "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full.",
     "cost": "1250",
     "tier": "2",
     "activation": "Passive",
@@ -12989,7 +12988,7 @@
               "is_conditional": true
             }
           },
-          "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip."
+          "description": "Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip.  <br>Only activates when Ammo is not full."
         }
       ]
     },
@@ -13199,7 +13198,7 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "base_attack_damage_percent_at_max_duration": {
-              "value": 75,
+              "value": 60,
               "style": "bullet_damage",
               "is_conditional": true
             },
@@ -13230,7 +13229,7 @@
     "bonus_clip_size_percent": 25,
     "base_attack_damage_percent": 20,
     "shoot_duration_for_max": 3,
-    "base_attack_damage_percent_at_max_duration": 75
+    "base_attack_damage_percent_at_max_duration": 60
   },
   "upgrade_reinforcing_casings": {
     "name": "Escalating Resilience",
@@ -13253,7 +13252,7 @@
         {
           "ability_properties": {
             "bonus_fire_rate": {
-              "value": 14,
+              "value": 12,
               "style": null,
               "is_negative": false
             },
@@ -13312,7 +13311,7 @@
     "bullet_resist_per_stack": 2,
     "bullet_resist_duration": 20,
     "base_attack_damage_percent": 14,
-    "bonus_fire_rate": 14
+    "bonus_fire_rate": 12
   },
   "upgrade_blitz_bullets": {
     "name": "Swift Striker",
@@ -13374,7 +13373,7 @@
   },
   "upgrade_veil_walker": {
     "name": "Veil Walker",
-    "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine.",
+    "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
     "cost": "3000",
     "tier": "3",
     "activation": "Passive",
@@ -13438,14 +13437,9 @@
               "value": 3,
               "style": "move_speed",
               "is_conditional": true
-            },
-            "bonus_fire_rate": {
-              "value": 20,
-              "style": null,
-              "is_conditional": true
             }
           },
-          "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine."
+          "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
         }
       ]
     },
@@ -13474,7 +13468,6 @@
     "tech_shield_max_health": 200,
     "bonus_clip_size_percent": 12,
     "base_attack_damage_percent": 10,
-    "bonus_fire_rate": 20,
     "bonus_clip_size": 0,
     "invis_duration": 5,
     "bonus_move_speed": 3
@@ -13613,7 +13606,7 @@
         {
           "ability_properties": {
             "ability_cooldown": {
-              "value": 6,
+              "value": 5,
               "style": "cooldown",
               "is_negative": false
             }
@@ -13636,7 +13629,7 @@
       ]
     },
     "disabled": false,
-    "ability_cooldown": 6.25,
+    "ability_cooldown": 5.5,
     "ability_duration": 0,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,
@@ -13682,7 +13675,7 @@
         {
           "ability_properties": {
             "bonus_clip_size_percent": {
-              "value": 100,
+              "value": 120,
               "style": null,
               "is_negative": false
             },
@@ -13717,7 +13710,7 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "bonus_clip_size_percent": 100,
+    "bonus_clip_size_percent": 120,
     "base_attack_damage_percent": 18,
     "bullet_resist": 18
   },
@@ -13906,5 +13899,321 @@
     "fly_move_speed": 6,
     "bonus_health": 150,
     "bonus_ability_duration_percent": 10
+  },
+  "upgrade_spellshield": {
+    "name": "Hexafoil Ward",
+    "description": "Block the next <span class=\"highlight\">Spirit Damage</span> or <span class=\"highlight\">Debuff</span>, preventing its effects. Only regenerates outside of combat.",
+    "cost": "3000",
+    "tier": "3",
+    "activation": "Passive",
+    "slot": "Armor",
+    "image": "upgrades/mods_armor/restorative_locket_psd",
+    "components": null,
+    "componentsOf": [],
+    "target_types": null,
+    "shop_filters": [
+      "EShopFilterDurability"
+    ],
+    "tooltip": {
+      "Innate": [
+        {
+          "ability_properties": {
+            "bonus_health": {
+              "value": 25,
+              "style": null,
+              "is_negative": false
+            }
+          },
+          "elevated_ability_properties": {
+            "spell_shield_flavor_text": {
+              "value": null,
+              "style": "time",
+              "is_negative": false
+            }
+          },
+          "important_ability_properties": {},
+          "description": ""
+        }
+      ],
+      "Passive": [
+        {
+          "ability_properties": {
+            "ability_cooldown": {
+              "value": 12,
+              "style": "cooldown",
+              "is_negative": false
+            }
+          },
+          "elevated_ability_properties": {},
+          "important_ability_properties": {
+            "tech_resist": {
+              "value": 15,
+              "style": "tech_armor_up",
+              "is_conditional": false
+            }
+          },
+          "description": "Block the next <span class=\"highlight\">Spirit Damage</span> or <span class=\"highlight\">Debuff</span>, preventing its effects. Only regenerates outside of combat."
+        }
+      ]
+    },
+    "disabled": true,
+    "ability_cooldown": 12,
+    "ability_duration": 0,
+    "ability_cast_range": 0,
+    "ability_unit_target_limit": 1,
+    "ability_cast_delay": 0,
+    "ability_channel_time": 0,
+    "ability_post_cast_duration": 0,
+    "ability_charges": 0,
+    "ability_cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "ability_resource_cost": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "tech_resist": 15,
+    "bonus_health": 25,
+    "spell_shield_linger_duration": 0.3,
+    "spell_shield_flavor_text": null
+  },
+  "upgrade_superacolytes_glove": {
+    "name": "Hex-Sealed Knuckles",
+    "description": "After dealing an accumulated <span class=\"highlight\">{s:StoredSpiritDamage}</span> spirit damage, your next <span class=\"highlight\">Heavy Melee Attack</span> deals an additional <span class=\"highlight\">{s:StoredSpiritDamage} spirit damage</span>.",
+    "cost": "3000",
+    "tier": "3",
+    "activation": "Passive",
+    "slot": "Tech",
+    "image": "upgrades/mods_tech/acolytes_glove_psd",
+    "components": [
+      {
+        "key": "upgrade_acolytes_glove",
+        "name": "Spirit Strike",
+        "image": "upgrades/mods_tech/acolytes_glove_psd"
+      }
+    ],
+    "componentsOf": [],
+    "target_types": [
+      "HeroEnemy"
+    ],
+    "shop_filters": [
+      "EShopFilterMagicDamage",
+      "EShopFilterMelee"
+    ],
+    "tooltip": {
+      "Innate": [
+        {
+          "ability_properties": {
+            "tech_shield_max_health": {
+              "value": 100,
+              "style": "tech_armor_up",
+              "is_negative": false
+            },
+            "bonus_health_regen": {
+              "value": 1,
+              "style": "healing",
+              "is_negative": false
+            },
+            "bonus_melee_damage_percent": {
+              "value": 30,
+              "style": "melee_damage",
+              "is_negative": false
+            }
+          },
+          "elevated_ability_properties": {},
+          "important_ability_properties": {},
+          "description": ""
+        }
+      ],
+      "Passive": [
+        {
+          "ability_properties": {
+            "ability_cooldown": {
+              "value": 3,
+              "style": "cooldown",
+              "is_negative": false
+            }
+          },
+          "elevated_ability_properties": {},
+          "important_ability_properties": {
+            "stored_spirit_damage": {
+              "value": 200,
+              "style": "tech_damage",
+              "is_conditional": false
+            }
+          },
+          "description": "After dealing an accumulated <span class=\"highlight\">{s:StoredSpiritDamage}</span> spirit damage, your next <span class=\"highlight\">Heavy Melee Attack</span> deals an additional <span class=\"highlight\">{s:StoredSpiritDamage} spirit damage</span>."
+        }
+      ]
+    },
+    "disabled": true,
+    "ability_cooldown": 3,
+    "ability_duration": 13,
+    "ability_cast_range": 0,
+    "ability_unit_target_limit": 1,
+    "ability_cast_delay": 0,
+    "ability_channel_time": 0,
+    "ability_post_cast_duration": 0,
+    "ability_charges": 0,
+    "ability_cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "ability_resource_cost": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "stored_spirit_damage": 200,
+    "tech_shield_max_health": 100,
+    "bonus_health_regen": 1,
+    "bonus_melee_damage_percent": 30
+  },
+  "upgrade_magic_missile": {
+    "name": "Conjure Missiles",
+    "description": null,
+    "cost": "6200",
+    "tier": "4",
+    "activation": "Passive",
+    "slot": "Weapon",
+    "image": "upgrades/mods_weapon/glass_cannon_psd",
+    "components": null,
+    "componentsOf": [],
+    "target_types": null,
+    "shop_filters": [
+      "EShopFilterWeaponDamage",
+      "EShopFilterClipSize",
+      "EShopFilterFireRate"
+    ],
+    "tooltip": {
+      "Innate": [
+        {
+          "ability_properties": {
+            "base_attack_damage_percent": {
+              "value": 70,
+              "style": "bullet_damage",
+              "is_negative": false
+            },
+            "bonus_fire_rate": {
+              "value": 10,
+              "style": null,
+              "is_negative": false
+            },
+            "bonus_move_speed": {
+              "value": 1,
+              "style": "move_speed",
+              "is_negative": false
+            },
+            "max_health_loss_percent": {
+              "value": -15,
+              "style": "health",
+              "is_negative": true
+            }
+          },
+          "elevated_ability_properties": {},
+          "important_ability_properties": {},
+          "description": ""
+        }
+      ],
+      "Passive": [
+        {
+          "ability_properties": {},
+          "elevated_ability_properties": {},
+          "important_ability_properties": {
+            "weapon_power_per_kill": {
+              "value": 10,
+              "style": null,
+              "is_conditional": true
+            }
+          },
+          "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack."
+        }
+      ]
+    },
+    "disabled": true,
+    "ability_cooldown": 0,
+    "ability_duration": 0,
+    "ability_cast_range": 0,
+    "ability_unit_target_limit": 1,
+    "ability_cast_delay": 0,
+    "ability_channel_time": 0,
+    "ability_post_cast_duration": 0,
+    "ability_charges": 0,
+    "ability_cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "ability_resource_cost": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "base_attack_damage_percent": 70,
+    "max_health_loss_percent": -15,
+    "bonus_clip_per_kill": 2,
+    "max_clip_bonus": 14,
+    "bonus_fire_rate": 10,
+    "bonus_move_speed": 1,
+    "weapon_power_per_kill": 10,
+    "max_stacks": 5
+  },
+  "upgrade_heal_on_level": {
+    "name": "Patron's Healing",
+    "description": "When you receive a <span class=\"highlight\">Boon</span>, automatically <span class=\"highlight\">heal</span>.",
+    "cost": "500",
+    "tier": "1",
+    "activation": "Passive",
+    "slot": "Armor",
+    "image": "upgrades/mods_armor/last_stand_psd",
+    "components": null,
+    "componentsOf": [],
+    "target_types": null,
+    "shop_filters": [
+      "EShopFilterDurability",
+      "EShopFilterHealing"
+    ],
+    "tooltip": {
+      "Innate": [
+        {
+          "ability_properties": {
+            "bonus_health": {
+              "value": 25,
+              "style": "health",
+              "is_negative": false
+            },
+            "bonus_health_regen": {
+              "value": 2,
+              "style": "healing",
+              "is_negative": false
+            }
+          },
+          "elevated_ability_properties": {},
+          "important_ability_properties": {},
+          "description": ""
+        }
+      ],
+      "Passive": [
+        {
+          "ability_properties": {},
+          "elevated_ability_properties": {},
+          "important_ability_properties": {
+            "heal_on_level_heal_amount": {
+              "value": 210,
+              "style": "healing",
+              "is_conditional": false
+            }
+          },
+          "description": "When you receive a <span class=\"highlight\">Boon</span>, automatically <span class=\"highlight\">heal</span>."
+        }
+      ]
+    },
+    "disabled": true,
+    "ability_cooldown": 0,
+    "ability_duration": 0,
+    "ability_cast_range": 0,
+    "ability_unit_target_limit": 1,
+    "ability_cast_delay": 0,
+    "ability_channel_time": 0,
+    "ability_post_cast_duration": 0,
+    "ability_charges": 0,
+    "ability_cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "ability_resource_cost": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "heal_on_level_heal_amount": 210,
+    "bonus_health": 25,
+    "bonus_health_regen": 2,
+    "aura_radius": 15
   }
 }

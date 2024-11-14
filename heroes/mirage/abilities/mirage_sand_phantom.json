@@ -1,9 +1,9 @@
 {
   "key": "mirage_sand_phantom",
-  "name": "Tempest Ward",
+  "name": "Djinn's Mark",
   "stats": {
     "duration": 0,
-    "cooldown": 37,
+    "cooldown": 0.5,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,50 +18,62 @@
     "channel_move_speed": 200,
     "tech_power": 0,
     "weapon_power": 0,
-    "whirlwind_evasion_chance": 50,
-    "whirlwind_duration": 3.5,
-    "radius": 10,
-    "proc_bonus_magic_damage": 20,
-    "proc_bonus_magic_damage_escalation": 15,
+    "whirlwind_evasion_chance": 0,
+    "whirlwind_duration": 0,
+    "proc_damage_base": 16,
     "proc_chance": 100,
-    "proc_cooldown": 2,
-    "victim_stack_duration": 8,
-    "max_stacks": 5
+    "proc_cooldown": 2.5,
+    "victim_stack_duration": 4.5,
+    "reveal_duration": 2,
+    "max_stacks": 8,
+    "movement_speed_slow": 0,
+    "slow_duration": 0
   },
   "tooltipDetails": {
-    "description": "You become enveloped in a whirlwind that provides <span class=\"highlight\">bullet evasion</span> and <span class=\"highlight\">movement speed</span>.",
+    "description": "Passive: Your shots <span class=\"highlight\">apply an increasing multiplier</span> on the target. When the multiplier on a target expires or you reach the max, it's consumed and the target suffers <span class=\"highlight\">Spirit Damage</span> and is briefly <span class=\"highlight\">revealed on the map</span>. The final damage is the base damage times the multiplier.",
     "properties": [
       {
-        "key": "WhirlwindEvasionChance",
-        "value": 50,
-        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_EVASION",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "key": "ProcDamageBase",
+        "value": 16,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.4,
+          "type": "spirit"
+        }
       },
       {
-        "key": "WhirlwindDuration",
-        "value": 3.5
+        "key": "MaxStacks",
+        "value": 8,
+        "loc_token_override": "MirageDjinnsMarkMaxStacks"
+      },
+      {
+        "key": "ProcCooldown",
+        "value": 2.5,
+        "loc_token_override": "SandPhantomProcCooldown"
       }
     ],
     "basicProperties": [
       {
-        "key": "AbilityCooldown",
-        "value": 37,
-        "disable_value": 0,
-        "type": "cooldown",
-        "m_b_can_set_token_override": true
+        "key": "VictimStackDuration",
+        "value": 4.5
+      },
+      {
+        "key": "RevealDuration",
+        "value": 2
       }
     ],
     "upgrades": [
       {
-        "whirlwind_evasion_chance": 30,
-        "name": "Bullet Evasion Chance"
+        "movement_speed_slow": 80,
+        "slow_duration": 0.5
       },
       {
-        "proc_bonus_magic_damage_escalation": 10,
-        "name": "Escalating Spirit Damage"
+        "victim_stack_duration": 4,
+        "name": "Base Damage",
+        "proc_damage_base": 10
       },
       {
-        "ability_cooldown": -19
+        "max_stacks": 4
       }
     ]
   }

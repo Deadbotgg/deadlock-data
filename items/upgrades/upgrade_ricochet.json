@@ -28,7 +28,7 @@
             "is_negative": false
           },
           "bonus_fire_rate": {
-            "value": 12,
+            "value": 10,
             "style": null,
             "is_negative": false
           },
@@ -88,5 +88,5 @@
   "bonus_clip_size_percent": 35,
   "ricochet_targets_tooltip_only": 2,
   "bonus_health": 150,
-  "bonus_fire_rate": 12
+  "bonus_fire_rate": 10
 }

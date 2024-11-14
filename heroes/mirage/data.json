@@ -1,8 +1,8 @@
 {
   "id": 52,
-  "name": "hero_mirage",
+  "name": "Mirage",
   "new_player_friendly": false,
-  "in_development": true,
+  "in_development": false,
   "in_hero_labs": false,
   "is_disabled": false,
   "complexity": 2,
@@ -29,8 +29,8 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.4,
-    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_bullet_damage_from_level": 1,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0
@@ -43,7 +43,7 @@
   "movement": {
     "stealth_speed": 4,
     "footstep_sound_distance": 20,
-    "step_sound_time": 0.35
+    "step_sound_time": 0.3
   },
   "visuals": {
     "ui_color": [
@@ -204,25 +204,25 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 4.7,
-    "rounds_per_second": 3.7037037037037033,
-    "clip_size": 14,
-    "reload_time": 2.35,
+    "bullet_damage": 18,
+    "rounds_per_second": 2.857142857142857,
+    "clip_size": 16,
+    "reload_time": 2.6,
     "reload_movespeed": 1,
     "reload_delay": 0,
     "reload_single": false,
-    "bullet_speed": 126,
+    "bullet_speed": 326,
     "falloff_start_range": 8.66,
     "falloff_end_range": 22.64,
     "falloff_start_scale": 1,
     "falloff_end_scale": 0.1,
     "falloff_bias": 0.5,
     "bullet_gravity_scale": 0.8,
-    "bullets_per_shot": 4,
+    "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 69.62962962962963,
-    "sustained_dps": 42.936378466557905,
+    "dps": 51.42857142857143,
+    "sustained_dps": 35.1219512195122,
     "weapon_name": "citadel_weapon_mirage_set",
     "weapon_description": "citadel_weapon_hero_mirage_set",
     "weapon_types": [
@@ -231,22 +231,27 @@
     ]
   },
   "lore": "The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\\n\\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
-  "playstyle": "[playstyle info here]",
-  "role": "Fires off barrages while evading shots",
+  "playstyle": "Mirage can envelop himself in a violent tornado to catch up to enemies and lift them up. His scarabs help him sustain against multiple enemies, and he's always ready to help an ally or punish an enemy anywhere.",
+  "role": "Times his shots and catches fleeing targets",
   "recommended_items": [
-    "upgrade_medic_bullets",
-    "upgrade_high_velocity_mag",
+    "upgrade_headshot_booster",
+    "upgrade_hollow_point_rounds",
     "upgrade_endurance",
-    "upgrade_improved_spirit",
-    "upgrade_vampire",
-    "upgrade_fleetfoot_boots",
-    "upgrade_berserker",
-    "upgrade_arcane_extension",
-    "upgrade_magic_tempo",
-    "upgrade_suppressor",
+    "upgrade_resilience",
+    "upgrade_magic_burst",
     "upgrade_magic_shield",
+    "upgrade_improved_spirit",
+    "upgrade_fleetfoot_boots",
+    "upgrade_tech_defense_shredders",
+    "upgrade_tech_armor",
+    "upgrade_arcane_extension",
+    "upgrade_soaring_spirit",
+    "upgrade_tech_purge",
+    "upgrade_magic_shock",
+    "upgrade_suppressor",
     "upgrade_magic_slow",
-    "upgrade_surging_power"
+    "upgrade_tech_overflow",
+    "upgrade_mega_spirit"
   ],
   "abilities": [
     {
@@ -259,7 +264,7 @@
       "key": "mirage_sand_phantom"
     },
     {
-      "key": "mirage_djinn_bomb"
+      "key": "mirage_teleport"
     }
   ]
 }

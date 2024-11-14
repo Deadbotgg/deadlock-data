@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "damage": 60,
     "slow_percent": 30,
-    "chain_length": 6,
+    "chain_length": 8,
     "capture_radius": 8,
     "chain_duration": 2,
     "has_disarm": 0,
@@ -52,7 +52,7 @@
     "basicProperties": [
       {
         "key": "ChainLength",
-        "value": "6m",
+        "value": "8m",
         "m_e_display_type": "ETechRadius",
         "type": "distance"
       },

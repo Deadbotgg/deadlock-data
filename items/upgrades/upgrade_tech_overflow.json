@@ -33,6 +33,11 @@
             "value": 10,
             "style": "healing",
             "is_negative": false
+          },
+          "bullet_shield_max_health": {
+            "value": 225,
+            "style": "bullet_armor_up",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -81,6 +86,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "cooldown_reduction": 15,
+  "bullet_shield_max_health": 225,
   "bonus_fire_rate": 20,
   "bonus_spirit": 45,
   "build_up_per_shot": 0.75,

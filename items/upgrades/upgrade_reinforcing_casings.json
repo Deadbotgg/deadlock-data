@@ -19,7 +19,7 @@
       {
         "ability_properties": {
           "bonus_fire_rate": {
-            "value": 14,
+            "value": 12,
             "style": null,
             "is_negative": false
           },
@@ -78,5 +78,5 @@
   "bullet_resist_per_stack": 2,
   "bullet_resist_duration": 20,
   "base_attack_damage_percent": 14,
-  "bonus_fire_rate": 14
+  "bonus_fire_rate": 12
 }

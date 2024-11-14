@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "radius": {
-            "value": 12,
+            "value": 14,
             "style": "distance",
             "is_negative": false
           },
@@ -100,6 +100,6 @@
   "tech_resist": 40,
   "slow_percent": 35,
   "ground_dash_reduction_percent": -25,
-  "radius": 12,
+  "radius": 14,
   "model_scale_growth": 1.2
 }

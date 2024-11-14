@@ -27,7 +27,7 @@
       {
         "ability_properties": {
           "bonus_melee_damage_percent": {
-            "value": 13,
+            "value": 12,
             "style": "melee_damage",
             "is_negative": false
           },
@@ -71,9 +71,9 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_melee_damage_percent": 13,
+  "bonus_melee_damage_percent": 12,
   "lifestrike_heal": 90,
   "lifestrike_heal_percent": 20,
   "bonus_health": 75,
-  "non_hero_heal_pct": 40
+  "non_hero_heal_pct": 30
 }

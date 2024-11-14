@@ -733,7 +733,7 @@
   "DebuffDurationReductionPercentage_postfix": "%",
   "HealthCost_label": "Health Cost",
   "ZipLineSpeedPercent_prefix": "{s:sign}",
-  "ZipLineSpeedPercent_label": "Hyperline Speed",
+  "ZipLineSpeedPercent_label": "Halat Hızı",
   "ZipLineSpeedPercent_postfix": "%",
   "ZiplineJumpBonusDuration_label": "Jump Off Duration",
   "ZiplineJumpBonusDuration_postfix": " sn",
@@ -1077,6 +1077,9 @@
   "DamageReflectedFrequencyPct_label": "Etkinleşme Şansı",
   "DamageReflectedFrequencyPct_postfix": "%",
   "modifier_armor_reactive_armor": "İade-i Ateş",
+  "ReturnFireBulletResist_prefix": "+",
+  "ReturnFireBulletResist_label": "Mermi Direnci",
+  "ReturnFireBulletResist_postfix": "%",
   "RespawnBonusHealth_label": "Respawn Bonus Health",
   "RespawnBonusHealthDuration_label": "Respawn Bonus Health Duration",
   "RespawnBonusHealthDuration_postfix": " sn",
@@ -1285,5 +1288,10 @@
   "BonusSpiritPerKill_label": "Bonus Spirit Power Per Kill",
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "Çağırma Süresi",
-  "SummonDuration_postfix": " sn"
+  "SummonDuration_postfix": " sn",
+  "Reloaded": "Şarjör Değiştirildi!",
+  "BonusAmmo": "Bonus Cephane!",
+  "ExplodeDamage_label": "Patlama Hasarı",
+  "StaminaRegenPercent_label": "Kuvvet Yenilenmesi",
+  "StaminaRegenPercent_postfix": "%"
 }

@@ -81,7 +81,7 @@
         "ability_cooldown": -14
       },
       {
-        "amp_percent_per_stack": 5,
+        "amp_percent_per_stack": 4,
         "name": "Amp Per Stack"
       }
     ]

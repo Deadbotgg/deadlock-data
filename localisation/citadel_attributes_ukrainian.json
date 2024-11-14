@@ -733,7 +733,7 @@
   "DebuffDurationReductionPercentage_postfix": "%",
   "HealthCost_label": "Health Cost",
   "ZipLineSpeedPercent_prefix": "{s:sign}",
-  "ZipLineSpeedPercent_label": "Hyperline Speed",
+  "ZipLineSpeedPercent_label": "швидкості підвісного шляху",
   "ZipLineSpeedPercent_postfix": "%",
   "ZiplineJumpBonusDuration_label": "Jump Off Duration",
   "ZiplineJumpBonusDuration_postfix": " с",
@@ -821,6 +821,7 @@
   "MissCooldown_label": "Cooldown on miss",
   "ShockDelay_label": "затримці до приголомшення",
   "ShockDelay_postfix": " с",
+  "ArmTime_label": "часу озброєння",
   "ArmTime_postfix": " с",
   "ExplodeDelay_label": "затримці вибуху",
   "ExplodeDelay_postfix": " с",
@@ -1076,6 +1077,9 @@
   "DamageReflectedFrequencyPct_label": "шансу спрацювання",
   "DamageReflectedFrequencyPct_postfix": "%",
   "modifier_armor_reactive_armor": "Стрільба у відповідь",
+  "ReturnFireBulletResist_prefix": "+",
+  "ReturnFireBulletResist_label": "опору кулям",
+  "ReturnFireBulletResist_postfix": "%",
   "RespawnBonusHealth_label": "Respawn Bonus Health",
   "RespawnBonusHealthDuration_label": "Respawn Bonus Health Duration",
   "RespawnBonusHealthDuration_postfix": " с",
@@ -1285,5 +1289,9 @@
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "часу прикликання",
   "SummonDuration_postfix": " с",
-  "Reloaded": "Перезаряджено!"
+  "Reloaded": "Перезаряджено!",
+  "BonusAmmo": "Додаткові набої!",
+  "ExplodeDamage_label": "вибуховій шкоді",
+  "StaminaRegenPercent_label": "відновленню витривалості",
+  "StaminaRegenPercent_postfix": "%"
 }

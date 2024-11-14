@@ -86,7 +86,8 @@
       },
       {
         "pulse_damage": 45,
-        "name": "Pulse Damage"
+        "name": "Bonus Damage per Stack",
+        "damage_amplification_per_stack": 2
       }
     ]
   }

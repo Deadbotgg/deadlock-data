@@ -6,7 +6,13 @@
   "activation": "Passive",
   "slot": "Weapon",
   "image": "upgrades/mods_weapon/pristine_emblem_psd",
-  "components": null,
+  "components": [
+    {
+      "key": "upgrade_high_velocity_mag",
+      "name": "High-Velocity Mag",
+      "image": "upgrades/mods_weapon/high_velocity_mag_psd"
+    }
+  ],
   "componentsOf": [],
   "target_types": [
     "AllEnemy"
@@ -19,6 +25,11 @@
     "Innate": [
       {
         "ability_properties": {
+          "bonus_bullet_speed_percent": {
+            "value": 35,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
           "base_attack_damage_percent": {
             "value": 25,
             "style": "bullet_damage",
@@ -72,5 +83,6 @@
   "enemy_life_threshold": 50,
   "base_attack_damage_percent": 25,
   "base_attack_damage_percent_bonus": 25,
-  "tech_resist": 12
+  "tech_resist": 12,
+  "bonus_bullet_speed_percent": 35
 }

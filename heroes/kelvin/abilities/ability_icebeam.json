@@ -25,7 +25,7 @@
     "path_width": 1.1,
     "camera_distance": 250,
     "min_slow_percent": 30,
-    "max_slow_percent": 70,
+    "max_slow_percent": 50,
     "max_fire_rate_slow_percent": 40,
     "max_slow_time": 2,
     "ice_beam_buildup_proc_duration": 2,
@@ -47,7 +47,7 @@
       },
       {
         "key": "MaxSlowPercent",
-        "value": 70,
+        "value": 50,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"

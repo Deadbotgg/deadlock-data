@@ -18,9 +18,9 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "snipe_fov": 18,
+    "snipe_fov": 30,
     "snipe_zoom_duration": 0.15,
-    "damage": 160,
+    "damage": 140,
     "shot_radius": 3,
     "low_health_enemy_damage_bonus": 145,
     "low_health_enemy_threshold_pct": 50,
@@ -37,7 +37,7 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 160,
+        "value": 140,
         "type": "tech_damage",
         "scale_function": {
           "value": 1.04832,

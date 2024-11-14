@@ -26,12 +26,12 @@
             "is_negative": false
           },
           "cooldown_between_charge_reduction": {
-            "value": 55,
+            "value": 65,
             "style": "cooldown",
             "is_negative": false
           },
           "cooldown_reduction_on_charged_abilities": {
-            "value": 25,
+            "value": 30,
             "style": null,
             "is_negative": false
           },
@@ -61,8 +61,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "cooldown_between_charge_reduction": 55,
+  "cooldown_between_charge_reduction": 65,
   "bonus_ability_charges": 2,
-  "cooldown_reduction_on_charged_abilities": 25,
+  "cooldown_reduction_on_charged_abilities": 30,
   "base_attack_damage_percent": 12
 }

@@ -24,7 +24,7 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 100,
+            "value": 120,
             "style": null,
             "is_negative": false
           },
@@ -59,7 +59,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_clip_size_percent": 100,
+  "bonus_clip_size_percent": 120,
   "base_attack_damage_percent": 18,
   "bullet_resist": 18
 }

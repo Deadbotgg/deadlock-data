@@ -744,7 +744,7 @@
   "DebuffDurationReductionPercentage_postfix": "%",
   "HealthCost_label": "Health Cost",
   "ZipLineSpeedPercent_prefix": "{s:sign}",
-  "ZipLineSpeedPercent_label": "Hyperline Speed",
+  "ZipLineSpeedPercent_label": "Zipline Speed",
   "ZipLineSpeedPercent_postfix": "%",
   "ZiplineJumpBonusDuration_label": "Jump Off Duration",
   "ZiplineJumpBonusDuration_postfix": "s",
@@ -1098,6 +1098,9 @@
   "DamageReflectedFrequencyPct_label": "Proc Chance",
   "DamageReflectedFrequencyPct_postfix": "%",
   "modifier_armor_reactive_armor": "Return Fire",
+  "ReturnFireBulletResist_prefix": "+",
+  "ReturnFireBulletResist_label": "Bullet Resist",
+  "ReturnFireBulletResist_postfix": "%",
   "RespawnBonusHealth_label": "Respawn Bonus Health",
   "RespawnBonusHealthDuration_label": "Respawn Bonus Health Duration",
   "RespawnBonusHealthDuration_postfix": "s",
@@ -1308,5 +1311,9 @@
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "Summon Duration",
   "SummonDuration_postfix": "s",
-  "Reloaded": "Reloaded!"
+  "Reloaded": "Reloaded!",
+  "BonusAmmo": "Bonus Ammo!",
+  "ExplodeDamage_label": "Explode Damage",
+  "StaminaRegenPercent_label": "Stamina Regen",
+  "StaminaRegenPercent_postfix": "%"
 }

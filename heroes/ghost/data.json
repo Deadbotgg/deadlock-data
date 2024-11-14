@@ -1,6 +1,6 @@
 {
   "id": 4,
-  "name": "hero_ghost",
+  "name": "Lady Geist",
   "new_player_friendly": false,
   "in_development": false,
   "in_hero_labs": false,
@@ -11,7 +11,7 @@
   "lane_testing_recommended": false,
   "starting_stats": {
     "max_move_speed": 6,
-    "sprint_speed": 1,
+    "sprint_speed": 1.5,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
     "light_melee_damage": 63,
@@ -29,8 +29,8 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 2.1,
-    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_bullet_damage_from_level": 1.65,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0

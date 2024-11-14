@@ -20,7 +20,7 @@
     "Innate": [
       {
         "ability_properties": {
-          "tech_resist": {
+          "bullet_resist": {
             "value": 6,
             "style": null,
             "is_negative": false
@@ -28,7 +28,7 @@
         },
         "elevated_ability_properties": {
           "tech_range_multiplier": {
-            "value": 16,
+            "value": 18,
             "style": "distance",
             "is_negative": false
           }
@@ -52,7 +52,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "tech_range_multiplier": 16,
+  "tech_range_multiplier": 18,
   "tech_radius_multiplier": 16,
-  "tech_resist": 6
+  "bullet_resist": 6
 }

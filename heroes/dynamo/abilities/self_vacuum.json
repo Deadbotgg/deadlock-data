@@ -18,7 +18,7 @@
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "vacuum_radius": 8,
+    "vacuum_radius": 7,
     "speed": 200,
     "toss_speed": 350,
     "toss_angle": 45,
@@ -56,7 +56,7 @@
     "basicProperties": [
       {
         "key": "VacuumRadius",
-        "value": "8m",
+        "value": "7m",
         "type": "distance"
       }
     ],

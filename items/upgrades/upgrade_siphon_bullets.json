@@ -4,7 +4,7 @@
   "cost": "6200",
   "tier": "4",
   "activation": "Passive",
-  "slot": "Weapon",
+  "slot": "Armor",
   "image": "upgrades/mods_weapon/siphon_bullets_psd",
   "components": null,
   "componentsOf": [],
@@ -19,9 +19,9 @@
     "Innate": [
       {
         "ability_properties": {
-          "base_attack_damage_percent": {
-            "value": 28,
-            "style": "bullet_damage",
+          "bullet_resist": {
+            "value": 18,
+            "style": null,
             "is_negative": false
           }
         },
@@ -70,7 +70,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 28,
+  "bullet_resist": 18,
   "steal_per_hit": 1,
   "stack_lost_per_death": 2,
   "max_stacks": 99,

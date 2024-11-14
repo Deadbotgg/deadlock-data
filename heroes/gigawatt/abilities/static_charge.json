@@ -18,20 +18,20 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "shock_radius": 6,
+    "shock_radius": 5,
     "damage": 40,
     "shock_delay": 3.5,
-    "stun_duration": 1.1,
+    "stun_duration": 0.9,
     "additional_shock_target": 0
   },
   "tooltipDetails": {
-    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius.",
+    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius. <br>Alt-Cast to cast on yourself.",
     "properties": [
       {
         "key": "StatusEffectStun",
         "statusEffect": {
           "key": "StunDuration",
-          "value": 1.1,
+          "value": 0.9,
           "type": "duration"
         },
         "isShown": true
@@ -54,7 +54,7 @@
     "basicProperties": [
       {
         "key": "ShockRadius",
-        "value": "6m",
+        "value": "5m",
         "type": "distance"
       }
     ],
@@ -66,7 +66,7 @@
         "shock_radius": 8
       },
       {
-        "stun_duration": 1.1
+        "stun_duration": 0.9
       }
     ]
   }

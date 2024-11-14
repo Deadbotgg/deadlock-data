@@ -9,9 +9,9 @@
   "components": null,
   "componentsOf": [
     {
-      "key": "upgrade_headhunter",
-      "name": "Headhunter",
-      "image": "upgrades/mods_weapon/headhunter_psd"
+      "key": "upgrade_pristine_emblem",
+      "name": "Pristine Emblem",
+      "image": "upgrades/mods_weapon/pristine_emblem_psd"
     }
   ],
   "target_types": null,
@@ -23,7 +23,7 @@
       {
         "ability_properties": {
           "bonus_bullet_speed_percent": {
-            "value": 30,
+            "value": 25,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -58,7 +58,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bonus_bullet_speed_percent": 30,
+  "bonus_bullet_speed_percent": 25,
   "base_attack_damage_percent": 12,
   "bullet_shield_max_health": 50
 }

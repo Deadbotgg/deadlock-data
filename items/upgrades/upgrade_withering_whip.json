@@ -19,19 +19,19 @@
     "Innate": [
       {
         "ability_properties": {
-          "bonus_fire_rate": {
-            "value": 8,
-            "style": null,
-            "is_negative": false
-          },
           "spirit_power": {
-            "value": 4,
+            "value": 6,
             "style": null,
             "is_negative": false
           },
           "bonus_health": {
             "value": 50,
             "style": "health",
+            "is_negative": false
+          },
+          "bonus_sprint_speed": {
+            "value": 1,
+            "style": "move_speed",
             "is_negative": false
           }
         },
@@ -44,7 +44,7 @@
       {
         "ability_properties": {
           "ability_cast_range": {
-            "value": 24,
+            "value": 30,
             "style": "range",
             "is_negative": false
           }
@@ -57,7 +57,7 @@
             "is_conditional": false
           },
           "fire_rate_slow": {
-            "value": 40,
+            "value": 45,
             "style": "fireRate",
             "is_conditional": true
           },
@@ -74,7 +74,7 @@
   "disabled": false,
   "ability_cooldown": 26,
   "ability_duration": 4.5,
-  "ability_cast_range": 24,
+  "ability_cast_range": 30,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0.1,
   "ability_channel_time": 0,
@@ -85,9 +85,9 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "fire_rate_slow": 40,
+  "fire_rate_slow": 45,
   "bullet_armor_reduction": -14,
-  "bonus_fire_rate": 8,
-  "spirit_power": 4,
+  "spirit_power": 6,
+  "bonus_sprint_speed": 1,
   "bonus_health": 50
 }

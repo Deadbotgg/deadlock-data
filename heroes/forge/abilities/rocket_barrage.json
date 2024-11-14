@@ -78,7 +78,6 @@
     "upgrades": [
       {
         "move_slow_percent": 35,
-        "name": "Movement Slow Duration",
         "move_slow_duration": 2
       },
       {

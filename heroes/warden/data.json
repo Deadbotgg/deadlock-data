@@ -1,6 +1,6 @@
 {
   "id": 25,
-  "name": "hero_warden",
+  "name": "Warden",
   "new_player_friendly": false,
   "in_development": false,
   "in_hero_labs": false,
@@ -29,8 +29,8 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 1.2,
-    "modifier_value_base_melee_damage_from_level": 3.4,
+    "modifier_value_base_bullet_damage_from_level": 0.942857,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 45,
     "modifier_value_tech_damage_percent": 0,
     "modifier_value_bullet_armor_damage_resist": 0

@@ -25,7 +25,13 @@
             "is_negative": false
           }
         },
-        "elevated_ability_properties": {},
+        "elevated_ability_properties": {
+          "spawn_time_penalty": {
+            "value": 15,
+            "style": "duration",
+            "is_negative": true
+          }
+        },
         "important_ability_properties": {},
         "description": ""
       }
@@ -65,6 +71,7 @@
   "ability_resource_cost": 0,
   "tech_power": 12,
   "weapon_power": 0,
+  "spawn_time_penalty": 15,
   "respawn_delay": 4,
   "respawn_health_percent": 50,
   "cooldown_reduction": 15

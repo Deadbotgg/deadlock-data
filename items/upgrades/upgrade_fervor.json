@@ -55,9 +55,9 @@
             "style": "fireRate",
             "is_conditional": true
           },
-          "fervor_tech_resist": {
+          "fervor_bullet_resist": {
             "value": 45,
-            "style": "tech_armor_up",
+            "style": "bullet_armor_up",
             "is_conditional": true
           }
         },
@@ -85,6 +85,6 @@
   "low_health_threshold": 40,
   "fervor_movespeed": 4,
   "fervor_fire_rate": 40,
-  "fervor_tech_resist": 45,
+  "fervor_bullet_resist": 45,
   "linger_duration": 6
 }

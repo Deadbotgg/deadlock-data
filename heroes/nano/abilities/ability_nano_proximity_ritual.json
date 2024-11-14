@@ -3,7 +3,7 @@
   "name": "Perched Predator",
   "stats": {
     "duration": 0,
-    "cooldown": 64,
+    "cooldown": 60,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,9 +18,9 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "recall_cooldown": 10.5,
+    "recall_cooldown": 8,
     "recall_range": 5,
-    "min_resummon_cooldown": 0,
+    "min_resummon_cooldown": 5,
     "statue_health": 200,
     "statue_held_regen": 40,
     "inactive_radius": 20,
@@ -35,11 +35,10 @@
     "heal_amp_regen_penalty_percent": -20,
     "target_lifesteal": 30,
     "target_lifesteal_non_hero": 10,
-    "self_heal_scale": 0.5,
     "damage_amplification": 0
   },
   "tooltipDetails": {
-    "description": "Send out <span class=\"highlight\">Ava</span> to <span class=\"highlight\">attack</span> a nearby enemy.  Targetted enemies have reduced healing and give health to Ava and {s:hero_name} when damanged by them.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled.",
+    "description": "Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and give health to {s:hero_name} when damaged by any ally.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled.",
     "properties": [
       {
         "key": "DPS",
@@ -65,7 +64,7 @@
       {
         "key": "RecallCooldown",
         "loc_token_override": "AvaRecallCooldown",
-        "value": 10.5
+        "value": 8
       },
       {
         "key": "ActiveRadius",
