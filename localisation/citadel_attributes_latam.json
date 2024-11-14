@@ -1285,5 +1285,6 @@
   "BonusSpiritPerKill_label": "Bonus Spirit Power Per Kill",
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "de duración de la invocación",
-  "SummonDuration_postfix": " s"
+  "SummonDuration_postfix": " s",
+  "Reloaded": "¡Recargado!"
 }

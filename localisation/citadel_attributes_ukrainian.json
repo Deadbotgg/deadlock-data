@@ -1284,5 +1284,6 @@
   "BonusSpiritPerKill_label": "Bonus Spirit Power Per Kill",
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "часу прикликання",
-  "SummonDuration_postfix": " с"
+  "SummonDuration_postfix": " с",
+  "Reloaded": "Перезаряджено!"
 }
