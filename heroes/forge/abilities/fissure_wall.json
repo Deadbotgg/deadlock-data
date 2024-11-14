@@ -3,7 +3,7 @@
   "name": "Spectral Wall",
   "stats": {
     "duration": 5,
-    "cooldown": 37,
+    "cooldown": 46,
     "range": 50,
     "charges": 0,
     "charge_restore_time": 0,

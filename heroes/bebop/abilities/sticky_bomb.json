@@ -3,7 +3,7 @@
   "name": "Sticky Bomb",
   "stats": {
     "duration": 3,
-    "cooldown": 19,
+    "cooldown": 18,
     "range": 6,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,9 +20,9 @@
     "weapon_power": 0,
     "radius": 12,
     "fuse_time": 3,
+    "kill_check_window": 12,
     "damage": 120,
-    "bonus_damage_pct_per_player_hit": 3,
-    "bonus_loss_per_death": 20,
+    "bonus_damage_pct_per_player_hit": 5,
     "stun_target_on_explode": 0,
     "debuff_duration": 0
   },

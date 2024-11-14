@@ -20,7 +20,7 @@
     "weapon_power": 0,
     "radius": 30,
     "initial_radius": 12,
-    "dps": 110,
+    "dps": 120,
     "boss_damage_percent": 25,
     "damage_interval": 0.25,
     "expand_time": 2,
@@ -34,7 +34,7 @@
     "properties": [
       {
         "key": "DPS",
-        "value": 110,
+        "value": 120,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.7,

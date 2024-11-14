@@ -82,7 +82,7 @@
       },
       {
         "pulse_damage": 45,
-        "radius_increase_per_pulse": 1
+        "radius_increase_per_pulse": 0.75
       }
     ]
   }

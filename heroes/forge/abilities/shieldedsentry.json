@@ -33,7 +33,7 @@
     "turret_lifetime": 24,
     "turret_decay_damage_per_second": 20,
     "attack_speed_mult": 100,
-    "tech_resist": 80,
+    "tech_resist": 70,
     "non_hero_damage_percent_outgoing": 50,
     "boss_damage_percent_outgoing": 30,
     "boss_damage_percent_incoming": 50,

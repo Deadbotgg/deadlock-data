@@ -204,8 +204,8 @@
     ]
   },
   "spirit_scaling": {
-    "emaxmovespeed": 0.04,
-    "ebulletdamage": 0.13
+    "emaxmovespeed": 0.032,
+    "ebulletdamage": 0.12
   },
   "weapon_stats": {
     "bullet_damage": 30.25,

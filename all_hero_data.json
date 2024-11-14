@@ -848,7 +848,7 @@
           "weapon_power": 0,
           "radius": 30,
           "initial_radius": 12,
-          "dps": 110,
+          "dps": 120,
           "boss_damage_percent": 25,
           "damage_interval": 0.25,
           "expand_time": 2,
@@ -862,7 +862,7 @@
           "properties": [
             {
               "key": "DPS",
-              "value": 110,
+              "value": 120,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.7,
@@ -3287,7 +3287,7 @@
           "turret_lifetime": 24,
           "turret_decay_damage_per_second": 20,
           "attack_speed_mult": 100,
-          "tech_resist": 80,
+          "tech_resist": 70,
           "non_hero_damage_percent_outgoing": 50,
           "boss_damage_percent_outgoing": 30,
           "boss_damage_percent_incoming": 50,
@@ -3415,7 +3415,7 @@
         "name": "Spectral Wall",
         "stats": {
           "duration": 5,
-          "cooldown": 37,
+          "cooldown": 46,
           "range": 50,
           "charges": 0,
           "charge_restore_time": 0,
@@ -3899,7 +3899,7 @@
             },
             {
               "pulse_damage": 45,
-              "radius_increase_per_pulse": 1
+              "radius_increase_per_pulse": 0.75
             }
           ]
         }
@@ -5041,7 +5041,7 @@
         "name": "Ice Path",
         "stats": {
           "duration": 8,
-          "cooldown": 38,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6738,7 +6738,7 @@
         "name": "Sticky Bomb",
         "stats": {
           "duration": 3,
-          "cooldown": 19,
+          "cooldown": 18,
           "range": 6,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6755,9 +6755,9 @@
           "weapon_power": 0,
           "radius": 12,
           "fuse_time": 3,
+          "kill_check_window": 12,
           "damage": 120,
-          "bonus_damage_pct_per_player_hit": 3,
-          "bonus_loss_per_death": 20,
+          "bonus_damage_pct_per_player_hit": 5,
           "stun_target_on_explode": 0,
           "debuff_duration": 0
         },
@@ -8336,8 +8336,8 @@
       ]
     },
     "spirit_scaling": {
-      "emaxmovespeed": 0.04,
-      "ebulletdamage": 0.13
+      "emaxmovespeed": 0.032,
+      "ebulletdamage": 0.12
     },
     "weapon_stats": {
       "bullet_damage": 30.25,
@@ -9119,12 +9119,12 @@
         "stats": {
           "duration": 0,
           "cooldown": 95,
-          "range": 13,
+          "range": 14,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 13,
+          "cast_range": 14,
           "unit_target_limit": 1,
           "cast_delay": 0,
           "channel_time": 0,
@@ -9133,8 +9133,8 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "rage_drain_rate": 0.3,
-          "rage_per_weapon_damage": 0.015,
+          "rage_drain_rate": 0.25,
+          "rage_per_weapon_damage": 0.017,
           "rage_per_spirit_damage": 0.013,
           "rage_per_light_melee": 1.5,
           "rage_per_heavy_melee": 2.75,
@@ -11229,7 +11229,7 @@
         "name": "Shadow Transformation",
         "stats": {
           "duration": 4,
-          "cooldown": 90,
+          "cooldown": 85,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
