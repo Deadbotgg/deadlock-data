@@ -69,7 +69,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "ambush_bonus_fire_rate": {
-            "value": 40,
+            "value": 30,
             "style": "bullet_damage",
             "is_conditional": true
           },
@@ -106,7 +106,7 @@
   "reveal_on_spotted_duration": 1.5,
   "full_invis_distance": 50,
   "ambush_duration": 8,
-  "ambush_bonus_fire_rate": 40,
+  "ambush_bonus_fire_rate": 30,
   "ambush_bonus_tech_power": 55,
   "tech_shield_max_health": 300,
   "bonus_health_regen": 15,
