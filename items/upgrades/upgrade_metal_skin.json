@@ -1,6 +1,6 @@
 {
   "name": "Metal Skin",
-  "description": "Become <span class=\"highlight\">immune to bullets</span>.",
+  "description": "Become <span class=\"highlight\">immune to bullets and melee attacks</span>.",
   "cost": "3000",
   "tier": "3",
   "activation": "InstantCast",
@@ -54,7 +54,7 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Become <span class=\"highlight\">immune to bullets</span>."
+        "description": "Become <span class=\"highlight\">immune to bullets and melee attacks</span>."
       }
     ]
   },

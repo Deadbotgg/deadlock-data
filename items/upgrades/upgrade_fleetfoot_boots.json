@@ -38,7 +38,7 @@
         "ability_properties": {},
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Removes the <span class=\"highlight\">Move Speed</span> penalty while shooting."
+        "description": "Removes the <span class=\"highlight\">Movement Speed</span> penalty while shooting."
       }
     ],
     "Active": [
@@ -68,7 +68,7 @@
             "is_conditional": true
           }
         },
-        "description": "Gain bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Ammo</span>."
+        "description": "Gain bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Ammo</span>."
       }
     ]
   },

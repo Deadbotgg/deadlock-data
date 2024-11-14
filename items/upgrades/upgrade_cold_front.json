@@ -1,6 +1,6 @@
 {
   "name": "Cold Front",
-  "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes.",
+  "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.",
   "cost": "1250",
   "tier": "2",
   "activation": "InstantCast",
@@ -63,7 +63,7 @@
             "is_conditional": true
           }
         },
-        "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes."
+        "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits."
       }
     ]
   },

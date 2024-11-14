@@ -25,7 +25,7 @@
     "additional_shock_target": 0
   },
   "tooltipDetails": {
-    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius. <br>Alt-Cast to cast on yourself.",
+    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius.",
     "properties": [
       {
         "key": "StatusEffectStun",

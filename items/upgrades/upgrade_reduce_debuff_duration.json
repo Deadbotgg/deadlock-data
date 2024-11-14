@@ -73,7 +73,7 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">move speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+        "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">movement speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
       }
     ]
   },

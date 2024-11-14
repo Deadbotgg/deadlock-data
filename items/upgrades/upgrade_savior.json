@@ -1,6 +1,6 @@
 {
   "name": "Divine Barrier",
-  "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Move Speed</span>. Can be self-cast.",
+  "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Movement Speed</span>. Can be self-cast.",
   "cost": "1250",
   "tier": "2",
   "activation": "ActivationPress",
@@ -72,7 +72,7 @@
             "is_conditional": false
           }
         },
-        "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Move Speed</span>. Can be self-cast."
+        "description": "Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Movement Speed</span>. Can be self-cast."
       }
     ]
   },

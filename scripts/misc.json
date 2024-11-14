@@ -59,7 +59,7 @@
     "m_bDamagedByMelee": true,
     "m_bDamagedByBullets": true,
     "m_flInitialSpawnTime": 180,
-    "m_flPrimaryDropChance": 50,
+    "m_flPrimaryDropChance": 44,
     "_base": "citadel_breakable_prop_base",
     "_not_pickable": 2,
     "m_vecPrimaryPickups": [
@@ -114,34 +114,7 @@
         "m_flPickupWeight": 1
       }
     ],
-    "m_vecPickups_lv3": [
-      {
-        "m_sPickup": "spirit_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "firerate_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "ammo_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "hp_permanent_pickup_lv3",
-        "m_flPickupWeight": 2
-      },
-      {
-        "m_sPickup": "cd_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "wp_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      }
-    ],
-    "m_iMatchTimeMinsForLevel2Pickups": 10,
-    "m_iMatchTimeMinsForLevel3Pickups": 30,
+    "m_iMatchTimeMinsForLevel2Pickups": 15,
     "m_flInitialSpawnTimeTest": 1,
     "m_flRespawnTimeTest": 5,
     "m_eRollType": "ECitadelRandomRoll_BreakablePowerupPickup",
@@ -180,7 +153,7 @@
     "m_bDamagedByMelee": true,
     "m_bDamagedByBullets": true,
     "m_flInitialSpawnTime": 180,
-    "m_flPrimaryDropChance": 50,
+    "m_flPrimaryDropChance": 44,
     "_base": "citadel_breakable_prop_drop_powerups",
     "m_vecPrimaryPickups": [
       {
@@ -234,34 +207,7 @@
         "m_flPickupWeight": 1
       }
     ],
-    "m_vecPickups_lv3": [
-      {
-        "m_sPickup": "spirit_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "firerate_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "ammo_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "hp_permanent_pickup_lv3",
-        "m_flPickupWeight": 2
-      },
-      {
-        "m_sPickup": "cd_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      },
-      {
-        "m_sPickup": "wp_permanent_pickup_lv3",
-        "m_flPickupWeight": 1
-      }
-    ],
-    "m_iMatchTimeMinsForLevel2Pickups": 10,
-    "m_iMatchTimeMinsForLevel3Pickups": 30,
+    "m_iMatchTimeMinsForLevel2Pickups": 15,
     "m_flInitialSpawnTimeTest": 1,
     "m_flRespawnTimeTest": 5,
     "m_eRollType": "ECitadelRandomRoll_BreakablePowerupPickup",
@@ -766,102 +712,6 @@
     "m_bIsPermanent": true,
     "m_bIsMantleable": false
   },
-  "citadel_breakable_prop_pumpkin01": {
-    "_class": "citadel_breakable_prop",
-    "m_flRespawnTime": 180,
-    "m_iHealth": 1,
-    "m_bBreakOnDodgeTouch": true,
-    "m_bSolidAfterDeath": false,
-    "m_bRenderAfterDeath": false,
-    "m_bDamagedByAbilities": true,
-    "m_bDamagedByMelee": true,
-    "m_bDamagedByBullets": true,
-    "m_flInitialSpawnTime": 180,
-    "m_flPrimaryDropChance": 40,
-    "_base": "citadel_breakable_prop_drop_gold",
-    "m_vecPrimaryPickups": [
-      {
-        "m_sPickup": "small_gold_pickup",
-        "m_flPickupWeight": 1
-      }
-    ],
-    "m_eRollType": "ECitadelRandomRoll_BreakableGoldPickup",
-    "m_hModel": "resource_name:\"models/props/pumpkin_a.vmdl\"",
-    "m_bIsMantleable": true,
-    "m_sBreakSound": "soundevent:\"Pumpkin.Smash_Large\""
-  },
-  "citadel_breakable_prop_pumpkin02": {
-    "_class": "citadel_breakable_prop",
-    "m_flRespawnTime": 180,
-    "m_iHealth": 1,
-    "m_bBreakOnDodgeTouch": true,
-    "m_bSolidAfterDeath": false,
-    "m_bRenderAfterDeath": false,
-    "m_bDamagedByAbilities": true,
-    "m_bDamagedByMelee": true,
-    "m_bDamagedByBullets": true,
-    "m_flInitialSpawnTime": 180,
-    "m_flPrimaryDropChance": 40,
-    "_base": "citadel_breakable_prop_drop_gold",
-    "m_vecPrimaryPickups": [
-      {
-        "m_sPickup": "small_gold_pickup",
-        "m_flPickupWeight": 1
-      }
-    ],
-    "m_eRollType": "ECitadelRandomRoll_BreakableGoldPickup",
-    "m_hModel": "resource_name:\"models/props/pumpkin_b.vmdl\"",
-    "m_bIsMantleable": true,
-    "m_sBreakSound": "soundevent:\"Pumpkin.Smash_Large\""
-  },
-  "citadel_breakable_prop_pumpkin03": {
-    "_class": "citadel_breakable_prop",
-    "m_flRespawnTime": 180,
-    "m_iHealth": 1,
-    "m_bBreakOnDodgeTouch": true,
-    "m_bSolidAfterDeath": false,
-    "m_bRenderAfterDeath": false,
-    "m_bDamagedByAbilities": true,
-    "m_bDamagedByMelee": true,
-    "m_bDamagedByBullets": true,
-    "m_flInitialSpawnTime": 180,
-    "m_flPrimaryDropChance": 40,
-    "_base": "citadel_breakable_prop_drop_gold",
-    "m_vecPrimaryPickups": [
-      {
-        "m_sPickup": "small_gold_pickup",
-        "m_flPickupWeight": 1
-      }
-    ],
-    "m_eRollType": "ECitadelRandomRoll_BreakableGoldPickup",
-    "m_hModel": "resource_name:\"models/props/pumpkin_c.vmdl\"",
-    "m_bIsMantleable": true,
-    "m_sBreakSound": "soundevent:\"Pumpkin.Smash_Small\""
-  },
-  "citadel_breakable_prop_pumpkin04": {
-    "_class": "citadel_breakable_prop",
-    "m_flRespawnTime": 180,
-    "m_iHealth": 1,
-    "m_bBreakOnDodgeTouch": true,
-    "m_bSolidAfterDeath": false,
-    "m_bRenderAfterDeath": false,
-    "m_bDamagedByAbilities": true,
-    "m_bDamagedByMelee": true,
-    "m_bDamagedByBullets": true,
-    "m_flInitialSpawnTime": 180,
-    "m_flPrimaryDropChance": 40,
-    "_base": "citadel_breakable_prop_drop_gold",
-    "m_vecPrimaryPickups": [
-      {
-        "m_sPickup": "small_gold_pickup",
-        "m_flPickupWeight": 1
-      }
-    ],
-    "m_eRollType": "ECitadelRandomRoll_BreakableGoldPickup",
-    "m_hModel": "resource_name:\"models/props/pumpkin_d.vmdl\"",
-    "m_bIsMantleable": true,
-    "m_sBreakSound": "soundevent:\"Pumpkin.Smash_Small\""
-  },
   "citadel_breakable_prop_pickup_base": {
     "_class": "citadel_breakable_prop_pickup",
     "_not_pickable": 2,
@@ -875,7 +725,7 @@
     "m_bShowOnMinimap": true,
     "m_sNameLocString": 0,
     "m_sPickupSound": "soundevent:\"Powerup.Pickup.Gold\"",
-    "m_nNameOffset": 150
+    "m_nNameOffset": 140
   },
   "small_gold_pickup": {
     "_class": "citadel_breakable_prop_gold_pickup",
@@ -887,12 +737,12 @@
     "m_flPickupExpirationDuration": 300,
     "m_flParticleRadius": 1.5,
     "m_bShowOnMinimap": false,
-    "m_sNameLocString": "small_gold_pickup_label:p",
+    "m_sNameLocString": "small_gold_pickup_label",
     "m_sPickupSound": "soundevent:\"Player.ClaimOrb\"",
     "m_nNameOffset": 60,
     "_base": "citadel_breakable_prop_pickup_base",
-    "m_flGoldAmount": 30,
-    "m_flGoldPerMinuteAmount": 2.5,
+    "m_flGoldAmount": 35,
+    "m_flGoldPerMinuteAmount": 3,
     "m_Color": [
       0,
       255,
@@ -912,11 +762,11 @@
     "m_flParticleRadius": 1.5,
     "m_bShowOnMinimap": true,
     "m_sNameLocString": "gun_powerup_pickup",
-    "m_sPickupSound": "soundevent:\"Powerup.PickUp.Weapon\"",
-    "m_nNameOffset": 150,
+    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Weapon\"",
+    "m_nNameOffset": 140,
     "_base": "citadel_breakable_prop_pickup_base",
     "m_sModifer": {
-      "_class": "modifier_citadel_powerup",
+      "_class": "modifier_base",
       "_my_subclass_name": "gun_powerup_pickup",
       "m_flDuration": 160,
       "m_vecScriptValues": [
@@ -930,6 +780,7 @@
         }
       ],
       "m_sLocalizationName": "gun_powerup_pickup",
+      "m_strHudMessageText": "#gun_powerup_pickup",
       "m_vecAlwaysShowInStatModifierUI": [
         "MODIFIER_VALUE_FIRE_RATE",
         "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
@@ -942,8 +793,7 @@
       148,
       65
     ],
-    "m_iTempParticleSheetIndex": 9,
-    "m_sAmbientSound": "soundevent:\"Powerup.Gun_Lp\""
+    "m_iTempParticleSheetIndex": 9
   },
   "survival_powerup_pickup": {
     "_class": "citadel_breakable_prop_modifier_pickup",
@@ -956,11 +806,11 @@
     "m_flParticleRadius": 1.5,
     "m_bShowOnMinimap": true,
     "m_sNameLocString": "survival_powerup_pickup",
-    "m_sPickupSound": "soundevent:\"Powerup.Buff.Survival\"",
-    "m_nNameOffset": 150,
+    "m_sPickupSound": "soundevent:\"Player.Heal.Medium\"",
+    "m_nNameOffset": 140,
     "_base": "citadel_breakable_prop_pickup_base",
     "m_sModifer": {
-      "_class": "modifier_citadel_powerup",
+      "_class": "modifier_base",
       "_my_subclass_name": "survival_powerup_pickup",
       "m_flDuration": 160,
       "m_vecScriptValues": [
@@ -974,6 +824,7 @@
         }
       ],
       "m_sLocalizationName": "survival_powerup_pickup",
+      "m_strHudMessageText": "#survival_powerup_pickup",
       "m_vecAlwaysShowInStatModifierUI": [
         "MODIFIER_VALUE_HEALTH_MAX",
         "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND"
@@ -986,8 +837,7 @@
       122,
       184,
       29
-    ],
-    "m_sAmbientSound": "soundevent:\"Powerup.Survival_Lp\""
+    ]
   },
   "casting_powerup_pickup": {
     "_class": "citadel_breakable_prop_modifier_pickup",
@@ -1000,8 +850,8 @@
     "m_flParticleRadius": 1.5,
     "m_bShowOnMinimap": true,
     "m_sNameLocString": "casting_powerup_pickup",
-    "m_sPickupSound": "soundevent:\"Powerup.Buff.Casting\"",
-    "m_nNameOffset": 150,
+    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Spirit\"",
+    "m_nNameOffset": 140,
     "_base": "citadel_breakable_prop_pickup_base",
     "m_sModifer": {
       "_class": "modifier_breakable_prop_cooldown_reduction",
@@ -1018,6 +868,7 @@
         }
       ],
       "m_sLocalizationName": "casting_powerup_pickup",
+      "m_strHudMessageText": "#casting_powerup_pickup",
       "m_vecAlwaysShowInStatModifierUI": [
         "MODIFIER_VALUE_TECH_POWER",
         "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
@@ -1025,14 +876,12 @@
       "m_eDebuffType": "MODIFIER_DEBUFF_NO",
       "m_strHudIcon": "panorama:\"file://{images}/hud/modifiers/icon_powerup.svg\""
     },
-    "m_sAmbientLoopingSound": "amb.Powerup.Casting_Lp",
     "m_Color": [
       203,
       143,
       252
     ],
-    "m_iTempParticleSheetIndex": 7,
-    "m_sAmbientSound": "soundevent:\"Powerup.Casting_Lp\""
+    "m_iTempParticleSheetIndex": 7
   },
   "movement_powerup_pickup": {
     "_class": "citadel_breakable_prop_modifier_pickup",
@@ -1045,8 +894,8 @@
     "m_flParticleRadius": 1.5,
     "m_bShowOnMinimap": true,
     "m_sNameLocString": "movement_powerup_pickup",
-    "m_sPickupSound": "soundevent:\"Powerup.Buff.Movement\"",
-    "m_nNameOffset": 150,
+    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Speed\"",
+    "m_nNameOffset": 140,
     "_base": "citadel_breakable_prop_pickup_base",
     "m_sModifer": {
       "_class": "modifier_breakable_prop_extra_stamina",
@@ -1077,6 +926,7 @@
         "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE"
       ],
       "m_sLocalizationName": "movement_powerup_pickup",
+      "m_strHudMessageText": "#movement_powerup_pickup",
       "m_eDebuffType": "MODIFIER_DEBUFF_NO",
       "m_strHudIcon": "panorama:\"file://{images}/hud/modifiers/icon_powerup.svg\""
     },
@@ -1085,8 +935,7 @@
       50,
       50,
       255
-    ],
-    "m_sAmbientSound": "soundevent:\"Powerup.Movement_Lp\""
+    ]
   },
   "permanent_pickup_base": {
     "_class": "citadel_breakable_prop_pickup",
@@ -1128,7 +977,8 @@
           "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
           "m_value": 2
         }
-      ]
+      ],
+      "m_strHudMessageText": "#spirit_permanent_pickup_label"
     },
     "m_sDefaultMaterialGroupName": "purple",
     "m_Color": [
@@ -1160,39 +1010,8 @@
           "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
           "m_value": 3
         }
-      ]
-    },
-    "m_sDefaultMaterialGroupName": "purple",
-    "m_Color": [
-      88,
-      20,
-      180
-    ]
-  },
-  "spirit_permanent_pickup_lv3": {
-    "_class": "citadel_breakable_prop_modifier_pickup",
-    "m_flPickupRadius": 85,
-    "m_spawnParticle": "resource_name:\"particles/environment/breakable_item_drop.vpcf\"",
-    "m_gainedParticle": "resource_name:\"particles/generic/powerup_spawner_gained.vpcf\"",
-    "m_hModel": "resource_name:\"models/props_gameplay/powerup_idol/powerup_idol.vmdl\"",
-    "m_sSpawnSound": "soundevent:\"Powerup.Spawn.Generic\"",
-    "m_flPickupExpirationDuration": 30,
-    "m_flParticleRadius": 1.5,
-    "m_bShowOnMinimap": false,
-    "m_sNameLocString": "spirit_permanent_pickup_label_lv3",
-    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Spirit\"",
-    "m_nNameOffset": 60,
-    "_base": "spirit_permanent_pickup",
-    "m_bIsPermanentPickup": true,
-    "m_sModifer": {
-      "_class": "modifier_permanent_pickup",
-      "_my_subclass_name": "modifier_permanent_pickup",
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
-          "m_value": 5
-        }
-      ]
+      ],
+      "m_strHudMessageText": "#spirit_permanent_pickup_label_lv2"
     },
     "m_sDefaultMaterialGroupName": "purple",
     "m_Color": [
@@ -1225,7 +1044,8 @@
           "m_value": 1.5
         }
       ],
-      "m_strSmallIconCssClass": "fire_rate"
+      "m_strHudMessageText": "#firerate_permanent_pickup_label",
+      "m_strSmallIconCssClass": "fireRate"
     },
     "m_sDefaultMaterialGroupName": "red",
     "m_Color": [
@@ -1258,40 +1078,8 @@
           "m_value": 2
         }
       ],
-      "m_strSmallIconCssClass": "fire_rate"
-    },
-    "m_sDefaultMaterialGroupName": "red",
-    "m_Color": [
-      200,
-      0,
-      0
-    ]
-  },
-  "firerate_permanent_pickup_lv3": {
-    "_class": "citadel_breakable_prop_modifier_pickup",
-    "m_flPickupRadius": 85,
-    "m_spawnParticle": "resource_name:\"particles/environment/breakable_item_drop.vpcf\"",
-    "m_gainedParticle": "resource_name:\"particles/generic/powerup_spawner_gained.vpcf\"",
-    "m_hModel": "resource_name:\"models/props_gameplay/powerup_idol/powerup_idol.vmdl\"",
-    "m_sSpawnSound": "soundevent:\"Powerup.Spawn.Generic\"",
-    "m_flPickupExpirationDuration": 30,
-    "m_flParticleRadius": 1.5,
-    "m_bShowOnMinimap": false,
-    "m_sNameLocString": "firerate_permanent_pickup_label_lv3",
-    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Weapon\"",
-    "m_nNameOffset": 60,
-    "_base": "firerate_permanent_pickup",
-    "m_bIsPermanentPickup": true,
-    "m_sModifer": {
-      "_class": "modifier_permanent_pickup",
-      "_my_subclass_name": "modifier_permanent_pickup",
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_FIRE_RATE",
-          "m_value": 2.5
-        }
-      ],
-      "m_strSmallIconCssClass": "fire_rate"
+      "m_strHudMessageText": "#firerate_permanent_pickup_label_lv2",
+      "m_strSmallIconCssClass": "fireRate"
     },
     "m_sDefaultMaterialGroupName": "red",
     "m_Color": [
@@ -1324,6 +1112,7 @@
           "m_value": 4
         }
       ],
+      "m_strHudMessageText": "#ammo_permanent_pickup_label",
       "m_strSmallIconCssClass": "ammoIncrease"
     },
     "m_sDefaultMaterialGroupName": "orange",
@@ -1357,39 +1146,7 @@
           "m_value": 6
         }
       ],
-      "m_strSmallIconCssClass": "ammoIncrease"
-    },
-    "m_sDefaultMaterialGroupName": "orange",
-    "m_Color": [
-      255,
-      165,
-      0
-    ]
-  },
-  "ammo_permanent_pickup_lv3": {
-    "_class": "citadel_breakable_prop_modifier_pickup",
-    "m_flPickupRadius": 85,
-    "m_spawnParticle": "resource_name:\"particles/environment/breakable_item_drop.vpcf\"",
-    "m_gainedParticle": "resource_name:\"particles/generic/powerup_spawner_gained.vpcf\"",
-    "m_hModel": "resource_name:\"models/props_gameplay/powerup_idol/powerup_idol.vmdl\"",
-    "m_sSpawnSound": "soundevent:\"Powerup.Spawn.Generic\"",
-    "m_flPickupExpirationDuration": 30,
-    "m_flParticleRadius": 1.5,
-    "m_bShowOnMinimap": false,
-    "m_sNameLocString": "ammo_permanent_pickup_label_lv3",
-    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Ammo\"",
-    "m_nNameOffset": 60,
-    "_base": "ammo_permanent_pickup",
-    "m_bIsPermanentPickup": true,
-    "m_sModifer": {
-      "_class": "modifier_permanent_pickup",
-      "_my_subclass_name": "modifier_permanent_pickup",
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
-          "m_value": 8
-        }
-      ],
+      "m_strHudMessageText": "#ammo_permanent_pickup_label_lv2",
       "m_strSmallIconCssClass": "ammoIncrease"
     },
     "m_sDefaultMaterialGroupName": "orange",
@@ -1420,9 +1177,10 @@
       "m_vecScriptValues": [
         {
           "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
-          "m_value": 20
+          "m_value": 15
         }
-      ]
+      ],
+      "m_strHudMessageText": "#hp_permanent_pickup_label"
     },
     "m_sDefaultMaterialGroupName": "green",
     "m_Color": [
@@ -1452,41 +1210,10 @@
       "m_vecScriptValues": [
         {
           "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
-          "m_value": 30
+          "m_value": 20
         }
-      ]
-    },
-    "m_sDefaultMaterialGroupName": "green",
-    "m_Color": [
-      50,
-      205,
-      50
-    ]
-  },
-  "hp_permanent_pickup_lv3": {
-    "_class": "citadel_breakable_prop_modifier_pickup",
-    "m_flPickupRadius": 85,
-    "m_spawnParticle": "resource_name:\"particles/environment/breakable_item_drop.vpcf\"",
-    "m_gainedParticle": "resource_name:\"particles/generic/powerup_spawner_gained.vpcf\"",
-    "m_hModel": "resource_name:\"models/props_gameplay/powerup_idol/powerup_idol.vmdl\"",
-    "m_sSpawnSound": "soundevent:\"Powerup.Spawn.Generic\"",
-    "m_flPickupExpirationDuration": 30,
-    "m_flParticleRadius": 1.5,
-    "m_bShowOnMinimap": false,
-    "m_sNameLocString": "hp_permanent_pickup_label_lv3",
-    "m_sPickupSound": "soundevent:\"Player.Heal.Small\"",
-    "m_nNameOffset": 60,
-    "_base": "hp_permanent_pickup",
-    "m_bIsPermanentPickup": true,
-    "m_sModifer": {
-      "_class": "modifier_permanent_pickup",
-      "_my_subclass_name": "modifier_permanent_pickup",
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
-          "m_value": 40
-        }
-      ]
+      ],
+      "m_strHudMessageText": "#hp_permanent_pickup_label_lv2"
     },
     "m_sDefaultMaterialGroupName": "green",
     "m_Color": [
@@ -1519,6 +1246,7 @@
           "m_value": 0.75
         }
       ],
+      "m_strHudMessageText": "#cd_permanent_pickup_label",
       "m_strSmallIconCssClass": "cooldownReduction"
     },
     "m_sDefaultMaterialGroupName": "blue",
@@ -1552,39 +1280,7 @@
           "m_value": 1
         }
       ],
-      "m_strSmallIconCssClass": "cooldownReduction"
-    },
-    "m_sDefaultMaterialGroupName": "blue",
-    "m_Color": [
-      0,
-      0,
-      200
-    ]
-  },
-  "cd_permanent_pickup_lv3": {
-    "_class": "citadel_breakable_prop_modifier_pickup",
-    "m_flPickupRadius": 85,
-    "m_spawnParticle": "resource_name:\"particles/environment/breakable_item_drop.vpcf\"",
-    "m_gainedParticle": "resource_name:\"particles/generic/powerup_spawner_gained.vpcf\"",
-    "m_hModel": "resource_name:\"models/props_gameplay/powerup_idol/powerup_idol.vmdl\"",
-    "m_sSpawnSound": "soundevent:\"Powerup.Spawn.Generic\"",
-    "m_flPickupExpirationDuration": 30,
-    "m_flParticleRadius": 1.5,
-    "m_bShowOnMinimap": false,
-    "m_sNameLocString": "cd_permanent_pickup_label_lv3",
-    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Spirit\"",
-    "m_nNameOffset": 60,
-    "_base": "cd_permanent_pickup",
-    "m_bIsPermanentPickup": true,
-    "m_sModifer": {
-      "_class": "modifier_permanent_pickup",
-      "_my_subclass_name": "modifier_permanent_pickup",
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE",
-          "m_value": 1.5
-        }
-      ],
+      "m_strHudMessageText": "#cd_permanent_pickup_label_lv2",
       "m_strSmallIconCssClass": "cooldownReduction"
     },
     "m_sDefaultMaterialGroupName": "blue",
@@ -1617,7 +1313,8 @@
           "m_eModifierValue": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
           "m_value": 3
         }
-      ]
+      ],
+      "m_strHudMessageText": "#wp_permanent_pickup_label"
     },
     "m_sDefaultMaterialGroupName": "orange",
     "m_Color": [
@@ -1649,39 +1346,8 @@
           "m_eModifierValue": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
           "m_value": 4
         }
-      ]
-    },
-    "m_sDefaultMaterialGroupName": "orange",
-    "m_Color": [
-      200,
-      85,
-      0
-    ]
-  },
-  "wp_permanent_pickup_lv3": {
-    "_class": "citadel_breakable_prop_modifier_pickup",
-    "m_flPickupRadius": 85,
-    "m_spawnParticle": "resource_name:\"particles/environment/breakable_item_drop.vpcf\"",
-    "m_gainedParticle": "resource_name:\"particles/generic/powerup_spawner_gained.vpcf\"",
-    "m_hModel": "resource_name:\"models/props_gameplay/powerup_idol/powerup_idol.vmdl\"",
-    "m_sSpawnSound": "soundevent:\"Powerup.Spawn.Generic\"",
-    "m_flPickupExpirationDuration": 30,
-    "m_flParticleRadius": 1.5,
-    "m_bShowOnMinimap": false,
-    "m_sNameLocString": "wp_permanent_pickup_label_lv3",
-    "m_sPickupSound": "soundevent:\"Powerup.Pickup.Weapon\"",
-    "m_nNameOffset": 60,
-    "_base": "wp_permanent_pickup",
-    "m_bIsPermanentPickup": true,
-    "m_sModifer": {
-      "_class": "modifier_permanent_pickup",
-      "_my_subclass_name": "modifier_permanent_pickup",
-      "m_vecScriptValues": [
-        {
-          "m_eModifierValue": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
-          "m_value": 7
-        }
-      ]
+      ],
+      "m_strHudMessageText": "#wp_permanent_pickup_label_lv2"
     },
     "m_sDefaultMaterialGroupName": "orange",
     "m_Color": [
@@ -1714,18 +1380,12 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
-    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
-    "m_flKillerPlaneOffset": 0,
-    "m_flOrbClaimWindow": 0,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\""
+    "m_flKillerPlaneOffset": 0
   },
   "xp_orb_trooper": {
     "_class": "item_xp",
@@ -1751,18 +1411,12 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.2,
-    "m_flInvulDuration": 0.2,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": true,
     "m_flKillerPlaneOffset": 15,
-    "m_flOrbClaimWindow": 0.1,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\"",
     "_base": "xp_orb",
     "m_flKillerPlaneHorizontalDecayRate": 15,
     "m_flLateralMoveDuration": 0.3,
@@ -1787,28 +1441,22 @@
     "m_flOrbSpawnDelayMax": 0.3,
     "m_flOrbSpawnOffsetZ": 10,
     "m_flOrbSpawnOffsetRandomXYZ": 10,
-    "m_flGravityScale": 0,
+    "m_flGravityScale": -0.3,
     "m_flLateralSpeedMin": 10,
-    "m_flLateralSpeedMax": 60,
+    "m_flLateralSpeedMax": 15,
     "m_flUpSpeedMin": 10,
-    "m_flUpSpeedMax": 60,
+    "m_flUpSpeedMax": -20,
     "m_flOscillateFrequency": 1,
-    "m_flLifeTime": 3,
+    "m_flLifeTime": 6,
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
-    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
-    "m_flOrbClaimWindow": 0,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\"",
     "_base": "xp_orb"
   },
   "xp_orb_player_kill": {
@@ -1835,18 +1483,12 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
-    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
-    "m_flOrbClaimWindow": 0,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\"",
     "_base": "xp_orb"
   },
   "xp_orb_objective": {
@@ -1861,11 +1503,11 @@
     "m_sEnemyOrbEarnedParticle": "resource_name:\"particles/generic/spirit_xp_earned_enemy.vpcf\"",
     "m_flOrbSpawnDelayMin": 0.3,
     "m_flOrbSpawnDelayMax": 0.3,
-    "m_flOrbSpawnOffsetZ": 0,
-    "m_flOrbSpawnOffsetRandomXYZ": 64,
+    "m_flOrbSpawnOffsetZ": 24,
+    "m_flOrbSpawnOffsetRandomXYZ": 0,
     "m_flGravityScale": 0,
     "m_flLateralSpeedMin": 40,
-    "m_flLateralSpeedMax": 60,
+    "m_flLateralSpeedMax": 40,
     "m_flUpSpeedMin": 65,
     "m_flUpSpeedMax": 65,
     "m_flOscillateFrequency": 1,
@@ -1873,18 +1515,12 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
-    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
-    "m_flOrbClaimWindow": 0,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\"",
     "_base": "xp_orb",
     "m_bIsObjective": true
   },
@@ -1912,98 +1548,37 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
-    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
-    "m_flOrbClaimWindow": 0,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\"",
     "_base": "xp_orb"
-  },
-  "xp_orb_spawner": {
-    "_class": "item_xp",
-    "m_sOrbModel": "resource_name:\"\"",
-    "m_sFriendlyGlowParticle": "resource_name:\"particles/generic/spirit_orb_ambient.vpcf\"",
-    "m_sEnemyGlowParticle": "resource_name:\"particles/generic/spirit_orb_ambient_enemy.vpcf\"",
-    "m_sGoldReceivedParticle": "resource_name:\"particles/items/gold_received.vpcf\"",
-    "m_sFriendlyOrbDeniedParticle": "resource_name:\"particles/generic/spirit_xp_denied_enemy.vpcf\"",
-    "m_sEnemyOrbDeniedParticle": "resource_name:\"particles/generic/spirit_xp_denied.vpcf\"",
-    "m_sFriendlyOrbEarnedParticle": "resource_name:\"particles/generic/spirit_xp_earned.vpcf\"",
-    "m_sEnemyOrbEarnedParticle": "resource_name:\"particles/generic/spirit_xp_earned_enemy.vpcf\"",
-    "m_flOrbSpawnDelayMin": 0.4,
-    "m_flOrbSpawnDelayMax": 0.7,
-    "m_flOrbSpawnOffsetZ": 8,
-    "m_flOrbSpawnOffsetRandomXYZ": 64,
-    "m_flGravityScale": 0,
-    "m_flLateralSpeedMin": 40,
-    "m_flLateralSpeedMax": 40,
-    "m_flUpSpeedMin": 65,
-    "m_flUpSpeedMax": 65,
-    "m_flOscillateFrequency": 0.01,
-    "m_flLifeTime": 2,
-    "m_flCollisionRadius": 12,
-    "m_flBurstSpeedMultiplier": 2,
-    "m_flBurstSpeedDuration": 0.2,
-    "m_flInvulDuration": 0.2,
-    "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
-    "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
-    "m_strOrbDenied": "soundevent:\"Player.Deny\"",
-    "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
-    "m_bUseKillerPlaneOffsets": true,
-    "m_flKillerPlaneOffset": 15,
-    "m_flOrbClaimWindow": 0.1,
-    "m_sPredictedHitLimboGlowParticle": "resource_name:\"particles/generic/spirit_orb_processing.vpcf\"",
-    "m_strOrbHitConfirm": "soundevent:\"Player.ClaimOrb.Hit\"",
-    "m_sFriendlyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit.vpcf\"",
-    "m_sEnemyHitConfirmParticle": "resource_name:\"particles/generic/spirit_orb_ambient_hit_enemy.vpcf\"",
-    "_base": "xp_orb_trooper",
-    "m_flKillerPlaneHorizontalDecayRate": 15,
-    "m_flLateralMoveDuration": 0.3,
-    "m_flKillerPlaneHorizontalSpeedX": 65,
-    "m_flKillerPlaneHorizontalSpeedY": 55,
-    "m_flKillerPlaneVerticalSpeed": 115,
-    "m_flKillerPlaneSpeedNoise": 10,
-    "m_flKillerPlaneLaunchOffset": 15,
-    "m_flKillerPlaneLaunchDelay": 0.1
   },
   "citadel_herotest_orbspawner": {
     "m_hModel": "resource_name:\"models/npc/sewer_beast/sewer.vmdl\"",
     "m_flModelScale": 1.5,
     "m_AmbientParticle": "resource_name:\"particles/environment/powerup_spawner_inactive_ambient.vpcf\"",
-    "m_SpawnParticle": "resource_name:\"particles/trooper/trooper_death_sn.vpcf\"",
-    "m_iGoldValue": 10,
-    "m_flSpawnRate": 2,
-    "m_flFirstSpawnTime": 180
+    "m_SpawnParticle": "resource_name:\"particles/trooper/trooper_death_sn.vpcf\""
   },
   "info_neutral_trooper_camp": {
     "_class": "info_neutral_trooper_camp",
     "_not_pickable": 2,
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"Neutral.Camp.Idle\"",
     "m_sAlertAmbient": "soundevent:\"Neutral.Camp.Aggro\""
   },
   "neutral_camp_vaults": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"Neutral.Camp.Idle\"",
     "m_sAlertAmbient": "soundevent:\"Neutral.Camp.Aggro\"",
     "_base": "info_neutral_trooper_camp",
-    "m_iInitialSpawnDelayInSeconds": 480,
-    "m_iSpawnIntervalInSeconds": 240,
+    "m_iInitialSpawnDelayInSeconds": 600,
+    "m_iSpawnIntervalInSeconds": 300,
     "m_eNeutralType": "NEUTRAL_VAULT"
   },
   "neutral_camp_vaults_herotest": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"\"",
     "m_sAlertAmbient": "soundevent:\"\"",
     "_base": "neutral_camp_vaults",
@@ -2013,8 +1588,6 @@
   },
   "neutral_camp_weak": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"Neutral.Camp.Idle\"",
     "m_sAlertAmbient": "soundevent:\"Neutral.Camp.Aggro\"",
     "_base": "info_neutral_trooper_camp",
@@ -2024,8 +1597,6 @@
   },
   "neutral_camp_weak_herotest": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"\"",
     "m_sAlertAmbient": "soundevent:\"\"",
     "_base": "neutral_camp_weak",
@@ -2035,19 +1606,15 @@
   },
   "neutral_camp_medium": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"Neutral.Camp.Idle\"",
     "m_sAlertAmbient": "soundevent:\"Neutral.Camp.Aggro\"",
     "_base": "info_neutral_trooper_camp",
-    "m_iInitialSpawnDelayInSeconds": 300,
+    "m_iInitialSpawnDelayInSeconds": 420,
     "m_iSpawnIntervalInSeconds": 360,
     "m_eNeutralType": "NEUTRAL_TROOPER_NORMAL"
   },
   "neutral_camp_medium_herotest": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"\"",
     "m_sAlertAmbient": "soundevent:\"\"",
     "_base": "neutral_camp_medium",
@@ -2057,19 +1624,15 @@
   },
   "neutral_camp_strong": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"Neutral.Camp.Idle\"",
     "m_sAlertAmbient": "soundevent:\"Neutral.Camp.Aggro\"",
     "_base": "info_neutral_trooper_camp",
-    "m_iInitialSpawnDelayInSeconds": 480,
+    "m_iInitialSpawnDelayInSeconds": 420,
     "m_iSpawnIntervalInSeconds": 480,
     "m_eNeutralType": "NEUTRAL_TROOPER_STRONG"
   },
   "neutral_camp_strong_herotest": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": 0,
-    "m_iSpawnIntervalMin": 0,
     "m_sIdleAmbient": "soundevent:\"\"",
     "m_sAlertAmbient": "soundevent:\"\"",
     "_base": "neutral_camp_strong",
@@ -2079,8 +1642,6 @@
   },
   "neutral_camp_midboss": {
     "_class": "info_neutral_trooper_camp",
-    "m_iSpawnIntervalChange": -60,
-    "m_iSpawnIntervalMin": 300,
     "m_sIdleAmbient": "soundevent:\"Neutral.Camp.Idle\"",
     "m_sAlertAmbient": "soundevent:\"Neutral.Camp.Aggro\"",
     "_base": "info_neutral_trooper_camp",

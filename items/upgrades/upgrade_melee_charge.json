@@ -1,6 +1,6 @@
 {
   "name": "Melee Charge",
-  "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full.",
+  "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -42,7 +42,7 @@
         "ability_properties": {},
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full."
+        "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>."
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "name": "Mystic Slow",
-  "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced.",
+  "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced.",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -67,7 +67,7 @@
             "is_conditional": true
           }
         },
-        "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced."
+        "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced."
       }
     ]
   },

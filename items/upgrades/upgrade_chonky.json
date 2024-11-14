@@ -46,7 +46,7 @@
             "is_conditional": true
           }
         },
-        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Move Speed</span>."
+        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Movement Speed</span>."
       }
     ]
   },

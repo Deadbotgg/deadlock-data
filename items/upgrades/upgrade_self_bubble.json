@@ -1,6 +1,6 @@
 {
   "name": "Ethereal Shift",
-  "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">move speed and spirit resist</span>.",
+  "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early.",
   "cost": "3000",
   "tier": "3",
   "activation": "InstantCast",
@@ -40,7 +40,7 @@
             "is_conditional": false
           }
         },
-        "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you gain <span class=\"highlight\">move speed and spirit resist</span>."
+        "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early."
       }
     ]
   },

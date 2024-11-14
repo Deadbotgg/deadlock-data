@@ -1,7 +1,7 @@
 {
   "name": "Magic Carpet",
-  "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet.",
-  "cost": "6200",
+  "description": "Summon a Magic Carpet that will fly you away. Gain Bullet and Spirit shields while flying.  Cannot use abilities while the carpet is being summoned.  While flying doing any action will dismiss the carpet.",
+  "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Tech",
@@ -69,7 +69,7 @@
             "is_conditional": false
           }
         },
-        "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet."
+        "description": "Summon a Magic Carpet that will fly you away. Gain Bullet and Spirit shields while flying.  Cannot use abilities while the carpet is being summoned.  While flying doing any action will dismiss the carpet."
       }
     ]
   },
@@ -78,7 +78,7 @@
   "ability_duration": 7,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
-  "ability_cast_delay": 0,
+  "ability_cast_delay": 0.2,
   "ability_channel_time": 0,
   "ability_post_cast_duration": 0,
   "ability_charges": 0,

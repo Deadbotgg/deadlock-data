@@ -1,6 +1,6 @@
 {
   "name": "Enchanter's Barrier",
-  "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Cooldown Reduction</span>.",
+  "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -39,7 +39,7 @@
             "is_conditional": false
           }
         },
-        "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Cooldown Reduction</span>."
+        "description": "While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>."
       }
     ]
   },

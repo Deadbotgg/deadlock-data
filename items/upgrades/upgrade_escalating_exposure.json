@@ -1,7 +1,7 @@
 {
   "name": "Escalating Exposure",
   "description": "Dealing <span class=\"highlight\">Spirit Damage</span> applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your <span class=\"highlight\">Spirit Damage</span> to the target.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Tech",

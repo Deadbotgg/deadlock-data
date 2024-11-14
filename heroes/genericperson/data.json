@@ -1,6 +1,6 @@
 {
   "id": 46,
-  "name": "Generic Person",
+  "name": "hero_genericperson",
   "new_player_friendly": false,
   "in_development": true,
   "in_hero_labs": false,
@@ -10,7 +10,7 @@
   "bot_selectable": false,
   "lane_testing_recommended": false,
   "starting_stats": {
-    "max_move_speed": 7.3,
+    "max_move_speed": 7,
     "sprint_speed": 0,
     "crouch_speed": 4.75,
     "move_acceleration": 4,
@@ -30,11 +30,10 @@
   },
   "level_upgrades": {
     "modifier_value_base_bullet_damage_from_level": 0,
-    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 41,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 0,
-    "modifier_value_tech_armor_damage_resist": 0
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,

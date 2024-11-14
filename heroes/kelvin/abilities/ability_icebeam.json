@@ -33,7 +33,7 @@
     "beam_split": 0
   },
   "tooltipDetails": {
-    "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced move speed while using Arctic Beam. The beam may also claim Souls.",
+    "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam.",
     "properties": [
       {
         "key": "DPS",

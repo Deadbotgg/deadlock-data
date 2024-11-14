@@ -1,7 +1,7 @@
 {
   "name": "Refresher",
   "description": "<span class=\"highlight\">Reset the cooldown</span> of all your abilities and <span class=\"highlight\">restore all your charges</span>.",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Tech",

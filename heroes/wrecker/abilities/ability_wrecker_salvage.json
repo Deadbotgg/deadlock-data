@@ -26,7 +26,7 @@
     "salvage_bonus_health": 0
   },
   "tooltipDetails": {
-    "description": "Latches onto an Enemy, <span class=\"highlight\">damaging</span> them while attached. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently.",
+    "description": "<span class=\"highlight\">Stuns</span> an enemy trooper or NPC, <span class=\"highlight\">damaging</span> them while held. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently",
     "properties": [
       {
         "key": "DPS",

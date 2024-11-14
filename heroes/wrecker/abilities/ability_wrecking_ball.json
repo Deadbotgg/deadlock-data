@@ -26,7 +26,7 @@
     "min_speed": 80
   },
   "tooltipDetails": {
-    "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> the first enemy hit. The ball takes time to create and you move slower while carrying it.",
+    "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> anything it hits. The ball takes time to create and you move slower while carrying it.",
     "properties": [
       {
         "key": "WreckingBallDamage",

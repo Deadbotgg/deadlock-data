@@ -1,7 +1,7 @@
 {
   "name": "Galvanic Storm",
   "description": null,
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -35,7 +35,7 @@
             "is_conditional": false
           }
         },
-        "description": "When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">move speed</span>"
+        "description": "When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">movement speed</span>"
       }
     ],
     "Innate": [

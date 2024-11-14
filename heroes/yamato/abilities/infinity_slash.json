@@ -26,7 +26,7 @@
     "bullet_resist": 55
   },
   "tooltipDetails": {
-    "description": "Become infused with {s:hero_name}'s shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, gain <span class=\"highlight\">immunity to negative status effects</span>, <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">Heal</span>.<br>Duration is extended if {s:hero_name} gets a hero kill.",
+    "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, your weapon has <span class=\"highlight\">infinite ammo</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
     "properties": [
       {
         "key": "AbilityDuration",

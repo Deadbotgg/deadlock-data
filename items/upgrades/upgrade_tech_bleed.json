@@ -1,7 +1,7 @@
 {
   "name": "Mystic Reverb",
-  "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
-  "cost": "6200",
+  "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> in a radius around the target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay.",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Tech",
@@ -72,7 +72,7 @@
             "is_conditional": true
           }
         },
-        "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> on a hit target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay."
+        "description": "Imbue an ability to apply <span class=\"highlight\">slow</span> in a radius around the target and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> to enemies around the target after a short delay."
       }
     ]
   },

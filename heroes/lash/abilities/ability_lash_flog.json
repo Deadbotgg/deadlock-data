@@ -73,7 +73,7 @@
     "upgrades": [
       {
         "enemy_slow_duration": 3,
-        "name": "Enemy Movement Slow",
+        "name": "Enemy Move Slow",
         "enemy_slow_pct": 35
       },
       {

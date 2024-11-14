@@ -29,7 +29,7 @@
     "stamina_reduction": 0
   },
   "tooltipDetails": {
-    "description": "Throw a flask that <span class=\"highlight\">damages, slows movement,</span> and reduces the <span class=\"highlight\">weapon damage</span> of enemies it hits.",
+    "description": "Throw a flask that <span class=\"highlight\">damages, slows,</span> and reduces the <span class=\"highlight\">weapon damage</span> and <span class=\"highlight\">stamina</span> of enemies it hits.",
     "properties": [
       {
         "key": "Damage",

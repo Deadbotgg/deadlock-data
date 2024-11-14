@@ -1,7 +1,7 @@
 {
   "name": "Siphon Bullets",
   "description": "",
-  "cost": "6200",
+  "cost": "6300",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -52,7 +52,7 @@
             "is_conditional": false
           }
         },
-        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal {s:StealPerKill} stacks of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
+        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal one stack of health if a siphoned target dies and they take it back if they kill you."
       }
     ]
   },

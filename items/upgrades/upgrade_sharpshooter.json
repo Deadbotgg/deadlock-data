@@ -61,7 +61,7 @@
             "is_conditional": false
           }
         },
-        "description": ""
+        "description": "Deal bonus <span class=\"highlight\">Weapon Damage</span> with <span class=\"highlight\">headshots</span>."
       }
     ]
   },

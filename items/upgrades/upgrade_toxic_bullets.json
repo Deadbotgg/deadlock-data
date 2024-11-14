@@ -1,6 +1,6 @@
 {
   "name": "Toxic Bullets",
-  "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
+  "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -45,7 +45,7 @@
             "is_conditional": true
           }
         },
-        "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
+        "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
       }
     ]
   },

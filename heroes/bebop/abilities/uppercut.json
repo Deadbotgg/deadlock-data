@@ -35,7 +35,7 @@
     "clip_size_bonus": 0
   },
   "tooltipDetails": {
-    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> and <span class=\"highlight\">fire rate slow</span> where they land. Does not damage allies.",
+    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> where they land. Does not damage allies.",
     "properties": [
       {
         "key": "UppercutDamage",

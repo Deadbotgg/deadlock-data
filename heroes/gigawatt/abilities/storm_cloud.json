@@ -30,7 +30,7 @@
     "bullet_resist_on_active": 0
   },
   "tooltipDetails": {
-    "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight. You have increased <span class=\"highlight\">Bullet Resist</span> during the channel.",
+    "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight.",
     "properties": [
       {
         "key": "DPS",
