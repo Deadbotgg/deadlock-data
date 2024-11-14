@@ -48,6 +48,11 @@
     ],
     "basicProperties": [
       {
+        "key": "LifeDrainHealthMult",
+        "value": 100,
+        "type": "healing"
+      },
+      {
         "key": "MaxRange",
         "value": "30m",
         "type": "distance"
