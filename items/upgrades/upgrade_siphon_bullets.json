@@ -19,6 +19,11 @@
     "Innate": [
       {
         "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 15,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
           "bullet_resist": {
             "value": 18,
             "style": null,
@@ -70,6 +75,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
+  "base_attack_damage_percent": 15,
   "bullet_resist": 18,
   "steal_per_hit": 1,
   "steal_per_kill": 1,

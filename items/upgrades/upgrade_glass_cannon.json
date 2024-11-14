@@ -34,7 +34,7 @@
             "is_negative": false
           },
           "max_health_loss_percent": {
-            "value": -15,
+            "value": -12,
             "style": "health",
             "is_negative": true
           }
@@ -74,7 +74,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "base_attack_damage_percent": 70,
-  "max_health_loss_percent": -15,
+  "max_health_loss_percent": -12,
   "bonus_clip_per_kill": 2,
   "max_clip_bonus": 14,
   "bonus_fire_rate": 10,

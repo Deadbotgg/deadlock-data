@@ -1,6 +1,6 @@
 {
   "name": "Phantom Strike",
-  "description": "<span class=\"highlight\">Teleport</span> to an enemy target, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and dealing <span class=\"highlight\">damage</span>.",
+  "description": "<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span>, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and pulls them to the ground.",
   "cost": "6200",
   "tier": "4",
   "activation": "ActivationPress",
@@ -69,7 +69,7 @@
             "is_conditional": false
           }
         },
-        "description": "<span class=\"highlight\">Teleport</span> to an enemy target, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and dealing <span class=\"highlight\">damage</span>."
+        "description": "<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span>, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and pulls them to the ground."
       }
     ]
   },

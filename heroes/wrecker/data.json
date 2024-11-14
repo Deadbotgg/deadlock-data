@@ -205,9 +205,9 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 25,
-    "rounds_per_second": 2.857142857142857,
-    "clip_size": 10,
+    "bullet_damage": 21,
+    "rounds_per_second": 4,
+    "clip_size": 15,
     "reload_time": 2.75,
     "reload_movespeed": 1,
     "reload_delay": 0,
@@ -222,8 +222,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 71.42857142857143,
-    "sustained_dps": 40,
+    "dps": 84,
+    "sustained_dps": 48.46153846153846,
     "weapon_name": "citadel_weapon_wrecker_set",
     "weapon_description": "citadel_weapon_hero_wrecker_set",
     "weapon_types": [

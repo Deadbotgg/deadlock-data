@@ -75,7 +75,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 32,
+            "value": 25,
             "style": "cooldown",
             "is_negative": false
           }
@@ -93,12 +93,12 @@
             "is_conditional": true
           }
         },
-        "description": "Provides bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
+        "description": "Provides bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 32,
+  "ability_cooldown": 25,
   "ability_duration": 6,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

@@ -44,7 +44,7 @@
             "is_conditional": true
           },
           "shoot_duration_for_max": {
-            "value": 3,
+            "value": 2,
             "style": null,
             "is_conditional": false
           }
@@ -69,6 +69,6 @@
   "weapon_power": 0,
   "bonus_clip_size_percent": 25,
   "base_attack_damage_percent": 20,
-  "shoot_duration_for_max": 3,
+  "shoot_duration_for_max": 2.7,
   "base_attack_damage_percent_at_max_duration": 60
 }

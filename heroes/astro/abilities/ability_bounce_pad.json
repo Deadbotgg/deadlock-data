@@ -36,7 +36,7 @@
     "speed_on_land_duration": 0
   },
   "tooltipDetails": {
-    "description": "Drop a bounce pad in the world that <span class=\"highlight\">sends you and other heroes flying</span>. You will stomp down on landing, <span class=\"highlight\">dealing damage</span> to any nearby enemies.",
+    "description": "Drop a bounce pad in the world that <span class=\\\"highlight\\\">sends you and other heroes flying</span>. You will Stomp on landing, <span class=\\\"highlight\\\">dealing damage</span> to any nearby enemies.<br><br><span class=\\\"diminish\\\">The Stomp can only occur once per Bounce Pad.\t</span> ",
     "properties": [
       {
         "key": "StompDamage",

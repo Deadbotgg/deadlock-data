@@ -39,7 +39,7 @@
             "is_conditional": false
           },
           "fire_rate_when_shielded": {
-            "value": 6,
+            "value": 7,
             "style": "fireRate",
             "is_conditional": false
           }
@@ -64,5 +64,5 @@
   "weapon_power": 0,
   "bullet_shield_max_health": 325,
   "attack_damage_when_shielded": 22,
-  "fire_rate_when_shielded": 6
+  "fire_rate_when_shielded": 7
 }

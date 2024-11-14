@@ -31,7 +31,7 @@
             "is_negative": false
           },
           "tech_power": {
-            "value": 5,
+            "value": 6,
             "style": "tech_damage",
             "is_negative": false
           }
@@ -74,7 +74,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 5,
+  "tech_power": 6,
   "weapon_power": 0,
   "slow_percent": 25,
   "slow_duration": 1.3,

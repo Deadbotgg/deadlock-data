@@ -25,6 +25,11 @@
             "value": 18,
             "style": null,
             "is_negative": false
+          },
+          "bonus_health": {
+            "value": 50,
+            "style": "health",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -80,5 +85,6 @@
   "base_attack_damage_percent": 10,
   "bonus_clip_size_percent": 18,
   "bullet_lifesteal_percent": 20,
-  "bonus_fire_rate": 20
+  "bonus_fire_rate": 20,
+  "bonus_health": 50
 }

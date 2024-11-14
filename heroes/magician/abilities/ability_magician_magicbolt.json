@@ -18,25 +18,25 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 100,
+    "damage": 120,
     "radius": 3,
     "redirect_velocity": 1500,
     "projectile_lifetime": 3,
     "initial_projectile_velocity": 1000,
-    "slow_duration": 2,
-    "slow_percent": 50,
+    "debuff_duration": 5,
+    "fire_rate_slow": 20,
     "projectile_redirect_count": 1,
     "tech_armor_damage_reduction": 0
   },
   "tooltipDetails": {
-    "description": "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fading Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs.",
+    "description": "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fire Rate Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs.",
     "properties": [
       {
         "key": "Damage",
-        "value": 100,
+        "value": 120,
         "m_e_display_type": "ETechPower",
         "scale_function": {
-          "value": 1.2,
+          "value": 1.4,
           "type": "spirit"
         },
         "type": "tech_damage"
@@ -48,14 +48,24 @@
     ],
     "basicProperties": [
       {
-        "key": "SlowPercent",
-        "value": 50,
-        "type": "slow"
+        "key": "FireRateSlow",
+        "value": 20,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "SlowDuration",
-        "value": 2,
+        "key": "DebuffDuration",
+        "value": 5,
         "type": "duration"
+      },
+      {
+        "key": "TechArmorDamageReduction",
+        "value": 0,
+        "type": "tech_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "m_e_display_type": "ETechArmorDamageReduction"
       }
     ],
     "upgrades": [
@@ -63,12 +73,12 @@
         "ability_cooldown": -4
       },
       {
-        "tech_armor_damage_reduction": -12
+        "tech_armor_damage_reduction": -20
       },
       {
         "damage": 130,
-        "name": "Max Redirects",
-        "projectile_redirect_count": 1
+        "initial_projectile_velocity": 600,
+        "redirect_velocity": 600
       }
     ]
   }

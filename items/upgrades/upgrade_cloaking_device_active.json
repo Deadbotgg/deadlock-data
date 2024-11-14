@@ -43,7 +43,7 @@
       {
         "ability_properties": {
           "spotted_radius": {
-            "value": 18,
+            "value": 22,
             "style": null,
             "is_negative": false
           }
@@ -101,7 +101,7 @@
   "invis_cancel_on_damage": 1,
   "invis_fade_to_duration": 0.6,
   "invis_move_speed_mod": 2,
-  "spotted_radius": 18,
+  "spotted_radius": 22,
   "reveal_on_damage_duration": 1.5,
   "reveal_on_spotted_duration": 1.5,
   "full_invis_distance": 50,

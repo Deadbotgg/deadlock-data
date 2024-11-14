@@ -15,7 +15,7 @@
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
-    "channel_move_speed": 20,
+    "channel_move_speed": 18,
     "tech_power": 0,
     "weapon_power": 0,
     "radius": 3.5,
@@ -32,7 +32,7 @@
     "lift_height": 3,
     "damping_factor": 0.3,
     "max_delta_movement_control": 2,
-    "hold_in_place_duration": 1.1,
+    "hold_in_place_duration": 1,
     "boss_damage_percent": 50,
     "target_bullet_evasion_chance": 0,
     "tech_armor_damage_reduction": 0,
@@ -53,7 +53,7 @@
       },
       {
         "key": "HoldInPlaceDuration",
-        "value": 1.1,
+        "value": 1,
         "type": "duration"
       },
       {

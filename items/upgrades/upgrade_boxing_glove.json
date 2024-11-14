@@ -32,7 +32,7 @@
             "is_negative": false
           },
           "bullet_resist": {
-            "value": 8,
+            "value": 10,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -93,6 +93,6 @@
   "lifesteal_heal": 110,
   "lifesteal_heal_percent": 65,
   "bonus_health": 125,
-  "bullet_resist": 8,
+  "bullet_resist": 10,
   "non_hero_heal_pct": 40
 }

@@ -1,12 +1,18 @@
 {
   "name": "Slowing Hex",
-  "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage.",
+  "description": "Deals <span class=\"highlight\">Spirit Damage</span>, <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br><span class=\"diminish\">Does not affect target's stamina usage.</span>",
   "cost": "1250",
   "tier": "2",
   "activation": "ActivationPress",
   "slot": "Tech",
   "image": "upgrades/mods_tech/immobilize_psd",
-  "components": null,
+  "components": [
+    {
+      "key": "upgrade_resilience",
+      "name": "Enduring Spirit",
+      "image": "upgrades/mods_armor/resilience_psd"
+    }
+  ],
   "componentsOf": [],
   "target_types": [
     "HeroEnemy"
@@ -20,19 +26,23 @@
     "Innate": [
       {
         "ability_properties": {
+          "ability_lifesteal_percent_hero": {
+            "value": 10,
+            "style": "healing",
+            "is_negative": false
+          },
           "tech_power": {
             "value": 5,
             "style": "tech_damage",
             "is_negative": false
-          }
-        },
-        "elevated_ability_properties": {
-          "bonus_sprint_speed": {
-            "value": 1,
-            "style": "move_speed",
+          },
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
             "is_negative": false
           }
         },
+        "elevated_ability_properties": {},
         "important_ability_properties": {},
         "description": ""
       }
@@ -40,31 +50,26 @@
     "Active": [
       {
         "ability_properties": {
-          "ability_duration": {
-            "value": 3,
-            "style": "duration",
-            "is_negative": false
-          },
           "ability_cast_range": {
             "value": 25,
             "style": "range",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 3,
+            "style": "duration",
             "is_negative": false
           },
           "ability_cooldown": {
             "value": 26,
             "style": "cooldown",
             "is_negative": false
-          },
-          "ground_dash_reduction_percent": {
-            "value": -30,
-            "style": null,
-            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "damage": {
-            "value": 70,
+            "value": 40,
             "style": "tech_damage",
             "is_conditional": false
           },
@@ -72,9 +77,14 @@
             "value": 20,
             "style": "slow",
             "is_conditional": true
+          },
+          "ground_dash_reduction_percent": {
+            "value": -30,
+            "style": "slow",
+            "is_conditional": true
           }
         },
-        "description": "Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br>Does not affect target's stamina usage."
+        "description": "Deals <span class=\"highlight\">Spirit Damage</span>, <span class=\"highlight\">Slows</span> targets movement and dashes. Also <span class=\"highlight\">Silences their movement-based items and abilities</span>.<br><span class=\"diminish\">Does not affect target's stamina usage.</span>"
       }
     ]
   },
@@ -93,7 +103,7 @@
   "tech_power": 5,
   "weapon_power": 0,
   "slow_percent": 20,
-  "damage": 70,
-  "bonus_sprint_speed": 1,
+  "damage": 40,
+  "bonus_health": 75,
   "ground_dash_reduction_percent": -30
 }

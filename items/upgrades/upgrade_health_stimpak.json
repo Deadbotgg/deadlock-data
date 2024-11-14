@@ -49,7 +49,7 @@
             "is_negative": false
           },
           "regen_duration": {
-            "value": 19,
+            "value": 20,
             "style": "duration",
             "is_negative": false
           },
@@ -91,7 +91,7 @@
   "tech_power": 3,
   "weapon_power": 0,
   "total_health_regen": 370,
-  "regen_duration": 19,
+  "regen_duration": 20,
   "bonus_health": 45,
   "bonus_sprint_speed": 2
 }

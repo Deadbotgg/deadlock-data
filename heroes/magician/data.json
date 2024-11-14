@@ -209,7 +209,7 @@
   "weapon_stats": {
     "bullet_damage": 30,
     "rounds_per_second": 2,
-    "clip_size": 20,
+    "clip_size": 22,
     "reload_time": 2.5,
     "reload_movespeed": 1,
     "reload_delay": 0,
@@ -225,7 +225,7 @@
     "bullets_per_burst": 2,
     "burst_inter_shot_interval": 0.1,
     "dps": 85.71428571428572,
-    "sustained_dps": 63.1578947368421,
+    "sustained_dps": 64.70588235294117,
     "weapon_name": "citadel_weapon_magician_set",
     "weapon_description": "citadel_weapon_hero_magician_set",
     "weapon_types": [
@@ -234,7 +234,7 @@
       "Attribute_EWeaponAttribute_Projectile"
     ]
   },
-  "lore": "Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with.  He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.\\n\\nWhen he was in high school he met Savannah, and their mutal love of stage magic sparked a whirlwind romance.  Soon they fell in love and created an act together.  Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.\\n\\nUnsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates.  And so they cemented their love for one another by having a blood mystic bind their souls for eternity.\\n\\nWhen an on-stage accident claimed both their lives, no one was sure who to blame.  Henry claims Savannah was out of position.  Savannah says Henry didn't wait for his queue.  But one things for sure, since their souls are tied to each other neither one of them have been able to move on.  Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.",
+  "lore": "Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with.  He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.\\n\\nWhen he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance.  Soon they fell in love and created an act together.  Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.\\n\\nUnsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates.  And so they cemented their love for one another by having a blood mystic bind their souls for eternity.\\n\\nWhen an on-stage accident claimed both their lives, no one was sure who to blame.  Henry claims Savannah was out of position.  Savannah says Henry didn't wait for his cue.  But one thing's for sure, since their souls are tied to each other neither one of them have been able to move on.  Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.",
   "playstyle": "With the help of their unwilling assistant, the Magician can confuse enemies with curving hexes and rapid cards.",
   "role": "Misdirect and hex enemies",
   "recommended_items": [
@@ -267,7 +267,7 @@
       "key": "ability_magician_animalcurse"
     },
     {
-      "key": "citadel_ability_chrono_swap"
+      "key": "ability_magician_bigbolt"
     }
   ]
 }

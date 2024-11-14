@@ -34,6 +34,11 @@
             "style": "health",
             "is_negative": false
           },
+          "tech_range_multiplier": {
+            "value": 8,
+            "style": "distance",
+            "is_negative": false
+          },
           "tech_power": {
             "value": 6,
             "style": null,
@@ -95,5 +100,7 @@
   "regen_duration": 2,
   "aura_radius": 15,
   "base_attack_damage_percent": 12,
-  "bonus_health": 100
+  "bonus_health": 100,
+  "tech_range_multiplier": 8,
+  "tech_radius_multiplier": 6
 }

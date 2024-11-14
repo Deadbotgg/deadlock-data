@@ -26,7 +26,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 365,
+            "value": 400,
             "style": "health",
             "is_negative": false
           }
@@ -52,7 +52,7 @@
             "is_conditional": true
           }
         },
-        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Movement Speed</span>."
+        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Move Speed</span>."
       }
     ]
   },
@@ -75,5 +75,5 @@
   "health_threshold": 75,
   "bonus_move_speed": 2,
   "base_attack_damage_percent": 27,
-  "bonus_health": 365
+  "bonus_health": 400
 }

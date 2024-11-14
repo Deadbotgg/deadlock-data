@@ -32,6 +32,11 @@
             "value": 140,
             "style": "bullet_armor_up",
             "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 10,
+            "style": "bullet_damage",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -51,7 +56,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "long_range_bonus_weapon_power": {
-            "value": 40,
+            "value": 30,
             "style": "bullet_damage",
             "is_conditional": true
           }
@@ -74,7 +79,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "long_range_bonus_weapon_power": 40,
+  "base_attack_damage_percent": 10,
+  "long_range_bonus_weapon_power": 30,
   "long_range_bonus_weapon_power_min_range": 15,
   "reload_speed_multipler": -20,
   "bullet_shield_max_health": 140

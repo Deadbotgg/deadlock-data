@@ -28,7 +28,7 @@
     "growth_per_meter": 0.5,
     "initial_width": 1,
     "slow_duration": 4,
-    "slow_percent": 40,
+    "slow_percent": 35,
     "heal_amp_receive_penalty_percent": 0,
     "heal_amp_regen_penalty_percent": 0
   },
@@ -51,7 +51,7 @@
       },
       {
         "key": "SlowPercent",
-        "value": 40,
+        "value": 35,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"

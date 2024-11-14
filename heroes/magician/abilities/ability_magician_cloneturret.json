@@ -26,7 +26,7 @@
     "turret_bullet_target_radius": 500
   },
   "tooltipDetails": {
-    "description": "Summon an <span class=\"highlight\">Assistant</span> at the target location. They mimic your attacks, throwing cards that deal <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your Assistant.",
+    "description": "Summon an <span class=\"highlight\">Assistant</span> at the targeted location. The <span class=\"highlight\">Assistant</span> attacks whenever you fire your weapon, dealing  <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>While the <span class=\"highlight\">Assistant</span> is out, you can press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your <span class=\"highlight\">Assistant</span>. This effect can only happen once. <br><br><span class=\"diminish\">Casting Spectral Assistant also reloads your weapon.</span>",
     "properties": [
       {
         "key": "Damage",

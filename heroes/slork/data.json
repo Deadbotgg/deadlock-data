@@ -44,7 +44,7 @@
   "movement": {
     "stealth_speed": 4,
     "footstep_sound_distance": 20,
-    "step_sound_time": 0.385
+    "step_sound_time": 0.34
   },
   "visuals": {
     "ui_color": [
@@ -227,7 +227,7 @@
     "weapon_name": "citadel_weapon_slork_set",
     "weapon_description": "citadel_weapon_hero_slork_set"
   },
-  "lore": "A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkie's, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon The Patrons to endure that he will always be the apex predator of The Deep.",
+  "lore": "A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkies, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon the Patrons to ensure that he will always be the apex predator of The Deep.",
   "playstyle": "A short-ranged assassin, Fathom can slip in and out of combat and win long engagements.",
   "role": "Slips into combat and then hides to recover",
   "abilities": [

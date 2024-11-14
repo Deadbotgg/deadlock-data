@@ -7,7 +7,13 @@
   "slot": "Armor",
   "image": "upgrades/mods_armor/resilience_psd",
   "components": null,
-  "componentsOf": [],
+  "componentsOf": [
+    {
+      "key": "upgrade_containment",
+      "name": "Slowing Hex",
+      "image": "upgrades/mods_tech/immobilize_psd"
+    }
+  ],
   "target_types": null,
   "shop_filters": [
     "EShopFilterMagicDamage",

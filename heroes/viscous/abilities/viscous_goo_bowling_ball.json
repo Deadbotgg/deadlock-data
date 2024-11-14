@@ -18,7 +18,8 @@
     "channel_move_speed": 275,
     "tech_power": 0,
     "weapon_power": 0,
-    "ball_radius": 63,
+    "ball_radius": 1.4,
+    "ball_hit_radius": 1.8,
     "damage": 140,
     "ball_offset": 50,
     "boss_damage_percent": 50,
@@ -26,9 +27,7 @@
     "acceleration_percentage": -60,
     "move_speed_max": 7,
     "breakable_prop_damage_radius": 75,
-    "ball_scale": 2,
     "jump_force": 500,
-    "radius": null,
     "particle_radius_multiplier": 1.2,
     "tick_rate": 0.25,
     "stun_duration": 0.7,
@@ -54,6 +53,11 @@
       {
         "key": "StunDuration",
         "value": 0.7
+      },
+      {
+        "key": "BallRadius",
+        "value": "1.4m",
+        "type": "radius"
       }
     ],
     "basicProperties": [

@@ -23,7 +23,7 @@
       {
         "ability_properties": {
           "tech_shield_max_health": {
-            "value": 75,
+            "value": 100,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -31,11 +31,16 @@
             "value": 1,
             "style": "healing",
             "is_negative": false
+          },
+          "bonus_clip_size_percent": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {
           "cooldown_reduction": {
-            "value": 16,
+            "value": 14,
             "style": "cooldown",
             "is_negative": false
           }
@@ -59,7 +64,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "cooldown_reduction": 16,
+  "cooldown_reduction": 14,
   "bonus_health_regen": 1.5,
-  "tech_shield_max_health": 75
+  "tech_shield_max_health": 100,
+  "bonus_clip_size_percent": 10
 }

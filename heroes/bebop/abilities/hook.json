@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 40,
+    "damage": 10,
     "hooking_slow_speed_limit": 0.001,
     "return_speed": 2200,
     "return_speed_non_player": 3850,

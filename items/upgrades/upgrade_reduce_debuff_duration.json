@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "status_resistance_percent": {
-            "value": 35,
+            "value": 40,
             "style": "duration",
             "is_negative": false
           }
@@ -56,7 +56,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 48,
+            "value": 45,
             "style": "cooldown",
             "is_negative": false
           },
@@ -73,12 +73,12 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">movement speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+        "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">move speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 48,
+  "ability_cooldown": 45,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -91,7 +91,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "status_resistance_percent": 35,
+  "status_resistance_percent": 40,
   "base_attack_damage_percent": 20,
   "active_bonus_move_speed": 3,
   "buff_duration": 3,

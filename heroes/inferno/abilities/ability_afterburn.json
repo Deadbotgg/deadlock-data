@@ -19,8 +19,8 @@
     "tech_power": 0,
     "weapon_power": 0,
     "build_up_duration": 15,
-    "build_up_bullet_percent_per_hit": 10,
-    "crit_buildup": 16,
+    "build_up_bullet_percent_per_hit": 9,
+    "crit_buildup": 14,
     "tick_rate": 0.5,
     "burn_duration": 3,
     "dps": 15,
@@ -47,11 +47,11 @@
     "basicProperties": [
       {
         "key": "BuildUpBulletPercentPerHit",
-        "value": 10
+        "value": 9
       },
       {
         "key": "CritBuildup",
-        "value": 16
+        "value": 14
       },
       {
         "key": "BuildUpDuration",

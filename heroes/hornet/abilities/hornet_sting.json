@@ -19,7 +19,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "dot_health_percent": 3,
-    "tick_rate": 0.5,
+    "tick_rate": 1,
     "impact_damage": 40,
     "debuff_duration": 6,
     "visual_splash_radius": 1,

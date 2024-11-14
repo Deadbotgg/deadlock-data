@@ -22,18 +22,13 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 12,
+            "value": 10,
             "style": null,
             "is_negative": false
           },
           "bonus_health": {
             "value": 75,
             "style": "health",
-            "is_negative": false
-          },
-          "bonus_health_regen": {
-            "value": 1,
-            "style": "healing",
             "is_negative": false
           },
           "melee_distance_scale": {
@@ -82,9 +77,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 12,
+  "base_attack_damage_percent": 10,
   "bonus_health": 75,
   "melee_distance_scale": 40,
-  "bonus_health_regen": 1,
   "bonus_heavy_melee_damage": 20
 }

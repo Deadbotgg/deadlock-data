@@ -50,7 +50,7 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Increases your <span class=\"highlight\">forward movement speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
+        "description": "Increases your <span class=\"highlight\">forward move speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
       }
     ]
   },

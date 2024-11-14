@@ -29,7 +29,7 @@
     "tech_duration": 0
   },
   "level_upgrades": {
-    "modifier_value_base_bullet_damage_from_level": 0.65,
+    "modifier_value_base_bullet_damage_from_level": 0.8,
     "modifier_value_base_melee_damage_from_level": 2.671429,
     "modifier_value_base_health_from_level": 20,
     "modifier_value_tech_damage_percent": 0,
@@ -208,7 +208,7 @@
     "efirerate": 0.14
   },
   "weapon_stats": {
-    "bullet_damage": 14.96,
+    "bullet_damage": 13,
     "rounds_per_second": 4.545454545454546,
     "clip_size": 22,
     "reload_time": 2.914,
@@ -225,8 +225,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 68.00000000000001,
-    "sustained_dps": 42.44518957957184,
+    "dps": 59.0909090909091,
+    "sustained_dps": 36.88418880577767,
     "weapon_name": "citadel_weapon_hornet_set",
     "weapon_description": "citadel_weapon_hero_hornet_set",
     "weapon_types": [

@@ -60,7 +60,7 @@
           "growth_per_meter": 0.5,
           "initial_width": 1,
           "slow_duration": 4,
-          "slow_percent": 40,
+          "slow_percent": 35,
           "heal_amp_receive_penalty_percent": 0,
           "heal_amp_regen_penalty_percent": 0
         },
@@ -83,7 +83,7 @@
             },
             {
               "key": "SlowPercent",
-              "value": 40,
+              "value": 35,
               "type": "slow",
               "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -235,8 +235,8 @@
           "tech_power": 0,
           "weapon_power": 0,
           "build_up_duration": 15,
-          "build_up_bullet_percent_per_hit": 10,
-          "crit_buildup": 16,
+          "build_up_bullet_percent_per_hit": 9,
+          "crit_buildup": 14,
           "tick_rate": 0.5,
           "burn_duration": 3,
           "dps": 15,
@@ -263,11 +263,11 @@
           "basicProperties": [
             {
               "key": "BuildUpBulletPercentPerHit",
-              "value": 10
+              "value": 9
             },
             {
               "key": "CritBuildup",
-              "value": 16
+              "value": 14
             },
             {
               "key": "BuildUpDuration",
@@ -1182,7 +1182,7 @@
           "slow_percent": 30,
           "chain_length": 8,
           "capture_radius": 8,
-          "chain_duration": 1.75,
+          "chain_duration": 2,
           "has_disarm": 0,
           "enemy_drag_speed": 1000
         },
@@ -1191,7 +1191,7 @@
           "properties": [
             {
               "key": "ChainDuration",
-              "value": 1.75,
+              "value": 2,
               "type": "duration"
             },
             {
@@ -1286,7 +1286,7 @@
               "bonus_clip_size_percent": 50
             },
             {
-              "ability_duration": 8
+              "ability_duration": 6
             },
             {
               "magic_damage_per_bullet": 12,
@@ -1316,7 +1316,7 @@
           "tech_power": 0,
           "weapon_power": 0,
           "dot_health_percent": 3,
-          "tick_rate": 0.5,
+          "tick_rate": 1,
           "impact_damage": 40,
           "debuff_duration": 6,
           "visual_splash_radius": 1,
@@ -1461,7 +1461,7 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.65,
+      "modifier_value_base_bullet_damage_from_level": 0.8,
       "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 20,
       "modifier_value_tech_damage_percent": 0,
@@ -1640,7 +1640,7 @@
       "efirerate": 0.14
     },
     "weapon_stats": {
-      "bullet_damage": 14.96,
+      "bullet_damage": 13,
       "rounds_per_second": 4.545454545454546,
       "clip_size": 22,
       "reload_time": 2.914,
@@ -1657,8 +1657,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 68.00000000000001,
-      "sustained_dps": 42.44518957957184,
+      "dps": 59.0909090909091,
+      "sustained_dps": 36.88418880577767,
       "weapon_name": "citadel_weapon_hornet_set",
       "weapon_description": "citadel_weapon_hero_hornet_set",
       "weapon_types": [
@@ -1808,7 +1808,7 @@
           "life_drain_health_mult": 100
         },
         "tooltipDetails": {
-          "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your movement speed is reduced by half. <br><span class=\"highlight\">[Alt-Cast] to give health to friendly Heroes</span>.<br><span class=\"highlight\">Press [{s:in_ability2}]</span> to cancel.",
+          "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your move speed is reduced by half. <br><span class=\"highlight\">[Alt-Cast] to give health to friendly Heroes</span>.<br><span class=\"highlight\">Press [{s:in_ability2}]</span> to cancel.",
           "properties": [
             {
               "key": "LifeDrainPerSecond",
@@ -2272,7 +2272,7 @@
               "value": 35,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.3,
+                "value": 0.36,
                 "type": "spirit"
               }
             },
@@ -2387,8 +2387,8 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "regen_incoming_damage_percent": 15,
-          "regen_incoming_damage_duration": 18,
+          "regen_incoming_damage_percent": 14,
+          "regen_incoming_damage_duration": 20,
           "regen_damage_interval": 1,
           "bonus_max_health": 0,
           "bonus_health_regen": 1,
@@ -2399,12 +2399,12 @@
           "properties": [
             {
               "key": "RegenIncomingDamagePercent",
-              "value": 15,
+              "value": 14,
               "type": "healing"
             },
             {
               "key": "RegenIncomingDamageDuration",
-              "value": 18,
+              "value": 20,
               "type": "duration"
             }
           ],
@@ -2424,7 +2424,7 @@
               "bonus_max_health": 150
             },
             {
-              "regen_incoming_damage_percent": 8,
+              "regen_incoming_damage_percent": 7,
               "name": "Damage regenerated"
             }
           ]
@@ -2959,7 +2959,7 @@
           "resource_cost": 0,
           "cast_range": 20,
           "unit_target_limit": 1,
-          "cast_delay": 0.6,
+          "cast_delay": 0.7,
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
@@ -2968,14 +2968,14 @@
           "weapon_power": 0,
           "damping_factor": 0.5,
           "lift_height": 120,
-          "damage": 200
+          "damage": 175
         },
         "tooltipDetails": {
           "description": "Lift an enemy hero into the air, <span class=\"highlight\">stunning</span> them for a short time. When the lift ends, the target receives Telekinesis damage.",
           "properties": [
             {
               "key": "Damage",
-              "value": 200,
+              "value": 175,
               "type": "tech_damage",
               "scale_function": {
                 "value": 1.04832,
@@ -3278,12 +3278,12 @@
           "attack_cone_angle": 10,
           "turret_deploy_time": 0.25,
           "turret_base_health": 75,
-          "turret_health_scaling": 20,
+          "turret_health_scaling": 15,
           "turret_attack_range": 25,
           "turret_attack_falloff_start": 20,
           "turret_attack_falloff_end": 35,
           "turret_attack_delay": 0.2,
-          "turret_dps": 60,
+          "turret_dps": 40,
           "turret_lifetime": 24,
           "turret_decay_damage_per_second": 20,
           "attack_speed_mult": 100,
@@ -3299,7 +3299,7 @@
           "properties": [
             {
               "key": "TurretDPS",
-              "value": 60,
+              "value": 40,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.419328,
@@ -3911,8 +3911,8 @@
           "duration": 7,
           "cooldown": 37,
           "range": 200,
-          "charges": 1,
-          "charge_restore_time": 8,
+          "charges": 0,
+          "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 200,
@@ -3920,7 +3920,7 @@
           "cast_delay": 0.2,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 8,
+          "cooldown_between_charge": 0,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
@@ -3933,14 +3933,14 @@
           "friendly_bullet_damage_bonus": 20,
           "friendly_bullet_time_scale": 3,
           "movement_slow_pct": 80,
-          "damage_pct_per_wall_hit": 10,
+          "damage_pct_per_wall_hit": 0,
           "damage_tick_rate": 1.5,
           "aura_effect_duration": 1.25,
           "time_wall_formation_time": 0.5,
           "debuff_duration": 0
         },
         "tooltipDetails": {
-          "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will take <span class=\"highlight\">damage as a percentage of their max health</span> and be briefly slowed.",
+          "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",
           "properties": [
             {
               "key": "TimeScaleDuration",
@@ -3949,7 +3949,7 @@
             },
             {
               "key": "DamagePctPerWallHit",
-              "value": 10,
+              "value": 0,
               "m_e_display_type": "ETechPower",
               "type": "tech_damage"
             },
@@ -3977,7 +3977,8 @@
               "time_wall_height": 1
             },
             {
-              "ability_charges": 1
+              "damage_pct_per_wall_hit": 10,
+              "name": "Max Health Damage"
             },
             {
               "debuff_duration": 2.5
@@ -4009,7 +4010,7 @@
           "speed_boost_duration": 3.5,
           "base_bullet_damage": 5,
           "min_bonus_bullet_damage": 25,
-          "max_bonus_bullet_damage": 85,
+          "max_bonus_bullet_damage": 100,
           "headshot_bonus": 15,
           "max_slow_duration": 0.5,
           "bullet_time_scale": 0.01,
@@ -4024,11 +4025,11 @@
           "time_scale_debuff": 90
         },
         "tooltipDetails": {
-          "description": "Start charging your weapon and gain <span class=\"highlight\">increased movement speed</span> once it's fully charged. Your next shot will release the energy, dealing <span class=\"highlight\">spirit damage</span> and applying a <span class=\"highlight\">time stop</span> to the enemy hit. The damage dealt is an amplification of your current weapon damage. <br><br>You can slow time on yourself by pressing [{s:iv_attack2}] while an empowered shot is available.",
+          "description": "Start charging your weapon and gain <span class=\"highlight\">increased move speed</span> once it's fully charged. Your next shot will release the energy, dealing <span class=\"highlight\">spirit damage</span> and applying a <span class=\"highlight\">time stop</span> to the enemy hit. The damage dealt is an amplification of your current weapon damage. <br><br>You can slow time on yourself by pressing [{s:iv_attack2}] while an empowered shot is available.",
           "properties": [
             {
               "key": "MaxBonusBulletDamage",
-              "value": 85,
+              "value": 100,
               "type": "tech_damage"
             },
             {
@@ -4123,8 +4124,8 @@
           "tech_power": 0,
           "weapon_power": 0,
           "initial_freeze_time": 0.25,
-          "min_swap_time": 0.5,
-          "swap_time": 1.5,
+          "min_swap_time": 0.3,
+          "swap_time": 0.6,
           "distance_to_max_time": 30,
           "swap_total_damage": 125,
           "initial_height": 350,
@@ -4524,7 +4525,7 @@
           "bonus_clip_size_percent": 0
         },
         "tooltipDetails": {
-          "description": "{s:hero_name} briefly <span class=\"highlight\">disappears into the void</span> and then reappears a short distance away. On reappearing, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate bonus</span> for the next clip (Max {s:FireRateBonusDurationMax}s). Can be cast with [{s:key_alt_cast}] to also bring nearby allies and give them half fire rate bonus.",
+          "description": "{s:hero_name} briefly <span class=\"highlight\">disappears into the void</span> and then reappears a short distance away. On reappearing, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate bonus</span> for the next clip (Max {s:FireRateBonusDurationMax}s). Can be Alt-Cast to also bring nearby allies and give them half fire rate bonus.",
           "properties": [
             {
               "key": "VoidTime",
@@ -4654,10 +4655,10 @@
           "speed": 200,
           "toss_speed": 350,
           "toss_angle": 45,
-          "dps": 60,
+          "dps": 45,
           "tick_rate": 1,
           "camera_distance": 400,
-          "damage_percent_health": 0
+          "damage_percent_health": 1.5
         },
         "tooltipDetails": {
           "description": "Create a singularity in your hands that <span class=\"highlight\">pulls in nearby enemies and damages them</span>. Once it's finished, enemies get knocked into the air.",
@@ -4671,7 +4672,7 @@
             },
             {
               "key": "DPS",
-              "value": 60,
+              "value": 45,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.209664,
@@ -4680,7 +4681,7 @@
             },
             {
               "key": "DamagePercentHealth",
-              "value": 0,
+              "value": 1.5,
               "type": "tech_damage",
               "requiresUpgrade": true
             }
@@ -4701,7 +4702,7 @@
               "ability_channel_time": 0.75
             },
             {
-              "damage_percent_health": 3.8,
+              "damage_percent_health": 4,
               "name": "Damage Health Percent"
             }
           ]
@@ -4713,7 +4714,7 @@
       "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 44,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_bullet_armor_damage_resist": 1,
       "modifier_value_tech_armor_damage_resist": 0
     },
     "collision": {
@@ -5163,7 +5164,7 @@
           "beam_split": 0
         },
         "tooltipDetails": {
-          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam. The beam may also claim Souls.",
+          "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced move speed while using Arctic Beam. The beam may also claim Souls.",
           "properties": [
             {
               "key": "DPS",
@@ -5308,7 +5309,7 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 0.707,
+      "modifier_value_base_bullet_damage_from_level": 0.71,
       "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 50,
       "modifier_value_tech_damage_percent": 0,
@@ -5599,7 +5600,8 @@
           "bullet_resist_reduction_duration": 0,
           "stamina_reduction": 0,
           "drowsy_move_slow_percent": 60,
-          "drowsy_duration": 0.35
+          "drowsy_duration": 0.35,
+          "fire_rate_slow": 0
         },
         "tooltipDetails": {
           "description": "Throw a dagger that <span class=\"highlight\">damages</span> and <span class=\"highlight\">sleeps</span> the target. Sleeping targets wake up shortly after being damaged. Throwing a Dagger does not break your invisibility. Sleep Dagger does not interrupt enemies' channeling abilities.",
@@ -5648,6 +5650,7 @@
             },
             {
               "bullet_resist_reduction": -12,
+              "fire_rate_slow": 40,
               "bullet_resist_reduction_duration": 6
             }
           ]
@@ -5801,24 +5804,25 @@
         "key": "ability_bullet_flurry",
         "name": "Bullet Dance",
         "stats": {
-          "duration": 0,
+          "duration": 3,
           "cooldown": 138,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
-          "channel_duration": 3,
+          "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
           "cast_delay": 0.4,
-          "channel_time": 3,
+          "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
           "channel_move_speed": 4,
           "tech_power": 0,
           "weapon_power": 0,
           "radius": 15,
-          "targets_per_tick": 2,
+          "targets_per_tick": 1,
+          "bonus_fire_rate": 30,
           "weapon_damage_bonus": 2,
           "evasion_percent": 0,
           "override_bullet_radius": 10
@@ -5827,9 +5831,11 @@
           "description": "Enter a flurry, <span class=\"highlight\">firing your weapon</span> at nearby enemies with <span class=\"highlight\">perfect accuracy</span>.",
           "properties": [
             {
-              "key": "TargetsPerTick",
-              "value": 2,
-              "type": "radius"
+              "key": "BonusFireRate",
+              "value": 30,
+              "m_e_display_type": "EFireRate",
+              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
               "key": "WeaponDamageBonus",
@@ -6235,7 +6241,7 @@
           "speed_on_land_duration": 0
         },
         "tooltipDetails": {
-          "description": "Drop a bounce pad in the world that <span class=\"highlight\">sends you and other heroes flying</span>. You will stomp down on landing, <span class=\"highlight\">dealing damage</span> to any nearby enemies.",
+          "description": "Drop a bounce pad in the world that <span class=\\\"highlight\\\">sends you and other heroes flying</span>. You will Stomp on landing, <span class=\\\"highlight\\\">dealing damage</span> to any nearby enemies.<br><br><span class=\\\"diminish\\\">The Stomp can only occur once per Bounce Pad.\t</span> ",
           "properties": [
             {
               "key": "StompDamage",
@@ -6600,7 +6606,7 @@
         "Attribute_EWeaponAttribute_HeavyHitter"
       ]
     },
-    "lore": "There are people who spent their whole lives dreaming about moving to New York.  Holliday isn't one of those people.  Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started.\\n\\nGrisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds.  Holliday tracked down the killer, a travelling folk musician that the media dubbed \\\"The Troubadour\\\", but when she confronted him he exploded into a murder of crows and flew away.\\n\\nThat was 6 months ago, and while the murders in central illinois have stopped, Holliday's investigation has not.  She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch.",
+    "lore": "There are people who spent their whole lives dreaming about moving to New York.  Holliday isn't one of those people.  Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started.\\n\\nGrisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds.  Holliday tracked down the killer, a travelling folk musician that the media dubbed \\\"The Troubadour\\\", but when she confronted him he exploded into a murder of crows and flew away.\\n\\nThat was 6 months ago, and while the murders in central Illinois have stopped, Holliday's investigation has not.  She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch.",
     "playstyle": "Astro depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat.",
     "role": "Bounces about dispensing trick shots"
   },
@@ -6757,10 +6763,11 @@
           "fuse_time": 3,
           "kill_check_window": 12,
           "damage": 120,
-          "bonus_damage_pct_per_player_killed": 5,
-          "bonus_damage_pct_per_player_hit": 1,
+          "bonus_damage_pct_per_player_killed": 4,
+          "bonus_damage_pct_per_player_hit": 1.5,
           "stun_target_on_explode": 0,
-          "debuff_duration": 0
+          "debuff_duration": 0,
+          "outgoing_damage_penalty_percent": 0
         },
         "tooltipDetails": {
           "properties": [
@@ -6802,7 +6809,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage": 40,
+          "damage": 10,
           "hooking_slow_speed_limit": 0.001,
           "return_speed": 2200,
           "return_speed_non_player": 3850,
@@ -7928,7 +7935,7 @@
           "split_shot": 0,
           "fx_radius": 4,
           "tech_lifesteal_percent": 0,
-          "air_move_increase_percent": 30
+          "air_move_increase_percent": -9
         },
         "tooltipDetails": {
           "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. <br>Alt-Cast for reduced jump height.  <br>Press [{s:in_mantle}] to cancel the glide.",
@@ -8169,7 +8176,7 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.414286,
+      "modifier_value_base_bullet_damage_from_level": 1.62,
       "modifier_value_base_melee_damage_from_level": 2.671429,
       "modifier_value_base_health_from_level": 27,
       "modifier_value_tech_damage_percent": 0,
@@ -8348,7 +8355,7 @@
       "ebulletdamage": 0.12
     },
     "weapon_stats": {
-      "bullet_damage": 27,
+      "bullet_damage": 24,
       "rounds_per_second": 1.8181818181818181,
       "clip_size": 17,
       "reload_time": 2.35,
@@ -8356,8 +8363,8 @@
       "reload_delay": 0,
       "reload_single": false,
       "bullet_speed": 195,
-      "falloff_start_range": 8.66,
-      "falloff_end_range": 22.64,
+      "falloff_start_range": 7.086609999999999,
+      "falloff_end_range": 21.2598,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
       "falloff_bias": 0.5,
@@ -8365,8 +8372,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 49.090909090909086,
-      "sustained_dps": 39.230769230769226,
+      "dps": 43.63636363636363,
+      "sustained_dps": 34.87179487179487,
       "weapon_name": "citadel_weapon_archer_set",
       "weapon_description": "citadel_weapon_hero_archer_set",
       "weapon_types": [
@@ -9563,7 +9570,7 @@
               "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
               "m_usage_flags": "APUsageFlag_ModifierConditional",
               "scale_function": {
-                "value": 0.2,
+                "value": 0.3,
                 "type": "spirit"
               }
             },
@@ -9574,7 +9581,7 @@
               "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_LIFESTEAL",
               "m_usage_flags": "APUsageFlag_ModifierConditional",
               "scale_function": {
-                "value": 0.18,
+                "value": 0.3,
                 "type": "spirit"
               }
             },
@@ -10427,7 +10434,7 @@
     "lane_testing_recommended": false,
     "starting_stats": {
       "max_move_speed": 6.3,
-      "sprint_speed": 0,
+      "sprint_speed": 1,
       "crouch_speed": 4.75,
       "move_acceleration": 4,
       "light_melee_damage": 63,
@@ -10477,7 +10484,7 @@
           "stamina_reduction": 0
         },
         "tooltipDetails": {
-          "description": "Throw a flask that <span class=\"highlight\">damages, slows movement,</span> and reduces the <span class=\"highlight\">weapon damage</span> and of enemies it hits.",
+          "description": "Throw a flask that <span class=\"highlight\">damages, slows movement,</span> and reduces the <span class=\"highlight\">weapon damage</span> of enemies it hits.",
           "properties": [
             {
               "key": "Damage",
@@ -10559,7 +10566,7 @@
           "tech_shield_points": 150
         },
         "tooltipDetails": {
-          "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus movement speed</span>.",
+          "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus move speed</span>.",
           "properties": [
             {
               "key": "TechShieldPoints",
@@ -10579,7 +10586,7 @@
           "upgrades": [
             {
               "move_speed_bonus_pct": 20,
-              "name": "Move speed bonus"
+              "name": "Move Speed bonus"
             },
             {
               "ability_cooldown": -19
@@ -10691,10 +10698,11 @@
           "cone_angle": 115,
           "bonus_move_speed": 0,
           "bullet_resist": 50,
+          "tech_resist": 50,
           "unstoppable_cast_delay": 0
         },
         "tooltipDetails": {
-          "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you are have greatly increased <span class=\"highlight\">bullet resist</span>.",
+          "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you are have greatly increased <span class=\"highlight\">bullet and spirit resist</span>.",
           "properties": [
             {
               "key": "PulseDPS",
@@ -10748,8 +10756,7 @@
               "name": "DPS"
             },
             {
-              "ability_cooldown": -56,
-              "unstoppable_cast_delay": 1
+              "ability_cooldown": -56
             }
           ]
         }
@@ -11236,7 +11243,7 @@
         "key": "citadel_ability_infinity_slash",
         "name": "Shadow Transformation",
         "stats": {
-          "duration": 4,
+          "duration": 6,
           "cooldown": 85,
           "range": 0,
           "charges": 0,
@@ -11254,14 +11261,18 @@
           "weapon_power": 0,
           "bonus_move_speed": 0,
           "bonus_fire_rate": 0,
-          "speed_pct": 60
+          "speed_pct": 60,
+          "bullet_resist": 60,
+          "tech_resist": 60,
+          "max_health_regen": 30,
+          "shadow_form_duration_on_kill": 2
         },
         "tooltipDetails": {
-          "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, and you gain <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
+          "description": "Become infused with {s:hero_name}'s shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, gain <span class=\"highlight\">immunity to negative status effects</span>, <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">Heal</span>.<br>Duration is extended if {s:hero_name} gets a hero kill.",
           "properties": [
             {
               "key": "AbilityDuration",
-              "value": 4,
+              "value": 6,
               "disable_value": 0,
               "type": "duration",
               "m_b_can_set_token_override": true
@@ -11270,6 +11281,34 @@
               "key": "AbilitySpeedPct",
               "value": 60,
               "type": "cast"
+            },
+            {
+              "key": "MaxHealthRegen",
+              "value": 30,
+              "type": "healing"
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "BulletResist",
+              "value": 60,
+              "m_e_display_type": "EBulletArmorDamageReduction",
+              "type": "bullet_armor_up",
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "TechResist",
+              "value": 60,
+              "m_e_display_type": "ETechArmorDamageReduction",
+              "type": "tech_armor_up",
+              "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "ShadowFormDurationOnKill",
+              "value": 2,
+              "type": "duration"
             }
           ],
           "upgrades": [
@@ -11785,7 +11824,7 @@
           "upgrades": [
             {
               "enemy_slow_duration": 3,
-              "name": "Enemy Move Slow",
+              "name": "Enemy Movement Slow",
               "enemy_slow_pct": 35
             },
             {
@@ -12257,7 +12296,7 @@
           "stamina_cooldown_reduction": 0
         },
         "tooltipDetails": {
-          "description": "After exiting the cube, the target has increased <span class=\"highlight\">movement speed and stamina recovery</span> for a short duration.",
+          "description": "After exiting the cube, the target has increased <span class=\"highlight\">move speed and stamina recovery</span> for a short duration.",
           "properties": [
             {
               "key": "BonusMoveSpeed",
@@ -12400,7 +12439,8 @@
           "channel_move_speed": 275,
           "tech_power": 0,
           "weapon_power": 0,
-          "ball_radius": 63,
+          "ball_radius": 1.4,
+          "ball_hit_radius": 1.8,
           "damage": 140,
           "ball_offset": 50,
           "boss_damage_percent": 50,
@@ -12408,9 +12448,7 @@
           "acceleration_percentage": -60,
           "move_speed_max": 7,
           "breakable_prop_damage_radius": 75,
-          "ball_scale": 2,
           "jump_force": 500,
-          "radius": null,
           "particle_radius_multiplier": 1.2,
           "tick_rate": 0.25,
           "stun_duration": 0.7,
@@ -12436,6 +12474,11 @@
             {
               "key": "StunDuration",
               "value": 0.7
+            },
+            {
+              "key": "BallRadius",
+              "value": "1.4m",
+              "type": "radius"
             }
           ],
           "basicProperties": [
@@ -12669,7 +12712,7 @@
         "Attribute_EWeaponAttribute_Projectile"
       ]
     },
-    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon The Patrons in order to keep The Deep safe from the horror that lurks below.",
+    "lore": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean.  For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory known only as The Adversary hunts the seas... and ocean denizens are scared to death.\\n\\nOne of those inhabitants, a psychic sea anemone, wants to do something about it.  Summoning an ectoplasmic goo body to traverse the surface, Viscous is desperately trying to summon the Patrons in order to keep The Deep safe from the horror that lurks below.",
     "playstyle": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",
     "role": "Rolls around deflecting bullets",
     "recommended_items": [
@@ -14094,7 +14137,7 @@
         "name": "Wrecking Ball",
         "stats": {
           "duration": 6,
-          "cooldown": 21,
+          "cooldown": 31,
           "range": 50,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14102,7 +14145,7 @@
           "resource_cost": 0,
           "cast_range": 50,
           "unit_target_limit": 1,
-          "cast_delay": 1.2,
+          "cast_delay": 1.4,
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
@@ -14112,19 +14155,19 @@
           "tech_cleave_expire_time": 0.4,
           "move_speed_limit": 6,
           "stun_duration": 1,
-          "wrecking_ball_push_force": 280,
-          "wrecking_ball_damage": 80,
+          "wrecking_ball_push_force": 1500,
+          "wrecking_ball_damage": 150,
           "min_speed": 80
         },
         "tooltipDetails": {
-          "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> anything it hits. The ball takes time to create and you move slower while carrying it.",
+          "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> the first enemy hit. The ball takes time to create and you move slower while carrying it.",
           "properties": [
             {
               "key": "WreckingBallDamage",
-              "value": 80,
+              "value": 150,
               "type": "tech_damage",
               "scale_function": {
-                "value": 1.04832,
+                "value": 1.4,
                 "type": "spirit"
               }
             },
@@ -14167,33 +14210,34 @@
         "stats": {
           "duration": 0,
           "cooldown": 12.5,
-          "range": 10,
+          "range": 12,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 10,
+          "cast_range": 12,
           "unit_target_limit": 1,
           "cast_delay": 0,
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
-          "channel_move_speed": 40,
+          "channel_move_speed": 150,
           "tech_power": 0,
           "weapon_power": 0,
-          "salvage_duration": 3,
+          "salvage_duration": 4,
           "fire_rate_buff_duration": 40,
-          "dps": 80,
+          "dps": 40,
           "tick_interval": 0.25,
           "salvage_bonus_fire_rate": 25,
-          "salvage_bonus_health": 0
+          "salvage_bonus_health": 0,
+          "consume_heal_percentage": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Stuns</span> an enemy trooper or NPC, <span class=\"highlight\">damaging</span> them while held. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently",
+          "description": "Latches onto an Enemy, <span class=\"highlight\">damaging</span> them while attached. A successful kill provides a <span class=\"highlight\">fire rate</span> bonus, and restores a <span class=\"highlight\">Bio Blast</span> charge.  This bonus stacks independently.",
           "properties": [
             {
               "key": "DPS",
-              "value": 80,
+              "value": 40,
               "type": "tech_damage",
               "scale_function": {
                 "value": 1.04832,
@@ -14204,6 +14248,12 @@
               "key": "SalvageBonus_FireRate",
               "value": 25,
               "type": "bullet_damage"
+            },
+            {
+              "key": "ConsumeHealPercentage",
+              "value": 0,
+              "type": "healing",
+              "requiresUpgrade": true
             }
           ],
           "basicProperties": [
@@ -14214,7 +14264,7 @@
             },
             {
               "key": "SalvageDuration",
-              "value": 3,
+              "value": 4,
               "type": "duration"
             },
             {
@@ -14225,15 +14275,14 @@
           ],
           "upgrades": [
             {
-              "salvage_bonus_health": 150,
-              "name": "Healing"
+              "consume_heal_percentage": 75,
+              "name": "Consume Heal Percentage"
             },
             {
-              "dps": 80
+              "dps": 40
             },
             {
-              "fire_rate_buff_duration": 80,
-              "name": "Bonus Duration"
+              "ability_unit_target_limit": 2
             }
           ]
         }
@@ -14559,9 +14608,9 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 25,
-      "rounds_per_second": 2.857142857142857,
-      "clip_size": 10,
+      "bullet_damage": 21,
+      "rounds_per_second": 4,
+      "clip_size": 15,
       "reload_time": 2.75,
       "reload_movespeed": 1,
       "reload_delay": 0,
@@ -14576,8 +14625,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 71.42857142857143,
-      "sustained_dps": 40,
+      "dps": 84,
+      "sustained_dps": 48.46153846153846,
       "weapon_name": "citadel_weapon_wrecker_set",
       "weapon_description": "citadel_weapon_hero_wrecker_set",
       "weapon_types": [
@@ -15022,7 +15071,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage_per_projectile": 35,
+          "damage_per_projectile": 75,
           "projectile_amount": 4,
           "pop_up_speed": 0,
           "fall_speed_max": 10,
@@ -15046,10 +15095,10 @@
             },
             {
               "key": "DamagePerProjectile",
-              "value": 35,
+              "value": 75,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.39312,
+                "value": 0.5,
                 "type": "spirit"
               }
             },
@@ -15922,7 +15971,7 @@
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
-          "channel_move_speed": 20,
+          "channel_move_speed": 18,
           "tech_power": 0,
           "weapon_power": 0,
           "radius": 3.5,
@@ -15939,7 +15988,7 @@
           "lift_height": 3,
           "damping_factor": 0.3,
           "max_delta_movement_control": 2,
-          "hold_in_place_duration": 1.1,
+          "hold_in_place_duration": 1,
           "boss_damage_percent": 50,
           "target_bullet_evasion_chance": 0,
           "tech_armor_damage_reduction": 0,
@@ -15960,7 +16009,7 @@
             },
             {
               "key": "HoldInPlaceDuration",
-              "value": 1.1,
+              "value": 1,
               "type": "duration"
             },
             {
@@ -16081,7 +16130,7 @@
               "name": "Cooldown"
             },
             {
-              "bullet_armor_reduction": -15
+              "bullet_armor_reduction": -10
             },
             {
               "health_steal": 80
@@ -16198,7 +16247,7 @@
           "immunity_duration": 0
         },
         "tooltipDetails": {
-          "description": "Channeled. Target an ally or visible enemy hero on the minimap, then <span class=\"highlight\">teleport</span> to where they were when your channel started. After teleporting, you gain <span class=\"highlight\">movement speed</span> as well as <span class=\"highlight\">fire rate until your next reload</span>.",
+          "description": "Channeled. Target an ally or visible enemy hero on the minimap, then <span class=\"highlight\">teleport</span> to where they were when your channel started. After teleporting, you gain <span class=\"highlight\">move speed</span> as well as <span class=\"highlight\">fire rate until your next reload</span>.",
           "properties": [
             {
               "key": "AbilityChannelTime",
@@ -16732,7 +16781,7 @@
     "movement": {
       "stealth_speed": 4,
       "footstep_sound_distance": 20,
-      "step_sound_time": 0.385
+      "step_sound_time": 0.34
     },
     "visuals": {
       "ui_color": [
@@ -16915,7 +16964,7 @@
       "weapon_name": "citadel_weapon_slork_set",
       "weapon_description": "citadel_weapon_hero_slork_set"
     },
-    "lore": "A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkie's, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon The Patrons to endure that he will always be the apex predator of The Deep.",
+    "lore": "A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkies, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon the Patrons to ensure that he will always be the apex predator of The Deep.",
     "playstyle": "A short-ranged assassin, Fathom can slip in and out of combat and win long engagements.",
     "role": "Slips into combat and then hides to recover"
   },
@@ -19069,25 +19118,25 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage": 100,
+          "damage": 120,
           "radius": 3,
           "redirect_velocity": 1500,
           "projectile_lifetime": 3,
           "initial_projectile_velocity": 1000,
-          "slow_duration": 2,
-          "slow_percent": 50,
+          "debuff_duration": 5,
+          "fire_rate_slow": 20,
           "projectile_redirect_count": 1,
           "tech_armor_damage_reduction": 0
         },
         "tooltipDetails": {
-          "description": "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fading Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs.",
+          "description": "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fire Rate Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs.",
           "properties": [
             {
               "key": "Damage",
-              "value": 100,
+              "value": 120,
               "m_e_display_type": "ETechPower",
               "scale_function": {
-                "value": 1.2,
+                "value": 1.4,
                 "type": "spirit"
               },
               "type": "tech_damage"
@@ -19099,14 +19148,24 @@
           ],
           "basicProperties": [
             {
-              "key": "SlowPercent",
-              "value": 50,
-              "type": "slow"
+              "key": "FireRateSlow",
+              "value": 20,
+              "type": "slow",
+              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
-              "key": "SlowDuration",
-              "value": 2,
+              "key": "DebuffDuration",
+              "value": 5,
               "type": "duration"
+            },
+            {
+              "key": "TechArmorDamageReduction",
+              "value": 0,
+              "type": "tech_armor_up",
+              "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION",
+              "m_usage_flags": "APUsageFlag_ModifierConditional",
+              "m_e_display_type": "ETechArmorDamageReduction"
             }
           ],
           "upgrades": [
@@ -19114,12 +19173,12 @@
               "ability_cooldown": -4
             },
             {
-              "tech_armor_damage_reduction": -12
+              "tech_armor_damage_reduction": -20
             },
             {
               "damage": 130,
-              "name": "Max Redirects",
-              "projectile_redirect_count": 1
+              "initial_projectile_velocity": 600,
+              "redirect_velocity": 600
             }
           ]
         }
@@ -19152,7 +19211,7 @@
           "turret_bullet_target_radius": 500
         },
         "tooltipDetails": {
-          "description": "Summon an <span class=\"highlight\">Assistant</span> at the target location. They mimic your attacks, throwing cards that deal <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your Assistant.",
+          "description": "Summon an <span class=\"highlight\">Assistant</span> at the targeted location. The <span class=\"highlight\">Assistant</span> attacks whenever you fire your weapon, dealing  <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>While the <span class=\"highlight\">Assistant</span> is out, you can press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your <span class=\"highlight\">Assistant</span>. This effect can only happen once. <br><br><span class=\"diminish\">Casting Spectral Assistant also reloads your weapon.</span>",
           "properties": [
             {
               "key": "Damage",
@@ -19262,62 +19321,90 @@
         }
       },
       {
-        "key": "citadel_ability_chrono_swap",
-        "name": "Paradoxical Swap",
+        "key": "ability_magician_bigbolt",
+        "name": "Grand Finale!",
         "stats": {
           "duration": 0,
-          "cooldown": 65,
-          "range": 25,
+          "cooldown": 100,
+          "range": 500,
           "charges": 0,
-          "charge_restore_time": 0,
-          "channel_duration": 0,
+          "charge_restore_time": 3,
+          "channel_duration": 8,
           "resource_cost": 0,
-          "cast_range": 25,
+          "cast_range": 500,
           "unit_target_limit": 1,
-          "cast_delay": 0.15,
-          "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
+          "cast_delay": 0.5,
+          "channel_time": 8,
+          "post_cast_duration": 0.3,
+          "cooldown_between_charge": 3,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "initial_freeze_time": 0.25,
-          "min_swap_time": 0.5,
-          "swap_time": 1.5,
-          "distance_to_max_time": 30,
-          "swap_total_damage": 125,
-          "initial_height": 350,
-          "tick_rate": 0.25,
-          "spell_lifesteal": 100
+          "damage": 120,
+          "radius": 3,
+          "redirect_velocity": 1500,
+          "projectile_lifetime": 3,
+          "initial_projectile_velocity": 1000,
+          "debuff_duration": 2,
+          "slow_percent": 25,
+          "projectile_redirect_count": 1,
+          "tech_armor_damage_reduction": 0,
+          "total_bolts": 3,
+          "fall_speed_max": 1,
+          "air_speed_max": 70,
+          "shoot_delay": 0.7,
+          "damage_per_shot": 50,
+          "bolt_refund_per_kill": 1
         },
         "tooltipDetails": {
-          "description": "Fire a projectile that <span class=\"highlight\">swaps your position with the target enemy hero.</span> While the effect occurs, you gain <span class=\"highlight\">spirit lifesteal</span> and the enemy <span class=\"highlight\">takes damage over time</span>.",
+          "description": "Prepare three AMAZING bolts of magic. Each bolt applies a <span class=\"highlight\">Fading Slow</span> and deals <span class=\"highlight_spirit\">Spirit Damage</span>, increased for <span class=\"highlight\">every bolt fired</span>.",
           "properties": [
             {
-              "key": "SwapTotalDamage",
-              "value": 125,
-              "type": "tech_damage",
-              "scale_function": {
-                "value": 0.6552,
-                "type": "spirit"
-              }
+              "key": "TotalBolts",
+              "value": 3
             },
             {
-              "key": "SpellLifesteal",
-              "value": 100
+              "key": "Damage",
+              "value": 120,
+              "m_e_display_type": "ETechPower",
+              "scale_function": {
+                "value": 1.5,
+                "type": "spirit"
+              },
+              "type": "tech_damage"
+            },
+            {
+              "key": "DamagePerShot",
+              "value": 50,
+              "scale_function": {
+                "value": 0.5,
+                "type": "spirit"
+              },
+              "type": "tech_damage"
             }
           ],
-          "basicProperties": [],
+          "basicProperties": [
+            {
+              "key": "SlowPercent",
+              "value": 25,
+              "type": "slow"
+            },
+            {
+              "key": "DebuffDuration",
+              "value": 2,
+              "type": "duration"
+            }
+          ],
           "upgrades": [
             {
-              "ability_cooldown": -15
+              "slow_percent": 25
             },
             {
-              "swap_total_damage": 100,
-              "name": "Swap Damage"
+              "ability_cooldown": -40
             },
             {
-              "ability_cast_range": 20
+              "damage_per_shot": 50,
+              "bolt_refund_per_kill": 1
             }
           ]
         }
@@ -19504,7 +19591,7 @@
     "weapon_stats": {
       "bullet_damage": 30,
       "rounds_per_second": 2,
-      "clip_size": 20,
+      "clip_size": 22,
       "reload_time": 2.5,
       "reload_movespeed": 1,
       "reload_delay": 0,
@@ -19520,7 +19607,7 @@
       "bullets_per_burst": 2,
       "burst_inter_shot_interval": 0.1,
       "dps": 85.71428571428572,
-      "sustained_dps": 63.1578947368421,
+      "sustained_dps": 64.70588235294117,
       "weapon_name": "citadel_weapon_magician_set",
       "weapon_description": "citadel_weapon_hero_magician_set",
       "weapon_types": [
@@ -19529,7 +19616,7 @@
         "Attribute_EWeaponAttribute_Projectile"
       ]
     },
-    "lore": "Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with.  He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.\\n\\nWhen he was in high school he met Savannah, and their mutal love of stage magic sparked a whirlwind romance.  Soon they fell in love and created an act together.  Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.\\n\\nUnsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates.  And so they cemented their love for one another by having a blood mystic bind their souls for eternity.\\n\\nWhen an on-stage accident claimed both their lives, no one was sure who to blame.  Henry claims Savannah was out of position.  Savannah says Henry didn't wait for his queue.  But one things for sure, since their souls are tied to each other neither one of them have been able to move on.  Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.",
+    "lore": "Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with.  He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.\\n\\nWhen he was in high school he met Savannah, and their mutual love of stage magic sparked a whirlwind romance.  Soon they fell in love and created an act together.  Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.\\n\\nUnsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates.  And so they cemented their love for one another by having a blood mystic bind their souls for eternity.\\n\\nWhen an on-stage accident claimed both their lives, no one was sure who to blame.  Henry claims Savannah was out of position.  Savannah says Henry didn't wait for his cue.  But one thing's for sure, since their souls are tied to each other neither one of them have been able to move on.  Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union.",
     "playstyle": "With the help of their unwilling assistant, the Magician can confuse enemies with curving hexes and rapid cards.",
     "role": "Misdirect and hex enemies",
     "recommended_items": [
@@ -19550,6 +19637,640 @@
       "upgrade_tech_purge",
       "upgrade_damage_recycler",
       "upgrade_escalating_exposure"
+    ]
+  },
+  "trapper": {
+    "id": 61,
+    "name": "hero_trapper",
+    "new_player_friendly": false,
+    "in_development": true,
+    "in_hero_labs": true,
+    "is_disabled": false,
+    "complexity": 2,
+    "readability": 1,
+    "bot_selectable": false,
+    "lane_testing_recommended": false,
+    "starting_stats": {
+      "max_move_speed": 7.3,
+      "sprint_speed": 0,
+      "crouch_speed": 4.75,
+      "move_acceleration": 4,
+      "light_melee_damage": 63,
+      "heavy_melee_damage": 116,
+      "max_health": 550,
+      "weapon_power": 0,
+      "reload_speed": 1,
+      "weapon_power_scale": 1,
+      "stamina": 3,
+      "base_health_regen": 2,
+      "stamina_regen_per_second": 0.2,
+      "stamina_cooldown": 5,
+      "crit_damage_received_scale": 0,
+      "tech_range": 0,
+      "tech_duration": 0
+    },
+    "abilities": [
+      {
+        "key": "ability_trapper_poisonjar",
+        "name": "Bottled Phantasmicide",
+        "stats": {
+          "duration": 9,
+          "cooldown": 20,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0.2,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0,
+          "boss_damage_percent": 50,
+          "tick_rate": 0.25,
+          "radius": 5,
+          "height": 2,
+          "dps": 50,
+          "slow_percent": 20,
+          "max_radius": 7
+        },
+        "tooltipDetails": {
+          "description": "Throw a jar that leaves a pool of poison, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">Damage</span> and <span class=\"highlight\">Slowing</span>. The pool spreads over time, growing in size.",
+          "properties": [
+            {
+              "key": "DPS",
+              "value": 50,
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 0.5,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "SlowPercent",
+              "value": 20,
+              "type": "slow",
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "AbilityDuration",
+              "value": 9,
+              "disable_value": 0,
+              "type": "duration",
+              "m_b_can_set_token_override": true
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "Radius",
+              "value": "5m",
+              "type": "distance"
+            },
+            {
+              "key": "MaxRadius",
+              "value": "7m",
+              "type": "distance",
+              "scale_function": {
+                "value": 1.3,
+                "type": "spirit"
+              }
+            }
+          ],
+          "upgrades": [
+            {
+              "ability_duration": 4
+            },
+            {
+              "max_radius": 2
+            },
+            {
+              "dps": 100
+            }
+          ]
+        }
+      },
+      {
+        "key": "ability_trapper_webwall",
+        "name": "Silktrap",
+        "stats": {
+          "duration": 0,
+          "cooldown": 40,
+          "range": 40,
+          "charges": 1,
+          "charge_restore_time": 1,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 40,
+          "unit_target_limit": 1,
+          "cast_delay": 0.22,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 1,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0,
+          "radius": 0.6,
+          "wall_to_wall_distance": 100,
+          "web_duration": 60,
+          "damage": 200,
+          "web_wall_tick_rate": 0.15,
+          "debuff_duration": 2,
+          "slow_percent": 99,
+          "web_arm_time": 0.5,
+          "disarm_duration": 0
+        },
+        "tooltipDetails": {
+          "description": "Create a thread of web between two surfaces. Enemies who touch the web take <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and are <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slowed</span>.",
+          "properties": [
+            {
+              "key": "Damage",
+              "value": 200,
+              "m_e_display_type": "ETechPower",
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 1.3,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "SlowPercent",
+              "value": 99,
+              "type": "slow",
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "StatusEffectDisarmed",
+              "requiresUpgrade": true,
+              "statusEffect": {
+                "key": "DisarmDuration",
+                "value": 0
+              },
+              "isShown": true
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "DebuffDuration",
+              "value": 2
+            },
+            {
+              "key": "WebDuration",
+              "value": 60,
+              "type": "duration"
+            },
+            {
+              "key": "WallToWallDistance",
+              "value": "100m",
+              "m_e_display_type": "ETechRange",
+              "m_e_display_units": "EDisplayUnit_Meters",
+              "type": "distance"
+            }
+          ],
+          "upgrades": [
+            {
+              "ability_charges": 1
+            },
+            {
+              "web_duration": 120,
+              "name": "Web Duration"
+            },
+            {
+              "disarm_duration": 4
+            }
+          ]
+        }
+      },
+      {
+        "key": "ability_trapper_spidershield",
+        "name": "Pest Barrier",
+        "stats": {
+          "duration": 5,
+          "cooldown": 30,
+          "range": 45,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 45,
+          "unit_target_limit": 1,
+          "cast_delay": 0,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0,
+          "tech_shield_points": 200,
+          "debuff_duration": 0.5,
+          "tick_rate": 1,
+          "radius": 5,
+          "slow_percent": 30,
+          "shield_tech_armor": 0,
+          "dps": 30
+        },
+        "tooltipDetails": {
+          "description": "Apply a barrier to a target ally, granting <Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">Spirit Shield</span>. As long as the shield holds, it periodically deals <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Spirit Damage</span> and <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slows</span>.",
+          "properties": [
+            {
+              "key": "TechShieldPoints",
+              "value": 200,
+              "m_e_display_type": "ETechShieldHealth",
+              "type": "tech_armor_up",
+              "scale_function": {
+                "value": 2.2,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "DPS",
+              "value": 30,
+              "m_e_display_type": "ETechPower",
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 0.7,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "AbilityDuration",
+              "value": 5,
+              "disable_value": 0,
+              "type": "duration",
+              "m_b_can_set_token_override": true
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "SlowPercent",
+              "value": 30,
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+              "m_e_display_type": "EMaxMoveSpeed",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "DebuffDuration",
+              "value": 0.5
+            },
+            {
+              "key": "ShieldTechArmor",
+              "m_e_provided_property_type": "MODIFIER_VALUE_DAMAGE_TAKEN_REDUCTION_PERCENT",
+              "value": 0,
+              "m_e_display_type": "ETechArmorDamageReduction",
+              "type": "tech_armor_up",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            }
+          ],
+          "upgrades": [
+            {
+              "ability_cooldown": -8
+            },
+            {
+              "tech_shield_points": 200,
+              "name": "Spirit Shield Health"
+            },
+            {
+              "radius": 5
+            }
+          ]
+        }
+      },
+      {
+        "key": "ability_trapper_spiderwave",
+        "name": "Crawling Plague",
+        "stats": {
+          "duration": 0,
+          "cooldown": 160,
+          "range": 0,
+          "charges": 0,
+          "charge_restore_time": 0,
+          "channel_duration": 0,
+          "resource_cost": 0,
+          "cast_range": 0,
+          "unit_target_limit": 1,
+          "cast_delay": 0.6,
+          "channel_time": 0,
+          "post_cast_duration": 0,
+          "cooldown_between_charge": 0,
+          "channel_move_speed": 50,
+          "tech_power": 0,
+          "weapon_power": 0,
+          "spider_count": 5,
+          "spider_gravity": 1,
+          "spider_lifetime": 25,
+          "spider_arming_time": 0.5,
+          "radius": 3.5,
+          "spread_angle": 30,
+          "spider_dist_above_ground": 0.1,
+          "spider_float_down_rate": 8,
+          "spider_climb_height": 0.3,
+          "spider_chase_velocity": 400,
+          "spider_explode_radius": 3,
+          "spider_random_position_radius": 4,
+          "spider_damage": 140,
+          "spider_search_radius": 2,
+          "spider_tick_rate": 0.3,
+          "spirit_steal_duration": 10,
+          "spirit_reduced_per_stack": 5,
+          "spirit_res_reduced_per_stack": 5,
+          "spread_distance": 900
+        },
+        "tooltipDetails": {
+          "description": "Release a wave of spectral spiders that <span class=\"highlight\">chase enemies</span> and explode, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Hit enemies are <span class=\"highlight\">poisoned</span>, temporarily losing <Panel class=\"AbilityPropertyIcon StatDesc_TechPower\"> <span class=\"highlight_spirit\">Spirit</span> and <Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">Spirit Resist</span>. This effect can stack multiple times.",
+          "properties": [
+            {
+              "key": "SpiderDamage",
+              "value": 140,
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 0.8,
+                "type": "spirit"
+              }
+            },
+            {
+              "key": "SpiderCount",
+              "value": 5,
+              "m_b_round_down": true,
+              "m_e_display_type": "EMaxChargesIncrease"
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "SpiderLifetime",
+              "value": 25
+            },
+            {
+              "key": "SpiderSearchRadius",
+              "value": "2m",
+              "m_e_display_units": "EDisplayUnit_Meters",
+              "m_e_display_type": "ETechRange",
+              "type": "distance"
+            },
+            {
+              "key": "SpiritStealDuration",
+              "value": 10,
+              "type": "duration"
+            },
+            {
+              "key": "SpiritReducedPerStack",
+              "value": 5,
+              "m_e_display_type": "ETechPower",
+              "type": "tech_damage"
+            },
+            {
+              "key": "SpiritResReducedPerStack",
+              "value": 5,
+              "type": "tech_armor_up",
+              "m_e_display_type": "ETechArmorDamageReduction"
+            }
+          ],
+          "upgrades": [
+            {
+              "ability_cooldown": -45
+            },
+            {
+              "spirit_res_reduced_per_stack": 3,
+              "name": "Spirit Reduction",
+              "spirit_reduced_per_stack": 3
+            },
+            {
+              "spider_count": 5,
+              "spread_distance": 900
+            }
+          ]
+        }
+      }
+    ],
+    "level_upgrades": {
+      "modifier_value_base_bullet_damage_from_level": 0.36,
+      "modifier_value_base_melee_damage_from_level": 2.671429,
+      "modifier_value_base_health_from_level": 45,
+      "modifier_value_tech_damage_percent": 0,
+      "modifier_value_bullet_armor_damage_resist": 0,
+      "modifier_value_tech_armor_damage_resist": 0
+    },
+    "collision": {
+      "radius": 20,
+      "height": 80,
+      "step_height": 32
+    },
+    "movement": {
+      "stealth_speed": 4,
+      "footstep_sound_distance": 20,
+      "step_sound_time": 0.33
+    },
+    "visuals": {
+      "ui_color": [
+        85,
+        97,
+        120
+      ],
+      "glow_colors": {
+        "friendly": [
+          255,
+          239,
+          215
+        ],
+        "enemy": [
+          255,
+          0,
+          0
+        ],
+        "team1": [
+          231,
+          182,
+          89
+        ],
+        "team2": [
+          91,
+          121,
+          230
+        ]
+      },
+      "model_skin": 0
+    },
+    "item_slots": {
+      "weapon_mod": {
+        "max_purchases_per_tier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "armor": {
+        "max_purchases_per_tier": [
+          6,
+          6,
+          6
+        ]
+      },
+      "tech": {
+        "max_purchases_per_tier": [
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    "purchase_bonuses": {
+      "weapon_mod": [
+        {
+          "tier": 1,
+          "value": 6,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        },
+        {
+          "tier": 2,
+          "value": 10,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        },
+        {
+          "tier": 3,
+          "value": 14,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        },
+        {
+          "tier": 4,
+          "value": 18,
+          "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+        }
+      ],
+      "armor": [
+        {
+          "tier": 1,
+          "value": 11,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        },
+        {
+          "tier": 2,
+          "value": 14,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        },
+        {
+          "tier": 3,
+          "value": 17,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        },
+        {
+          "tier": 4,
+          "value": 20,
+          "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+        }
+      ],
+      "tech": [
+        {
+          "tier": 1,
+          "value": 4,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        },
+        {
+          "tier": 2,
+          "value": 8,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        },
+        {
+          "tier": 3,
+          "value": 12,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        },
+        {
+          "tier": 4,
+          "value": 16,
+          "type": "MODIFIER_VALUE_TECH_POWER"
+        }
+      ]
+    },
+    "stats_display": {
+      "health_header_stats": [
+        "EMaxHealth",
+        "EBaseHealthRegen"
+      ],
+      "health_stats": [
+        "EBulletArmorDamageReduction",
+        "ETechArmorDamageReduction",
+        "EBulletShieldHealth",
+        "ETechShieldHealth",
+        "EBulletLifesteal",
+        "ETechLifesteal",
+        "EMaxMoveSpeed",
+        "ESprintSpeed",
+        "EStamina",
+        "EHealingOutput"
+      ],
+      "weapon_header_stats": [
+        "EWeaponDPS",
+        "EBulletDamage"
+      ],
+      "weapon_stats": [
+        "ELightMeleeDamage",
+        "EHeavyMeleeDamage",
+        "EFireRate",
+        "EClipSize"
+      ],
+      "magic_header_stats": [
+        "ETechPower"
+      ],
+      "magic_stats": [
+        "ETechCooldown",
+        "ETechRange",
+        "ETechDuration"
+      ]
+    },
+    "spirit_scaling": {},
+    "weapon_stats": {
+      "bullet_damage": 4,
+      "rounds_per_second": 1.6666666666666667,
+      "clip_size": 8,
+      "reload_time": 2.82,
+      "reload_movespeed": 1,
+      "reload_delay": 0,
+      "reload_single": false,
+      "bullet_speed": 149.99999023,
+      "falloff_start_range": 6.29921,
+      "falloff_end_range": 18,
+      "falloff_start_scale": 1,
+      "falloff_end_scale": 0.1,
+      "falloff_bias": 0.5,
+      "bullet_gravity_scale": 0,
+      "bullets_per_shot": 13,
+      "bullets_per_burst": 1,
+      "burst_inter_shot_interval": 0,
+      "dps": 86.66666666666667,
+      "sustained_dps": 54.59317585301838,
+      "weapon_name": "citadel_weapon_trapper_set",
+      "weapon_description": "citadel_weapon_hero_trapper_set",
+      "weapon_types": [
+        "Attribute_EWeaponAttribute_MediumRange",
+        "Attribute_EWeaponAttribute_Projectile"
+      ]
+    },
+    "lore": "An employee of the New York Municipal Coven; Trapper spends his days building Spirit Urns, luring giant rats, and capturing various invasive species from The Outer Planes.  It's not a particularly glamorous job, and he really hates working with spiders, but those Knickerbocker season tickets don't pay for themselves.",
+    "playstyle": "The Trapper can infest the battlefield with their haunted spiders, leaving latent curses in key areas. If you let the Trapper have their way, you won't be able to navigate the map without springing some sort of trap.",
+    "role": "Entrap enemies and control space",
+    "recommended_items": [
+      "upgrade_medic_bullets",
+      "upgrade_non_player_bonus",
+      "upgrade_endurance",
+      "upgrade_resilience",
+      "upgrade_magic_burst",
+      "upgrade_extra_charge",
+      "upgrade_improved_spirit",
+      "upgrade_cooldown_reduction",
+      "upgrade_tech_defense_shredders",
+      "upgrade_healbane",
+      "upgrade_arcane_extension",
+      "upgrade_soaring_spirit",
+      "upgrade_tech_purge",
+      "upgrade_magic_shock",
+      "upgrade_suppressor",
+      "upgrade_imbued_duration_extender",
+      "upgrade_rapid_recharge",
+      "upgrade_ability_power_shard"
     ]
   }
 }

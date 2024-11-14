@@ -43,7 +43,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "heal_amp_receive_penalty_percent": {
-            "value": -40,
+            "value": -45,
             "style": null,
             "is_conditional": true
           },
@@ -71,8 +71,8 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "heal_amp_receive_penalty_percent": -40,
-  "heal_amp_regen_penalty_percent": -40,
+  "heal_amp_receive_penalty_percent": -45,
+  "heal_amp_regen_penalty_percent": -45,
   "heal_on_kill": 350,
   "bonus_health": 75
 }

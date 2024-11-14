@@ -52,7 +52,7 @@
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {},
-        "description": "Increases your <span class=\"highlight\">forward movement speed</span> over time. If Ablative Coat is reduced to 0 Bullet Resist, taking damage will reset the effect for <span class=\"highlight\">1.5s</span>"
+        "description": "Increases your <span class=\"highlight\">forward move speed</span> over time. If Ablative Coat is reduced to 0 Bullet Resist, taking damage will reset the effect for <span class=\"highlight\">1.5s</span>"
       }
     ]
   },

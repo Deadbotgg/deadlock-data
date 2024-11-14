@@ -5,8 +5,8 @@
     "duration": 7,
     "cooldown": 37,
     "range": 200,
-    "charges": 1,
-    "charge_restore_time": 8,
+    "charges": 0,
+    "charge_restore_time": 0,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 200,
@@ -14,7 +14,7 @@
     "cast_delay": 0.2,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 8,
+    "cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
@@ -27,14 +27,14 @@
     "friendly_bullet_damage_bonus": 20,
     "friendly_bullet_time_scale": 3,
     "movement_slow_pct": 80,
-    "damage_pct_per_wall_hit": 10,
+    "damage_pct_per_wall_hit": 0,
     "damage_tick_rate": 1.5,
     "aura_effect_duration": 1.25,
     "time_wall_formation_time": 0.5,
     "debuff_duration": 0
   },
   "tooltipDetails": {
-    "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will take <span class=\"highlight\">damage as a percentage of their max health</span> and be briefly slowed.",
+    "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",
     "properties": [
       {
         "key": "TimeScaleDuration",
@@ -43,7 +43,7 @@
       },
       {
         "key": "DamagePctPerWallHit",
-        "value": 10,
+        "value": 0,
         "m_e_display_type": "ETechPower",
         "type": "tech_damage"
       },
@@ -71,7 +71,8 @@
         "time_wall_height": 1
       },
       {
-        "ability_charges": 1
+        "damage_pct_per_wall_hit": 10,
+        "name": "Max Health Damage"
       },
       {
         "debuff_duration": 2.5

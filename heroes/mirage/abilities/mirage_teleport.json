@@ -26,7 +26,7 @@
     "immunity_duration": 0
   },
   "tooltipDetails": {
-    "description": "Channeled. Target an ally or visible enemy hero on the minimap, then <span class=\"highlight\">teleport</span> to where they were when your channel started. After teleporting, you gain <span class=\"highlight\">movement speed</span> as well as <span class=\"highlight\">fire rate until your next reload</span>.",
+    "description": "Channeled. Target an ally or visible enemy hero on the minimap, then <span class=\"highlight\">teleport</span> to where they were when your channel started. After teleporting, you gain <span class=\"highlight\">move speed</span> as well as <span class=\"highlight\">fire rate until your next reload</span>.",
     "properties": [
       {
         "key": "AbilityChannelTime",

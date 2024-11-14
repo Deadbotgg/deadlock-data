@@ -19,8 +19,8 @@
     "Innate": [
       {
         "ability_properties": {
-          "bullet_resist": {
-            "value": 7,
+          "bullet_shield_max_health": {
+            "value": 90,
             "style": "bullet_armor_up",
             "is_negative": false
           },
@@ -80,5 +80,5 @@
   "base_attack_damage_percent": 6,
   "heal_from_hero": 40,
   "heal_from_n_p_c": 15,
-  "bullet_resist": 7
+  "bullet_shield_max_health": 90
 }

@@ -47,23 +47,28 @@
             "value": 30,
             "style": "range",
             "is_negative": false
+          },
+          "ability_duration": {
+            "value": 4,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 18,
+            "style": "cooldown",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
         "important_ability_properties": {
-          "ability_duration": {
-            "value": 4,
-            "style": "duration",
+          "damage": {
+            "value": 50,
+            "style": "tech_damage",
             "is_conditional": false
           },
           "fire_rate_slow": {
             "value": 45,
             "style": "fireRate",
-            "is_conditional": true
-          },
-          "bullet_armor_reduction": {
-            "value": -14,
-            "style": "bullet_armor_down",
             "is_conditional": true
           }
         },
@@ -72,7 +77,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 22,
+  "ability_cooldown": 18,
   "ability_duration": 4.5,
   "ability_cast_range": 30,
   "ability_unit_target_limit": 1,
@@ -85,8 +90,9 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
+  "damage": 50,
   "fire_rate_slow": 45,
-  "bullet_armor_reduction": -14,
+  "bullet_armor_reduction": -11,
   "spirit_power": 6,
   "bonus_sprint_speed": 1,
   "bullet_shield_max_health": 100

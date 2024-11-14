@@ -22,7 +22,7 @@
     "tech_shield_points": 150
   },
   "tooltipDetails": {
-    "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus movement speed</span>.",
+    "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus move speed</span>.",
     "properties": [
       {
         "key": "TechShieldPoints",
@@ -42,7 +42,7 @@
     "upgrades": [
       {
         "move_speed_bonus_pct": 20,
-        "name": "Move speed bonus"
+        "name": "Move Speed bonus"
       },
       {
         "ability_cooldown": -19

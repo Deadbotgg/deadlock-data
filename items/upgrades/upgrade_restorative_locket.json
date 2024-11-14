@@ -24,8 +24,8 @@
             "style": "tech_armor_up",
             "is_negative": false
           },
-          "tech_power": {
-            "value": 5,
+          "melee_resist_percent": {
+            "value": 25,
             "style": null,
             "is_negative": false
           },
@@ -86,10 +86,11 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 5,
+  "tech_power": 0,
   "weapon_power": 0,
   "radius": 50,
   "tech_resist": 10,
+  "melee_resist_percent": 25,
   "bonus_sprint_speed": 1,
   "heal_per_stack": 35,
   "max_stacks": 15

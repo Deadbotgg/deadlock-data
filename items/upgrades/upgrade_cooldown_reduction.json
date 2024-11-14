@@ -36,6 +36,11 @@
             "value": 4,
             "style": "healing",
             "is_negative": false
+          },
+          "bonus_clip_size_percent": {
+            "value": 15,
+            "style": null,
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {
@@ -67,5 +72,6 @@
   "imbued_cooldown_reduction": 32,
   "non_imbued_cooldown_reduction": 24,
   "bonus_health_regen": 4,
-  "tech_shield_max_health": 150
+  "tech_shield_max_health": 150,
+  "bonus_clip_size_percent": 15
 }

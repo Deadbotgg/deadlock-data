@@ -24,12 +24,12 @@
     "attack_cone_angle": 10,
     "turret_deploy_time": 0.25,
     "turret_base_health": 75,
-    "turret_health_scaling": 20,
+    "turret_health_scaling": 15,
     "turret_attack_range": 25,
     "turret_attack_falloff_start": 20,
     "turret_attack_falloff_end": 35,
     "turret_attack_delay": 0.2,
-    "turret_dps": 60,
+    "turret_dps": 40,
     "turret_lifetime": 24,
     "turret_decay_damage_per_second": 20,
     "attack_speed_mult": 100,
@@ -45,7 +45,7 @@
     "properties": [
       {
         "key": "TurretDPS",
-        "value": 60,
+        "value": 40,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.419328,

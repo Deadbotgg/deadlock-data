@@ -3,7 +3,7 @@
   "name": "Wrecking Ball",
   "stats": {
     "duration": 6,
-    "cooldown": 21,
+    "cooldown": 31,
     "range": 50,
     "charges": 0,
     "charge_restore_time": 0,
@@ -11,7 +11,7 @@
     "resource_cost": 0,
     "cast_range": 50,
     "unit_target_limit": 1,
-    "cast_delay": 1.2,
+    "cast_delay": 1.4,
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
@@ -21,19 +21,19 @@
     "tech_cleave_expire_time": 0.4,
     "move_speed_limit": 6,
     "stun_duration": 1,
-    "wrecking_ball_push_force": 280,
-    "wrecking_ball_damage": 80,
+    "wrecking_ball_push_force": 1500,
+    "wrecking_ball_damage": 150,
     "min_speed": 80
   },
   "tooltipDetails": {
-    "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> anything it hits. The ball takes time to create and you move slower while carrying it.",
+    "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> the first enemy hit. The ball takes time to create and you move slower while carrying it.",
     "properties": [
       {
         "key": "WreckingBallDamage",
-        "value": 80,
+        "value": 150,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.04832,
+          "value": 1.4,
           "type": "spirit"
         }
       },

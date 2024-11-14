@@ -31,7 +31,7 @@
         },
         "elevated_ability_properties": {
           "bullet_resist": {
-            "value": 25,
+            "value": 26,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -55,6 +55,6 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "bullet_resist": 25,
+  "bullet_resist": 26,
   "base_attack_damage_percent": 6
 }

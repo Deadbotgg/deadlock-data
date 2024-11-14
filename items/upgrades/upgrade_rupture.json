@@ -19,9 +19,19 @@
     "Innate": [
       {
         "ability_properties": {
+          "bonus_health_regen": {
+            "value": 1,
+            "style": "healing",
+            "is_negative": false
+          },
           "tech_power": {
             "value": 7,
             "style": "tech_damage",
+            "is_negative": false
+          },
+          "bonus_ability_duration_percent": {
+            "value": 8,
+            "style": "duration",
             "is_negative": false
           }
         },
@@ -44,7 +54,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 45,
+            "value": 33,
             "style": "cooldown",
             "is_negative": false
           }
@@ -52,12 +62,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "heal_amp_receive_penalty_percent": {
-            "value": -50,
+            "value": -70,
             "style": null,
             "is_conditional": true
           },
           "dot_health_percent": {
-            "value": 3,
+            "value": 1,
             "style": "tech_damage",
             "is_conditional": false
           }
@@ -67,7 +77,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 45,
+  "ability_cooldown": 33,
   "ability_duration": 10,
   "ability_cast_range": 15,
   "ability_unit_target_limit": 1,
@@ -80,8 +90,10 @@
   "ability_resource_cost": 0,
   "tech_power": 7,
   "weapon_power": 0,
-  "heal_amp_receive_penalty_percent": -50,
-  "heal_amp_regen_penalty_percent": -50,
+  "heal_amp_receive_penalty_percent": -70,
+  "heal_amp_regen_penalty_percent": -70,
   "tick_rate": 1,
-  "dot_health_percent": 3.1
+  "dot_health_percent": 1,
+  "bonus_health_regen": 1.5,
+  "bonus_ability_duration_percent": 8
 }

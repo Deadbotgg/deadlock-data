@@ -1,6 +1,6 @@
 {
   "name": "Veil Walker",
-  "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
+  "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
   "cost": "3000",
   "tier": "3",
   "activation": "Passive",
@@ -18,12 +18,12 @@
       {
         "ability_properties": {
           "bonus_clip_size_percent": {
-            "value": 12,
+            "value": 15,
             "style": null,
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 10,
+            "value": 15,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -66,7 +66,7 @@
             "is_conditional": true
           }
         },
-        "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
+        "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
       }
     ]
   },
@@ -93,8 +93,8 @@
   "reveal_on_spotted_duration": 0.25,
   "bullet_shield_max_health": 250,
   "tech_shield_max_health": 250,
-  "bonus_clip_size_percent": 12,
-  "base_attack_damage_percent": 10,
+  "bonus_clip_size_percent": 15,
+  "base_attack_damage_percent": 15,
   "bonus_clip_size": 0,
   "invis_duration": 5,
   "bonus_move_speed": 4

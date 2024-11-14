@@ -48,7 +48,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "slow_percent": {
-            "value": 25,
+            "value": 20,
             "style": "slow",
             "is_conditional": true
           },
@@ -78,7 +78,7 @@
   "weapon_power": 0,
   "bonus_health": 175,
   "base_attack_damage_percent": 25,
-  "slow_percent": 25,
+  "slow_percent": 20,
   "debuff_duration": 2.5,
   "outgoing_damage_penalty_percent": -35
 }

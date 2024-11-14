@@ -83,7 +83,7 @@
         "name": "Cooldown"
       },
       {
-        "bullet_armor_reduction": -15
+        "bullet_armor_reduction": -10
       },
       {
         "health_steal": 80

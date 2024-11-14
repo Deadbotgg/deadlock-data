@@ -30,6 +30,11 @@
             "value": 150,
             "style": "health",
             "is_negative": false
+          },
+          "tech_range_multiplier": {
+            "value": 10,
+            "style": "distance",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -98,5 +103,7 @@
   "flying_tech_shield": 400,
   "fly_move_speed": 6,
   "bonus_health": 150,
-  "bonus_ability_duration_percent": 10
+  "bonus_ability_duration_percent": 10,
+  "tech_range_multiplier": 10,
+  "tech_radius_multiplier": 10
 }

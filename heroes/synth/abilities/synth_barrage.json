@@ -18,7 +18,7 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage_per_projectile": 35,
+    "damage_per_projectile": 75,
     "projectile_amount": 4,
     "pop_up_speed": 0,
     "fall_speed_max": 10,
@@ -42,10 +42,10 @@
       },
       {
         "key": "DamagePerProjectile",
-        "value": 35,
+        "value": 75,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.39312,
+          "value": 0.5,
           "type": "spirit"
         }
       },
