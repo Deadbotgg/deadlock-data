@@ -6732,7 +6732,7 @@
           "end_of_hook_move_speed_bonus": 0,
           "end_of_hook_command_restrict_linger": 0.25,
           "reset_cooldown_on_friendly_hook": 0,
-          "friendly_hook_ignore_range": 8,
+          "friendly_hook_ignore_range": 3,
           "bullet_amp": 0,
           "bullet_amp_duration": 0,
           "bullet_shield_on_hook": 0,
@@ -9005,7 +9005,7 @@
               "name": "Enemy health threshold"
             },
             {
-              "short_cooldown": 50
+              "short_cooldown": 0.5
             }
           ]
         }

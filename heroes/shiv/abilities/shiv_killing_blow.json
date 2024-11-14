@@ -68,7 +68,7 @@
         "name": "Enemy health threshold"
       },
       {
-        "short_cooldown": 50
+        "short_cooldown": 0.5
       }
     ]
   }
