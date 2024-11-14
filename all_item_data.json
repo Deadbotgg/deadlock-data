@@ -2137,7 +2137,7 @@
   },
   "upgrade_targeted_silence": {
     "name": "Silence Glyph",
-    "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target and reduces its <span class=\"highlight\">Spirit Resist</span>. Silence does not interrupt channeling abilities.",
+    "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities.",
     "cost": "3000",
     "tier": "3",
     "activation": "ActivationPress",
@@ -2157,12 +2157,12 @@
         {
           "ability_properties": {
             "tech_shield_max_health": {
-              "value": 225,
+              "value": 200,
               "style": "tech_armor_up",
               "is_negative": false
             },
             "bonus_sprint_speed": {
-              "value": 2,
+              "value": 1,
               "style": "move_speed",
               "is_negative": false
             }
@@ -2176,7 +2176,7 @@
         {
           "ability_properties": {
             "ability_cast_range": {
-              "value": 40,
+              "value": 25,
               "style": "range",
               "is_negative": false
             },
@@ -2194,19 +2194,19 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "damage": {
-              "value": 150,
+              "value": 100,
               "style": "tech_damage",
               "is_conditional": false
             }
           },
-          "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target and reduces its <span class=\"highlight\">Spirit Resist</span>. Silence does not interrupt channeling abilities."
+          "description": "Fires a projectile which <span class=\"highlight\">silences and damages</span> the target. Silence does not interrupt channeling abilities."
         }
       ]
     },
     "disabled": false,
     "ability_cooldown": 30,
     "ability_duration": 3.5,
-    "ability_cast_range": 40,
+    "ability_cast_range": 25,
     "ability_unit_target_limit": 1,
     "ability_cast_delay": 0,
     "ability_channel_time": 0,
@@ -2217,9 +2217,9 @@
     "ability_resource_cost": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 150,
-    "tech_shield_max_health": 225,
-    "bonus_sprint_speed": 2
+    "damage": 100,
+    "tech_shield_max_health": 200,
+    "bonus_sprint_speed": 1
   },
   "upgrade_proc_silence": {
     "name": "EMP Bullets",
@@ -2663,7 +2663,7 @@
               "is_conditional": false
             }
           },
-          "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal one stack of health if a siphoned target dies and they take it back if they kill you."
+          "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal one stack of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
         }
       ]
     },
@@ -2683,6 +2683,7 @@
     "weapon_power": 0,
     "base_attack_damage_percent": 40,
     "steal_per_hit": 1,
+    "stack_lost_per_death": 2,
     "max_stacks": 99,
     "steal_duration": 20,
     "proc_cooldown": 0.8,
@@ -5948,7 +5949,7 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "bullet_damage_reflected_pct": {
-              "value": 80,
+              "value": 70,
               "style": "bullet_damage",
               "is_conditional": false
             },
@@ -5976,7 +5977,7 @@
     "ability_resource_cost": 0,
     "tech_power": 7,
     "weapon_power": 0,
-    "bullet_damage_reflected_pct": 80,
+    "bullet_damage_reflected_pct": 70,
     "bonus_fire_rate": 7,
     "bonus_health": 125,
     "spirit_damage_reflected_pct": 30
@@ -13349,7 +13350,7 @@
               "is_negative": false
             },
             "ability_cooldown": {
-              "value": 20,
+              "value": 30,
               "style": "cooldown",
               "is_negative": false
             }
@@ -13372,7 +13373,7 @@
       ]
     },
     "disabled": false,
-    "ability_cooldown": 20,
+    "ability_cooldown": 30,
     "ability_duration": 10,
     "ability_cast_range": 0,
     "ability_unit_target_limit": 1,

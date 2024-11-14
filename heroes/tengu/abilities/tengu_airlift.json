@@ -34,7 +34,7 @@
     "silence_duration": 0
   },
   "tooltipDetails": {
-    "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist while flying.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+    "description": "Take flight with an Ally or a bomb.  Ally gains bullet resist but cannot attack or use abilities while lifted.  Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>Fast cast time when targetting an ally, long on self. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
     "properties": [
       {
         "key": "ExplodeDamage",

@@ -56,7 +56,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bullet_damage_reflected_pct": {
-            "value": 80,
+            "value": 70,
             "style": "bullet_damage",
             "is_conditional": false
           },
@@ -84,7 +84,7 @@
   "ability_resource_cost": 0,
   "tech_power": 7,
   "weapon_power": 0,
-  "bullet_damage_reflected_pct": 80,
+  "bullet_damage_reflected_pct": 70,
   "bonus_fire_rate": 7,
   "bonus_health": 125,
   "spirit_damage_reflected_pct": 30
