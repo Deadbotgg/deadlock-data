@@ -39,7 +39,7 @@
         "value": "5m",
         "type": "distance",
         "scale_function": {
-          "value": 0.07,
+          "value": 0.05,
           "type": "spirit"
         },
         "requiresUpgrade": true

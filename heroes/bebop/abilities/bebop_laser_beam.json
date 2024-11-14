@@ -3,7 +3,7 @@
   "name": "Hyper Beam",
   "stats": {
     "duration": 0,
-    "cooldown": 117,
+    "cooldown": 130,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,11 +18,11 @@
     "channel_move_speed": 70,
     "tech_power": 0,
     "weapon_power": 0,
-    "dps": 220,
+    "dps": 205,
     "beam_length": 70,
     "beam_width": 2.9,
     "beam_close_radius": 5,
-    "beam_end_radius": 5,
+    "beam_end_radius": 4,
     "beam_close_damage_percent": 75,
     "interval": 0.1,
     "tracking_speed": 55,
@@ -35,7 +35,7 @@
     "boss_damage_percent": 20,
     "camera_distance": 7,
     "slow_target_duration": 0.5,
-    "slow_percent": 40,
+    "slow_percent": 30,
     "ground_dash_reduction_percent": -40
   },
   "tooltipDetails": {
@@ -43,10 +43,10 @@
     "properties": [
       {
         "key": "DPS",
-        "value": 220,
+        "value": 205,
         "type": "tech_damage",
         "scale_function": {
-          "value": 3,
+          "value": 2.7,
           "type": "spirit"
         }
       },
@@ -66,7 +66,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -38
+        "ability_cooldown": -30
       },
       {
         "dps": 100
