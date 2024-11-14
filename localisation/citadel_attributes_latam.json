@@ -404,7 +404,6 @@
   "PoisonDamage_label": "Poison Damage",
   "PoisonDuration_label": "Duración",
   "PoisonDuration_postfix": " s",
-  "DebuffDuration_label": "Duración del efecto negativo",
   "DebuffDuration_postfix": " s",
   "DotHealthPercent_label": "de daño por sangrado",
   "DotHealthPercent_postfix": " %/s",

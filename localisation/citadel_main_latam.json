@@ -2263,6 +2263,7 @@
   "AbilityButtonHint_SwitchToNormalCastMode": "Cambiar a modo estándar",
   "AbilityButtonHint_Deselect": "Cancelar",
   "AbilityButtonHint_CastOnTarget": "Lanzar sobre el objetivo",
+  "AbilityButtonHint_CastOnSelf": "Lanzar sobre uno mismo",
   "AbilityButtonHint_ZipLineBoost": "<span class=\\\"AbilityName\\\">Aumentar velocidad en la vía rápida</span> <span class=\\\"Countdown\\\">{s:ability_cooldown}</span>",
   "AbilityButtonHint_LightningCrashDive": "Lanzarte antes",
   "AbilityButtonHint_CancelIceDome": "Eliminar refugio",
