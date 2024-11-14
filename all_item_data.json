@@ -9563,7 +9563,7 @@
         {
           "ability_properties": {
             "tech_resist": {
-              "value": 10,
+              "value": 8,
               "style": "tech_armor_up",
               "is_negative": false
             },
@@ -9590,7 +9590,7 @@
         {
           "ability_properties": {
             "ability_cooldown": {
-              "value": 24,
+              "value": 28,
               "style": "cooldown",
               "is_negative": false
             }
@@ -9598,7 +9598,7 @@
           "elevated_ability_properties": {},
           "important_ability_properties": {
             "heal_per_stack": {
-              "value": 40,
+              "value": 35,
               "style": "healing",
               "is_conditional": false
             },
@@ -9608,12 +9608,12 @@
               "is_conditional": false
             }
           },
-          "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span>. If used at max stacks it fully replenishes the target's <span class=\"highlight\">stamina</span>. Can be self-cast."
+          "description": "Consume all stacks to <span class=\"highlight\">heal target ally</span>. If used at max stacks it replenishes a <span class=\"highlight\">stamina point</span> on the target. Can be self-cast."
         }
       ]
     },
     "disabled": false,
-    "ability_cooldown": 24,
+    "ability_cooldown": 28,
     "ability_duration": 0,
     "ability_cast_range": 30,
     "ability_unit_target_limit": 1,
@@ -9627,8 +9627,8 @@
     "tech_power": 5,
     "weapon_power": 0,
     "radius": 50,
-    "tech_resist": 10,
-    "heal_per_stack": 40,
+    "tech_resist": 8,
+    "heal_per_stack": 35,
     "max_stacks": 15
   },
   "upgrade_health_stimpak": {
