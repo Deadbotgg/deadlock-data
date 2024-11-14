@@ -63,7 +63,7 @@
   "tech_power": 8,
   "weapon_power": 0,
   "jump_velocity_hidden": 22.5,
-  "interupt_cooldown": 4.25,
+  "interupt_cooldown": 4,
   "air_control_percent": 100,
   "bonus_health": 75
 }

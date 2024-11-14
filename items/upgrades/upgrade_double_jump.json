@@ -27,5 +27,5 @@
   "weapon_power": 0,
   "air_jumps": 1,
   "air_jump_vertical_speed_percent": 75,
-  "interupt_cooldown": 4.25
+  "interupt_cooldown": 4
 }
