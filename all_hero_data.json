@@ -16525,7 +16525,7 @@
           "radius": 12,
           "dps": 40,
           "tick_rate": 0.25,
-          "weapon_damage_bonus_per_sec": 8,
+          "weapon_damage_bonus_per_sec": 7,
           "weapon_damage_bonus_duration": 12
         },
         "tooltipDetails": {
@@ -16542,7 +16542,7 @@
             },
             {
               "key": "WeaponDamageBonusPerSec",
-              "value": 8,
+              "value": 7,
               "type": "bullet_damage",
               "m_e_display_type": "EBaseWeaponDamageIncrease",
               "m_e_provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
@@ -16621,10 +16621,10 @@
       },
       {
         "key": "fathom_defer_damage",
-        "name": "Bloodletting",
+        "name": "Fathom Bloodletting",
         "stats": {
           "duration": 0,
-          "cooldown": 21,
+          "cooldown": 50,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16639,8 +16639,8 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage_pct_deferred": 30,
-          "deferred_damage_duration": 10,
+          "damage_pct_deferred": 22,
+          "deferred_damage_duration": 13,
           "defer_clear_pct": 40,
           "damage_pct_deferred_max_rage": 15
         },
@@ -16719,7 +16719,7 @@
     "level_upgrades": {
       "modifier_value_base_bullet_damage_from_level": 0.573571,
       "modifier_value_base_melee_damage_from_level": 2.671429,
-      "modifier_value_base_health_from_level": 41,
+      "modifier_value_base_health_from_level": 36,
       "modifier_value_tech_damage_percent": 0,
       "modifier_value_bullet_armor_damage_resist": 0,
       "modifier_value_tech_armor_damage_resist": 0
@@ -16893,7 +16893,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 4.5,
+      "bullet_damage": 4,
       "rounds_per_second": 2.2222222222222223,
       "clip_size": 13,
       "reload_time": 0.3,
@@ -16901,7 +16901,7 @@
       "reload_delay": 0.705,
       "reload_single": true,
       "bullet_speed": 220,
-      "falloff_start_range": 7.0866,
+      "falloff_start_range": 6.29921,
       "falloff_end_range": 18,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
@@ -16910,8 +16910,8 @@
       "bullets_per_shot": 7,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 70,
-      "sustained_dps": 39.167862266857966,
+      "dps": 62.22222222222223,
+      "sustained_dps": 34.815877570540415,
       "weapon_name": "citadel_weapon_slork_set",
       "weapon_description": "citadel_weapon_hero_slork_set"
     },
