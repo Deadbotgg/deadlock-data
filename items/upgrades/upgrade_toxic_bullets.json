@@ -80,7 +80,7 @@
   "bonus_health": 100,
   "dot_health_percent": 5,
   "dot_duration": 3,
-  "build_up_per_shot": 0.68,
+  "build_up_per_shot": 0.92,
   "build_up_duration": 5,
   "tick_rate": 0.5,
   "heal_amp_receive_penalty_percent": -65,
