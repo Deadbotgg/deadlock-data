@@ -427,6 +427,7 @@
   "BonusChargedAbilityDamage_prefix": "{s:sign}",
   "BonusChargedAbilityDamage_postfix": "%",
   "CooldownBetweenChargeReduction_prefix": "+",
+  "CooldownBetweenChargeReduction_label": "Tempo di ricarica più breve tra le cariche",
   "CooldownBetweenChargeReduction_postfix": "%",
   "BonusSprintSpeed_prefix": "{s:sign}",
   "BonusSprintSpeed_postfix": " m/s",
