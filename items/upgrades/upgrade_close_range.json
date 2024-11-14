@@ -1,0 +1,75 @@
+{
+  "name": "Close Quarters",
+  "description": "Deal additional <span class=\"highlight\">Weapon Damage</span> when in <span class=\"highlight\">close range</span> to your target.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/close_range_psd",
+  "components": null,
+  "componentsOf": [
+    {
+      "key": "upgrade_close_quarter_combat",
+      "name": "Point Blank",
+      "image": "upgrades/mods_weapon/point_blank_psd"
+    }
+  ],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bullet_resist": {
+            "value": 5,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "close_range_bonus_damage_range": {
+            "value": 15,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "close_range_bonus_weapon_power": {
+            "value": 25,
+            "style": "bullet_damage",
+            "is_conditional": true
+          }
+        },
+        "description": "Deal additional <span class=\"highlight\">Weapon Damage</span> when in <span class=\"highlight\">close range</span> to your target."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "close_range_bonus_weapon_power": 25,
+  "close_range_bonus_damage_range": 15,
+  "bullet_resist": 5
+}

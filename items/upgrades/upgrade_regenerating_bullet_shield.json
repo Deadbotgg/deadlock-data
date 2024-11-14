@@ -1,0 +1,68 @@
+{
+  "name": "Combat Barrier",
+  "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/bullet_shield_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {
+          "bullet_shield_max_health": {
+            "value": 325,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "attack_damage_when_shielded": {
+            "value": 22,
+            "style": "bullet_damage",
+            "is_conditional": false
+          },
+          "fire_rate_when_shielded": {
+            "value": 7,
+            "style": "fireRate",
+            "is_conditional": false
+          }
+        },
+        "description": "While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bullet_shield_max_health": 325,
+  "attack_damage_when_shielded": 22,
+  "fire_rate_when_shielded": 7
+}

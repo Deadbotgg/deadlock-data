@@ -1,0 +1,82 @@
+{
+  "key": "citadel_ability_shieldedsentry",
+  "name": "Mini Turret",
+  "stats": {
+    "duration": 0,
+    "cooldown": 18,
+    "range": 20,
+    "charges": 1,
+    "charge_restore_time": 3,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 3,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "model_scale": 0.8,
+    "tick_rate": 0.5,
+    "tracking_speed": 125,
+    "attack_cone_angle": 10,
+    "turret_deploy_time": 0.25,
+    "turret_base_health": 75,
+    "turret_health_scaling": 15,
+    "turret_attack_range": 25,
+    "turret_attack_falloff_start": 20,
+    "turret_attack_falloff_end": 35,
+    "turret_attack_delay": 0.2,
+    "turret_dps": 40,
+    "turret_lifetime": 24,
+    "turret_decay_damage_per_second": 20,
+    "attack_speed_mult": 100,
+    "tech_resist": 70,
+    "non_hero_damage_percent_outgoing": 50,
+    "boss_damage_percent_outgoing": 30,
+    "boss_damage_percent_incoming": 50,
+    "move_slow_percent": 0,
+    "slow_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Deploy a Mini Turret that <span class=\"highlight\">automatically shoots enemies</span>. The turret expires after a limited lifetime.<br>Turrets gain {s:TurretHealthScaling}% of {s:hero_name}'s max health and have {s:TechResist}% Spirit Resist. They deal reduced damage to troopers and objectives.",
+    "properties": [
+      {
+        "key": "TurretDPS",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.419328,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "TurretAttackRange",
+        "value": "25m",
+        "type": "distance"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "TurretLifetime",
+        "value": 24,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "move_slow_percent": 25,
+        "slow_duration": 1.3
+      },
+      {
+        "turret_attack_range": 10,
+        "attack_speed_mult": 10
+      },
+      {
+        "turret_dps": 45
+      }
+    ]
+  }
+}

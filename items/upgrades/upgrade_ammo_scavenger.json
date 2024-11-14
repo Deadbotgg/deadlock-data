@@ -1,0 +1,86 @@
+{
+  "name": "Ammo Scavenger",
+  "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_weapon/ammo_scavenger_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterClipSize"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_clip_size_percent": {
+            "value": 15,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 40,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 45,
+            "style": "duration",
+            "is_negative": false
+          },
+          "max_stacks": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "ammo_per_soul": {
+            "value": 2,
+            "style": null,
+            "is_conditional": false
+          },
+          "spirit_power_per_soul": {
+            "value": 1,
+            "style": "tech_damage",
+            "is_conditional": true
+          }
+        },
+        "description": "Any time you secure or deny a Soul from an entity you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 45,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_clip_size_percent": 15,
+  "bonus_health": 40,
+  "ammo_per_soul": 2,
+  "spirit_power_per_soul": 1,
+  "max_stacks": 20
+}

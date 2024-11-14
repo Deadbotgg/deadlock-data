@@ -1,0 +1,32 @@
+{
+  "name": "Spirit Barrier Pulse",
+  "description": "Temporarily gain <span class=\"highlight\">spirit barrier</span> for you and all nearby allied units.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "InstantCast",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/tech_shield_pulse_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllFriendly"
+  ],
+  "shop_filters": null,
+  "tooltip": {},
+  "disabled": true,
+  "ability_cooldown": 32,
+  "ability_duration": 16,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.25,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "temp_tech_shield_health": 400,
+  "radius": 30
+}

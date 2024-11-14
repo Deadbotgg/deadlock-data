@@ -1,0 +1,26 @@
+{
+  "key": "yakuza_protection_racket",
+  "name": "Protection Racket",
+  "stats": {
+    "duration": 12,
+    "cooldown": 32,
+    "range": 30,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bullet_shield_health": 180,
+    "bonus_crit_damage_percent": 20,
+    "weapon_recoil_reduction": 0,
+    "move_while_shooting_speed_penalty_reduction_percent": 0
+  }
+}

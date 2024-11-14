@@ -1,0 +1,62 @@
+{
+  "key": "citadel_ability_tengu_urn",
+  "name": "Kudzu Bomb",
+  "stats": {
+    "duration": 4,
+    "cooldown": 32,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 8,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 8,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "boss_damage_percent": 50,
+    "tick_rate": 0.25,
+    "radius": 6,
+    "height": 2,
+    "dps": 60,
+    "slow_percent": 35
+  },
+  "tooltipDetails": {
+    "description": "Summon a patch of choking vines that <span class=\"highlight\">damages</span> and <span class=\"highlight\">slows</span> enemies in its radius.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 60,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.6,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SlowPercent",
+        "value": 35,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "ability_duration": 2
+      },
+      {
+        "dps": 50,
+        "radius": 2
+      }
+    ]
+  }
+}

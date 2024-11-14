@@ -1,0 +1,96 @@
+{
+  "name": "Point Blank",
+  "description": "When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">Weapon Damage</span> and your bullets apply a <span class=\"highlight\">Movement Slow</span>.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/point_blank_psd",
+  "components": [
+    {
+      "key": "upgrade_close_range",
+      "name": "Close Quarters",
+      "image": "upgrades/mods_weapon/close_range_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDurability",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bullet_resist": {
+            "value": 15,
+            "style": null,
+            "is_negative": false
+          },
+          "stamina": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "slow_duration": {
+            "value": 2,
+            "style": "duration",
+            "is_negative": false
+          },
+          "close_range_bonus_damage_range": {
+            "value": 15,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "close_range_bonus_weapon_power": {
+            "value": 45,
+            "style": "bullet_damage",
+            "is_conditional": false
+          },
+          "slow_percent": {
+            "value": 25,
+            "style": "slow",
+            "is_conditional": true
+          }
+        },
+        "description": "When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">Weapon Damage</span> and your bullets apply a <span class=\"highlight\">Movement Slow</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "close_range_bonus_weapon_power": 45,
+  "slow_percent": 25,
+  "slow_duration": 2,
+  "close_range_bonus_damage_range": 15,
+  "bullet_resist": 15,
+  "stamina": 1
+}

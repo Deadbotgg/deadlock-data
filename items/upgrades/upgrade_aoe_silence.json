@@ -1,0 +1,83 @@
+{
+  "name": "EMP Grenade",
+  "description": "Throw a grenade that <span class=\"highlight\">silences</span> enemies and lowers their <span class=\"highlight\">spirit resistance</span>.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "ActivationPress",
+  "slot": "Tech",
+  "image": "upgrades/mods_utility/emp_wave_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "tech_shield_max_health": {
+            "value": 225,
+            "style": "tech_armor_up",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "radius": {
+            "value": 8,
+            "style": "distance",
+            "is_negative": false
+          },
+          "debuff_duration": {
+            "value": 5,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 32,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "tech_resist": {
+            "value": -20,
+            "style": "tech_armor_down",
+            "is_conditional": true
+          }
+        },
+        "description": "Throw a grenade that <span class=\"highlight\">silences</span> enemies and lowers their <span class=\"highlight\">spirit resistance</span>."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 32,
+  "ability_duration": 0.25,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.2,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "debuff_duration": 5,
+  "start_radius": 1,
+  "radius": 8,
+  "tech_resist": -20,
+  "tech_shield_max_health": 225
+}

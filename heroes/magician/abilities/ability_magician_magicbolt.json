@@ -1,0 +1,85 @@
+{
+  "key": "ability_magician_magicbolt",
+  "name": "Vexing Bolt",
+  "stats": {
+    "duration": 0,
+    "cooldown": 15,
+    "range": 500,
+    "charges": 1,
+    "charge_restore_time": 3,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 500,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0.3,
+    "cooldown_between_charge": 3,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 120,
+    "radius": 3,
+    "redirect_velocity": 1500,
+    "projectile_lifetime": 3,
+    "initial_projectile_velocity": 1000,
+    "debuff_duration": 5,
+    "fire_rate_slow": 20,
+    "projectile_redirect_count": 1,
+    "tech_armor_damage_reduction": 0
+  },
+  "tooltipDetails": {
+    "description": "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fire Rate Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 120,
+        "m_e_display_type": "ETechPower",
+        "scale_function": {
+          "value": 1.4,
+          "type": "spirit"
+        },
+        "type": "tech_damage"
+      },
+      {
+        "key": "ProjectileRedirectCount",
+        "value": 1
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "FireRateSlow",
+        "value": 20,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 5,
+        "type": "duration"
+      },
+      {
+        "key": "TechArmorDamageReduction",
+        "value": 0,
+        "type": "tech_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "m_e_display_type": "ETechArmorDamageReduction"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -4
+      },
+      {
+        "tech_armor_damage_reduction": -20
+      },
+      {
+        "damage": 130,
+        "initial_projectile_velocity": 600,
+        "redirect_velocity": 600
+      }
+    ]
+  }
+}

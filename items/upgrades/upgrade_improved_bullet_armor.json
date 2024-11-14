@@ -1,0 +1,60 @@
+{
+  "name": "Improved Bullet Armor",
+  "description": "Decreases <span class=\"highlight\">damage taken</span> from bullets.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/improved_bullet_armor_psd",
+  "components": [
+    {
+      "key": "upgrade_bullet_armor",
+      "name": "Bullet Armor",
+      "image": "upgrades/mods_armor/bullet_armor_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "bullet_resist": {
+            "value": 50,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bullet_resist": 50,
+  "base_attack_damage_percent": 10
+}

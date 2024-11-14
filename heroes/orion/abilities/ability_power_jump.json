@@ -1,0 +1,96 @@
+{
+  "key": "ability_power_jump",
+  "name": "Rain of Arrows",
+  "stats": {
+    "duration": 7,
+    "cooldown": 35,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.5,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "jump_pitch": -60,
+    "jump_speed": 27.5,
+    "alt_jump_speed": 12,
+    "slow_percent": 0,
+    "slow_duration": 0,
+    "weapon_damage_bonus": 4,
+    "fire_rate_bonus": 0,
+    "bullet_lifesteal_percent": 0,
+    "fall_speed_max": 15,
+    "air_speed_max": 150,
+    "bullet_split_shot": 5,
+    "split_shot": 0,
+    "fx_radius": 4,
+    "tech_lifesteal_percent": 0,
+    "air_move_increase_percent": -9
+  },
+  "tooltipDetails": {
+    "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">multishot on your weapon</span>. <br>Alt-Cast for reduced jump height.  <br>Press [{s:in_mantle}] to cancel the glide.",
+    "properties": [
+      {
+        "key": "BulletSplitShot",
+        "value": 5,
+        "type": "fire_rate"
+      },
+      {
+        "key": "WeaponDamageBonus",
+        "value": 4,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowPercent",
+        "value": 0,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 0,
+        "type": "duration"
+      },
+      {
+        "key": "BulletLifestealPercent",
+        "value": 0,
+        "type": "healing",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_LIFESTEAL",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "TechLifestealPercent",
+        "value": 0,
+        "type": "healing",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_LIFESTEAL",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -14
+      },
+      {
+        "weapon_damage_bonus": 5,
+        "slow_percent": 40,
+        "slow_duration": 1.5
+      },
+      {
+        "bullet_lifesteal_percent": 50,
+        "tech_lifesteal_percent": 50
+      }
+    ]
+  }
+}

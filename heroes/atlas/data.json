@@ -1,0 +1,266 @@
+{
+  "id": 6,
+  "name": "Abrams",
+  "new_player_friendly": true,
+  "in_development": false,
+  "in_hero_labs": false,
+  "is_disabled": false,
+  "complexity": 1,
+  "readability": 4,
+  "bot_selectable": true,
+  "lane_testing_recommended": false,
+  "starting_stats": {
+    "max_move_speed": 6.8,
+    "sprint_speed": 0,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 63,
+    "heavy_melee_damage": 116,
+    "max_health": 570,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 3,
+    "base_health_regen": 1,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": 0,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.251429,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 34,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.4
+  },
+  "visuals": {
+    "ui_color": [
+      32,
+      146,
+      174
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {},
+  "weapon_stats": {
+    "bullet_damage": 4.675,
+    "rounds_per_second": 1.6666666666666667,
+    "clip_size": 9,
+    "reload_time": 0.3525,
+    "reload_movespeed": 1,
+    "reload_delay": 0.705,
+    "reload_single": true,
+    "bullet_speed": 239.99998047,
+    "falloff_start_range": 7.874020000000001,
+    "falloff_end_range": 18,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 0.8,
+    "bullets_per_shot": 9,
+    "bullets_per_burst": 1,
+    "burst_inter_shot_interval": 0,
+    "dps": 70.125,
+    "sustained_dps": 40.81649151172191,
+    "weapon_name": "citadel_weapon_bull_set",
+    "weapon_description": "citadel_weapon_hero_bull_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_Spreadshot",
+      "Attribute_EWeaponAttribute_CloseRange"
+    ]
+  },
+  "lore": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years.  From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them.\\n\\nBut his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.\\n\\nNo instruction was left for him save for a brief note scrawled in onyx blood that read \\\"Don't let them have it\\\".  Abrams hasn't figured where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",
+  "playstyle": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his backline teammates can lay out damage with impunity.",
+  "role": "Charges into close combat",
+  "recommended_items": [
+    "upgrade_close_range",
+    "upgrade_lifestrike_gauntlets",
+    "upgrade_health",
+    "upgrade_berserker",
+    "upgrade_cold_front",
+    "upgrade_bullet_armor",
+    "upgrade_tech_armor",
+    "upgrade_chonky",
+    "upgrade_close_quarter_combat",
+    "upgrade_improved_bullet_armor",
+    "upgrade_tech_purge",
+    "upgrade_bullet_armor_reduction_aura",
+    "upgrade_fervor"
+  ],
+  "abilities": [
+    {
+      "key": "citadel_ability_bull_heal"
+    },
+    {
+      "key": "citadel_ability_bull_charge"
+    },
+    {
+      "key": "citadel_ability_passive_beefy"
+    },
+    {
+      "key": "citadel_ability_bull_leap"
+    }
+  ]
+}

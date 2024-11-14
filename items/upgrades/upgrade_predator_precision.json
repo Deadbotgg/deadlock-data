@@ -1,0 +1,67 @@
+{
+  "name": "Predator Precision",
+  "description": "Gain additional <span class=\"highlight\">weapon damage</span> against enemy Heroes that are <span class=\"highlight\">low health</span>",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/close_range_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterFireRate"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_fire_rate": {
+            "value": 8,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 50,
+            "style": "bullet_damage",
+            "is_conditional": true
+          },
+          "life_threshold": {
+            "value": 50,
+            "style": null,
+            "is_conditional": false
+          }
+        },
+        "description": "Gain additional <span class=\"highlight\">weapon damage</span> against enemy Heroes that are <span class=\"highlight\">low health</span>"
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_fire_rate": 8,
+  "life_threshold": 50,
+  "base_attack_damage_percent": 50
+}

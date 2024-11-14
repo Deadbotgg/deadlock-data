@@ -1,0 +1,89 @@
+{
+  "name": "Toxic Bullets",
+  "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/serrated_bullets_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy",
+    "CreepEnemy",
+    "MinionEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 100,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Default": [
+      {
+        "ability_properties": {
+          "dot_duration": {
+            "value": 3,
+            "style": "duration",
+            "is_negative": false
+          },
+          "build_up_per_shot": {
+            "value": 0,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "dot_health_percent": {
+            "value": 2,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "heal_amp_receive_penalty_percent": {
+            "value": -65,
+            "style": null,
+            "is_conditional": true
+          }
+        },
+        "description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_health": 100,
+  "dot_health_percent": 2.5,
+  "dot_duration": 3,
+  "build_up_per_shot": 0.92,
+  "build_up_duration": 5,
+  "tick_rate": 0.5,
+  "heal_amp_receive_penalty_percent": -65,
+  "heal_amp_regen_penalty_percent": -65,
+  "dot_multipler_troopers": 0.5
+}

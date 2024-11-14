@@ -1,0 +1,29 @@
+{
+  "key": "tokamak_crimson_cannon",
+  "name": "Pulse Cannon",
+  "stats": {
+    "duration": 0,
+    "cooldown": 127,
+    "range": 100,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 3.6,
+    "resource_cost": 0,
+    "cast_range": 100,
+    "unit_target_limit": 1,
+    "cast_delay": 2,
+    "channel_time": 3.6,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "targeting_width": 0.8,
+    "fall_speed_max": 1,
+    "air_speed_max": 70,
+    "delay_between_shots": 0.6,
+    "damage": 190,
+    "aim_fov": 60,
+    "aim_zoom_duration": 0.15
+  }
+}

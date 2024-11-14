@@ -1,0 +1,78 @@
+{
+  "name": "Improved Burst",
+  "description": "Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal {s:MinimumDamage} damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\"highlight\">{s:ReProcLockoutTime}s</span> after taking damage from it.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/magic_shock_psd",
+  "components": [
+    {
+      "key": "upgrade_magic_burst",
+      "name": "Mystic Burst",
+      "image": "upgrades/mods_tech/magic_burst_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "tech_shield_max_health": {
+            "value": 100,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 8,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "max_health_damage": {
+            "value": 8,
+            "style": "tech_damage",
+            "is_conditional": true
+          }
+        },
+        "description": "Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal {s:MinimumDamage} damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\"highlight\">{s:ReProcLockoutTime}s</span> after taking damage from it."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "minimum_damage": 175,
+  "re_proc_lockout_time": 5,
+  "max_health_damage": 8,
+  "tech_shield_max_health": 100,
+  "base_attack_damage_percent": 8
+}

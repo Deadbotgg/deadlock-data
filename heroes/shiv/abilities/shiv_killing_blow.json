@@ -1,0 +1,76 @@
+{
+  "key": "citadel_ability_shiv_killing_blow",
+  "name": "Killing Blow",
+  "stats": {
+    "duration": 0,
+    "cooldown": 95,
+    "range": 14,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 14,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0.25,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "rage_drain_rate": 0.25,
+    "rage_per_weapon_damage": 0.017,
+    "rage_per_spirit_damage": 0.013,
+    "rage_per_light_melee": 1.5,
+    "rage_per_heavy_melee": 2.75,
+    "bonus_resource": 10,
+    "non_player_rage_scale": 0.1,
+    "bonus_move_speed": 0,
+    "buff_damage": 15,
+    "rage_drain_delay_duration": 9,
+    "damage": 200,
+    "enemy_health_percent": 20,
+    "enemy_health_percent_buffer": 3,
+    "camera_distance": 400,
+    "move_speed_to_target": 25,
+    "pause_on_target_time": 0.66,
+    "min_time_to_target": 0.5,
+    "jump_height": 80,
+    "slash_range": 80,
+    "short_cooldown": 0
+  },
+  "tooltipDetails": {
+    "description": "Passive: Damaging enemies fills you with rage.  While at full rage, Shiv gains increased damage and <span class=\"highlight\">special properties</span> on his other abilities.",
+    "properties": [
+      {
+        "key": "BuffDamage",
+        "value": 15,
+        "type": "damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_DAMAGE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BonusMoveSpeed",
+        "value": 0,
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "type": "move_speed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "requiresUpgrade": true
+      }
+    ],
+    "upgrades": [
+      {
+        "bonus_move_speed": 2
+      },
+      {
+        "enemy_health_percent": 8,
+        "name": "Full Rage Damage Bonus",
+        "buff_damage": 10
+      },
+      {
+        "short_cooldown": 0.5
+      }
+    ]
+  }
+}

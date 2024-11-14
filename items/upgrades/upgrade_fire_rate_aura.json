@@ -1,0 +1,58 @@
+{
+  "name": "Fire Rate Aura",
+  "description": "Provides a <span class=\"highlight\">Fire Rate</span> increase to you and nearby teammates.  Different bonus to non-Heroes",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_utility/fire_rate_aura_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllFriendly"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "bonus_fire_rate": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_fire_rate_n_p_c": {
+            "value": 35,
+            "style": null,
+            "is_negative": false
+          },
+          "aura_radius": {
+            "value": 30,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Provides a <span class=\"highlight\">Fire Rate</span> increase to you and nearby teammates.  Different bonus to non-Heroes"
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_fire_rate": 10,
+  "bonus_fire_rate_n_p_c": 35,
+  "aura_radius": 30
+}

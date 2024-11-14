@@ -1,0 +1,74 @@
+{
+  "name": "Intensifying Magazine",
+  "description": "Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/auto_reloader_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterClipSize",
+    "EShopFilterWeaponDamage"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_clip_size_percent": {
+            "value": 25,
+            "style": null,
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "base_attack_damage_percent_at_max_duration": {
+            "value": 60,
+            "style": "bullet_damage",
+            "is_conditional": true
+          },
+          "shoot_duration_for_max": {
+            "value": 2,
+            "style": null,
+            "is_conditional": false
+          }
+        },
+        "description": "Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_clip_size_percent": 25,
+  "base_attack_damage_percent": 20,
+  "shoot_duration_for_max": 2.7,
+  "base_attack_damage_percent_at_max_duration": 60
+}

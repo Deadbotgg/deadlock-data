@@ -1,0 +1,54 @@
+{
+  "name": "Bullet Lifesteal",
+  "description": "Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies. Half as effective vs Non-Heroes.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/health_stealing_bullets_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "bullet_lifesteal_percent": {
+            "value": 28,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bullet_lifesteal_percent": 28,
+  "bonus_health": 75
+}

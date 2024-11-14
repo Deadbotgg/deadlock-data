@@ -1,0 +1,74 @@
+{
+  "key": "ability_bounce_pad",
+  "name": "Bounce Pad",
+  "stats": {
+    "duration": 22,
+    "cooldown": 37,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 3.5,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.08,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 3.5,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bounce_velocity": 750,
+    "up_factor": 1.2,
+    "barrel_bounce_velocity": 800,
+    "barrel_up_factor": 1,
+    "scale": 1,
+    "place_distance": 200,
+    "air_control_percent": 100,
+    "air_control_accel_percent": 50,
+    "min_air_time_for_stomp": 0.2,
+    "radius": 12,
+    "vertical_difference_tolerance": 60,
+    "toss_speed": 500,
+    "stomp_damage": 120,
+    "stomp_stun_duration": 0,
+    "speed_on_land": 0,
+    "speed_on_land_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Drop a bounce pad in the world that <span class=\\\"highlight\\\">sends you and other heroes flying</span>. You will Stomp on landing, <span class=\\\"highlight\\\">dealing damage</span> to any nearby enemies.<br><br><span class=\\\"diminish\\\">The Stomp can only occur once per Bounce Pad.\t</span> ",
+    "properties": [
+      {
+        "key": "StompDamage",
+        "value": 120,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.91728,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "AirControlPercent",
+        "value": 100,
+        "type": "move_speed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_AIR_CONTROL_PERCENT"
+      }
+    ],
+    "upgrades": [
+      {
+        "speed_on_land": 4,
+        "speed_on_land_duration": 4
+      },
+      {
+        "stomp_damage": 1.04832,
+        "name": "Stomp Damage"
+      },
+      {
+        "stomp_stun_duration": 1.25,
+        "name": "Duration"
+      }
+    ]
+  }
+}

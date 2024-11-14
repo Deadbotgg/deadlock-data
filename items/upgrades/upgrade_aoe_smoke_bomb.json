@@ -1,0 +1,74 @@
+{
+  "name": "Smoke",
+  "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "InstantCast",
+  "slot": "Tech",
+  "image": "upgrades/mods_utility/smoke_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroFriendly"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 25,
+            "style": "duration",
+            "is_negative": false
+          },
+          "radius": {
+            "value": 30,
+            "style": "distance",
+            "is_negative": false
+          },
+          "invis_move_speed_mod": {
+            "value": 1,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "spotted_radius": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 64,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 64,
+  "ability_duration": 25,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 1.5,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "invis_alert_when_fading": 1,
+  "invis_cancel_on_damage": 1,
+  "invis_fade_to_duration": 0.3,
+  "invis_move_speed_mod": 1.5,
+  "spotted_radius": 20,
+  "reveal_on_damage_duration": 0.25,
+  "reveal_on_spotted_duration": 0.25,
+  "radius": 30,
+  "full_invis_distance": 50
+}

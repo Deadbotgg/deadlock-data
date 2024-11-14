@@ -1,0 +1,88 @@
+{
+  "key": "ability_lash_flog",
+  "name": "Flog",
+  "stats": {
+    "duration": 0,
+    "cooldown": 26,
+    "range": 25,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 25,
+    "unit_target_limit": 30,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "targeting_cone_angle": 30,
+    "enemy_slow_pct": 0,
+    "enemy_slow_duration": 0,
+    "heal_pct_vs_non_heroes": 25,
+    "heal_pct_vs_heroes": 70,
+    "damage": 65,
+    "fire_rate_slow": 0
+  },
+  "tooltipDetails": {
+    "description": "Strike enemies with your whip, <span class=\"highlight\">stealing life</span> from them.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 65,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.17936,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "HealPctVsHeroes",
+        "value": 70,
+        "type": "healing"
+      },
+      {
+        "key": "TargetingConeAngle",
+        "value": 30,
+        "type": "distance",
+        "scale_function": {
+          "value": 0.45864,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "HealPctVsNonHeroes",
+        "value": 25,
+        "type": "healing"
+      },
+      {
+        "key": "EnemySlowPct",
+        "value": 0,
+        "type": "slow"
+      },
+      {
+        "key": "EnemySlowDuration",
+        "value": 0,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "enemy_slow_duration": 3,
+        "name": "Enemy Movement Slow",
+        "enemy_slow_pct": 35
+      },
+      {
+        "ability_cooldown": -14
+      },
+      {
+        "damage": 105,
+        "fire_rate_slow": 35
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "key": "citadel_ability_chrono_time_wall",
+  "name": "Time Wall",
+  "stats": {
+    "duration": 6,
+    "cooldown": 25,
+    "range": 200,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 200,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "time_wall_width": 7,
+    "time_wall_height": 3.5,
+    "time_wall_depth": 0.5,
+    "time_wall_depth_visual_scale": 0.16,
+    "time_wall_time_scale": 0.0001,
+    "time_scale_duration": 0.6,
+    "friendly_bullet_damage_bonus": 20,
+    "friendly_bullet_time_scale": 3,
+    "movement_slow_pct": 80,
+    "damage_pct_per_wall_hit": 0,
+    "damage_tick_rate": 1.5,
+    "aura_effect_duration": 1.25,
+    "time_wall_formation_time": 0.5,
+    "debuff_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Create a time warping wall that <span class=\"highlight\">stops time</span> for all <span class=\"highlight\">enemy projectiles and bullets</span> that touch it.  Enemies that touch the wall will be briefly <span class=\"highlight\">slowed</span>.",
+    "properties": [
+      {
+        "key": "TimeScaleDuration",
+        "value": 0.6,
+        "type": "duration"
+      },
+      {
+        "key": "DamagePctPerWallHit",
+        "value": 0,
+        "m_e_display_type": "ETechPower",
+        "type": "tech_damage"
+      },
+      {
+        "key": "MovementSlowPct",
+        "value": 80,
+        "type": "slow"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "TimeWallWidth",
+        "value": "7m",
+        "type": "range"
+      },
+      {
+        "key": "TimeWallHeight",
+        "value": "3.5m"
+      }
+    ],
+    "upgrades": [
+      {
+        "time_wall_width": 2,
+        "name": "Wall Height",
+        "time_wall_height": 1
+      },
+      {
+        "damage_pct_per_wall_hit": 10,
+        "name": "Max Health Damage"
+      },
+      {
+        "debuff_duration": 2.5
+      }
+    ]
+  }
+}

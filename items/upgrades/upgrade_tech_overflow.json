@@ -1,0 +1,94 @@
+{
+  "name": "Spiritual Overflow",
+  "description": "Gain bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> when shooting enemy heroes.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/magic_overflow_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterFireRate"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "cooldown_reduction": {
+            "value": 15,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "ability_lifesteal_percent_hero": {
+            "value": 10,
+            "style": "healing",
+            "is_negative": false
+          },
+          "bullet_shield_max_health": {
+            "value": 225,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "build_up_per_shot": {
+            "value": 0,
+            "style": null,
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 18,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bonus_fire_rate": {
+            "value": 35,
+            "style": "fireRate",
+            "is_conditional": true
+          },
+          "bonus_spirit": {
+            "value": 50,
+            "style": "tech_damage",
+            "is_conditional": true
+          }
+        },
+        "description": "Gain bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> when shooting enemy heroes."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 18,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "cooldown_reduction": 15,
+  "bullet_shield_max_health": 225,
+  "bonus_fire_rate": 35,
+  "bonus_spirit": 50,
+  "build_up_per_shot": 0.75,
+  "build_up_duration": 5
+}

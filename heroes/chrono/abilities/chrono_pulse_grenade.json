@@ -1,0 +1,89 @@
+{
+  "key": "citadel_ability_chrono_pulse_grenade",
+  "name": "Pulse Grenade",
+  "stats": {
+    "duration": 3.2,
+    "cooldown": 28,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 6,
+    "radius_increase_per_pulse": 0,
+    "pulse_interval": 0.8,
+    "pulse_damage": 45,
+    "damage_amplification_per_stack": 6,
+    "debuff_duration": 8,
+    "slow_percent": 30,
+    "movement_slow_duration": 2,
+    "boss_damage_percent": 50
+  },
+  "tooltipDetails": {
+    "description": "Throw a grenade that begins pulsing when it lands. Each pulse applies <span class=\"highlight\">damage, movement slow, and stacking damage amplification</span> for {s:hero_name} against the victim.",
+    "properties": [
+      {
+        "key": "PulseDamage",
+        "value": 45,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.45864,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "DamageAmplificationPerStack",
+        "loc_token_override": "PulseGrenadeDamageAmplificationPerStack",
+        "value": 6,
+        "type": "damage"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "PulseInterval",
+        "value": 0.8,
+        "type": "duration",
+        "m_e_display_type": "ETechDuration"
+      },
+      {
+        "key": "DebuffDuration",
+        "loc_token_override": "PulseGrenadeDebuffDuration",
+        "value": 8,
+        "type": "duration"
+      },
+      {
+        "key": "SlowPercent",
+        "value": 30,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "MovementSlowDuration",
+        "value": 2,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_duration": 0.8
+      },
+      {
+        "ability_cooldown": -8
+      },
+      {
+        "pulse_damage": 45,
+        "radius_increase_per_pulse": 0.75
+      }
+    ]
+  }
+}

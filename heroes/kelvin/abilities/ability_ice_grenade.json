@@ -1,0 +1,76 @@
+{
+  "key": "ability_ice_grenade",
+  "name": "Frost Grenade",
+  "stats": {
+    "duration": 0,
+    "cooldown": 22,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 7,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 7,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 6.5,
+    "damage": 80,
+    "slow_percent": 40,
+    "slow_duration": 4,
+    "heal_amount": 0
+  },
+  "tooltipDetails": {
+    "description": "Throw a grenade that explodes in a cloud of freezing ice, <span class=\"highlight\">damaging</span> and <span class=\"highlight\">slowing</span> enemies.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 80,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.9828,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "HealAmount",
+        "value": 0,
+        "type": "healing",
+        "scale_function": {
+          "value": 0,
+          "type": "spirit"
+        },
+        "requiresUpgrade": true
+      },
+      {
+        "key": "SlowPercent",
+        "value": 40,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowDuration",
+        "value": 4,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "heal_amount": 1.9656
+      },
+      {
+        "damage": 175
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "key": "fathom_breach",
+  "name": "Breach",
+  "stats": {
+    "duration": 0,
+    "cooldown": 22,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explosion_radius": 6,
+    "damage": 80,
+    "toss_speed": 350,
+    "gravity_scale": 1.4
+  },
+  "tooltipDetails": {
+    "description": "Launch forward, damaging all enemies near where you land and knocking them into the air.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 80,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.7,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "explosion_radius": 3
+      },
+      {
+        "ability_cooldown": -8
+      },
+      {
+        "damage": 120
+      }
+    ]
+  }
+}

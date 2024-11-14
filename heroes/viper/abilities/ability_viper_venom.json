@@ -1,0 +1,92 @@
+{
+  "key": "ability_viper_venom",
+  "name": "Lethal Venom",
+  "stats": {
+    "duration": 0,
+    "cooldown": 26,
+    "range": 15,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 15,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "venom_duration": 3,
+    "venom_min_damage": 20,
+    "venom_max_damage": 200,
+    "venom_min_damage_health_percentage": 100,
+    "venom_max_damage_health_percentage": 25,
+    "heal_amp_receive_penalty_percent": 0,
+    "heal_amp_regen_penalty_percent": 0,
+    "slow_percent": 0,
+    "venom_missing_health_damage_percentage": 0
+  },
+  "tooltipDetails": {
+    "description": "Inject a target with lethal venom. After a delay the venom triggers, dealing <span class=\"highlight_spirit\">Spirit Damage</span>. The damage is increased by the target's missing health.<br><br><span class=\"diminish\">Reapplying Venom refreshes the duration.<br>Venom breaks Petrify before detonating.</span>",
+    "properties": [
+      {
+        "key": "VenomMinDamage",
+        "value": 20,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.7,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "VenomMaxDamage",
+        "value": 200,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 3,
+          "type": "spirit"
+        },
+        "m_usage_flags": 0
+      },
+      {
+        "key": "VenomMissingHealthDamagePercentage",
+        "value": 0,
+        "type": "tech_damage",
+        "m_e_display_type": "ETechPower",
+        "requiresUpgrade": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "VenomMaxDamageHealthPercentage",
+        "value": 25,
+        "m_e_display_type": "EMaxHealth"
+      },
+      {
+        "key": "VenomDuration",
+        "value": 3
+      },
+      {
+        "key": "HealAmpReceivePenaltyPercent",
+        "value": 0,
+        "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT"
+      }
+    ],
+    "upgrades": [
+      {
+        "venom_max_damage": 40,
+        "name": "Max Venom Damage"
+      },
+      {
+        "heal_amp_regen_penalty_percent": -60,
+        "heal_amp_receive_penalty_percent": -60
+      },
+      {
+        "venom_missing_health_damage_percentage": 8,
+        "name": "Missing Health Damage"
+      }
+    ]
+  }
+}

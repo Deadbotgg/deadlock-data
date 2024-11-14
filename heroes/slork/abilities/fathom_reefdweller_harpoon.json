@@ -1,0 +1,31 @@
+{
+  "key": "fathom_reefdweller_harpoon",
+  "name": "Reefdweller Harpoon",
+  "stats": {
+    "duration": 0,
+    "cooldown": 30,
+    "range": 30,
+    "charges": 2,
+    "charge_restore_time": 2,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 2,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bonus_fire_rate": 0,
+    "charges_conditionally": 1,
+    "initial_freeze_time": 0,
+    "wall_latch_settle_time": 0,
+    "wall_latch_settle_dist": 40,
+    "wall_latch_ideal_dist": 5,
+    "reel_speed": 1500,
+    "detach_buff_duration": 0
+  },
+  "tooltipDetails": {}
+}

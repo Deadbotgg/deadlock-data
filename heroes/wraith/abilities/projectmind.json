@@ -1,0 +1,56 @@
+{
+  "key": "citadel_ability_projectmind",
+  "name": "Project Mind",
+  "stats": {
+    "duration": 0,
+    "cooldown": 48,
+    "range": 25,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 25,
+    "unit_target_limit": 1,
+    "cast_delay": 0.75,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 200,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "camera_distance": 250,
+    "trail_interval": 0.1,
+    "bullet_shield_on_land": 0,
+    "bullet_shield_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Bullet Shield:",
+    "properties": [
+      {
+        "key": "BulletShieldOnLand",
+        "value": 0,
+        "type": "bullet_armor_up",
+        "scale_function": {
+          "value": 0,
+          "type": "spirit"
+        },
+        "requiresUpgrade": true
+      },
+      {
+        "key": "BulletShieldDuration",
+        "value": 0,
+        "type": "bullet_armor_up",
+        "requiresUpgrade": true
+      }
+    ],
+    "upgradeRequired": {
+      "key": "BulletShieldOnLand",
+      "value": 0,
+      "type": "bullet_armor_up",
+      "scale_function": {
+        "value": 0,
+        "type": "spirit"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "key": "citadel_ability_shiv_dash",
+  "name": "Slice and Dice",
+  "stats": {
+    "duration": 0,
+    "cooldown": 16,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0.2,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "tech_cleave_expire_time": 0.35,
+    "dash_angle_threshold": 89,
+    "dash_speed": 2400,
+    "dash_range": 12,
+    "dash_radius": 2.5,
+    "impact_damage": 105,
+    "move_speed_penalty_max_speed": 200,
+    "move_speed_penalty_duration": 0,
+    "camera_distance": 250,
+    "side_move_speed_reduction": -100,
+    "turn_rate_max": 0,
+    "cooldown_reduction_on_hit": 0,
+    "cooldown_reduction_on_hit_non_hero": 0,
+    "max_cooldown_reductions_from_hits": 0
+  },
+  "tooltipDetails": {
+    "description": "On hit",
+    "properties": [
+      {
+        "key": "CooldownReductionOnHit",
+        "value": 0,
+        "type": "cooldown",
+        "requiresUpgrade": true
+      }
+    ],
+    "upgradeRequired": {
+      "key": "CooldownReductionOnHit",
+      "value": 0,
+      "type": "cooldown"
+    }
+  }
+}

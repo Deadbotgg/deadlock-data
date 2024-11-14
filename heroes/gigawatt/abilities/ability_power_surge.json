@@ -1,0 +1,71 @@
+{
+  "key": "ability_power_surge",
+  "name": "Power Surge",
+  "stats": {
+    "duration": 10,
+    "cooldown": 48,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage_per_chain": 10,
+    "bonus_per_chain": 10,
+    "chain_count": 3,
+    "chain_tick_rate": 0.2,
+    "chain_radius": 10,
+    "tech_resist_debuff": 0,
+    "debuff_duration": 0,
+    "boss_damage_percent": 50
+  },
+  "tooltipDetails": {
+    "description": "Power up your weapon with a shock effect, making <span class=\"highlight\">your bullets proc shock damage on your target</span>. This shock damage <span class=\"highlight\">bounces to enemies</span> near your target. Occurs once per burst shot.",
+    "properties": [
+      {
+        "key": "DamagePerChain",
+        "value": 10,
+        "m_e_display_type": "ETechDuration",
+        "type": "tech_damage",
+        "m_b_damage_affected_by_effectiveness": true,
+        "scale_function": {
+          "value": 0.16,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ChainCount",
+        "value": 3
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ChainRadius",
+        "value": "10m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "tech_resist_debuff": -15,
+        "debuff_duration": 8
+      },
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "damage_per_chain": 0.366912,
+        "bonus_per_chain": 0.366912,
+        "chain_count": 3
+      }
+    ]
+  }
+}

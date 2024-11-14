@@ -1,0 +1,90 @@
+{
+  "key": "ability_burrow",
+  "name": "Burrow",
+  "stats": {
+    "duration": 0,
+    "cooldown": 37,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 5,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 1,
+    "channel_time": 5,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": -1,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "dps": 80,
+    "radius": 5,
+    "bonus_move_speed": 4,
+    "speed_lost_duration": 1,
+    "enemy_damage_speed_penalty": 0.5,
+    "spin_duration": 1.5,
+    "spin_slow_percent": 10,
+    "spin_slow_duration": 0.3,
+    "tech_resist": 30,
+    "bullet_resist": 80,
+    "tick_rate": 0.1,
+    "up_force": 250
+  },
+  "tooltipDetails": {
+    "description": "Burrow underground, <span class=\"highlight\">moving faster,</span> and gaining <span class=\"highlight\">spirit and bullet armor</span>. Damage from enemy heroes will reduce the speed bonus. When you jump out, knock enemies into the air and perform a spin attack that <span class=\"highlight\">damages and slows</span>. Cooldown starts when Burrow ends.",
+    "properties": [
+      {
+        "key": "BonusMoveSpeed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "value": "4m",
+        "type": "move_speed",
+        "m_e_display_type": "EMaxMoveSpeed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+      },
+      {
+        "key": "DPS",
+        "value": 80,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.44144,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SpinDuration",
+        "value": 1.5,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "BulletResist",
+        "value": 80,
+        "type": "bullet_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "TechResist",
+        "value": 30,
+        "type": "tech_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_channel_time": 3
+      },
+      {
+        "dps": 140,
+        "radius": 2
+      },
+      {
+        "ability_cooldown": -19,
+        "bonus_move_speed": 2
+      }
+    ]
+  }
+}

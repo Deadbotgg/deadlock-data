@@ -1,0 +1,272 @@
+{
+  "id": 25,
+  "name": "Warden",
+  "new_player_friendly": false,
+  "in_development": false,
+  "in_hero_labs": false,
+  "is_disabled": false,
+  "complexity": 2,
+  "readability": 1,
+  "bot_selectable": true,
+  "lane_testing_recommended": false,
+  "starting_stats": {
+    "max_move_speed": 6.3,
+    "sprint_speed": 1,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 63,
+    "heavy_melee_damage": 116,
+    "max_health": 550,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 3,
+    "base_health_regen": 2,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": 0,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.942857,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 45,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.33
+  },
+  "visuals": {
+    "ui_color": [
+      85,
+      97,
+      120
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {
+    "eroundspersecond": 0.012,
+    "efirerate": 0.3
+  },
+  "weapon_stats": {
+    "bullet_damage": 19.8,
+    "rounds_per_second": 4,
+    "clip_size": 17,
+    "reload_time": 2.914,
+    "reload_movespeed": 1,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 114.17299999999999,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 22.64,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 0.25,
+    "bullets_per_shot": 1,
+    "bullets_per_burst": 1,
+    "burst_inter_shot_interval": 0,
+    "dps": 79.2,
+    "sustained_dps": 46.98492462311558,
+    "weapon_name": "citadel_weapon_warden_set",
+    "weapon_description": "citadel_weapon_hero_warden_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_MediumRange",
+      "Attribute_EWeaponAttribute_Projectile"
+    ]
+  },
+  "lore": "Most people think the supernatural came into the world 50 years ago.  They’re wrong.  Its presence shaped folklore for generations… and as long as there have been people afraid of the shadows, there have been those who dedicated their lives to fighting in them.\\n\\nComing from a lineage of militant alchemists, Warden’s family always trained for the day they would have to stave off a mystic apocalypse… but as time passed the importance of the lessons seemed less and less important.  What once was viewed as a sincere warning slowly morphed into being perceived as amusing anecdotes told by their superstitious grandparents.\\n\\nWhen the portal opened in Central Park, Warden’s parents realized not only was everything they were told was true, they were unprepared.  Refusing to let the next generation fall asleep on the job, Warden was trained since birth to be a supernatural killing machine with one purpose: stopping the Patrons from ever entering our world.",
+  "playstyle": "Warden leads from the front, jumping into the fray and hindering his opponents' ability to fight effectively. But what Warden considers brave, others consider reckless, and if he's not careful he can easily find himself in over his head.",
+  "role": "Weakens his enemies and chases them down",
+  "recommended_items": [
+    "upgrade_endurance",
+    "upgrade_close_range",
+    "upgrade_non_player_bonus",
+    "upgrade_magic_reach",
+    "upgrade_fleetfoot_boots",
+    "upgrade_berserker",
+    "upgrade_cardio_calibrator",
+    "upgrade_bullet_armor",
+    "upgrade_tech_armor",
+    "upgrade_suppressor",
+    "upgrade_magic_slow",
+    "upgrade_close_quarter_combat",
+    "upgrade_improved_bullet_armor",
+    "upgrade_tech_purge",
+    "upgrade_unstoppable",
+    "upgrade_inhibitor"
+  ],
+  "abilities": [
+    {
+      "key": "ability_warden_crowd_control"
+    },
+    {
+      "key": "ability_warden_high_alert"
+    },
+    {
+      "key": "ability_warden_lock_down"
+    },
+    {
+      "key": "ability_warden_riot_protocol"
+    }
+  ]
+}

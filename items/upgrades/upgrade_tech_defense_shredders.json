@@ -1,0 +1,76 @@
+{
+  "name": "Soul Shredder Bullets",
+  "description": "Your bullets apply a debuff that amplifies your <span class=\"highlight\">Spirit Damage</span> against the target and grants you <span class=\"highlight\">Spirit Lifesteal</span> against them.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/tech_resist_shredder_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 7,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "debuff_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "shredders_tech_amp": {
+            "value": 10,
+            "style": "tech_armor_down",
+            "is_conditional": true
+          },
+          "ability_lifesteal_percent_hero": {
+            "value": 20,
+            "style": "healing",
+            "is_conditional": true
+          }
+        },
+        "description": "Your bullets apply a debuff that amplifies your <span class=\"highlight\">Spirit Damage</span> against the target and grants you <span class=\"highlight\">Spirit Lifesteal</span> against them."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "base_attack_damage_percent": 7,
+  "shredders_tech_amp": 10,
+  "debuff_duration": 6
+}

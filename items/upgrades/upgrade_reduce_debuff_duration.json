@@ -1,0 +1,99 @@
+{
+  "name": "Debuff Remover",
+  "description": "Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/debuff_remover_psd",
+  "components": [
+    {
+      "key": "upgrade_debuff_reducer",
+      "name": "Debuff Reducer",
+      "image": "upgrades/mods_armor/debuff_reducer_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 125,
+            "style": "health",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "status_resistance_percent": {
+            "value": 40,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you."
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 45,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "active_bonus_move_speed": {
+            "value": 3,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "buff_duration": {
+            "value": 3,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">move speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 45,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "status_resistance_percent": 40,
+  "base_attack_damage_percent": 20,
+  "active_bonus_move_speed": 3,
+  "buff_duration": 3,
+  "bonus_health": 125
+}

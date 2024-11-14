@@ -1,0 +1,74 @@
+{
+  "key": "ability_magician_animalcurse",
+  "name": "Rabbit Hex",
+  "stats": {
+    "duration": 2,
+    "cooldown": 35,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0.35,
+    "channel_time": 0,
+    "post_cast_duration": 0.1,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bonus_move_speed": 4,
+    "damage_amp_percentage": 25,
+    "radius": 0,
+    "self_bump_impulse": 500,
+    "air_damping_duration": 1
+  },
+  "tooltipDetails": {
+    "description": "Hex a target, transforming them into a <span class=\"highlight\">Rabbit</span>. Rabbits are smaller and move faster, but receive a Damage Amp and cannot perform most actions.<br><span class=\"highlight\">[Cast]</span> Hex target hero.<br><span class=\"highlight\">[Alt-Cast]</span> Hex yourself.<br><span class=\"diminish\">Hex does not interrupt abilities.</span>",
+    "properties": [
+      {
+        "key": "AbilityDuration",
+        "value": 2,
+        "disable_value": 0,
+        "type": "duration",
+        "m_b_can_set_token_override": true
+      },
+      {
+        "key": "DamageAmpPercentage",
+        "value": 25,
+        "m_e_display_units": "EDisplayUnit_Normal",
+        "type": "damage",
+        "scale_function": {
+          "value": 0.1,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "BonusMoveSpeed",
+        "value": "4m",
+        "type": "move_speed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "Radius",
+        "value": "0m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -10
+      },
+      {
+        "ability_duration": 1
+      },
+      {
+        "radius": 6
+      }
+    ]
+  }
+}

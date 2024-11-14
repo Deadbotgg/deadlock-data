@@ -1,0 +1,42 @@
+{
+  "name": "Weapon Eater",
+  "description": "Reduces Courage by <span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>. <br>Gain <span class=\"highlight_weapon\">{s:WeaponPowerPerKill} Courage</span> (Up to <span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>) for <span class=\"highlight\">killing an enemy Hero</span> but lose <span class=\"highlight_weapon\">{s:WeaponPowerPerDeath} gained Courage</span> on <span class=\"highlight\">Death</span>. Bonus applied if damage was done within {s:KillWindow}s of enemy killed. ",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/advanced_weaponry_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Default": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Reduces Courage by <span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>. <br>Gain <span class=\"highlight_weapon\">{s:WeaponPowerPerKill} Courage</span> (Up to <span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>) for <span class=\"highlight\">killing an enemy Hero</span> but lose <span class=\"highlight_weapon\">{s:WeaponPowerPerDeath} gained Courage</span> on <span class=\"highlight\">Death</span>. Bonus applied if damage was done within {s:KillWindow}s of enemy killed. "
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "weapon_power_per_kill": 3.5,
+  "weapon_power_per_death": 6,
+  "kill_window": 1,
+  "max_weapon_power": 30,
+  "base_bonus_counter": -5
+}

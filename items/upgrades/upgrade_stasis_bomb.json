@@ -1,0 +1,113 @@
+{
+  "name": "Stasis Bomb",
+  "description": null,
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_utility/stasis_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 37,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "stasis_radius": {
+            "value": 7,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Creates an <span class=\"highlight\">EMP aura</span> around you and become <span class=\"highlight\">invincible</span> for {s:AbilityDuration}s, during which it has {s:MoveSpeedMax}m/s move speed and cannot attack, use abilities, or use special moves. Can be self cast."
+      },
+      {
+        "ability_properties": {
+          "stun_duration": {
+            "value": 1,
+            "style": "duration",
+            "is_negative": false
+          },
+          "explode_damage": {
+            "value": 250,
+            "style": "tech_damage",
+            "is_negative": false
+          },
+          "stasis_radius": {
+            "value": 7,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "<span class=\"spacer\"></span><br>If the Stasis lasts the full duration, it will <span class=\"highlight\">stun and damage</span> nearby enemies."
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "e_m_p_duration": {
+            "value": 3,
+            "style": null,
+            "is_negative": false
+          },
+          "build_up_per_shot": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          },
+          "build_up_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "immunity_duration": {
+            "value": 4,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 37,
+  "ability_duration": 6,
+  "ability_cast_range": 20,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "stasis_radius": 7,
+  "explode_radius": 7,
+  "explode_damage": 250,
+  "stun_duration": 1.5,
+  "immunity_duration": 4,
+  "e_m_p_duration": 3,
+  "e_m_p_proc_chance": 100,
+  "build_up_per_shot": 1.6,
+  "build_up_duration": 10,
+  "damping_factor": 0.5,
+  "max_fall_speed": 0,
+  "lift_height": 120,
+  "slamdown_speed": 500,
+  "move_speed_max": 4
+}

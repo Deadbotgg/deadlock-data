@@ -1,0 +1,89 @@
+{
+  "key": "viscous_restorative_goo",
+  "name": "The Cube",
+  "stats": {
+    "duration": 4,
+    "cooldown": 48,
+    "range": 30,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "cube_scale": 1.5,
+    "friction": -80,
+    "bonus_health_regen": 40,
+    "max_health_regen": 0,
+    "purge_debuffs": 0,
+    "push_back_radius": 50,
+    "push_back_force": 250,
+    "light_melee_force": 300,
+    "heavy_melee_force": 700,
+    "bullet_force": 600,
+    "slide_force": 70,
+    "breakout_time": 1,
+    "post_cube_buff": 0,
+    "bonus_move_speed": 0,
+    "post_cube_buff_duration": 8,
+    "stamina_cooldown_reduction": 0
+  },
+  "tooltipDetails": {
+    "description": "After exiting the cube, the target has increased <span class=\"highlight\">move speed and stamina recovery</span> for a short duration.",
+    "properties": [
+      {
+        "key": "BonusMoveSpeed",
+        "value": "0m",
+        "m_e_display_type": "EMaxMoveSpeed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "requiresUpgrade": true
+      },
+      {
+        "key": "StaminaCooldownReduction",
+        "value": 0,
+        "m_e_display_type": "EStaminaRegenPerSecond",
+        "m_e_provided_property_type": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "requiresUpgrade": true
+      },
+      {
+        "key": "PostCubeBuffDuration",
+        "value": 8,
+        "m_e_display_type": "ETechDuration",
+        "requiresUpgrade": true
+      }
+    ],
+    "basicProperties": [],
+    "upgradeRequired": {
+      "key": "BonusMoveSpeed",
+      "value": "0m",
+      "m_e_display_type": "EMaxMoveSpeed",
+      "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+      "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+      "m_usage_flags": "APUsageFlag_ModifierConditional"
+    },
+    "upgrades": [
+      {
+        "bonus_move_speed": 2.5,
+        "stamina_cooldown_reduction": 30,
+        "post_cube_buff": 1
+      },
+      {
+        "bonus_health_regen": 35
+      },
+      {
+        "ability_cooldown": -21,
+        "purge_debuffs": 1
+      }
+    ]
+  }
+}

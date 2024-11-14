@@ -1,0 +1,58 @@
+{
+  "key": "ability_throw_sand",
+  "name": "Sand Blast",
+  "stats": {
+    "duration": 3.5,
+    "cooldown": 42,
+    "range": 35,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 35,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 40,
+    "growth_per_meter": 0.5,
+    "initial_width": 5,
+    "slow_percent": 0,
+    "silence": 0
+  },
+  "tooltipDetails": {
+    "description": "Spray sand that <span class=\"highlight\">disarms</span> enemies in front of you and deals <span class=\"highlight\">damage</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.04832,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SlowPercent",
+        "value": 0,
+        "type": "slow",
+        "requiresUpgrade": true
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_duration": 1
+      },
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "slow_percent": 50
+      }
+    ]
+  }
+}

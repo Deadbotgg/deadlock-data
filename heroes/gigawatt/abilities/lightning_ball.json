@@ -1,0 +1,68 @@
+{
+  "key": "citadel_ability_lightning_ball",
+  "name": "Lightning Ball",
+  "stats": {
+    "duration": 0,
+    "cooldown": 26,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 8,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 8,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "shock_radius": 3.5,
+    "dps": 80,
+    "tick_rate": 0.1,
+    "min_shock_duration": 0.5,
+    "max_lifetime": 5,
+    "hit_speed": 80,
+    "slow_percent": 0,
+    "boss_damage_percent": 50
+  },
+  "tooltipDetails": {
+    "description": "Shoot a ball of lightning that travels in a straight line. Does <span class=\"highlight\">damage to all targets in its radius</span>. Slows down when damaging enemies and stops if it hits the world.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 80,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.45864,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ShockRadius",
+        "value": "3.5m",
+        "type": "distance"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MaxLifetime",
+        "value": 5,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "slow_percent": 35
+      },
+      {
+        "dps": 70,
+        "shock_radius": 1
+      }
+    ]
+  }
+}

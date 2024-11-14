@@ -1,0 +1,75 @@
+{
+  "key": "citadel_ability_tengu_stone_form",
+  "name": "Stone Form",
+  "stats": {
+    "duration": 2,
+    "cooldown": 42,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "statue_scale": 1,
+    "damping_factor": 0.25,
+    "max_fall_speed": 0,
+    "move_speed_max": 8,
+    "lift_height": 180,
+    "lift_time": 1,
+    "bonus_health_regen": 0,
+    "max_health_regen": 10,
+    "damage": 80,
+    "stun_duration": 0.75,
+    "radius": 6
+  },
+  "tooltipDetails": {
+    "description": "Turn yourself into <span class=\"highlight\">impervious stone</span> and smash into the ground, <span class=\"highlight\">stunning and damaging</span> enemies nearby. Heals you for a percentage of your max health. You have some air control before falling.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 80,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.04832,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StatusEffectStun",
+        "statusEffect": {
+          "key": "StunDuration",
+          "value": 0.75,
+          "type": "duration"
+        },
+        "isShown": true
+      },
+      {
+        "key": "MaxHealthRegen",
+        "value": 10,
+        "type": "healing"
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "stun_duration": 0.5,
+        "damage": 80
+      },
+      {
+        "max_health_regen": 20,
+        "name": "Max Health Heal"
+      }
+    ]
+  }
+}

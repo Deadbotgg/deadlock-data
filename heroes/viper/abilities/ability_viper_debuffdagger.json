@@ -1,0 +1,64 @@
+{
+  "key": "ability_viper_debuffdagger",
+  "name": "Screwjab Dagger",
+  "stats": {
+    "duration": 0,
+    "cooldown": 10,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 50,
+    "slow_duration": 1,
+    "slow_percent": 50,
+    "stamina_reduction": 0
+  },
+  "tooltipDetails": {
+    "description": "Throw a dagger, dealing <span class=\"highlight_spirit\">Spirit Damage</span> and applying a <span class=\"highlight\">Fading Slow</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 50,
+        "scale_function": {
+          "value": 0.8,
+          "type": "spirit"
+        },
+        "m_e_display_type": "EStatsCount",
+        "type": "tech_damage"
+      },
+      {
+        "key": "SlowPercent",
+        "value": 50
+      },
+      {
+        "key": "SlowDuration",
+        "value": 1,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -4
+      },
+      {
+        "damage": 50
+      },
+      {
+        "slow_duration": 1,
+        "name": "Stamina Reduction",
+        "stamina_reduction": 1
+      }
+    ]
+  }
+}

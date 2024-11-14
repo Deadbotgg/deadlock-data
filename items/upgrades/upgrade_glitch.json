@@ -1,0 +1,80 @@
+{
+  "name": "Curse",
+  "description": "Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "ActivationPress",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/glitch_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterDisruption",
+    "EShopFilterWeaponDamage"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 8,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 53,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 3,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cast_range": {
+            "value": 20,
+            "style": "range",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 53,
+  "ability_duration": 3.25,
+  "ability_cast_range": 20,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 8,
+  "weapon_power": 0,
+  "skip_frames": 6,
+  "slow_percent": 0,
+  "base_attack_damage_percent": 20
+}

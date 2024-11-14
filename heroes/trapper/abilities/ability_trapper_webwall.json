@@ -1,0 +1,92 @@
+{
+  "key": "ability_trapper_webwall",
+  "name": "Silktrap",
+  "stats": {
+    "duration": 0,
+    "cooldown": 40,
+    "range": 40,
+    "charges": 1,
+    "charge_restore_time": 1,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 40,
+    "unit_target_limit": 1,
+    "cast_delay": 0.22,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 1,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 0.6,
+    "wall_to_wall_distance": 100,
+    "web_duration": 60,
+    "damage": 200,
+    "web_wall_tick_rate": 0.15,
+    "debuff_duration": 2,
+    "slow_percent": 99,
+    "web_arm_time": 0.5,
+    "disarm_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Create a thread of web between two surfaces. Enemies who touch the web take <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and are <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Slowed</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 200,
+        "m_e_display_type": "ETechPower",
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.3,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SlowPercent",
+        "value": 99,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "StatusEffectDisarmed",
+        "requiresUpgrade": true,
+        "statusEffect": {
+          "key": "DisarmDuration",
+          "value": 0
+        },
+        "isShown": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "DebuffDuration",
+        "value": 2
+      },
+      {
+        "key": "WebDuration",
+        "value": 60,
+        "type": "duration"
+      },
+      {
+        "key": "WallToWallDistance",
+        "value": "100m",
+        "m_e_display_type": "ETechRange",
+        "m_e_display_units": "EDisplayUnit_Meters",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "web_duration": 120,
+        "name": "Web Duration"
+      },
+      {
+        "disarm_duration": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Infuser",
+  "description": "Gain <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Spirit Lifesteal</span>.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "InstantCast",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/infuser_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterMagicDamage"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 50,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_clip_size_percent": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 37,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bonus_spirit": {
+            "value": 16,
+            "style": "tech_damage",
+            "is_conditional": true
+          },
+          "ability_lifesteal_percent_hero": {
+            "value": 20,
+            "style": "healing",
+            "is_conditional": true
+          }
+        },
+        "description": "Gain <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Spirit Lifesteal</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 37,
+  "ability_duration": 6,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_health": 50,
+  "bonus_clip_size_percent": 10,
+  "bonus_spirit": 16
+}

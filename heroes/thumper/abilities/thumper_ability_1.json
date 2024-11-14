@@ -1,0 +1,30 @@
+{
+  "key": "thumper_ability_1",
+  "name": "Shatter Cannon",
+  "stats": {
+    "duration": 0,
+    "cooldown": 17,
+    "range": 40,
+    "charges": 1,
+    "charge_restore_time": 4,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 40,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 4,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bounce_range": 20,
+    "damage": 120,
+    "plane_spread": 30,
+    "bounce_radians": 0.5,
+    "push_speed_max": 1000,
+    "push_speed_mid": 600,
+    "push_speed_min": 100,
+    "max_plane_distance": 1
+  }
+}

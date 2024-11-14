@@ -1,0 +1,93 @@
+{
+  "name": "Silencer",
+  "description": "",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/emp_bullets_psd",
+  "components": [
+    {
+      "key": "upgrade_slowing_bullets",
+      "name": "Slowing Bullets",
+      "image": "upgrades/mods_weapon/slowing_bullets_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "slow_percent": {
+            "value": 25,
+            "style": "slow",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 18,
+            "style": "tech_damage",
+            "is_negative": false
+          },
+          "tech_resist": {
+            "value": 12,
+            "style": "tech_armor_up",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "e_m_p_duration": {
+            "value": 2,
+            "style": null,
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 36,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "For the next {s:AbilityDuration}s, <span class=\"highlight\">all your bullets immediately apply Silence</span>. Silence prevents targets from using abilities."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 36,
+  "ability_duration": 4,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 18,
+  "weapon_power": 0,
+  "e_m_p_duration": 2,
+  "base_attack_damage_percent": 20,
+  "slow_percent": 25,
+  "slow_duration": 1.3,
+  "tech_resist": 12
+}

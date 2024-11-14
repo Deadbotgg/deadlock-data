@@ -1,0 +1,266 @@
+{
+  "id": 20,
+  "name": "Ivy",
+  "new_player_friendly": false,
+  "in_development": false,
+  "in_hero_labs": false,
+  "is_disabled": false,
+  "complexity": 3,
+  "readability": 1,
+  "bot_selectable": false,
+  "lane_testing_recommended": false,
+  "starting_stats": {
+    "max_move_speed": 7.3,
+    "sprint_speed": 0,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 63,
+    "heavy_melee_damage": 116,
+    "max_health": 550,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 4,
+    "base_health_regen": 2,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": 0,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.36,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 35,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.383
+  },
+  "visuals": {
+    "ui_color": [
+      179,
+      115,
+      217
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {},
+  "weapon_stats": {
+    "bullet_damage": 5,
+    "rounds_per_second": 14.285714285714285,
+    "clip_size": 33,
+    "reload_time": 2.444,
+    "reload_movespeed": 1,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 225,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 22.64,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 0.8,
+    "bullets_per_shot": 1,
+    "bullets_per_burst": 1,
+    "burst_inter_shot_interval": 0,
+    "dps": 71.42857142857142,
+    "sustained_dps": 34.70761464030291,
+    "weapon_name": "citadel_weapon_tengu_set",
+    "weapon_description": "citadel_weapon_hero_tengu_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_RapidFire",
+      "Attribute_EWeaponAttribute_MediumRange"
+    ]
+  },
+  "lore": "The gargoyle didn't know what was happening when it sprang to life...  just that a big human and a small human were being hurt.  And so the gargoyle leapt to action, sending the attackers fleeing in horror.  The small human said thank you and asked the gargoyle's name.  The gargoyle didn't have one.  And so the small human said, \\\"I'm going to call you Ivy.\\\"  The gargoyle, being covered in ivy at the time, thought it was a bit obvious, but decided to go along with it for the small human's sake.\\n\\nThe humans asked if Ivy would come home with them so they could show their appreciation, and so Ivy walked with them.  That night she learned much.  The family were called The Arroyo's.  The little one, Sophia.  Mofongo is what they called a plate of deliciousness.  But most importantly, she learned that the people attacking them were called \\\"The Mendoza Syndicate\\\", and they were hurting people...nice people like The Arroyo's.\\n\\n18 years have passed since the day the Arroyo's took Ivy home... and during that time she made it her mission to dismantle the Mendoza Syndicate and free Spanish Harlem from its grasp.  However the thing about dedicating your life to a single pursuit for nearly 2 decades is that you don't really know what to do once you achieve it.  For the first time in her life, Ivy is prepared to venture outside of Spanish Harlem and see what the world has to offer beyond vigilante justice.",
+  "playstyle": "Ivy has disruptive combat tricks that slow and stun enemies. She's most effective when linking up with an ally, empowering her and her ally's guns as well as sharing heals.",
+  "role": "Sets up a power duo with a lucky ally",
+  "recommended_items": [
+    "upgrade_health_stimpak",
+    "upgrade_clip_size",
+    "upgrade_non_player_bonus",
+    "upgrade_health_nova",
+    "upgrade_healing_booster",
+    "upgrade_bullet_armor",
+    "upgrade_tech_armor",
+    "upgrade_magic_tempo",
+    "upgrade_chain_lightning",
+    "upgrade_titan_round",
+    "upgrade_chonky",
+    "upgrade_banshee_slugs",
+    "upgrade_inhibitor"
+  ],
+  "abilities": [
+    {
+      "key": "citadel_ability_tengu_urn"
+    },
+    {
+      "key": "citadel_ability_tangotether"
+    },
+    {
+      "key": "citadel_ability_tengu_stone_form"
+    },
+    {
+      "key": "citadel_ability_tengu_airlift"
+    }
+  ]
+}

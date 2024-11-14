@@ -1,0 +1,70 @@
+{
+  "key": "citadel_ability_bull_leap",
+  "name": "Seismic Impact",
+  "stats": {
+    "duration": 0,
+    "cooldown": 159,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "impact_radius": 9,
+    "impact_height": 4,
+    "impact_radius_percentage": 0,
+    "damage": 150,
+    "stun_duration": 1,
+    "bonus_max_health_per_hero": 0,
+    "bonus_fire_rate_per_hero": 0,
+    "landing_bonuses_duration": 0,
+    "immunity_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Leap high into the air</span> and choose a ground location to crash into.  When you hit the ground, <span class=\"highlight\">all enemies in the radius are damaged and stunned</span>.<br>Press [{s:iv_attack}] to crash down early.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 150,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.91728,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StunDuration",
+        "value": 1,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ImpactRadius",
+        "value": "9m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -38
+      },
+      {
+        "bonus_max_health_per_hero": 100,
+        "bonus_fire_rate_per_hero": 15,
+        "landing_bonuses_duration": 25
+      },
+      {
+        "immunity_duration": 3
+      }
+    ]
+  }
+}

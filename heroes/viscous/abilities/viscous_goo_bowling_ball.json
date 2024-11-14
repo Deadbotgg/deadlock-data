@@ -1,0 +1,89 @@
+{
+  "key": "viscous_goo_bowling_ball",
+  "name": "Goo Ball",
+  "stats": {
+    "duration": 10,
+    "cooldown": 95,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.55,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 275,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "ball_radius": 1.4,
+    "ball_hit_radius": 1.8,
+    "damage": 140,
+    "ball_offset": 50,
+    "boss_damage_percent": 50,
+    "friction_percentage": -85,
+    "acceleration_percentage": -60,
+    "move_speed_max": 7,
+    "breakable_prop_damage_radius": 75,
+    "jump_force": 500,
+    "particle_radius_multiplier": 1.2,
+    "tick_rate": 0.25,
+    "stun_duration": 0.7,
+    "knock_force": 400,
+    "tech_resist": 60,
+    "bullet_resist": 60,
+    "air_jump_force": 500,
+    "cast_while_rolling": 0
+  },
+  "tooltipDetails": {
+    "description": "Morph into a large goo ball that <span class=\"highlight\">deals damage</span> and <span class=\"highlight\">stuns</span> enemies on impact. The ball grants large amounts of <span class=\"highlight\">Bullet</span> and <span class=\"highlight\">Spirit</span> resist, bounces off walls and can <span class=\"highlight\">double jump</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 140,
+        "type": "tech_damage",
+        "m_e_display_type": "ETechPower",
+        "scale_function": {
+          "value": 1.3,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StunDuration",
+        "value": 0.7
+      },
+      {
+        "key": "BallRadius",
+        "value": "1.4m",
+        "type": "radius"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "TechResist",
+        "value": 60,
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BulletResist",
+        "value": 60,
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_duration": 5
+      },
+      {
+        "damage": 120
+      },
+      {
+        "cast_while_rolling": 1
+      }
+    ]
+  }
+}

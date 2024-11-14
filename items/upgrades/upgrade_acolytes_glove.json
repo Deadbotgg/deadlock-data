@@ -1,0 +1,93 @@
+{
+  "name": "Spirit Strike",
+  "description": "When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, deal extra <span class=\"highlight\">Spirit Damage</span> with the attack and reduce the target's <span class=\"highlight\">Spirit Resist</span>.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/acolytes_glove_psd",
+  "components": null,
+  "componentsOf": [
+    {
+      "key": "upgrade_superacolytes_glove",
+      "name": "Hex-Sealed Knuckles",
+      "image": "upgrades/mods_tech/acolytes_glove_psd"
+    }
+  ],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterMelee"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_melee_damage_percent": {
+            "value": 12,
+            "style": "melee_damage",
+            "is_negative": false
+          },
+          "tech_shield_max_health": {
+            "value": 80,
+            "style": "tech_armor_up",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 11,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 8,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "spirit_damage": {
+            "value": 50,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "tech_armor_damage_reduction": {
+            "value": -12,
+            "style": "tech_armor_down",
+            "is_conditional": true
+          }
+        },
+        "description": "When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, deal extra <span class=\"highlight\">Spirit Damage</span> with the attack and reduce the target's <span class=\"highlight\">Spirit Resist</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 8.5,
+  "ability_duration": 11,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "spirit_damage": 50,
+  "tech_armor_damage_reduction": -12,
+  "tech_shield_max_health": 80,
+  "bonus_melee_damage_percent": 12
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Stabilizer",
+  "description": "Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/stabilizer_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_bullet_speed_percent": {
+            "value": 30,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "move_while_shooting_speed_penalty_reduction_percent": 100,
+  "move_while_zoomed_speed_penalty_reduction_percent": 100,
+  "bonus_bullet_speed_percent": 30
+}

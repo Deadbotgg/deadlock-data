@@ -1,0 +1,94 @@
+{
+  "name": "Discord",
+  "description": "Apply an aura around enemy or friendly target that <span class=\"highlight\">damages enemies in the radius and suppresses their healing by {s:HealAmpReceivePenaltyPercent}%</span>. If cast on a friendly, it also heals them.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "ActivationPress",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/rupture_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "Hero"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cast_range": {
+            "value": 25,
+            "style": "range",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 32,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "aura_radius": {
+            "value": 10,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "max_health_percent_as_d_p_s": {
+            "value": 3,
+            "style": "tech_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Apply an aura around enemy or friendly target that <span class=\"highlight\">damages enemies in the radius and suppresses their healing by {s:HealAmpReceivePenaltyPercent}%</span>. If cast on a friendly, it also heals them."
+      },
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 32,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "max_health_percent_as_heal_per_second": {
+            "value": 5,
+            "style": "healing",
+            "is_conditional": false
+          }
+        },
+        "description": ""
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 32,
+  "ability_duration": 10,
+  "ability_cast_range": 25,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.25,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "heal_amp_receive_penalty_percent": -80,
+  "heal_amp_regen_penalty_percent": -80,
+  "max_health_percent_as_d_p_s": 3,
+  "max_health_percent_as_heal_per_second": 5,
+  "aura_radius": 10
+}

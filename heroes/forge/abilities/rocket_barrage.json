@@ -1,0 +1,92 @@
+{
+  "key": "citadel_ability_rocket_barrage",
+  "name": "Heavy Barrage",
+  "stats": {
+    "duration": 0,
+    "cooldown": 140,
+    "range": 50,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 13,
+    "resource_cost": 0,
+    "cast_range": 50,
+    "unit_target_limit": 100,
+    "cast_delay": 0,
+    "channel_time": 13,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": -1,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage_per_rocket": 30,
+    "grenades_per_second": 6,
+    "interval_ramp_up_time": 0.3,
+    "interval_ramp_up_start": 0.35,
+    "detonate_timer": 5,
+    "explosion_falloff_disabled": 1,
+    "boss_damage_percent": 50,
+    "explosion_radius": 5,
+    "tracking_variance": 0,
+    "track_speed_near": 150,
+    "track_speed_far": 100,
+    "tracking_time": 0.4,
+    "min_distance": 7,
+    "max_pitch": 0,
+    "max_spread": 5,
+    "projectile_ignore_collision_time": 0.2,
+    "grenades_per_second_mult": 0,
+    "move_slow_percent": 0,
+    "move_slow_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Unleashes a volley of rockets that home in on a targeted location.",
+    "properties": [
+      {
+        "key": "DamagePerRocket",
+        "value": 30,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.35,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "GrenadesPerSecond",
+        "value": 6
+      },
+      {
+        "key": "ExplosionRadius",
+        "value": "5m",
+        "type": "distance"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MinDistance",
+        "value": "7m",
+        "type": "distance",
+        "m_e_display_type": "ETechRange"
+      },
+      {
+        "key": "AbilityChannelTime",
+        "value": 13,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true
+      }
+    ],
+    "upgrades": [
+      {
+        "move_slow_percent": 30,
+        "move_slow_duration": 2
+      },
+      {
+        "ability_cooldown": -50
+      },
+      {
+        "damage_per_rocket": 30,
+        "name": "Damage Per Rocket"
+      }
+    ]
+  }
+}

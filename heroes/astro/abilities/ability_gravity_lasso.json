@@ -1,0 +1,59 @@
+{
+  "key": "ability_gravity_lasso",
+  "name": "Spirit Lasso",
+  "stats": {
+    "duration": 2.5,
+    "cooldown": 159,
+    "range": 10,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 10,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bounce_pad_extend_duration": 2,
+    "lift_height": 7,
+    "lift_horizontal": -30,
+    "follow_damping_factor": 12,
+    "damage_vulnerbility": 0,
+    "grab_extra_targets": 0,
+    "grab_extra_targets_radius_mult": 2,
+    "extra_target_cone_angle": 40,
+    "extra_target_horizontal_offset": 30,
+    "follow_distance": 120,
+    "camera_preview_offset": 25,
+    "camera_preview_speed": 0.6,
+    "camera_preview_distance": 200,
+    "lasso_target_max_speed": 550
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Grab an enemy</span> with your lasso and drag them along behind you. The <span class=\"highlight\">enemy is stunned</span> and Astro is slowed slightly during the lasso.<br><br> Lasso duration is paused for {s:BouncePadExtendDuration}s during the first usage of a bounce pad.",
+    "properties": [
+      {
+        "key": "ExtraTargetConeAngle",
+        "value": 40
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_duration": 0.6
+      },
+      {
+        "ability_cooldown": -56
+      },
+      {
+        "grab_extra_targets": 1,
+        "name": "Targetting Cone Angle",
+        "extra_target_cone_angle": 60
+      }
+    ]
+  }
+}

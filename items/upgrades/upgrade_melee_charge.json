@@ -1,0 +1,84 @@
+{
+  "name": "Melee Charge",
+  "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/melee_charge_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy",
+    "TrooperEnemy",
+    "MinionEnemy",
+    "Neutral"
+  ],
+  "shop_filters": [
+    "EShopFilterMelee"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          },
+          "melee_distance_scale": {
+            "value": 40,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 16,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bonus_heavy_melee_damage": {
+            "value": 20,
+            "style": "melee_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and either <span class=\"highlight\">reload your weapon instantly</span> or give you up to <span class=\"highlight\">+100% bonus ammo</span>. <br>Only activates when Bonus Ammo is not full."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 16,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "base_attack_damage_percent": 10,
+  "bonus_health": 75,
+  "melee_distance_scale": 40,
+  "bonus_heavy_melee_damage": 20
+}

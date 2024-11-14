@@ -1,0 +1,63 @@
+{
+  "name": "Disarming Bullets",
+  "description": "Your bullets <span class=\"highlight\">disarm</span> enemies, them preventing them from shooting their weapon.  Victims are immune to disarming bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_tech/disarm_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 5,
+            "style": "duration",
+            "is_negative": false
+          },
+          "build_up_per_shot": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          },
+          "build_up_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "immunity_duration": {
+            "value": 3,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Your bullets <span class=\"highlight\">disarm</span> enemies, them preventing them from shooting their weapon.  Victims are immune to disarming bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 5,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "immunity_duration": 3,
+  "build_up_per_shot": 1,
+  "build_up_duration": 10
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Overdrive",
+  "description": "Increase your <span class=\"highlight\">Courage</span> while draining your own <span class=\"highlight\">health</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/overdrive_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 11,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 4,
+            "style": "duration",
+            "is_negative": false
+          },
+          "health_drained_per_second": {
+            "value": 35,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "weapon_power_while_activated": {
+            "value": 135,
+            "style": "bullet_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Increase your <span class=\"highlight\">Courage</span> while draining your own <span class=\"highlight\">health</span>."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 11.5,
+  "ability_duration": 4,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "weapon_power_while_activated": 135,
+  "health_drained_per_second": 35,
+  "interval": 0.1
+}

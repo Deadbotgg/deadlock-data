@@ -1,0 +1,269 @@
+{
+  "id": 13,
+  "name": "Haze",
+  "new_player_friendly": true,
+  "in_development": false,
+  "in_hero_labs": false,
+  "is_disabled": false,
+  "complexity": 1,
+  "readability": 5,
+  "bot_selectable": true,
+  "lane_testing_recommended": true,
+  "starting_stats": {
+    "max_move_speed": 8.3,
+    "sprint_speed": 0,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 63,
+    "heavy_melee_damage": 116,
+    "max_health": 500,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 3,
+    "base_health_regen": 2,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": 0,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.223929,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 27,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.27
+  },
+  "visuals": {
+    "ui_color": [
+      172,
+      97,
+      51
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {
+    "eclipsize": 0.5
+  },
+  "weapon_stats": {
+    "bullet_damage": 5.6,
+    "rounds_per_second": 10,
+    "clip_size": 25,
+    "reload_time": 2.35,
+    "reload_movespeed": 1,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 300,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 18.11,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 1.5,
+    "bullets_per_shot": 1,
+    "bullets_per_burst": 1,
+    "burst_inter_shot_interval": 0,
+    "dps": 55.99999999999999,
+    "sustained_dps": 28.8659793814433,
+    "weapon_name": "citadel_weapon_haze_set",
+    "weapon_description": "citadel_weapon_hero_haze_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_RapidFire",
+      "Attribute_EWeaponAttribute_CloseRange"
+    ]
+  },
+  "lore": "The Occult Security and Investigation Commission is a black box government organization that makes the CIA look transparent.  It falls on the men, women, and entities of the OSIC to keep the country safe from sinister forces that are beyond the capabilities of local law enforcement.\\n\\nAs a member of the notorious Sandman Division, Haze is routinely tasked with infiltrating the dreams of persons of interest, to assess their threat level, and if needed... to put them to sleep.",
+  "playstyle": "When Haze fixates on a target she can hold her own in a firefight. She prefers to create one sided exchanges, avoiding damage then picking off unsuspecting targets up close.",
+  "role": "Sneaks in and sprays bullets",
+  "recommended_items": [
+    "upgrade_endurance",
+    "upgrade_clip_size",
+    "upgrade_improved_spirit",
+    "upgrade_vampire",
+    "upgrade_slowing_bullets",
+    "upgrade_blitz_bullets",
+    "upgrade_regenerating_bullet_shield",
+    "upgrade_magic_shield",
+    "upgrade_burst_fire",
+    "upgrade_bullet_armor_reduction_aura",
+    "upgrade_chonky",
+    "upgrade_inhibitor",
+    "upgrade_silencer",
+    "upgrade_critshot"
+  ],
+  "abilities": [
+    {
+      "key": "ability_sleep_dagger"
+    },
+    {
+      "key": "ability_smoke_bomb"
+    },
+    {
+      "key": "ability_stacking_damage"
+    },
+    {
+      "key": "ability_bullet_flurry"
+    }
+  ]
+}

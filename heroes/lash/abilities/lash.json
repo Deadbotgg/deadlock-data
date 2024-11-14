@@ -1,0 +1,79 @@
+{
+  "key": "citadel_ability_lash",
+  "name": "Grapple",
+  "stats": {
+    "duration": 0,
+    "cooldown": 42,
+    "range": 30,
+    "charges": 1,
+    "charge_restore_time": 2,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 2,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "jump_velocity": 20,
+    "lash_friendlies": 1,
+    "lash_metal_skin_duration": 0,
+    "min_distance": 0,
+    "jump_slow_resistance": 0.667,
+    "restore_stamina_on_use": 0,
+    "weapon_damage_bonus": 0,
+    "weapon_damage_bonus_duration": 0,
+    "weapon_fire_rate_bonus": 0
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Pull yourself through the air</span> toward a target. Using Grapple also resets your limit of <span class=\"highlight\">air jumps and dashes</span>.",
+    "properties": [
+      {
+        "key": "JumpVelocity",
+        "value": "20m",
+        "type": "move_speed",
+        "m_e_display_type": "EMaxMoveSpeed"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "WeaponDamageBonus",
+        "value": 0,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "WeaponDamageBonusDuration",
+        "value": 0,
+        "type": "duration"
+      },
+      {
+        "key": "WeaponFireRateBonus",
+        "value": 0,
+        "type": "fire_rate",
+        "m_e_display_type": "EFireRate",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "ability_cast_range": 20,
+        "name": "Bonus Duration",
+        "weapon_damage_bonus": 6,
+        "weapon_damage_bonus_duration": 10
+      },
+      {
+        "weapon_fire_rate_bonus": 20,
+        "name": "Fire Rate"
+      }
+    ]
+  }
+}

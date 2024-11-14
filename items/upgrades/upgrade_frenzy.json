@@ -1,0 +1,69 @@
+{
+  "name": "Low HP Frenzy",
+  "description": null,
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/health_stealing_bullets_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bullet_lifesteal_percent": {
+            "value": 25,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "bullet_armor_reduction": {
+            "value": -40,
+            "style": "bullet_armor_down",
+            "is_negative": false
+          },
+          "radius": {
+            "value": 15,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Nearby enemies take <span class=\"highlight\">increased damage</span> from bullets.<br><br>If an enemy hero dies under this aura, you gain <span class=\"highlight\">+{s:KillBonusMoveSpeedPerStack} m/s</span>. This effect <span class=\"highlight\">lasts until you die</span> and can be stacked up to {s:MaxKillBonusMoveSpeedStack} times."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bullet_lifesteal_percent": 25,
+  "radius": 15,
+  "bullet_armor_reduction": -40,
+  "low_health_percent_threshold": 45,
+  "low_health_life_steal_percent": 45,
+  "kill_bonus_move_speed_per_stack": 2,
+  "max_kill_bonus_move_speed_stack": 3
+}

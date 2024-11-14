@@ -1,0 +1,84 @@
+{
+  "key": "citadel_ability_lash_down_strike",
+  "name": "Ground Strike",
+  "stats": {
+    "duration": 0,
+    "cooldown": 19,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0.4,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 11,
+    "strike_velocity": 50,
+    "stomp_damage": 90,
+    "stomp_damage_per_meter_primary": 6,
+    "stomp_damage_per_meter_secondary": 4.5,
+    "stomp_damage_primary_range": 25,
+    "min_aim_angle": 60,
+    "slow_duration": 0,
+    "enemy_slow_pct": 0,
+    "stomp_vertical_threshold": 130,
+    "stomp_bounce_height": 0
+  },
+  "tooltipDetails": {
+    "description": "Stomp the ground beneath you, <span class=\"highlight\">damaging enemies</span> in front of you. If you perform Ground Strike while airborne, you quickly dive towards the ground. Damage grows slower after 25m.",
+    "properties": [
+      {
+        "key": "StompDamage",
+        "value": 90,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.85,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StompDamagePerMeterPrimary",
+        "value": 6,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.05,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "EnemySlowPct",
+        "value": 0,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 0,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -9.5
+      },
+      {
+        "enemy_slow_pct": 50,
+        "slow_duration": 3,
+        "stomp_bounce_height": 400
+      },
+      {
+        "stomp_damage_per_meter_primary": 113,
+        "stomp_damage_per_meter_secondary": 113
+      }
+    ]
+  }
+}

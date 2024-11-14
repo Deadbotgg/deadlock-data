@@ -1,0 +1,63 @@
+{
+  "key": "ability_magician_cloneturret",
+  "name": "Spectral Assistant",
+  "stats": {
+    "duration": 5,
+    "cooldown": 30,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 5,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 5,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 100,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bonus_clip_size_percent": 0,
+    "damage": 60,
+    "turret_bullet_vertical_offset": 2,
+    "copy1": 0,
+    "turret_bullet_target_angle": 20,
+    "turret_bullet_target_radius": 500
+  },
+  "tooltipDetails": {
+    "description": "Summon an <span class=\"highlight\">Assistant</span> at the targeted location. The <span class=\"highlight\">Assistant</span> attacks whenever you fire your weapon, dealing  <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>While the <span class=\"highlight\">Assistant</span> is out, you can press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your <span class=\"highlight\">Assistant</span>. This effect can only happen once. <br><br><span class=\"diminish\">Casting Spectral Assistant also reloads your weapon.</span>",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 60,
+        "m_e_display_type": "ETechPower",
+        "scale_function": {
+          "value": 0.5,
+          "type": "spirit"
+        },
+        "type": "tech_damage"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "AbilityDuration",
+        "value": 5,
+        "disable_value": 0,
+        "type": "duration",
+        "m_b_can_set_token_override": true
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -10
+      },
+      {
+        "ability_duration": 5
+      },
+      {
+        "copy_ability1": 1
+      }
+    ]
+  }
+}

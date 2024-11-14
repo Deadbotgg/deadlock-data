@@ -1,0 +1,86 @@
+{
+  "name": "Crippling Headshot",
+  "description": "",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/banshee_slugs_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "bullet_lifesteal_percent": {
+            "value": 10,
+            "style": "healing",
+            "is_negative": false
+          },
+          "ability_lifesteal_percent_hero": {
+            "value": 10,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "debuff_duration": {
+            "value": 4,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bullet_resist_reduction": {
+            "value": 24,
+            "style": "bullet_armor_down",
+            "is_conditional": false
+          },
+          "magic_resist_reduction": {
+            "value": 24,
+            "style": "tech_armor_down",
+            "is_conditional": false
+          }
+        },
+        "description": "<span class=\"highlight\">Headshots</span> reduce target's <span class=\"highlight\">Bullet and Spirit Resist</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "base_attack_damage_percent": 20,
+  "bullet_lifesteal_percent": 10,
+  "bullet_resist_reduction": 24,
+  "magic_resist_reduction": 24,
+  "debuff_duration": 4
+}

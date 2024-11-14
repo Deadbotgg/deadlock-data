@@ -1,0 +1,114 @@
+{
+  "name": "Alchemical Fire",
+  "description": "Throw a flask that explodes on contact, creating an area that does increasing <span class=\"highlight\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\"highlight\">Weapon Damage</span> from your team.<br><br>Deals {s:NonHeroReductionPercent}% less DPS vs non-heroes.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "ActivationPress",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/thermal_detonator_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterMagicDamage"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_sprint_speed": {
+            "value": 1,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "bullet_shield_max_health": {
+            "value": 225,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 14,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 11,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "d_p_s_max": {
+            "value": 95,
+            "style": "tech_damage",
+            "is_negative": false
+          },
+          "radius": {
+            "value": 10,
+            "style": "distance",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 5,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 28,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "d_p_s": {
+            "value": 55,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "bonus_base_weapon_damage_taken": {
+            "value": 50,
+            "style": null,
+            "is_conditional": true
+          }
+        },
+        "description": "Throw a flask that explodes on contact, creating an area that does increasing <span class=\"highlight\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\"highlight\">Weapon Damage</span> from your team.<br><br>Deals {s:NonHeroReductionPercent}% less DPS vs non-heroes."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 28,
+  "ability_duration": 5,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.2,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 11,
+  "weapon_power": 0,
+  "d_p_s": 55,
+  "d_p_s_increase": 7,
+  "d_p_s_max": 95,
+  "non_hero_reduction_percent": 40,
+  "radius": 10,
+  "height_off_ground": 50,
+  "tick_rate": 0.5,
+  "bonus_base_weapon_damage_taken": 50,
+  "bullet_shield_max_health": 225,
+  "base_attack_damage_percent": 14,
+  "bonus_sprint_speed": 1
+}

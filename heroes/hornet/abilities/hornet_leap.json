@@ -1,0 +1,60 @@
+{
+  "key": "citadel_ability_hornet_leap",
+  "name": "Flight",
+  "stats": {
+    "duration": 12,
+    "cooldown": 42,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0.2,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0.2,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "gravity_scale": 0,
+    "max_fall_speed": 0,
+    "max_fly_height": 1720,
+    "jump_velocity": 1000,
+    "air_speed_bonus": 0,
+    "air_side_move_speed_percentage": -35,
+    "min_velocity_z": -20,
+    "weapon_recoil_reduction": 40,
+    "magic_damage_per_bullet": 10,
+    "bonus_clip_size_percent": 0
+  },
+  "tooltipDetails": {
+    "description": "Leap into the air and <span class=\"highlight\">fly</span>. While in flight your weapon deals <span class=\"highlight\">bonus spirit damage</span>.",
+    "properties": [
+      {
+        "key": "MagicDamagePerBullet",
+        "value": 10,
+        "type": "tech_damage",
+        "m_b_damage_affected_by_effectiveness": true,
+        "scale_function": {
+          "value": 0.2016,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "bonus_clip_size_percent": 50
+      },
+      {
+        "ability_duration": 6
+      },
+      {
+        "magic_damage_per_bullet": 12,
+        "name": "Spirit Damage Per Bullet"
+      }
+    ]
+  }
+}

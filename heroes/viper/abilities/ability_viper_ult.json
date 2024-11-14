@@ -1,0 +1,74 @@
+{
+  "key": "ability_viper_ult",
+  "name": "Petrify",
+  "stats": {
+    "duration": 0,
+    "cooldown": 60,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0.15,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 4,
+    "pre_detonate_duration": 1,
+    "damage": 200,
+    "petrify_duration": 3,
+    "petrify_damage_break_threshold": 200,
+    "half_height": 6
+  },
+  "tooltipDetails": {
+    "description": "Create a hexed area on the ground. After a delay, ALL units in the cylindrical area are <span id=\"TestID\"/></span><span class=\"highlight\">Petrified</span>. Enemies also suffer <span class=\"highlight_spirit\">Spirit Damage</span>.<br><br><span class=\"diminish\">Petrified units block all damage, but cannot take actions.<br>Petrified units break free after blocking enough damage.</span>",
+    "properties": [
+      {
+        "key": "StatusEffectPetrify",
+        "isShown": false
+      },
+      {
+        "key": "PetrifyDamageBreakThreshold",
+        "value": 200,
+        "type": "health",
+        "scale_function": {
+          "value": 1.2,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "Damage",
+        "value": 200,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.15,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "PetrifyDuration",
+        "value": 3,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "petrify_duration": 1.5,
+        "name": "Petrify Duration"
+      },
+      {
+        "radius": 3
+      }
+    ]
+  }
+}

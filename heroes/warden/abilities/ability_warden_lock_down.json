@@ -1,0 +1,72 @@
+{
+  "key": "ability_warden_lock_down",
+  "name": "Binding Word",
+  "stats": {
+    "duration": 0,
+    "cooldown": 37,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "immobilize_duration": 1.75,
+    "damage": 120,
+    "escape_range": 19,
+    "escape_time": 2.8,
+    "bullet_armor_reduction": 0,
+    "bullet_armor_reduction_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Curse an enemy hero. If they don't move away from their initial position within the <span class=\"highlight\">escape time</span>, they will be <span class=\"highlight\">damaged</span> and <span class=\"highlight\">immobilized</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 120,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 2.6208,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ImmobilizeDuration",
+        "value": 1.75,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "EscapeTime",
+        "value": 2.8,
+        "type": "duration"
+      },
+      {
+        "key": "EscapeRange",
+        "value": "19m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "immobilize_duration": 1
+      },
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "bullet_armor_reduction": 20,
+        "name": "Duration",
+        "bullet_armor_reduction_duration": 6
+      }
+    ]
+  }
+}

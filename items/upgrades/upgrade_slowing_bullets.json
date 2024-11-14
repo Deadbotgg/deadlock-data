@@ -1,0 +1,82 @@
+{
+  "name": "Slowing Bullets",
+  "description": "Your bullets apply <span class=\"highlight\">Movement Slow</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/slowing_bullets_psd",
+  "components": null,
+  "componentsOf": [
+    {
+      "key": "upgrade_silencer",
+      "name": "Silencer",
+      "image": "upgrades/mods_weapon/emp_bullets_psd"
+    }
+  ],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 16,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 6,
+            "style": "tech_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "slow_duration": {
+            "value": 1,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "slow_percent": {
+            "value": 25,
+            "style": "slow",
+            "is_conditional": true
+          }
+        },
+        "description": "Your bullets apply <span class=\"highlight\">Movement Slow</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 6,
+  "weapon_power": 0,
+  "slow_percent": 25,
+  "slow_duration": 1.3,
+  "base_attack_damage_percent": 16
+}

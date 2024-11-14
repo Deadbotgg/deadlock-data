@@ -1,0 +1,54 @@
+{
+  "name": "Slowing Spirit",
+  "description": "Dealing <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Movement Slows</span> to your target.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/slowing_tech_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy",
+    "CreepEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "slow_duration": {
+            "value": 2,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "slow_percent": {
+            "value": 15,
+            "style": "slow",
+            "is_conditional": true
+          }
+        },
+        "description": "Dealing <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Movement Slows</span> to your target."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "slow_percent": 15,
+  "slow_duration": 2
+}

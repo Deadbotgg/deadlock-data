@@ -1,0 +1,91 @@
+{
+  "name": "Return Fire",
+  "description": "Automatically <span class=\"highlight\">fire a bullet</span> towards any attacker who damages you with their abilities or weapon.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_tech/return_fire_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterMagicDamage",
+    "EShopFilterFireRate"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 125,
+            "style": "health",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 9,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 30,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bullet_damage_reflected_pct": {
+            "value": 60,
+            "style": "bullet_damage",
+            "is_conditional": false
+          },
+          "spirit_damage_reflected_pct": {
+            "value": 30,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "return_fire_bullet_resist": {
+            "value": 20,
+            "style": "bullet_armor_up",
+            "is_conditional": true
+          }
+        },
+        "description": "Automatically <span class=\"highlight\">fire a bullet</span> towards any attacker who damages you with their abilities or weapon."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 30,
+  "ability_duration": 6,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 9,
+  "weapon_power": 0,
+  "bullet_damage_reflected_pct": 60,
+  "bonus_health": 125,
+  "spirit_damage_reflected_pct": 30,
+  "return_fire_bullet_resist": 20
+}

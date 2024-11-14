@@ -1,0 +1,81 @@
+{
+  "key": "mirage_sand_phantom",
+  "name": "Djinn's Mark",
+  "stats": {
+    "duration": 0,
+    "cooldown": 2.5,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 200,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "whirlwind_evasion_chance": 0,
+    "whirlwind_duration": 0,
+    "proc_damage_base": 12,
+    "proc_chance": 100,
+    "proc_cooldown": 2.5,
+    "victim_stack_duration": 4.5,
+    "reveal_duration": 3,
+    "max_stacks": 8,
+    "movement_speed_slow": 0,
+    "slow_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Passive: Your shots <span class=\"highlight\">apply an increasing multiplier</span> on the target. When the multiplier on a target expires or you reach the max, it's consumed and the target suffers <span class=\"highlight\">Spirit Damage</span> and is briefly <span class=\"highlight\">revealed on the map</span>. The final damage is the base damage times the multiplier.",
+    "properties": [
+      {
+        "key": "ProcDamageBase",
+        "value": 12,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.55,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "MaxStacks",
+        "value": 8,
+        "loc_token_override": "MirageDjinnsMarkMaxStacks"
+      },
+      {
+        "key": "ProcCooldown",
+        "value": 2.5,
+        "loc_token_override": "SandPhantomProcCooldown"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "VictimStackDuration",
+        "value": 4.5
+      },
+      {
+        "key": "RevealDuration",
+        "value": 3
+      }
+    ],
+    "upgrades": [
+      {
+        "movement_speed_slow": 80,
+        "slow_duration": 0.5
+      },
+      {
+        "victim_stack_duration": 4,
+        "name": "Base Damage",
+        "proc_damage_base": 10
+      },
+      {
+        "proc_cooldown": -0.75,
+        "max_stacks": 4
+      }
+    ]
+  }
+}

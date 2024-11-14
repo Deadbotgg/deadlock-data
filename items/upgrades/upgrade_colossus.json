@@ -1,0 +1,105 @@
+{
+  "name": "Colossus",
+  "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the move and dash speed</span> of enemies nearby. Your model size grows by 20%.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/colossus_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_melee_damage_percent": {
+            "value": 20,
+            "style": "melee_damage",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "bonus_health": {
+            "value": 600,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "radius": {
+            "value": 12,
+            "style": "distance",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 7,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 37,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bullet_resist": {
+            "value": 40,
+            "style": "bullet_armor_up",
+            "is_conditional": true
+          },
+          "tech_resist": {
+            "value": 40,
+            "style": "tech_armor_up",
+            "is_conditional": true
+          },
+          "slow_percent": {
+            "value": 30,
+            "style": "slow",
+            "is_conditional": true
+          }
+        },
+        "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the move and dash speed</span> of enemies nearby. Your model size grows by 20%."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 37,
+  "ability_duration": 7,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_health": 600,
+  "bonus_melee_damage_percent": 20,
+  "base_attack_damage_percent": 20,
+  "bullet_resist": 40,
+  "tech_resist": 40,
+  "slow_percent": 30,
+  "ground_dash_reduction_percent": -25,
+  "radius": 12,
+  "model_scale_growth": 1.2
+}

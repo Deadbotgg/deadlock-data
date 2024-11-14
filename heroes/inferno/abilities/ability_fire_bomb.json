@@ -1,0 +1,70 @@
+{
+  "key": "ability_fire_bomb",
+  "name": "Concussive Combustion",
+  "stats": {
+    "duration": 0,
+    "cooldown": 127,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explode_delay": 3,
+    "stun_duration": 1.25,
+    "damage": 160,
+    "radius": 12,
+    "slow_duration": 0,
+    "slow_percent": 0,
+    "life_steal_percent_on_hit": 0
+  },
+  "tooltipDetails": {
+    "description": "Turns you into a living bomb that explodes after a short delay, <span class=\"highlight\">stunning all enemies</span> in its radius.",
+    "properties": [
+      {
+        "key": "StatusEffectStun",
+        "statusEffect": {
+          "key": "StunDuration",
+          "value": 1.25,
+          "type": "duration"
+        },
+        "isShown": true
+      },
+      {
+        "key": "Damage",
+        "value": 160,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.04832,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ExplodeDelay",
+        "value": 3,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -38
+      },
+      {
+        "stun_duration": 0.5,
+        "radius": 4
+      },
+      {
+        "damage": 115,
+        "life_steal_percent_on_hit": 100
+      }
+    ]
+  }
+}

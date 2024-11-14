@@ -1,0 +1,73 @@
+{
+  "name": "Improved Reach",
+  "description": "Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/spiritual_dominion_psd",
+  "components": [
+    {
+      "key": "upgrade_magic_reach",
+      "name": "Mystic Reach",
+      "image": "upgrades/mods_tech/tech_range_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "non_imbued_tech_range_multiplier": {
+            "value": 26,
+            "style": "distance",
+            "is_negative": false
+          },
+          "bullet_resist": {
+            "value": 13,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 8,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "imbued_tech_range_multiplier": {
+            "value": 35,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": "Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 8,
+  "weapon_power": 0,
+  "non_imbued_tech_range_multiplier": 26,
+  "non_imbued_tech_radius_multiplier": 25,
+  "imbued_tech_range_multiplier": 35,
+  "imbued_tech_radius_multiplier": 35,
+  "bullet_resist": 13
+}

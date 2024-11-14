@@ -1,0 +1,32 @@
+{
+  "key": "rutger_force_field",
+  "name": "Force Field",
+  "stats": {
+    "duration": 10,
+    "cooldown": 42,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "charge_up_time": 0.5,
+    "victim_push_time": 0.4,
+    "sphere_radius": 5,
+    "sphere_push_extra_distance": 1.5,
+    "damage": 70,
+    "force_field_think_rate": 0.05,
+    "height": 150,
+    "slow_duration": 0.3,
+    "slow_percent": 60,
+    "edge_push_duration": 0.15
+  }
+}

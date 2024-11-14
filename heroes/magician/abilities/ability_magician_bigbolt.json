@@ -1,0 +1,89 @@
+{
+  "key": "ability_magician_bigbolt",
+  "name": "Grand Finale!",
+  "stats": {
+    "duration": 0,
+    "cooldown": 100,
+    "range": 500,
+    "charges": 0,
+    "charge_restore_time": 3,
+    "channel_duration": 8,
+    "resource_cost": 0,
+    "cast_range": 500,
+    "unit_target_limit": 1,
+    "cast_delay": 0.5,
+    "channel_time": 8,
+    "post_cast_duration": 0.3,
+    "cooldown_between_charge": 3,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 120,
+    "radius": 3,
+    "redirect_velocity": 1500,
+    "projectile_lifetime": 3,
+    "initial_projectile_velocity": 1000,
+    "debuff_duration": 2,
+    "slow_percent": 25,
+    "projectile_redirect_count": 1,
+    "tech_armor_damage_reduction": 0,
+    "total_bolts": 3,
+    "fall_speed_max": 1,
+    "air_speed_max": 70,
+    "shoot_delay": 0.7,
+    "damage_per_shot": 50,
+    "bolt_refund_per_kill": 1
+  },
+  "tooltipDetails": {
+    "description": "Prepare three AMAZING bolts of magic. Each bolt applies a <span class=\"highlight\">Fading Slow</span> and deals <span class=\"highlight_spirit\">Spirit Damage</span>, increased for <span class=\"highlight\">every bolt fired</span>.",
+    "properties": [
+      {
+        "key": "TotalBolts",
+        "value": 3
+      },
+      {
+        "key": "Damage",
+        "value": 120,
+        "m_e_display_type": "ETechPower",
+        "scale_function": {
+          "value": 1.5,
+          "type": "spirit"
+        },
+        "type": "tech_damage"
+      },
+      {
+        "key": "DamagePerShot",
+        "value": 50,
+        "scale_function": {
+          "value": 0.5,
+          "type": "spirit"
+        },
+        "type": "tech_damage"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowPercent",
+        "value": 25,
+        "type": "slow"
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 2,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "slow_percent": 25
+      },
+      {
+        "ability_cooldown": -40
+      },
+      {
+        "damage_per_shot": 50,
+        "bolt_refund_per_kill": 1
+      }
+    ]
+  }
+}

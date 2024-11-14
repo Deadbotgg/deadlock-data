@@ -1,0 +1,84 @@
+{
+  "key": "ability_trapper_poisonjar",
+  "name": "Bottled Phantasmicide",
+  "stats": {
+    "duration": 9,
+    "cooldown": 20,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "boss_damage_percent": 50,
+    "tick_rate": 0.25,
+    "radius": 5,
+    "height": 2,
+    "dps": 50,
+    "slow_percent": 20,
+    "max_radius": 7
+  },
+  "tooltipDetails": {
+    "description": "Throw a jar that leaves a pool of poison, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">Damage</span> and <span class=\"highlight\">Slowing</span>. The pool spreads over time, growing in size.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 50,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.5,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SlowPercent",
+        "value": 20,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "AbilityDuration",
+        "value": 9,
+        "disable_value": 0,
+        "type": "duration",
+        "m_b_can_set_token_override": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "Radius",
+        "value": "5m",
+        "type": "distance"
+      },
+      {
+        "key": "MaxRadius",
+        "value": "7m",
+        "type": "distance",
+        "scale_function": {
+          "value": 1.3,
+          "type": "spirit"
+        }
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_duration": 4
+      },
+      {
+        "max_radius": 2
+      },
+      {
+        "dps": 100
+      }
+    ]
+  }
+}

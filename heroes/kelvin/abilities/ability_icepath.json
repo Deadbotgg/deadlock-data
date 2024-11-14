@@ -1,0 +1,91 @@
+{
+  "key": "ability_icepath",
+  "name": "Ice Path",
+  "stats": {
+    "duration": 8,
+    "cooldown": 42,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": -1,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "ice_path_interval": 0.5,
+    "camera_distance": 250,
+    "popup_force": 30,
+    "min_height": 20,
+    "ice_path_aura_duration": 18,
+    "modifier_radius": 5,
+    "ice_path_shard_radius": 1.2,
+    "ice_path_edge_width": 0.7,
+    "ice_path_pull_in_strength": 20,
+    "move_speed_bonus": 2,
+    "sprint_speed_bonus": 2,
+    "bonus_tech_damage_percent": 0,
+    "slow_resistance_percent": 60,
+    "bonus_spirit_meter": 0,
+    "bonus_spirit_max": 0,
+    "bonus_spirit_linger_duration": 0,
+    "move_while_shooting_speed_penalty_reduction_percent": 100,
+    "move_while_zoomed_speed_penalty_reduction_percent": 100
+  },
+  "tooltipDetails": {
+    "description": "{s:hero_name} creates a <span class=\"highlight\">floating trail</span> of ice and snow that gives movement bonuses to him and his allies. Kelvin gains {s:SlowResistancePercent}% slow resistance for the duration. Enemies can also walk on the floating trail. <br>Press [{s:key_innate_1}] / [{s:key_duck}] to travel up or down while in Ice Path.",
+    "properties": [
+      {
+        "key": "MoveSpeedBonus",
+        "value": "2m",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "type": "move_speed",
+        "m_e_display_type": "EMaxMoveSpeed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "SprintSpeedBonus",
+        "value": "2m",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "type": "move_speed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BonusTechDamagePercent",
+        "value": 0,
+        "type": "tech_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_DAMAGE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "requiresUpgrade": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "IcePathAuraDuration",
+        "value": 18,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "sprint_speed_bonus": 4,
+        "name": "Sprint Speed"
+      },
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "bonus_spirit_meter": 1,
+        "bonus_spirit_max": 55,
+        "bonus_spirit_linger_duration": 6
+      }
+    ]
+  }
+}

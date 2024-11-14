@@ -1,0 +1,98 @@
+{
+  "key": "ability_flame_dash",
+  "name": "Flame Dash",
+  "stats": {
+    "duration": 0,
+    "cooldown": 40,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 18,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "dash_time": 3,
+    "dash_speed": 12,
+    "dash_air_speed": 8,
+    "flame_aura_radius": 4.5,
+    "flame_aura_dps": 40,
+    "aura_linger_duration": 1,
+    "tick_rate": 0.5,
+    "ground_flame_duration": 4,
+    "ground_aura_spacing": 1,
+    "speed_burst_speed": 20,
+    "speed_burst_duration": 0,
+    "side_move_speed_reduction": -65,
+    "flame_dash_debuff_duration": 0,
+    "flame_dash_jump_bonus": 50,
+    "fire_rate_slow": 0,
+    "slow_resistance_percent": 50
+  },
+  "tooltipDetails": {
+    "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. Infernus gains {s:SlowResistancePercent}% slow resistance for the duration.  <br>Hold [{s:iv_attack}] to dash faster.",
+    "properties": [
+      {
+        "key": "SpeedBurstSpeed",
+        "value": "20m",
+        "type": "move_speed"
+      },
+      {
+        "key": "FlameAuraDPS",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.6552,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "DashTime",
+        "value": 3,
+        "type": "duration"
+      },
+      {
+        "key": "DashSpeed",
+        "value": "12m",
+        "type": "move_speed"
+      },
+      {
+        "key": "FlameDashDebuffDuration",
+        "value": 0,
+        "type": "duration"
+      },
+      {
+        "key": "GroundFlameDuration",
+        "value": 4,
+        "type": "duration"
+      },
+      {
+        "key": "FlameAuraRadius",
+        "value": "4.5m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "fire_rate_slow": 30,
+        "name": "Debuff Duration",
+        "flame_dash_debuff_duration": 6
+      },
+      {
+        "flame_aura_dps": 45,
+        "name": "DPS"
+      },
+      {
+        "ability_cooldown": -19
+      }
+    ]
+  }
+}

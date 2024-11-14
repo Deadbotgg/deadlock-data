@@ -1,0 +1,77 @@
+{
+  "name": "Metal Skin",
+  "description": "Become <span class=\"highlight\">immune to bullets</span>.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/metal_skin_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterFireRate"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 125,
+            "style": "health",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 8,
+            "style": "tech_damage",
+            "is_negative": false
+          },
+          "bonus_fire_rate": {
+            "value": 8,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 28,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 3,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Become <span class=\"highlight\">immune to bullets</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 28,
+  "ability_duration": 3.5,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 8,
+  "weapon_power": 0,
+  "bonus_fire_rate": 8,
+  "bonus_health": 125
+}

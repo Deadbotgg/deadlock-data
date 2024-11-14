@@ -1,0 +1,60 @@
+{
+  "key": "ability_blood_shards",
+  "name": "Malice",
+  "stats": {
+    "duration": 0,
+    "cooldown": 6,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.12,
+    "channel_time": 0,
+    "post_cast_duration": 0.3,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": -1,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "health_to_damage": 32,
+    "num_blood_shards": 3,
+    "spread_angle_degrees": 6,
+    "move_speed_penalty_per_stack": 15,
+    "min_slow_amount": 0,
+    "vulnerability_per_stack": 8,
+    "debuff_duration": 9,
+    "slow_duration": 4,
+    "max_stacks": 5
+  },
+  "tooltipDetails": {
+    "properties": [],
+    "basicProperties": [
+      {
+        "key": "DebuffDuration",
+        "value": 9,
+        "type": "duration"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 4,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -3
+      },
+      {
+        "health_to_damage": 40,
+        "name": "Damage Amplification",
+        "vulnerability_per_stack": 7
+      },
+      {
+        "num_blood_shards": 6,
+        "spread_angle_degrees": 22
+      }
+    ]
+  }
+}

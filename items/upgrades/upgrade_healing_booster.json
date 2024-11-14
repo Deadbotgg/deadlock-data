@@ -1,0 +1,63 @@
+{
+  "name": "Healing Booster",
+  "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/healing_booster_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "tech_resist": {
+            "value": 6,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
+          "bonus_health_regen": {
+            "value": 2,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Increases the effectiveness of your <span class=\"highlight\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span> and increases your <span class=\"highlight\">resistance to healing reduction</span> by <span class=\"highlight\">{s:DegenResistance}%</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "heal_amp_cast_percent": 25,
+  "heal_amp_regen_percent": 25,
+  "bonus_health_regen": 2,
+  "tech_resist": 6,
+  "degen_resistance": 15
+}

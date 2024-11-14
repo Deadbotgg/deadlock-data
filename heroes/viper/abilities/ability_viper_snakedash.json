@@ -1,0 +1,48 @@
+{
+  "key": "ability_viper_snakedash",
+  "name": "Slither",
+  "stats": {
+    "duration": 0,
+    "cooldown": 0,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "slide_scale": 10,
+    "stamina": 0,
+    "slide_resist": 0
+  },
+  "tooltipDetails": {
+    "description": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.</span>",
+    "properties": [
+      {
+        "key": "SlideScale",
+        "value": 10,
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SLIDE_DISTANCE_SCALE",
+        "m_usage_flags": "APUsageFlag_ModifierIntrinsic",
+        "type": "move_speed"
+      }
+    ],
+    "upgrades": [
+      {
+        "slide_scale": 25
+      },
+      {
+        "stamina": 2
+      },
+      {
+        "slide_resist": 30
+      }
+    ]
+  }
+}

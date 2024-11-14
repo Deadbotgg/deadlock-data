@@ -1,0 +1,65 @@
+{
+  "key": "ability_scrap_blast",
+  "name": "Bio Blast",
+  "stats": {
+    "duration": 0,
+    "cooldown": 64,
+    "range": 15,
+    "charges": 2,
+    "charge_restore_time": 3,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 15,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 3,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "blast_radius": 5,
+    "scrap_damage": 75,
+    "enemy_move_slow_duration": 5,
+    "enemy_move_slow": 10
+  },
+  "tooltipDetails": {
+    "description": "Shoots out a blast of consumed remains, <span class=\"highlight\">damaging</span> and <span class=\"highlight\">slowing</span> enemies. Multiple hits increase the slow.",
+    "properties": [
+      {
+        "key": "ScrapDamage",
+        "value": 75,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.78624,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "EnemyMoveSlow",
+        "value": 10,
+        "type": "slow"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "EnemyMoveSlowDuration",
+        "value": 5,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 2
+      },
+      {
+        "scrap_damage": 55,
+        "name": "Damage"
+      },
+      {
+        "enemy_move_slow": 20,
+        "name": "Enemy Slow per hit"
+      }
+    ]
+  }
+}

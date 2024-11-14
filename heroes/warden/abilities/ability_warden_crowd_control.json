@@ -1,0 +1,90 @@
+{
+  "key": "ability_warden_crowd_control",
+  "name": "Alchemical Flask",
+  "stats": {
+    "duration": 0,
+    "cooldown": 12,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.1,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 6.5,
+    "damage": 65,
+    "weapon_power_debuff": -30,
+    "fire_rate_slow": 0,
+    "slow_duration": 3,
+    "debuff_duration": 7,
+    "move_speed_slow_pct": 20,
+    "forward_velocity": 800,
+    "projectile_lifetime": 60,
+    "stamina_reduction": 0
+  },
+  "tooltipDetails": {
+    "description": "Throw a flask that <span class=\"highlight\">damages, slows movement,</span> and reduces the <span class=\"highlight\">weapon damage</span> of enemies it hits.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 65,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.78624,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "MoveSpeedSlowPct",
+        "value": 20,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "WeaponPowerDebuff",
+        "value": -30,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowDuration",
+        "value": 3,
+        "type": "duration"
+      },
+      {
+        "key": "DebuffDuration",
+        "loc_token_override": "FlaskDebuffDuration",
+        "value": 7,
+        "type": "duration"
+      },
+      {
+        "key": "StaminaReduction",
+        "value": 0
+      }
+    ],
+    "upgrades": [
+      {
+        "stamina_reduction": 1,
+        "name": "Stamina Reduction"
+      },
+      {
+        "damage": 50
+      },
+      {
+        "fire_rate_slow": 35,
+        "ability_cooldown": -6.5
+      }
+    ]
+  }
+}

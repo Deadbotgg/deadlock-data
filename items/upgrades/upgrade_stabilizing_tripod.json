@@ -1,0 +1,87 @@
+{
+  "name": "Stabilizing Tripod",
+  "description": "<span class=\"highlight\">Disarm yourself</span> to toss your weapon to the target location where it transforms into a <span class=\"highlight\">Field Sentry that will attack enemies using your weapon with an unlimited clip</span>.  You can melee the sentry to end the effect early.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "ActivationPress",
+  "slot": "Weapon",
+  "image": "upgrades/mods_utility/base_utility_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "stationary_weapon_power": {
+            "value": 40,
+            "style": null,
+            "is_negative": false
+          },
+          "stationary_recoil_reduction": {
+            "value": 25,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "turret_attack_range": {
+            "value": 50,
+            "style": "distance",
+            "is_negative": false
+          },
+          "caster_health_percent": {
+            "value": 100,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "turret_lifetime": {
+            "value": 20,
+            "style": "duration",
+            "is_conditional": false
+          }
+        },
+        "description": "<span class=\"highlight\">Disarm yourself</span> to toss your weapon to the target location where it transforms into a <span class=\"highlight\">Field Sentry that will attack enemies using your weapon with an unlimited clip</span>.  You can melee the sentry to end the effect early."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 64,
+  "ability_duration": 20,
+  "ability_cast_range": 15,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "model_scale": 1,
+  "tick_rate": 0.5,
+  "tracking_speed": 125,
+  "turret_attack_delay": 0.35,
+  "turret_attack_range": 50,
+  "turret_deploy_time": 2,
+  "turret_lifetime": 20,
+  "attack_cone_angle": 10,
+  "stationary_weapon_power": 40,
+  "stationary_recoil_reduction": 25,
+  "caster_health_percent": 100,
+  "bullet_speed_override": 6500
+}

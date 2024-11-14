@@ -1,0 +1,69 @@
+{
+  "key": "fathom_lurkers_ambush",
+  "name": "Lurker's Ambush",
+  "stats": {
+    "duration": 0,
+    "cooldown": 50,
+    "range": 30,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 9999,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 9999,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "not_seen_by_enemies_regen": 3,
+    "initial_height": 350,
+    "tick_rate": 0.25,
+    "spotted_radius": 999,
+    "invis_fade_to_duration": 1.5,
+    "reveal_on_spotted_duration": 3,
+    "reveal_on_damage_duration": 0.5,
+    "invis_move_speed_mod": 0,
+    "stand_still_min_time": 0.5,
+    "immobilize_min_duration": 1,
+    "immobilize_max_duration": 3,
+    "channel_time_for_max_immobilize": 2.5,
+    "min_damage": 50,
+    "max_damage": 125
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Charge up a mouthful of sticky spit</span> that damages and immobilizes enemies. Hold [{s:ability_key}] to hold the spit.  Damage and immobilization duration increase the longer you hold the spit.",
+    "properties": [
+      {
+        "key": "ImmobilizeMaxDuration",
+        "value": 3,
+        "type": "duration"
+      },
+      {
+        "key": "MaxDamage",
+        "value": 125,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.25,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "not_seen_by_enemies_regen": 2,
+        "name": "Max Health Regen"
+      },
+      {
+        "immobilize_max_duration": 1,
+        "name": "Max Immobilize Duration"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "key": "gunslinger_rocket_launcher",
+  "name": "Rocket Launcher",
+  "stats": {
+    "duration": 0,
+    "cooldown": 10.5,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 0.8,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0.8,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explosion_radius": 3,
+    "damage": 100,
+    "launch_max_speed": 750,
+    "launch_min_vertical_amount": 0.7,
+    "launch_falloff": 0,
+    "launch_vertical_bias": 0.5,
+    "launch_min_speed": 700
+  }
+}

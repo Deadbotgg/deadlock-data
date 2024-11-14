@@ -1,0 +1,73 @@
+{
+  "key": "citadel_ability_static_charge",
+  "name": "Static Charge",
+  "stats": {
+    "duration": 0,
+    "cooldown": 42,
+    "range": 16,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 16,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "shock_radius": 5,
+    "damage": 40,
+    "shock_delay": 3.5,
+    "stun_duration": 0.9,
+    "additional_shock_target": 0
+  },
+  "tooltipDetails": {
+    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge <span class=\"highlight\">stuns and damages</span> enemies within the radius. <br>Alt-Cast to cast on yourself.",
+    "properties": [
+      {
+        "key": "StatusEffectStun",
+        "statusEffect": {
+          "key": "StunDuration",
+          "value": 0.9,
+          "type": "duration"
+        },
+        "isShown": true
+      },
+      {
+        "key": "ShockDelay",
+        "value": 3.5,
+        "type": "cast"
+      },
+      {
+        "key": "Damage",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.85176,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ShockRadius",
+        "value": "5m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "shock_radius": 8
+      },
+      {
+        "stun_duration": 0.9
+      }
+    ]
+  }
+}

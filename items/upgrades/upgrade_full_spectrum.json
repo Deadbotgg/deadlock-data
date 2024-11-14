@@ -1,0 +1,74 @@
+{
+  "name": "Full Spectrum",
+  "description": null,
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/tech_range_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "bonus_damage_per_hero": {
+            "value": 5,
+            "style": "tech_damage",
+            "is_negative": false
+          },
+          "slow_percent": {
+            "value": 30,
+            "style": "slow",
+            "is_negative": false
+          },
+          "slow_duration": {
+            "value": 2,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Adds <span class=\"highlight\">bonus damage</span> for every hero hit from your spirit damage mods or abilities and applies a <span class=\"highlight\">movement slow</span>."
+      }
+    ],
+    "Innate": [
+      {
+        "ability_properties": {
+          "tech_range_multiplier": {
+            "value": 60,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "tech_range_multiplier": 60,
+  "tech_radius_multiplier": 60,
+  "slow_percent": 30,
+  "slow_duration": 2,
+  "bonus_damage_per_hero": 5
+}

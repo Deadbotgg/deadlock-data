@@ -1,0 +1,72 @@
+{
+  "key": "viscous_telepunch",
+  "name": "viscous_telepunch",
+  "stats": {
+    "duration": 0,
+    "cooldown": 30,
+    "range": 40,
+    "charges": 1,
+    "charge_restore_time": 1.5,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 40,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 1.5,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 0,
+    "radius": 4,
+    "punch_half_height": 5.5,
+    "toss_speed": 625,
+    "toss_speed_wall": 750,
+    "toss_speed_up_wall": 500,
+    "toss_ground_side_ratio": 0.7,
+    "punch_roll_slow": -40,
+    "punch_roll_slow_duration": 1,
+    "slow_percent": 20,
+    "impact_duration": 4
+  },
+  "tooltipDetails": {
+    "description": "Materialize a fist in the world that <span class=\"highlight\">punches</span> units in the area and send them flying. Enemies will be <span class=\"highlight\">dealt damage</span>, have their dash distance reduced for a brief moment, and have their <span class=\"highlight\">movement slowed</span>. This is considered a <span class=\"highlight\">Light Melee</span> attack.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 0,
+        "type": "melee_damage",
+        "scale_function": {
+          "value": 1.1,
+          "type": "melee"
+        }
+      },
+      {
+        "key": "SlowPercent",
+        "value": 20,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ImpactDuration",
+        "value": 4
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "damage": 35,
+        "slow_percent": 20
+      },
+      {
+        "ability_cooldown": -11.5
+      }
+    ]
+  }
+}

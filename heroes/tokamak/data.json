@@ -1,0 +1,247 @@
+{
+  "id": 47,
+  "name": "Tokamak",
+  "new_player_friendly": false,
+  "in_development": true,
+  "in_hero_labs": false,
+  "is_disabled": true,
+  "complexity": 2,
+  "readability": 1,
+  "bot_selectable": false,
+  "lane_testing_recommended": false,
+  "starting_stats": {
+    "max_move_speed": 7.3,
+    "sprint_speed": 0,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 63,
+    "heavy_melee_damage": 116,
+    "max_health": 550,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 3,
+    "base_health_regen": 2,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": 0,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.666836,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 41,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.375
+  },
+  "visuals": {
+    "ui_color": [
+      38,
+      141,
+      173
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {},
+  "weapon_stats": {
+    "bullet_damage": 8.2,
+    "rounds_per_second": 8.333333333333334,
+    "clip_size": 50,
+    "reload_time": 4,
+    "reload_movespeed": 1,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 160,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 22.64,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 0.8,
+    "bullets_per_shot": 1,
+    "bullets_per_burst": 1,
+    "burst_inter_shot_interval": 0,
+    "dps": 68.33333333333333,
+    "sustained_dps": 40.99999999999999,
+    "weapon_name": "citadel_weapon_tokamak_set",
+    "weapon_description": "citadel_weapon_hero_tokamak_set"
+  },
+  "lore": null,
+  "playstyle": "Shooting Tokamak's weapon builds heat which bleeds off whenever the gun isn't shooting. High heat levels can be used to increase the power of some abilities.",
+  "role": null,
+  "abilities": [
+    {
+      "key": "tokamak_hot_shot"
+    },
+    {
+      "key": "tokamak_dying_star"
+    },
+    {
+      "key": "tokamak_radiance"
+    },
+    {
+      "key": "tokamak_crimson_cannon"
+    }
+  ]
+}

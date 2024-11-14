@@ -1,0 +1,87 @@
+{
+  "name": "Enduring Speed",
+  "description": "Reduces the effect of enemy <span class=\"highlight\">Movement Slow</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_utility/sprint_booster_psd",
+  "components": [
+    {
+      "key": "upgrade_sprint_booster",
+      "name": "Sprint Boots",
+      "image": "upgrades/mods_utility/sprint_booster_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterMovement",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_sprint_speed": {
+            "value": 2,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_health_regen": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "bonus_move_speed": {
+            "value": 1,
+            "style": "move_speed",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "slow_resistance_percent": {
+            "value": 30,
+            "style": "move_speed",
+            "is_conditional": false
+          }
+        },
+        "description": "Reduces the effect of enemy <span class=\"highlight\">Movement Slow</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_move_speed": 1.1,
+  "slow_resistance_percent": 30,
+  "bonus_sprint_speed": 2,
+  "bonus_health": 75,
+  "bonus_health_regen": 1.5
+}

@@ -1,0 +1,55 @@
+{
+  "key": "ability_charged_shot",
+  "name": "Charged Shot",
+  "stats": {
+    "duration": 0,
+    "cooldown": 17,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 4,
+    "channel_duration": 9999,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.5,
+    "channel_time": 9999,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 4,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "tech_cleave_expire_time": 0.2,
+    "fall_speed_max": 60,
+    "air_speed_max": 150,
+    "damage": 100,
+    "camera_height_offset": 20,
+    "camera_horizontal_offset": 15,
+    "boss_damage_percent": 25
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Charge up a powerful shot</span> that pierces through enemies. Hold [{s:ability_key}] or [{s:iv_attack}] to hold the shot.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 100,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.6,
+          "type": "spirit"
+        }
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "damage": 65
+      },
+      {
+        "ability_cooldown_between_charge": -3,
+        "damage": 0.91728
+      }
+    ]
+  }
+}

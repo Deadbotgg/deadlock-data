@@ -1,0 +1,54 @@
+{
+  "name": "Weapon Jammer",
+  "description": "Reduces the <span class=\"highlight\">Fire Rate</span> of all nearby enemies.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/weapon_jammer_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy",
+    "CreepEnemy",
+    "MinionEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "fire_rate_slow": {
+            "value": 30,
+            "style": null,
+            "is_negative": false
+          },
+          "radius": {
+            "value": 12,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Reduces the <span class=\"highlight\">Fire Rate</span> of all nearby enemies."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "radius": 12,
+  "fire_rate_slow": 30
+}

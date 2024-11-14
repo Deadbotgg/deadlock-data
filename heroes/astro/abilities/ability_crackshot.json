@@ -1,0 +1,66 @@
+{
+  "key": "ability_crackshot",
+  "name": "Crackshot",
+  "stats": {
+    "duration": 0,
+    "cooldown": 20,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explosion_radius": 2,
+    "damage": 100,
+    "debuff_duration": 2,
+    "fading_slow_percent": 50,
+    "cooldown_per_headshot": 0
+  },
+  "tooltipDetails": {
+    "description": "Headshots deal bonus <span class=\"highlight\">Weapon damage</span> and applies a <span class=\"highlight\">Fading Slow</span>. This effect can only occur when off cooldown. <br><br><span class=\"diminish\">Crackshot ignores range damage fall-off.</span>",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 100,
+        "type": "bullet_damage",
+        "scale_function": {
+          "value": 1,
+          "type": "weapon_damage"
+        }
+      },
+      {
+        "key": "FadingSlowPercent",
+        "value": 50,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 2,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "fading_slow_percent": 25,
+        "name": "Fading Movement Slow"
+      },
+      {
+        "damage": 50
+      },
+      {
+        "ability_cooldown_per_headshot": -2,
+        "name": "Cooldown Per Headshot"
+      }
+    ]
+  }
+}

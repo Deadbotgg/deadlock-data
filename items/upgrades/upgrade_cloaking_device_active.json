@@ -1,0 +1,114 @@
+{
+  "name": "Shadow Weave",
+  "description": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Weapon",
+  "image": "upgrades/mods_utility/cloaking_device_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterFireRate",
+    "EShopFilterMovement"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health_regen": {
+            "value": 15,
+            "style": "healing",
+            "is_negative": false
+          },
+          "tech_shield_max_health": {
+            "value": 300,
+            "style": "tech_armor_up",
+            "is_negative": false
+          },
+          "bonus_clip_size_percent": {
+            "value": 30,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "spotted_radius": {
+            "value": 22,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "ability_duration": {
+            "value": 25,
+            "style": "duration",
+            "is_conditional": false
+          }
+        },
+        "description": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed."
+      },
+      {
+        "ability_properties": {
+          "ambush_duration": {
+            "value": 8,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "ambush_bonus_fire_rate": {
+            "value": 30,
+            "style": "bullet_damage",
+            "is_conditional": true
+          },
+          "ambush_bonus_tech_power": {
+            "value": 55,
+            "style": "tech_damage",
+            "is_conditional": true
+          }
+        },
+        "description": "<br>Attacking or using an ability will end your stealth and start an <span class=\"highlight\">ambush</span>, temporarily granting you bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 48,
+  "ability_duration": 25,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "invis_alert_when_fading": 1,
+  "invis_cancel_on_damage": 1,
+  "invis_fade_to_duration": 0.6,
+  "invis_move_speed_mod": 2,
+  "spotted_radius": 22,
+  "reveal_on_damage_duration": 1.5,
+  "reveal_on_spotted_duration": 1.5,
+  "full_invis_distance": 50,
+  "ambush_duration": 8,
+  "ambush_bonus_fire_rate": 30,
+  "ambush_bonus_tech_power": 55,
+  "tech_shield_max_health": 300,
+  "bonus_health_regen": 15,
+  "bonus_clip_size_percent": 30
+}

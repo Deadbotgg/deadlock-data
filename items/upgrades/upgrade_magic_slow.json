@@ -1,0 +1,92 @@
+{
+  "name": "Mystic Slow",
+  "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/slowing_tech_psd",
+  "components": [
+    {
+      "key": "upgrade_suppressor",
+      "name": "Suppressor",
+      "image": "upgrades/mods_armor/weapon_jammer_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 140,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_health_regen": {
+            "value": 3,
+            "style": "healing",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 6,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 2,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "movement_speed_slow": {
+            "value": 25,
+            "style": "slow",
+            "is_conditional": true
+          },
+          "fire_rate_slow": {
+            "value": 40,
+            "style": "fireRate",
+            "is_conditional": true
+          }
+        },
+        "description": "When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 2,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 6,
+  "weapon_power": 0,
+  "fire_rate_slow": 40,
+  "movement_speed_slow": 25,
+  "bonus_health_regen": 3,
+  "bonus_health": 140
+}

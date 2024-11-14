@@ -1,0 +1,82 @@
+{
+  "name": "Escalating Resilience",
+  "description": "Grants <span class=\"highlight\">Bullet Resist</span> when your bullets hit an enemy hero. <span class=\"highlight\">Each shot can only grant one stack.</span>",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_armor/bullet_armor_plus_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDurability",
+    "EShopFilterFireRate"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_fire_rate": {
+            "value": 12,
+            "style": null,
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 14,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "bullet_resist_per_stack": {
+            "value": 2,
+            "style": null,
+            "is_negative": false
+          },
+          "bullet_resist_duration": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "max_armor_stacks": {
+            "value": 40,
+            "style": null,
+            "is_conditional": false
+          }
+        },
+        "description": "Grants <span class=\"highlight\">Bullet Resist</span> when your bullets hit an enemy hero. <span class=\"highlight\">Each shot can only grant one stack.</span>"
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "max_armor_stacks": 40,
+  "bullet_resist_per_stack": 2,
+  "bullet_resist_duration": 20,
+  "base_attack_damage_percent": 14,
+  "bonus_fire_rate": 12
+}

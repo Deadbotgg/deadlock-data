@@ -1,0 +1,79 @@
+{
+  "name": "Unstoppable",
+  "description": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/unstoppable_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterMovement"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 150,
+            "style": "health",
+            "is_negative": false
+          },
+          "bullet_resist": {
+            "value": 15,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "spirit_power": {
+            "value": 12,
+            "style": "tech_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 64,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "ability_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_conditional": false
+          }
+        },
+        "description": "Temporarily suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 64,
+  "ability_duration": 6,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_health": 150,
+  "bullet_resist": 15,
+  "spirit_power": 12
+}

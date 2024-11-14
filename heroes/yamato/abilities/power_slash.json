@@ -1,0 +1,88 @@
+{
+  "key": "citadel_ability_power_slash",
+  "name": "Power Slash",
+  "stats": {
+    "duration": 0,
+    "cooldown": 10.5,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 1.4,
+    "channel_time": 0,
+    "post_cast_duration": 0.4,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "slash_length": 25,
+    "short_charge_damage_pct": 40,
+    "medium_charge_damage_pct": 60,
+    "full_charge_damage": 160,
+    "slash_radius": 41,
+    "fall_speed_max": 5,
+    "air_speed_max": 0,
+    "power_up_stages": 3,
+    "slash_collision_radius": 4,
+    "slow_duration": 0,
+    "slow_percent": 0,
+    "bullet_resist": 0
+  },
+  "tooltipDetails": {
+    "description": "Channel to increase damage over {s:AbilityCastDelay} seconds, then release a <span class=\"highlight\">fully-charged sword strike</span>.<br>Press [{s:in_ability1}] or [{s:iv_attack}] to trigger the strike early, dealing partial damage.",
+    "properties": [
+      {
+        "key": "FullChargeDamage",
+        "value": 160,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 2,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SlashLength",
+        "value": "25m",
+        "type": "distance"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowPercent",
+        "value": 0,
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "type": "slow"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 0,
+        "type": "duration"
+      },
+      {
+        "key": "BulletResist",
+        "value": 0,
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "type": "bullet_armor_up"
+      }
+    ],
+    "upgrades": [
+      {
+        "bullet_resist": 60
+      },
+      {
+        "slow_duration": 3,
+        "slow_percent": 40,
+        "ability_cooldown": -2
+      },
+      {
+        "full_charge_damage": 200,
+        "name": "Full Charge Damage"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Adrenaline Rush",
+  "description": "Gain bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span> when there are two or more enemy heroes nearby.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/adrenaline_rush_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterFireRate",
+    "EShopFilterMovement"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 125,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_move_speed": {
+            "value": 1,
+            "style": "move_speed",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Default": [
+      {
+        "ability_properties": {
+          "radius": {
+            "value": 20,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 48,
+            "style": "bullet_damage",
+            "is_conditional": true
+          },
+          "bonus_fire_rate": {
+            "value": 30,
+            "style": "fireRate",
+            "is_conditional": true
+          }
+        },
+        "description": "Gain bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span> when there are two or more enemy heroes nearby."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "radius": 20,
+  "tick_rate": 1,
+  "min_targets_required": 2,
+  "base_attack_damage_percent": 48,
+  "bonus_fire_rate": 30,
+  "bonus_health": 125,
+  "bonus_move_speed": 1
+}

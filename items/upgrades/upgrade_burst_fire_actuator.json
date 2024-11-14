@@ -1,0 +1,74 @@
+{
+  "name": "Burst Fire Actuator",
+  "description": "Your weapon <span class=\"highlight\"> fires an additional percentage of your gun's starting clip as a burst</span>.  If all bullets in a burst connect with an enemy Hero, <span class=\"highlight\">gain temporary Base Bullet Damage</span> for the rest of the clip.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_utility/fast_reload_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_bonus_weapon_power": {
+            "value": 5,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "perfect_burst_weapon_power": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "burst_fire_shots_from_clip_percent": {
+            "value": 15,
+            "style": null,
+            "is_conditional": false
+          }
+        },
+        "description": "Your weapon <span class=\"highlight\"> fires an additional percentage of your gun's starting clip as a burst</span>.  If all bullets in a burst connect with an enemy Hero, <span class=\"highlight\">gain temporary Base Bullet Damage</span> for the rest of the clip."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "cycle_time_fire_rate_decrease": 0,
+  "burst_fire_shot_percent": 100,
+  "normalized_clip_empty_speed_increase": 25,
+  "burst_fire_shots_from_clip_percent": 15,
+  "perfect_burst_weapon_power": 20,
+  "bonus_headshot_damage": 0,
+  "base_bonus_weapon_power": 5,
+  "intra_burst_fire_rate_increase": 0,
+  "non_burst_fire_conversion_factor": 3
+}

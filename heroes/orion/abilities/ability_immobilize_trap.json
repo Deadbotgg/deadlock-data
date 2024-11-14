@@ -1,0 +1,97 @@
+{
+  "key": "ability_immobilize_trap",
+  "name": "Immobilizing Trap",
+  "stats": {
+    "duration": 0,
+    "cooldown": 37,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 6,
+    "trap_height": 2,
+    "lifetime": 20,
+    "damage": 30,
+    "immobilize_duration": 1.25,
+    "trip_time": 0.5,
+    "arm_time": 2,
+    "trip_up_speed": 250,
+    "trip_gravity": 0.4,
+    "disarm_targets": 0,
+    "bullet_vulnerbility": 0,
+    "debuff_duration": 0,
+    "slow_percent": 50,
+    "slow_duration": 1
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Throw out a trap</span> that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, <span class=\"highlight\">immobilizing</span> and then <span class=\"highlight\">slowing</span> them.",
+    "properties": [
+      {
+        "key": "ImmobilizeDuration",
+        "value": 1.25,
+        "type": "duration"
+      },
+      {
+        "key": "Damage",
+        "value": 30,
+        "type": "tech_damage"
+      },
+      {
+        "key": "Lifetime",
+        "value": 20,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowPercent",
+        "value": 50,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 1,
+        "type": "duration"
+      },
+      {
+        "key": "ArmTime",
+        "value": 2,
+        "type": "duration"
+      },
+      {
+        "key": "BulletVulnerbility",
+        "value": 0,
+        "type": "bullet_armor_down"
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 0,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "slow_duration": 2
+      },
+      {
+        "bullet_vulnerbility": 30,
+        "debuff_duration": 10
+      }
+    ]
+  }
+}

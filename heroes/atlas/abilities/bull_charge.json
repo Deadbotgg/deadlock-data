@@ -1,0 +1,67 @@
+{
+  "key": "citadel_ability_bull_charge",
+  "name": "Shoulder Charge",
+  "stats": {
+    "duration": 1.2,
+    "cooldown": 37,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 40,
+    "speed_initial": 18.75,
+    "charge_speed_max": 30,
+    "charge_drag_vertical_offset": 30,
+    "toss_speed": 0,
+    "toss_up_magnitude": 0.5,
+    "side_move_speed_reduction": -65,
+    "turn_rate_max": 140,
+    "camera_turn_rate_max": 200,
+    "charge_radius": 2.2,
+    "weapon_damage_bonus": 0,
+    "weapon_power_increase_duration": 0,
+    "collide_players_stop_time": 0.3,
+    "stun_duration": 0.85
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Charge forward</span>, colliding with enemies and dragging them along.  Hitting a <span class=\"highlight\">wall</span> will <span class=\"highlight\">Stun</span> enemies caught by {s:hero_name}. Speed increased after colliding with enemy Heroes.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 2.09664,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StunDuration",
+        "value": 0.85,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "ability_duration": 0.5
+      },
+      {
+        "weapon_damage_bonus": 5.5,
+        "weapon_power_increase_duration": 8
+      }
+    ]
+  }
+}

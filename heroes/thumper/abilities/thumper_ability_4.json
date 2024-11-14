@@ -1,0 +1,30 @@
+{
+  "key": "thumper_ability_4",
+  "name": "Vortex",
+  "stats": {
+    "duration": 4,
+    "cooldown": 10.5,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 15,
+    "initial_force": 300,
+    "push_accel": 1000,
+    "push_npc_speed": 800,
+    "distance_above_ground": 2,
+    "climb_height": 1,
+    "drop_down_rate": 2,
+    "tornado_speed": 350
+  }
+}

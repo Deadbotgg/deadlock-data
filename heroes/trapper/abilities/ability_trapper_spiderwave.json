@@ -1,0 +1,105 @@
+{
+  "key": "ability_trapper_spiderwave",
+  "name": "Crawling Plague",
+  "stats": {
+    "duration": 0,
+    "cooldown": 160,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.6,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "spider_count": 5,
+    "spider_gravity": 1,
+    "spider_lifetime": 25,
+    "spider_arming_time": 0.5,
+    "radius": 3.5,
+    "spread_angle": 30,
+    "spider_dist_above_ground": 0.1,
+    "spider_float_down_rate": 8,
+    "spider_climb_height": 0.3,
+    "spider_chase_velocity": 400,
+    "spider_explode_radius": 3,
+    "spider_random_position_radius": 4,
+    "spider_damage": 140,
+    "spider_search_radius": 2,
+    "spider_tick_rate": 0.3,
+    "spirit_steal_duration": 10,
+    "spirit_reduced_per_stack": 5,
+    "spirit_res_reduced_per_stack": 5,
+    "spread_distance": 900
+  },
+  "tooltipDetails": {
+    "description": "Release a wave of spectral spiders that <span class=\"highlight\">chase enemies</span> and explode, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Hit enemies are <span class=\"highlight\">poisoned</span>, temporarily losing <Panel class=\"AbilityPropertyIcon StatDesc_TechPower\"> <span class=\"highlight_spirit\">Spirit</span> and <Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">Spirit Resist</span>. This effect can stack multiple times.",
+    "properties": [
+      {
+        "key": "SpiderDamage",
+        "value": 140,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.8,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SpiderCount",
+        "value": 5,
+        "m_b_round_down": true,
+        "m_e_display_type": "EMaxChargesIncrease"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SpiderLifetime",
+        "value": 25
+      },
+      {
+        "key": "SpiderSearchRadius",
+        "value": "2m",
+        "m_e_display_units": "EDisplayUnit_Meters",
+        "m_e_display_type": "ETechRange",
+        "type": "distance"
+      },
+      {
+        "key": "SpiritStealDuration",
+        "value": 10,
+        "type": "duration"
+      },
+      {
+        "key": "SpiritReducedPerStack",
+        "value": 5,
+        "m_e_display_type": "ETechPower",
+        "type": "tech_damage"
+      },
+      {
+        "key": "SpiritResReducedPerStack",
+        "value": 5,
+        "type": "tech_armor_up",
+        "m_e_display_type": "ETechArmorDamageReduction"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -45
+      },
+      {
+        "spirit_res_reduced_per_stack": 3,
+        "name": "Spirit Reduction",
+        "spirit_reduced_per_stack": 3
+      },
+      {
+        "spider_count": 5,
+        "spread_distance": 900
+      }
+    ]
+  }
+}

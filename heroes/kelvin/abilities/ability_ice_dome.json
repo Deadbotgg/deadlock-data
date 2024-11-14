@@ -1,0 +1,77 @@
+{
+  "key": "ability_ice_dome",
+  "name": "Frozen Shelter",
+  "stats": {
+    "duration": 5.5,
+    "cooldown": 127,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 10,
+    "blocker_scale_factor": 115,
+    "grow_time": 0.2,
+    "enemy_drag_speed": 1000,
+    "bonus_health_regen": 120,
+    "max_health_regen": 0,
+    "slow_percent": 35,
+    "fire_rate_slow": 0
+  },
+  "tooltipDetails": {
+    "description": "{s:hero_name} freezes the air around him, creating an <span class=\"highlight\">impenetrable dome</span> around himself. While in the dome, allies rapidly <span class=\"highlight\">regenerate health</span> and enemies are <span class=\"highlight\">slowed</span>. <br>Objectives becomes Invulnerable and Frozen under Frozen Shelter.",
+    "properties": [
+      {
+        "key": "BonusHealthRegen",
+        "value": 120,
+        "type": "healing",
+        "scale_function": {
+          "value": 0,
+          "type": "spirit"
+        },
+        "m_e_provided_property_type": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
+      },
+      {
+        "key": "SlowPercent",
+        "value": 35,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "FireRateSlow",
+        "value": 0,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MaxHealthRegen",
+        "value": 0,
+        "type": "healing"
+      }
+    ],
+    "upgrades": [
+      {
+        "fire_rate_slow": 40
+      },
+      {
+        "ability_cooldown": -38
+      },
+      {
+        "bonus_health_regen": 1.638
+      }
+    ]
+  }
+}

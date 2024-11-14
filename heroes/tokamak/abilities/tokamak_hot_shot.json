@@ -1,0 +1,29 @@
+{
+  "key": "tokamak_hot_shot",
+  "name": "Hot Shot",
+  "stats": {
+    "duration": 0,
+    "cooldown": 32,
+    "range": 0,
+    "charges": 2,
+    "charge_restore_time": 1,
+    "channel_duration": 1,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 1,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 1,
+    "channel_move_speed": 70,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "normal_dps": 55,
+    "hot_dps": 90,
+    "beam_length": 30,
+    "beam_width": 4,
+    "heat_power_length": 0,
+    "tick_rate": 0.1,
+    "tracking_speed": 180
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Cheat Death",
+  "description": null,
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_tech/torment_aura_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "pulse_interval": {
+            "value": 2,
+            "style": "duration",
+            "is_negative": false
+          },
+          "pulse_radius": {
+            "value": 8,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "damage_pulse_amount": {
+            "value": 65,
+            "style": "tech_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Releases a periodic pulse, damaging nearby enemies."
+      }
+    ],
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 175,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_health_regen": {
+            "value": 2,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 159,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "damage_pulse_amount": 65,
+  "pulse_interval": 2,
+  "pulse_radius": 8,
+  "death_immunity_duration": 4,
+  "death_immunity_pulse_rate_multiplier": 4,
+  "bonus_health": 175,
+  "bonus_health_regen": 2
+}

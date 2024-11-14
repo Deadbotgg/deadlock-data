@@ -1,0 +1,93 @@
+{
+  "name": "Reactive Barrier",
+  "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/last_stand_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterClipSize",
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_clip_size_percent": {
+            "value": 20,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_health_regen": {
+            "value": 2,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "vex_barrier_shield_duration": {
+            "value": 9,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 32,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "vex_barrier_bullet_max_health": {
+            "value": 400,
+            "style": "bullet_armor_up",
+            "is_conditional": true
+          },
+          "vex_barrier_tech_max_health": {
+            "value": 200,
+            "style": "tech_armor_up",
+            "is_conditional": true
+          }
+        },
+        "description": "Automatically <span class=\"highlight\">restores one stamina</span> and deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 32,
+  "ability_duration": 10,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "vex_barrier_bullet_max_health": 400,
+  "vex_barrier_tech_max_health": 200,
+  "bonus_clip_size_percent": 20,
+  "bonus_health": 75,
+  "bonus_health_regen": 2,
+  "vex_barrier_shield_duration": 9
+}

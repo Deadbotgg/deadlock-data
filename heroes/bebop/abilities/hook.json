@@ -1,0 +1,66 @@
+{
+  "key": "citadel_ability_hook",
+  "name": "Hook",
+  "stats": {
+    "duration": 0,
+    "cooldown": 23,
+    "range": 30,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 10,
+    "hooking_slow_speed_limit": 0.001,
+    "return_speed": 2200,
+    "return_speed_non_player": 3850,
+    "return_delay": 0.5,
+    "return_position_forward_offset": 100,
+    "end_of_hook_slow_target_speed": 0,
+    "end_of_hook_slow_target_duration": 0,
+    "end_of_hook_move_speed_bonus": 0,
+    "end_of_hook_command_restrict_linger": 0.25,
+    "reset_cooldown_on_friendly_hook": 0,
+    "friendly_hook_ignore_range": 8,
+    "bullet_amp": 0,
+    "bullet_amp_duration": 0,
+    "bullet_shield_on_hook": 0,
+    "bullet_shield_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "To Bebop:",
+    "properties": [
+      {
+        "key": "BulletShieldOnHook",
+        "value": 0,
+        "type": "bullet_armor_up",
+        "scale_function": {
+          "value": 0,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "BulletShieldDuration",
+        "value": 0,
+        "type": "bullet_armor_up"
+      }
+    ],
+    "upgradeRequired": {
+      "key": "BulletShieldOnHook",
+      "value": 0,
+      "type": "bullet_armor_up",
+      "scale_function": {
+        "value": 0,
+        "type": "spirit"
+      }
+    }
+  }
+}

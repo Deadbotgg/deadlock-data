@@ -1,0 +1,87 @@
+{
+  "key": "citadel_ability_tangotether",
+  "name": "Watcher's Covenant",
+  "stats": {
+    "duration": 12,
+    "cooldown": 37,
+    "range": 16,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 16,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bonus_fire_rate": 10,
+    "bullet_lifesteal_percent": 15,
+    "move_speed_bonus": 0,
+    "tick_rate": 0.1,
+    "tether_shared_heal_pct": 30,
+    "healing_per_glub": 20,
+    "total_tether_targets": 1
+  },
+  "tooltipDetails": {
+    "description": "Gain bonuses and automatically connect with a nearby ally to share them.  <span class=\"highlight\">Healing is replicated</span> among all those connected. Connection requires line of sight. Press [{s:in_ability2}] to Lock on to a target",
+    "properties": [
+      {
+        "key": "BonusFireRate",
+        "value": 10,
+        "type": "fire_rate",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "scale_function": {
+          "value": 0.3,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "BulletLifestealPercent",
+        "value": 15,
+        "type": "healing",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_LIFESTEAL",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "scale_function": {
+          "value": 0.3,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "TetherSharedHealPct",
+        "value": 30,
+        "type": "healing"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MoveSpeedBonus",
+        "value": "0m",
+        "type": "move_speed",
+        "m_e_display_type": "EMaxMoveSpeed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "TotalTetherTargets",
+        "value": 1
+      }
+    ],
+    "upgrades": [
+      {
+        "bonus_fire_rate": 10
+      },
+      {
+        "move_speed_bonus": 2
+      },
+      {
+        "total_tether_targets": 1,
+        "name": "Tether Count"
+      }
+    ]
+  }
+}

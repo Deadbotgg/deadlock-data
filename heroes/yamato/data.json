@@ -1,0 +1,274 @@
+{
+  "id": 27,
+  "name": "Yamato",
+  "new_player_friendly": false,
+  "in_development": false,
+  "in_hero_labs": false,
+  "is_disabled": false,
+  "complexity": 3,
+  "readability": 1,
+  "bot_selectable": false,
+  "lane_testing_recommended": false,
+  "starting_stats": {
+    "max_move_speed": 8.3,
+    "sprint_speed": 0,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 69,
+    "heavy_melee_damage": 128,
+    "max_health": 500,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 3,
+    "base_health_regen": 2,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": 0,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.353,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 31,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.325
+  },
+  "visuals": {
+    "ui_color": [
+      110,
+      144,
+      128
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {
+    "eclipsize": 0.15
+  },
+  "weapon_stats": {
+    "bullet_damage": 5.65,
+    "rounds_per_second": 2.5,
+    "clip_size": 12,
+    "reload_time": 2.444,
+    "reload_movespeed": 1,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 100,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 18,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 0,
+    "bullets_per_shot": 5,
+    "bullets_per_burst": 1,
+    "burst_inter_shot_interval": 0,
+    "dps": 70.625,
+    "sustained_dps": 46.797349530646045,
+    "weapon_name": "citadel_weapon_yamato_set",
+    "weapon_description": "citadel_weapon_hero_yamato_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_Spreadshot",
+      "Attribute_EWeaponAttribute_CloseRange"
+    ]
+  },
+  "lore": "犯罪組織のボスの家に生まれた花桜梨とその兄の\\n大和にとって、父の死後に「セブンスムーン」の跡目を\\n継ぐのは自明のことでもあった。 そして何年もの間、\\nかれらは対等の立場で組織を率いて利益と成功を\\nもたらし、やがてはアメリカへの進出をも目論むように\\nなった。\\n\\n思い描いていた計画は単純で、 大和がアメリカに渡って\\n花桜梨の国際的な存在感を高め、その間花桜梨は日本に\\n残って国内を統制する、といったものだった。 兄妹に\\nとって不運だったのは、花桜梨が日本で指揮をとると\\nいう計画を快く思わない部下たちがいたことだった。\\n\\nそして迅速かつ暴力的な形で、反乱は発生した。\\n大和は花桜梨を守るために命を落とし、花桜梨と数人の\\n忠実な部下たちは、その大和の犠牲のおかげもあって、\\n日本からアメリカへと逃げ延びることに成功した。\\n\\nアメリカに着いた花桜梨たちを出迎えたのは、\\n本来であれば大和が会う予定となっていた男であった。\\n彼は日本人の名前になじみがなかったため性別の\\n区別がついておらず、花桜梨のことを「ヤマト」と\\n呼んだ。花桜梨は男の間違いを正そうと思ったが、\\n結局そのままにした。兄の記憶を残し続けるためにも、\\nその名を名乗り、その夢を受け継ぐことが最善の\\n道であろうと考えたからだ。",
+  "playstyle": "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count.",
+  "role": "Delivers charged attacks with finesse",
+  "recommended_items": [
+    "upgrade_endurance",
+    "upgrade_close_range",
+    "upgrade_headshot_booster",
+    "upgrade_magic_burst",
+    "upgrade_improved_spirit",
+    "upgrade_resilience",
+    "upgrade_cold_front",
+    "upgrade_crackshot",
+    "upgrade_tech_defense_shredders",
+    "upgrade_bullet_armor",
+    "upgrade_tech_armor",
+    "upgrade_healbane",
+    "upgrade_magic_shock",
+    "upgrade_tech_damage_pulse",
+    "upgrade_soaring_spirit",
+    "upgrade_close_quarter_combat",
+    "upgrade_fervor",
+    "upgrade_mega_spirit",
+    "upgrade_ability_refresher"
+  ],
+  "abilities": [
+    {
+      "key": "citadel_ability_power_slash"
+    },
+    {
+      "key": "citadel_ability_flying_strike"
+    },
+    {
+      "key": "citadel_ability_healing_slash"
+    },
+    {
+      "key": "citadel_ability_infinity_slash"
+    }
+  ]
+}

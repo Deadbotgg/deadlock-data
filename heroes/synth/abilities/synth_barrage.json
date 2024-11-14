@@ -1,0 +1,91 @@
+{
+  "key": "synth_barrage",
+  "name": "Barrage",
+  "stats": {
+    "duration": 0,
+    "cooldown": 32,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 2,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.3,
+    "channel_time": 2,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage_per_projectile": 35,
+    "projectile_amount": 4,
+    "pop_up_speed": 0,
+    "fall_speed_max": 10,
+    "air_speed_max": 100,
+    "air_drag": 0.3,
+    "radius": 4.5,
+    "move_slow_percent": 30,
+    "slow_duration": 1.5,
+    "amp_percent_per_stack": 6,
+    "amp_duration": 15,
+    "life_steal_percent_on_hit": 0,
+    "life_steal_percent_on_hit_non_hero": 0
+  },
+  "tooltipDetails": {
+    "description": "Channel to start launching projectiles that <span class=\"highlight\">deal damage</span> and <span class=\"highlight\">apply movement slow</span> around their impact point. Each projectile landed on a hero grants you a <span class=\"highlight\">stacking buff that amplifies all of your damage</span>.<br>If you cast it while in the air, you'll <span class=\"highlight\">float</span> and maintain any horizontal momentum you started with.",
+    "properties": [
+      {
+        "key": "AmpPercentPerStack",
+        "value": 6,
+        "type": "damage"
+      },
+      {
+        "key": "DamagePerProjectile",
+        "value": 35,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.5,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "MoveSlowPercent",
+        "loc_token_override": "SlowPercent",
+        "value": 30,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ProjectileAmount",
+        "value": 4
+      },
+      {
+        "key": "SlowDuration",
+        "value": 1.5,
+        "type": "duration"
+      },
+      {
+        "key": "AmpDuration",
+        "value": 15,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "damage_per_projectile": 15,
+        "name": "Damage Per Projectile"
+      },
+      {
+        "ability_cooldown": -14
+      },
+      {
+        "amp_percent_per_stack": 4,
+        "radius": 2
+      }
+    ]
+  }
+}

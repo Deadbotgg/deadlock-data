@@ -1,0 +1,101 @@
+{
+  "name": "Veil Walker",
+  "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_utility/veil_walker_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterClipSize"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_clip_size_percent": {
+            "value": 15,
+            "style": null,
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 15,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "bullet_shield_max_health": {
+            "value": 250,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "tech_shield_max_health": {
+            "value": 250,
+            "style": "tech_armor_up",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "invis_duration": {
+            "value": 5,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 18,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bonus_move_speed": {
+            "value": 4,
+            "style": "move_speed",
+            "is_conditional": true
+          }
+        },
+        "description": "Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Move Speed</span> and restores all <span class=\"highlight\">Bullet and Spirit Shields</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 18,
+  "ability_duration": 16,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "invis_alert_when_fading": 1,
+  "invis_cancel_on_damage": 0,
+  "invis_fade_to_duration": 0,
+  "invis_move_speed_mod": 0,
+  "spotted_radius": 20,
+  "reveal_on_damage_duration": 0.25,
+  "reveal_on_spotted_duration": 0.25,
+  "bullet_shield_max_health": 250,
+  "tech_shield_max_health": 250,
+  "bonus_clip_size_percent": 15,
+  "base_attack_damage_percent": 15,
+  "bonus_clip_size": 0,
+  "invis_duration": 5,
+  "bonus_move_speed": 4
+}

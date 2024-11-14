@@ -1,0 +1,50 @@
+{
+  "key": "citadel_ability_vandal_surge",
+  "name": "citadel_ability_vandal_surge",
+  "stats": {
+    "duration": 1.25,
+    "cooldown": 16,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 1,
+    "cast_delay": 0.6,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damping_factor": 0.5,
+    "lift_height": 120,
+    "damage": 100
+  },
+  "tooltipDetails": {
+    "description": "Lift an enemy hero into the air, <span class=\"highlight\">stunning</span> them for a short time. When the lift ends, the target receives Telekinesis damage.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 100,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.04832,
+          "type": "spirit"
+        }
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -28
+      },
+      {
+        "ability_duration": 0.5
+      },
+      {
+        "ability_unit_target_limit": 5
+      }
+    ]
+  }
+}

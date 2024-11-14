@@ -1,0 +1,56 @@
+{
+  "key": "ability_warden_high_alert",
+  "name": "Willpower",
+  "stats": {
+    "duration": 7,
+    "cooldown": 42,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "move_speed_bonus_pct": 15,
+    "tech_shield_points": 150
+  },
+  "tooltipDetails": {
+    "description": "Gain a <span class=\"highlight\">spirit shield</span> and <span class=\"highlight\">bonus move speed</span>.",
+    "properties": [
+      {
+        "key": "TechShieldPoints",
+        "value": 150,
+        "type": "tech_armor_up",
+        "scale_function": {
+          "value": 0,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "MoveSpeedBonusPct",
+        "value": 15,
+        "type": "move_speed"
+      }
+    ],
+    "upgrades": [
+      {
+        "move_speed_bonus_pct": 20,
+        "name": "Move Speed bonus"
+      },
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "tech_shield_points": 3.9312,
+        "name": "Spirit Shield Health"
+      }
+    ]
+  }
+}

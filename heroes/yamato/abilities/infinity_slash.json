@@ -1,0 +1,85 @@
+{
+  "key": "citadel_ability_infinity_slash",
+  "name": "Shadow Transformation",
+  "stats": {
+    "duration": 5,
+    "cooldown": 85,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 2,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 2,
+    "post_cast_duration": 0.6,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bonus_move_speed": 0,
+    "bonus_fire_rate": 0,
+    "speed_pct": 60,
+    "bullet_resist": 45,
+    "tech_resist": 45,
+    "max_health_regen": 20,
+    "shadow_form_duration_on_kill": 2
+  },
+  "tooltipDetails": {
+    "description": "Become infused with {s:hero_name}'s shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, gain <span class=\"highlight\">immunity to negative status effects</span>, <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">Heal</span>.<br>Duration is extended if {s:hero_name} gets a hero kill.",
+    "properties": [
+      {
+        "key": "AbilityDuration",
+        "value": 5,
+        "disable_value": 0,
+        "type": "duration",
+        "m_b_can_set_token_override": true
+      },
+      {
+        "key": "AbilitySpeedPct",
+        "value": 60,
+        "type": "cast"
+      },
+      {
+        "key": "MaxHealthRegen",
+        "value": 20,
+        "type": "healing"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "BulletResist",
+        "value": 45,
+        "m_e_display_type": "EBulletArmorDamageReduction",
+        "type": "bullet_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "TechResist",
+        "value": 45,
+        "m_e_display_type": "ETechArmorDamageReduction",
+        "type": "tech_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "ShadowFormDurationOnKill",
+        "value": 2,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "bonus_fire_rate": 20
+      },
+      {
+        "bonus_move_speed": 4
+      },
+      {
+        "ability_duration": 2
+      }
+    ]
+  }
+}

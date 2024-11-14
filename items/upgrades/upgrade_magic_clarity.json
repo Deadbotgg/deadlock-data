@@ -1,0 +1,59 @@
+{
+  "name": "Clarity",
+  "description": "On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s.  Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/clarity_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 16,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bonus_spirit": {
+            "value": 28,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "bonus_movespeed": {
+            "value": 2,
+            "style": "movement_speed",
+            "is_conditional": false
+          }
+        },
+        "description": "On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s.  Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 16,
+  "ability_duration": 8,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_movespeed": 2,
+  "bonus_spirit": 28,
+  "bonus_spirit_max_time": 12,
+  "bonus_spirit_window": 1,
+  "bonus_spirit_min": 2
+}

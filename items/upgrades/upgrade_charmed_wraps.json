@@ -1,0 +1,52 @@
+{
+  "name": "Charmed Wraps",
+  "description": "Your abilities get their <span class=\"highlight\">cooldowns reduced</span> when you perform a <span class=\"highlight\">heavy melee</span> attack against a hero (or <span class=\"highlight\">two light melee</span> attacks within {s:LightMeleeTimeWindow}s).",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/charmed_wraps_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "cooldown_reduction_flat": {
+            "value": 8,
+            "style": null,
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 26,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Your abilities get their <span class=\"highlight\">cooldowns reduced</span> when you perform a <span class=\"highlight\">heavy melee</span> attack against a hero (or <span class=\"highlight\">two light melee</span> attacks within {s:LightMeleeTimeWindow}s)."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 26,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "cooldown_reduction_flat": 8,
+  "light_melee_time_window": 4
+}

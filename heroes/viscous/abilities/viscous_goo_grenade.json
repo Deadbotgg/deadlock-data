@@ -1,0 +1,68 @@
+{
+  "key": "viscous_goo_grenade",
+  "name": "Splatter",
+  "stats": {
+    "duration": 0,
+    "cooldown": 21,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.001,
+    "channel_time": 0,
+    "post_cast_duration": 0.2,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "slow_percent": 35,
+    "move_speed_slow_percent": 0,
+    "max_bounces": 0,
+    "damage": 90,
+    "move_speed_ground_slow": 0,
+    "boss_damage_percent": 50,
+    "radius": 5,
+    "puddle_duration": 10,
+    "detonate_cooldown": 0.15,
+    "second_hit_damage_percentage": 0.7,
+    "third_hit_damage_percentage": 0.5
+  },
+  "tooltipDetails": {
+    "description": "Goo puddles linger on the ground and apply a <span class=\"highlight\">movement slow</span> to enemies walking on them.",
+    "properties": [
+      {
+        "key": "SlowPercent",
+        "value": 35,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "m_b_is_hidden": false
+      },
+      {
+        "key": "PuddleDuration",
+        "value": 10,
+        "type": "duration",
+        "scale_function": {
+          "value": 1,
+          "type": "duration"
+        }
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -5.75
+      },
+      {
+        "damage": 50,
+        "radius": 1
+      },
+      {
+        "max_bounces": 2
+      }
+    ]
+  }
+}

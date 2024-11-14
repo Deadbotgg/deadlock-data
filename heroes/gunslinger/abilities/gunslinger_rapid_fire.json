@@ -1,0 +1,30 @@
+{
+  "key": "gunslinger_rapid_fire",
+  "name": "Rapid Fire",
+  "stats": {
+    "duration": 0,
+    "cooldown": 10.5,
+    "range": 15,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 1.5,
+    "resource_cost": 0,
+    "cast_range": 15,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 1.5,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "bullet_speed_percent": 100,
+    "bullet_accuracy": 200,
+    "juggle_air_speed_max": 50,
+    "juggle_fall_speed_max": 20,
+    "cast_range_when_vertical": 30,
+    "cast_range_when_vertical_bias": 0.3,
+    "fire_rate_multiplier": 100,
+    "weapon_damage_scale": -75
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "key": "fathom_scalding_spray",
+  "name": "Scalding Spray",
+  "stats": {
+    "duration": 3,
+    "cooldown": 40,
+    "range": 0,
+    "charges": 1,
+    "charge_restore_time": 8,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 8,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 12,
+    "dps": 40,
+    "tick_rate": 0.25,
+    "weapon_damage_bonus_per_sec": 7,
+    "weapon_damage_bonus_duration": 12
+  },
+  "tooltipDetails": {
+    "description": "Spray scalding water in a cone ahead of you. You build up bonus weapon damage as the spray damages an enemy hero.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.4,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "WeaponDamageBonusPerSec",
+        "value": 7,
+        "type": "bullet_damage",
+        "m_e_display_type": "EBaseWeaponDamageIncrease",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "WeaponDamageBonusDuration",
+        "value": 12,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -15
+      },
+      {
+        "ability_duration": 2
+      },
+      {
+        "dps": 45
+      }
+    ]
+  }
+}

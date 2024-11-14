@@ -1,0 +1,77 @@
+{
+  "name": "Galvanic Storm",
+  "description": null,
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/electrified_bullets_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "buff_move_speed_bonus": {
+            "value": 3,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "galvanic_buff_duration": {
+            "value": 7,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "buff_damage_mult": {
+            "value": 2,
+            "style": null,
+            "is_conditional": false
+          }
+        },
+        "description": "When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">move speed</span>"
+      }
+    ],
+    "Innate": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "damage_per_chain": 50,
+  "bonus_per_chain": 75,
+  "chain_radius": 7,
+  "proc_chance": 30,
+  "proc_cooldown": 0.4,
+  "chain_count": 7,
+  "chain_tick_rate": 0.2,
+  "tech_shield_max_health": 400,
+  "galvanic_debuff_duration": 5,
+  "explode_radius": 10,
+  "galvanic_buff_duration": 7,
+  "buff_damage_mult": 2,
+  "buff_move_speed_bonus": 3
+}

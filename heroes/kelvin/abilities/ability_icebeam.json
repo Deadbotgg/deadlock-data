@@ -1,0 +1,102 @@
+{
+  "key": "ability_icebeam",
+  "name": "Arctic Beam",
+  "stats": {
+    "duration": 0,
+    "cooldown": 24,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 5,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 5,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": -1,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "channel_slow_percent": 8,
+    "dps": 60,
+    "tick_rate": 0.1,
+    "path_length": 25,
+    "path_width": 1.1,
+    "camera_distance": 250,
+    "min_slow_percent": 30,
+    "max_slow_percent": 40,
+    "max_fire_rate_slow_percent": 40,
+    "max_slow_time": 2,
+    "ice_beam_buildup_proc_duration": 2,
+    "slow_duration": 0.6,
+    "beam_split_count": 0,
+    "beam_split": 0
+  },
+  "tooltipDetails": {
+    "description": "Shoot freezing cold energy out in front of you, <span class=\"highlight\">damaging targets</span> and <span class=\"highlight\">building up movement and fire rate slow</span> against them the longer you sustain the beam on them. You have reduced move speed while using Arctic Beam. The beam may also claim Souls.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 60,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.9,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "MaxSlowPercent",
+        "value": 40,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "MaxFireRateSlowPercent",
+        "value": 40,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MaxSlowTime",
+        "value": 2,
+        "type": "duration"
+      },
+      {
+        "key": "PathLength",
+        "value": "25m",
+        "type": "distance"
+      },
+      {
+        "key": "IceBeamBuildupProcDuration",
+        "value": 2,
+        "type": "duration"
+      },
+      {
+        "key": "BeamSplit",
+        "value": "0m",
+        "type": "radius",
+        "scale_function": {
+          "value": 0,
+          "type": "range"
+        }
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -7.5
+      },
+      {
+        "dps": 40
+      },
+      {
+        "beam_split": 1,
+        "beam_split_count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "key": "synth_pulse",
+  "name": "Enchanter's Satchel",
+  "stats": {
+    "duration": 0,
+    "cooldown": 17,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 2,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.15,
+    "channel_time": 2,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 12,
+    "damage": 100,
+    "fall_speed_max": 1,
+    "fire_rate_slow": 0,
+    "debuff_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Escape</span> into your suitcase. When the duration ends, <span class=\"highlight\">deal damage</span> to nearby enemies. Duration can be ended early by performing any action.",
+    "properties": [
+      {
+        "key": "AbilityChannelTime",
+        "value": 2,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true,
+        "m_e_display_type": "EChannelDuration",
+        "loc_token_override": "EscapeDuration"
+      },
+      {
+        "key": "Damage",
+        "value": 100,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.6552,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "FireRateSlow",
+        "value": 0,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "DebuffDuration",
+        "value": 0,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -4.75
+      },
+      {
+        "damage": 80
+      },
+      {
+        "fire_rate_slow": 40,
+        "debuff_duration": 4
+      }
+    ]
+  }
+}

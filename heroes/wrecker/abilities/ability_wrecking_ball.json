@@ -1,0 +1,72 @@
+{
+  "key": "ability_wrecking_ball",
+  "name": "Wrecking Ball",
+  "stats": {
+    "duration": 6,
+    "cooldown": 31,
+    "range": 50,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 50,
+    "unit_target_limit": 1,
+    "cast_delay": 1.4,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "tech_cleave_expire_time": 0.4,
+    "move_speed_limit": 6,
+    "stun_duration": 1,
+    "wrecking_ball_push_force": 1500,
+    "wrecking_ball_damage": 150,
+    "min_speed": 80
+  },
+  "tooltipDetails": {
+    "description": "Create a large ball of scrap that can be thrown, <span class=\"highlight\">damaging and stunning</span> the first enemy hit. The ball takes time to create and you move slower while carrying it.",
+    "properties": [
+      {
+        "key": "WreckingBallDamage",
+        "value": 150,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.4,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StatusEffectStun",
+        "statusEffect": {
+          "key": "StunDuration",
+          "value": 1,
+          "type": "duration"
+        },
+        "isShown": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MoveSpeedLimit",
+        "value": "6m",
+        "type": "move_speed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -7.5
+      },
+      {
+        "wrecking_ball_damage": 80,
+        "name": "Damage"
+      },
+      {
+        "move_speed_limit": 4,
+        "name": "Move Speed"
+      }
+    ]
+  }
+}

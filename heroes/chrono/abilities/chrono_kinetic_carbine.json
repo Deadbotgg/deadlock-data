@@ -1,0 +1,117 @@
+{
+  "key": "citadel_ability_chrono_kinetic_carbine",
+  "name": "Kinetic Carbine",
+  "stats": {
+    "duration": 0,
+    "cooldown": 30,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "speed_change": 25,
+    "speed_boost_duration": 3.5,
+    "base_bullet_damage": 5,
+    "min_bonus_bullet_damage": 25,
+    "max_bonus_bullet_damage": 100,
+    "headshot_bonus": 15,
+    "max_slow_duration": 0.5,
+    "bullet_time_scale": 0.01,
+    "projectile_time_scale": 0.01,
+    "time_warp_radius": 5,
+    "bonus_bullet_speed": 100,
+    "shot_count": 1,
+    "max_charge_duration": 2.5,
+    "bullet_radius_override": 13.7,
+    "move_speed_while_shooting_penalty_reduction": 100,
+    "min_slow_duration": 0.25,
+    "time_scale_debuff": 90
+  },
+  "tooltipDetails": {
+    "description": "Start charging your weapon and gain <span class=\"highlight\">increased move speed</span> once it's fully charged. Your next shot will release the energy, dealing <span class=\"highlight\">spirit damage</span> and applying a <span class=\"highlight\">time stop</span> to the enemy hit. The damage dealt is an amplification of your current weapon damage. <br><br>You can slow time on yourself by pressing [{s:iv_attack2}] while an empowered shot is available.",
+    "properties": [
+      {
+        "key": "MaxBonusBulletDamage",
+        "value": 100,
+        "type": "tech_damage"
+      },
+      {
+        "key": "MaxSlowDuration",
+        "value": 0.5,
+        "m_e_display_type": "ETechDuration",
+        "type": "duration"
+      },
+      {
+        "key": "SpeedChange",
+        "value": 25,
+        "type": "move_speed",
+        "scale_function": {
+          "value": 0.09828,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "BaseBulletDamage",
+        "value": 5,
+        "scale_function": {
+          "value": 1,
+          "type": "damage"
+        },
+        "type": "bullet_damage"
+      },
+      {
+        "key": "HeadshotBonus",
+        "loc_token_override": "CarbineHeadshotBonus",
+        "value": 15,
+        "type": "tech_damage"
+      },
+      {
+        "key": "MinBonusBulletDamage",
+        "value": 25,
+        "type": "tech_damage"
+      },
+      {
+        "key": "MinSlowDuration",
+        "value": 0.25,
+        "type": "duration",
+        "m_e_display_type": "ETechDuration"
+      },
+      {
+        "key": "MaxChargeDuration",
+        "value": 2.5,
+        "type": "duration"
+      },
+      {
+        "key": "SpeedBoostDuration",
+        "value": 3.5,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "max_slow_duration": 0.5,
+        "name": "Max Stop Duration"
+      },
+      {
+        "ability_cooldown": -10,
+        "name": "Speed Duration",
+        "speed_boost_duration": 2
+      },
+      {
+        "max_bonus_bullet_damage": 50,
+        "name": "Max Damage Amp"
+      }
+    ]
+  }
+}

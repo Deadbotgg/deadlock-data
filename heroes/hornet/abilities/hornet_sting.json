@@ -1,0 +1,84 @@
+{
+  "key": "citadel_ability_hornet_sting",
+  "name": "Crow Familiar",
+  "stats": {
+    "duration": 0,
+    "cooldown": 26,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "dot_health_percent": 3,
+    "tick_rate": 1,
+    "impact_damage": 40,
+    "debuff_duration": 6,
+    "visual_splash_radius": 1,
+    "target_bounce_range": 0,
+    "target_bounce_count": 0,
+    "heal_amp_receive_penalty_percent": 0,
+    "heal_amp_regen_penalty_percent": 0,
+    "bullet_resist_reduction": -6
+  },
+  "tooltipDetails": {
+    "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span>, reduces their bullet resist and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
+    "properties": [
+      {
+        "key": "ImpactDamage",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.8,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "DotHealthPercent",
+        "value": 3,
+        "m_e_display_type": "EHealthRegen",
+        "type": "tech_damage"
+      },
+      {
+        "key": "BulletResistReduction",
+        "value": -6,
+        "type": "bullet_armor_down",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "DebuffDuration",
+        "value": 6,
+        "type": "duration",
+        "scale_function": {
+          "value": 0.03,
+          "type": "spirit"
+        }
+      }
+    ],
+    "upgrades": [
+      {
+        "target_bounce_range": 15,
+        "target_bounce_count": 3
+      },
+      {
+        "ability_cooldown": -16
+      },
+      {
+        "dot_health_percent": 3,
+        "heal_amp_receive_penalty_percent": -40,
+        "heal_amp_regen_penalty_percent": -40
+      }
+    ]
+  }
+}

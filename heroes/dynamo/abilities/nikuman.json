@@ -1,0 +1,70 @@
+{
+  "key": "citadel_ability_nikuman",
+  "name": "Rejuvenating Aurora",
+  "stats": {
+    "duration": 0,
+    "cooldown": 48,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 5,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 5,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 4.2,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "healing_per_second": 32,
+    "heal_max_health_percent": 0,
+    "share_with_friends_radius": 8,
+    "no_channel": 0,
+    "movement_speed_bonus": 0,
+    "movement_speed_bonus_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby. Dashing does not break channel.",
+    "properties": [
+      {
+        "key": "HealingPerSecond",
+        "value": 32,
+        "type": "healing",
+        "scale_function": {
+          "value": 0.5,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "AbilityChannelTime",
+        "value": 5,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "ShareWithFriendsRadius",
+        "value": "8m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "movement_speed_bonus": 4,
+        "movement_speed_bonus_duration": 8
+      },
+      {
+        "ability_cooldown": -14
+      },
+      {
+        "no_channel": 1,
+        "name": "Max Health Restored",
+        "heal_max_health_percent": 3.8
+      }
+    ]
+  }
+}

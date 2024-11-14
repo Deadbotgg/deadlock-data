@@ -1,0 +1,78 @@
+{
+  "name": "Healbane",
+  "description": "Your <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_tech/healbane_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterHealing",
+    "EShopFilterDisruption",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "heal_amp_receive_penalty_percent": {
+            "value": -45,
+            "style": null,
+            "is_conditional": true
+          },
+          "heal_on_kill": {
+            "value": 350,
+            "style": "healing",
+            "is_conditional": false
+          }
+        },
+        "description": "Your <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 6,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "heal_amp_receive_penalty_percent": -45,
+  "heal_amp_regen_penalty_percent": -45,
+  "heal_on_kill": 350,
+  "bonus_health": 75
+}

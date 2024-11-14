@@ -1,0 +1,69 @@
+{
+  "key": "ability_health_swap",
+  "name": "Soul Exchange",
+  "stats": {
+    "duration": 0.25,
+    "cooldown": 170,
+    "range": 7,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 7,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 2,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "post_cast_hold_time": 0.7,
+    "initial_up_speed": 150,
+    "enemy_min_health_pct": 30,
+    "min_health_taken_pct": 30,
+    "hp_on_health_steal": 0,
+    "min_diff_to_cast": 0.1,
+    "enemy_slow_pct": 70,
+    "self_buff_duration": 0,
+    "tech_resist": 0,
+    "bonus_fire_rate": 0
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Swaps health levels</span> with an enemy target. There is a minimum health percentage that enemies can be brought down to and a minimum amount of health received based on victims current health.",
+    "properties": [
+      {
+        "key": "EnemyMinHealthPct",
+        "value": 30,
+        "type": "health"
+      },
+      {
+        "key": "MinHealthTakenPct",
+        "value": 30,
+        "type": "health"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SelfBuffDuration",
+        "value": 0,
+        "loc_token_override": "HealthSwapBuffDuration",
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -38
+      },
+      {
+        "enemy_min_health_pct": -10,
+        "name": "Enemy Min Health"
+      },
+      {
+        "self_buff_duration": 8,
+        "tech_resist": 40,
+        "bonus_fire_rate": 40
+      }
+    ]
+  }
+}

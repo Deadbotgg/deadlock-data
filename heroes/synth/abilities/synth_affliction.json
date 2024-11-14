@@ -1,0 +1,61 @@
+{
+  "key": "synth_affliction",
+  "name": "Affliction",
+  "stats": {
+    "duration": 0,
+    "cooldown": 127,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.6,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 14,
+    "dps": 23,
+    "damage_interval": 0.5,
+    "debuff_duration": 18,
+    "can_be_purged": 1,
+    "heal_amp_receive_penalty_percent": 0,
+    "heal_amp_regen_penalty_percent": 0
+  },
+  "tooltipDetails": {
+    "description": "Apply <span class=\"highlight\">damage over time</span> to all enemies nearby.<br>Affliction's damage is non-lethal and does not apply item procs.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 23,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.34,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "DebuffDuration",
+        "value": 18,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [],
+    "upgrades": [
+      {
+        "ability_cooldown": -28
+      },
+      {
+        "heal_amp_receive_penalty_percent": -60,
+        "heal_amp_regen_penalty_percent": -60
+      },
+      {
+        "dps": 27
+      }
+    ]
+  }
+}

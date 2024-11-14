@@ -1,0 +1,69 @@
+{
+  "key": "ability_explosive_barrel",
+  "name": "Powder Keg",
+  "stats": {
+    "duration": 0,
+    "cooldown": 32,
+    "range": 0,
+    "charges": 2,
+    "charge_restore_time": 5,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.125,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 5,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 6,
+    "barrel_lifetime": 8,
+    "barrel_damage": 100,
+    "barrel_roll_speed_move_min": 15,
+    "barrel_pitch_min": 2,
+    "barrel_pitch_max": 45,
+    "barrel_roll_speed_move_air": 10,
+    "barrel_light_melee_force_forward": 760,
+    "barrel_light_melee_force_up": 550,
+    "barrel_heavy_melee_force_forward": 1100,
+    "barrel_heavy_melee_force_up": 550,
+    "barrel_scale": 1.3,
+    "toss_speed": 400,
+    "arm_time": 1,
+    "min_time_before_destroy": 1
+  },
+  "tooltipDetails": {
+    "description": "Place a barrel that explodes when <span class=\"highlight\">shot</span>, or on landing after launched via <span class=\"highlight\">melee attack</span> or <span class=\"highlight\">bounce pad</span>. Has a minimum arm time before it can explode.",
+    "properties": [
+      {
+        "key": "BarrelDamage",
+        "value": 100,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.9656,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ArmTime",
+        "value": 1
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_charges": 1
+      },
+      {
+        "barrel_damage": 140,
+        "name": "Explosion Damage"
+      },
+      {
+        "ability_cooldown": -9.5,
+        "min_time_before_destroy": -1,
+        "arm_time": -1
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "key": "citadel_ability_storm_cloud",
+  "name": "Storm Cloud",
+  "stats": {
+    "duration": 0,
+    "cooldown": 148,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 7,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 7,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 30,
+    "initial_radius": 12,
+    "dps": 120,
+    "boss_damage_percent": 25,
+    "damage_interval": 0.25,
+    "expand_time": 2,
+    "cloud_height": 120,
+    "camera_distance": 600,
+    "ending_soon_time": 2,
+    "bullet_resist_on_active": 20
+  },
+  "tooltipDetails": {
+    "description": "Channel an expanding storm cloud around you that <span class=\"highlight\">damages all enemies</span> within its radius. Enemies do not take damage when they are out of line-of-sight. You have increased <span class=\"highlight\">Bullet Resist</span> during the channel.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 120,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.7,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "InitialRadius",
+        "value": "12m",
+        "type": "distance"
+      },
+      {
+        "key": "BulletResistOnActive",
+        "value": 20,
+        "type": "bullet_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "bullet_resist_on_active": 35
+      },
+      {
+        "radius": 10,
+        "ability_channel_time": 7
+      },
+      {
+        "dps": 75
+      }
+    ]
+  }
+}

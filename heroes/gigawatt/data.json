@@ -1,0 +1,272 @@
+{
+  "id": 2,
+  "name": "Seven",
+  "new_player_friendly": true,
+  "in_development": false,
+  "in_hero_labs": false,
+  "is_disabled": false,
+  "complexity": 1,
+  "readability": 4,
+  "bot_selectable": true,
+  "lane_testing_recommended": true,
+  "starting_stats": {
+    "max_move_speed": 7.1,
+    "sprint_speed": 0,
+    "crouch_speed": 4.75,
+    "move_acceleration": 4,
+    "light_melee_damage": 63,
+    "heavy_melee_damage": 116,
+    "max_health": 550,
+    "weapon_power": 0,
+    "reload_speed": 1,
+    "weapon_power_scale": 1,
+    "stamina": 3,
+    "base_health_regen": 3,
+    "stamina_regen_per_second": 0.2,
+    "stamina_cooldown": 5,
+    "crit_damage_received_scale": -35,
+    "tech_range": 0,
+    "tech_duration": 0
+  },
+  "level_upgrades": {
+    "modifier_value_base_bullet_damage_from_level": 0.597143,
+    "modifier_value_base_melee_damage_from_level": 2.671429,
+    "modifier_value_base_health_from_level": 31,
+    "modifier_value_tech_damage_percent": 0,
+    "modifier_value_bullet_armor_damage_resist": 0,
+    "modifier_value_tech_armor_damage_resist": 0
+  },
+  "collision": {
+    "radius": 20,
+    "height": 80,
+    "step_height": 32
+  },
+  "movement": {
+    "stealth_speed": 4,
+    "footstep_sound_distance": 20,
+    "step_sound_time": 0.28
+  },
+  "visuals": {
+    "ui_color": [
+      237,
+      149,
+      60
+    ],
+    "glow_colors": {
+      "friendly": [
+        255,
+        239,
+        215
+      ],
+      "enemy": [
+        255,
+        0,
+        0
+      ],
+      "team1": [
+        231,
+        182,
+        89
+      ],
+      "team2": [
+        91,
+        121,
+        230
+      ]
+    },
+    "model_skin": 0
+  },
+  "item_slots": {
+    "weapon_mod": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "armor": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    },
+    "tech": {
+      "max_purchases_per_tier": [
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  "purchase_bonuses": {
+    "weapon_mod": [
+      {
+        "tier": 1,
+        "value": 6,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 10,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 18,
+        "type": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
+      }
+    ],
+    "armor": [
+      {
+        "tier": 1,
+        "value": 11,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 2,
+        "value": 14,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 3,
+        "value": 17,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      },
+      {
+        "tier": 4,
+        "value": 20,
+        "type": "MODIFIER_VALUE_BASE_HEALTH_PERCENT"
+      }
+    ],
+    "tech": [
+      {
+        "tier": 1,
+        "value": 4,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 2,
+        "value": 8,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 3,
+        "value": 12,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      },
+      {
+        "tier": 4,
+        "value": 16,
+        "type": "MODIFIER_VALUE_TECH_POWER"
+      }
+    ]
+  },
+  "stats_display": {
+    "health_header_stats": [
+      "EMaxHealth",
+      "EBaseHealthRegen"
+    ],
+    "health_stats": [
+      "EBulletArmorDamageReduction",
+      "ETechArmorDamageReduction",
+      "EBulletShieldHealth",
+      "ETechShieldHealth",
+      "EBulletLifesteal",
+      "ETechLifesteal",
+      "EMaxMoveSpeed",
+      "ESprintSpeed",
+      "EStamina",
+      "EHealingOutput"
+    ],
+    "weapon_header_stats": [
+      "EWeaponDPS",
+      "EBulletDamage"
+    ],
+    "weapon_stats": [
+      "ELightMeleeDamage",
+      "EHeavyMeleeDamage",
+      "EFireRate",
+      "EClipSize"
+    ],
+    "magic_header_stats": [
+      "ETechPower"
+    ],
+    "magic_stats": [
+      "ETechCooldown",
+      "ETechRange",
+      "ETechDuration"
+    ]
+  },
+  "spirit_scaling": {
+    "emaxmovespeed": 0.023
+  },
+  "weapon_stats": {
+    "bullet_damage": 11.5,
+    "rounds_per_second": 4,
+    "clip_size": 29,
+    "reload_time": 2.35,
+    "reload_movespeed": 1,
+    "reload_delay": 0,
+    "reload_single": false,
+    "bullet_speed": 250,
+    "falloff_start_range": 8.66,
+    "falloff_end_range": 22.64,
+    "falloff_start_scale": 1,
+    "falloff_end_scale": 0.1,
+    "falloff_bias": 0.5,
+    "bullet_gravity_scale": 0.8,
+    "bullets_per_shot": 1,
+    "bullets_per_burst": 3,
+    "burst_inter_shot_interval": 0.08,
+    "dps": 70.40816326530613,
+    "sustained_dps": 47.06020696142992,
+    "weapon_name": "citadel_weapon_gigawatt_set",
+    "weapon_description": "citadel_weapon_hero_gigawatt_set",
+    "weapon_types": [
+      "Attribute_EWeaponAttribute_BurstFire",
+      "Attribute_EWeaponAttribute_MediumRange"
+    ]
+  },
+  "lore": "When mystic energy awoke on Earth, the world changed... anything was possible.  But just because anything WAS possible, didn’t mean that anything SHOULD be possible.  And so the government made rules.   Laws.  A means for US citizens to enjoy the benefits of the supernatural world in safety.  But rules and laws are for lesser men.  Men with limitations.  Men who were not Seven.  \\n\\nThere are many rumors about what Seven did to land himself in Lost Whisper, an oubliette for the most dangerous of occultists.  But there is no doubt about what happened on the night of his execution. \\n\\nWards placed by the most powerful ritualists of 7 different nations… wards designed to not just prevent mystical interference with the execution, but to simultaneously obliterate Seven's soul so that it could never be contacted, resurrected, or otherwise be used by someone looking to follow in his footsteps... failed.\\n\\nOnlookers viewed in horror as the strongest mentalist employed by the US Army’s head popped like a grape.  They screamed as Scotland Yard’s premiere occult investigator, the one who allegedly captured Seven, crumbled to ash.  Seven's body buckled and writhed against his restraints; his skin burning from eldritch electricity... and yet he would not die.  He laughed.\\n\\nHe laughed as he tore himself free from his bondage.\\n\\nHe laughed as his captors cowered in fear.\\n\\nHe laughed as he massacred his tormentors.\\n\\nHe laughed as he tasted the fresh air that was denied to him for years.\\n\\nAnd he laughed when he thought about what he was going to do once he reached New York City.",
+  "playstyle": "Seven thrives in a skirmish waiting for the time to strike. Then he rolls into the fight like a storm and batters his enemies with a cascade of lightning.",
+  "role": "Electrocutes crowds of enemies",
+  "recommended_items": [
+    "upgrade_non_player_bonus",
+    "upgrade_resilience",
+    "upgrade_improved_spirit",
+    "upgrade_magic_reach",
+    "upgrade_tech_defense_shredders",
+    "upgrade_health_stealing_magic",
+    "upgrade_tech_armor",
+    "upgrade_bullet_armor",
+    "upgrade_magic_vulnerability",
+    "upgrade_suppressor",
+    "upgrade_rocket_booster",
+    "upgrade_chain_lightning",
+    "upgrade_magic_slow",
+    "upgrade_soaring_spirit",
+    "upgrade_tech_purge",
+    "upgrade_damage_recycler",
+    "upgrade_escalating_exposure"
+  ],
+  "abilities": [
+    {
+      "key": "citadel_ability_lightning_ball"
+    },
+    {
+      "key": "citadel_ability_static_charge"
+    },
+    {
+      "key": "ability_power_surge"
+    },
+    {
+      "key": "citadel_ability_storm_cloud"
+    }
+  ]
+}

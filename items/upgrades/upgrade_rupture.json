@@ -1,0 +1,99 @@
+{
+  "name": "Decay",
+  "description": "Reduces <span class=\"highlight\">healing</span> received of targeted enemy and inflicts <span class=\"highlight\">damage over time</span> of their current health.<br>Decay's damage is non-lethal.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "ActivationPress",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/rupture_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health_regen": {
+            "value": 1,
+            "style": "healing",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 7,
+            "style": "tech_damage",
+            "is_negative": false
+          },
+          "bonus_ability_duration_percent": {
+            "value": 8,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cast_range": {
+            "value": 15,
+            "style": "range",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 33,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "heal_amp_receive_penalty_percent": {
+            "value": -70,
+            "style": null,
+            "is_conditional": true
+          },
+          "dot_health_percent": {
+            "value": 1,
+            "style": "tech_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Reduces <span class=\"highlight\">healing</span> received of targeted enemy and inflicts <span class=\"highlight\">damage over time</span> of their current health.<br>Decay's damage is non-lethal."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 33,
+  "ability_duration": 10,
+  "ability_cast_range": 15,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.25,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 7,
+  "weapon_power": 0,
+  "heal_amp_receive_penalty_percent": -70,
+  "heal_amp_regen_penalty_percent": -70,
+  "tick_rate": 1,
+  "dot_health_percent": 1,
+  "bonus_health_regen": 1.5,
+  "bonus_ability_duration_percent": 8
+}

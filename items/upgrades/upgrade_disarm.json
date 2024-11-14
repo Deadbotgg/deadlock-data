@@ -1,0 +1,87 @@
+{
+  "name": "Drain Will",
+  "description": "Fires a projectile which reduces the <span class=\"highlight\">Fire Rate</span> of the target and <span class=\"highlight\">steals Spirit</span>.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "ActivationPress",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/disarm_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 50,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cast_range": {
+            "value": 17,
+            "style": "range",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 26,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "fire_rate_slow": {
+            "value": 30,
+            "style": null,
+            "is_conditional": true
+          },
+          "spirit_steal": {
+            "value": 22,
+            "style": null,
+            "is_conditional": false
+          }
+        },
+        "description": "Fires a projectile which reduces the <span class=\"highlight\">Fire Rate</span> of the target and <span class=\"highlight\">steals Spirit</span>."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 26,
+  "ability_duration": 6,
+  "ability_cast_range": 17,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "fire_rate_slow": 30,
+  "spirit_steal": 22,
+  "spirit_steal_duration": 6,
+  "bonus_health": 50
+}

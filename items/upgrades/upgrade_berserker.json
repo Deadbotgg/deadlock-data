@@ -1,0 +1,88 @@
+{
+  "name": "Berserker",
+  "description": "Your <span class=\"highlight\">Weapon Damage</span> increases as you take sustained damage.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/berserker_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterClipSize",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_clip_size": {
+            "value": 4,
+            "style": null,
+            "is_negative": false
+          },
+          "bullet_resist": {
+            "value": 9,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Default": [
+      {
+        "ability_properties": {
+          "damage_to_stack": {
+            "value": 100,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "max_stacks": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          },
+          "damage_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "weapon_power_per_stack": {
+            "value": 5,
+            "style": "bullet_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Your <span class=\"highlight\">Weapon Damage</span> increases as you take sustained damage."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "damage_duration": 10,
+  "damage_to_stack": 100,
+  "weapon_power_per_stack": 5,
+  "max_stacks": 10,
+  "bonus_clip_size": 4,
+  "bullet_resist": 9
+}

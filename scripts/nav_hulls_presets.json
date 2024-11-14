@@ -1,0 +1,10 @@
+{
+  "generic_data_type": "CNavHullPresetVData",
+  "default": {
+    "m_vecNavHulls": [
+      "small",
+      "medium",
+      "large"
+    ]
+  }
+}

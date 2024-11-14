@@ -1,0 +1,99 @@
+{
+  "name": "Withering Whip",
+  "description": "Target an enemy to apply <span class=\"highlight\">Fire Rate Slow</span> and reduce their <span class=\"highlight\">Bullet Resist</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "ActivationPress",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/disarm_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterDisruption",
+    "EShopFilterMagicDamage"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bullet_shield_max_health": {
+            "value": 100,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "spirit_power": {
+            "value": 6,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_sprint_speed": {
+            "value": 1,
+            "style": "move_speed",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_cast_range": {
+            "value": 30,
+            "style": "range",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 4,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 18,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "damage": {
+            "value": 50,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "fire_rate_slow": {
+            "value": 45,
+            "style": "fireRate",
+            "is_conditional": true
+          }
+        },
+        "description": "Target an enemy to apply <span class=\"highlight\">Fire Rate Slow</span> and reduce their <span class=\"highlight\">Bullet Resist</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 18,
+  "ability_duration": 4.5,
+  "ability_cast_range": 30,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.1,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "damage": 50,
+  "fire_rate_slow": 45,
+  "bullet_armor_reduction": -11,
+  "spirit_power": 6,
+  "bonus_sprint_speed": 1,
+  "bullet_shield_max_health": 100
+}

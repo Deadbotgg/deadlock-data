@@ -1,0 +1,79 @@
+{
+  "name": "Arcane Eater",
+  "description": "Your bullets <span class=\"highlight\">Steal Spirit Power</span> from enemy Heroes.  Steal {s:HeadshotBonusSteal} extra Spirit Power with Headshots.  This effect stacks.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/arcane_eater_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterFireRate"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_fire_rate": {
+            "value": 7,
+            "style": "fireRate",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "steal_duration": {
+            "value": 12,
+            "style": "duration",
+            "is_negative": false
+          },
+          "proc_cooldown": {
+            "value": 0,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "spirit_stole_per_hit": {
+            "value": 1,
+            "style": "tech_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Your bullets <span class=\"highlight\">Steal Spirit Power</span> from enemy Heroes.  Steal {s:HeadshotBonusSteal} extra Spirit Power with Headshots.  This effect stacks."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_fire_rate": 7,
+  "spirit_stole_per_hit": 1,
+  "headshot_bonus_steal": 1,
+  "proc_cooldown": 0.5,
+  "max_stacks": 99,
+  "steal_duration": 12
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Heroic Aura",
+  "description": "Provides <span class=\"highlight\">Fire Rate</span> to nearby player minions.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "InstantCast",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/bullet_damage_aura_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllFriendly"
+  ],
+  "shop_filters": [
+    "EShopFilterFireRate",
+    "EShopFilterHealing",
+    "EShopFilterMovement"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bullet_lifesteal_percent": {
+            "value": 20,
+            "style": "healing",
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 150,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_move_speed": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Default": [
+      {
+        "ability_properties": {
+          "radius": {
+            "value": 20,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "bonus_fire_rate_player_unit": {
+            "value": 40,
+            "style": "fireRate",
+            "is_conditional": true
+          }
+        },
+        "description": "Provides <span class=\"highlight\">Fire Rate</span> to nearby player minions."
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "active_radius": {
+            "value": 30,
+            "style": "distance",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 6,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 25,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "active_bonus_move_speed": {
+            "value": 2,
+            "style": "move_speed",
+            "is_conditional": true
+          },
+          "bonus_fire_rate": {
+            "value": 25,
+            "style": "fireRate",
+            "is_conditional": true
+          }
+        },
+        "description": "Provides bonus <span class=\"highlight\">Move Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 25,
+  "ability_duration": 6,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bullet_lifesteal_percent": 20,
+  "bonus_fire_rate": 25,
+  "bonus_fire_rate_player_unit": 40,
+  "radius": 20,
+  "active_radius": 30,
+  "active_bonus_move_speed": 2,
+  "bonus_health": 150,
+  "bonus_move_speed": 1
+}

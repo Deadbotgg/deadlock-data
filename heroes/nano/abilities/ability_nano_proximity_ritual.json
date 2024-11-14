@@ -1,0 +1,118 @@
+{
+  "key": "ability_nano_proximity_ritual",
+  "name": "Nekomata Ward",
+  "stats": {
+    "duration": 60,
+    "cooldown": 30,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "statue_health": 300,
+    "attack_radius": 30,
+    "active_radius": 40,
+    "statue_arm_time": 0.5,
+    "cat_activate_duration": 2,
+    "tick_interval": 0.1,
+    "damage_tick": 1,
+    "dps": 40,
+    "heal_amp_receive_penalty_percent": -20,
+    "heal_amp_regen_penalty_percent": -20,
+    "target_lifesteal": 30,
+    "target_lifesteal_non_hero": 10,
+    "victim_damage_reduction": 0,
+    "damage_amplification": 0,
+    "recent_damage_mark_duration": 1.5,
+    "make_invisible": 0,
+    "spotted_radius": 20,
+    "reveal_on_spotted_duration": 1.5,
+    "invis_fade_to_duration": 1,
+    "reveal_on_damage_duration": 1.5
+  },
+  "tooltipDetails": {
+    "description": "Deploy a <span class=\"highlight\">Statue</span> to track enemies in an area. The Ward will also attack enemies recently damaged by {s:hero_name}. Targeted enemies have reduced healing and <span class=\"highlight\">heal {s:hero_name}</span> when damaged.",
+    "properties": [
+      {
+        "key": "DPS",
+        "value": 40,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.3,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StatueHealth",
+        "value": 300,
+        "type": "health",
+        "m_e_display_type": "EMaxHealth",
+        "scale_function": {
+          "value": 2,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ActiveRadius",
+        "loc_token_override": "StatueActivateRange",
+        "value": "40m",
+        "type": "distance",
+        "scale_function": {
+          "value": 0.2,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "AttackRadius",
+        "loc_token_override": "StatueAttackRadius",
+        "value": "30m",
+        "type": "distance"
+      },
+      {
+        "key": "TargetLifesteal",
+        "loc_token_override": "StatueLifesteal",
+        "value": 30,
+        "type": "healing",
+        "m_e_display_type": "ETechLifesteal"
+      },
+      {
+        "key": "HealAmpReceivePenaltyPercent",
+        "value": -20,
+        "type": "damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "VictimDamageReduction",
+        "loc_token_override": "StatueVictimDamageReduction",
+        "value": 0,
+        "type": "damage"
+      }
+    ],
+    "upgrades": [
+      {
+        "make_invisible": 1
+      },
+      {
+        "ability_duration": 30,
+        "dps": 20
+      },
+      {
+        "victim_damage_reduction": -30,
+        "heal_amp_receive_penalty_percent": -30,
+        "heal_amp_regen_penalty_percent": -30
+      }
+    ]
+  }
+}

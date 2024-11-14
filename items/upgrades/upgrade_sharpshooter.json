@@ -1,0 +1,99 @@
+{
+  "name": "Sharpshooter",
+  "description": "Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/longshot_psd",
+  "components": [
+    {
+      "key": "upgrade_long_range",
+      "name": "Long Range",
+      "image": "upgrades/mods_weapon/long_range_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterClipSize"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "reload_speed_multipler": {
+            "value": -20,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_attack_range_percent": {
+            "value": 15,
+            "style": "distance",
+            "is_negative": false
+          },
+          "bonus_zoom_percent": {
+            "value": 35,
+            "style": "distance",
+            "is_negative": false
+          },
+          "bullet_shield_max_health": {
+            "value": 200,
+            "style": "bullet_armor_up",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 20,
+            "style": "bullet_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "long_range_bonus_weapon_power_min_range": {
+            "value": 15,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "long_range_bonus_weapon_power": {
+            "value": 50,
+            "style": "bullet_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "base_attack_damage_percent": 20,
+  "long_range_bonus_weapon_power": 50,
+  "long_range_bonus_weapon_power_min_range": 15,
+  "bonus_attack_range_percent": 15,
+  "bonus_zoom_percent": 35,
+  "reload_speed_multipler": -20,
+  "bullet_shield_max_health": 200
+}

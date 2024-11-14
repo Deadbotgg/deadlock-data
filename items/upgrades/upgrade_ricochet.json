@@ -1,0 +1,92 @@
+{
+  "name": "Ricochet",
+  "description": "Your bullets will <span class=\"highlight\">ricochet</span> on enemies near your target, <span class=\"highlight\">applying any bullet procs</span> and <span class=\"highlight\">dealing a percentage of the original damage.</span>",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/ricochet_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy",
+    "TrooperEnemy",
+    "PropEnemy",
+    "MinionEnemy",
+    "Neutral"
+  ],
+  "shop_filters": [
+    "EShopFilterClipSize"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_clip_size_percent": {
+            "value": 35,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_fire_rate": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 150,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Default": [
+      {
+        "ability_properties": {
+          "ricochet_targets_tooltip_only": {
+            "value": 2,
+            "style": null,
+            "is_negative": false
+          },
+          "ricochet_radius": {
+            "value": 11,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "ricochet_damage_percent": {
+            "value": 60,
+            "style": "bullet_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Your bullets will <span class=\"highlight\">ricochet</span> on enemies near your target, <span class=\"highlight\">applying any bullet procs</span> and <span class=\"highlight\">dealing a percentage of the original damage.</span>"
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "ricochet_damage_percent": 60,
+  "ricochet_radius": 11,
+  "bonus_clip_size_percent": 35,
+  "ricochet_targets_tooltip_only": 2,
+  "bonus_health": 150,
+  "bonus_fire_rate": 10
+}

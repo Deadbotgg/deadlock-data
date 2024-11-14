@@ -1,0 +1,62 @@
+{
+  "key": "citadel_ability_bull_heal",
+  "name": "Siphon Life",
+  "stats": {
+    "duration": 4,
+    "cooldown": 42,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 10,
+    "healing_factor": 100,
+    "non_hero_healing_factor": 50,
+    "life_drain_per_second": 35,
+    "tick_rate": 0.25
+  },
+  "tooltipDetails": {
+    "description": "Drain health from enemies in front of you while they are in the radius.",
+    "properties": [
+      {
+        "key": "LifeDrainPerSecond",
+        "value": 35,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.36,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "HealingFactor",
+        "value": 100,
+        "type": "healing"
+      },
+      {
+        "key": "NonHeroHealingFactor",
+        "value": 50,
+        "type": "healing"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -19
+      },
+      {
+        "ability_duration": 2
+      },
+      {
+        "life_drain_per_second": 40
+      }
+    ]
+  }
+}

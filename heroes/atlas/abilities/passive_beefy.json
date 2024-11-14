@@ -1,0 +1,63 @@
+{
+  "key": "citadel_ability_passive_beefy",
+  "name": "Infernal Resilience",
+  "stats": {
+    "duration": 0,
+    "cooldown": 0,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "regen_incoming_damage_percent": 14,
+    "regen_incoming_damage_duration": 20,
+    "regen_damage_interval": 1,
+    "bonus_max_health": 0,
+    "bonus_health_regen": 1,
+    "bullet_resist": 0
+  },
+  "tooltipDetails": {
+    "description": "<span class=\"highlight\">Regenerate</span> a portion of incoming damage over time.",
+    "properties": [
+      {
+        "key": "RegenIncomingDamagePercent",
+        "value": 14,
+        "type": "healing"
+      },
+      {
+        "key": "RegenIncomingDamageDuration",
+        "value": 20,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "BonusHealthRegen",
+        "value": 1,
+        "type": "health",
+        "m_e_provided_property_type": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
+      }
+    ],
+    "upgrades": [
+      {
+        "bonus_health_regen": 1.5
+      },
+      {
+        "bonus_max_health": 150
+      },
+      {
+        "regen_incoming_damage_percent": 7,
+        "name": "Damage regenerated"
+      }
+    ]
+  }
+}

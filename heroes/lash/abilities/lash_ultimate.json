@@ -1,0 +1,98 @@
+{
+  "key": "citadel_ability_lash_ultimate",
+  "name": "Death Slam",
+  "stats": {
+    "duration": 0,
+    "cooldown": 138,
+    "range": 18,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 2,
+    "resource_cost": 0,
+    "time_to_gain_lockon_stack": 0.6,
+    "lockon_cone_angle": 40,
+    "time_to_lose_lockon_stack": 2,
+    "losing_lock_grace_time": 0.4,
+    "max_lockon_stacks": 1,
+    "stacks_can_decay": 0,
+    "cast_range": 18,
+    "unit_target_limit": 6,
+    "cast_delay": 0.3,
+    "channel_time": 2,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "impact_damage": 115,
+    "up_boost_speed": 400,
+    "lift_height": 6,
+    "boost_time": 1,
+    "hang_time": 0.6,
+    "throw_distance": 12,
+    "min_aim_angle": 0,
+    "slam_speed": 1600,
+    "throw_straight_duration": 1.5,
+    "slow_duration": 4,
+    "slow_percent": 50,
+    "impact_radius": 5,
+    "not_in_cone_loses_lock": 1
+  },
+  "tooltipDetails": {
+    "description": "Focus on enemies to connect whips to them. After channeling, connected enemies are <span class=\"highlight\">lifted and stunned</span> then slammed into the ground. Your victims and any enemies in the landing zone will be <span class=\"highlight\">damaged and slowed</span>. <br>Press [{s:iv_attack}] to throw connected enemies early. Enemies that are not in line of sight or go out of range during the latch time will not be grabbed.",
+    "properties": [
+      {
+        "key": "ImpactDamage",
+        "value": 115,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.04832,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ThrowDistance",
+        "value": "12m",
+        "scale_function": {
+          "value": 0.3276,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SlowPercent",
+        "value": 50,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "SlowDuration",
+        "value": 4,
+        "type": "duration"
+      },
+      {
+        "key": "AbilityCastDelay",
+        "value": 0.3,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true,
+        "loc_token_override": "LashUltimateChargeTime"
+      }
+    ],
+    "upgrades": [
+      {
+        "throw_distance": 8,
+        "name": "Max Throw Distance"
+      },
+      {
+        "impact_damage": 100,
+        "name": "Damage"
+      },
+      {
+        "ability_cooldown": -56
+      }
+    ]
+  }
+}

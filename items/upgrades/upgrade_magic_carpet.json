@@ -1,0 +1,109 @@
+{
+  "name": "Magic Carpet",
+  "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet.",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Tech",
+  "image": "hud/abilities/kelvin/ice_path_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterMovement"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_ability_duration_percent": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 15,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 150,
+            "style": "health",
+            "is_negative": false
+          },
+          "tech_range_multiplier": {
+            "value": 10,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "ability_duration": {
+            "value": 7,
+            "style": "duration",
+            "is_negative": false
+          },
+          "fly_move_speed": {
+            "value": 6,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "summon_duration": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          },
+          "shield_duration": {
+            "value": 16,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "flying_bullet_shield": {
+            "value": 400,
+            "style": "bullet_armor_up",
+            "is_conditional": false
+          },
+          "flying_tech_shield": {
+            "value": 400,
+            "style": "tech_armor_up",
+            "is_conditional": false
+          }
+        },
+        "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 32,
+  "ability_duration": 7,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0.2,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": -1,
+  "ability_resource_cost": 0,
+  "tech_power": 15,
+  "weapon_power": 0,
+  "summon_duration": 1.3,
+  "shield_duration": 16,
+  "flying_bullet_shield": 400,
+  "flying_tech_shield": 400,
+  "fly_move_speed": 6,
+  "bonus_health": 150,
+  "bonus_ability_duration_percent": 10,
+  "tech_range_multiplier": 10,
+  "tech_radius_multiplier": 10
+}

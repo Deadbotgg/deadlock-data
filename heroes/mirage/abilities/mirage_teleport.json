@@ -1,0 +1,73 @@
+{
+  "key": "mirage_teleport",
+  "name": "Traveler",
+  "stats": {
+    "duration": 0,
+    "cooldown": 130,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 2.5,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.01,
+    "channel_time": 2.5,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "search_radius": 30,
+    "bonus_move_speed": 2,
+    "movement_speed_bonus_duration": 4,
+    "bonus_fire_rate": 30,
+    "fire_rate_max_duration": 10,
+    "immunity_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Channeled. Target an ally or visible enemy hero on the minimap, then <span class=\"highlight\">teleport</span> to where they were when your channel started. After teleporting, you gain <span class=\"highlight\">move speed</span> as well as <span class=\"highlight\">fire rate until your next reload</span>.",
+    "properties": [
+      {
+        "key": "AbilityChannelTime",
+        "value": 2.5,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true
+      },
+      {
+        "key": "BonusMoveSpeed",
+        "value": "2m",
+        "type": "move_speed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "conditional_loc_token_override": "#MirageTeleportMoveSpeed_conditional"
+      },
+      {
+        "key": "BonusFireRate",
+        "value": 30,
+        "type": "fireRate",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MovementSpeedBonusDuration",
+        "value": 4,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "bonus_move_speed": 2
+      },
+      {
+        "ability_cooldown": -40
+      },
+      {
+        "immunity_duration": 3
+      }
+    ]
+  }
+}

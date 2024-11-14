@@ -1,0 +1,59 @@
+{
+  "name": "Healing Aura",
+  "description": "Automatically provides a burst of healing to yourself and nearby friendlies every <span class=\"highlight\">{s:HealInterval} seconds</span>.  <br>Effect does not stack.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/health_regen_aura_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllFriendly"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "heal_radius": {
+            "value": 9,
+            "style": "distance",
+            "is_negative": false
+          },
+          "heal_interval": {
+            "value": 3,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "heal_amount": {
+            "value": 40,
+            "style": "healing",
+            "is_conditional": false
+          }
+        },
+        "description": "Automatically provides a burst of healing to yourself and nearby friendlies every <span class=\"highlight\">{s:HealInterval} seconds</span>.  <br>Effect does not stack."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "heal_interval": 3,
+  "heal_amount": 40,
+  "heal_radius": 9
+}

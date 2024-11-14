@@ -1,0 +1,78 @@
+{
+  "key": "ability_wrecker_teleport",
+  "name": "Astral Walk",
+  "stats": {
+    "duration": 0,
+    "cooldown": 138,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 8,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 1.5,
+    "channel_time": 8,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explosion_radius": 8,
+    "damage_per_second_flown": 16,
+    "enemy_move_slow_duration": 1,
+    "enemy_slow_pct": 60
+  },
+  "tooltipDetails": {
+    "description": "Launch a <span class=\"highlight\">flying shadow copy of yourself that you control</span>, <span class=\"highlight\">teleporting</span> your original body to wherever it lands. The teleport explosion <span class=\"highlight\">slows enemies and deals damage</span> based on how long you were flying.",
+    "properties": [
+      {
+        "key": "DamagePerSecondFlown",
+        "value": 16,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.52416,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ExplosionRadius",
+        "value": "8m",
+        "type": "distance"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "AbilityCastDelay",
+        "value": 1.5,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true
+      },
+      {
+        "key": "EnemySlowPct",
+        "value": 60,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "EnemyMoveSlowDuration",
+        "value": 1,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_channel_time": 8
+      },
+      {
+        "ability_cooldown": -47
+      },
+      {
+        "damage_per_second_flown": 16,
+        "name": "Damage per second flown"
+      }
+    ]
+  }
+}

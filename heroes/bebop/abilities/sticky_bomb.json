@@ -1,0 +1,50 @@
+{
+  "key": "citadel_ability_sticky_bomb",
+  "name": "Sticky Bomb",
+  "stats": {
+    "duration": 3,
+    "cooldown": 18,
+    "range": 6,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 6,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 12,
+    "fuse_time": 3,
+    "kill_check_window": 12,
+    "damage": 120,
+    "bonus_damage_pct_per_player_killed": 4,
+    "bonus_damage_pct_per_player_hit": 1.5,
+    "stun_target_on_explode": 0,
+    "debuff_duration": 0,
+    "outgoing_damage_penalty_percent": 0
+  },
+  "tooltipDetails": {
+    "properties": [
+      {
+        "key": "StatusEffectDisarmed",
+        "requiresUpgrade": true,
+        "statusEffect": {
+          "key": "DebuffDuration",
+          "value": 0,
+          "type": "duration"
+        },
+        "isShown": true
+      }
+    ],
+    "upgradeRequired": {
+      "key": "DebuffDuration",
+      "value": 0,
+      "type": "duration"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Spirit Lifesteal",
+  "description": "Your <span class=\"highlight\">spirit items and abilities heal you</span> for a percentage of the damage they deal. Heals for less on Non-Heroes and does not work on buildings.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_tech/health_stealing_tech_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterHealing",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "ability_lifesteal_percent_hero": {
+            "value": 23,
+            "style": "healing",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "non_hero_ability_lifesteal_tooltip_only": 3,
+  "bonus_health": 75
+}

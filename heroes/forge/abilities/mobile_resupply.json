@@ -1,0 +1,76 @@
+{
+  "key": "citadel_ability_mobile_resupply",
+  "name": "Medicinal Specter",
+  "stats": {
+    "duration": 6,
+    "cooldown": 48,
+    "range": 15,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 15,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "heal_radius": 5,
+    "external_bonus_health_regen": 25,
+    "turret_heal_mult": 1,
+    "aura_fire_rate_bonus": 0,
+    "max_health_regen_pct": 0,
+    "max_health_regen_pct_interval": 0.5
+  },
+  "tooltipDetails": {
+    "description": "Deploy a spirit that <span class=\"highlight\">heals nearby units</span>.",
+    "properties": [
+      {
+        "key": "ExternalBonusHealthRegen",
+        "value": 25,
+        "type": "healing",
+        "m_e_provided_property_type": "MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND"
+      },
+      {
+        "key": "HealRadius",
+        "value": "5m",
+        "type": "distance",
+        "scale_function": {
+          "value": 0.05,
+          "type": "spirit"
+        },
+        "requiresUpgrade": true
+      },
+      {
+        "key": "AuraFireRateBonus",
+        "value": 0,
+        "type": "fire_rate",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "requiresUpgrade": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MaxHealthRegenPct",
+        "value": 0,
+        "type": "healing"
+      }
+    ],
+    "upgrades": [
+      {
+        "aura_fire_rate_bonus": 35
+      },
+      {
+        "ability_cooldown": -17
+      },
+      {
+        "max_health_regen_pct": 5,
+        "name": "Max Health Regen"
+      }
+    ]
+  }
+}

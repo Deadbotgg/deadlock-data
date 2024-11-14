@@ -1,0 +1,77 @@
+{
+  "key": "citadel_ability_self_vacuum",
+  "name": "Singularity",
+  "stats": {
+    "duration": 0,
+    "cooldown": 191,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 2.75,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 2.75,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "vacuum_radius": 7,
+    "speed": 200,
+    "toss_speed": 350,
+    "toss_angle": 45,
+    "dps": 45,
+    "tick_rate": 1,
+    "camera_distance": 400,
+    "damage_percent_health": 1.5
+  },
+  "tooltipDetails": {
+    "description": "Create a singularity in your hands that <span class=\"highlight\">pulls in nearby enemies and damages them</span>. Once it's finished, enemies get knocked into the air.",
+    "properties": [
+      {
+        "key": "AbilityChannelTime",
+        "value": 2.75,
+        "disable_value": 0,
+        "type": "cast",
+        "m_b_can_set_token_override": true
+      },
+      {
+        "key": "DPS",
+        "value": 45,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.209664,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "DamagePercentHealth",
+        "value": 1.5,
+        "type": "tech_damage",
+        "requiresUpgrade": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "VacuumRadius",
+        "value": "7m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "vacuum_radius": 2,
+        "name": "Singularity Radius"
+      },
+      {
+        "ability_channel_time": 0.75
+      },
+      {
+        "damage_percent_health": 4,
+        "name": "Damage Health Percent"
+      }
+    ]
+  }
+}

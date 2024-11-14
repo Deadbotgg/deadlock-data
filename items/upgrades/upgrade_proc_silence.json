@@ -1,0 +1,65 @@
+{
+  "name": "EMP Bullets",
+  "description": "Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes that will <span class=\"highlight\">prevent targets from using abilities</span>. Victims are immune to emp bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/emp_bullets_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": null,
+  "tooltip": {
+    "Passive": [
+      {
+        "ability_properties": {
+          "e_m_p_duration": {
+            "value": 3,
+            "style": null,
+            "is_negative": false
+          },
+          "build_up_per_shot": {
+            "value": 1,
+            "style": null,
+            "is_negative": false
+          },
+          "build_up_duration": {
+            "value": 10,
+            "style": "duration",
+            "is_negative": false
+          },
+          "immunity_duration": {
+            "value": 4,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes that will <span class=\"highlight\">prevent targets from using abilities</span>. Victims are immune to emp bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
+      }
+    ]
+  },
+  "disabled": true,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "e_m_p_duration": 3,
+  "immunity_duration": 4,
+  "e_m_p_proc_chance": 100,
+  "build_up_per_shot": 1.6,
+  "build_up_duration": 10
+}

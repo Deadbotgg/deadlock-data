@@ -1,0 +1,79 @@
+{
+  "name": "Fortitude",
+  "description": "After not taking damage for <span class=\"highlight\">{s:RestoreDelay}s</span>, gain <span class=\"highlight\">{s:HealLifePercentOutOfCombat}% Max Health Regen</span>.",
+  "cost": "3000",
+  "tier": "3",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_armor/revitalizer_psd",
+  "components": [
+    {
+      "key": "upgrade_health",
+      "name": "Extra Health",
+      "image": "upgrades/mods_armor/health_psd"
+    }
+  ],
+  "componentsOf": [],
+  "target_types": null,
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterDurability",
+    "EShopFilterHealing",
+    "EShopFilterMovement"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 400,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 27,
+            "style": "bullet_damage",
+            "is_conditional": true
+          },
+          "bonus_move_speed": {
+            "value": 2,
+            "style": "move_speed",
+            "is_conditional": true
+          }
+        },
+        "description": "When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Move Speed</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "restore_delay": 10,
+  "heal_life_percent_out_of_combat": 4,
+  "health_threshold": 75,
+  "bonus_move_speed": 2,
+  "base_attack_damage_percent": 27,
+  "bonus_health": 400
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Melee Lifesteal",
+  "description": "Your <span class=\"highlight\">Melee</span> attacks <span class=\"highlight\">heal you</span> for {s:LifestrikeHealPercent}% of the <span class=\"highlight\">Melee Damage</span> dealt plus {s:LifestrikeHeal}. This heal is {s:NonHeroHealPct}% effective vs non-heroes.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_weapon/lifestrike_gauntlets_psd",
+  "components": null,
+  "componentsOf": [
+    {
+      "key": "upgrade_boxing_glove",
+      "name": "Lifestrike",
+      "image": "upgrades/mods_armor/boxing_glove_psd"
+    }
+  ],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterDurability",
+    "EShopFilterMelee",
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_melee_damage_percent": {
+            "value": 12,
+            "style": "melee_damage",
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 7,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": "Your <span class=\"highlight\">Melee</span> attacks <span class=\"highlight\">heal you</span> for {s:LifestrikeHealPercent}% of the <span class=\"highlight\">Melee Damage</span> dealt plus {s:LifestrikeHeal}. This heal is {s:NonHeroHealPct}% effective vs non-heroes."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 7.5,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "bonus_melee_damage_percent": 12,
+  "lifestrike_heal": 90,
+  "lifestrike_heal_percent": 20,
+  "bonus_health": 75,
+  "non_hero_heal_pct": 30
+}

@@ -1,0 +1,132 @@
+{
+  "key": "citadel_ability_tengu_airlift",
+  "name": "Air Drop",
+  "stats": {
+    "duration": 17,
+    "cooldown": 85,
+    "range": 8,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 8,
+    "unit_target_limit": 1,
+    "cast_delay": 1.3,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "ally_cast_delay": 0.2,
+    "explode_damage": 150,
+    "on_land_damage_radius_start": 4,
+    "on_land_damage_radius": 14,
+    "toss_speed": 400,
+    "flying_bullet_resist": 40,
+    "ally_outgoing_damage_percent": -50,
+    "buff_duration": 12,
+    "air_drop_bullet_shield": 200,
+    "silence_bomb_speed": 12,
+    "bullet_armor_reduction": 0,
+    "bullet_armor_reduction_duration": 0,
+    "slow_percent": 30,
+    "debuff_duration": 4,
+    "silence_duration": 0
+  },
+  "tooltipDetails": {
+    "description": "Take flight with an ally or a bomb. Drop your ally or bomb to cause a <span class=\"highlight\">large explosion</span> that causes <span class=\"highlight\">movement slow</span>. {s:hero_name} and ally gain a bullet shield when flying ends. <br>While lifted, your ally gains bullet resist but cannot attack and deals {s:AllyOutgoingDamagePercent}% damage. Air Drop has faster cast time when targeting an ally. <br>[{s:iv_attack}] to accelerate flying speed. <br>[{s:iv_attack2}] to drop ally/bomb.",
+    "properties": [
+      {
+        "key": "ExplodeDamage",
+        "value": 150,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 2.5,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "AirDropBulletShield",
+        "value": 200,
+        "type": "bullet_armor_up",
+        "m_e_display_type": "EBulletShieldHealth",
+        "scale_function": {
+          "value": 2.5,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "DebuffDuration",
+        "loc_token_override": "AirDropDebuffDuration",
+        "value": 4,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "FlyingBulletResist",
+        "loc_token_override": "AirDropBulletResist",
+        "value": 40,
+        "type": "bullet_armor_up",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BuffDuration",
+        "loc_token_override": "AirDropBuffDuration",
+        "value": 12,
+        "type": "duration"
+      },
+      {
+        "key": "OnLandDamageRadius",
+        "loc_token_override": "AirDropExplodeRadius",
+        "value": "14m",
+        "type": "distance"
+      },
+      {
+        "key": "SlowPercent",
+        "value": 30,
+        "type": "slow",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+      },
+      {
+        "key": "BulletArmorReduction",
+        "loc_token_override": "AirDropBulletArmorReduction",
+        "value": 0,
+        "type": "bullet_armor_down",
+        "m_e_display_type": "EStatsCount",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BulletArmorReductionDuration",
+        "loc_token_override": "AirDropDebuff02Duration",
+        "value": 0,
+        "type": "duration"
+      },
+      {
+        "key": "SilenceDuration",
+        "loc_token_override": "AirDropSilenceDuration",
+        "value": 0,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "bullet_armor_reduction": -20,
+        "name": "Duration",
+        "bullet_armor_reduction_duration": 12
+      },
+      {
+        "air_drop_bullet_shield": 300,
+        "name": "Landing Radius",
+        "on_land_damage_radius": 5
+      },
+      {
+        "silence_duration": 4.5
+      }
+    ]
+  }
+}

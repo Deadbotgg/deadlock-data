@@ -1,0 +1,101 @@
+{
+  "name": "Vampiric Burst",
+  "description": "",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "InstantCast",
+  "slot": "Weapon",
+  "image": "upgrades/mods_weapon/vampiric_burst_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroFriendly"
+  ],
+  "shop_filters": [
+    "EShopFilterFireRate",
+    "EShopFilterWeaponDamage",
+    "EShopFilterMovement",
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_move_speed": {
+            "value": 2,
+            "style": "move_speed",
+            "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 25,
+            "style": null,
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 175,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "active_reload_percent": {
+            "value": 75,
+            "style": null,
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 30,
+            "style": "cooldown",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 4,
+            "style": "duration",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "active_bonus_lifesteal": {
+            "value": 100,
+            "style": "healing",
+            "is_conditional": false
+          },
+          "active_bonus_fire_rate": {
+            "value": 40,
+            "style": "fireRate",
+            "is_conditional": false
+          }
+        },
+        "description": "Grants <span class=\"highlight\">Lifesteal</span>, <span class=\"highlight\">Fire Rate</span>, and <span class=\"highlight\">Ammo</span>. This added Ammo is not limited by your max magazine size."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 30,
+  "ability_duration": 4.5,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "active_bonus_fire_rate": 40,
+  "active_bonus_lifesteal": 100,
+  "bonus_move_speed": 2,
+  "base_attack_damage_percent": 25,
+  "bonus_health": 175,
+  "active_reload_percent": 75
+}

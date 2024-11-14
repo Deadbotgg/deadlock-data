@@ -1,0 +1,29 @@
+{
+  "key": "tokamak_radiance",
+  "name": "Blinding Radiance",
+  "stats": {
+    "duration": 6,
+    "cooldown": 48,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.25,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 40,
+    "evasion_chance": 20,
+    "max_dps": 16,
+    "tick_rate": 0.25,
+    "look_radius_scale": 1,
+    "look_dot_min": 0.866,
+    "blind_scale": 0.5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "key": "yakuza_kobun",
+  "name": "Hired Muscle",
+  "stats": {
+    "duration": 0,
+    "cooldown": 32,
+    "range": 30,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 30,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "summon_move_speed": 200,
+    "summon_health": 450,
+    "summon_lifetime": 45,
+    "summon_count": 1,
+    "summon_dps": 60,
+    "summon_caster_health_pct": 0,
+    "clone_damage_taken_increase_percent": 0
+  }
+}

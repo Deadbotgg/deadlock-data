@@ -1,0 +1,77 @@
+{
+  "key": "citadel_ability_healing_slash",
+  "name": "Crimson Slash",
+  "stats": {
+    "duration": 0,
+    "cooldown": 11.5,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.3,
+    "channel_time": 0,
+    "post_cast_duration": 0.4,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 60,
+    "radius": 13,
+    "heal_fixed_health": 70,
+    "heal_max_health": 0,
+    "debuff_duration": 4,
+    "fire_rate_slow": 20
+  },
+  "tooltipDetails": {
+    "description": "Slash enemies in front of you, <span class=\"highlight\">damaging them and slowing their fire rate</span>. If any enemy heroes are hit, you <span class=\"highlight\">heal</span>.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 60,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.39312,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "HealFixedHealth",
+        "value": 70,
+        "type": "healing",
+        "scale_function": {
+          "value": 1.11384,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "FireRateSlow",
+        "value": 20,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "DebuffDuration",
+        "value": 4,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "fire_rate_slow": 30
+      },
+      {
+        "heal_max_health": 10,
+        "name": "Heal on hero hit"
+      },
+      {
+        "ability_cooldown": -5.75
+      }
+    ]
+  }
+}

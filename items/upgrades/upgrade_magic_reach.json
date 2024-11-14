@@ -1,0 +1,58 @@
+{
+  "name": "Mystic Reach",
+  "description": "Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items.",
+  "cost": "500",
+  "tier": "1",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_tech/tech_range_psd",
+  "components": null,
+  "componentsOf": [
+    {
+      "key": "upgrade_tech_range",
+      "name": "Improved Reach",
+      "image": "upgrades/mods_tech/spiritual_dominion_psd"
+    }
+  ],
+  "target_types": null,
+  "shop_filters": null,
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bullet_resist": {
+            "value": 7,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {
+          "tech_range_multiplier": {
+            "value": 15,
+            "style": "distance",
+            "is_negative": false
+          }
+        },
+        "important_ability_properties": {},
+        "description": "Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "tech_range_multiplier": 15,
+  "tech_radius_multiplier": 15,
+  "bullet_resist": 7
+}

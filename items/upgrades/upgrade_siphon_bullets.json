@@ -1,0 +1,88 @@
+{
+  "name": "Siphon Bullets",
+  "description": "",
+  "cost": "6200",
+  "tier": "4",
+  "activation": "Passive",
+  "slot": "Armor",
+  "image": "upgrades/mods_weapon/siphon_bullets_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "HeroEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterWeaponDamage",
+    "EShopFilterHealing"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "base_attack_damage_percent": {
+            "value": 15,
+            "style": "bullet_damage",
+            "is_negative": false
+          },
+          "bullet_resist": {
+            "value": 18,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {
+          "steal_duration": {
+            "value": 20,
+            "style": "duration",
+            "is_negative": false
+          },
+          "proc_cooldown": {
+            "value": 0,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "health_steal": {
+            "value": 55,
+            "style": "healing",
+            "is_conditional": false
+          }
+        },
+        "description": "Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires.  Permanently steal {s:StealPerKill} stacks of health if a siphoned target dies and lose {s:StackLostPerDeath} stacks if you die."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 0,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "base_attack_damage_percent": 15,
+  "bullet_resist": 18,
+  "steal_per_hit": 1,
+  "steal_per_kill": 1,
+  "stack_lost_per_death": 2,
+  "max_stacks": 9999,
+  "steal_duration": 20,
+  "proc_cooldown": 0.8,
+  "health_steal": 55,
+  "particle_radius": 1
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Suppressor",
+  "description": "When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "Passive",
+  "slot": "Tech",
+  "image": "upgrades/mods_armor/weapon_jammer_psd",
+  "components": null,
+  "componentsOf": [
+    {
+      "key": "upgrade_magic_slow",
+      "name": "Mystic Slow",
+      "image": "upgrades/mods_tech/slowing_tech_psd"
+    }
+  ],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterHealing",
+    "EShopFilterDisruption"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "bonus_health": {
+            "value": 50,
+            "style": "health",
+            "is_negative": false
+          },
+          "bonus_health_regen": {
+            "value": 2,
+            "style": "healing",
+            "is_negative": false
+          },
+          "tech_power": {
+            "value": 4,
+            "style": "tech_damage",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Passive": [
+      {
+        "ability_properties": {},
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "fire_rate_slow": {
+            "value": 25,
+            "style": "fireRate",
+            "is_conditional": true
+          },
+          "ability_duration": {
+            "value": 2,
+            "style": "duration",
+            "is_conditional": false
+          }
+        },
+        "description": "When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 0,
+  "ability_duration": 2,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 4,
+  "weapon_power": 0,
+  "bonus_health": 50,
+  "bonus_health_regen": 2.5,
+  "fire_rate_slow": 25
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Cold Front",
+  "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes.",
+  "cost": "1250",
+  "tier": "2",
+  "activation": "InstantCast",
+  "slot": "Tech",
+  "image": "upgrades/mods_utility/ice_blast_psd",
+  "components": null,
+  "componentsOf": [],
+  "target_types": [
+    "AllEnemy"
+  ],
+  "shop_filters": [
+    "EShopFilterMagicDamage",
+    "EShopFilterDisruption",
+    "EShopFilterDurability"
+  ],
+  "tooltip": {
+    "Innate": [
+      {
+        "ability_properties": {
+          "tech_resist": {
+            "value": 10,
+            "style": null,
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {},
+        "description": ""
+      }
+    ],
+    "Active": [
+      {
+        "ability_properties": {
+          "end_radius": {
+            "value": 14,
+            "style": "distance",
+            "is_negative": false
+          },
+          "ability_duration": {
+            "value": 3,
+            "style": "duration",
+            "is_negative": false
+          },
+          "ability_cooldown": {
+            "value": 28,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
+        "elevated_ability_properties": {},
+        "important_ability_properties": {
+          "damage": {
+            "value": 75,
+            "style": "tech_damage",
+            "is_conditional": false
+          },
+          "slow_percent": {
+            "value": 40,
+            "style": "slow",
+            "is_conditional": true
+          }
+        },
+        "description": "Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits.  Deals {s:NPCDamageMult}x Damage to non-Heroes."
+      }
+    ]
+  },
+  "disabled": false,
+  "ability_cooldown": 28,
+  "ability_duration": 3,
+  "ability_cast_range": 0,
+  "ability_unit_target_limit": 1,
+  "ability_cast_delay": 0,
+  "ability_channel_time": 0,
+  "ability_post_cast_duration": 0,
+  "ability_charges": 0,
+  "ability_cooldown_between_charge": 0,
+  "channel_move_speed": 50,
+  "ability_resource_cost": 0,
+  "tech_power": 0,
+  "weapon_power": 0,
+  "spread_duration": 0.75,
+  "start_radius": 2,
+  "end_radius": 14,
+  "slow_percent": 40,
+  "damage": 75,
+  "n_p_c_damage_mult": 2,
+  "tech_resist": 10
+}

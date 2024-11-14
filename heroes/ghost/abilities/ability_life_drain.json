@@ -1,0 +1,73 @@
+{
+  "key": "ability_life_drain",
+  "name": "Life Drain",
+  "stats": {
+    "duration": 2,
+    "cooldown": 30,
+    "range": 20,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 20,
+    "unit_target_limit": 10,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "max_range": 30,
+    "move_speed_reduction": 25,
+    "life_drain_per_second": 35,
+    "tick_rate": 0.1,
+    "silence_on_drain": 0,
+    "life_drain_health_mult": 100
+  },
+  "tooltipDetails": {
+    "description": "Create a tether that <span class=\"highlight\">drains enemy health over time</span> and <span class=\"highlight\">heals you</span>. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your move speed is reduced by half. <br><span class=\"highlight\">[Alt-Cast] to give health to friendly Heroes</span>.<br><span class=\"highlight\">Press [{s:in_ability2}]</span> to cancel.",
+    "properties": [
+      {
+        "key": "LifeDrainPerSecond",
+        "value": 35,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.576576,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "StatusEffectEMP",
+        "requiresUpgrade": true,
+        "statusEffect": {
+          "key": "SilenceOnDrain",
+          "value": 0
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "LifeDrainHealthMult",
+        "value": 100,
+        "type": "healing"
+      },
+      {
+        "key": "MaxRange",
+        "value": "30m",
+        "type": "distance"
+      }
+    ],
+    "upgrades": [
+      {
+        "life_drain_per_second": 20
+      },
+      {
+        "ability_duration": 2
+      },
+      {
+        "silence_on_drain": 1
+      }
+    ]
+  }
+}

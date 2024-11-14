@@ -1,0 +1,92 @@
+{
+  "key": "ability_sleep_dagger",
+  "name": "Sleep Dagger",
+  "stats": {
+    "duration": 0,
+    "cooldown": 26,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.2,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "damage": 70,
+    "sleep_duration": 3,
+    "sleep_wake_up_delay": 0.1,
+    "minimum_sleep_time": 0.2,
+    "damage_stacks_added": 0,
+    "ao_e_sleep_arm_time": 0,
+    "ao_e_sleep": 0,
+    "bomb_fall_height": 1.5,
+    "tick_rate": 0.5,
+    "max_ricochet": 0,
+    "ricochet_radius": 20,
+    "does_not_break_invis": 1,
+    "bullet_resist_reduction": 0,
+    "bullet_resist_reduction_duration": 0,
+    "stamina_reduction": 0,
+    "drowsy_move_slow_percent": 60,
+    "drowsy_duration": 0.35,
+    "fire_rate_slow": 0
+  },
+  "tooltipDetails": {
+    "description": "Throw a dagger that <span class=\"highlight\">damages</span> and <span class=\"highlight\">sleeps</span> the target. Sleeping targets wake up shortly after being damaged. Throwing a Dagger does not break your invisibility. Sleep Dagger does not interrupt enemies' channeling abilities.",
+    "properties": [
+      {
+        "key": "StatusEffectSleep"
+      },
+      {
+        "key": "Damage",
+        "value": 70,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 2.8,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "SleepWakeUpDelay",
+        "value": 0.1,
+        "type": "duration",
+        "scale_function": {
+          "value": 0.003276,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MinimumSleepTime",
+        "value": 0.2,
+        "type": "duration"
+      },
+      {
+        "key": "SleepDuration",
+        "value": 3,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "stamina_reduction": 1,
+        "name": "Stamina Reduction"
+      },
+      {
+        "ability_cooldown": -12
+      },
+      {
+        "bullet_resist_reduction": -12,
+        "fire_rate_slow": 40,
+        "bullet_resist_reduction_duration": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "key": "ability_guided_arrow",
+  "name": "Guided Owl",
+  "stats": {
+    "duration": 0,
+    "cooldown": 127,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 14,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 1.5,
+    "channel_time": 14,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 0,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "explosion_radius": 12,
+    "damage": 250,
+    "stun_duration": 0.75,
+    "low_health_enemy_threshold_pct": 0,
+    "bonus_tech_power_per_kill": 5
+  },
+  "tooltipDetails": {
+    "description": "After {s:AbilityCastDelay}s cast time, <span class=\"highlight\">launch a spirit owl that you control</span> and which explodes on impact, <span class=\"highlight\">damaging and stunning</span> enemies. Hold [{s:iv_attack}] to accelerate the owl.<br>Press [{s:in_mantle}] to release control. Gain <span class=\"highlight\">permanent Spirit Power</span> for each enemy hero killed with Guided Owl.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 250,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 1.008,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ExplosionRadius",
+        "value": "12m",
+        "type": "distance"
+      },
+      {
+        "key": "StunDuration",
+        "value": 0.75,
+        "type": "duration",
+        "requiresUpgrade": true,
+        "statusEffect": {
+          "key": "StunDuration",
+          "value": 0.75,
+          "type": "duration"
+        },
+        "isShown": true
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "BonusTechPowerPerKill",
+        "value": 5,
+        "type": "tech_damage",
+        "m_e_display_type": "ETechPower",
+        "m_e_provided_property_type": "MODIFIER_VALUE_TECH_POWER",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "damage": 100
+      },
+      {
+        "ability_cooldown": -47
+      },
+      {
+        "low_health_enemy_threshold_pct": 22,
+        "name": "Low Health Threshold"
+      }
+    ]
+  }
+}

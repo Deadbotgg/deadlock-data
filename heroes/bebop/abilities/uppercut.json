@@ -1,0 +1,98 @@
+{
+  "key": "citadel_ability_uppercut",
+  "name": "Exploding Uppercut",
+  "stats": {
+    "duration": 0,
+    "cooldown": 21,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "melee_half_angle": 60,
+    "melee_attack_length": 6,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "enemy_hero_toss_velocity": 20,
+    "toss_velocity": 25,
+    "melee_radius": 2.5,
+    "force_reduction_on_angle_down": 0.75,
+    "uppercut_damage": 0.01,
+    "landing_damage": 80,
+    "restore_hook_cooldown": 0,
+    "stun_on_land": 0,
+    "on_land_damage_radius": 14,
+    "uppercut_buff_on_hit": 0,
+    "buff_gun_range_percent": 100,
+    "buff_base_weapon_pct": 0,
+    "clip_size_bonus": 0,
+    "fire_rate_slow": 15,
+    "explode_debuff_duration": 5
+  },
+  "tooltipDetails": {
+    "description": "Deal <span class=\"highlight\">Light Melee</span> damage to nearby units and send them <span class=\"highlight\">flying back</span>, causing <span class=\"highlight\">area damage</span> and <span class=\"highlight\">fire rate slow</span> where they land. Does not damage allies.",
+    "properties": [
+      {
+        "key": "UppercutDamage",
+        "value": 0.01,
+        "type": "melee_damage",
+        "scale_function": {
+          "value": 1,
+          "type": "melee"
+        }
+      },
+      {
+        "key": "LandingDamage",
+        "value": 80,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.52416,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "OnLandDamageRadius",
+        "value": "14m",
+        "type": "distance"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "FireRateSlow",
+        "value": 15,
+        "type": "slow",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "scale_function": {
+          "value": 0.2,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "ExplodeDebuffDuration",
+        "value": 5,
+        "type": "duration"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -10.5
+      },
+      {
+        "uppercut_buff_on_hit": 12,
+        "buff_base_weapon_pct": 60
+      },
+      {
+        "restore_hook_cooldown": 1,
+        "clip_size_bonus": 100
+      }
+    ]
+  }
+}

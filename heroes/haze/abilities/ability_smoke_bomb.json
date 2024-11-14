@@ -1,0 +1,74 @@
+{
+  "key": "ability_smoke_bomb",
+  "name": "Smoke Bomb",
+  "stats": {
+    "duration": 8,
+    "cooldown": 37,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "invis_alert_when_fading": 1,
+    "invis_cancel_on_damage": 0,
+    "invis_fade_to_duration": 1.5,
+    "invis_move_speed_mod": 2,
+    "spotted_radius": 18,
+    "reveal_on_damage_duration": 1.5,
+    "reveal_on_spotted_duration": 0.5,
+    "full_invis_distance": 50,
+    "movement_speed_while_zoom": 0,
+    "movement_speed_while_shoot": 0,
+    "post_invis_buff_duration": 0,
+    "bullet_lifesteal": 0
+  },
+  "tooltipDetails": {
+    "description": "Fade out of sight, becoming <span class=\"highlight\">invisible</span> and gaining <span class=\"highlight\">sprint speed</span>. Attacking removes invisibility. Close enemies can see through your invisibility.",
+    "properties": [
+      {
+        "key": "StatusEffectInvisible"
+      },
+      {
+        "key": "InvisFadeToDuration",
+        "value": 1.5,
+        "type": "duration"
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "SpottedRadius",
+        "value": "18m",
+        "type": "distance",
+        "m_e_display_type": "ETechRadius"
+      },
+      {
+        "key": "InvisMoveSpeedMod",
+        "value": "2.0m",
+        "type": "move_speed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "m_e_display_type": "EMaxMoveSpeed"
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -14
+      },
+      {
+        "invis_move_speed_mod": 6
+      },
+      {
+        "bullet_lifesteal": 30,
+        "post_invis_buff_duration": 8
+      }
+    ]
+  }
+}
