@@ -1409,10 +1409,12 @@
           "weapon_damage_bonus": 13,
           "buff_on_kill_duration": 0,
           "bonus_gold_on_kill": 250,
-          "headshot_bonus": 20
+          "headshot_bonus": 20,
+          "min_charge_damage_percent": 25,
+          "time_to_full_charge": 1
         },
         "tooltipDetails": {
-          "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
+          "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after {s:TimeToFullCharge}s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
           "properties": [
             {
               "key": "Damage",
@@ -1439,6 +1441,15 @@
           ],
           "basicProperties": [
             {
+              "key": "TimeToFullCharge",
+              "value": 1,
+              "type": "duration"
+            },
+            {
+              "key": "MinChargeDamagePercent",
+              "value": 25
+            },
+            {
               "key": "HeadshotBonus",
               "value": 20,
               "type": "bullet_damage"
@@ -1450,7 +1461,7 @@
             },
             {
               "low_health_enemy_damage_bonus": 140,
-              "name": "Bonus Damage"
+              "name": "Max Bonus Damage"
             },
             {
               "bonus_gold_on_kill": 600,
