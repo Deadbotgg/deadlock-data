@@ -462,6 +462,8 @@
   "Citadel_PrivateLobby_Difficulty_Easy": "Easy Bots",
   "Citadel_PrivateLobby_Difficulty_Medium": "Medium Bots",
   "Citadel_PrivateLobby_Difficulty_Hard": "Hard Bots",
+  "Citadel_PrivateLobby_RandomLanes_Off": "Specify Lane Players",
+  "Citadel_PrivateLobby_RandomLanes_On": "Randomize Lane Players",
   "Citadel_Party_InviteFriend": "",
   "Citadel_Party_PrivateMatch": "Private Match",
   "Citadel_Party_MatchMaking": "Casual Match",
