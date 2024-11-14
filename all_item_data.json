@@ -4808,7 +4808,7 @@
     "tech_power": 0,
     "weapon_power": 0,
     "heal_amp_cast_percent": 25,
-    "heal_amp_regen_percent": 30,
+    "heal_amp_regen_percent": 25,
     "bonus_health_regen": 2,
     "tech_resist": 6,
     "bullet_resist": 6
@@ -11298,7 +11298,7 @@
   },
   "upgrade_glass_cannon": {
     "name": "Glass Cannon",
-    "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Power</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
+    "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack.",
     "cost": "6300",
     "tier": "4",
     "activation": "Passive",
@@ -11353,7 +11353,7 @@
               "is_conditional": true
             }
           },
-          "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Power</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack."
+          "description": "Each hero kill grants <span class=\"highlight\">permanent Weapon Damage</span> (up to a max of {s:MaxStacks} times).  Death results in the loss of 1 stack."
         }
       ]
     },

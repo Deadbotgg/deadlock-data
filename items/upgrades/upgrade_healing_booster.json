@@ -61,7 +61,7 @@
   "tech_power": 0,
   "weapon_power": 0,
   "heal_amp_cast_percent": 25,
-  "heal_amp_regen_percent": 30,
+  "heal_amp_regen_percent": 25,
   "bonus_health_regen": 2,
   "tech_resist": 6,
   "bullet_resist": 6
