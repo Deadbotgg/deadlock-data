@@ -18,9 +18,9 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "damage": 140,
+    "damage": 130,
     "shot_radius": 4,
-    "low_health_enemy_damage_bonus": 145,
+    "low_health_enemy_damage_bonus": 135,
     "low_health_enemy_threshold_pct": 50,
     "view_punch": 2.5,
     "move_speed": 4,
@@ -37,19 +37,19 @@
     "properties": [
       {
         "key": "Damage",
-        "value": 140,
+        "value": 130,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.04832,
+          "value": 1,
           "type": "spirit"
         }
       },
       {
         "key": "LowHealthEnemyDamageBonus",
-        "value": 145,
+        "value": 135,
         "type": "tech_damage",
         "scale_function": {
-          "value": 1.57248,
+          "value": 1.5,
           "type": "spirit"
         }
       },

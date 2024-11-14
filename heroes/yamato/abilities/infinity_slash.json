@@ -2,7 +2,7 @@
   "key": "citadel_ability_infinity_slash",
   "name": "Shadow Transformation",
   "stats": {
-    "duration": 5.5,
+    "duration": 5,
     "cooldown": 85,
     "range": 0,
     "charges": 0,
@@ -21,9 +21,9 @@
     "bonus_move_speed": 0,
     "bonus_fire_rate": 0,
     "speed_pct": 60,
-    "bullet_resist": 50,
-    "tech_resist": 50,
-    "max_health_regen": 25,
+    "bullet_resist": 45,
+    "tech_resist": 45,
+    "max_health_regen": 20,
     "shadow_form_duration_on_kill": 2
   },
   "tooltipDetails": {
@@ -31,7 +31,7 @@
     "properties": [
       {
         "key": "AbilityDuration",
-        "value": 5.5,
+        "value": 5,
         "disable_value": 0,
         "type": "duration",
         "m_b_can_set_token_override": true
@@ -43,14 +43,14 @@
       },
       {
         "key": "MaxHealthRegen",
-        "value": 25,
+        "value": 20,
         "type": "healing"
       }
     ],
     "basicProperties": [
       {
         "key": "BulletResist",
-        "value": 50,
+        "value": 45,
         "m_e_display_type": "EBulletArmorDamageReduction",
         "type": "bullet_armor_up",
         "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
@@ -58,7 +58,7 @@
       },
       {
         "key": "TechResist",
-        "value": 50,
+        "value": 45,
         "m_e_display_type": "ETechArmorDamageReduction",
         "type": "tech_armor_up",
         "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",

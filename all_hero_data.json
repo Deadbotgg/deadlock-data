@@ -1399,9 +1399,9 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage": 140,
+          "damage": 130,
           "shot_radius": 4,
-          "low_health_enemy_damage_bonus": 145,
+          "low_health_enemy_damage_bonus": 135,
           "low_health_enemy_threshold_pct": 50,
           "view_punch": 2.5,
           "move_speed": 4,
@@ -1418,19 +1418,19 @@
           "properties": [
             {
               "key": "Damage",
-              "value": 140,
+              "value": 130,
               "type": "tech_damage",
               "scale_function": {
-                "value": 1.04832,
+                "value": 1,
                 "type": "spirit"
               }
             },
             {
               "key": "LowHealthEnemyDamageBonus",
-              "value": 145,
+              "value": 135,
               "type": "tech_damage",
               "scale_function": {
-                "value": 1.57248,
+                "value": 1.5,
                 "type": "spirit"
               }
             },
@@ -3919,7 +3919,7 @@
         "key": "citadel_ability_chrono_time_wall",
         "name": "Time Wall",
         "stats": {
-          "duration": 7,
+          "duration": 6,
           "cooldown": 25,
           "range": 200,
           "charges": 0,
@@ -3940,7 +3940,7 @@
           "time_wall_depth": 0.5,
           "time_wall_depth_visual_scale": 0.16,
           "time_wall_time_scale": 0.0001,
-          "time_scale_duration": 0.7,
+          "time_scale_duration": 0.6,
           "friendly_bullet_damage_bonus": 20,
           "friendly_bullet_time_scale": 3,
           "movement_slow_pct": 80,
@@ -3955,7 +3955,7 @@
           "properties": [
             {
               "key": "TimeScaleDuration",
-              "value": 0.7,
+              "value": 0.6,
               "type": "duration"
             },
             {
@@ -5834,7 +5834,7 @@
           "radius": 15,
           "targets_per_tick": 1,
           "bonus_fire_rate": 30,
-          "weapon_damage_bonus": 2,
+          "weapon_damage_bonus": 5,
           "evasion_percent": 0,
           "override_bullet_radius": 10
         },
@@ -5851,7 +5851,7 @@
             {
               "key": "WeaponDamageBonus",
               "loc_token_override": "BonusWeaponDamage",
-              "value": 2,
+              "value": 5,
               "type": "bullet_damage",
               "m_e_stat_type": "EBulletDamage",
               "m_e_display_units": "EDisplayUnit_Normal",
@@ -11254,7 +11254,7 @@
         "key": "citadel_ability_infinity_slash",
         "name": "Shadow Transformation",
         "stats": {
-          "duration": 5.5,
+          "duration": 5,
           "cooldown": 85,
           "range": 0,
           "charges": 0,
@@ -11273,9 +11273,9 @@
           "bonus_move_speed": 0,
           "bonus_fire_rate": 0,
           "speed_pct": 60,
-          "bullet_resist": 50,
-          "tech_resist": 50,
-          "max_health_regen": 25,
+          "bullet_resist": 45,
+          "tech_resist": 45,
+          "max_health_regen": 20,
           "shadow_form_duration_on_kill": 2
         },
         "tooltipDetails": {
@@ -11283,7 +11283,7 @@
           "properties": [
             {
               "key": "AbilityDuration",
-              "value": 5.5,
+              "value": 5,
               "disable_value": 0,
               "type": "duration",
               "m_b_can_set_token_override": true
@@ -11295,14 +11295,14 @@
             },
             {
               "key": "MaxHealthRegen",
-              "value": 25,
+              "value": 20,
               "type": "healing"
             }
           ],
           "basicProperties": [
             {
               "key": "BulletResist",
-              "value": 50,
+              "value": 45,
               "m_e_display_type": "EBulletArmorDamageReduction",
               "type": "bullet_armor_up",
               "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
@@ -11310,7 +11310,7 @@
             },
             {
               "key": "TechResist",
-              "value": 50,
+              "value": 45,
               "m_e_display_type": "ETechArmorDamageReduction",
               "type": "tech_armor_up",
               "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
@@ -16680,84 +16680,87 @@
         }
       },
       {
-        "key": "fathom_defer_damage",
-        "name": "Fathom Bloodletting",
+        "key": "fathom_reefdweller_harpoon",
+        "name": "Reefdweller Harpoon",
         "stats": {
           "duration": 0,
-          "cooldown": 50,
-          "range": 0,
-          "charges": 0,
-          "charge_restore_time": 0,
+          "cooldown": 30,
+          "range": 30,
+          "charges": 2,
+          "charge_restore_time": 2,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 0,
+          "cast_range": 30,
           "unit_target_limit": 1,
-          "cast_delay": 0.25,
+          "cast_delay": 0,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
+          "cooldown_between_charge": 2,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage_pct_deferred": 22,
-          "deferred_damage_duration": 13,
-          "defer_clear_pct": 40,
-          "damage_pct_deferred_max_rage": 15
+          "bonus_fire_rate": 0,
+          "charges_conditionally": 1,
+          "initial_freeze_time": 0,
+          "wall_latch_settle_time": 0,
+          "wall_latch_settle_dist": 40,
+          "wall_latch_ideal_dist": 5,
+          "reel_speed": 1500,
+          "detach_buff_duration": 0
         },
-        "tooltipDetails": {
-          "description": "On Activate",
-          "properties": [
-            {
-              "key": "DeferClearPct",
-              "value": 40,
-              "type": "healing"
-            }
-          ]
-        }
+        "tooltipDetails": {}
       },
       {
-        "key": "fathom_reefdweller_harpoon",
-        "name": "Reefdweller Harpoon",
+        "key": "fathom_lurkers_ambush",
+        "name": "Lurker's Ambush",
         "stats": {
           "duration": 0,
           "cooldown": 50,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
-          "channel_duration": 0,
+          "channel_duration": 9999,
           "resource_cost": 0,
           "cast_range": 30,
           "unit_target_limit": 1,
-          "cast_delay": 0.15,
-          "channel_time": 0,
+          "cast_delay": 0,
+          "channel_time": 9999,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "initial_freeze_time": 0,
-          "wall_latch_settle_time": 0,
-          "wall_latch_settle_dist": 40,
-          "wall_latch_ideal_dist": 5,
-          "reel_speed": 1000,
           "not_seen_by_enemies_regen": 3,
           "initial_height": 350,
           "tick_rate": 0.25,
           "spotted_radius": 999,
-          "invis_fade_to_duration": 0.25,
+          "invis_fade_to_duration": 1.5,
           "reveal_on_spotted_duration": 3,
           "reveal_on_damage_duration": 0.5,
-          "invis_move_speed_mod": -99
+          "invis_move_speed_mod": 0,
+          "stand_still_min_time": 0.5,
+          "immobilize_min_duration": 1,
+          "immobilize_max_duration": 3,
+          "channel_time_for_max_immobilize": 2.5,
+          "min_damage": 50,
+          "max_damage": 125
         },
         "tooltipDetails": {
-          "description": "Passive: While out of combat and hidden on the minimap, <span class=\"highlight\">heal a portion of your max health</span> every second.",
+          "description": "<span class=\"highlight\">Charge up a mouthful of sticky spit</span> that damages and immobilizes enemies. Hold [{s:ability_key}] to hold the spit.  Damage and immobilization duration increase the longer you hold the spit.",
           "properties": [
             {
-              "key": "NotSeenByEnemiesRegen",
+              "key": "ImmobilizeMaxDuration",
               "value": 3,
-              "m_e_provided_property_type": "MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND",
-              "m_usage_flags": "APUsageFlag_ModifierConditional",
-              "type": "healing"
+              "type": "duration"
+            },
+            {
+              "key": "MaxDamage",
+              "value": 125,
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 1.25,
+                "type": "spirit"
+              }
             }
           ],
           "basicProperties": [],
@@ -16766,11 +16769,12 @@
               "ability_cooldown": -15
             },
             {
-              "ability_cast_range": 5
-            },
-            {
               "not_seen_by_enemies_regen": 2,
               "name": "Max Health Regen"
+            },
+            {
+              "immobilize_max_duration": 1,
+              "name": "Max Immobilize Duration"
             }
           ]
         }

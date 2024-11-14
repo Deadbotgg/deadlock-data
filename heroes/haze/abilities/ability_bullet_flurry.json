@@ -21,7 +21,7 @@
     "radius": 15,
     "targets_per_tick": 1,
     "bonus_fire_rate": 30,
-    "weapon_damage_bonus": 2,
+    "weapon_damage_bonus": 5,
     "evasion_percent": 0,
     "override_bullet_radius": 10
   },
@@ -38,7 +38,7 @@
       {
         "key": "WeaponDamageBonus",
         "loc_token_override": "BonusWeaponDamage",
-        "value": 2,
+        "value": 5,
         "type": "bullet_damage",
         "m_e_stat_type": "EBulletDamage",
         "m_e_display_units": "EDisplayUnit_Normal",
