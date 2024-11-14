@@ -12365,7 +12365,7 @@
           "radius": null,
           "particle_radius_multiplier": 1.2,
           "tick_rate": 0.25,
-          "stun_duration": 0.5,
+          "stun_duration": 0.7,
           "knock_force": 400,
           "tech_resist": 70,
           "bullet_resist": 60,
@@ -12387,7 +12387,7 @@
             },
             {
               "key": "StunDuration",
-              "value": 0.5
+              "value": 0.7
             }
           ],
           "basicProperties": [
