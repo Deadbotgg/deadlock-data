@@ -3,7 +3,7 @@
   "name": "Burrow",
   "stats": {
     "duration": 0,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -82,7 +82,7 @@
         "radius": 2
       },
       {
-        "ability_cooldown": -20,
+        "ability_cooldown": -19,
         "bonus_move_speed": 3
       }
     ]

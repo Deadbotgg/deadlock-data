@@ -3,7 +3,7 @@
   "name": "Splatter",
   "stats": {
     "duration": 0,
-    "cooldown": 20,
+    "cooldown": 21,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -21,7 +21,7 @@
     "slow_percent": 35,
     "move_speed_slow_percent": 0,
     "max_bounces": 0,
-    "damage": 110,
+    "damage": 100,
     "move_speed_ground_slow": 0,
     "boss_damage_percent": 50,
     "radius": 5,
@@ -54,7 +54,7 @@
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -6
+        "ability_cooldown": -5.75
       },
       {
         "damage": 70,

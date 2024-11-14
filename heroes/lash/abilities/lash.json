@@ -3,7 +3,7 @@
   "name": "Grapple",
   "stats": {
     "duration": 0,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 30,
     "charges": 1,
     "charge_restore_time": 2,
@@ -62,7 +62,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       },
       {
         "ability_cast_range": 20,

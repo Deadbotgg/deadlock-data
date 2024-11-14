@@ -3,7 +3,7 @@
   "name": "Ground Strike",
   "stats": {
     "duration": 0,
-    "cooldown": 18,
+    "cooldown": 19,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -38,7 +38,7 @@
         "value": 90,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.78624,
+          "value": 0.85,
           "type": "spirit"
         }
       },
@@ -47,7 +47,7 @@
         "value": 6,
         "type": "tech_damage",
         "scale_function": {
-          "value": 0.0451,
+          "value": 0.05,
           "type": "spirit"
         }
       }
@@ -68,7 +68,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -10
+        "ability_cooldown": -9.5
       },
       {
         "enemy_slow_pct": 50,

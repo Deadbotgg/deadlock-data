@@ -3,7 +3,7 @@
   "name": "Badger Drone",
   "stats": {
     "duration": 8,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 30,
     "charges": 0,
     "charge_restore_time": 0,

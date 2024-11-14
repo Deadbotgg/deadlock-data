@@ -1045,7 +1045,7 @@
         }
       ],
       "m_strHudMessageText": "#firerate_permanent_pickup_label",
-      "m_strSmallIconCssClass": "fireRate"
+      "m_strSmallIconCssClass": "fire_rate"
     },
     "m_sDefaultMaterialGroupName": "red",
     "m_Color": [
@@ -1079,7 +1079,7 @@
         }
       ],
       "m_strHudMessageText": "#firerate_permanent_pickup_label_lv2",
-      "m_strSmallIconCssClass": "fireRate"
+      "m_strSmallIconCssClass": "fire_rate"
     },
     "m_sDefaultMaterialGroupName": "red",
     "m_Color": [
@@ -1380,12 +1380,14 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
+    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
-    "m_flKillerPlaneOffset": 0
+    "m_flKillerPlaneOffset": 0,
+    "m_flOrbClaimWindow": 0
   },
   "xp_orb_trooper": {
     "_class": "item_xp",
@@ -1411,12 +1413,14 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.2,
+    "m_flInvulDuration": 0.2,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": true,
     "m_flKillerPlaneOffset": 15,
+    "m_flOrbClaimWindow": 0.1,
     "_base": "xp_orb",
     "m_flKillerPlaneHorizontalDecayRate": 15,
     "m_flLateralMoveDuration": 0.3,
@@ -1451,12 +1455,14 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
+    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
+    "m_flOrbClaimWindow": 0,
     "_base": "xp_orb"
   },
   "xp_orb_player_kill": {
@@ -1483,12 +1489,14 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
+    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
+    "m_flOrbClaimWindow": 0,
     "_base": "xp_orb"
   },
   "xp_orb_objective": {
@@ -1503,11 +1511,11 @@
     "m_sEnemyOrbEarnedParticle": "resource_name:\"particles/generic/spirit_xp_earned_enemy.vpcf\"",
     "m_flOrbSpawnDelayMin": 0.3,
     "m_flOrbSpawnDelayMax": 0.3,
-    "m_flOrbSpawnOffsetZ": 24,
-    "m_flOrbSpawnOffsetRandomXYZ": 0,
+    "m_flOrbSpawnOffsetZ": 0,
+    "m_flOrbSpawnOffsetRandomXYZ": 64,
     "m_flGravityScale": 0,
     "m_flLateralSpeedMin": 40,
-    "m_flLateralSpeedMax": 40,
+    "m_flLateralSpeedMax": 60,
     "m_flUpSpeedMin": 65,
     "m_flUpSpeedMax": 65,
     "m_flOscillateFrequency": 1,
@@ -1515,12 +1523,14 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
+    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
+    "m_flOrbClaimWindow": 0,
     "_base": "xp_orb",
     "m_bIsObjective": true
   },
@@ -1548,12 +1558,14 @@
     "m_flCollisionRadius": 12,
     "m_flBurstSpeedMultiplier": 2,
     "m_flBurstSpeedDuration": 0.12,
+    "m_flInvulDuration": 0.12,
     "m_strOrbClaimed": "soundevent:\"Player.ClaimOrb\"",
     "m_strOrbClaimedTeammate": "soundevent:\"Teammate.ClaimOrb\"",
     "m_strOrbDenied": "soundevent:\"Player.Deny\"",
     "m_strOrbDeniedPlayer": "soundevent:\"Player.Denied\"",
     "m_bUseKillerPlaneOffsets": false,
     "m_flKillerPlaneOffset": 0,
+    "m_flOrbClaimWindow": 0,
     "_base": "xp_orb"
   },
   "citadel_herotest_orbspawner": {

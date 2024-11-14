@@ -16,7 +16,7 @@
     "move_acceleration": 4,
     "light_melee_damage": 63,
     "heavy_melee_damage": 116,
-    "max_health": 625,
+    "max_health": 600,
     "weapon_power": 0,
     "reload_speed": 1,
     "weapon_power_scale": 1,

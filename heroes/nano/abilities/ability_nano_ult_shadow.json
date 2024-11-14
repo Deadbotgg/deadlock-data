@@ -3,7 +3,7 @@
   "name": "Queen of Shadows",
   "stats": {
     "duration": 12,
-    "cooldown": 120,
+    "cooldown": 95,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -21,17 +21,108 @@
     "invis_alert_when_fading": 1,
     "invis_cancel_on_damage": 0,
     "invis_fade_to_duration": 0,
-    "invis_move_speed_mod": 0,
-    "spotted_radius": 20,
+    "invis_move_speed_mod": 1,
+    "spotted_radius": 15,
     "reveal_on_damage_duration": 0.25,
     "reveal_on_spotted_duration": 0.25,
-    "stamina_regen": 40,
-    "slow_resist": 50,
-    "cooldown_reduction_on_bullet": 0.3,
-    "cooldown_reduction_on_melee_light": 1.5,
-    "cooldown_reduction_on_melee_heavy": 4,
-    "fire_rate_bonus": 30,
-    "melee_attack_speed_bonus": 30,
-    "life_steal": 30
+    "stamina_cooldown_reduction": 0,
+    "purge_on_activate": 0,
+    "silence_on_heavy_duration": 0,
+    "bonus_fire_rate": 20,
+    "melee_attack_speed_bonus": 40,
+    "bullet_armor_reduction_light": 5,
+    "bullet_armor_reduction_heavy": 15,
+    "bullet_armor_reduction_duration": 6
+  },
+  "tooltipDetails": {
+    "description": "Cast yourself in shadow and go <span class=\"highlight\">Invisible</span>.  Attacks do not break invisibility but they will temporarily reveal you.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)",
+    "properties": [
+      {
+        "key": "StatusEffectInvisible"
+      },
+      {
+        "key": "InvisMoveSpeedMod",
+        "value": "1m",
+        "type": "move_speed",
+        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+        "m_e_display_type": "EMaxMoveSpeed",
+        "scale_function": {
+          "value": 0.03,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "BonusFireRate",
+        "value": 20,
+        "m_e_display_type": "EFireRate",
+        "type": "fire_rate",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "MeleeAttackSpeedBonus",
+        "loc_token_override": "NanoShadowMeleeAttackSpeedBonus",
+        "type": "melee_damage",
+        "value": 40,
+        "m_e_provided_property_type": "MODIFIER_VALUE_MELEEATTACK_SPEED",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BulletArmorReductionLight",
+        "loc_token_override": "NanoShadowBulletArmorReductionLight",
+        "value": 5,
+        "type": "bullet_armor_down",
+        "m_e_display_type": "EStatsCount",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BulletArmorReductionHeavy",
+        "loc_token_override": "NanoShadowBulletArmorReductionHeavy",
+        "value": 15,
+        "type": "bullet_armor_down",
+        "m_e_display_type": "EStatsCount",
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      },
+      {
+        "key": "BulletArmorReductionDuration",
+        "loc_token_override": "NanoShadowBulletArmorReductionDuration",
+        "value": 6,
+        "type": "duration"
+      },
+      {
+        "key": "SpottedRadius",
+        "value": "15m",
+        "type": "distance",
+        "m_e_display_type": "ETechRadius"
+      },
+      {
+        "key": "SilenceOnHeavyDuration",
+        "value": 0,
+        "type": "duration"
+      },
+      {
+        "key": "StaminaCooldownReduction",
+        "value": 0,
+        "m_e_display_type": "EStaminaRegenPerSecond",
+        "m_e_provided_property_type": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
+      }
+    ],
+    "upgrades": [
+      {
+        "stamina_cooldown_reduction": 30
+      },
+      {
+        "purge_on_activate": 1
+      },
+      {
+        "silence_on_heavy_duration": 3,
+        "name": "Silence Duration"
+      }
+    ]
   }
 }

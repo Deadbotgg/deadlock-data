@@ -3,7 +3,7 @@
   "name": "Watcher's Covenant",
   "stats": {
     "duration": 12,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 16,
     "charges": 0,
     "charge_restore_time": 0,
@@ -32,7 +32,7 @@
       {
         "key": "BonusFireRate",
         "value": 10,
-        "type": "fireRate",
+        "type": "fire_rate",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "scale_function": {

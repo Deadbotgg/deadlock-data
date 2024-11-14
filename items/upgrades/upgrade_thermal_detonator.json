@@ -30,7 +30,7 @@
             "is_negative": false
           },
           "tech_power": {
-            "value": 7,
+            "value": 11,
             "style": null,
             "is_negative": false
           }
@@ -59,7 +59,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 26,
+            "value": 28,
             "style": "cooldown",
             "is_negative": false
           }
@@ -82,7 +82,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 26,
+  "ability_cooldown": 28,
   "ability_duration": 5,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -93,7 +93,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 7,
+  "tech_power": 11,
   "weapon_power": 0,
   "d_p_s": 45,
   "d_p_s_increase": 8,

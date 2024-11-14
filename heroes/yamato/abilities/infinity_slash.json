@@ -3,7 +3,7 @@
   "name": "Shadow Transformation",
   "stats": {
     "duration": 5,
-    "cooldown": 100,
+    "cooldown": 106,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -22,8 +22,8 @@
     "buff_duration": 20,
     "bonus_move_speed": 0,
     "speed_pct": 60,
-    "tech_resist": 55,
-    "bullet_resist": 55
+    "tech_resist": 40,
+    "bullet_resist": 40
   },
   "tooltipDetails": {
     "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, your weapon has <span class=\"highlight\">infinite ammo</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
@@ -44,14 +44,14 @@
     "basicProperties": [
       {
         "key": "TechResist",
-        "value": 55,
+        "value": 40,
         "type": "tech_armor_up",
         "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
         "key": "BulletResist",
-        "value": 55,
+        "value": 40,
         "type": "bullet_armor_up",
         "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -59,7 +59,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -30
+        "ability_cooldown": -28
       },
       {
         "bonus_move_speed": 4

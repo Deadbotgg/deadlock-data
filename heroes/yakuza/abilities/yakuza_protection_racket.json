@@ -3,7 +3,7 @@
   "name": "Protection Racket",
   "stats": {
     "duration": 12,
-    "cooldown": 30,
+    "cooldown": 32,
     "range": 30,
     "charges": 0,
     "charge_restore_time": 0,

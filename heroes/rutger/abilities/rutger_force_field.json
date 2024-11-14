@@ -3,7 +3,7 @@
   "name": "Force Field",
   "stats": {
     "duration": 10,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

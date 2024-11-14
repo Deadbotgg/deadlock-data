@@ -3,7 +3,7 @@
   "name": "Bounce Pad",
   "stats": {
     "duration": 22,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 3.5,

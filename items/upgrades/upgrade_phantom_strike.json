@@ -1,7 +1,7 @@
 {
   "name": "Phantom Strike",
   "description": "<span class=\"highlight\">Teleport</span> to an enemy target, applying <span class=\"highlight\">Disarm</span>, <span class=\"highlight\">Slow</span>, and dealing <span class=\"highlight\">damage</span>.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "ActivationPress",
   "slot": "Armor",
@@ -46,7 +46,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 25,
+            "value": 26,
             "style": "cooldown",
             "is_negative": false
           }
@@ -64,7 +64,7 @@
             "is_conditional": true
           },
           "impact_damage": {
-            "value": 150,
+            "value": 75,
             "style": "tech_damage",
             "is_conditional": false
           }
@@ -74,7 +74,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 25,
+  "ability_cooldown": 26,
   "ability_duration": 0,
   "ability_cast_range": 25,
   "ability_unit_target_limit": 1,
@@ -91,5 +91,5 @@
   "base_attack_damage_percent": 30,
   "slow_percent": 50,
   "slow_duration": 3,
-  "impact_damage": 150
+  "impact_damage": 75
 }

@@ -1,7 +1,7 @@
 {
   "name": "Unstoppable",
   "description": "Suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -47,7 +47,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 60,
+            "value": 64,
             "style": "cooldown",
             "is_negative": false
           }
@@ -65,7 +65,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 60,
+  "ability_cooldown": 64,
   "ability_duration": 6,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

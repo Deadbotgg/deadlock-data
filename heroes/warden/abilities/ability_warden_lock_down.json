@@ -3,7 +3,7 @@
   "name": "Binding Word",
   "stats": {
     "duration": 0,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 20,
     "charges": 0,
     "charge_restore_time": 0,
@@ -60,7 +60,7 @@
         "immobilize_duration": 1
       },
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       },
       {
         "bullet_armor_reduction": 20,

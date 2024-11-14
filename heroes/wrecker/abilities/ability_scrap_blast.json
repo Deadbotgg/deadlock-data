@@ -3,7 +3,7 @@
   "name": "Bio Blast",
   "stats": {
     "duration": 0,
-    "cooldown": 60,
+    "cooldown": 64,
     "range": 15,
     "charges": 2,
     "charge_restore_time": 3,

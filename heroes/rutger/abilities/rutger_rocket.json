@@ -3,7 +3,7 @@
   "name": "Rocket Launcher",
   "stats": {
     "duration": 0,
-    "cooldown": 16,
+    "cooldown": 17,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 1,

@@ -3,7 +3,7 @@
   "name": "Willpower",
   "stats": {
     "duration": 7,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -45,7 +45,7 @@
         "name": "Move speed bonus"
       },
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       },
       {
         "tech_shield_points": 3.9312,

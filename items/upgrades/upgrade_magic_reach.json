@@ -21,14 +21,14 @@
       {
         "ability_properties": {
           "tech_resist": {
-            "value": 5,
+            "value": 6,
             "style": null,
             "is_negative": false
           }
         },
         "elevated_ability_properties": {
           "tech_range_multiplier": {
-            "value": 15,
+            "value": 16,
             "style": "distance",
             "is_negative": false
           }
@@ -52,7 +52,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "tech_range_multiplier": 15,
-  "tech_radius_multiplier": 15,
-  "tech_resist": 5
+  "tech_range_multiplier": 16,
+  "tech_radius_multiplier": 16,
+  "tech_resist": 6
 }

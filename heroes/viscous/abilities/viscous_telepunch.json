@@ -3,7 +3,7 @@
   "name": "viscous_telepunch",
   "stats": {
     "duration": 0,
-    "cooldown": 28,
+    "cooldown": 30,
     "range": 40,
     "charges": 1,
     "charge_restore_time": 1.5,
@@ -65,7 +65,7 @@
         "slow_percent": 20
       },
       {
-        "ability_cooldown": -12
+        "ability_cooldown": -11.5
       }
     ]
   }

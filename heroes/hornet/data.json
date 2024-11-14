@@ -204,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 14,
+    "bullet_damage": 13,
     "rounds_per_second": 5.2631578947368425,
     "clip_size": 22,
     "reload_time": 2.914,
@@ -221,8 +221,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 73.6842105263158,
-    "sustained_dps": 43.41697208908938,
+    "dps": 68.42105263157896,
+    "sustained_dps": 40.31575979701156,
     "weapon_name": "citadel_weapon_hornet_set",
     "weapon_description": "citadel_weapon_hero_hornet_set",
     "weapon_types": [

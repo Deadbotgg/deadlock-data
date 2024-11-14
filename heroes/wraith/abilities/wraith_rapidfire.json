@@ -3,7 +3,7 @@
   "name": "Full Auto",
   "stats": {
     "duration": 5,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -30,7 +30,7 @@
       {
         "key": "BonusFireRate",
         "value": 20,
-        "type": "fireRate",
+        "type": "fire_rate",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
@@ -55,7 +55,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
         "magic_damage_per_bullet": 5,

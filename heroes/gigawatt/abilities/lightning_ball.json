@@ -3,7 +3,7 @@
   "name": "Lightning Ball",
   "stats": {
     "duration": 0,
-    "cooldown": 22,
+    "cooldown": 23,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 8,

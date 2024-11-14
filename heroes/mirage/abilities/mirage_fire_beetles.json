@@ -1,12 +1,12 @@
 {
   "key": "mirage_fire_beetles",
-  "name": "Fire Beetles",
+  "name": "Fire Scarabs",
   "stats": {
     "duration": 0,
     "cooldown": 0,
     "range": 0,
     "charges": 3,
-    "charge_restore_time": 0,
+    "charge_restore_time": 0.05,
     "channel_duration": 0,
     "resource_cost": 0,
     "cast_range": 0,
@@ -14,12 +14,12 @@
     "cast_delay": 0.05,
     "channel_time": 0,
     "post_cast_duration": 0,
-    "cooldown_between_charge": 0,
+    "cooldown_between_charge": 0.05,
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
     "launch_window_cooldown": 35,
-    "launch_window_duration": 15,
+    "launch_window_duration": 20,
     "charges_conditionally": 1,
     "radius": 4,
     "dps": 20,
@@ -29,7 +29,7 @@
     "non_hero_healing_factor": 15
   },
   "tooltipDetails": {
-    "description": "Start launching fire beetles. Each beetle can be <span class=\"highlight\">launched separately</span>, applying a <span class=\"highlight\">lifesteal over time</span> to enemies they hit. Once the launch window ends, this ability goes on cooldown.",
+    "description": "Start launching fire scarabs. Each scarab can be <span class=\"highlight\">launched separately</span>, applying a <span class=\"highlight\">lifesteal over time</span> to enemies they hit. Once the launch window ends, this ability goes on cooldown.",
     "properties": [
       {
         "key": "DPS",
@@ -54,7 +54,7 @@
     "basicProperties": [
       {
         "key": "LaunchWindowDuration",
-        "value": 15,
+        "value": 20,
         "type": "duration"
       },
       {

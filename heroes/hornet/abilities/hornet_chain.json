@@ -3,7 +3,7 @@
   "name": "Stake",
   "stats": {
     "duration": 0,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -64,10 +64,10 @@
     ],
     "upgrades": [
       {
-        "chain_duration": 0.75
+        "chain_duration": 0.5
       },
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       },
       {
         "has_disarm": 1

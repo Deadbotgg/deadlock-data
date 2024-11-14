@@ -3,7 +3,7 @@
   "name": "Last Stand",
   "stats": {
     "duration": 6,
-    "cooldown": 130,
+    "cooldown": 138,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -23,10 +23,12 @@
     "radius": 12,
     "health_steal_pct_hero": 100,
     "health_steal_pct": 50,
-    "cone_angle": 115
+    "cone_angle": 115,
+    "bonus_move_speed": 0,
+    "bullet_resist": 50
   },
   "tooltipDetails": {
-    "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done.",
+    "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you have greatly increased <span class=\"highlight\">bullet resist</span>.",
     "properties": [
       {
         "key": "PulseDPS",
@@ -36,6 +38,19 @@
           "value": 0.85176,
           "type": "spirit"
         }
+      },
+      {
+        "key": "HealthStealPctHero",
+        "value": 100,
+        "type": "healing"
+      },
+      {
+        "key": "BonusMoveSpeed",
+        "value": "0m",
+        "type": "move_speed",
+        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+        "m_usage_flags": "APUsageFlag_ModifierConditional",
+        "conditional_loc_token_override": "#ActiveItemUse_conditional"
       }
     ],
     "basicProperties": [
@@ -43,11 +58,6 @@
         "key": "PulseInterval",
         "value": 0.5,
         "type": "duration"
-      },
-      {
-        "key": "HealthStealPctHero",
-        "value": 100,
-        "type": "healing"
       },
       {
         "key": "HealthStealPct",
@@ -64,7 +74,7 @@
         "name": "DPS"
       },
       {
-        "ability_cooldown": -60
+        "ability_cooldown": -56
       }
     ]
   }

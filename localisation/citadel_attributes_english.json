@@ -705,6 +705,7 @@
   "DashJump_conditional": "after successful dash-jump",
   "EnemyAboveHealthThreshold_conditional": "Enemy above health threshold",
   "Quicksilver_conditional": "after using ability",
+  "SurgeOfPower_conditional": "after using ability",
   "SpiritStrike_conditional": "after successful melee",
   "LongRangeBonusWeaponPowerMinRange_label": "Min. Distance",
   "LongRangeBonusWeaponPowerMinRange_postfix": "m",
@@ -1159,6 +1160,8 @@
   "SlowFireRatePercent_label": "Fire Rate Scale",
   "SlowFireRatePercent_prefix": "{s:sign}",
   "SlowFireRatePercent_postfix": "%",
+  "MaxFireRateSlowPercent_label": "Max Fire Rate Slow",
+  "MaxFireRateSlowPercent_postfix": "%",
   "FireRateScale_label": "Fire Rate Scale",
   "FireRateScale_prefix": "{s:sign}",
   "FireRateScale_postfix": "%",
@@ -1304,5 +1307,6 @@
   "BonusSpiritPerKill_label": "Bonus Spirit Power Per Kill",
   "MaxClipBonus_label": "Max Clip Bonus",
   "SummonDuration_label": "Summon Duration",
-  "SummonDuration_postfix": "s"
+  "SummonDuration_postfix": "s",
+  "Reloaded": "Reloaded!"
 }

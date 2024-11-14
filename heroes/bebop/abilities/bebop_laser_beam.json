@@ -3,7 +3,7 @@
   "name": "Hyper Beam",
   "stats": {
     "duration": 0,
-    "cooldown": 110,
+    "cooldown": 117,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -22,6 +22,7 @@
     "beam_length": 70,
     "beam_width": 2.9,
     "beam_close_radius": 5,
+    "beam_end_radius": 5,
     "beam_close_damage_percent": 75,
     "interval": 0.1,
     "tracking_speed": 55,
@@ -65,7 +66,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -40
+        "ability_cooldown": -38
       },
       {
         "dps": 100

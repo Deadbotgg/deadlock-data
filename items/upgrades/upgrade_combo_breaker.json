@@ -1,7 +1,7 @@
 {
   "name": "Combo Breaker",
   "description": "<span class=\"highlight\">Remove all debuffs</span> and heal yourself. <br><span class=\"highlight\">Can be used while stunned.</span>",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -17,7 +17,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 22,
+            "value": 23,
             "style": "cooldown",
             "is_negative": false
           },
@@ -59,7 +59,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 22,
+  "ability_cooldown": 23,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

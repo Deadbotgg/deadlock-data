@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "base_attack_damage_percent": {
-            "value": 6,
+            "value": 7,
             "style": "bullet_damage",
             "is_negative": false
           }
@@ -70,7 +70,7 @@
   "ability_resource_cost": 0,
   "tech_power": 0,
   "weapon_power": 0,
-  "base_attack_damage_percent": 6,
+  "base_attack_damage_percent": 7,
   "shredders_tech_amp": 10,
   "debuff_duration": 6
 }

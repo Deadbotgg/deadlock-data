@@ -3,7 +3,7 @@
   "name": "Pulse Cannon",
   "stats": {
     "duration": 0,
-    "cooldown": 120,
+    "cooldown": 127,
     "range": 100,
     "charges": 0,
     "charge_restore_time": 0,

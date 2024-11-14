@@ -1,9 +1,9 @@
 {
   "key": "mirage_sand_phantom",
-  "name": "Whirling Dervish",
+  "name": "Tempest Ward",
   "stats": {
     "duration": 0,
-    "cooldown": 45,
+    "cooldown": 37,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,50 +18,50 @@
     "channel_move_speed": 200,
     "tech_power": 0,
     "weapon_power": 0,
-    "time_before_teleport": 3.5,
-    "camera_distance": 250,
-    "trail_interval": 0.1,
-    "pre_creation_travel_time": 0.5,
-    "ground_dash_reduction_percent": 0,
-    "whirlwind_evasion_chance": 40,
-    "whirlwind_duration": 8,
-    "bonus_move_speed": 3,
-    "move_speed_duration": 6,
-    "weapon_damage_bonus": 0
+    "whirlwind_evasion_chance": 50,
+    "whirlwind_duration": 3.5,
+    "radius": 10,
+    "proc_bonus_magic_damage": 20,
+    "proc_bonus_magic_damage_escalation": 15,
+    "proc_chance": 100,
+    "proc_cooldown": 2,
+    "victim_stack_duration": 8,
+    "max_stacks": 5
   },
   "tooltipDetails": {
-    "description": "Become enveloped in a whirlwind, gaining <span class=\"highlight\">bullet evasion</span> and bonus <span class=\"highlight\">movement speed</span>.",
+    "description": "You become enveloped in a whirlwind that provides <span class=\"highlight\">bullet evasion</span> and <span class=\"highlight\">movement speed</span>.",
     "properties": [
       {
         "key": "WhirlwindEvasionChance",
-        "value": 40
+        "value": 50,
+        "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_EVASION",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "BonusMoveSpeed",
-        "m_e_display_units": "EDisplayUnit_MetersPerSecond",
-        "value": "3m",
-        "type": "move_speed",
-        "m_e_display_type": "EMaxMoveSpeed",
-        "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-        "m_usage_flags": "APUsageFlag_ModifierConditional"
+        "key": "WhirlwindDuration",
+        "value": 3.5
       }
     ],
     "basicProperties": [
       {
-        "key": "WhirlwindDuration",
-        "value": 8
+        "key": "AbilityCooldown",
+        "value": 37,
+        "disable_value": 0,
+        "type": "cooldown",
+        "m_b_can_set_token_override": true
       }
     ],
     "upgrades": [
       {
-        "whirlwind_evasion_chance": 20,
+        "whirlwind_evasion_chance": 30,
         "name": "Bullet Evasion Chance"
       },
       {
-        "ability_cooldown": -18
+        "proc_bonus_magic_damage_escalation": 10,
+        "name": "Escalating Spirit Damage"
       },
       {
-        "weapon_damage_bonus": 15
+        "ability_cooldown": -19
       }
     ]
   }

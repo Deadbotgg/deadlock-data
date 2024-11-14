@@ -1,7 +1,7 @@
 {
   "name": "Discord",
   "description": "Apply an aura around enemy or friendly target that <span class=\"highlight\">damages enemies in the radius and suppresses their healing by {s:HealAmpReceivePenaltyPercent}%</span>. If cast on a friendly, it also heals them.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "ActivationPress",
   "slot": "Tech",
@@ -27,7 +27,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 30,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           },
@@ -55,7 +55,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 30,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           }
@@ -73,7 +73,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 30,
+  "ability_cooldown": 32,
   "ability_duration": 10,
   "ability_cast_range": 25,
   "ability_unit_target_limit": 1,

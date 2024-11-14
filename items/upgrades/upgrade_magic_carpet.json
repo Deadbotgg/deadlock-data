@@ -1,7 +1,7 @@
 {
   "name": "Magic Carpet",
   "description": "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit shields.  Cannot use abilities while the carpet is being summoned.  While flying you are immune to slows and doing any action will dismiss the carpet.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Tech",
@@ -79,7 +79,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 30,
+  "ability_cooldown": 32,
   "ability_duration": 7,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

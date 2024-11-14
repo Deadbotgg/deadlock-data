@@ -12,7 +12,7 @@
   "shop_filters": null,
   "tooltip": {},
   "disabled": true,
-  "ability_cooldown": 8,
+  "ability_cooldown": 8.5,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -27,5 +27,5 @@
   "weapon_power": 0,
   "air_jumps": 1,
   "air_jump_vertical_speed_percent": 75,
-  "interupt_cooldown": 4
+  "interupt_cooldown": 4.25
 }

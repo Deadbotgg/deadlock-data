@@ -36,7 +36,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 17,
+            "value": 18,
             "style": "cooldown",
             "is_negative": false
           },
@@ -54,7 +54,7 @@
             "is_conditional": true
           },
           "bullet_lifesteal_percent": {
-            "value": 22,
+            "value": 20,
             "style": "healing",
             "is_conditional": true
           }
@@ -64,7 +64,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 17,
+  "ability_cooldown": 18,
   "ability_duration": 7,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -79,6 +79,6 @@
   "weapon_power": 0,
   "base_attack_damage_percent": 10,
   "reload_speed_multipler": -20,
-  "bullet_lifesteal_percent": 22,
+  "bullet_lifesteal_percent": 20,
   "bonus_fire_rate": 20
 }

@@ -3,7 +3,7 @@
   "name": "Flying Strike",
   "stats": {
     "duration": 0,
-    "cooldown": 20,
+    "cooldown": 21,
     "range": 20,
     "charges": 0,
     "charge_restore_time": 0,
@@ -13,7 +13,7 @@
     "unit_target_limit": 1,
     "cast_delay": 0,
     "channel_time": 0,
-    "post_cast_duration": 0.5,
+    "post_cast_duration": 0.2,
     "cooldown_between_charge": 0,
     "channel_move_speed": 50,
     "tech_power": 0,

@@ -3,7 +3,7 @@
   "name": "Sleep Dagger",
   "stats": {
     "duration": 0,
-    "cooldown": 25,
+    "cooldown": 26,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -79,7 +79,7 @@
         "name": "Stamina Reduction"
       },
       {
-        "ability_cooldown": -13
+        "ability_cooldown": -12
       },
       {
         "bullet_resist_reduction": -12,

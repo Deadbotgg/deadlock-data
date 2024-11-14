@@ -3,7 +3,7 @@
   "name": "Power Surge",
   "stats": {
     "duration": 10,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -59,7 +59,7 @@
         "debuff_duration": 8
       },
       {
-        "ability_cooldown": -16
+        "ability_cooldown": -15
       },
       {
         "damage_per_chain": 0.366912,

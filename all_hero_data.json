@@ -17,7 +17,7 @@
       "move_acceleration": 4,
       "light_melee_damage": 63,
       "heavy_melee_damage": 116,
-      "max_health": 625,
+      "max_health": 600,
       "weapon_power": 0,
       "reload_speed": 1,
       "weapon_power_scale": 1,
@@ -35,7 +35,7 @@
         "name": "Catalyst",
         "stats": {
           "duration": 0,
-          "cooldown": 24,
+          "cooldown": 25,
           "range": 20,
           "charges": 1,
           "charge_restore_time": 6,
@@ -120,7 +120,7 @@
         "name": "Flame Dash",
         "stats": {
           "duration": 0,
-          "cooldown": 38,
+          "cooldown": 40,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -150,7 +150,7 @@
           "flame_dash_debuff_duration": 0,
           "flame_dash_jump_bonus": 50,
           "fire_rate_slow": 0,
-          "slow_resistance_percent": 30
+          "slow_resistance_percent": 50
         },
         "tooltipDetails": {
           "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. Infernus gains {s:SlowResistancePercent}% slow resistance for the duration.  <br>Hold [{s:iv_attack}] to dash faster.",
@@ -208,7 +208,7 @@
               "name": "DPS"
             },
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             }
           ]
         }
@@ -292,7 +292,7 @@
         "name": "Concussive Combustion",
         "stats": {
           "duration": 0,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -344,7 +344,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -40
+              "ability_cooldown": -38
             },
             {
               "stun_duration": 0.5,
@@ -607,7 +607,7 @@
       "base_health_regen": 1.5,
       "stamina_regen_per_second": 0.2,
       "stamina_cooldown": 5,
-      "crit_damage_received_scale": -25,
+      "crit_damage_received_scale": -35,
       "tech_range": 0,
       "tech_duration": 0
     },
@@ -617,7 +617,7 @@
         "name": "Lightning Ball",
         "stats": {
           "duration": 0,
-          "cooldown": 22,
+          "cooldown": 23,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 8,
@@ -684,7 +684,7 @@
         "name": "Static Charge",
         "stats": {
           "duration": 0,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 16,
           "charges": 0,
           "charge_restore_time": 0,
@@ -741,7 +741,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "shock_radius": 8
@@ -757,7 +757,7 @@
         "name": "Power Surge",
         "stats": {
           "duration": 10,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -813,7 +813,7 @@
               "debuff_duration": 8
             },
             {
-              "ability_cooldown": -16
+              "ability_cooldown": -15
             },
             {
               "damage_per_chain": 0.366912,
@@ -828,7 +828,7 @@
         "name": "Storm Cloud",
         "stats": {
           "duration": 0,
-          "cooldown": 180,
+          "cooldown": 148,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -843,9 +843,9 @@
           "channel_move_speed": 0,
           "tech_power": 0,
           "weapon_power": 0,
-          "radius": 30,
+          "radius": 25,
           "initial_radius": 12,
-          "dps": 124,
+          "dps": 110,
           "boss_damage_percent": 25,
           "damage_interval": 0.25,
           "expand_time": 3,
@@ -859,7 +859,7 @@
           "properties": [
             {
               "key": "DPS",
-              "value": 124,
+              "value": 110,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.7,
@@ -901,7 +901,7 @@
       "modifier_value_base_melee_damage_from_level": 3.4,
       "modifier_value_base_health_from_level": 31,
       "modifier_value_tech_damage_percent": 0,
-      "modifier_value_bullet_armor_damage_resist": 1
+      "modifier_value_bullet_armor_damage_resist": 0
     },
     "collision": {
       "radius": 20,
@@ -1159,7 +1159,7 @@
         "name": "Stake",
         "stats": {
           "duration": 0,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1220,10 +1220,10 @@
           ],
           "upgrades": [
             {
-              "chain_duration": 0.75
+              "chain_duration": 0.5
             },
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "has_disarm": 1
@@ -1236,7 +1236,7 @@
         "name": "Flight",
         "stats": {
           "duration": 8,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1257,7 +1257,6 @@
           "jump_velocity": 1000,
           "air_speed_bonus": 0,
           "air_side_move_speed_percentage": -35,
-          "air_drag": 2,
           "min_velocity_z": -20,
           "weapon_recoil_reduction": 40,
           "magic_damage_per_bullet": 10,
@@ -1283,7 +1282,7 @@
               "bonus_clip_size_percent": 50
             },
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "magic_damage_per_bullet": 12,
@@ -1297,7 +1296,7 @@
         "name": "Crow Familiar",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1314,23 +1313,24 @@
           "weapon_power": 0,
           "dot_health_percent": 3,
           "tick_rate": 0.5,
-          "impact_damage": 50,
+          "impact_damage": 40,
           "debuff_duration": 6,
           "visual_splash_radius": 1,
           "target_bounce_range": 0,
           "target_bounce_count": 0,
           "heal_amp_receive_penalty_percent": 0,
-          "heal_amp_regen_penalty_percent": 0
+          "heal_amp_regen_penalty_percent": 0,
+          "bullet_resist_reduction": 6
         },
         "tooltipDetails": {
-          "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span> and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
+          "description": "Your crow familiar deals <span class=\"highlight\">impact damage</span>, reduces their bullet resist and applies a <span class=\"highlight\">bleed</span> that deals damage based on the <span class=\"highlight\">target's current health</span>.",
           "properties": [
             {
               "key": "ImpactDamage",
-              "value": 50,
+              "value": 40,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.9828,
+                "value": 0.8,
                 "type": "spirit"
               }
             },
@@ -1339,6 +1339,13 @@
               "value": 3,
               "m_e_display_type": "EHealthRegen",
               "type": "tech_damage"
+            },
+            {
+              "key": "BulletResistReduction",
+              "value": 6,
+              "type": "bullet_armor_down",
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "basicProperties": [
@@ -1347,7 +1354,7 @@
               "value": 6,
               "type": "duration",
               "scale_function": {
-                "value": 0.0376,
+                "value": 0.03,
                 "type": "spirit"
               }
             }
@@ -1358,7 +1365,7 @@
               "target_bounce_count": 3
             },
             {
-              "ability_cooldown": -17
+              "ability_cooldown": -16
             },
             {
               "dot_health_percent": 3,
@@ -1373,7 +1380,7 @@
         "name": "Assassinate",
         "stats": {
           "duration": 0,
-          "cooldown": 50,
+          "cooldown": 53,
           "range": 1000,
           "charges": 2,
           "charge_restore_time": 1.6,
@@ -1399,7 +1406,8 @@
           "max_sound_distance": 2000,
           "weapon_damage_bonus": 13,
           "buff_on_kill_duration": 0,
-          "bonus_gold_on_kill": 250
+          "bonus_gold_on_kill": 250,
+          "headshot_bonus": 20
         },
         "tooltipDetails": {
           "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does <span class=\"highlight\">bonus damage</span> to enemies with <span class=\"highlight\">less than {s:LowHealthEnemyThresholdPct}% health</span> remaining. Landing a killing blow on a player with Assassinate <span class=\"highlight\">grants you bonus souls</span>.",
@@ -1427,9 +1435,16 @@
               "value": 250
             }
           ],
+          "basicProperties": [
+            {
+              "key": "HeadshotBonus",
+              "value": 20,
+              "type": "bullet_damage"
+            }
+          ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "low_health_enemy_damage_bonus": 140,
@@ -1619,7 +1634,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 14,
+      "bullet_damage": 13,
       "rounds_per_second": 5.2631578947368425,
       "clip_size": 22,
       "reload_time": 2.914,
@@ -1636,8 +1651,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 73.6842105263158,
-      "sustained_dps": 43.41697208908938,
+      "dps": 68.42105263157896,
+      "sustained_dps": 40.31575979701156,
       "weapon_name": "citadel_weapon_hornet_set",
       "weapon_description": "citadel_weapon_hero_hornet_set",
       "weapon_types": [
@@ -1704,7 +1719,7 @@
         "name": "Essence Bomb",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1752,7 +1767,7 @@
               "damage": 60
             },
             {
-              "blood_spill_dps_percent": 22,
+              "blood_spill_dps_percent": 26,
               "name": "Toxic Mess Duration",
               "blood_spill_duration": 6
             }
@@ -1764,7 +1779,7 @@
         "name": "Life Drain",
         "stats": {
           "duration": 2,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1832,7 +1847,7 @@
         "name": "Malice",
         "stats": {
           "duration": 0,
-          "cooldown": 6,
+          "cooldown": 6.25,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1873,7 +1888,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -3
+              "ability_cooldown": -2.75
             },
             {
               "health_to_damage": 40
@@ -1890,7 +1905,7 @@
         "name": "Soul Exchange",
         "stats": {
           "duration": 0.25,
-          "cooldown": 160,
+          "cooldown": 170,
           "range": 7,
           "charges": 0,
           "charge_restore_time": 0,
@@ -1940,7 +1955,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -40
+              "ability_cooldown": -38
             },
             {
               "enemy_min_health_pct": -10,
@@ -2214,7 +2229,7 @@
         "name": "Siphon Life",
         "stats": {
           "duration": 4,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -2260,7 +2275,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "ability_duration": 2
@@ -2276,7 +2291,7 @@
         "name": "Shoulder Charge",
         "stats": {
           "duration": 1.2,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -2298,13 +2313,13 @@
           "toss_speed": 0,
           "toss_up_magnitude": 0.5,
           "side_move_speed_reduction": -65,
-          "turn_rate_max": 180,
+          "turn_rate_max": 140,
           "camera_distance": 450,
           "charge_radius": 2.2,
           "weapon_damage_bonus": 0,
           "weapon_power_increase_duration": 0,
           "collide_players_stop_time": 0.3,
-          "stun_duration": 1
+          "stun_duration": 0.85
         },
         "tooltipDetails": {
           "description": "<span class=\"highlight\">Charge forward</span>, colliding with enemies and dragging them along.  Hitting a <span class=\"highlight\">wall</span> will <span class=\"highlight\">Stun</span> enemies caught by {s:hero_name}. Speed increased after colliding with enemy Heroes.",
@@ -2320,13 +2335,13 @@
             },
             {
               "key": "StunDuration",
-              "value": 1,
+              "value": 0.85,
               "type": "duration"
             }
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "ability_duration": 0.5
@@ -2358,7 +2373,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "regen_incoming_damage_percent": 17,
+          "regen_incoming_damage_percent": 16,
           "regen_incoming_damage_duration": 18,
           "regen_damage_interval": 1,
           "bonus_max_health": 0,
@@ -2370,7 +2385,7 @@
           "properties": [
             {
               "key": "RegenIncomingDamagePercent",
-              "value": 17,
+              "value": 16,
               "type": "healing"
             },
             {
@@ -2406,7 +2421,7 @@
         "name": "Seismic Impact",
         "stats": {
           "duration": 0,
-          "cooldown": 150,
+          "cooldown": 159,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -2458,7 +2473,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -40
+              "ability_cooldown": -38
             },
             {
               "bonus_max_health_per_hero": 100,
@@ -2729,7 +2744,7 @@
         "name": "Card Trick",
         "stats": {
           "duration": 0,
-          "cooldown": 0.5,
+          "cooldown": 0.75,
           "range": 500,
           "charges": 1,
           "charge_restore_time": 0,
@@ -2744,7 +2759,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "damage": 100,
+          "damage": 80,
           "radius": 5,
           "charges_conditionally": 1,
           "resource_per_card": 100,
@@ -2754,17 +2769,18 @@
           "card_resource_per_bullet_crit": 6,
           "card_resource_per_light_melee": 20,
           "card_resource_per_heavy_melee": 50,
-          "card_resource_gen_pct_scale": 100
+          "card_resource_gen_pct_scale": 106,
+          "projectile_origin_height_offset": 50
         },
         "tooltipDetails": {
           "description": "Deal weapon damage to summon cards.  Activate to throw a card that flies towards the enemy or point under your crosshair.",
           "properties": [
             {
               "key": "Damage",
-              "value": 100,
+              "value": 80,
               "type": "tech_damage",
               "scale_function": {
-                "value": 1.25,
+                "value": 1.5,
                 "type": "spirit"
               }
             },
@@ -2795,7 +2811,7 @@
         "name": "Project Mind",
         "stats": {
           "duration": 0,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 25,
           "charges": 0,
           "charge_restore_time": 0,
@@ -2851,7 +2867,7 @@
         "name": "Full Auto",
         "stats": {
           "duration": 5,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -2878,7 +2894,7 @@
             {
               "key": "BonusFireRate",
               "value": 20,
-              "type": "fireRate",
+              "type": "fire_rate",
               "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
@@ -2903,7 +2919,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "magic_damage_per_bullet": 5,
@@ -2920,7 +2936,7 @@
         "name": "Telekinesis",
         "stats": {
           "duration": 1.25,
-          "cooldown": 90,
+          "cooldown": 95,
           "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
@@ -2954,7 +2970,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -30
+              "ability_cooldown": -28
             },
             {
               "ability_duration": 0.5
@@ -3225,7 +3241,7 @@
         "name": "Mini Turret",
         "stats": {
           "duration": 0,
-          "cooldown": 28,
+          "cooldown": 30,
           "range": 15,
           "charges": 1,
           "charge_restore_time": 5,
@@ -3308,7 +3324,7 @@
         "name": "Medicinal Specter",
         "stats": {
           "duration": 6,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 15,
           "charges": 0,
           "charge_restore_time": 0,
@@ -3323,7 +3339,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "heal_radius": 6,
+          "heal_radius": 5,
           "external_bonus_health_regen": 25,
           "turret_heal_mult": 1,
           "aura_fire_rate_bonus": 0,
@@ -3340,24 +3356,29 @@
               "m_e_provided_property_type": "MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND"
             },
             {
-              "key": "AuraFireRateBonus",
-              "value": 0,
-              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
-              "m_usage_flags": "APUsageFlag_ModifierConditional",
+              "key": "HealRadius",
+              "value": "5m",
+              "type": "distance",
+              "scale_function": {
+                "value": 0.07,
+                "type": "spirit"
+              },
               "requiresUpgrade": true
             },
             {
-              "key": "MaxHealthRegenPct",
+              "key": "AuraFireRateBonus",
               "value": 0,
-              "type": "healing",
+              "type": "fire_rate",
+              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+              "m_usage_flags": "APUsageFlag_ModifierConditional",
               "requiresUpgrade": true
             }
           ],
           "basicProperties": [
             {
-              "key": "HealRadius",
-              "value": "6m",
-              "type": "distance"
+              "key": "MaxHealthRegenPct",
+              "value": 0,
+              "type": "healing"
             }
           ],
           "upgrades": [
@@ -3365,7 +3386,7 @@
               "aura_fire_rate_bonus": 35
             },
             {
-              "ability_cooldown": -18
+              "ability_cooldown": -17
             },
             {
               "max_health_regen_pct": 5,
@@ -3378,8 +3399,8 @@
         "key": "citadel_ability_fissure_wall",
         "name": "Spectral Wall",
         "stats": {
-          "duration": 6,
-          "cooldown": 35,
+          "duration": 5,
+          "cooldown": 37,
           "range": 50,
           "charges": 0,
           "charge_restore_time": 0,
@@ -3394,7 +3415,7 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "min_range": 7,
+          "min_range": 6,
           "wall_impact_range": 5,
           "push_force": 175,
           "damage": 64,
@@ -3433,7 +3454,7 @@
         "name": "Heavy Barrage",
         "stats": {
           "duration": 0,
-          "cooldown": 100,
+          "cooldown": 106,
           "range": 50,
           "charges": 0,
           "charge_restore_time": 0,
@@ -3460,7 +3481,7 @@
           "track_speed_near": 150,
           "track_speed_far": 100,
           "tracking_time": 0.4,
-          "min_distance": 7,
+          "min_distance": 6,
           "max_pitch": 0,
           "max_spread": 5,
           "projectile_ignore_collision_time": 0.2,
@@ -3476,7 +3497,7 @@
               "value": 30,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.3276,
+                "value": 0.35,
                 "type": "spirit"
               }
             },
@@ -3493,7 +3514,7 @@
           "basicProperties": [
             {
               "key": "MinDistance",
-              "value": "7m",
+              "value": "6m",
               "type": "distance",
               "m_e_display_type": "ETechRange"
             },
@@ -3512,7 +3533,7 @@
               "move_slow_duration": 2
             },
             {
-              "ability_cooldown": -50
+              "ability_cooldown": -47
             },
             {
               "damage_per_rocket": 30,
@@ -3784,7 +3805,7 @@
         "name": "Pulse Grenade",
         "stats": {
           "duration": 4,
-          "cooldown": 26,
+          "cooldown": 28,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -3863,7 +3884,7 @@
               "name": "Pulses"
             },
             {
-              "ability_cooldown": -8
+              "ability_cooldown": -7.5
             },
             {
               "pulse_damage": 45,
@@ -3877,7 +3898,7 @@
         "name": "Time Wall",
         "stats": {
           "duration": 7,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 200,
           "charges": 1,
           "charge_restore_time": 8,
@@ -3958,7 +3979,7 @@
         "name": "Kinetic Carbine",
         "stats": {
           "duration": 0,
-          "cooldown": 28,
+          "cooldown": 30,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -4052,7 +4073,7 @@
               "name": "Max Stop Duration"
             },
             {
-              "ability_cooldown": -10,
+              "ability_cooldown": -9.5,
               "name": "Speed Duration",
               "speed_boost_duration": 2
             },
@@ -4068,7 +4089,7 @@
         "name": "Paradoxical Swap",
         "stats": {
           "duration": 0,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
@@ -4120,7 +4141,7 @@
               "name": "Swap Damage"
             },
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             }
           ]
         }
@@ -4328,7 +4349,7 @@
         "Attribute_EWeaponAttribute_MediumRange"
       ]
     },
-    "lore": "Paradox.  An artifact of time, and the name of a notorius thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions.  What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen?  Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox’s reach.\\n\\nShrouded in mystery, each member of Paradox dons a mask and takes on the organization's name.  They are everywhere.  They are nowhere.  And if they want something, they are inevitable.",
+    "lore": "Paradox.  An artifact of time, and the name of a notorious thieves' guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions.  What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen?  Put it on display at pop-up museums, so that they can show the world that no one is out of Paradox’s reach.\\n\\nShrouded in mystery, each member of Paradox dons a mask and takes on the organization's name.  They are everywhere.  They are nowhere.  And if they want something, they are inevitable.",
     "playstyle": "Manipulating time lets Paradox outpace an enemy in one on one combat. She thrives by subjecting her enemies to timely swaps into a waiting pulse grenade, her wall, or into the middle of her teammates.",
     "role": "Manipulates Space and Time",
     "recommended_items": [
@@ -4380,7 +4401,7 @@
         "name": "Kinetic Pulse",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 5,
@@ -4443,7 +4464,7 @@
           "upgrades": [
             {
               "fire_rate_slow": 25,
-              "slow_percent": 40,
+              "slow_percent": 35,
               "slow_duration": 4
             },
             {
@@ -4462,7 +4483,7 @@
         "name": "Quantum Entanglement",
         "stats": {
           "duration": 0,
-          "cooldown": 11,
+          "cooldown": 12.5,
           "range": 9,
           "charges": 0,
           "charge_restore_time": 0,
@@ -4525,7 +4546,7 @@
         "name": "Rejuvenating Aurora",
         "stats": {
           "duration": 0,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -4548,7 +4569,7 @@
           "movement_speed_bonus_duration": 0
         },
         "tooltipDetails": {
-          "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby.",
+          "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby. Dashing does not break channel.",
           "properties": [
             {
               "key": "HealingPerSecond",
@@ -4580,12 +4601,12 @@
               "movement_speed_bonus_duration": 8
             },
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "no_channel": 1,
               "name": "Max Health Restored",
-              "heal_max_health_percent": 4
+              "heal_max_health_percent": 3.8
             }
           ]
         }
@@ -4595,7 +4616,7 @@
         "name": "Singularity",
         "stats": {
           "duration": 0,
-          "cooldown": 180,
+          "cooldown": 191,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -4924,7 +4945,7 @@
         "name": "Frost Grenade",
         "stats": {
           "duration": 0,
-          "cooldown": 21,
+          "cooldown": 22,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 7,
@@ -5000,7 +5021,7 @@
         "name": "Ice Path",
         "stats": {
           "duration": 8,
-          "cooldown": 36,
+          "cooldown": 38,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5076,7 +5097,7 @@
               "name": "Sprint Speed"
             },
             {
-              "ability_cooldown": -16
+              "ability_cooldown": -15
             },
             {
               "bonus_spirit_meter": 1,
@@ -5091,7 +5112,7 @@
         "name": "Arctic Beam",
         "stats": {
           "duration": 0,
-          "cooldown": 23,
+          "cooldown": 24,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5113,7 +5134,8 @@
           "path_width": 1.1,
           "camera_distance": 250,
           "min_slow_percent": 30,
-          "max_slow_percent": 80,
+          "max_slow_percent": 70,
+          "max_fire_rate_slow_percent": 40,
           "max_slow_time": 2,
           "ice_beam_buildup_proc_duration": 2,
           "slow_duration": 0.6,
@@ -5134,18 +5156,25 @@
             },
             {
               "key": "MaxSlowPercent",
-              "value": 80,
+              "value": 70,
               "type": "slow",
               "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
-              "key": "MaxSlowTime",
-              "value": 2,
-              "type": "duration"
+              "key": "MaxFireRateSlowPercent",
+              "value": 40,
+              "type": "bullet_damage",
+              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             }
           ],
           "basicProperties": [
+            {
+              "key": "MaxSlowTime",
+              "value": 2,
+              "type": "duration"
+            },
             {
               "key": "PathLength",
               "value": "25m",
@@ -5168,7 +5197,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -8
+              "ability_cooldown": -7.5
             },
             {
               "dps": 40
@@ -5185,7 +5214,7 @@
         "name": "Frozen Shelter",
         "stats": {
           "duration": 5.5,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5249,7 +5278,7 @@
               "fire_rate_slow": 40
             },
             {
-              "ability_cooldown": -40
+              "ability_cooldown": -38
             },
             {
               "bonus_health_regen": 1.638
@@ -5518,7 +5547,7 @@
         "name": "Sleep Dagger",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5594,7 +5623,7 @@
               "name": "Stamina Reduction"
             },
             {
-              "ability_cooldown": -13
+              "ability_cooldown": -12
             },
             {
               "bullet_resist_reduction": -12,
@@ -5608,7 +5637,7 @@
         "name": "Smoke Bomb",
         "stats": {
           "duration": 8,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5665,7 +5694,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "invis_move_speed_mod": 6
@@ -5753,7 +5782,7 @@
         "name": "Bullet Dance",
         "stats": {
           "duration": 0,
-          "cooldown": 130,
+          "cooldown": 138,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -5780,7 +5809,7 @@
             {
               "key": "BonusFireRate",
               "value": 25,
-              "type": "bullet_damage",
+              "type": "fire_rate",
               "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
@@ -5810,7 +5839,7 @@
               "weapon_damage_bonus": 7
             },
             {
-              "ability_cooldown": -40
+              "ability_cooldown": -38
             },
             {
               "targets_per_tick": 1
@@ -6079,7 +6108,7 @@
         "name": "Powder Keg",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 0,
           "charges": 2,
           "charge_restore_time": 5,
@@ -6136,7 +6165,7 @@
               "name": "Explosion Damage"
             },
             {
-              "ability_cooldown": -10,
+              "ability_cooldown": -9.5,
               "min_time_before_destroy": -1,
               "arm_time": -1
             }
@@ -6148,7 +6177,7 @@
         "name": "Bounce Pad",
         "stats": {
           "duration": 22,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 3.5,
@@ -6222,7 +6251,7 @@
         "name": "Hat Trick",
         "stats": {
           "duration": 0,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6272,7 +6301,7 @@
               "damage": 50
             },
             {
-              "ability_cooldown": -10
+              "ability_cooldown": -9.5
             },
             {
               "slow_percent": 30
@@ -6285,7 +6314,7 @@
         "name": "Spirit Lasso",
         "stats": {
           "duration": 2.5,
-          "cooldown": 150,
+          "cooldown": 159,
           "range": 10,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6329,7 +6358,7 @@
               "ability_duration": 0.6
             },
             {
-              "ability_cooldown": -60
+              "ability_cooldown": -56
             },
             {
               "grab_extra_targets": 1,
@@ -6582,7 +6611,7 @@
         "name": "Exploding Uppercut",
         "stats": {
           "duration": 0,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6643,7 +6672,7 @@
           "basicProperties": [],
           "upgrades": [
             {
-              "ability_cooldown": -11
+              "ability_cooldown": -10.5
             },
             {
               "uppercut_buff_on_hit": 12,
@@ -6661,7 +6690,7 @@
         "name": "Sticky Bomb",
         "stats": {
           "duration": 3,
-          "cooldown": 18,
+          "cooldown": 19,
           "range": 6,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6708,13 +6737,13 @@
         "name": "Hook",
         "stats": {
           "duration": 0,
-          "cooldown": 22,
-          "range": 35,
+          "cooldown": 23,
+          "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 35,
+          "cast_range": 30,
           "unit_target_limit": 1,
           "cast_delay": 0,
           "channel_time": 0,
@@ -6733,7 +6762,7 @@
           "end_of_hook_move_speed_bonus": 0,
           "end_of_hook_command_restrict_linger": 0.25,
           "reset_cooldown_on_friendly_hook": 0,
-          "friendly_hook_ignore_range": 3,
+          "friendly_hook_ignore_range": 8,
           "bullet_amp": 0,
           "bullet_amp_duration": 0,
           "bullet_shield_on_hook": 0,
@@ -6773,7 +6802,7 @@
         "name": "Hyper Beam",
         "stats": {
           "duration": 0,
-          "cooldown": 110,
+          "cooldown": 117,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -6792,6 +6821,7 @@
           "beam_length": 70,
           "beam_width": 2.9,
           "beam_close_radius": 5,
+          "beam_end_radius": 5,
           "beam_close_damage_percent": 75,
           "interval": 0.1,
           "tracking_speed": 55,
@@ -6835,7 +6865,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -40
+              "ability_cooldown": -38
             },
             {
               "dps": 100
@@ -7078,7 +7108,7 @@
     "new_player_friendly": false,
     "in_development": true,
     "in_hero_labs": false,
-    "is_disabled": true,
+    "is_disabled": false,
     "complexity": 1,
     "readability": 4,
     "bot_selectable": true,
@@ -7105,10 +7135,10 @@
     "abilities": [
       {
         "key": "ability_perched_predator",
-        "name": "Perched Predator",
+        "name": "Sekhmet's Spirit",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -7123,14 +7153,13 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "cat_lifetime": 8,
-          "cat_start_speed": 8,
-          "cat_accel": 10,
-          "cat_max_speed": 20,
+          "cat_lifetime": 2.5,
+          "cat_start_speed": 5,
+          "cat_accel": 15,
+          "cat_max_speed": 25,
           "cat_above_ground": 0.1,
           "cat_drop_down_rate": 5,
           "cat_climb_height": 3,
-          "min_time_between_explosions": 0.5,
           "explosion_damage": 100,
           "explosion_radius": 8,
           "toss_speed": 400,
@@ -7160,7 +7189,7 @@
               "explosion_radius": 4
             },
             {
-              "ability_cooldown": -12
+              "ability_cooldown": -11.5
             },
             {
               "explosion_damage": 100
@@ -7170,41 +7199,45 @@
       },
       {
         "key": "ability_nano_pounce",
-        "name": "Siamese Strike",
+        "name": "Pounce",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
-          "range": 16,
-          "charges": 0,
-          "charge_restore_time": 0,
+          "cooldown": 32,
+          "range": 14,
+          "charges": 1,
+          "charge_restore_time": 10,
           "channel_duration": 0,
           "resource_cost": 0,
-          "cast_range": 16,
+          "cast_range": 14,
           "unit_target_limit": 1,
           "cast_delay": 0.2,
           "channel_time": 0,
-          "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
-          "channel_move_speed": -1,
+          "post_cast_duration": 0.25,
+          "cooldown_between_charge": 10,
+          "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "explosion_damage": 60,
+          "friendly_target_cd": 16,
+          "friendly_recharge_time": 3,
+          "move_speed_to_target": 25,
+          "min_time_to_target": 0.5,
+          "jump_height": 3,
+          "slash_range": 3,
+          "camera_distance": 250,
+          "damage": 60,
           "instant_reload": 0,
-          "slow_percent": 20,
-          "slow_duration": 3,
+          "slow_duration": 2,
+          "slow_percent": 30,
+          "fire_rate_slow": 0,
           "explode_radius": 4,
           "debuff_duration": 0,
-          "damage_amplification": 0,
-          "active_reload_percent": 0,
-          "friendly_target_cd": 12,
-          "friendly_recharge_time": 3,
-          "double_pounce": 0
+          "active_reload_percent": 0
         },
         "tooltipDetails": {
-          "description": "<span class=\"highlight\">Leap</span> at a target.  Targetting an enemy will cause <span class=\"highlight\">damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
+          "description": "<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage.</span>  Targetting an enemy will cause <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
           "properties": [
             {
-              "key": "ExplosionDamage",
+              "key": "Damage",
               "value": 60,
               "type": "tech_damage",
               "scale_function": {
@@ -7214,7 +7247,7 @@
             },
             {
               "key": "ExplodeRadius",
-              "loc_token_override": "WarpExplodeRadius",
+              "loc_token_override": "PounceDebuffRadius",
               "value": "4m",
               "type": "distance",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -7222,50 +7255,56 @@
           ],
           "basicProperties": [
             {
+              "key": "FriendlyTargetCD",
+              "loc_token_override": "PounceFriendlyTargetCD",
+              "type": "cooldown",
+              "value": 16
+            },
+            {
+              "key": "FriendlyRechargeTime",
+              "loc_token_override": "PounceFriendlyRechargeTime",
+              "value": 3,
+              "type": "charge_cooldown"
+            },
+            {
               "key": "SlowPercent",
-              "value": 20,
+              "value": 30,
               "type": "slow",
               "m_usage_flags": "APUsageFlag_ModifierConditional",
               "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
             },
             {
               "key": "SlowDuration",
-              "value": 3,
+              "value": 2,
               "type": "duration",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
-            },
-            {
-              "key": "DebuffDuration",
-              "value": 0,
-              "type": "duration"
             }
           ],
           "upgrades": [
             {
-              "slow_percent": 20
+              "slow_duration": 1
             },
             {
-              "double_pounce": 4,
-              "ability_cast_range": 8
+              "fire_rate_slow": 30,
+              "name": "Explosion Radius",
+              "explode_radius": 6
             },
             {
-              "explode_radius": 6,
-              "name": "Damage Amplification",
-              "debuff_duration": 8,
-              "damage_amplification": 35
+              "ability_charges": 1,
+              "active_reload_percent": 25
             }
           ]
         }
       },
       {
         "key": "ability_nano_proximity_ritual",
-        "name": "Deadly Decor",
+        "name": "Perched Predator",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
+          "cooldown": 64,
           "range": 0,
-          "charges": 1,
-          "charge_restore_time": 8,
+          "charges": 0,
+          "charge_restore_time": 0,
           "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 0,
@@ -7273,32 +7312,36 @@
           "cast_delay": 0.2,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 8,
+          "cooldown_between_charge": 0,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "statue_health": 300,
-          "inactive_radius": 4,
-          "active_radius": 18,
-          "statue_lifetime": 40,
-          "statue_arm_time": 0.2,
+          "recall_cooldown": 10.5,
+          "recall_range": 5,
+          "min_resummon_cooldown": 0,
+          "statue_health": 200,
+          "statue_held_regen": 40,
+          "inactive_radius": 20,
+          "active_radius": 20,
+          "statue_lifetime": 60,
+          "statue_arm_time": 1,
           "cat_activate_duration": 1.5,
           "tick_interval": 0.1,
           "damage_tick": 0.5,
-          "dps": 20,
-          "fire_rate_slow": 0,
+          "dps": 30,
           "heal_amp_receive_penalty_percent": -20,
           "heal_amp_regen_penalty_percent": -20,
-          "lifesteal": 75,
-          "lifesteal_non_hero": 25,
-          "self_heal_scale": 0.5
+          "target_lifesteal": 30,
+          "target_lifesteal_non_hero": 10,
+          "self_heal_scale": 0.5,
+          "damage_amplification": 0
         },
         "tooltipDetails": {
-          "description": "Spawn a <span class=\"highlight\">Statue</span> that <span class=\"highlight\">life steals</span> from a nearby enemy giving health to itself and {s:hero_name}.  Statues are activate only when {s:hero_name} is near by.",
+          "description": "Send out <span class=\"highlight\">Ava</span> to <span class=\"highlight\">attack</span> a nearby enemy.  Targetted enemies have reduced healing and give health to Ava and {s:hero_name} when damanged by them.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled.",
           "properties": [
             {
               "key": "DPS",
-              "value": 20,
+              "value": 30,
               "type": "tech_damage",
               "scale_function": {
                 "value": 0.419328,
@@ -7306,56 +7349,61 @@
               }
             },
             {
-              "key": "HealAmpReceivePenaltyPercent",
-              "value": -20,
-              "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
+              "key": "StatueHealth",
+              "value": 200,
+              "type": "health",
+              "m_e_display_type": "EMaxHealth",
+              "scale_function": {
+                "value": 2,
+                "type": "spirit"
+              }
             }
           ],
           "basicProperties": [
             {
-              "key": "AbilityLifesteal",
+              "key": "RecallCooldown",
+              "loc_token_override": "AvaRecallCooldown",
+              "value": 10.5
+            },
+            {
+              "key": "ActiveRadius",
+              "value": "20m",
+              "type": "distance"
+            },
+            {
+              "key": "TargetLifesteal",
               "loc_token_override": "StatueLifesteal",
-              "value": 75,
+              "value": 30,
               "type": "healing",
               "m_e_display_type": "ETechLifesteal"
             },
             {
-              "key": "AbilityLifestealNonhero"
-            },
-            {
-              "key": "InactiveRadius",
-              "loc_token_override": "StatueActivateRange",
-              "value": "4m",
-              "type": "distance"
-            },
-            {
-              "key": "ActiveRadius",
-              "value": "18m",
-              "type": "distance"
-            },
-            {
-              "key": "StatueHealth",
-              "value": 300,
-              "type": "health",
-              "m_e_display_type": "EMaxHealth"
+              "key": "HealAmpReceivePenaltyPercent",
+              "value": -20,
+              "m_e_provided_property_type": "MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
               "key": "StatueLifetime",
-              "value": 40,
+              "value": 60,
               "type": "duration"
+            },
+            {
+              "key": "StatueHeldRegen",
+              "value": 40,
+              "type": "healing"
             }
           ],
           "upgrades": [
             {
-              "ability_charges": 1
+              "statue_health": 200,
+              "name": "Ava (Normalized)"
             },
             {
-              "active_radius": 10,
-              "fire_rate_slow": 30
+              "dps": 30
             },
             {
-              "dps": 30,
+              "damage_amplification": 35,
               "heal_amp_receive_penalty_percent": -30,
               "heal_amp_regen_penalty_percent": -30
             }
@@ -7367,7 +7415,7 @@
         "name": "Queen of Shadows",
         "stats": {
           "duration": 12,
-          "cooldown": 120,
+          "cooldown": 95,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -7385,18 +7433,109 @@
           "invis_alert_when_fading": 1,
           "invis_cancel_on_damage": 0,
           "invis_fade_to_duration": 0,
-          "invis_move_speed_mod": 0,
-          "spotted_radius": 20,
+          "invis_move_speed_mod": 1,
+          "spotted_radius": 15,
           "reveal_on_damage_duration": 0.25,
           "reveal_on_spotted_duration": 0.25,
-          "stamina_regen": 40,
-          "slow_resist": 50,
-          "cooldown_reduction_on_bullet": 0.3,
-          "cooldown_reduction_on_melee_light": 1.5,
-          "cooldown_reduction_on_melee_heavy": 4,
-          "fire_rate_bonus": 30,
-          "melee_attack_speed_bonus": 30,
-          "life_steal": 30
+          "stamina_cooldown_reduction": 0,
+          "purge_on_activate": 0,
+          "silence_on_heavy_duration": 0,
+          "bonus_fire_rate": 20,
+          "melee_attack_speed_bonus": 40,
+          "bullet_armor_reduction_light": 5,
+          "bullet_armor_reduction_heavy": 15,
+          "bullet_armor_reduction_duration": 6
+        },
+        "tooltipDetails": {
+          "description": "Cast yourself in shadow and go <span class=\"highlight\">Invisible</span>.  Attacks do not break invisibility but they will temporarily reveal you.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)",
+          "properties": [
+            {
+              "key": "StatusEffectInvisible"
+            },
+            {
+              "key": "InvisMoveSpeedMod",
+              "value": "1m",
+              "type": "move_speed",
+              "m_e_display_units": "EDisplayUnit_MetersPerSecond",
+              "m_e_display_type": "EMaxMoveSpeed",
+              "scale_function": {
+                "value": 0.03,
+                "type": "spirit"
+              }
+            }
+          ],
+          "basicProperties": [
+            {
+              "key": "BonusFireRate",
+              "value": 20,
+              "m_e_display_type": "EFireRate",
+              "type": "fire_rate",
+              "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "MeleeAttackSpeedBonus",
+              "loc_token_override": "NanoShadowMeleeAttackSpeedBonus",
+              "type": "melee_damage",
+              "value": 40,
+              "m_e_provided_property_type": "MODIFIER_VALUE_MELEEATTACK_SPEED",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "BulletArmorReductionLight",
+              "loc_token_override": "NanoShadowBulletArmorReductionLight",
+              "value": 5,
+              "type": "bullet_armor_down",
+              "m_e_display_type": "EStatsCount",
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "BulletArmorReductionHeavy",
+              "loc_token_override": "NanoShadowBulletArmorReductionHeavy",
+              "value": 15,
+              "type": "bullet_armor_down",
+              "m_e_display_type": "EStatsCount",
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            },
+            {
+              "key": "BulletArmorReductionDuration",
+              "loc_token_override": "NanoShadowBulletArmorReductionDuration",
+              "value": 6,
+              "type": "duration"
+            },
+            {
+              "key": "SpottedRadius",
+              "value": "15m",
+              "type": "distance",
+              "m_e_display_type": "ETechRadius"
+            },
+            {
+              "key": "SilenceOnHeavyDuration",
+              "value": 0,
+              "type": "duration"
+            },
+            {
+              "key": "StaminaCooldownReduction",
+              "value": 0,
+              "m_e_display_type": "EStaminaRegenPerSecond",
+              "m_e_provided_property_type": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
+            }
+          ],
+          "upgrades": [
+            {
+              "stamina_cooldown_reduction": 30
+            },
+            {
+              "purge_on_activate": 1
+            },
+            {
+              "silence_on_heavy_duration": 3,
+              "name": "Silence Duration"
+            }
+          ]
         }
       }
     ],
@@ -7576,9 +7715,9 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 2.4,
-      "rounds_per_second": 10,
-      "clip_size": 30,
+      "bullet_damage": 3,
+      "rounds_per_second": 4,
+      "clip_size": 16,
       "reload_time": 3.5,
       "reload_movespeed": 1,
       "reload_delay": 0,
@@ -7590,11 +7729,11 @@
       "falloff_end_scale": 0.1,
       "falloff_bias": 0.5,
       "bullet_gravity_scale": 0.8,
-      "bullets_per_shot": 3,
+      "bullets_per_shot": 5,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 71.99999999999999,
-      "sustained_dps": 33.230769230769226,
+      "dps": 60,
+      "sustained_dps": 32,
       "weapon_name": "citadel_weapon_nano_set",
       "weapon_description": "citadel_weapon_hero_nano_set"
     },
@@ -7660,7 +7799,7 @@
         "name": "Charged Shot",
         "stats": {
           "duration": 0,
-          "cooldown": 16,
+          "cooldown": 17,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 4,
@@ -7715,7 +7854,7 @@
         "name": "Rain of Arrows",
         "stats": {
           "duration": 7,
-          "cooldown": 33,
+          "cooldown": 35,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -7734,7 +7873,7 @@
           "jump_speed": 27.5,
           "slow_percent": 0,
           "slow_duration": 0,
-          "weapon_damage_bonus": 7,
+          "weapon_damage_bonus": 4,
           "fire_rate_bonus": 0,
           "bullet_lifesteal_percent": 0,
           "fall_speed_max": 30,
@@ -7750,11 +7889,11 @@
             {
               "key": "BulletSplitShot",
               "value": 5,
-              "type": "fireRate"
+              "type": "fire_rate"
             },
             {
               "key": "WeaponDamageBonus",
-              "value": 7,
+              "value": 4,
               "type": "bullet_damage",
               "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -7790,10 +7929,10 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
-              "weapon_damage_bonus": 7,
+              "weapon_damage_bonus": 5,
               "slow_percent": 40,
               "slow_duration": 1.5
             },
@@ -7809,7 +7948,7 @@
         "name": "Immobilizing Trap",
         "stats": {
           "duration": 0,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -7891,7 +8030,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "slow_duration": 2
@@ -7908,7 +8047,7 @@
         "name": "Guided Owl",
         "stats": {
           "duration": 0,
-          "cooldown": 110,
+          "cooldown": 127,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -7975,7 +8114,7 @@
               "damage": 100
             },
             {
-              "ability_cooldown": -50
+              "ability_cooldown": -47
             },
             {
               "low_health_enemy_threshold_pct": 22,
@@ -7986,7 +8125,7 @@
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.46,
+      "modifier_value_base_bullet_damage_from_level": 1.8,
       "modifier_value_base_melee_damage_from_level": 3.4,
       "modifier_value_base_health_from_level": 27,
       "modifier_value_tech_damage_percent": 0,
@@ -8251,7 +8390,7 @@
         "name": "Scorn",
         "stats": {
           "duration": 0,
-          "cooldown": 12,
+          "cooldown": 12.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8303,7 +8442,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -4
+              "ability_cooldown": -3.75
             },
             {
               "damage": 25
@@ -8320,7 +8459,7 @@
         "name": "Burrow",
         "stats": {
           "duration": 0,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8399,7 +8538,7 @@
               "radius": 2
             },
             {
-              "ability_cooldown": -20,
+              "ability_cooldown": -19,
               "bonus_move_speed": 3
             }
           ]
@@ -8410,7 +8549,7 @@
         "name": "Sand Blast",
         "stats": {
           "duration": 3.5,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8455,7 +8594,7 @@
               "ability_duration": 1.5
             },
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "slow_percent": 50
@@ -8468,7 +8607,7 @@
         "name": "Combo",
         "stats": {
           "duration": 0,
-          "cooldown": 90,
+          "cooldown": 95,
           "range": 5,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8515,10 +8654,10 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -30
+              "ability_cooldown": -28
             },
             {
-              "ability_channel_time": 1
+              "ability_channel_time": 0.75
             },
             {
               "dps": 40,
@@ -8787,7 +8926,7 @@
         "name": "Serrated Knives",
         "stats": {
           "duration": 0,
-          "cooldown": 18,
+          "cooldown": 19,
           "range": 0,
           "charges": 2,
           "charge_restore_time": 2,
@@ -8840,7 +8979,7 @@
         "name": "Slice and Dice",
         "stats": {
           "duration": 0,
-          "cooldown": 15,
+          "cooldown": 16,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8860,7 +8999,7 @@
           "dash_speed": 2400,
           "dash_range": 12,
           "dash_radius": 2.5,
-          "impact_damage": 125,
+          "impact_damage": 105,
           "move_speed_penalty_max_speed": 200,
           "move_speed_penalty_duration": 0,
           "camera_distance": 250,
@@ -8892,7 +9031,7 @@
         "name": "Bloodletting",
         "stats": {
           "duration": 0,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8909,11 +9048,11 @@
           "weapon_power": 0,
           "damage_pct_deferred": 30,
           "deferred_damage_duration": 10,
-          "defer_clear_pct": 50,
+          "defer_clear_pct": 40,
           "damage_pct_deferred_max_rage": 15
         },
         "tooltipDetails": {
-          "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred in increased.",
+          "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred is increased.",
           "properties": [
             {
               "key": "DamagePctDeferredMaxRage",
@@ -8927,7 +9066,7 @@
               "name": "Deferred Damage Duration"
             },
             {
-              "ability_cooldown": -5
+              "ability_cooldown": -4.75
             },
             {
               "defer_clear_pct": 25,
@@ -8941,7 +9080,7 @@
         "name": "Killing Blow",
         "stats": {
           "duration": 0,
-          "cooldown": 90,
+          "cooldown": 95,
           "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
@@ -8964,7 +9103,7 @@
           "bonus_resource": 10,
           "non_player_rage_scale": 0.2,
           "bonus_move_speed": 0,
-          "buff_damage": 25,
+          "buff_damage": 20,
           "rage_drain_delay_duration": 7,
           "damage": 200,
           "enemy_health_percent": 20,
@@ -8982,7 +9121,7 @@
           "properties": [
             {
               "key": "BuffDamage",
-              "value": 25,
+              "value": 20,
               "type": "damage",
               "m_e_provided_property_type": "MODIFIER_VALUE_DAMAGE_PERCENT",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -9003,7 +9142,8 @@
             },
             {
               "enemy_health_percent": 8,
-              "name": "Enemy health threshold"
+              "name": "Full Rage Damage Bonus",
+              "buff_damage": 5
             },
             {
               "short_cooldown": 0.5
@@ -9281,7 +9421,7 @@
         "name": "Kudzu Bomb",
         "stats": {
           "duration": 4,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 8,
@@ -9342,7 +9482,7 @@
         "name": "Watcher's Covenant",
         "stats": {
           "duration": 12,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 16,
           "charges": 0,
           "charge_restore_time": 0,
@@ -9371,7 +9511,7 @@
             {
               "key": "BonusFireRate",
               "value": 10,
-              "type": "fireRate",
+              "type": "fire_rate",
               "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
               "m_usage_flags": "APUsageFlag_ModifierConditional",
               "scale_function": {
@@ -9429,7 +9569,7 @@
         "name": "Stone Form",
         "stats": {
           "duration": 2,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -9486,7 +9626,7 @@
           "basicProperties": [],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "stun_duration": 0.5,
@@ -9504,7 +9644,7 @@
         "name": "Air Drop",
         "stats": {
           "duration": 17,
-          "cooldown": 80,
+          "cooldown": 85,
           "range": 8,
           "charges": 0,
           "charge_restore_time": 0,
@@ -9532,7 +9672,7 @@
           "bullet_armor_reduction": 0,
           "bullet_armor_reduction_duration": 0,
           "slow_percent": 35,
-          "debuff_duration": 4.5,
+          "debuff_duration": 4,
           "silence_duration": 0
         },
         "tooltipDetails": {
@@ -9560,7 +9700,7 @@
             {
               "key": "DebuffDuration",
               "loc_token_override": "AirDropDebuffDuration",
-              "value": 4.5,
+              "value": 4,
               "type": "duration"
             }
           ],
@@ -9889,7 +10029,7 @@
         "name": "Occilioblade",
         "stats": {
           "duration": 0,
-          "cooldown": 28,
+          "cooldown": 30,
           "range": 50,
           "charges": 2,
           "charge_restore_time": 6,
@@ -9926,7 +10066,7 @@
         "name": "Pack Hunter",
         "stats": {
           "duration": 4,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -9953,7 +10093,7 @@
         "name": "Dust Storm",
         "stats": {
           "duration": 5,
-          "cooldown": 24,
+          "cooldown": 25,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -9991,7 +10131,7 @@
         "name": "Trapper's Delight",
         "stats": {
           "duration": 0,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 25,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10260,7 +10400,7 @@
         "name": "Alchemical Flask",
         "stats": {
           "duration": 0,
-          "cooldown": 13,
+          "cooldown": 14,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10275,11 +10415,11 @@
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "radius": 7,
+          "radius": 6.5,
           "damage": 55,
           "weapon_power_debuff": -30,
           "fire_rate_slow": 0,
-          "debuff_duration": 7,
+          "debuff_duration": 6,
           "move_speed_slow_pct": 20,
           "forward_velocity": 800,
           "projectile_lifetime": 60,
@@ -10315,7 +10455,7 @@
           "basicProperties": [
             {
               "key": "DebuffDuration",
-              "value": 7,
+              "value": 6,
               "type": "duration"
             },
             {
@@ -10333,7 +10473,7 @@
             },
             {
               "fire_rate_slow": 35,
-              "ability_cooldown": -7
+              "ability_cooldown": -6.5
             }
           ]
         }
@@ -10343,7 +10483,7 @@
         "name": "Willpower",
         "stats": {
           "duration": 7,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10385,7 +10525,7 @@
               "name": "Move speed bonus"
             },
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "tech_shield_points": 3.9312,
@@ -10399,7 +10539,7 @@
         "name": "Binding Word",
         "stats": {
           "duration": 0,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10456,7 +10596,7 @@
               "immobilize_duration": 1
             },
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "bullet_armor_reduction": 20,
@@ -10471,7 +10611,7 @@
         "name": "Last Stand",
         "stats": {
           "duration": 6,
-          "cooldown": 130,
+          "cooldown": 138,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10491,10 +10631,12 @@
           "radius": 12,
           "health_steal_pct_hero": 100,
           "health_steal_pct": 50,
-          "cone_angle": 115
+          "cone_angle": 115,
+          "bonus_move_speed": 0,
+          "bullet_resist": 50
         },
         "tooltipDetails": {
-          "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done.",
+          "description": "After charging for {s:AbilityCastDelay}s, <span class=\"highlight\">release pulses that damage enemies and heal you</span> based on the damage done. <br>While channeling Last Stand you have greatly increased <span class=\"highlight\">bullet resist</span>.",
           "properties": [
             {
               "key": "PulseDPS",
@@ -10504,6 +10646,19 @@
                 "value": 0.85176,
                 "type": "spirit"
               }
+            },
+            {
+              "key": "HealthStealPctHero",
+              "value": 100,
+              "type": "healing"
+            },
+            {
+              "key": "BonusMoveSpeed",
+              "value": "0m",
+              "type": "move_speed",
+              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+              "m_usage_flags": "APUsageFlag_ModifierConditional",
+              "conditional_loc_token_override": "#ActiveItemUse_conditional"
             }
           ],
           "basicProperties": [
@@ -10511,11 +10666,6 @@
               "key": "PulseInterval",
               "value": 0.5,
               "type": "duration"
-            },
-            {
-              "key": "HealthStealPctHero",
-              "value": 100,
-              "type": "healing"
             },
             {
               "key": "HealthStealPct",
@@ -10532,14 +10682,14 @@
               "name": "DPS"
             },
             {
-              "ability_cooldown": -60
+              "ability_cooldown": -56
             }
           ]
         }
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.31,
+      "modifier_value_base_bullet_damage_from_level": 1.2,
       "modifier_value_base_melee_damage_from_level": 3.4,
       "modifier_value_base_health_from_level": 45,
       "modifier_value_tech_damage_percent": 0,
@@ -10801,7 +10951,7 @@
         "name": "Power Slash",
         "stats": {
           "duration": 0,
-          "cooldown": 8,
+          "cooldown": 8.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10819,7 +10969,7 @@
           "slash_length": 25,
           "short_charge_damage_pct": 40,
           "medium_charge_damage_pct": 60,
-          "full_charge_damage": 170,
+          "full_charge_damage": 160,
           "slash_radius": 41,
           "fall_speed_max": 5,
           "air_speed_max": 0,
@@ -10834,7 +10984,7 @@
           "properties": [
             {
               "key": "FullChargeDamage",
-              "value": 170,
+              "value": 160,
               "type": "tech_damage",
               "scale_function": {
                 "value": 2,
@@ -10888,7 +11038,7 @@
         "name": "Flying Strike",
         "stats": {
           "duration": 0,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
@@ -10898,7 +11048,7 @@
           "unit_target_limit": 1,
           "cast_delay": 0,
           "channel_time": 0,
-          "post_cast_duration": 0.5,
+          "post_cast_duration": 0.2,
           "cooldown_between_charge": 0,
           "channel_move_speed": 50,
           "tech_power": 0,
@@ -10941,7 +11091,7 @@
         "name": "Crimson Slash",
         "stats": {
           "duration": 0,
-          "cooldown": 11,
+          "cooldown": 11.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11008,7 +11158,7 @@
               "name": "Heal on hero hit"
             },
             {
-              "ability_cooldown": -6
+              "ability_cooldown": -5.75
             }
           ]
         }
@@ -11018,7 +11168,7 @@
         "name": "Shadow Transformation",
         "stats": {
           "duration": 5,
-          "cooldown": 100,
+          "cooldown": 106,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11037,8 +11187,8 @@
           "buff_duration": 20,
           "bonus_move_speed": 0,
           "speed_pct": 60,
-          "tech_resist": 55,
-          "bullet_resist": 55
+          "tech_resist": 40,
+          "bullet_resist": 40
         },
         "tooltipDetails": {
           "description": "Become infused with Yamato's shadow soul. After an initial <span class=\"highlight\">invincible</span> transformation, your <span class=\"highlight\">abilities are refreshed and are 60% faster</span>, your weapon has <span class=\"highlight\">infinite ammo</span>, and you gain <span class=\"highlight\">damage resists</span> and <span class=\"highlight\">immunity to negative status effects</span>. You are unable to die in this mode.",
@@ -11059,14 +11209,14 @@
           "basicProperties": [
             {
               "key": "TechResist",
-              "value": 55,
+              "value": 40,
               "type": "tech_armor_up",
               "m_e_provided_property_type": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
               "key": "BulletResist",
-              "value": 55,
+              "value": 40,
               "type": "bullet_armor_up",
               "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -11074,7 +11224,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -30
+              "ability_cooldown": -28
             },
             {
               "bonus_move_speed": 4
@@ -11260,7 +11410,9 @@
         "ETechDuration"
       ]
     },
-    "spirit_scaling": {},
+    "spirit_scaling": {
+      "eclipsize": 0.15
+    },
     "weapon_stats": {
       "bullet_damage": 5.65,
       "rounds_per_second": 2.5,
@@ -11349,7 +11501,7 @@
         "name": "Ground Strike",
         "stats": {
           "duration": 0,
-          "cooldown": 18,
+          "cooldown": 19,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11384,7 +11536,7 @@
               "value": 90,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.78624,
+                "value": 0.85,
                 "type": "spirit"
               }
             },
@@ -11393,7 +11545,7 @@
               "value": 6,
               "type": "tech_damage",
               "scale_function": {
-                "value": 0.0451,
+                "value": 0.05,
                 "type": "spirit"
               }
             }
@@ -11414,7 +11566,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -10
+              "ability_cooldown": -9.5
             },
             {
               "enemy_slow_pct": 50,
@@ -11433,7 +11585,7 @@
         "name": "Grapple",
         "stats": {
           "duration": 0,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 30,
           "charges": 1,
           "charge_restore_time": 2,
@@ -11492,7 +11644,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -19
             },
             {
               "ability_cast_range": 20,
@@ -11512,7 +11664,7 @@
         "name": "Flog",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 25,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11586,7 +11738,7 @@
               "enemy_slow_pct": 35
             },
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "damage": 105,
@@ -11600,7 +11752,7 @@
         "name": "Death Slam",
         "stats": {
           "duration": 0,
-          "cooldown": 130,
+          "cooldown": 138,
           "range": 18,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11688,14 +11840,14 @@
               "name": "Damage"
             },
             {
-              "ability_cooldown": -60
+              "ability_cooldown": -56
             }
           ]
         }
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.15,
+      "modifier_value_base_bullet_damage_from_level": 0.9,
       "modifier_value_base_melee_damage_from_level": 3.4,
       "modifier_value_base_health_from_level": 42,
       "modifier_value_tech_damage_percent": 0,
@@ -11952,7 +12104,7 @@
         "name": "Splatter",
         "stats": {
           "duration": 0,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -11970,7 +12122,7 @@
           "slow_percent": 35,
           "move_speed_slow_percent": 0,
           "max_bounces": 0,
-          "damage": 110,
+          "damage": 100,
           "move_speed_ground_slow": 0,
           "boss_damage_percent": 50,
           "radius": 5,
@@ -12003,7 +12155,7 @@
           "basicProperties": [],
           "upgrades": [
             {
-              "ability_cooldown": -6
+              "ability_cooldown": -5.75
             },
             {
               "damage": 70,
@@ -12020,7 +12172,7 @@
         "name": "The Cube",
         "stats": {
           "duration": 4,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12095,7 +12247,7 @@
               "post_cube_buff": 1
             },
             {
-              "ability_cooldown": -22
+              "ability_cooldown": -21
             },
             {
               "bonus_health_regen": 60
@@ -12108,7 +12260,7 @@
         "name": "viscous_telepunch",
         "stats": {
           "duration": 0,
-          "cooldown": 28,
+          "cooldown": 30,
           "range": 40,
           "charges": 1,
           "charge_restore_time": 1.5,
@@ -12170,7 +12322,7 @@
               "slow_percent": 20
             },
             {
-              "ability_cooldown": -12
+              "ability_cooldown": -11.5
             }
           ]
         }
@@ -12180,7 +12332,7 @@
         "name": "Goo Ball",
         "stats": {
           "duration": 10,
-          "cooldown": 90,
+          "cooldown": 95,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12437,7 +12589,7 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 14,
+      "bullet_damage": 13,
       "rounds_per_second": 5,
       "clip_size": 20,
       "reload_time": 2.5,
@@ -12454,8 +12606,8 @@
       "bullets_per_shot": 1,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 70,
-      "sustained_dps": 43.07692307692308,
+      "dps": 65,
+      "sustained_dps": 40,
       "weapon_name": "citadel_weapon_viscous_set",
       "weapon_description": "citadel_weapon_hero_viscous_set",
       "weapon_types": [
@@ -12521,7 +12673,7 @@
         "name": "Rapid Fire",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 15,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12551,7 +12703,7 @@
         "name": "Rocket Launcher",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 0.8,
@@ -12604,7 +12756,7 @@
         "name": "Sleep Bomb",
         "stats": {
           "duration": 0,
-          "cooldown": 90,
+          "cooldown": 95,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12865,7 +13017,7 @@
         "name": "Shakedown",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12895,7 +13047,7 @@
         "name": "Hired Muscle",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12924,7 +13076,7 @@
         "name": "Protection Racket",
         "stats": {
           "duration": 12,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
@@ -12950,7 +13102,7 @@
         "name": "Setting Sun",
         "stats": {
           "duration": 0,
-          "cooldown": 70,
+          "cooldown": 74,
           "range": 25,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13215,7 +13367,7 @@
         "name": "genericperson_ability_1",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13237,7 +13389,7 @@
         "name": "genericperson_ability_2",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13259,7 +13411,7 @@
         "name": "genericperson_ability_3",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13281,7 +13433,7 @@
         "name": "genericperson_ability_4",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13537,7 +13689,7 @@
         "name": "Hot Shot",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 0,
           "charges": 2,
           "charge_restore_time": 1,
@@ -13566,7 +13718,7 @@
         "name": "Dying Star",
         "stats": {
           "duration": 0,
-          "cooldown": 24,
+          "cooldown": 25,
           "range": 20,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13592,7 +13744,7 @@
         "name": "Blinding Radiance",
         "stats": {
           "duration": 6,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13621,7 +13773,7 @@
         "name": "Pulse Cannon",
         "stats": {
           "duration": 0,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 100,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13884,7 +14036,7 @@
         "name": "Wrecking Ball",
         "stats": {
           "duration": 6,
-          "cooldown": 20,
+          "cooldown": 21,
           "range": 50,
           "charges": 0,
           "charge_restore_time": 0,
@@ -13938,7 +14090,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -8
+              "ability_cooldown": -7.5
             },
             {
               "wrecking_ball_damage": 80,
@@ -13956,7 +14108,7 @@
         "name": "Consume",
         "stats": {
           "duration": 0,
-          "cooldown": 12,
+          "cooldown": 12.5,
           "range": 10,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14033,7 +14185,7 @@
         "name": "Bio Blast",
         "stats": {
           "duration": 0,
-          "cooldown": 60,
+          "cooldown": 64,
           "range": 15,
           "charges": 2,
           "charge_restore_time": 3,
@@ -14098,7 +14250,7 @@
         "name": "Astral Walk",
         "stats": {
           "duration": 0,
-          "cooldown": 130,
+          "cooldown": 138,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14162,7 +14314,7 @@
               "ability_channel_time": 8
             },
             {
-              "ability_cooldown": -50
+              "ability_cooldown": -47
             },
             {
               "damage_per_second_flown": 16,
@@ -14438,7 +14590,7 @@
         "name": "Rocket Launcher",
         "stats": {
           "duration": 0,
-          "cooldown": 16,
+          "cooldown": 17,
           "range": 0,
           "charges": 1,
           "charge_restore_time": 1,
@@ -14475,7 +14627,7 @@
         "name": "Force Field",
         "stats": {
           "duration": 10,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14507,7 +14659,7 @@
         "name": "Cheat Death",
         "stats": {
           "duration": 4,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14532,7 +14684,7 @@
         "name": "Pulse",
         "stats": {
           "duration": 6,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14795,7 +14947,7 @@
         "name": "Barrage",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14817,9 +14969,9 @@
           "air_speed_max": 100,
           "air_drag": 0.3,
           "radius": 6.5,
-          "move_slow_percent": 40,
+          "move_slow_percent": 30,
           "slow_duration": 1.5,
-          "amp_percent_per_stack": 7,
+          "amp_percent_per_stack": 6,
           "amp_duration": 15,
           "life_steal_percent_on_hit": 0,
           "life_steal_percent_on_hit_non_hero": 0
@@ -14829,7 +14981,7 @@
           "properties": [
             {
               "key": "AmpPercentPerStack",
-              "value": 7
+              "value": 6
             },
             {
               "key": "DamagePerProjectile",
@@ -14842,7 +14994,7 @@
             },
             {
               "key": "MoveSlowPercent",
-              "value": 40,
+              "value": 30,
               "type": "slow",
               "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
               "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -14870,7 +15022,7 @@
               "name": "Damage Per Projectile"
             },
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "amp_percent_per_stack": 5,
@@ -14884,7 +15036,7 @@
         "name": "Flying Cloak",
         "stats": {
           "duration": 0,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -14928,7 +15080,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
               "damage": 80
@@ -14946,7 +15098,7 @@
         "name": "Enchanter's Satchel",
         "stats": {
           "duration": 0,
-          "cooldown": 16,
+          "cooldown": 17,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15005,7 +15157,7 @@
           ],
           "upgrades": [
             {
-              "ability_cooldown": -5
+              "ability_cooldown": -4.75
             },
             {
               "damage": 80
@@ -15022,7 +15174,7 @@
         "name": "Affliction",
         "stats": {
           "duration": 0,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15066,7 +15218,7 @@
           "basicProperties": [],
           "upgrades": [
             {
-              "ability_cooldown": -30
+              "ability_cooldown": -28
             },
             {
               "heal_amp_receive_penalty_percent": -60,
@@ -15340,7 +15492,7 @@
         "name": "Shatter Cannon",
         "stats": {
           "duration": 0,
-          "cooldown": 16,
+          "cooldown": 17,
           "range": 40,
           "charges": 1,
           "charge_restore_time": 4,
@@ -15370,7 +15522,7 @@
         "name": "Spike Strip",
         "stats": {
           "duration": 6,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15405,7 +15557,7 @@
         "name": "Badger Drone",
         "stats": {
           "duration": 8,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 30,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15430,7 +15582,7 @@
         "name": "Vortex",
         "stats": {
           "duration": 4,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15694,7 +15846,7 @@
         "name": "Tornado",
         "stats": {
           "duration": 2,
-          "cooldown": 30,
+          "cooldown": 32,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15706,11 +15858,11 @@
           "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
-          "channel_move_speed": 50,
+          "channel_move_speed": 20,
           "tech_power": 0,
           "weapon_power": 0,
           "radius": 3.5,
-          "open_height": 3,
+          "open_height": 8,
           "damage": 60,
           "tick_rate": 0.25,
           "distance_above_ground": 2,
@@ -15723,12 +15875,13 @@
           "lift_height": 3,
           "damping_factor": 0.3,
           "max_delta_movement_control": 2,
-          "move_slow_percent": 0,
-          "move_slow_duration": 0,
-          "boss_damage_percent": 50
+          "hold_in_place_duration": 1.25,
+          "boss_damage_percent": 50,
+          "target_bullet_evasion_chance": 100,
+          "tech_armor_damage_reduction": 0
         },
         "tooltipDetails": {
-          "description": "Send out a tornado that <span class=\"highlight\">damages enemies</span> and <span class=\"highlight\">lifts them up in the air</span>.",
+          "description": "Send out a tornado that <span class=\"highlight\">damages enemies</span> and <span class=\"highlight\">lifts them up in the air</span>. While they're up in the air, targets <span class=\"highlight\">will fully evade all bullets</span>.",
           "properties": [
             {
               "key": "Damage",
@@ -15740,9 +15893,8 @@
               }
             },
             {
-              "key": "EnemyLiftDuration",
-              "value": 0.6,
-              "m_e_scale_type": "ETechDuration",
+              "key": "HoldInPlaceDuration",
+              "value": 1.25,
               "type": "duration"
             }
           ],
@@ -15755,28 +15907,27 @@
           ],
           "upgrades": [
             {
-              "move_slow_percent": 30,
-              "name": "Movement Slow Duration",
-              "move_slow_duration": 3
+              "hold_in_place_duration": 0.75,
+              "name": "Lift Duration"
             },
             {
-              "ability_cooldown": -15
+              "ability_cooldown": -14
             },
             {
-              "damage": 120
+              "tech_armor_damage_reduction": -15
             }
           ]
         }
       },
       {
         "key": "mirage_fire_beetles",
-        "name": "Fire Beetles",
+        "name": "Fire Scarabs",
         "stats": {
           "duration": 0,
           "cooldown": 0,
           "range": 0,
           "charges": 3,
-          "charge_restore_time": 0,
+          "charge_restore_time": 0.05,
           "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 0,
@@ -15784,12 +15935,12 @@
           "cast_delay": 0.05,
           "channel_time": 0,
           "post_cast_duration": 0,
-          "cooldown_between_charge": 0,
+          "cooldown_between_charge": 0.05,
           "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
           "launch_window_cooldown": 35,
-          "launch_window_duration": 15,
+          "launch_window_duration": 20,
           "charges_conditionally": 1,
           "radius": 4,
           "dps": 20,
@@ -15799,7 +15950,7 @@
           "non_hero_healing_factor": 15
         },
         "tooltipDetails": {
-          "description": "Start launching fire beetles. Each beetle can be <span class=\"highlight\">launched separately</span>, applying a <span class=\"highlight\">lifesteal over time</span> to enemies they hit. Once the launch window ends, this ability goes on cooldown.",
+          "description": "Start launching fire scarabs. Each scarab can be <span class=\"highlight\">launched separately</span>, applying a <span class=\"highlight\">lifesteal over time</span> to enemies they hit. Once the launch window ends, this ability goes on cooldown.",
           "properties": [
             {
               "key": "DPS",
@@ -15824,7 +15975,7 @@
           "basicProperties": [
             {
               "key": "LaunchWindowDuration",
-              "value": 15,
+              "value": 20,
               "type": "duration"
             },
             {
@@ -15854,10 +16005,10 @@
       },
       {
         "key": "mirage_sand_phantom",
-        "name": "Whirling Dervish",
+        "name": "Tempest Ward",
         "stats": {
           "duration": 0,
-          "cooldown": 45,
+          "cooldown": 37,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -15872,144 +16023,125 @@
           "channel_move_speed": 200,
           "tech_power": 0,
           "weapon_power": 0,
-          "time_before_teleport": 3.5,
-          "camera_distance": 250,
-          "trail_interval": 0.1,
-          "pre_creation_travel_time": 0.5,
-          "ground_dash_reduction_percent": 0,
-          "whirlwind_evasion_chance": 40,
-          "whirlwind_duration": 8,
-          "bonus_move_speed": 3,
-          "move_speed_duration": 6,
-          "weapon_damage_bonus": 0
+          "whirlwind_evasion_chance": 50,
+          "whirlwind_duration": 3.5,
+          "radius": 10,
+          "proc_bonus_magic_damage": 20,
+          "proc_bonus_magic_damage_escalation": 15,
+          "proc_chance": 100,
+          "proc_cooldown": 2,
+          "victim_stack_duration": 8,
+          "max_stacks": 5
         },
         "tooltipDetails": {
-          "description": "Become enveloped in a whirlwind, gaining <span class=\"highlight\">bullet evasion</span> and bonus <span class=\"highlight\">movement speed</span>.",
+          "description": "You become enveloped in a whirlwind that provides <span class=\"highlight\">bullet evasion</span> and <span class=\"highlight\">movement speed</span>.",
           "properties": [
             {
               "key": "WhirlwindEvasionChance",
-              "value": 40
+              "value": 50,
+              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_EVASION",
+              "m_usage_flags": "APUsageFlag_ModifierConditional"
             },
             {
-              "key": "BonusMoveSpeed",
-              "m_e_display_units": "EDisplayUnit_MetersPerSecond",
-              "value": "3m",
-              "type": "move_speed",
-              "m_e_display_type": "EMaxMoveSpeed",
-              "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
+              "key": "WhirlwindDuration",
+              "value": 3.5
             }
           ],
           "basicProperties": [
             {
-              "key": "WhirlwindDuration",
-              "value": 8
+              "key": "AbilityCooldown",
+              "value": 37,
+              "disable_value": 0,
+              "type": "cooldown",
+              "m_b_can_set_token_override": true
             }
           ],
           "upgrades": [
             {
-              "whirlwind_evasion_chance": 20,
+              "whirlwind_evasion_chance": 30,
               "name": "Bullet Evasion Chance"
             },
             {
-              "ability_cooldown": -18
+              "proc_bonus_magic_damage_escalation": 10,
+              "name": "Escalating Spirit Damage"
             },
             {
-              "weapon_damage_bonus": 15
+              "ability_cooldown": -19
             }
           ]
         }
       },
       {
-        "key": "mirage_djinns_reach",
-        "name": "Djinn's Reach",
+        "key": "mirage_djinn_bomb",
+        "name": "Djinn Bomb",
         "stats": {
           "duration": 0,
-          "cooldown": 60,
+          "cooldown": 74,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
-          "channel_duration": 9999,
+          "channel_duration": 0,
           "resource_cost": 0,
           "cast_range": 0,
           "unit_target_limit": 1,
-          "cast_delay": 1.1,
-          "channel_time": 9999,
+          "cast_delay": 0.5,
+          "channel_time": 0,
           "post_cast_duration": 0,
           "cooldown_between_charge": 0,
-          "channel_move_speed": -1,
+          "channel_move_speed": 50,
           "tech_power": 0,
           "weapon_power": 0,
-          "max_targets": 3,
-          "tech_cleave_expire_time": 0.2,
-          "fall_speed_max": 60,
-          "air_speed_max": 150,
-          "damage": 0,
+          "radius": 11,
           "boss_damage_percent": 50,
-          "debuff_duration": 7,
-          "radius": 17,
-          "chain_slow_percent": 20,
-          "chain_length": 14,
-          "damage_share_percent": 30,
-          "bullet_resist_reduction": -25,
-          "initial_pull_amount": 100
+          "max_projectile_lifetime": 8,
+          "damage": 225,
+          "bomb_bonus_damage_per_hero": 60
         },
         "tooltipDetails": {
-          "description": "Charge up and then launch a projectile that strikes the first enemy hero it hits, <span class=\"highlight\">tethering</span> it to up to two other enemy heroes nearby. Tethered heroes have their <span class=\"highlight\">movement constrained</span> to each other, have <span class=\"highlight\">reduced bullet resistance</span>, and <span class=\"highlight\">suffer a portion of the damage any of the other tethered heroes receive</span>. <br>Hold [{s:ability_key}] or [{s:iv_attack}] to hold the shot.",
+          "description": "Launch a slow projectile that you can activate anywhere along its path to detonate it, dealing damage to enemies caught in its radius. Deals bonus damage for each additional hero hit.",
           "properties": [
             {
-              "key": "BulletResistReduction",
-              "value": -25,
-              "type": "bullet_armor_down",
-              "m_e_provided_property_type": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
-              "m_usage_flags": "APUsageFlag_ModifierConditional"
+              "key": "Damage",
+              "value": 225,
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 2.25,
+                "type": "spirit"
+              }
             },
             {
-              "key": "DamageSharePercent",
-              "value": 30
-            },
-            {
-              "key": "DebuffDuration",
-              "value": 7,
-              "m_e_scale_type": "ETechDuration",
-              "type": "duration"
+              "key": "BombBonusDamagePerHero",
+              "value": 60,
+              "type": "tech_damage",
+              "scale_function": {
+                "value": 0.6,
+                "type": "spirit"
+              }
             }
           ],
           "basicProperties": [
             {
-              "key": "ChainSlowPercent",
-              "value": 20,
-              "type": "slow"
-            },
-            {
-              "key": "Radius",
-              "value": "17m",
-              "type": "distance"
-            },
-            {
-              "key": "ChainLength",
-              "value": "14m",
-              "m_e_display_type": "ETechRadius",
-              "type": "distance"
+              "key": "MaxProjectileLifetime",
+              "value": 8
             }
           ],
           "upgrades": [
             {
-              "ability_cooldown": -20
+              "ability_cooldown": -28
             },
             {
-              "damage_share_percent": 20,
-              "name": "Damage Shared"
+              "bomb_bonus_damage_per_hero": 40,
+              "name": "Bonus Damage Per Hero"
             },
             {
-              "bullet_resist_reduction": -15
+              "damage": 150
             }
           ]
         }
       }
     ],
     "level_upgrades": {
-      "modifier_value_base_bullet_damage_from_level": 1.7,
+      "modifier_value_base_bullet_damage_from_level": 0.4,
       "modifier_value_base_melee_damage_from_level": 3.4,
       "modifier_value_base_health_from_level": 41,
       "modifier_value_tech_damage_percent": 0,
@@ -16184,25 +16316,25 @@
     },
     "spirit_scaling": {},
     "weapon_stats": {
-      "bullet_damage": 23,
-      "rounds_per_second": 2.5,
-      "clip_size": 12,
-      "reload_time": 2.5,
+      "bullet_damage": 4.7,
+      "rounds_per_second": 3.7037037037037033,
+      "clip_size": 14,
+      "reload_time": 2.35,
       "reload_movespeed": 1,
       "reload_delay": 0,
       "reload_single": false,
-      "bullet_speed": 266,
+      "bullet_speed": 126,
       "falloff_start_range": 8.66,
       "falloff_end_range": 22.64,
       "falloff_start_scale": 1,
       "falloff_end_scale": 0.1,
       "falloff_bias": 0.5,
       "bullet_gravity_scale": 0.8,
-      "bullets_per_shot": 1,
+      "bullets_per_shot": 4,
       "bullets_per_burst": 1,
       "burst_inter_shot_interval": 0,
-      "dps": 57.5,
-      "sustained_dps": 37.80821917808219,
+      "dps": 69.62962962962963,
+      "sustained_dps": 42.936378466557905,
       "weapon_name": "citadel_weapon_mirage_set",
       "weapon_description": "citadel_weapon_hero_mirage_set",
       "weapon_types": [
@@ -16214,28 +16346,19 @@
     "playstyle": "[playstyle info here]",
     "role": "Fires off barrages while evading shots",
     "recommended_items": [
-      "upgrade_clip_size",
-      "upgrade_close_range",
-      "upgrade_magic_reach",
+      "upgrade_medic_bullets",
+      "upgrade_high_velocity_mag",
       "upgrade_endurance",
       "upgrade_improved_spirit",
-      "upgrade_magic_tempo",
-      "upgrade_fleetfoot_boots",
       "upgrade_vampire",
-      "upgrade_bullet_armor",
-      "upgrade_cold_front",
-      "upgrade_slowing_bullets",
-      "upgrade_tech_armor",
+      "upgrade_fleetfoot_boots",
+      "upgrade_berserker",
+      "upgrade_arcane_extension",
+      "upgrade_magic_tempo",
+      "upgrade_suppressor",
       "upgrade_magic_shield",
-      "upgrade_cooldown_reduction",
-      "upgrade_soaring_spirit",
-      "upgrade_close_quarter_combat",
-      "upgrade_tech_purge",
-      "upgrade_damage_recycler",
-      "upgrade_tech_range",
-      "upgrade_mega_spirit",
-      "upgrade_silencer",
-      "upgrade_siphon_bullets"
+      "upgrade_magic_slow",
+      "upgrade_surging_power"
     ]
   },
   "slork": {
@@ -16274,7 +16397,7 @@
         "name": "Riptide",
         "stats": {
           "duration": 3,
-          "cooldown": 24,
+          "cooldown": 25,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16308,7 +16431,7 @@
         "name": "Chomp",
         "stats": {
           "duration": 2.5,
-          "cooldown": 33,
+          "cooldown": 35,
           "range": 10,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16332,7 +16455,7 @@
           "hobbled_movement_slow": 15,
           "chomp_heal_percent": 0,
           "damage_percent_health": 4,
-          "cooldown_on_miss": 5,
+          "cooldown_on_miss": 5.25,
           "break_range": 6
         }
       },
@@ -16341,7 +16464,7 @@
         "name": "Deep's Embrace",
         "stats": {
           "duration": 8,
-          "cooldown": 27,
+          "cooldown": 29,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16637,7 +16760,7 @@
         "name": "Anthem",
         "stats": {
           "duration": 8,
-          "cooldown": 35,
+          "cooldown": 37,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16663,7 +16786,7 @@
         "name": "Silence Contraptions",
         "stats": {
           "duration": 6,
-          "cooldown": 40,
+          "cooldown": 42,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16691,7 +16814,7 @@
         "name": "Lullaby",
         "stats": {
           "duration": 6,
-          "cooldown": 45,
+          "cooldown": 48,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16718,7 +16841,7 @@
         "name": "Crescendo",
         "stats": {
           "duration": 0,
-          "cooldown": 90,
+          "cooldown": 95,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -16978,7 +17101,7 @@
         "name": "ability_charged_bomb",
         "stats": {
           "duration": 0,
-          "cooldown": 10,
+          "cooldown": 10.5,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -17028,7 +17151,7 @@
         "name": "ability_bomber_ability02",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -17051,7 +17174,7 @@
         "name": "ability_bomber_ability03",
         "stats": {
           "duration": 0,
-          "cooldown": 25,
+          "cooldown": 26,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -17074,7 +17197,7 @@
         "name": "ability_bomber_ult",
         "stats": {
           "duration": 0,
-          "cooldown": 120,
+          "cooldown": 127,
           "range": 0,
           "charges": 0,
           "charge_restore_time": 0,
@@ -17095,7 +17218,7 @@
           "properties": [
             {
               "key": "AbilityCooldown",
-              "value": 120,
+              "value": 127,
               "disable_value": 0,
               "type": "cooldown",
               "m_b_can_set_token_override": true

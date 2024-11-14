@@ -202,7 +202,9 @@
       "ETechDuration"
     ]
   },
-  "spirit_scaling": {},
+  "spirit_scaling": {
+    "eclipsize": 0.15
+  },
   "weapon_stats": {
     "bullet_damage": 5.65,
     "rounds_per_second": 2.5,

@@ -3,7 +3,7 @@
   "name": "Occilioblade",
   "stats": {
     "duration": 0,
-    "cooldown": 28,
+    "cooldown": 30,
     "range": 50,
     "charges": 2,
     "charge_restore_time": 6,

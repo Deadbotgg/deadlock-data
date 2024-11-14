@@ -1,7 +1,7 @@
 {
   "name": "Inhibitor",
   "description": "Your bullets apply <span class=\"highlight\">Movement Slow</span> and reduce the target's <span class=\"highlight\">outgoing damage</span> on hit.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -52,13 +52,8 @@
             "style": "slow",
             "is_conditional": true
           },
-          "outgoing_ability_damage_penalty_percent": {
+          "outgoing_damage_penalty_percent": {
             "value": -35,
-            "style": null,
-            "is_conditional": true
-          },
-          "outgoing_bullet_damage_penalty_percent": {
-            "value": -40,
             "style": null,
             "is_conditional": true
           }
@@ -85,6 +80,5 @@
   "base_attack_damage_percent": 25,
   "slow_percent": 25,
   "debuff_duration": 2.5,
-  "outgoing_ability_damage_penalty_percent": -35,
-  "outgoing_bullet_damage_penalty_percent": -40
+  "outgoing_damage_penalty_percent": -35
 }

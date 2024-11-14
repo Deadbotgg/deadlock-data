@@ -18,8 +18,13 @@
       {
         "ability_properties": {
           "ability_lifesteal_percent_hero": {
-            "value": 8,
+            "value": 10,
             "style": "healing",
+            "is_negative": false
+          },
+          "bonus_health": {
+            "value": 75,
+            "style": "health",
             "is_negative": false
           },
           "tech_power": {
@@ -28,13 +33,7 @@
             "is_negative": false
           }
         },
-        "elevated_ability_properties": {
-          "bonus_health": {
-            "value": 75,
-            "style": "health",
-            "is_negative": false
-          }
-        },
+        "elevated_ability_properties": {},
         "important_ability_properties": {},
         "description": ""
       }

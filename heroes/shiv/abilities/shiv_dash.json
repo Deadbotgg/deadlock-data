@@ -3,7 +3,7 @@
   "name": "Slice and Dice",
   "stats": {
     "duration": 0,
-    "cooldown": 15,
+    "cooldown": 16,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -23,7 +23,7 @@
     "dash_speed": 2400,
     "dash_range": 12,
     "dash_radius": 2.5,
-    "impact_damage": 125,
+    "impact_damage": 105,
     "move_speed_penalty_max_speed": 200,
     "move_speed_penalty_duration": 0,
     "camera_distance": 250,

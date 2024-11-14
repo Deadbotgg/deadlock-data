@@ -3,7 +3,7 @@
   "name": "Static Charge",
   "stats": {
     "duration": 0,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 16,
     "charges": 0,
     "charge_restore_time": 0,
@@ -60,7 +60,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       },
       {
         "shock_radius": 8

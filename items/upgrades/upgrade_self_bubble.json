@@ -1,6 +1,6 @@
 {
   "name": "Ethereal Shift",
-  "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early.",
+  "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Can be cancelled early.",
   "cost": "3000",
   "tier": "3",
   "activation": "InstantCast",
@@ -17,7 +17,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 30,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           },
@@ -40,12 +40,12 @@
             "is_conditional": false
           }
         },
-        "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early."
+        "description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Can be cancelled early."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 30,
+  "ability_cooldown": 32,
   "ability_duration": 3.5,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

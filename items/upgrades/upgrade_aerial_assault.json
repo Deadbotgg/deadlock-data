@@ -1,7 +1,7 @@
 {
   "name": "Aerial Assault",
   "description": null,
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -17,7 +17,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 25,
+            "value": 26,
             "style": "cooldown",
             "is_negative": false
           }
@@ -48,7 +48,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 25,
+  "ability_cooldown": 26,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

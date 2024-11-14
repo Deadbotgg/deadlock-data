@@ -3,7 +3,7 @@
   "name": "Pulse",
   "stats": {
     "duration": 6,
-    "cooldown": 120,
+    "cooldown": 127,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

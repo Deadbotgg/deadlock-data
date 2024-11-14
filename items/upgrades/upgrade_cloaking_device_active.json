@@ -1,7 +1,7 @@
 {
   "name": "Shadow Weave",
   "description": "Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -89,7 +89,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 45,
+  "ability_cooldown": 48,
   "ability_duration": 25,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

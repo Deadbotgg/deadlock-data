@@ -3,7 +3,7 @@
   "name": "Deep's Embrace",
   "stats": {
     "duration": 8,
-    "cooldown": 27,
+    "cooldown": 29,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

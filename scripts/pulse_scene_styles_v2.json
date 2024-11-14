@@ -580,8 +580,12 @@
   "\".BaseValue .HeaderText\"": {
     "TextClipMode": "unset"
   },
+  "\".BaseValue .HeaderIcon\"": {
+    "Margin_Left": 10
+  },
   "\".ValueWithoutPortLabels .HeaderIcon\"": {
     "Positioning": "INSIDE_PARENT",
+    "Margin_Left": "unset",
     "HAlign": "CENTER",
     "VAlign": "CENTER"
   },
@@ -1320,7 +1324,7 @@
         "Margin_Right": 10
       }
     },
-    "\"&.Outflow_PlayVCD, &.Outflow_ScriptedSequence\"": {
+    "\"&.Outflow_PlayVCD, &.Outflow_PlaySequence, &.Outflow_ScriptedSequence\"": {
       ".SpecialMultipleOutflowsSection": {
         "BorderRadius_BottomRight": 0
       }
@@ -1363,7 +1367,7 @@
     "PaintLayer": "NODES",
     "BackgroundImage": "tools/images/pulse_editor/inflow_wait.png"
   },
-  "\".Outflow_PlayVCD, .Outflow_ScriptedSequence\"": {
+  "\".Outflow_PlayVCD, .Outflow_PlaySequence, .Outflow_ScriptedSequence\"": {
     ".SpecialMultipleOutflowsSection": {
       "BorderRadius_TopRight": 5,
       "Margin_Right": 40

@@ -3,7 +3,7 @@
   "name": "Ice Path",
   "stats": {
     "duration": 8,
-    "cooldown": 36,
+    "cooldown": 38,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -79,7 +79,7 @@
         "name": "Sprint Speed"
       },
       {
-        "ability_cooldown": -16
+        "ability_cooldown": -15
       },
       {
         "bonus_spirit_meter": 1,

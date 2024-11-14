@@ -3,7 +3,7 @@
   "name": "Astral Walk",
   "stats": {
     "duration": 0,
-    "cooldown": 130,
+    "cooldown": 138,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -67,7 +67,7 @@
         "ability_channel_time": 8
       },
       {
-        "ability_cooldown": -50
+        "ability_cooldown": -47
       },
       {
         "damage_per_second_flown": 16,

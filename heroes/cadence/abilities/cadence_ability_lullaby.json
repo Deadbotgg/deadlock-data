@@ -3,7 +3,7 @@
   "name": "Lullaby",
   "stats": {
     "duration": 6,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

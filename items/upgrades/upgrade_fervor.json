@@ -1,7 +1,7 @@
 {
   "name": "Frenzy",
   "description": "",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -86,5 +86,5 @@
   "fervor_movespeed": 4,
   "fervor_fire_rate": 40,
   "fervor_tech_resist": 45,
-  "linger_duration": 4
+  "linger_duration": 6
 }

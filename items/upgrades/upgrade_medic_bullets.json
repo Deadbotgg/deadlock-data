@@ -47,12 +47,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "heal_from_hero": {
-            "value": 35,
+            "value": 40,
             "style": "healing",
             "is_conditional": false
           },
           "heal_from_n_p_c": {
-            "value": 10,
+            "value": 15,
             "style": "healing",
             "is_conditional": false
           }
@@ -62,7 +62,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 6,
+  "ability_cooldown": 6.25,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -78,7 +78,7 @@
   "radius": 1,
   "proc_chance": 100,
   "base_attack_damage_percent": 8,
-  "heal_from_hero": 35,
-  "heal_from_n_p_c": 10,
+  "heal_from_hero": 40,
+  "heal_from_n_p_c": 15,
   "bullet_resist": 7
 }

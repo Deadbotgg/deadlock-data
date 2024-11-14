@@ -3,7 +3,7 @@
   "name": "Anthem",
   "stats": {
     "duration": 8,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

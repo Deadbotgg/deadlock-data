@@ -33,7 +33,7 @@
             "is_negative": false
           },
           "tech_power": {
-            "value": 6,
+            "value": 8,
             "style": null,
             "is_negative": false
           }
@@ -62,7 +62,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 6,
+  "tech_power": 8,
   "weapon_power": 0,
   "non_imbued_tech_range_multiplier": 25,
   "non_imbued_tech_radius_multiplier": 25,

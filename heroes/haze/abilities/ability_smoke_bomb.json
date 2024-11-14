@@ -3,7 +3,7 @@
   "name": "Smoke Bomb",
   "stats": {
     "duration": 8,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -60,7 +60,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
         "invis_move_speed_mod": 6

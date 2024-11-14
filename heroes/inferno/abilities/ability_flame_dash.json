@@ -3,7 +3,7 @@
   "name": "Flame Dash",
   "stats": {
     "duration": 0,
-    "cooldown": 38,
+    "cooldown": 40,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -33,7 +33,7 @@
     "flame_dash_debuff_duration": 0,
     "flame_dash_jump_bonus": 50,
     "fire_rate_slow": 0,
-    "slow_resistance_percent": 30
+    "slow_resistance_percent": 50
   },
   "tooltipDetails": {
     "description": "Move forward at <span class=\"highlight\">high speed</span> and leave a flame trail that <span class=\"highlight\">burns enemies</span>. Infernus gains {s:SlowResistancePercent}% slow resistance for the duration.  <br>Hold [{s:iv_attack}] to dash faster.",
@@ -91,7 +91,7 @@
         "name": "DPS"
       },
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       }
     ]
   }

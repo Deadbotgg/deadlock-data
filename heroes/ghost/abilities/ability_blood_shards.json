@@ -3,7 +3,7 @@
   "name": "Malice",
   "stats": {
     "duration": 0,
-    "cooldown": 6,
+    "cooldown": 6.25,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -44,7 +44,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -3
+        "ability_cooldown": -2.75
       },
       {
         "health_to_damage": 40

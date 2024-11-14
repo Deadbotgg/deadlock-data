@@ -3,7 +3,7 @@
   "name": "Wrecking Ball",
   "stats": {
     "duration": 6,
-    "cooldown": 20,
+    "cooldown": 21,
     "range": 50,
     "charges": 0,
     "charge_restore_time": 0,
@@ -57,7 +57,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -8
+        "ability_cooldown": -7.5
       },
       {
         "wrecking_ball_damage": 80,

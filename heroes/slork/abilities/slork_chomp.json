@@ -3,7 +3,7 @@
   "name": "Chomp",
   "stats": {
     "duration": 2.5,
-    "cooldown": 33,
+    "cooldown": 35,
     "range": 10,
     "charges": 0,
     "charge_restore_time": 0,
@@ -27,7 +27,7 @@
     "hobbled_movement_slow": 15,
     "chomp_heal_percent": 0,
     "damage_percent_health": 4,
-    "cooldown_on_miss": 5,
+    "cooldown_on_miss": 5.25,
     "break_range": 6
   }
 }

@@ -45,7 +45,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "bullet_armor_reduction": {
-            "value": -10,
+            "value": -9,
             "style": "bullet_armor_down",
             "is_conditional": true
           },
@@ -75,7 +75,7 @@
   "weapon_power": 0,
   "bonus_health": 150,
   "radius": 15,
-  "bullet_armor_reduction": -10,
+  "bullet_armor_reduction": -9,
   "fire_rate_slow": 10,
   "single_target_player_multiplier": 3
 }

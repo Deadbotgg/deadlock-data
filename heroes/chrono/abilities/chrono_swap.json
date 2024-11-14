@@ -3,7 +3,7 @@
   "name": "Paradoxical Swap",
   "stats": {
     "duration": 0,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 30,
     "charges": 0,
     "charge_restore_time": 0,
@@ -55,7 +55,7 @@
         "name": "Swap Damage"
       },
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "name": "Soul Disruptor",
   "description": "Throw a grenade that explodes on contact and applies <span class=\"highlight\">silence</span> and <span class=\"highlight\">increasing amounts of damage</span> to each enemy.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "ActivationPress",
   "slot": "Tech",
@@ -17,7 +17,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 30,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           },
@@ -60,7 +60,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 30,
+  "ability_cooldown": 32,
   "ability_duration": 5,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

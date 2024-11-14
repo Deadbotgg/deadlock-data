@@ -3,7 +3,7 @@
   "name": "Arctic Beam",
   "stats": {
     "duration": 0,
-    "cooldown": 23,
+    "cooldown": 24,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -25,7 +25,8 @@
     "path_width": 1.1,
     "camera_distance": 250,
     "min_slow_percent": 30,
-    "max_slow_percent": 80,
+    "max_slow_percent": 70,
+    "max_fire_rate_slow_percent": 40,
     "max_slow_time": 2,
     "ice_beam_buildup_proc_duration": 2,
     "slow_duration": 0.6,
@@ -46,18 +47,25 @@
       },
       {
         "key": "MaxSlowPercent",
-        "value": 80,
+        "value": 70,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
       {
-        "key": "MaxSlowTime",
-        "value": 2,
-        "type": "duration"
+        "key": "MaxFireRateSlowPercent",
+        "value": 40,
+        "type": "bullet_damage",
+        "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+        "m_usage_flags": "APUsageFlag_ModifierConditional"
       }
     ],
     "basicProperties": [
+      {
+        "key": "MaxSlowTime",
+        "value": 2,
+        "type": "duration"
+      },
       {
         "key": "PathLength",
         "value": "25m",
@@ -80,7 +88,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -8
+        "ability_cooldown": -7.5
       },
       {
         "dps": 40

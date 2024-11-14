@@ -3,7 +3,7 @@
   "name": "Exploding Uppercut",
   "stats": {
     "duration": 0,
-    "cooldown": 20,
+    "cooldown": 21,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -64,7 +64,7 @@
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -11
+        "ability_cooldown": -10.5
       },
       {
         "uppercut_buff_on_hit": 12,

@@ -3,7 +3,7 @@
   "name": "Alchemical Flask",
   "stats": {
     "duration": 0,
-    "cooldown": 13,
+    "cooldown": 14,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,11 +18,11 @@
     "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "radius": 7,
+    "radius": 6.5,
     "damage": 55,
     "weapon_power_debuff": -30,
     "fire_rate_slow": 0,
-    "debuff_duration": 7,
+    "debuff_duration": 6,
     "move_speed_slow_pct": 20,
     "forward_velocity": 800,
     "projectile_lifetime": 60,
@@ -58,7 +58,7 @@
     "basicProperties": [
       {
         "key": "DebuffDuration",
-        "value": 7,
+        "value": 6,
         "type": "duration"
       },
       {
@@ -76,7 +76,7 @@
       },
       {
         "fire_rate_slow": 35,
-        "ability_cooldown": -7
+        "ability_cooldown": -6.5
       }
     ]
   }

@@ -44,7 +44,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 28,
+            "value": 30,
             "style": "cooldown",
             "is_negative": false
           },
@@ -62,12 +62,12 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "savior_bullet_shield_health": {
-            "value": 300,
+            "value": 260,
             "style": "bullet_armor_up",
             "is_conditional": false
           },
           "savior_magic_shield_health": {
-            "value": 300,
+            "value": 260,
             "style": "tech_armor_up",
             "is_conditional": false
           },
@@ -82,7 +82,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 28,
+  "ability_cooldown": 30,
   "ability_duration": 0,
   "ability_cast_range": 35,
   "ability_unit_target_limit": 1,
@@ -96,8 +96,8 @@
   "tech_power": 0,
   "weapon_power": 0,
   "buff_duration": 5,
-  "savior_bullet_shield_health": 300,
-  "savior_magic_shield_health": 300,
+  "savior_bullet_shield_health": 260,
+  "savior_magic_shield_health": 260,
   "tech_range_multiplier": 8,
   "tech_radius_multiplier": 8,
   "bonus_move_speed": 2,

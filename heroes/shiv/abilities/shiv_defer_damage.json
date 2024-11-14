@@ -3,7 +3,7 @@
   "name": "Bloodletting",
   "stats": {
     "duration": 0,
-    "cooldown": 20,
+    "cooldown": 21,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -20,11 +20,11 @@
     "weapon_power": 0,
     "damage_pct_deferred": 30,
     "deferred_damage_duration": 10,
-    "defer_clear_pct": 50,
+    "defer_clear_pct": 40,
     "damage_pct_deferred_max_rage": 15
   },
   "tooltipDetails": {
-    "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred in increased.",
+    "description": "Ultimate Unlock: <span class=\"highlight\">While rage is full</span> the amount of damage deferred is increased.",
     "properties": [
       {
         "key": "DamagePctDeferredMaxRage",
@@ -38,7 +38,7 @@
         "name": "Deferred Damage Duration"
       },
       {
-        "ability_cooldown": -5
+        "ability_cooldown": -4.75
       },
       {
         "defer_clear_pct": 25,

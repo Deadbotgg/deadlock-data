@@ -34,6 +34,11 @@
             "value": 25,
             "style": null,
             "is_negative": false
+          },
+          "base_attack_damage_percent": {
+            "value": 12,
+            "style": "bullet_damage",
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -58,5 +63,6 @@
   "weapon_power": 0,
   "cooldown_between_charge_reduction": 55,
   "bonus_ability_charges": 2,
-  "cooldown_reduction_on_charged_abilities": 25
+  "cooldown_reduction_on_charged_abilities": 25,
+  "base_attack_damage_percent": 12
 }

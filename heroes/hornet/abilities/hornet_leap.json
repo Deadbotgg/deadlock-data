@@ -3,7 +3,7 @@
   "name": "Flight",
   "stats": {
     "duration": 8,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -24,7 +24,6 @@
     "jump_velocity": 1000,
     "air_speed_bonus": 0,
     "air_side_move_speed_percentage": -35,
-    "air_drag": 2,
     "min_velocity_z": -20,
     "weapon_recoil_reduction": 40,
     "magic_damage_per_bullet": 10,
@@ -50,7 +49,7 @@
         "bonus_clip_size_percent": 50
       },
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
         "magic_damage_per_bullet": 12,

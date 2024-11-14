@@ -3,7 +3,7 @@
   "name": "Seismic Impact",
   "stats": {
     "duration": 0,
-    "cooldown": 150,
+    "cooldown": 159,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -55,7 +55,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -40
+        "ability_cooldown": -38
       },
       {
         "bonus_max_health_per_hero": 100,

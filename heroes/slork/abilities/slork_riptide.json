@@ -3,7 +3,7 @@
   "name": "Riptide",
   "stats": {
     "duration": 3,
-    "cooldown": 24,
+    "cooldown": 25,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

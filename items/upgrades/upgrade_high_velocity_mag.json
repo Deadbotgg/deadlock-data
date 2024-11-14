@@ -28,7 +28,7 @@
             "is_negative": false
           },
           "base_attack_damage_percent": {
-            "value": 14,
+            "value": 12,
             "style": "bullet_damage",
             "is_negative": false
           },
@@ -59,6 +59,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "bonus_bullet_speed_percent": 30,
-  "base_attack_damage_percent": 14,
+  "base_attack_damage_percent": 12,
   "bullet_shield_max_health": 50
 }

@@ -1,7 +1,7 @@
 {
   "name": "Soul Rebirth",
   "description": "",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -15,13 +15,8 @@
       {
         "ability_properties": {
           "cooldown_reduction": {
-            "value": 18,
+            "value": 15,
             "style": "cooldown",
-            "is_negative": false
-          },
-          "base_attack_damage_percent": {
-            "value": 20,
-            "style": "bullet_damage",
             "is_negative": false
           },
           "tech_power": {
@@ -39,7 +34,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 200,
+            "value": 212,
             "style": "cooldown",
             "is_negative": false
           }
@@ -57,7 +52,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 200,
+  "ability_cooldown": 212,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -72,6 +67,5 @@
   "weapon_power": 0,
   "respawn_delay": 4,
   "respawn_health_percent": 50,
-  "cooldown_reduction": 18,
-  "base_attack_damage_percent": 20
+  "cooldown_reduction": 15
 }

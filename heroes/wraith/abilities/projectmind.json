@@ -3,7 +3,7 @@
   "name": "Project Mind",
   "stats": {
     "duration": 0,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 25,
     "charges": 0,
     "charge_restore_time": 0,

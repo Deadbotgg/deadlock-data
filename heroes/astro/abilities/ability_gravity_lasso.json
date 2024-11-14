@@ -3,7 +3,7 @@
   "name": "Spirit Lasso",
   "stats": {
     "duration": 2.5,
-    "cooldown": 150,
+    "cooldown": 159,
     "range": 10,
     "charges": 0,
     "charge_restore_time": 0,
@@ -47,7 +47,7 @@
         "ability_duration": 0.6
       },
       {
-        "ability_cooldown": -60
+        "ability_cooldown": -56
       },
       {
         "grab_extra_targets": 1,

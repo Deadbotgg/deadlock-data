@@ -3,7 +3,7 @@
   "name": "Affliction",
   "stats": {
     "duration": 0,
-    "cooldown": 120,
+    "cooldown": 127,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -47,7 +47,7 @@
     "basicProperties": [],
     "upgrades": [
       {
-        "ability_cooldown": -30
+        "ability_cooldown": -28
       },
       {
         "heal_amp_receive_penalty_percent": -60,

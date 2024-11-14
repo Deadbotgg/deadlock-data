@@ -3,7 +3,7 @@
   "name": "Rain of Arrows",
   "stats": {
     "duration": 7,
-    "cooldown": 33,
+    "cooldown": 35,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -22,7 +22,7 @@
     "jump_speed": 27.5,
     "slow_percent": 0,
     "slow_duration": 0,
-    "weapon_damage_bonus": 7,
+    "weapon_damage_bonus": 4,
     "fire_rate_bonus": 0,
     "bullet_lifesteal_percent": 0,
     "fall_speed_max": 30,
@@ -38,11 +38,11 @@
       {
         "key": "BulletSplitShot",
         "value": 5,
-        "type": "fireRate"
+        "type": "fire_rate"
       },
       {
         "key": "WeaponDamageBonus",
-        "value": 7,
+        "value": 4,
         "type": "bullet_damage",
         "m_e_provided_property_type": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -78,10 +78,10 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
-        "weapon_damage_bonus": 7,
+        "weapon_damage_bonus": 5,
         "slow_percent": 40,
         "slow_duration": 1.5
       },

@@ -24,7 +24,7 @@
     "base_health_regen": 1.5,
     "stamina_regen_per_second": 0.2,
     "stamina_cooldown": 5,
-    "crit_damage_received_scale": -25,
+    "crit_damage_received_scale": -35,
     "tech_range": 0,
     "tech_duration": 0
   },
@@ -33,7 +33,7 @@
     "modifier_value_base_melee_damage_from_level": 3.4,
     "modifier_value_base_health_from_level": 31,
     "modifier_value_tech_damage_percent": 0,
-    "modifier_value_bullet_armor_damage_resist": 1
+    "modifier_value_bullet_armor_damage_resist": 0
   },
   "collision": {
     "radius": 20,

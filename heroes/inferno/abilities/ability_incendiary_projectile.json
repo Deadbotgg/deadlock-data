@@ -3,7 +3,7 @@
   "name": "Catalyst",
   "stats": {
     "duration": 0,
-    "cooldown": 24,
+    "cooldown": 25,
     "range": 20,
     "charges": 1,
     "charge_restore_time": 6,

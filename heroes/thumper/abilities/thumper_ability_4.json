@@ -3,7 +3,7 @@
   "name": "Vortex",
   "stats": {
     "duration": 4,
-    "cooldown": 10,
+    "cooldown": 10.5,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

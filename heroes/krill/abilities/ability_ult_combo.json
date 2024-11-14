@@ -3,7 +3,7 @@
   "name": "Combo",
   "stats": {
     "duration": 0,
-    "cooldown": 90,
+    "cooldown": 95,
     "range": 5,
     "charges": 0,
     "charge_restore_time": 0,
@@ -50,10 +50,10 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -30
+        "ability_cooldown": -28
       },
       {
-        "ability_channel_time": 1
+        "ability_channel_time": 0.75
       },
       {
         "dps": 40,

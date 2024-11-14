@@ -3,7 +3,7 @@
   "name": "Sand Blast",
   "stats": {
     "duration": 3.5,
-    "cooldown": 40,
+    "cooldown": 42,
     "range": 30,
     "charges": 0,
     "charge_restore_time": 0,
@@ -48,7 +48,7 @@
         "ability_duration": 1.5
       },
       {
-        "ability_cooldown": -20
+        "ability_cooldown": -19
       },
       {
         "slow_percent": 50

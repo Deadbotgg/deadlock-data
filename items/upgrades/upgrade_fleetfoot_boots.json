@@ -18,7 +18,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 75,
+            "value": 90,
             "style": "health",
             "is_negative": false
           },
@@ -50,7 +50,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 22,
+            "value": 19,
             "style": "cooldown",
             "is_negative": false
           }
@@ -58,7 +58,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "active_bonus_move_speed": {
-            "value": 4,
+            "value": 3,
             "style": "move_speed",
             "is_conditional": true
           },
@@ -73,7 +73,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 22,
+  "ability_cooldown": 19,
   "ability_duration": 4,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -88,9 +88,9 @@
   "weapon_power": 0,
   "move_while_shooting_speed_penalty_reduction_percent": 100,
   "move_while_zoomed_speed_penalty_reduction_percent": 100,
-  "active_bonus_move_speed": 4,
+  "active_bonus_move_speed": 3,
   "bonus_clip_size_percent": 30,
   "bonus_clip_duration": 10,
-  "bonus_health": 75,
+  "bonus_health": 90,
   "slide_scale": 25
 }

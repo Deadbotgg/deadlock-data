@@ -3,7 +3,7 @@
   "name": "The Cube",
   "stats": {
     "duration": 4,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 30,
     "charges": 0,
     "charge_restore_time": 0,
@@ -78,7 +78,7 @@
         "post_cube_buff": 1
       },
       {
-        "ability_cooldown": -22
+        "ability_cooldown": -21
       },
       {
         "bonus_health_regen": 60

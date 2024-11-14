@@ -12,7 +12,7 @@
   "shop_filters": null,
   "tooltip": {},
   "disabled": true,
-  "ability_cooldown": 10,
+  "ability_cooldown": 10.5,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

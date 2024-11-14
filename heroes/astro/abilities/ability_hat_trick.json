@@ -3,7 +3,7 @@
   "name": "Hat Trick",
   "stats": {
     "duration": 0,
-    "cooldown": 20,
+    "cooldown": 21,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -53,7 +53,7 @@
         "damage": 50
       },
       {
-        "ability_cooldown": -10
+        "ability_cooldown": -9.5
       },
       {
         "slow_percent": 30

@@ -3,7 +3,7 @@
   "name": "Death Slam",
   "stats": {
     "duration": 0,
-    "cooldown": 130,
+    "cooldown": 138,
     "range": 18,
     "charges": 0,
     "charge_restore_time": 0,
@@ -91,7 +91,7 @@
         "name": "Damage"
       },
       {
-        "ability_cooldown": -60
+        "ability_cooldown": -56
       }
     ]
   }

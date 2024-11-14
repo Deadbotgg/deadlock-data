@@ -1,7 +1,7 @@
 {
   "name": "Ablative Coat",
   "description": "Provides <span class=\"highlight\">Bullet Resist</span> but you lose some each time you take Weapon Damage. Loss can only happen once every {s:StackLossFrequency}s. Bullet Resist is restored when out of combat.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "Passive",
   "slot": "Armor",
@@ -20,7 +20,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 20,
+            "value": 21,
             "style": "cooldown",
             "is_negative": false
           }
@@ -57,7 +57,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 20,
+  "ability_cooldown": 21,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

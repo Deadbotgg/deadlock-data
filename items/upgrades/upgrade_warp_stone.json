@@ -42,7 +42,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 15,
+            "value": 16,
             "style": "cooldown",
             "is_negative": false
           }
@@ -50,7 +50,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "ability_cast_range": {
-            "value": 13,
+            "value": 11,
             "style": "range",
             "is_conditional": false
           },
@@ -65,9 +65,9 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 15,
+  "ability_cooldown": 16,
   "ability_duration": 0,
-  "ability_cast_range": 13,
+  "ability_cast_range": 11,
   "ability_unit_target_limit": 1,
   "ability_cast_delay": 0,
   "ability_channel_time": 0,

@@ -204,7 +204,7 @@
   },
   "spirit_scaling": {},
   "weapon_stats": {
-    "bullet_damage": 14,
+    "bullet_damage": 13,
     "rounds_per_second": 5,
     "clip_size": 20,
     "reload_time": 2.5,
@@ -221,8 +221,8 @@
     "bullets_per_shot": 1,
     "bullets_per_burst": 1,
     "burst_inter_shot_interval": 0,
-    "dps": 70,
-    "sustained_dps": 43.07692307692308,
+    "dps": 65,
+    "sustained_dps": 40,
     "weapon_name": "citadel_weapon_viscous_set",
     "weapon_description": "citadel_weapon_hero_viscous_set",
     "weapon_types": [

@@ -59,7 +59,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 60,
+  "ability_cooldown": 64,
   "ability_duration": 20,
   "ability_cast_range": 15,
   "ability_unit_target_limit": 1,

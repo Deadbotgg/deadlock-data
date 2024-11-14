@@ -1,0 +1,68 @@
+{
+  "key": "mirage_djinn_bomb",
+  "name": "Djinn Bomb",
+  "stats": {
+    "duration": 0,
+    "cooldown": 74,
+    "range": 0,
+    "charges": 0,
+    "charge_restore_time": 0,
+    "channel_duration": 0,
+    "resource_cost": 0,
+    "cast_range": 0,
+    "unit_target_limit": 1,
+    "cast_delay": 0.5,
+    "channel_time": 0,
+    "post_cast_duration": 0,
+    "cooldown_between_charge": 0,
+    "channel_move_speed": 50,
+    "tech_power": 0,
+    "weapon_power": 0,
+    "radius": 11,
+    "boss_damage_percent": 50,
+    "max_projectile_lifetime": 8,
+    "damage": 225,
+    "bomb_bonus_damage_per_hero": 60
+  },
+  "tooltipDetails": {
+    "description": "Launch a slow projectile that you can activate anywhere along its path to detonate it, dealing damage to enemies caught in its radius. Deals bonus damage for each additional hero hit.",
+    "properties": [
+      {
+        "key": "Damage",
+        "value": 225,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 2.25,
+          "type": "spirit"
+        }
+      },
+      {
+        "key": "BombBonusDamagePerHero",
+        "value": 60,
+        "type": "tech_damage",
+        "scale_function": {
+          "value": 0.6,
+          "type": "spirit"
+        }
+      }
+    ],
+    "basicProperties": [
+      {
+        "key": "MaxProjectileLifetime",
+        "value": 8
+      }
+    ],
+    "upgrades": [
+      {
+        "ability_cooldown": -28
+      },
+      {
+        "bomb_bonus_damage_per_hero": 40,
+        "name": "Bonus Damage Per Hero"
+      },
+      {
+        "damage": 150
+      }
+    ]
+  }
+}

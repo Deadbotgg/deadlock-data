@@ -3,7 +3,7 @@
   "name": "Kudzu Bomb",
   "stats": {
     "duration": 4,
-    "cooldown": 30,
+    "cooldown": 32,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 8,

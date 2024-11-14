@@ -3,7 +3,7 @@
   "name": "Goo Ball",
   "stats": {
     "duration": 10,
-    "cooldown": 90,
+    "cooldown": 95,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

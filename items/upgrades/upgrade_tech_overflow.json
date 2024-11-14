@@ -1,7 +1,7 @@
 {
   "name": "Spiritual Overflow",
   "description": "Gain bonus <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",

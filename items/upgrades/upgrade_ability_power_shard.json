@@ -1,7 +1,7 @@
 {
   "name": "Echo Shard",
   "description": "",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Tech",
@@ -28,7 +28,7 @@
             "is_negative": false
           },
           "tech_power": {
-            "value": 8,
+            "value": 12,
             "style": null,
             "is_negative": false
           }
@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 20,
+            "value": 21,
             "style": "cooldown",
             "is_negative": false
           }
@@ -54,7 +54,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 20,
+  "ability_cooldown": 21,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -65,7 +65,7 @@
   "ability_cooldown_between_charge": 0,
   "channel_move_speed": 50,
   "ability_resource_cost": 0,
-  "tech_power": 8,
+  "tech_power": 12,
   "weapon_power": 0,
   "bonus_move_speed": 1,
   "bullet_resist": 16

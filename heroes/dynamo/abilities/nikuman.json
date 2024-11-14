@@ -3,7 +3,7 @@
   "name": "Rejuvenating Aurora",
   "stats": {
     "duration": 0,
-    "cooldown": 45,
+    "cooldown": 48,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -26,7 +26,7 @@
     "movement_speed_bonus_duration": 0
   },
   "tooltipDetails": {
-    "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby.",
+    "description": "While channelling, <span class=\"highlight\">restore health over time</span> to you and any allies nearby. Dashing does not break channel.",
     "properties": [
       {
         "key": "HealingPerSecond",
@@ -58,12 +58,12 @@
         "movement_speed_bonus_duration": 8
       },
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
         "no_channel": 1,
         "name": "Max Health Restored",
-        "heal_max_health_percent": 4
+        "heal_max_health_percent": 3.8
       }
     ]
   }

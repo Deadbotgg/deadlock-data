@@ -3,7 +3,7 @@
   "name": "Time Wall",
   "stats": {
     "duration": 7,
-    "cooldown": 35,
+    "cooldown": 37,
     "range": 200,
     "charges": 1,
     "charge_restore_time": 8,

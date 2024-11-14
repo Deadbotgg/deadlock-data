@@ -3,7 +3,7 @@
   "name": "Storm Cloud",
   "stats": {
     "duration": 0,
-    "cooldown": 180,
+    "cooldown": 148,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -18,9 +18,9 @@
     "channel_move_speed": 0,
     "tech_power": 0,
     "weapon_power": 0,
-    "radius": 30,
+    "radius": 25,
     "initial_radius": 12,
-    "dps": 124,
+    "dps": 110,
     "boss_damage_percent": 25,
     "damage_interval": 0.25,
     "expand_time": 3,
@@ -34,7 +34,7 @@
     "properties": [
       {
         "key": "DPS",
-        "value": 124,
+        "value": 110,
         "type": "tech_damage",
         "scale_function": {
           "value": 0.7,

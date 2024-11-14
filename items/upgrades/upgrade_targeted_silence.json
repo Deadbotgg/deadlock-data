@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "tech_shield_max_health": {
-            "value": 200,
+            "value": 150,
             "style": "tech_armor_up",
             "is_negative": false
           },
@@ -49,7 +49,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 30,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           }
@@ -67,7 +67,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 30,
+  "ability_cooldown": 32,
   "ability_duration": 3,
   "ability_cast_range": 25,
   "ability_unit_target_limit": 1,
@@ -81,6 +81,6 @@
   "tech_power": 0,
   "weapon_power": 0,
   "damage": 100,
-  "tech_shield_max_health": 200,
+  "tech_shield_max_health": 150,
   "bonus_sprint_speed": 1
 }

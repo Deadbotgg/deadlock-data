@@ -3,7 +3,7 @@
   "name": "Singularity",
   "stats": {
     "duration": 0,
-    "cooldown": 180,
+    "cooldown": 191,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

@@ -1,7 +1,7 @@
 {
   "name": "Tech Defender",
   "description": null,
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -15,7 +15,7 @@
       {
         "ability_properties": {
           "ability_cooldown": {
-            "value": 90,
+            "value": 95,
             "style": "cooldown",
             "is_negative": false
           },
@@ -51,7 +51,7 @@
     ]
   },
   "disabled": true,
-  "ability_cooldown": 90,
+  "ability_cooldown": 95,
   "ability_duration": 6,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,

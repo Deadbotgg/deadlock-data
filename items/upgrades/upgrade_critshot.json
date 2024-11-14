@@ -1,7 +1,7 @@
 {
   "name": "Lucky Shot",
   "description": "Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">Slow</span> on hit.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "Passive",
   "slot": "Weapon",
@@ -47,7 +47,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "crit_damage_percent": {
-            "value": 80,
+            "value": 90,
             "style": null,
             "is_conditional": false
           },
@@ -79,6 +79,6 @@
   "proc_chance": 35,
   "slow_percent": 30,
   "slow_duration": 1.5,
-  "crit_damage_percent": 80,
+  "crit_damage_percent": 90,
   "bonus_clip_size_percent": 30
 }

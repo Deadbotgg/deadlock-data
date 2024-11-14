@@ -3,7 +3,7 @@
   "name": "Scorn",
   "stats": {
     "duration": 0,
-    "cooldown": 12,
+    "cooldown": 12.5,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -55,7 +55,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -4
+        "ability_cooldown": -3.75
       },
       {
         "damage": 25

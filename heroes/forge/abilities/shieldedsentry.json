@@ -3,7 +3,7 @@
   "name": "Mini Turret",
   "stats": {
     "duration": 0,
-    "cooldown": 28,
+    "cooldown": 30,
     "range": 15,
     "charges": 1,
     "charge_restore_time": 5,

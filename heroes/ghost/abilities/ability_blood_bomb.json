@@ -3,7 +3,7 @@
   "name": "Essence Bomb",
   "stats": {
     "duration": 0,
-    "cooldown": 10,
+    "cooldown": 10.5,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -51,7 +51,7 @@
         "damage": 60
       },
       {
-        "blood_spill_dps_percent": 22,
+        "blood_spill_dps_percent": 26,
         "name": "Toxic Mess Duration",
         "blood_spill_duration": 6
       }

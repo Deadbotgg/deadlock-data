@@ -1,40 +1,44 @@
 {
   "key": "ability_nano_pounce",
-  "name": "Siamese Strike",
+  "name": "Pounce",
   "stats": {
     "duration": 0,
-    "cooldown": 25,
-    "range": 16,
-    "charges": 0,
-    "charge_restore_time": 0,
+    "cooldown": 32,
+    "range": 14,
+    "charges": 1,
+    "charge_restore_time": 10,
     "channel_duration": 0,
     "resource_cost": 0,
-    "cast_range": 16,
+    "cast_range": 14,
     "unit_target_limit": 1,
     "cast_delay": 0.2,
     "channel_time": 0,
-    "post_cast_duration": 0,
-    "cooldown_between_charge": 0,
-    "channel_move_speed": -1,
+    "post_cast_duration": 0.25,
+    "cooldown_between_charge": 10,
+    "channel_move_speed": 50,
     "tech_power": 0,
     "weapon_power": 0,
-    "explosion_damage": 60,
+    "friendly_target_cd": 16,
+    "friendly_recharge_time": 3,
+    "move_speed_to_target": 25,
+    "min_time_to_target": 0.5,
+    "jump_height": 3,
+    "slash_range": 3,
+    "camera_distance": 250,
+    "damage": 60,
     "instant_reload": 0,
-    "slow_percent": 20,
-    "slow_duration": 3,
+    "slow_duration": 2,
+    "slow_percent": 30,
+    "fire_rate_slow": 0,
     "explode_radius": 4,
     "debuff_duration": 0,
-    "damage_amplification": 0,
-    "active_reload_percent": 0,
-    "friendly_target_cd": 12,
-    "friendly_recharge_time": 3,
-    "double_pounce": 0
+    "active_reload_percent": 0
   },
   "tooltipDetails": {
-    "description": "<span class=\"highlight\">Leap</span> at a target.  Targetting an enemy will cause <span class=\"highlight\">damage</span> and <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
+    "description": "<span class=\"highlight\">Leap</span> at a target to inflict <span class=\"highlight\">Light Melee damage.</span>  Targetting an enemy will cause <span class=\"highlight\">slow</span> on nearby enemies.  Targeting an ally will have reduced Cooldown and Recharge times.",
     "properties": [
       {
-        "key": "ExplosionDamage",
+        "key": "Damage",
         "value": 60,
         "type": "tech_damage",
         "scale_function": {
@@ -44,7 +48,7 @@
       },
       {
         "key": "ExplodeRadius",
-        "loc_token_override": "WarpExplodeRadius",
+        "loc_token_override": "PounceDebuffRadius",
         "value": "4m",
         "type": "distance",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -52,37 +56,43 @@
     ],
     "basicProperties": [
       {
+        "key": "FriendlyTargetCD",
+        "loc_token_override": "PounceFriendlyTargetCD",
+        "type": "cooldown",
+        "value": 16
+      },
+      {
+        "key": "FriendlyRechargeTime",
+        "loc_token_override": "PounceFriendlyRechargeTime",
+        "value": 3,
+        "type": "charge_cooldown"
+      },
+      {
         "key": "SlowPercent",
-        "value": 20,
+        "value": 30,
         "type": "slow",
         "m_usage_flags": "APUsageFlag_ModifierConditional",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
       },
       {
         "key": "SlowDuration",
-        "value": 3,
+        "value": 2,
         "type": "duration",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
-      },
-      {
-        "key": "DebuffDuration",
-        "value": 0,
-        "type": "duration"
       }
     ],
     "upgrades": [
       {
-        "slow_percent": 20
+        "slow_duration": 1
       },
       {
-        "double_pounce": 4,
-        "ability_cast_range": 8
+        "fire_rate_slow": 30,
+        "name": "Explosion Radius",
+        "explode_radius": 6
       },
       {
-        "explode_radius": 6,
-        "name": "Damage Amplification",
-        "debuff_duration": 8,
-        "damage_amplification": 35
+        "ability_charges": 1,
+        "active_reload_percent": 25
       }
     ]
   }

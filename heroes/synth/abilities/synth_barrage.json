@@ -3,7 +3,7 @@
   "name": "Barrage",
   "stats": {
     "duration": 0,
-    "cooldown": 30,
+    "cooldown": 32,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -25,9 +25,9 @@
     "air_speed_max": 100,
     "air_drag": 0.3,
     "radius": 6.5,
-    "move_slow_percent": 40,
+    "move_slow_percent": 30,
     "slow_duration": 1.5,
-    "amp_percent_per_stack": 7,
+    "amp_percent_per_stack": 6,
     "amp_duration": 15,
     "life_steal_percent_on_hit": 0,
     "life_steal_percent_on_hit_non_hero": 0
@@ -37,7 +37,7 @@
     "properties": [
       {
         "key": "AmpPercentPerStack",
-        "value": 7
+        "value": 6
       },
       {
         "key": "DamagePerProjectile",
@@ -50,7 +50,7 @@
       },
       {
         "key": "MoveSlowPercent",
-        "value": 40,
+        "value": 30,
         "type": "slow",
         "m_e_provided_property_type": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -78,7 +78,7 @@
         "name": "Damage Per Projectile"
       },
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
         "amp_percent_per_stack": 5,

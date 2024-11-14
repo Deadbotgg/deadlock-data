@@ -3,7 +3,7 @@
   "name": "Frozen Shelter",
   "stats": {
     "duration": 5.5,
-    "cooldown": 120,
+    "cooldown": 127,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -67,7 +67,7 @@
         "fire_rate_slow": 40
       },
       {
-        "ability_cooldown": -40
+        "ability_cooldown": -38
       },
       {
         "bonus_health_regen": 1.638

@@ -75,7 +75,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 30,
+            "value": 32,
             "style": "cooldown",
             "is_negative": false
           }
@@ -83,7 +83,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "active_bonus_move_speed": {
-            "value": 3,
+            "value": 2,
             "style": "move_speed",
             "is_conditional": true
           },
@@ -98,7 +98,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 30,
+  "ability_cooldown": 32,
   "ability_duration": 6,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -116,7 +116,7 @@
   "bonus_fire_rate_player_unit": 40,
   "radius": 20,
   "active_radius": 30,
-  "active_bonus_move_speed": 3,
+  "active_bonus_move_speed": 2,
   "bonus_health": 150,
   "bonus_move_speed": 1
 }

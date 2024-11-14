@@ -39,7 +39,7 @@
             "is_negative": false
           },
           "bullet_shield_max_health": {
-            "value": 175,
+            "value": 200,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -89,5 +89,5 @@
   "bonus_attack_range_percent": 15,
   "bonus_zoom_percent": 35,
   "bonus_clip_size_percent": 20,
-  "bullet_shield_max_health": 175
+  "bullet_shield_max_health": 200
 }

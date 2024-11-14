@@ -3,7 +3,7 @@
   "name": "Tornado",
   "stats": {
     "duration": 2,
-    "cooldown": 30,
+    "cooldown": 32,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -15,11 +15,11 @@
     "channel_time": 0,
     "post_cast_duration": 0,
     "cooldown_between_charge": 0,
-    "channel_move_speed": 50,
+    "channel_move_speed": 20,
     "tech_power": 0,
     "weapon_power": 0,
     "radius": 3.5,
-    "open_height": 3,
+    "open_height": 8,
     "damage": 60,
     "tick_rate": 0.25,
     "distance_above_ground": 2,
@@ -32,12 +32,13 @@
     "lift_height": 3,
     "damping_factor": 0.3,
     "max_delta_movement_control": 2,
-    "move_slow_percent": 0,
-    "move_slow_duration": 0,
-    "boss_damage_percent": 50
+    "hold_in_place_duration": 1.25,
+    "boss_damage_percent": 50,
+    "target_bullet_evasion_chance": 100,
+    "tech_armor_damage_reduction": 0
   },
   "tooltipDetails": {
-    "description": "Send out a tornado that <span class=\"highlight\">damages enemies</span> and <span class=\"highlight\">lifts them up in the air</span>.",
+    "description": "Send out a tornado that <span class=\"highlight\">damages enemies</span> and <span class=\"highlight\">lifts them up in the air</span>. While they're up in the air, targets <span class=\"highlight\">will fully evade all bullets</span>.",
     "properties": [
       {
         "key": "Damage",
@@ -49,9 +50,8 @@
         }
       },
       {
-        "key": "EnemyLiftDuration",
-        "value": 0.6,
-        "m_e_scale_type": "ETechDuration",
+        "key": "HoldInPlaceDuration",
+        "value": 1.25,
         "type": "duration"
       }
     ],
@@ -64,15 +64,14 @@
     ],
     "upgrades": [
       {
-        "move_slow_percent": 30,
-        "name": "Movement Slow Duration",
-        "move_slow_duration": 3
+        "hold_in_place_duration": 0.75,
+        "name": "Lift Duration"
       },
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
-        "damage": 120
+        "tech_armor_damage_reduction": -15
       }
     ]
   }

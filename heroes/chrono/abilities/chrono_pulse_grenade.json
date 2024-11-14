@@ -3,7 +3,7 @@
   "name": "Pulse Grenade",
   "stats": {
     "duration": 4,
-    "cooldown": 26,
+    "cooldown": 28,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -82,7 +82,7 @@
         "name": "Pulses"
       },
       {
-        "ability_cooldown": -8
+        "ability_cooldown": -7.5
       },
       {
         "pulse_damage": 45,

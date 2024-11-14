@@ -3,7 +3,7 @@
   "name": "Kinetic Pulse",
   "stats": {
     "duration": 0,
-    "cooldown": 25,
+    "cooldown": 26,
     "range": 0,
     "charges": 1,
     "charge_restore_time": 5,
@@ -66,7 +66,7 @@
     "upgrades": [
       {
         "fire_rate_slow": 25,
-        "slow_percent": 40,
+        "slow_percent": 35,
         "slow_duration": 4
       },
       {

@@ -20,7 +20,7 @@
       {
         "ability_properties": {
           "bonus_health": {
-            "value": 125,
+            "value": 140,
             "style": "health",
             "is_negative": false
           },
@@ -62,7 +62,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 1.5,
+  "ability_cooldown": 1.75,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -75,7 +75,7 @@
   "ability_resource_cost": 0,
   "tech_power": 6,
   "weapon_power": 0,
-  "bonus_health": 125,
+  "bonus_health": 140,
   "damage_pulse_amount": 40,
   "damage_pulse_radius": 9
 }

@@ -3,7 +3,7 @@
   "name": "Consume",
   "stats": {
     "duration": 0,
-    "cooldown": 12,
+    "cooldown": 12.5,
     "range": 10,
     "charges": 0,
     "charge_restore_time": 0,

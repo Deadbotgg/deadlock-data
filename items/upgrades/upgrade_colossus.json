@@ -1,7 +1,7 @@
 {
   "name": "Colossus",
   "description": "Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow the movement and dash speed</span> of enemies nearby. Your model size grows by 20%.",
-  "cost": "6300",
+  "cost": "6200",
   "tier": "4",
   "activation": "InstantCast",
   "slot": "Armor",
@@ -42,7 +42,7 @@
       {
         "ability_properties": {
           "radius": {
-            "value": 10,
+            "value": 12,
             "style": "distance",
             "is_negative": false
           },
@@ -52,7 +52,7 @@
             "is_negative": false
           },
           "ability_cooldown": {
-            "value": 45,
+            "value": 37,
             "style": "cooldown",
             "is_negative": false
           }
@@ -80,7 +80,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 45,
+  "ability_cooldown": 37,
   "ability_duration": 7,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -100,6 +100,6 @@
   "tech_resist": 40,
   "slow_percent": 35,
   "ground_dash_reduction_percent": -25,
-  "radius": 10,
+  "radius": 12,
   "model_scale_growth": 1.2
 }

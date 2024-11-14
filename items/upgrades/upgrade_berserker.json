@@ -24,7 +24,7 @@
             "is_negative": false
           },
           "bullet_resist": {
-            "value": 8,
+            "value": 7,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -84,5 +84,5 @@
   "weapon_power_per_stack": 5,
   "max_stacks": 10,
   "bonus_clip_size": 4,
-  "bullet_resist": 8
+  "bullet_resist": 7
 }

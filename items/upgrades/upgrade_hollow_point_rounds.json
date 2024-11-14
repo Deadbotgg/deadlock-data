@@ -41,7 +41,7 @@
         "elevated_ability_properties": {},
         "important_ability_properties": {
           "base_attack_damage_percent": {
-            "value": 20,
+            "value": 22,
             "style": "bullet_damage",
             "is_conditional": true
           }
@@ -65,6 +65,6 @@
   "tech_power": 4,
   "weapon_power": 0,
   "life_threshold": 60,
-  "base_attack_damage_percent": 20,
+  "base_attack_damage_percent": 22,
   "tech_shield_max_health": 85
 }

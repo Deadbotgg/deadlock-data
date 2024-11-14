@@ -34,7 +34,7 @@
             "is_negative": false
           },
           "bullet_resist": {
-            "value": 15,
+            "value": 18,
             "style": "bullet_armor_up",
             "is_negative": false
           }
@@ -61,5 +61,5 @@
   "weapon_power": 0,
   "bonus_clip_size_percent": 100,
   "base_attack_damage_percent": 18,
-  "bullet_resist": 15
+  "bullet_resist": 18
 }

@@ -1,6 +1,6 @@
 {
   "name": "Melee Charge",
-  "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>.",
+  "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and <span class=\"highlight\">reloads your weapon instantly</span>.",
   "cost": "1250",
   "tier": "2",
   "activation": "Passive",
@@ -35,6 +35,11 @@
             "value": 1,
             "style": "healing",
             "is_negative": false
+          },
+          "melee_distance_scale": {
+            "value": 40,
+            "style": null,
+            "is_negative": false
           }
         },
         "elevated_ability_properties": {},
@@ -44,15 +49,27 @@
     ],
     "Passive": [
       {
-        "ability_properties": {},
+        "ability_properties": {
+          "ability_cooldown": {
+            "value": 8,
+            "style": "cooldown",
+            "is_negative": false
+          }
+        },
         "elevated_ability_properties": {},
-        "important_ability_properties": {},
-        "description": "Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>."
+        "important_ability_properties": {
+          "bonus_heavy_melee_damage": {
+            "value": 20,
+            "style": "melee_damage",
+            "is_conditional": false
+          }
+        },
+        "description": "Your next <span class=\"highlight\">Heavy Melee</span> attack against an enemy <span class=\"highlight\">deals increased damage</span> and <span class=\"highlight\">reloads your weapon instantly</span>."
       }
     ]
   },
   "disabled": false,
-  "ability_cooldown": 0,
+  "ability_cooldown": 8.5,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -68,5 +85,6 @@
   "base_attack_damage_percent": 15,
   "bonus_health": 100,
   "melee_distance_scale": 40,
-  "bonus_health_regen": 1
+  "bonus_health_regen": 1,
+  "bonus_heavy_melee_damage": 20
 }

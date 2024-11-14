@@ -3,7 +3,7 @@
   "name": "Spike Strip",
   "stats": {
     "duration": 6,
-    "cooldown": 25,
+    "cooldown": 26,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,

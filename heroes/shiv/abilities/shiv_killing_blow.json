@@ -3,7 +3,7 @@
   "name": "Killing Blow",
   "stats": {
     "duration": 0,
-    "cooldown": 90,
+    "cooldown": 95,
     "range": 20,
     "charges": 0,
     "charge_restore_time": 0,
@@ -26,7 +26,7 @@
     "bonus_resource": 10,
     "non_player_rage_scale": 0.2,
     "bonus_move_speed": 0,
-    "buff_damage": 25,
+    "buff_damage": 20,
     "rage_drain_delay_duration": 7,
     "damage": 200,
     "enemy_health_percent": 20,
@@ -44,7 +44,7 @@
     "properties": [
       {
         "key": "BuffDamage",
-        "value": 25,
+        "value": 20,
         "type": "damage",
         "m_e_provided_property_type": "MODIFIER_VALUE_DAMAGE_PERCENT",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
@@ -65,7 +65,8 @@
       },
       {
         "enemy_health_percent": 8,
-        "name": "Enemy health threshold"
+        "name": "Full Rage Damage Bonus",
+        "buff_damage": 5
       },
       {
         "short_cooldown": 0.5

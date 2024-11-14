@@ -3,7 +3,7 @@
   "name": "Bullet Dance",
   "stats": {
     "duration": 0,
-    "cooldown": 130,
+    "cooldown": 138,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -30,7 +30,7 @@
       {
         "key": "BonusFireRate",
         "value": 25,
-        "type": "bullet_damage",
+        "type": "fire_rate",
         "m_e_provided_property_type": "MODIFIER_VALUE_FIRE_RATE",
         "m_usage_flags": "APUsageFlag_ModifierConditional"
       },
@@ -60,7 +60,7 @@
         "weapon_damage_bonus": 7
       },
       {
-        "ability_cooldown": -40
+        "ability_cooldown": -38
       },
       {
         "targets_per_tick": 1

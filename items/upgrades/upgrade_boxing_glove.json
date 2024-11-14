@@ -27,7 +27,7 @@
       {
         "ability_properties": {
           "bonus_melee_damage_percent": {
-            "value": 40,
+            "value": 35,
             "style": "melee_damage",
             "is_negative": false
           },
@@ -74,7 +74,7 @@
     ]
   },
   "disabled": false,
-  "ability_cooldown": 5,
+  "ability_cooldown": 5.25,
   "ability_duration": 0,
   "ability_cast_range": 0,
   "ability_unit_target_limit": 1,
@@ -89,7 +89,7 @@
   "weapon_power": 0,
   "slow_percent": 60,
   "slow_duration": 2.5,
-  "bonus_melee_damage_percent": 40,
+  "bonus_melee_damage_percent": 35,
   "lifesteal_heal": 110,
   "lifesteal_heal_percent": 55,
   "bonus_health": 125,

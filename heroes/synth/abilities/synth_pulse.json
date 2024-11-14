@@ -3,7 +3,7 @@
   "name": "Enchanter's Satchel",
   "stats": {
     "duration": 0,
-    "cooldown": 16,
+    "cooldown": 17,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -62,7 +62,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -5
+        "ability_cooldown": -4.75
       },
       {
         "damage": 80

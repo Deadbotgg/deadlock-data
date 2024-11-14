@@ -3,7 +3,7 @@
   "name": "Flying Cloak",
   "stats": {
     "duration": 0,
-    "cooldown": 30,
+    "cooldown": 32,
     "range": 0,
     "charges": 0,
     "charge_restore_time": 0,
@@ -47,7 +47,7 @@
     ],
     "upgrades": [
       {
-        "ability_cooldown": -15
+        "ability_cooldown": -14
       },
       {
         "damage": 80
