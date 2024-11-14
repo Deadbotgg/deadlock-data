@@ -1273,7 +1273,7 @@
   "BuildupPerShot_postfix": "%",
   "StacksPerShot_label": "Stacks Per Shot",
   "DamageOnApply_label": "Damage On Apply",
-  "citadel_modifier_teleport": "Teleporting",
+  "citadel_modifier_teleport": "Teletransportando-se",
   "MaxHealthLossPercent_label": "Vida máxima",
   "MaxHealthLossPercent_postfix": "%",
   "BonusClipPerKill_prefix": "{s:sign}",
